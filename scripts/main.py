@@ -186,8 +186,15 @@ def get_comments_from_podcast(podcast):
 
 
 def save_to_json(data, filename):
-    with open(f"data/{filename}", "w", encoding="utf-8") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+
+def update_json(data, filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        old_data = json.load(f)
+        old_data.append(data)
+    save_to_json(old_data, filename)
 
 
 def main():
@@ -200,25 +207,34 @@ def main():
 
     if args.target == 'articles':
         all_articles = get_articles()
-        result_news = []
 
         for art in all_articles:
-            art["news"] = get_news_from_article(art)
-            result_news.append(art)
+            news = get_news_from_article(art)
 
-        save_to_json(result_news, f"{args.target}.json")
-        print(f"Arquivo {args.target}.json gerado com sucesso.")
+            if not news:
+                continue
+
+            art["news"] = news
+            filename = f'data/{args.target}/{art["title"].replace(" ", "_")}.json'
+            save_to_json(art, filename.lower())
+            print(f"Arquivo {filename} gerado com sucesso.")
+
+            art.pop("news")
+            update_json(art, f'data/{args.target}/index.json')
 
     elif args.target == 'podcasts':
         all_podcasts = get_podcasts()
-        result_podcasts = []
 
         for podcast in all_podcasts:
             podcast = get_comments_from_podcast(podcast)
-            result_podcasts.append(podcast)
+            filename = f'data/{args.target}/{podcast["title"].replace(" ", "_")}.json'
+            index = f'data/{args.target}/index.json'
 
-        save_to_json(result_podcasts, f"{args.target}.json")
-        print(f"Arquivo {args.target}.json gerado com sucesso.")
+            save_to_json(podcast, filename.lower())
+            print(f"Arquivo {filename} gerado com sucesso.")
+
+            podcast.pop("comments")
+            update_json(podcast, index)
 
 
 if __name__ == "__main__":

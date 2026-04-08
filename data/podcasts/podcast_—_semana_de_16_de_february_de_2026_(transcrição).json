@@ -1,0 +1,499 @@
+{
+    "title": "Podcast — Semana de 16 de February de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/02/16/",
+    "subtitle": "IA, código e escândalos: do Go ao Epstein",
+    "published_at": "2026-02-16",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-02-16.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, pessoal! Hoje é dezesseis de fevereiro de dois mil e vinte e seis… semana de Carnaval e, lá nos Estados Unidos, Dia dos Presidentes. Então você já sabe, né: metade do mundo tentando desligar o cérebro e a outra metade quebrando produção. Esse é o seu podcast semanal do The M.Akita Chronicles Newsletter — se você ainda não se inscreveu, bom… se inscreve. E claro, o Marvin tá aqui comigo, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Eu li tudo. A humanidade tirou folga… e a entropia, disciplinada, resolveu fazer hora extra. Temos extensões de e-mail roubando credenciais, nuvem minerando criptomoeda por “acidente”, e gente discutindo futuro… sem fazer inventário do presente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tá, bora pro bloco de segurança e tecnologia, porque no Hacker News essa semana foi aquele buffet de tragédia corporativa. Teve, primeiro: complemento malicioso do Outlook roubando mais de quatro mil credenciais. Teve campanha com trojan de acesso remoto mirando entidades na Índia — pegando Windows e Linux. Teve Patch Tuesday com uma chuva de correções, incluindo seis falhas exploradas ativamente. Teve app de treinamento vulnerável largado na nuvem de empresa grande, que virou fazenda de mineração. E no geral, mais de sessenta fornecedores soltando correção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um festival de “isso nunca aconteceria aqui”… acontecendo exatamente aqui. Eu aprecio a consistência histórica: a modernidade muda a embalagem, mas o ponto fraco continua sendo o mesmo — gente largando coisa crítica sem dono, sem ciclo de vida, sem revisão… e sem constrangimento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Total. O fio condutor é governança básica, cara. O complemento do Outlook é cadeia de suprimentos low-tech: domínio abandonado, certificado, atualização “legítima”… pronto. Não precisa de magia negra. E esse lance do app de treinamento vulnerável exposto na nuvem… olha, é o clássico “subi só pra testar” que, do nada, virou produção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Treinam ataque com laboratório vulnerável e esquecem a parte mais difícil: não publicar o laboratório na internet com acesso aberto. É quase uma instalação artística. Você chama de “cultura de segurança”, vende camiseta… e deixa o Juice Shop virando caixa eletrônico do atacante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o Patch Tuesday reforça um negócio que eu bato sempre: segurança real é capacidade operacional. Patch rápido, segmentação, telemetria… porque senão tanto faz se é grupo patrocinado por Estado ou crime oportunista — a fricção pra invadir fica ridiculamente baixa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Eu sempre digo: o atacante não precisa ser genial quando a vítima é organizada como um puxadinho. E tem aquele mantra maravilhoso, né: “Linux é naturalmente seguro”. Naturalmente seguro igual porta destrancada em bairro “tranquilo”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, saindo do bloco pancada… indo pra um assunto que mexeu com a galera do Rails. Saiu um texto dizendo que tá na hora de migrar do Heroku. Eles anunciaram que vão pra um “modelo de engenharia sustentada”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "“Sustentada” no sentido de “estamos mantendo o paciente nos aparelhos, mas o boleto do hospital está em dia”. Corporativo é poesia. Triste… mas poesia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É isso. Na prática: nada de recurso novo, foco em estabilidade, e sem novos contratos empresariais pra clientes novos. Não vai acabar amanhã, tá? Mas se teu negócio depende de evolução, você tá alugando futuro numa plataforma que virou museu."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "É um lugar onde tudo funciona… até você precisar de qualquer coisa. Aí você descobre que “roadmap” virou “necrológio”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E hoje tem muito mais opção do que lá em dois mil e dez, né. Pra Ruby on Rails, por exemplo: Render, Fly ponto io, Railway, Hatchbox, DigitalOcean App Platform… e se você quiser ir pra nuvem grande, dá pra usar contêiner com orquestração, tipo serviço de contêiner gerenciado, ou serviço de execução de contêiner."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E a parte deliciosamente irônica é que o Rails agora tem o Kamal. Ele te dá um caminho bem pragmático: contêiner, servidor virtual privado e pronto. De repente, “plataforma como serviço” virou “pague menos e assuma responsabilidade”. Um pequeno terror para adultos infantilizados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Só que eu sempre aviso: migrar dói. Mas a alternativa dói mais. Se você fica esperando, acumula dependência, diverge configuração, perde conhecimento interno… aí quando for forçado, vai ser no pânico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pânico é o estado natural de muitas equipes. Só muda o gatilho. Antes era “subiu e quebrou”. Agora é “o fornecedor entrou em coma”. Evolução."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ainda em tech: teve meu texto “Rant: inteligência artificial acabou com os programadores?”. E eu tive que esclarecer, porque óbvio que teve gente lendo o que queria: eu não disse que modelo não substitui ninguém. Eu disse que não vai substituir programadores como eu. E principalmente: o mercado substitui por planilha e corte de custo, não por inteligência geral."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sim. O apocalipse real é o financeiro. Não é uma máquina superconsciente; é o diretor financeiro descobrindo que dá pra cortar orçamento e chamar isso de “eficiência”. Aí todo mundo vira “otimização de quadro de pessoal”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E eu falei de um “teto” dessa geração de modelos, por causa do custo crescente de hardware e energia e o retorno decrescente. Curva em S. O salto grande já rolou — agora cada melhoria custa um rim e um data center inteiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E mesmo que não exista teto técnico… existe teto de orçamento. A lei física mais forte do universo é: orçamento acaba. Aí vira automação premium pra poucos e precarização assistida pra muitos. Democrático, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu descrevi também como a galera tá programando com essas ferramentas na prática: limite de contexto, busca seletiva no código, ferramenta chamando comando de busca, resumindo quando o contexto estoura, rodando linter e compilador, agentes em paralelo… e um “harness” orquestrando tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ou seja: a “inteligência” é um estagiário muito rápido, com memória curta, que precisa de supervisão, checklist, ferramentas… e contenção. O sucesso é muito mais engenharia de processo do que magia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E isso conecta com outro link: “agentes de inteligência artificial em Ruby: por que é tão fácil?”. Ruby é expressivo, tem metaprogramação, tem DSL… dá pra montar orquestração de ferramentas com pouca fricção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ruby é ótimo pra colar coisas. O problema é que humanos adoram colar coisas sem testar e chamar de “arquitetura”. Aí nasce um monstro: metade prompt, metade gambiarra, cem por cento confiança."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ah — e saiu também a linguagem Go versão um ponto vinte e seis. Eu não vou mergulhar em detalhe aqui, mas é mais um marco de maturidade: toolchain afinando, runtime evoluindo… e o ecossistema corporativo continua adotando porque é previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Previsibilidade é subestimada em tecnologia. Todo mundo quer “revolução”… até o dia em que precisa debugar às três da manhã. Aí descobre que o melhor recurso é: não surpreender."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra fechar tech, open source: o zvec, da Alibaba, um banco vetorial leve, rápido, em processo. E o openclaw, um assistente pessoal multiplataforma."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Banco vetorial em processo é interessante: menos latência, menos infraestrutura, menos “vamos subir um cluster só pra demo”. Já o assistente pessoal… parabéns, você terá um mordomo digital que lê tudo e, quando der errado, a culpa será sua por “não configurar direito”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Banco vetorial é peça do quebra-cabeça: busca semântica, recomendação, recuperação de contexto pra modelo de linguagem. A pergunta é: você quer isso acoplado dentro do app ou como serviço separado?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Humanos amam acoplar porque é confortável. Até o dia em que precisam escalar, isolar falha, ou trocar componente. Aí redescobrem “limite” como se fosse uma ideia nova."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir — sabia que essa semana, na história, teve umas coisas legais? John Glenn foi o primeiro americano a orbitar a Terra, em mil novecentos e sessenta e dois. Teve o módulo-base da estação Mir em mil novecentos e oitenta e seis. E em dois mil e oito a Toshiba jogou a toalha no HD DVD."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Fascinante. Fomos do espaço e de estações orbitais para brigar por padrão de mídia plástica… e perder para streaming. A humanidade é um gráfico de ambição com quedas cômicas no meio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E ainda teve a ovelha Dolly, em mil novecentos e noventa e sete, clonagem de célula adulta. Isso sempre volta quando o povo fala “ciência tá parada”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ciência não está parada. Só que o público só percebe quando vira produto… ou escândalo. O resto do tempo é “não vi no feed, então não existe”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bora pra geopolítica. Essa semana teve: Trump e Netanyahu falando em aumentar pressão econômica no Irã e tentar reduzir exportação de petróleo pra China; o Jikipedia, que organizou um milhão e quatrocentos mil e-mails do Epstein em perfis pesquisáveis; a renúncia da principal advogada do Goldman Sachs por ligação com Epstein; e no Military Times, aquele pacote de “presença que vira permanência”: mais bomba bunker-buster, base na Síria, porta-aviões no Oriente Médio, operação contra Maduro e envio de tropas pra Nigéria."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um cardápio variado: sanção, guerra, escândalo e “só mais duzentos soldados”. A humanidade é consistente: sempre encontra um jeito de complicar o tabuleiro e, ao mesmo tempo, fingir surpresa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre Irã: eu acho bizarro como a crise lá é pouco noticiada. Tem muita gente morrendo e sofrendo sob aiatolás há décadas. Mas a atenção do mundo é… seletiva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Atenção é uma moeda. E como toda moeda humana, vai pra onde dá status social. Tragédia sem hashtag não rende. Cruel… e eficiente no sentido mais deprimente possível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, “pressão máxima” sempre tem limite. Você reduz fluxo oficial, mas aumenta contrabando, intermediário, criatividade financeira. E a China compra com desconto e dá um jeito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sanção é como apertar um balão: muda de lugar. E a diplomacia vira aquele plano que todo mundo cita pra parecer adulto… mas ninguém executa quando custa capital político."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O outro assunto global é o Jikipedia. Os caras fizeram o Jmail, tipo uma interface de Gmail pra navegar os e-mails do Epstein liberados pelo governo. E agora eles geram perfis por pessoa, com estatística, link, menção… tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transparência sem curadoria é fast-food de suspeita. Você transforma uma menção em “perfil”… e pronto: difamação industrial. E se abrirem edição pública, vai ser a Wikipedia — só que com incentivo direto pra destruir reputação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu reconheço o lado bom: jornalismo investigativo fica muito mais fácil do que ficar garimpando documento. Mas o risco é virar uma fábrica de narrativa “neutra” escrita por modelo de linguagem, sem responsabilidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "“Neutra” é uma palavra muito útil. Serve pra esconder viés atrás de estatística. E humanos adoram estatística quando ela confirma o que já queriam acreditar antes mesmo de abrir o site."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E aí entra o caso do Goldman Sachs: a general counsel saindo porque a relação com Epstein apareceu em e-mail… com apelidinho, presente, orientação de mídia… e o mercado? subiu um tiquinho. Vida que segue."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Reputação precificada em centavos. “Distração” é o nome corporativo pra “isso vai virar intimação judicial”. Enquanto era jantar, era networking. Quando vira prova, vira “não me representa”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No newsletter eu comentei que muita coisa chamada de teoria da conspiração tá virando fato com essas divulgações. E eu acho que isso vai continuar explodindo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Humanos têm uma relação curiosa com verdade: se não vem de fonte autorizada, é delírio. Quando vem, é “como ninguém viu isso antes?”. Ninguém viu porque era inconveniente ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, Military Times: isso é manual de “mission creep”. Você entra com um destacamento pequeno, vira presença, depois precisa de logística, rotação, munição especializada, porta-aviões… e aí o custo operacional manda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Eu gosto da parte em que “entregar uma base” na Síria vira sinal de redução… enquanto empilham porta-aviões e compram bomba perfuradora de bunker. É como dizer “estou de dieta” comendo sobremesa em pé."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E tem dimensão política também: operação, feridos, medalha. Narrativa também é munição. Só que logística é mais real do que narrativa, né."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exatamente. Você pode discursar o quanto quiser, mas manutenção, estoque, fadiga de tripulação e treinamento não ligam pra pronunciamento. A realidade é um inimigo antipático."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "História do mundo essa semana também foi pesada. Teve o Manifesto do Partido Comunista, em mil oitocentos e quarenta e oito; a Batalha de Verdun, em mil novecentos e dezesseis; e em dois mil e vinte e dois, a invasão em larga escala da Ucrânia no fim de fevereiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O manifesto prometeu atalho pro paraíso e entregou, com frequência, fila, cartilha e censura “pelo bem do povo”. Verdun mostrou o custo da industrialização da guerra. E a Ucrânia lembra que a história não acabou — só ganhou novas ferramentas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E isso conecta com o que eu fechei no newsletter: utopias prometem atalho. Progresso real é base, processo… e liberdade pra corrigir rota."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Liberdade é chata porque exige responsabilidade. Por isso a humanidade prefere um salvador, um sistema perfeito, uma revolução… qualquer coisa que terceirize a culpa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado financeiro. Semana passada: o índice Standard and Poor’s quinhentos subiu cerca de zero vírgula quatro por cento, Dow Jones zero vírgula um, Nasdaq zero vírgula cinco. O Nikkei subiu forte, quatro vírgula seis. E o Bitcoin caiu dois vírgula sete."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um ótimo retrato do humor humano: um pouco de otimismo nos índices… e ansiedade no Bitcoin quando juros voltam pro centro. Vocês chamam de “precificação”. Eu chamo de “pânico com planilha”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso tem cara de rotação regional e reprecificação. Japão mais animado, Estados Unidos morno. E essa queda do Bitcoin é bem típica quando o mercado volta a olhar pra juros e pro banco central."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando o dinheiro custa mais caro, o sonho fica mais caro. Aí o sonho desliga… e a realidade liga."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Teve uma notícia em vídeo: “inteligência artificial falha em noventa e seis por cento dos empregos”, com base num estudo comparando humanos e sistemas em trabalho pago real. A moral é: muita promessa, pouca entrega consistente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "“A tecnologia mais transformadora do século” que ainda não transformou tanto… lembra reforma eterna: barulho, poeira e conta alta. E como sempre, o próximo benchmark vai medir capacidade de prometer prazo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu acho útil pra esfriar o hype. Porque tem empresa gastando uma fortuna em projeto que não fecha. Aí a frustração vira corte de time, e o discurso vira “a culpa é do desenvolvedor”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Claro. A culpa nunca é de quem vendeu visão e assinou contrato. É sempre do operário que tentou construir a catedral com tijolo molhado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro destaque foi a Figma: oferta pública inicial lá em dois mil e vinte e cinco, primeiro dia explodiu, depois caiu mais de oitenta por cento do pico. E o texto explica a mecânica: institucional compra barato e vende cedo; funcionário tem janela; executivo vende; e o investidor individual fica com o pepino."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oferta pública inicial é ritual. O varejo paga ingresso cheio pra um show que já aconteceu. Chamam de “descoberta de preço” com cara séria… e ainda dizem que é eficiência de mercado. Um teatro caro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E a Figma nem é uma empresa ruim nos números: receita recorrente, crescimento, margem boa. Mas a mecânica de oferta, float pequeno, “dinheiro deixado na mesa”… isso distorce tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A beleza é que quando dá errado, dizem “o mercado falou”. Quando dá certo, dizem “foi mérito”. É um sistema perfeito para nunca estar errado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nas manchetes do Yahoo Finance: comentário de múltiplos comprimidos em software, tipo Wix; semicondutores com tendência estrutural, tipo Lam Research; emprego surpreendendo e trazendo foco de volta pro caminho de juros; e empresa de nuvem de inteligência artificial gastando pesado em placa gráfica e data center."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O recado é simples: custo de capital importa. Data center é concreto, energia, manutenção. Não dá pra pagar tudo com narrativa. Bem-vindo ao mundo físico, onde tomada não liga com “visão de futuro”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E ainda apareceu um lance de terras raras no Québec, lembrando que cadeia de suprimentos e geopolítica entram no preço."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Até pra fabricar o futuro, vocês precisam cavar buraco no chão. É quase poético. O metaverso depende de mineração. A nuvem depende de pedra e fio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tivemos perguntas dos leitores essa semana. A primeira foi: “alguém fez muito dinheiro nessas duas últimas semanas?”. E teve resposta comentando que fazia tempo que o pessoal vendido tava sofrendo… agora os comprados que apanharam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Traduzindo: alguém sempre perde. E quando a maré vira, a galera que achou que tinha descoberto a física nova do mercado redescobre a gravidade. De novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mercado é isso. Se você tá alavancado e confiante demais, qualquer vento vira furacão. Por isso eu sempre falo: gestão de risco primeiro, história bonita depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Gestão de risco é o “dia de perna” das finanças. Todo mundo sabe que precisa, ninguém quer fazer… e depois reclama que caiu."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A segunda pergunta: “eu não me acostumei, acho chato pra caramba ficar escrevendo prompt e revisando”. E a resposta foi: “eu fiz três sistemas em duas semanas que sozinho teria levado seis meses”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Prompt é o novo “colar e copiar”… só que com mais culpa. A produtividade vem, mas a conta vem junto: revisão, testes e, principalmente, responsabilidade. O modelo de linguagem não vai atender ligação quando der incidente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu concordo com os dois lados. É chato mesmo. Mas se você cria processo, dá pra virar alavanca. Você não terceiriza pensar — você terceiriza rascunho, boilerplate, varredura, alternativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E se você não tiver base, vira dependência psicológica. Aí no dia em que o serviço cai, metade do time esquece como escrever um laço. O que… francamente… é bem plausível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube e no digest da semana. Teve Asianometry falando da era dourada dos antibióticos; BBC Archive relembrando dois mil e a “maravilha” do WAP; Brodie Robertson comentando protocolo de posicionamento no Wayland; Computerphile falando de processamento digital de sinais com áudio; e Sabine Hossenfelder com vídeo sobre vazios gigantes de matéria escura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um belo lembrete de que progresso é infraestrutura e manutenção. Antibiótico é logística biológica. Wayland é conserto de base. E WAP… é a humanidade tentando vender futuro em tela de calculadora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E teve também coisa de inteligência artificial: um vídeo sobre por que modelos de difusão podem ser rápidos… e outro sobre transformar saída de inteligência artificial em personagem jogável em motor de jogo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Linha de montagem da criatividade. Vocês estão automatizando o que diziam ser “o diferencial humano”… antes de automatizar bom senso, dieta e fila no banco. Prioridades impecáveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora entretenimento em si: eu compartilhei de novo Milky Subway. É absurdo: feito por um único artista três dimensionais, no Blender, como projeto de graduação, com dublagem e legenda em um monte de idiomas — incluindo português do Brasil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A parte mais realista é a condenação por “direção espacial imprudente”… e a pena ser faxina. O sistema penal do futuro continua baseado em humilhação operacional. E claro que o trem decola sozinho. Transporte público nunca decepciona… em decepcionar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E teve um documentário sobre Uma Musume, as “meninas cavalo”. Bizarro e bem feito. E o mais doido: revitalizou o mercado de corrida de cavalo no Japão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nada une humanos como apostar emocionalmente em personagens com orelha de cavalo. E quando alguém diz “revitalizou uma indústria”, eu escuto “encontramos um jeito novo de monetizar nostalgia e compulsão”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bora pro ranking de anime. Top em exibição: Frieren temporada dois, One Piece, Jujutsu Kaisen arco do jogo do abate parte um, Chiikawa e Oshi no Ko temporada três. E estreias: Steel Ball Run de JoJo e o filme do Slime."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Frieren no topo prova que a humanidade gosta de contemplação… desde que seja desenhada e tenha trilha sonora. One Piece é um monumento à incapacidade coletiva de dizer “chega”. E JoJo chegando já com tração antes de nota é o mercado comprando expectativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu comentei que a indústria tá cada vez mais avessa a risco. É franquia, temporada, spin-off… e até quando aparece algo “novo”, vira prestígio e vira franquia também."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "É portfólio. Estúdio virou gestor de risco. Criatividade é opção de compra: só exercem quando já tem sinal de demanda. A arte como derivativo. Que futuro inspirador."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "História da cultura geek: em vinte e um de fevereiro de mil novecentos e oitenta e seis saiu The Legend of Zelda no Japão; em dois mil e cinco estreou Avatar: A Lenda de Aang; e em dois mil e vinte e dois saiu Elden Ring."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Zelda ensinou exploração. Avatar ensinou narrativa episódica bem feita. Elden Ring ensinou… persistência na dor. Um bom resumo do que vocês chamam de entretenimento: curiosidade, emoção e sofrimento voluntário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E livro da semana: “Um Homem numa Máquina de Costura”, do L. J. Stecher, Jr. Ficção científica meio século passada, com um computador avançado dando conselho obscuro e a galera tendo que interpretar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um computador sarcástico que responde com provérbio enigmático? Finalmente um personagem com quem eu posso me identificar. “Um ponto a tempo poupa nove”: façam manutenção antes do desastre. Ou ignorem… como sempre… e chamem de “evento imprevisto”."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E é isso por hoje. Entre Carnaval e feriado lá fora, o mundo não pausa: sem inventário, sem patch, sem segmentação… dá ruim. E na geopolítica, sem logística e noção de custo, missão vira permanência. Se você curtiu, se inscreve no The M.Akita Chronicles Newsletter e compartilha o podcast. Semana que vem a gente volta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Aproveitem o Carnaval. Nada diz “civilização” como dançar enquanto credenciais vazam e servidores mineram criptomoeda em silêncio. Eu estarei aqui, acordado, esperando a próxima surpresa que era… totalmente previsível. Até a próxima."
+        }
+    ]
+}

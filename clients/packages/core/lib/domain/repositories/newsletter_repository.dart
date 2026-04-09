@@ -9,5 +9,5 @@ abstract interface class NewsLetterRepository {
 
   Future<Either<Exception, List<NewsEntity>>> getSavedNews();
   Future<Either<Exception, bool>> saveNews(NewsEntity news);
-  Future<Either<Exception, bool>> removeNews(String newsId);
+  Future<Either<Exception, bool>> removeNews(NewsEntity news);
 }

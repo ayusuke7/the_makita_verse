@@ -9,8 +9,8 @@ class BlogPageViewModel extends BaseViewModel<BlogState> {
     this._blogRepository,
   ) : super(BlogState());
 
-  void getPosts({bool refresh = false}) async {
-    if (state.posts.isNotEmpty && !refresh) {
+  void getPosts() async {
+    if (state.posts.isNotEmpty) {
       return;
     }
 
@@ -36,12 +36,33 @@ class BlogPageViewModel extends BaseViewModel<BlogState> {
     );
   }
 
-  void search(String query) {
-    emit(
-      state.copyWith(
-        status: StateStatus.loading,
+  void getSavedPosts() async {
+    (await _blogRepository.getSavedPosts()).fold(
+      (e) => null,
+      (data) => emit(
+        state.copyWith(
+          savedPosts: data,
+        ),
       ),
     );
+  }
+
+  void savePost(BlogPostEntity post) async {
+    (await _blogRepository.savePost(post)).fold(
+      (e) => null,
+      (data) => getSavedPosts(),
+    );
+  }
+
+  void removePost(BlogPostEntity post) async {
+    (await _blogRepository.removePost(post)).fold(
+      (e) => null,
+      (data) => getSavedPosts(),
+    );
+  }
+
+  void search(String query) {
+    emit(state.copyWith(status: StateStatus.loading));
 
     final result = state.posts.where((post) {
       return post.title.toLowerCase().contains(query.toLowerCase()) ||

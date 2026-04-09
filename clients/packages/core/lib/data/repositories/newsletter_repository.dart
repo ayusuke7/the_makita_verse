@@ -72,9 +72,10 @@ class NewsLetterRepositoryImpl implements NewsLetterRepository {
   }
 
   @override
-  Future<Either<Exception, bool>> removeNews(String newsId) async {
+  Future<Either<Exception, bool>> removeNews(NewsEntity news) async {
     try {
-      final result = await _dataSource.removeNews(newsId);
+      final model = news.toModel();
+      final result = await _dataSource.removeNews(model.id);
       return Right(result);
     } catch (e) {
       return Left(e as Exception);
@@ -84,7 +85,7 @@ class NewsLetterRepositoryImpl implements NewsLetterRepository {
   @override
   Future<Either<Exception, bool>> saveNews(NewsEntity news) async {
     try {
-      final model = NewsModel.fromJson(news.toJson());
+      final model = news.toModel();
       final result = await _dataSource.saveNews(model);
       return Right(result);
     } catch (e) {

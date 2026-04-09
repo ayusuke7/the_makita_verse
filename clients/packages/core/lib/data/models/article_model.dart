@@ -1,5 +1,4 @@
-import '../../domain/domain.dart';
-import 'models.dart';
+import 'package:core/core.dart';
 
 class ArticleModel {
   final String url;
@@ -85,8 +84,20 @@ class NewsModel {
     );
   }
 
+  Map<String, dynamic> toJson() => {
+    'title': title,
+    'image': image,
+    'category': category,
+    'content': content,
+    'source': source,
+    'published_at': publishedAt,
+    'links': links.map((l) => l.toJson()).toList(),
+    'comments': comments.map((c) => c.toJson()).toList(),
+  };
+
   NewsEntity toEntity() {
     return NewsEntity(
+      id: id,
       title: title,
       image: image,
       category: category,
@@ -103,22 +114,15 @@ class LinksModel {
   final String url;
   final String title;
 
-  LinksModel({
-    required this.url,
-    required this.title,
-  });
+  LinksModel({required this.url, required this.title});
 
   factory LinksModel.fromJson(Map<String, dynamic> json) {
-    return LinksModel(
-      url: json['url'],
-      title: json['title'],
-    );
+    return LinksModel(url: json['url'], title: json['title']);
   }
 
+  Map<String, dynamic> toJson() => {'url': url, 'title': title};
+
   LinksEntity toEntity() {
-    return LinksEntity(
-      url: url,
-      title: title,
-    );
+    return LinksEntity(url: url, title: title);
   }
 }

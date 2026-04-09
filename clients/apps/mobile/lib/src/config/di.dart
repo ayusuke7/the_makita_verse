@@ -6,7 +6,6 @@ final it = GetIt.instance;
 
 void setupDI() {
   // External
-  // it.registerSingleton<SupabaseClient>(Supabase.instance.client);
   it.registerSingletonAsync<SharedPreferences>(SharedPreferences.getInstance);
 
   // DataSources
@@ -14,7 +13,7 @@ void setupDI() {
     () => NewsLetterDataSourceImpl(it<SharedPreferences>()),
   );
   it.registerLazySingleton<BlogDataSource>(
-    () => BlogDataSourceImpl(),
+    () => BlogDataSourceImpl(it<SharedPreferences>()),
   );
   it.registerLazySingleton<YoutubeDataSource>(
     () => YoutubeDataSourceImpl(),

@@ -1,6 +1,9 @@
 import 'dart:io';
 
+import 'package:core/core.dart';
+
 class BlogPostEntity {
+  final String id;
   final String title;
   final String link;
   final String description;
@@ -10,6 +13,7 @@ class BlogPostEntity {
   final String content;
 
   BlogPostEntity({
+    required this.id,
     required this.title,
     required this.link,
     required this.description,
@@ -21,5 +25,17 @@ class BlogPostEntity {
 
   DateTime get formatedDate {
     return HttpDate.parse(pubDate);
+  }
+
+  RssItemModel toModel() {
+    return RssItemModel(
+      title: title,
+      link: link,
+      description: description,
+      pubDate: pubDate,
+      guid: guid,
+      category: category,
+      content: content,
+    );
   }
 }

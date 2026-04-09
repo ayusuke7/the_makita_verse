@@ -1,8 +1,8 @@
 import 'package:core/core.dart';
 
 class ChannelState extends BaseState {
-  final ChannelEntity? channel;
   final List<PlaylistEntity> playlists;
+  final ChannelEntity? channel;
 
   const ChannelState({
     super.status,

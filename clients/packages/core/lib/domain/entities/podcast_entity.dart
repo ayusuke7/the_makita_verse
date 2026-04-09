@@ -16,13 +16,4 @@ class PodcastEntity {
     required this.comments,
     this.audioUrl,
   });
-
-  Map<String, dynamic> toJson() => {
-    'url': url,
-    'title': title,
-    'audio': audioUrl,
-    'subtitle': subtitle,
-    'published_at': publishedAt,
-    'comments': comments.map((c) => c.toJson()).toList(),
-  };
 }

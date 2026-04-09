@@ -4,18 +4,15 @@ import 'package:flutter/material.dart';
 import 'news_detail.dart';
 
 class NewsCard extends StatelessWidget {
+  final VoidCallback? onSave;
   final NewsEntity news;
   final bool isSaved;
-
-  final VoidCallback? onSave;
-  final VoidCallback? onShare;
 
   const NewsCard({
     super.key,
     required this.news,
     this.isSaved = false,
     this.onSave,
-    this.onShare,
   });
 
   @override
@@ -105,10 +102,6 @@ class NewsCard extends StatelessWidget {
                         ),
                         color: isSaved ? Colors.amber : Colors.white,
                         onPressed: onSave,
-                      ),
-                      IconButton(
-                        icon: Icon(Icons.share),
-                        onPressed: onShare,
                       ),
                     ],
                   ),

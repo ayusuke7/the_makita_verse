@@ -19,6 +19,7 @@ class _BlogPageState extends State<BlogPage> {
   @override
   void initState() {
     super.initState();
+    _blogViewModel.getSavedPosts();
     _blogViewModel.getPosts();
   }
 
@@ -68,41 +69,44 @@ class _BlogPageState extends State<BlogPage> {
                     children: [
                       ListTile(title: Text('$month, $y')),
                       ...posts.map(
-                        (post) => Card(
-                          child: ListTile(
-                            title: Text(
-                              post.title,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                fontSize: 14.0,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            leading: Container(
-                              padding: EdgeInsets.all(10.0),
-                              decoration: BoxDecoration(
-                                border: Border.all(color: Colors.white),
-                                borderRadius: BorderRadius.circular(7.0),
-                              ),
-                              child: Text(
-                                '${post.formatedDate.day}'.padLeft(2, '0'),
+                        (post) {
+                          return Card(
+                            child: ListTile(
+                              title: Text(
+                                post.title,
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
                                 style: TextStyle(
-                                  fontSize: 18.0,
+                                  fontSize: 14.0,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                            ),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => PostDetail(post: post),
+                              leading: Container(
+                                padding: EdgeInsets.all(10.0),
+                                decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius: BorderRadius.circular(7.0),
                                 ),
-                              );
-                            },
-                          ),
-                        ),
+                                child: Text(
+                                  '${post.formatedDate.day}'.padLeft(2, '0'),
+                                  style: TextStyle(
+                                    fontSize: 18.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        PostDetail(post: post),
+                                  ),
+                                );
+                              },
+                            ),
+                          );
+                        },
                       ),
                     ],
                   );

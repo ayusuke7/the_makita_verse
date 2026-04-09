@@ -1,11 +1,12 @@
+import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 
 import '../views.dart';
 
 enum HomePageIndex {
   news,
-  podcasts,
   blog,
+  podcasts,
   channel,
 }
 
@@ -23,32 +24,102 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     String title = switch (_selectedIndex) {
       .news => 'The M.Akita Chronicles',
-      .podcasts => 'The M.Akita Chronicles',
       .blog => 'AkitaOnRails Blog',
+      .podcasts => 'The M.Akita Chronicles',
       .channel => 'Fabio Akita Channel',
     };
 
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
-        title: Text(title),
+        title: Text(
+          title,
+          style: Theme.of(context).textTheme.titleMedium?.copyWith(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         actions: [
           IconButton(
-            icon: Icon(Icons.account_circle),
+            icon: Icon(Icons.notifications_none),
             onPressed: () {},
           ),
         ],
       ),
+      drawer: Drawer(
+        backgroundColor: Colors.grey.shade900,
+        child: Column(
+          children: [
+            DrawerHeader(
+              child: Column(
+                children: [
+                  CircleAvatar(
+                    radius: 40,
+                    backgroundImage: CachedNetworkImageProvider(
+                      'https://avatars.githubusercontent.com/u/2840?v=4',
+                    ),
+                  ),
+                  Text(
+                    'The Makita Verse',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            ListTile(
+              leading: Icon(Icons.code),
+              trailing: Icon(Icons.navigate_next, size: 16),
+              title: Text(
+                'See on GitHub',
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              onTap: () {
+                Launch.openLink('https://github.com/ayusuke7/the_makita_verse');
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.code),
+              trailing: Icon(Icons.navigate_next, size: 16),
+              title: Text(
+                '@akitaonrails',
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              onTap: () {
+                Launch.openLink('https://github.com/akitaonrails');
+              },
+            ),
+            Spacer(),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 30.0),
+              child: InkWell(
+                onTap: () {
+                  Launch.openLink('https://github.com/ayusuke7');
+                },
+                child: Text(
+                  'Developed by @ayusuke7',
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
       body: switch (_selectedIndex) {
         .news => ArticlesPage(),
-        .podcasts => PodcastsPage(),
         .blog => BlogPage(),
+        .podcasts => PodcastsPage(),
         .channel => ChannelPage(),
       },
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex.index,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,
+        backgroundColor: Colors.grey.shade900,
         type: BottomNavigationBarType.fixed,
         onTap: (index) {
           setState(() {
@@ -61,12 +132,12 @@ class _HomePageState extends State<HomePage> {
             label: 'News',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.podcasts),
-            label: 'Podcasts',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.newspaper),
             label: 'Blog',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.podcasts),
+            label: 'Podcasts',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.video_library),

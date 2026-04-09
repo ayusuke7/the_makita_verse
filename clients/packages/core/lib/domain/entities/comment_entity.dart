@@ -1,3 +1,5 @@
+import 'package:core/core.dart';
+
 class CommentsEntity {
   final String avatar;
   final String name;
@@ -9,9 +11,11 @@ class CommentsEntity {
     required this.content,
   });
 
-  Map<String, dynamic> toJson() => {
-    'avatar': avatar,
-    'name': name,
-    'content': content,
-  };
+  CommentsModel toModel() {
+    return CommentsModel(
+      avatar: avatar,
+      name: name,
+      content: content,
+    );
+  }
 }

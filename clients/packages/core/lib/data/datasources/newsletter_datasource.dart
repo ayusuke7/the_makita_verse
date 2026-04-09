@@ -1,9 +1,7 @@
 import 'dart:convert';
 
+import 'package:core/core.dart';
 import 'package:http/http.dart' as http;
-import 'package:shared_preferences/shared_preferences.dart';
-
-import '../models/models.dart';
 
 abstract interface class NewsLetterDataSource {
   Future<List<ArticleModel>> getArticles();
@@ -103,6 +101,7 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
     }
 
     newsList.add(news);
-    return _prefs.setString(_localNewsKey, json.encode(newsList));
+    final data = json.encode(newsList.map((e) => e.toJson()).toList());
+    return _prefs.setString(_localNewsKey, data);
   }
 }

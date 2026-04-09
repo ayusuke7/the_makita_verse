@@ -1,4 +1,4 @@
-import 'entities.dart';
+import 'package:core/core.dart';
 
 class ArticleEntity {
   final String url;
@@ -17,6 +17,7 @@ class ArticleEntity {
 }
 
 class NewsEntity {
+  final String id;
   final String title;
   final String image;
   final String category;
@@ -27,6 +28,7 @@ class NewsEntity {
   final List<CommentsEntity> comments;
 
   NewsEntity({
+    required this.id,
     required this.title,
     required this.image,
     required this.category,
@@ -37,31 +39,30 @@ class NewsEntity {
     required this.comments,
   });
 
-  String get id => title.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '').toLowerCase();
-
-  Map<String, dynamic> toJson() => {
-    'title': title,
-    'image': image,
-    'category': category,
-    'content': content,
-    'source': source,
-    'published_at': publishedAt,
-    'links': links.map((l) => l.toJson()).toList(),
-    'comments': comments.map((c) => c.toJson()).toList(),
-  };
+  NewsModel toModel() {
+    return NewsModel(
+      title: title,
+      image: image,
+      category: category,
+      content: content,
+      source: source,
+      publishedAt: publishedAt,
+      links: links.map((l) => l.toModel()).toList(),
+      comments: comments.map((c) => c.toModel()).toList(),
+    );
+  }
 }
 
 class LinksEntity {
   final String url;
   final String title;
 
-  LinksEntity({
-    required this.url,
-    required this.title,
-  });
+  LinksEntity({required this.url, required this.title});
 
-  Map<String, dynamic> toJson() => {
-    'url': url,
-    'title': title,
-  };
+  LinksModel toModel() {
+    return LinksModel(
+      url: url,
+      title: title,
+    );
+  }
 }

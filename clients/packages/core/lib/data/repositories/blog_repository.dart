@@ -24,4 +24,35 @@ class BlogRepositoryImpl implements BlogRepository {
       return Left(e as Exception);
     }
   }
+
+  @override
+  Future<Either<Exception, List<BlogPostEntity>>> getSavedPosts() async {
+    try {
+      final posts = await _dataSource.getSavedRssItems();
+      return Right(posts.map((p) => p.toEntity()).toList());
+    } catch (e) {
+      return Left(e as Exception);
+    }
+  }
+
+  @override
+  Future<Either<Exception, bool>> removePost(BlogPostEntity post) async {
+    try {
+      final model = post.toModel();
+      final result = await _dataSource.removeRssItem(model.id);
+      return Right(result);
+    } catch (e) {
+      return Left(e as Exception);
+    }
+  }
+
+  @override
+  Future<Either<Exception, bool>> savePost(BlogPostEntity post) async {
+    try {
+      final result = await _dataSource.saveRssItem(post.toModel());
+      return Right(result);
+    } catch (e) {
+      return Left(e as Exception);
+    }
+  }
 }

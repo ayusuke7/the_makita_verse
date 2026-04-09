@@ -82,8 +82,8 @@ class _ChannelPageState extends State<ChannelPage> {
   @override
   void initState() {
     super.initState();
-    _channelViewModel.getChannel();
     _channelViewModel.getPlaylists();
+    _channelViewModel.getChannel();
   }
 
   @override
@@ -99,99 +99,103 @@ class _ChannelPageState extends State<ChannelPage> {
           );
         }
 
-        if (state.status.isError || state.channel == null) {
+        if (state.status.isError) {
           return Center(
             child: Text('Ops! something went wrong'),
           );
         }
 
-        return ListView(
-          padding: const EdgeInsets.all(12),
-          children: [
-            ImageNetworkCache(
-              imageUrl: state.channel!.thumbnails.first.url,
-              height: 80,
-              width: double.maxFinite,
-              fit: BoxFit.fill,
-            ),
-            ListTile(
-              contentPadding: EdgeInsets.zero,
-              leading: CircleAvatar(
-                backgroundImage: ImageNetworkCache.provider(
-                  state.channel!.thumbnails.last.url,
+        if (state.channel != null) {
+          return ListView(
+            padding: const EdgeInsets.all(12),
+            children: [
+              ImageNetworkCache(
+                imageUrl: state.channel!.thumbnails.first.url,
+                height: 80,
+                width: double.maxFinite,
+                fit: BoxFit.fill,
+              ),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: CircleAvatar(
+                  backgroundImage: ImageNetworkCache.provider(
+                    state.channel!.thumbnails.last.url,
+                  ),
                 ),
-              ),
-              trailing: Icon(Icons.more_vert),
-              title: Text(
-                state.channel!.title,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
+                trailing: Icon(Icons.more_vert),
+                title: Text(
+                  state.channel!.title,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                subtitle: Text(
+                  '${_formatViewCount(state.channel!.channelFollowerCount)} Subscribers',
+                ),
+                onTap: () {
+                  _showChannelDetail(state.channel!);
+                },
               ),
-              subtitle: Text(
-                '${_formatViewCount(state.channel!.channelFollowerCount)} Subscribers',
-              ),
-              onTap: () {
-                _showChannelDetail(state.channel!);
-              },
-            ),
-            if (state.playlists.isNotEmpty) ...[
+              if (state.playlists.isNotEmpty) ...[
+                ListTile(
+                  contentPadding: EdgeInsets.zero,
+                  title: Text(
+                    '${state.playlists.length} Playlists',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 150.0,
+                  child: CarouselView.weighted(
+                    flexWeights: [1, 1, 1, 1],
+                    onTap: (index) {
+                      Launch.openLink(state.playlists[index].url);
+                    },
+                    children: state.playlists.map((e) {
+                      return Column(
+                        children: [
+                          CircleAvatar(
+                            maxRadius: 50.0,
+                            backgroundImage: ImageNetworkCache.provider(
+                              e.thumbnail.url,
+                            ),
+                          ),
+                          Text(
+                            e.title,
+                            softWrap: false,
+                            overflow: TextOverflow.ellipsis,
+                            style: Theme.of(context).textTheme.labelSmall
+                                ?.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                          ),
+                        ],
+                      );
+                    }).toList(),
+                  ),
+                ),
+              ],
               ListTile(
                 contentPadding: EdgeInsets.zero,
                 title: Text(
-                  '${state.playlists.length} Playlists',
+                  '${state.channel!.videos.length} Vídeos',
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
-              SizedBox(
-                height: 150.0,
-                child: CarouselView.weighted(
-                  flexWeights: [1, 1, 1, 1],
-                  onTap: (index) {
-                    Launch.openLink(state.playlists[index].url);
-                  },
-                  children: state.playlists.map((e) {
-                    return Column(
-                      children: [
-                        CircleAvatar(
-                          maxRadius: 50.0,
-                          backgroundImage: ImageNetworkCache.provider(
-                            e.thumbnail.url,
-                          ),
-                        ),
-                        Text(
-                          e.title,
-                          softWrap: false,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context).textTheme.labelSmall
-                              ?.copyWith(
-                                fontWeight: FontWeight.bold,
-                              ),
-                        ),
-                      ],
-                    );
-                  }).toList(),
-                ),
+              Column(
+                children: state.channel!.videos.map((e) {
+                  return YTVideoCard(video: e);
+                }).toList(),
               ),
             ],
-            ListTile(
-              contentPadding: EdgeInsets.zero,
-              title: Text(
-                '${state.channel!.videos.length} Vídeos',
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-            Column(
-              children: state.channel!.videos.map((e) {
-                return YTVideoCard(video: e);
-              }).toList(),
-            ),
-          ],
-        );
+          );
+        }
+
+        return SizedBox.shrink();
       },
     );
   }

@@ -134,14 +134,18 @@ class _ArticlesPageState extends State<ArticlesPage> {
                   itemCount: news.length,
                   itemBuilder: (context, index) {
                     final newsItem = news[index];
+                    final isSaved = state.savedNews.any(
+                      (e) => e.id == newsItem.id,
+                    );
                     return NewsCard(
                       news: newsItem,
-                      isSaved: state.savedNews.contains(newsItem),
+                      isSaved: isSaved,
                       onSave: () {
-                        _articleViewModel.saveNews(newsItem);
-                      },
-                      onShare: () {
-                        Launch.openLink(newsItem.source);
+                        if (isSaved) {
+                          _articleViewModel.unsaveNews(newsItem);
+                        } else {
+                          _articleViewModel.saveNews(newsItem);
+                        }
                       },
                     );
                   },
@@ -164,9 +168,7 @@ class _ArticlesPageState extends State<ArticlesPage> {
                 _articleViewModel.clearSearch();
               },
             ),
-            Expanded(
-              child: content,
-            ),
+            Expanded(child: content),
           ],
         );
       },

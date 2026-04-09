@@ -19,11 +19,13 @@ class CommentsModel {
     );
   }
 
+  Map<String, dynamic> toJson() => {
+    'avatar': avatar,
+    'name': name,
+    'content': content,
+  };
+
   CommentsEntity toEntity() {
-    return CommentsEntity(
-      avatar: avatar,
-      name: name,
-      content: content,
-    );
+    return CommentsEntity(avatar: avatar, name: name, content: content);
   }
 }

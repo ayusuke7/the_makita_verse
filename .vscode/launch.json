@@ -10,13 +10,27 @@
       "args": []
     },
     {
+      "name": "Mobile Web",
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "debug",
+      "program": "clients/apps/mobile/lib/main.dart",
+      "args": [
+        "--web-port=8081",
+        "--web-browser-flag",
+        "--disable-web-security"
+      ]
+    },
+    {
       "name": "Web",
       "type": "dart",
       "request": "launch",
       "flutterMode": "debug",
       "program": "clients/apps/web/lib/main.dart",
       "args": [
-        "--web-port=8080"
+        "--web-port=8080",
+        "--web-browser-flag",
+        "--disable-web-security"
       ]
     }
   ]

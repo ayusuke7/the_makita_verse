@@ -45,55 +45,72 @@ class _PostDetailState extends State<PostDetail> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-            icon: Icon(Icons.open_in_new),
+    return ValueListenableBuilder(
+      valueListenable: _blogViewModel,
+      builder: (context, state, child) {
+        final isSaved = state.savedPosts.any(
+          (p) => p.id == widget.post.id,
+        );
+        return Scaffold(
+          appBar: AppBar(
+            actions: [
+              IconButton(
+                icon: Icon(
+                  isSaved ? Icons.bookmark : Icons.bookmark_outline,
+                ),
+                color: isSaved ? Colors.amber : Colors.white,
+                onPressed: () {
+                  if (isSaved) {
+                    _blogViewModel.removePost(widget.post);
+                  } else {
+                    _blogViewModel.savePost(widget.post);
+                  }
+                },
+              ),
+            ],
+          ),
+          body: ListView(
+            padding: EdgeInsets.all(12.0),
+            children: [
+              ListTile(
+                title: Text(
+                  widget.post.title,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                subtitle: Text(
+                  widget.post.pubDate,
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              Html(
+                data: widget.post.content,
+                onLinkTap: (url, _, _) {
+                  _handleLinkTap(url);
+                },
+                style: {
+                  'body': Style(
+                    fontSize: FontSize(16),
+                    fontWeight: FontWeight.bold,
+                  ),
+                },
+              ),
+            ],
+          ),
+          floatingActionButton: FloatingActionButton(
+            backgroundColor: Colors.grey.shade800,
+            foregroundColor: Colors.white,
+            child: Icon(Icons.open_in_new),
             onPressed: () {
               Launch.openLink(widget.post.link);
             },
           ),
-        ],
-      ),
-      body: ListView(
-        padding: EdgeInsets.all(12.0),
-        children: [
-          ListTile(
-            title: Text(
-              widget.post.title,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            subtitle: Text(
-              widget.post.pubDate,
-              textAlign: TextAlign.center,
-            ),
-          ),
-          Html(
-            data: widget.post.content,
-            onLinkTap: (url, _, _) {
-              _handleLinkTap(url);
-            },
-            style: {
-              'body': Style(
-                fontSize: FontSize(16),
-                fontWeight: FontWeight.bold,
-              ),
-            },
-          ),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.grey.shade700,
-        foregroundColor: Colors.white,
-        child: Icon(Icons.bookmark_outline),
-        onPressed: () {},
-      ),
+        );
+      },
     );
   }
 }

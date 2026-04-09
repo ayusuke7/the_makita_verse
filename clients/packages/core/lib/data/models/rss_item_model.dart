@@ -22,6 +22,8 @@ class RssItemModel {
     required this.content,
   });
 
+  String get id => title.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '').toLowerCase();
+
   factory RssItemModel.fromXmlElement(XmlElement element) {
     return RssItemModel(
       title: _getText(element, 'title'),
@@ -34,8 +36,33 @@ class RssItemModel {
     );
   }
 
+  factory RssItemModel.fromJson(Map<String, dynamic> json) {
+    return RssItemModel(
+      title: json['title'],
+      link: json['link'],
+      description: json['description'],
+      pubDate: json['pubDate'],
+      guid: json['guid'],
+      category: json['category'],
+      content: json['content'],
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'title': title,
+      'link': link,
+      'description': description,
+      'pubDate': pubDate,
+      'guid': guid,
+      'category': category,
+      'content': content,
+    };
+  }
+
   BlogPostEntity toEntity() {
     return BlogPostEntity(
+      id: id,
       title: title,
       link: link,
       description: description,

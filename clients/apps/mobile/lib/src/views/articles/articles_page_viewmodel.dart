@@ -9,7 +9,7 @@ class ArticlesPageViewModel extends BaseViewModel<ArticlesState> {
     this._newsletterRepository,
   ) : super(ArticlesState());
 
-  void getArticles({bool refresh = false}) async {
+  void getArticles() async {
     emit(
       state.copyWith(
         status: StateStatus.loading,
@@ -37,8 +37,7 @@ class ArticlesPageViewModel extends BaseViewModel<ArticlesState> {
   }
 
   void getSavedNews() async {
-    final result = await _newsletterRepository.getSavedNews();
-    result.fold(
+    (await _newsletterRepository.getSavedNews()).fold(
       (e) => null,
       (data) => emit(
         state.copyWith(
@@ -49,16 +48,14 @@ class ArticlesPageViewModel extends BaseViewModel<ArticlesState> {
   }
 
   void saveNews(NewsEntity news) async {
-    final result = await _newsletterRepository.saveNews(news);
-    result.fold(
+    (await _newsletterRepository.saveNews(news)).fold(
       (e) => null,
       (data) => getSavedNews(),
     );
   }
 
   void unsaveNews(NewsEntity news) async {
-    final result = await _newsletterRepository.removeNews(news.id);
-    result.fold(
+    (await _newsletterRepository.removeNews(news)).fold(
       (e) => null,
       (data) => getSavedNews(),
     );
@@ -77,32 +74,13 @@ class ArticlesPageViewModel extends BaseViewModel<ArticlesState> {
   }
 
   void search(String query) async {
-    if (state.status.isLoading) return;
-
-    emit(
-      state.copyWith(
-        status: StateStatus.loading,
-        searchNews: [],
+    (await _newsletterRepository.searchNews(query)).fold(
+      (e) => null,
+      (data) => emit(
+        state.copyWith(
+          searchNews: data,
+        ),
       ),
-    );
-    final result = await _newsletterRepository.searchNews(query);
-    result.fold(
-      (e) {
-        emit(
-          state.copyWith(
-            status: StateStatus.error,
-            error: e.toString(),
-          ),
-        );
-      },
-      (data) {
-        emit(
-          state.copyWith(
-            status: StateStatus.success,
-            searchNews: data,
-          ),
-        );
-      },
     );
   }
 }

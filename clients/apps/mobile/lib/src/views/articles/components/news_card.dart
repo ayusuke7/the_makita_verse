@@ -1,0 +1,123 @@
+import 'package:core/core.dart';
+import 'package:flutter/material.dart';
+
+import 'news_detail.dart';
+
+class NewsCard extends StatelessWidget {
+  final NewsEntity news;
+  final bool isSaved;
+
+  final VoidCallback? onSave;
+  final VoidCallback? onShare;
+
+  const NewsCard({
+    super.key,
+    required this.news,
+    this.isSaved = false,
+    this.onSave,
+    this.onShare,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => NewsDetail(news: news),
+          ),
+        );
+      },
+      child: Card(
+        elevation: 4.0,
+        margin: EdgeInsets.only(bottom: 20.0),
+        child: Column(
+          children: [
+            Container(
+              height: 230.0,
+              width: double.maxFinite,
+              alignment: AlignmentGeometry.topLeft,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(12.0),
+                  topRight: Radius.circular(12.0),
+                ),
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: ImageNetworkCache.provider(news.image),
+                ),
+              ),
+              padding: EdgeInsets.only(left: 10),
+              child: Chip(
+                side: BorderSide.none,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+                label: Text(news.category),
+                labelStyle: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(12.0),
+                  bottomRight: Radius.circular(12.0),
+                ),
+              ),
+              child: Column(
+                spacing: 10.0,
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    news.title,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    news.content,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        Helper.formatDate(news.publishedAt),
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Spacer(),
+                      IconButton(
+                        icon: Icon(
+                          isSaved ? Icons.bookmark : Icons.bookmark_outline,
+                        ),
+                        color: isSaved ? Colors.amber : Colors.white,
+                        onPressed: onSave,
+                      ),
+                      IconButton(
+                        icon: Icon(Icons.share),
+                        onPressed: onShare,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

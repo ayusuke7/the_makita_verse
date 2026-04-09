@@ -1,0 +1,10 @@
+name: the_makita_verse_workspace
+publish_to: "none"
+
+environment:
+  sdk: ^3.11.4
+
+workspace:
+  - apps/mobile
+  - apps/web
+  - packages/core

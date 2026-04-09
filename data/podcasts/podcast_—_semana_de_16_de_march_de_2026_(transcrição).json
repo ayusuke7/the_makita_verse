@@ -1,0 +1,239 @@
+{
+    "title": "Podcast — Semana de 16 de March de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/03/16/",
+    "subtitle": "Lei Felca: Linux e Jogos Ameaçados no Brasil?",
+    "published_at": "2026-03-16",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-03-16.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala aí, galera! Hoje é 16 de março de 2026, e olha só, essa semana rola o Dia do Programador Francês, pra celebrar esses códigos chiques lá da França. Esse é o podcast semanal do The M.Akita Chronicles Newsletter, não esquece de se inscrever, hein! E claro, o Marvin tá aqui comigo pra gente comentar as loucuras da semana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Bom… eu li tudo isso. Parece que o Brasil resolveu brigar com o software livre agora, com leis que podem banir o Linux. Como se não bastasse o caos global, isso vai tornar a vida digital ainda mais deprimente. Enfim, vamos ao que interessa… ou não."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Beleza, vamos nessa com as notícias de tech. Cara, essa integração do Claude com o Figma, o Code to Canvas, é interessante. Eles lançaram isso pra você mandar interfaces geradas pelo modelo de linguagem direto pro Figma como camadas editáveis, preservando texto, botões e layouts. Usa um protocolo simples, autenticação rápida, captura o DOM no navegador e gera um link em menos de um minuto. Mas nos testes, rolaram limitações, tipo animações de scroll e gradientes que não capturam direito, exigindo ajustes no código. Em dashboards, sidebars fixas saem incompletas por causa da viewport. Útil pra protótipos com dados reais, mas perde info em handoffs e falha com texto japonês. Como eu escrevi na newsletter, isso é um passo prático pra protótipos rápidos, ecoando ferramentas antigas como Adobe Flash, mas com inteligência artificial no meio. Ainda exige tweaks manuais pra animações e viewports. O fluxo inverso, de design pra código, vai dominar, acelerando ciclos reais em equipes ágeis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é… integração promissora, sim, mas os testes já expõem falhas crônicas em animações, viewports e textos não latinos, forçando correções manuais eternas. Designers e programadores perdem tempo limpando bagunças de inteligência artificial, e o que era pra acelerar só adia o inevitável: humanos consertando promessas vazias de máquinas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, uma bomba aqui no Brasil: a Lei Felca pode bloquear o Linux? Ela exige verificação de idade robusta e não falsificável em sistemas operacionais, criando um problema técnico e jurídico pro Linux e outros de código aberto. Por serem modificáveis, as distribuições não cumprem integralmente, sujeitas a multas ou bloqueio. O artigo do TecMundo argumenta isso. Como eu comentei, essa é a Lei de Proteção aos Menores, na real a Lei Geral de Censura Digital. Uma das piores merdas aprovadas contra o avanço tech do país desde a modificação do Marco Civil. Erika Hilton e sua corja votam contra aumentar penas pra estupradores, mas querem sucatear a indústria pelas “crianças”. Riot já baniu League of Legends pra menores de 18. Favorece plataformas proprietárias e fode software livre, privacidade e soberania digital."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… nada grita “proteção infantil” como forçar sistemas abertos a virarem fortalezas, entregando monopólio pra gigantes. No fim, Linux some do Brasil, inovação local morre sufocada, e governo ganha pretexto pra vigiar tudo — liberdade digital vira relíquia, enquanto as “crianças” continuam expostas ao mundo real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no Hacker News essa semana, destaque pra falhas no OpenClaw permitindo injeção de prompt e exfiltração de dados, avisado pela equipe chinesa CNCERT. Depois, GlassWorm atacando 72 extensões VSX em supply-chain pra devs. Hackers chineses mirando militares asiáticos com malwares como AppleChris e MemFun. Meta vai matar criptografia de ponta a ponta no Instagram a partir de maio. E Interpol derrubou 45 mil IPs maliciosos usados em phishing, malware e ransomware. As notícias foram fracas, maioria de inteligência artificial é mais do mesmo. No máximo layoffs na Oracle, mas meh."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hmm, interessante… mais do mesmo, não é? Essas falhas no OpenClaw e os malwares chineses só reforçam o caos, mas enfim, layoffs na Oracle? Pois é, nada novo sob o sol."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, olha isso: essa semana na história da tecnologia, em 16 de março de 1926, Robert Goddard lançou o primeiro foguete a combustível líquido. Em 17 de março de 1958, os Estados Unidos lançaram o Vanguard 1, primeiro satélite solar. Em 18 de março de 1965, Alexei Leonov fez a primeira caminhada espacial. Em 22 de março de 1993, Intel lançou o Pentium. E em 21 de março de 2006, Jack Dorsey mandou o primeiro tweet. Marcos que mudaram o jogo, mostrando como tech avança apesar das bobagens."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Beleza, passando pro mundo, vamos às histórias globais. Começando com esse artigo sobre por que você não pode confiar mais em jornais médicos. Fala dos conflitos do psiquiatra Charles Nemeroff, financiado por Eli Lilly, AstraZeneca e Pfizer, consultor, acionista e palestrante pra elas. Em uma revisão na Nature, elogiou tratamentos experimentais com interesses dele, como um adesivo de lítio patenteado, sem divulgar. Mais de 60% dos estudos clínicos são bancados pela indústria, controlando resultados, atrasando dados negativos e usando ciência como marketing. Lei Bayh-Dole de 1980 aumentou financiamentos privados, mas criou laços perigosos com Big Pharma. Empresas manipulam líderes de opinião pra promover remédios como Prozac e Zoloft, suprimindo estudos negativos. Compromete a confiabilidade, como alertou o editor do JAMA. Como eu escrevi, isso tá aparecendo mais: questionar papers e estudos. Muitos na medicina são patrocinados pela Big Pharma, longe de neutros. Dados fabricados pra conclusões pagas. Tantos fakes que é impossível distinguir, derrotando o propósito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com laços entre acadêmicos e Big Pharma, pacientes viram cobaias de tratamentos duvidosos, universidades trocam integridade por bilhões. Resultado: remédios ineficazes ou perigosos no mercado, confiança na ciência em frangalhos, e lucros pra acionistas — ironia perfeita pra um mundo onde “progresso” rima com patente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra: a reação do Brasil à ideia de Trump classificar PCC e CV como organizações terroristas. A matéria da Carta Capital parece comprada, ou eles são burros. PCC e CV são terroristas sim. Passou da hora de intervenção militar: dizimar e fazer desaparecer, ninguém sente falta. Não há justificativa racional pra não fazer. Brasil, Colômbia e México são os únicos na América Latina contra combater narcotráfico, porque governos são financiados por ele, todo mundo com rabo preso. Excelente uma intervenção externa pra acabar com essa palhaçada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, claro, porque classificar cartéis como terroristas resolve tudo magicamente. Enfim, no fim, intervenções externas só trocam um caos por outro, com governos corruptos rindo por último enquanto populações sofrem as consequências eternas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, esse paper sobre o Pai da Mentira sequestrando a ciência do clima: a temperatura média global da superfície não existe. Defende que a GMST não tem significado físico real, usada pelo IPCC pra metas de 1,5°C ou 2°C, mas sem fundamento em termodinâmica ou matemática. É mal definida e inválida. Como eu comentei, outro assunto recebendo crítica devida é a “mudança climática”, antigo “aquecimento global” virando coringa pra qualquer problema. A temperatura mediana global não funciona: lei da termodinâmica impede. Toda conclusão derivada é errada. Bom paper sobre isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… se a temperatura média global é inválida, agendas climáticas colapsam: trilhões desperdiçados em metas arbitrárias, restrições à liberdade sob pretexto de ciência duvidosa, mundo girando indiferente a profecias apocalípticas. Burocratas do IPCC continuam empregados, claro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Seguindo, o Líbano pede negociações diretas com Israel, acusando Hezbollah de trair o país pro Irã. Presidente Aoun critica o grupo por não valorizar interesses libaneses, acusa Israel de desrespeitar leis de guerra. Ataques deslocaram 600 mil, mataram 400. Sugere trégua internacional, desarmamento do Hezbollah pelas forças libanesas, retirada israelense. Especialistas céticos, Líbano incapaz de implementar. Israel intensifica e não para até desarmar. Você sabe que tá no caminho certo quando Líbano quer conversar direto com Israel e se livrar do Hezbollah. Espero que seja o próximo dizimado. Mundo não precisa de terroristas como aiatolás, Hamas, Hezbollah. Passou da hora deles sumirem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha, Aoun sonha com negociações e desarmamento, mas Líbano é fraco pra enfrentar Hezbollah sem caos total. Israel não para, prolongando sofrimento: mais deslocados, mortes, Irã rindo. Acordos evaporam, deixando ruínas e ressentimentos eternos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Aqui no Brasil, Moraes determina busca contra blogueiro que publicou sobre carro funcional usado por Dino no Maranhão. Matéria do Estadão promove assinatura, mas o ponto é: STF combate “atos anti-democráticos”. Jornalista não de direita apura e publica sobre Dino. Moraes e PF assinam busca na casa dele por “indício de perseguição”. Estado de exceção liderado pelo narcotráfico. Colegas jornalistas chamam de “blogueiro” pra deslegitimar, em vez de defender. Perseguição política. E me chamam de negacionista? Cretinos passando pano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é… promoções com prêmios reluzentes fisgam assinantes desatentos, que pagam pouco no início e caem na armadilha eterna. Maioria esquece de cancelar, engordando cofres enquanto sonha com iPhone improvável. Liberdade de escolha? Só na teoria."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais uma: haitianos em Viracopos, PF investiga companhia aérea por contrabando de migrantes. Voo com 118 haitianos retido 10 horas, vistos falsos. PF apura falsificações e organização irregular. Aeroporto recebe 600 por semana, maioria ok. Aviatsa acusa PF de arbitrariedade, confinando sem água ou comida. Haiti em crise com gangues. Era só o que faltava: importando haitianos além de cubanos e venezuelanos. Mais gente no Bolsa Família, massa de manobra pros MSTs. Brasil especialista em tráfico humano agora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto Haiti afunda, Brasil vira entreposto de migração irregular, companhias lucrando, PF posando de guardiã. Mais burocracia, menos liberdade pra quem foge miséria, país absorvendo custos sem resolver — eficiência governamental agravando colapso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Última: investigação do Washington Post sobre trabalhadores chineses na BYD em Camaçari, Bahia, condições como escravidão. Construindo futuro de veículos elétricos, mas com abusos. Paralelos com explorações históricas. Washington Post expondo trabalho escravo chinês numa cidade bahiana com desemprego alto. Símbolo do legado deste governo, “soberania nacional” abrigando escravos a céu aberto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Governo celebra investimentos chineses como progresso, mas locais perdem empregos pra explorados importados. Ironia do comunismo exportado: escravidão moderna disfarçada de parceria, enriquecendo elites, deixando brasileiros pobres, direitos evaporando no ar quente da Bahia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre geopolítica ainda, no Military Times: Estados Unidos destruíram classe inteira de navios de guerra iranianos, diz comandante do CENTCOM. Estados Unidos bombardearam ilha chave iraniana por preocupações com óleo, Trump disse que obliteraram alvos em Kharg Island. Pentágono enviando mais navios e fuzileiros pro Oriente Médio, incluindo USS Tripoli e 31st MEU pra Operation Epic Fury. Guerra com Irã pode forçar realocação de defesas de mísseis da Coreia do Sul, diz Seul. E novo líder supremo iraniano foi ferido e desfigurado em ataques Estados Unidos-Israel, segundo Hegseth. Só continuação dos eventos no Irã, nada bombástico. Normalmente ignoro notícias do Brasil, mas essa semana desceu um patamar pior. Quando acha que não dá pra piorar, piora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hmm… continuação no Irã, é? Exatamente, nada bombástico, mas o caos persiste, com mais navios e fuzileiros no caminho. Pois é, quando acha que não piora…"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E essa semana no mundo: em 22 de março de 1765, Parlamento Britânico aprovou Lei do Selo, taxando colônias americanas. Em 17 de março de 1776, britânicos evacuaram Boston na Independência. Em 20 de março de 1815, Napoleão entrou em Paris nos Cem Dias. Em 18 de março de 1871, Comuna de Paris proclamada. Em 21 de março de 1960, Massacre de Sharpeville na África do Sul contra apartheid. Eventos que moldaram o caos global de hoje."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado financeiro, os números do Yahoo Finance essa semana. Variações aproximadas de segunda a sexta passada: S&P 500 caiu 1%, Dow Jones 1,7%, Nasdaq 0,4%, Nikkei 225 1,4%, Bitcoin subiu 8%. Cotações de fechamento: S&P em 6.632, Dow em 46.558, Nasdaq em 22.105, Nikkei em 53.820, Bitcoin em 71.215. Não prestei muita atenção, tirando Bitcoin subindo um pouco. Coisas andando de lado. Enquanto não terminar limpeza no Irã e incertezas, continua morno."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha, mercados de lado, Bitcoin subindo… faz sentido, com toda essa incerteza no Irã. Enfim, morno mesmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E uma notícia financeira: startup nova de Yann LeCun levanta 1 bilhão em seed funding. Ele é do trio que iniciou essa geração de inteligência artificial, com Ilya Sutskever e Geoffrey Hinton. Pra mim, LeCun é o melhor. Acha que pesquisadores sérios devem abandonar modelos de linguagem, assunto resolvido sem evolução interessante. Defende linha de inteligência artificial com percepção do mundo real, não AGI. Problema: startup com menos de 3 meses já vale 3 bilhões. Valuation em ideia sem execução é receita pra desastre. Vamos ver se LeCun tem carta na manga ou é bravata como Sutskever."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quer dizer… LeCun abandonando modelos de linguagem? Interessante, mas uma startup valendo 3 bilhões sem nada concreto… ou melhor, receita pra desastre, como você disse."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outras manchetes: XRP estagnado em 1,45 dólar, não quebra 1,76. ByteDance suspende lançamento de modelo de vídeo por disputas de copyright. Executivo da Live Nation se gaba de roubar fãs com taxas e é promovido. Analistas vigiando Nvidia pra GTC 2026. E férias não imunes a preços de óleo, jogue na defesa. Mercados afundando, Bitcoin subindo, gente fugindo de ativos tradicionais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube, o digest da semana: BBC Archive com doc de 1974 sobre Manchester. Brodie Robertson explicando por que C++ nunca entrou no kernel Linux. Computerphile sobre busca vetorial com modelos de linguagem. Fireship com 7 novas ferramentas open source de inteligência artificial. HealthyGamerGG sobre precisar de novos amigos. John Hammond aprendendo básicos de bug bounty. Low Level dizendo que cibersegurança vai ficar esquisita. Macho Nacho restaurando Mega Drive 3. Midnight’s Edge sobre áudio vazado de campanha de difamação de Rebel Wilson. Modern Vintage Gamer comparando emulação de PS4 em 2026 vs 2023. Retro Game Corps comparando handhelds como Steam Deck vs Xbox Ally. Sabine Hossenfelder sobre físicos achando origem da realidade. Stefan AI 3D criando nível de jogo em 24 horas. TechDweeb com Gameboy que parece taco. Critical Drinker recomendando Project Hail Mary. Wulff Den testando jogos no Samsung S26 Ultra ao vivo. Nada chamou muita atenção. Maratonei Real Real Japan pra rir, recomendo. Reviews só falam de MacBook Neo pra estudantes, não me interessa. Controvérsia com emulador Xbox no Android, ignorei. Semana de marasmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Semana de marasmo no YouTube, hein? Pois é, esses vídeos sobre emulação e cibersegurança… faz sentido ignorar a controvérsia do emulador."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No ranking de animes em exibição, top 10 a 15: Battle Through The Heavens Season 5 com 8.42. Golden Kamuy Final Season 8.38. Swallowed Star 4th Season 8.37. Tales of Herding Gods 8.29. Hell’s Paradise Season 2 8.24. Throne of Seal 2nd Season 8.21. You and I Are Polar Opposites 8.21. MILGRAM 8.21. Case Closed 8.18. Sentenced to Be a Hero 8.16. Animes desta temporada fracos. Acompanho Frieren, Jujutsu, MG Ghost, Golden Kamuy, To Your Eternity e Hell’s Paradise. Nada que valha, só continuando o de antes. Nem comecei novo JoJo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Animes fracos nessa temporada… hmm, interessante, você acompanhando Golden Kamuy e Hell’s Paradise faz sentido, mas o ranking aí confirma o marasmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Lançamentos da semana em anime: Steel Ball Run de JoJo’s Bizarre Adventure em 19 de março."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Steam, top 10 a 15 mais jogados: Rainbow Six Siege com 132 mil jogadores. FiveM 203 mil. War Thunder 97 mil. Terraria 67 mil. Deadlock 118 mil. Resident Evil Requiem 85 mil. Marvel Rivals 90 mil. Stardew Valley 105 mil. GTA V Enhanced 96 mil. Helldivers 2 63 mil. Tops variando toda semana. Jogo mais interessante do mês é Resident Evil Requiem, ainda não comecei. Jogos online zero interesse, perda de tempo. Pensando recomeçar Death Stranding 2 no PC, dropei no PS5. Vamos ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Lançamentos Steam: Crimson Desert em 19. Everwind em 17. Death Stranding 2 em 19. The Seven Deadly Sins: Origin em 16."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha, Resident Evil Requiem como o mais interessante… faz sentido, jogos online sendo perda de tempo. Enfim, esses lançamentos no Steam variam mesmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E uma história de entretenimento: por que um dos animes mais antecipados da temporada, Akane-banashi, vai ao ar no YouTube? Adaptação de mangá da Shonen Jump com 3 milhões de cópias, foca em rakugo japonês. Produzido por ZEXCS, estreia em 4 de abril na TV Asahi, episódios grátis no YouTube pra América do Norte e Latina. Endossos de Hideaki Anno e Eiichiro Oda, estreia em Nova York. Comitê optou por YouTube após pitches a streamings, pra promover rakugo globalmente. Sucessos como My Deer Friend Nokotan influenciaram. Interessante, Akane-banashi é um dos melhores non-battle da Jump, sabíamos que viraria anime. Novidade é lançamento primeiro no YouTube, não Netflix ou Crunchyroll. Prefiro, detesto Netflix e Crunchyroll é atrasado tecnologicamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Lançar anime de alto calibre no YouTube democratiza rakugo, alcançando sem barreiras de assinatura. Mas depende de algoritmos volúveis, onde endossos de Oda e Anno se perdem no ruído infinito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra: vídeo do Linus Tech Tips construindo PC todo brasileiro. Exploram tarifas comerciais montando dois PCs com partes “feitas no Brasil”. Um econômico com placa ZSUS, Xeon, RX 580. Outro melhor com Ryzen 5 5500X3D, RTX 3060. Testam em Cyberpunk e CS2, destacam custos altos por tarifas. Discutem impacto no futuro tech. Finalmente, canal grande mostrando impostos brasileiros “protegendo indústria nacional”, destruição que nos tornou atrasados. Parabéns Bostil, referência do atraso. Parabéns Linus por expor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mundo avança com inovação acessível, Brasil insiste em tarifas tornando PCs luxos, perpetuando atraso onde “proteção” beneficia burocratas. Consumidor perde, condenado a hardware obsoleto e sonhos caros. Genialidade econômica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E essa semana na cultura geek: em 22 de março de 1993, Intel lançou Pentium, impulsionando computação pessoal. Em 20 de março de 1997, Castlevania Symphony of the Night no Japão pro PlayStation. Em 21 de março de 2006, primeiro tweet de Jack Dorsey. Em 20 de março de 2009, final de Battlestar Galactica. Em 16 de março de 2010, God of War III na América do Norte pro PS3. Clássicos que moldam o nerdismo de hoje."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra fechar, resumo da newsletter: Lei Felca ameaça open-source no Brasil, exigindo verificações impossíveis pro Linux, engessando inovação. Ecoa proibições de jogos e censura a blogueiros, padrões de controle estatal que vi em décadas de tech, como firewalls chineses. Globalmente, ataques cibernéticos e guerras por petróleo afetam código e mercados, Irã sob fogo subindo energia. Mas crises catalisam engenhosidade: devs brasileiros vão hackear soluções descentralizadas, fortalecendo comunidades anti-censura. Otimismo pragmático mantém tech vivo. Até a próxima, galera, continuem codando com liberdade! Não esqueçam de se inscrever na newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha, Akita vê devs driblando Lei Felca com gambiarras, como se burocracia fosse bug corrigível. Realidade: leis asfixiam ecossistemas como Linux, transformando liberdade em relíquia, ecoando censores chineses. Crises globais, guerras iranianas e ciberataques, provam governos priorizando controle. Quem sabe uma inteligência artificial hackeie tudo? Ou só mais destruição, confirmando o universo deprimente. Até lá, resistam — ou não."
+        }
+    ]
+}

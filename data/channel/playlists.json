@@ -1,0 +1,666 @@
+{
+    "id": "UCib793mnUOhWymCh2VJKplQ",
+    "channel": "Fabio Akita",
+    "channel_id": "UCib793mnUOhWymCh2VJKplQ",
+    "title": "Fabio Akita - Playlists",
+    "availability": null,
+    "channel_follower_count": 546000,
+    "description": "Este é o canal \"AKITANDO\" onde eu, Fabio Akita, também conhecido como @AkitaOnRails vou falar dos assuntos que sempre gostei. Quem me acompanha no meu blog, e redes sociais como Facebook, Twitter e Instagram já tem uma idéia do que esperar daqui.\n\nEu curto assuntos geek, otaku, novas tecnologias e quero trazer um pouco disso para cá.\n\nObs: este canal NÃO aceita patrocínios. Como o YouTube forçou monetização contra minha vontade, tudo que é arrecadado eu faço doações para projetos educacionais sem fins lucrativos.\n\n#anti-woke #anti-SJW",
+    "tags": [
+        "ruby",
+        "tecnologia",
+        "anime",
+        "geek",
+        "criptomoedas",
+        "carreira",
+        "startups",
+        "programação",
+        "computação"
+    ],
+    "thumbnails": [
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "height": 175,
+            "width": 1060,
+            "preference": -10,
+            "id": "0",
+            "resolution": "1060x175"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "height": 188,
+            "width": 1138,
+            "preference": -10,
+            "id": "1",
+            "resolution": "1138x188"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "height": 283,
+            "width": 1707,
+            "preference": -10,
+            "id": "2",
+            "resolution": "1707x283"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "height": 351,
+            "width": 2120,
+            "preference": -10,
+            "id": "3",
+            "resolution": "2120x351"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "height": 377,
+            "width": 2276,
+            "preference": -10,
+            "id": "4",
+            "resolution": "2276x377"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "height": 424,
+            "width": 2560,
+            "preference": -10,
+            "id": "5",
+            "resolution": "2560x424"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/lgC2EFMR9AAnzP7DqPuozIt0lRAvKpXXw-L5wv6EPrW1QIN3vqOwqpw0U4NMHvM3S5Ho2fUV=s0",
+            "id": "banner_uncropped",
+            "preference": -5
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/DnsLS63P8rHr4qdXZ9yuQTV4IkY8YBK1_pE2bbvK1YjsfSS4X0vn3AXSQnjtue38l5h8-2Gy6xk=s900-c-k-c0x00ffffff-no-rj",
+            "height": 900,
+            "width": 900,
+            "id": "7",
+            "resolution": "900x900"
+        },
+        {
+            "url": "https://yt3.googleusercontent.com/DnsLS63P8rHr4qdXZ9yuQTV4IkY8YBK1_pE2bbvK1YjsfSS4X0vn3AXSQnjtue38l5h8-2Gy6xk=s0",
+            "id": "avatar_uncropped",
+            "preference": 1
+        }
+    ],
+    "uploader_id": "@Akitando",
+    "uploader_url": "https://www.youtube.com/@Akitando",
+    "modified_date": null,
+    "view_count": null,
+    "playlist_count": 33,
+    "uploader": "Fabio Akita",
+    "channel_url": "https://www.youtube.com/channel/UCib793mnUOhWymCh2VJKplQ",
+    "_type": "playlist",
+    "entries": [
+        {
+            "title": "Segurança e Criptografia",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/KXG-upUkSZE/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDJBS1a_UXnRIDVbfKhuBtZA-qJMg",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUesbvzAORxf6iKrYaHqu8S0",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUesbvzAORxf6iKrYaHqu8S0",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Cortes Flow",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/25DG7ivZq_o/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBHcmT9MXPnq8KASlJ67EPXdbht_w",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcjqXfKo42h6Cm-HCcUNOnV",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcjqXfKo42h6Cm-HCcUNOnV",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Cortes Inteligência LTDA",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/RKDCQUqXGg4/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDSAiqQ4jqEEnsd3bB7x-nW890RJw",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdrzeKMb3QOwKW6rMvVHPeq",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdrzeKMb3QOwKW6rMvVHPeq",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Inteligência Artificial",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/UDrDg6uUOVs/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBvFIFfEPJZNVcJHpzzUgaBw4SS6g",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUeowsAO0sChHDY4D65T5s1U",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUeowsAO0sChHDY4D65T5s1U",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Lives",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/q0Q3GUjo9rg/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDFAz5U3ac8iECP_JDd1v7EDOLn6w",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdo6zQDX5IWwlMvO8nw1iAX",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdo6zQDX5IWwlMvO8nw1iAX",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Pré-Requisitos pra Containers e VMs",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/bwO8EZf0gLI/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDpbqjUUbiGfzOefkkGP902nClwCA",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdjNjfekBoCBfGtJ6kNRef-",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdjNjfekBoCBfGtJ6kNRef-",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Minha História",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/ii5Q2fCl8C0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAjnCZQPRwUrKsXZTADKfnn8cQw9g",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUe50Aqsa-i_NW42AkuByQZa",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUe50Aqsa-i_NW42AkuByQZa",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Gestão",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/akKRtjIqRjs/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLABe50uWSTcrgOxKmaNRRtCR9QBuA",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdN7tqxZssqWOFK7xtx-b4r",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdN7tqxZssqWOFK7xtx-b4r",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Introdução a Redes",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/0TndL-Nh6Ok/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC_vpY3iQcLXLwxm4v-NVp5ovsoKw",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcTGjNZuRYCVj3AZtdt6oG7",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcTGjNZuRYCVj3AZtdt6oG7",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Que curso devo fazer??",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/D3L8IOncLkg/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7DO8pkYgoKQUL-gVlcYSWhIfKSw",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUd6wEL932R7dW9Zazt2oNWF",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUd6wEL932R7dW9Zazt2oNWF",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Eu Avisei",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/wpPv1dJWjDs/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCuKpiBfQw_qWDOsfyOp3prcFRHnA",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUehzKjiRruy--gncHz9Injy",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUehzKjiRruy--gncHz9Injy",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Sistemas Operacionais",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/suSvMnNwV-8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXgROcZoxj6oDgDF_OVXunaSvnTg",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUd17xLINVEXhJ32RxbzCEWV",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUd17xLINVEXhJ32RxbzCEWV",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Saga dos Teclados",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/tEXX1jdpZN8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBzzQpeZ0FSgcyl3f-0aNreCy5I0Q",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUfTsz27oFYUaQD-1n9PXoyy",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUfTsz27oFYUaQD-1n9PXoyy",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Como Computadores Funcionam?",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/8G80nuEyDN4/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBoKBjTrTIk8xPuDxlxlr0xc0dcLw",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcQIuiH9b-i9A85H3A2ZW5W",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcQIuiH9b-i9A85H3A2ZW5W",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Entendendo Armazenamento",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/lxjBgxmDZAI/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDQxQIysh7tRC9S2SEidhj80g_hbQ",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcM0LTAxqrVrTy6Q7jQprjt",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcM0LTAxqrVrTy6Q7jQprjt",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Software Livre e Open Source",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/unpJgmjTLEg/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA-1jLJ0pRkhnLcj9oAkK4Kuol4ag",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdMxa2hOT5HfFZJGHpFWfNj",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdMxa2hOT5HfFZJGHpFWfNj",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Bolha?",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/V7oUDL7E1g4/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCWsHo8WoICM0TpvObGE3HunMM9oQ",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdegRYxaypJNHG1EJlMXAN5",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdegRYxaypJNHG1EJlMXAN5",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Programação para Iniciantes",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/sx4hAHhO9CY/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBK9hkHkJVHEEplMAbYY302Z5o48A",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Philosophy",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/nX0wPjNzn3o/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAvNZ-J5oj5lDCC3fx_5z7cRoDQBQ",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUfSkJin-fgh_zmI8Q2NXoc4",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUfSkJin-fgh_zmI8Q2NXoc4",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Mundo",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/SdBsiY3DHVs/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDUSoDGeaRGe35vQ1VLNTmyeijJUQ",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUd_Nu8NY6LSxcfJKQQ0kVRv",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUd_Nu8NY6LSxcfJKQQ0kVRv",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Entretenimento",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/XEtrU6smVTc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDmYzBDFdo1zHwbE5XgtkWWWeQqTA",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUfdl1fiBuHl6V1LjbuFjlAs",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUfdl1fiBuHl6V1LjbuFjlAs",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Blockchain & Criptomoedas",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/BEaVdiTiiH4/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAhaGH3CyOmuEOEi0N02DCvkRHB9A",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUd6-be_WU0FzUgix3tRjAH4",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUd6-be_WU0FzUgix3tRjAH4",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Imigração Japonesa no Brasil",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/rNI7ZrmVEYI/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4AdQGgALgA4oCDAgAEAEYciBKKEEwDw==&rs=AOn4CLALDzzeH6yt0BjWJUiz2TflY9098Q",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdkJOEBoI6oyDd3XThCKgiR",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdkJOEBoI6oyDd3XThCKgiR",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Geek",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/1aB1CEvnLk4/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDiCgSaMxJyPdxrxSRazQSDqDcIXQ",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUeU3z66AbeV3t_oe_OSAru8",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUeU3z66AbeV3t_oe_OSAru8",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Carreira",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/A2-yU3YjB1U/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDn_tTP95Feul2R9Xk7nkgzN2yKNA",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcAWAN3cXHWnM9JEw2gjIN9",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcAWAN3cXHWnM9JEw2gjIN9",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Conceitos de Programação",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/WObC_2e0kZk/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC5r-F7rVp0fgPOnEqrt2wBgCb8Cg",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcrE56CH8sXaPF3TTqoBP2z",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcrE56CH8sXaPF3TTqoBP2z",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Blockchain Week Seoul 2018",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/YsQCtwsdaXE/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBSA2R93L7RNLJt1bpskIZbrDVY9g",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUeR_OhvhLfLfpe3eXadNCW2",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUeR_OhvhLfLfpe3eXadNCW2",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Metal Gear",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/q3WrTQ4olLc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCGgcH-8LN9RsTjnD68ygBmBJIXfg",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUdLPhj9NkKmTUSj_7c5geAU",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUdLPhj9NkKmTUSj_7c5geAU",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Minhas Entrevistas",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/XCsDC2FsM-E/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCMrw-ZsHGkrHa6xtLcMBieTlK3Fg",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUcjiwcY87avf7RWuQX5cF9g",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUcjiwcY87avf7RWuQX5cF9g",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "My Talks",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/G_8uG1Ot0yo/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCxhIWDhGcKuW0JNVpPbgRjIR3hwQ",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUf73fY4oNcXIuAjxGf8hTjj",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUf73fY4oNcXIuAjxGf8hTjj",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Akira Making Of (pt-BR)",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/edM9gde1vZA/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgALgA4oCDAgAEAEYZSBMKD8wDw==&rs=AOn4CLDgRG0je8wvOQzjI6Ow_AM7QnADfg",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PLdsnXVqbHDUd9cuo2UMd302xn5u96nrdp",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLdsnXVqbHDUd9cuo2UMd302xn5u96nrdp",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Organizations",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/kJsisjIdSZI/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Ab4CgALwAYoCDAgAEAEYfyAjKBMwDw==&rs=AOn4CLAwK5KB6hslcmcd6XXplmVIRJgTgw",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PL74447839D7E16BF0",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PL74447839D7E16BF0",
+            "__x_forwarded_for_ip": null
+        },
+        {
+            "title": "Reason",
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/zkHuvErbpd0/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4EgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDx0JvSPw-ERUdfDoTkjTkP_elZjw",
+                    "height": 270,
+                    "width": 480
+                }
+            ],
+            "duration": null,
+            "timestamp": null,
+            "ie_key": "YoutubeTab",
+            "id": "PL3B971CAD844570E3",
+            "_type": "url",
+            "url": "https://www.youtube.com/playlist?list=PL3B971CAD844570E3",
+            "__x_forwarded_for_ip": null
+        }
+    ],
+    "extractor_key": "YoutubeTab",
+    "extractor": "youtube:tab",
+    "webpage_url": "https://www.youtube.com/@Akitando/playlists",
+    "original_url": "https://www.youtube.com/@Akitando/playlists",
+    "webpage_url_basename": "playlists",
+    "webpage_url_domain": "youtube.com",
+    "release_year": null,
+    "epoch": 1775736318
+}

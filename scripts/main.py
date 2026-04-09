@@ -60,9 +60,11 @@ def main():
             update_json(podcast, index)
 
     elif args.target == 'videos':
-        all_videos = yt_dlp.get_videos_from_channel(
-            "https://www.youtube.com/@Akitando/videos")
-        print(all_videos)
+        videos = yt_dlp.get_videos_from_channel("@Akitando")
+        save_to_json(videos, f'data/channel/videos.json')
+
+        playlists = yt_dlp.get_playlists_from_channel("@Akitando")
+        save_to_json(playlists, f'data/channel/playlists.json')
 
 
 if __name__ == "__main__":

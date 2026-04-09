@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install -r scripts/requirements.txt
 
       - name: 1 - Executar Crawler (Articles)
         run: python scripts/main.py --target articles

@@ -81,16 +81,29 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.code),
+              leading: Icon(Icons.open_in_browser),
               trailing: Icon(Icons.navigate_next, size: 16),
               title: Text(
-                '@akitaonrails',
+                'The Makita Chronicles',
                 style: Theme.of(context).textTheme.labelMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
               ),
               onTap: () {
-                Launch.openLink('https://github.com/akitaonrails');
+                Launch.openLink('https://blog.themakitachronicles.com/');
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.open_in_browser),
+              trailing: Icon(Icons.navigate_next, size: 16),
+              title: Text(
+                'AkitaOnRails Blog',
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              onTap: () {
+                Launch.openLink('https://akitaonrails.com');
               },
             ),
             Spacer(),

@@ -22,7 +22,7 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
   final String _localNewsKey = 'saved_news';
 
   final String _baseUrl =
-      'https://raw.githubusercontent.com/ayusuke7/the_makita_verse';
+      'https://raw.githubusercontent.com/ayusuke7/the_makita_verse/storage';
 
   NewsLetterDataSourceImpl(this._prefs) : _httpClient = http.Client();
 
@@ -31,7 +31,7 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
     Logger.log('Fetching articles...');
 
     final response = await _httpClient.get(
-      Uri.parse('$_baseUrl/main/data/articles/index.json'),
+      Uri.parse('$_baseUrl/data/articles/index.json'),
     );
 
     if (response.statusCode != 200) {
@@ -59,7 +59,7 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
     Logger.log('Fetching podcasts...');
 
     final response = await _httpClient.get(
-      Uri.parse('$_baseUrl/main/data/podcasts/index.json'),
+      Uri.parse('$_baseUrl/data/podcasts/index.json'),
     );
 
     if (response.statusCode != 200) {
@@ -71,8 +71,7 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
     for (var a in body) {
       final key = (a['title'] as String).replaceAll(' ', '_').toLowerCase();
-      final url =
-          '$_baseUrl/main/data/podcasts/${Uri.encodeComponent(key)}.json';
+      final url = '$_baseUrl/data/podcasts/${Uri.encodeComponent(key)}.json';
       final res = await _httpClient.get(Uri.parse(url));
       final data = json.decode(res.body);
       final podcast = PodcastModel.fromJson(data);

@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  FLUTTER_VERSION: 3.41.2
+  FLUTTER_VERSION: 3.41.6
   JAVA_DISTRIBUITION: corretto
   JAVA_VERSION: 17
 
@@ -32,6 +32,15 @@ jobs:
         with:
           channel: stable
           flutter-version: ${{ env.FLUTTER_VERSION }}
+
+      - name: Setup Android Keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEY_PROPERTIES: ${{ secrets.KEY_PROPERTIES }}
+        run: |
+          cd apps/mobile/android
+          echo "$KEYSTORE_BASE64" | base64 --decode > upload-keystore.jks
+          echo "$KEY_PROPERTIES" > key.properties
 
       - name: Build Android APK
         run: |

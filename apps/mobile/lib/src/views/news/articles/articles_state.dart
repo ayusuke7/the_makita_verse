@@ -1,17 +1,14 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 
 class ArticlesState extends BaseState {
   final List<ArticleEntity> articles;
-  final List<NewsEntity> searchNews;
+  final List<ArticleEntity> searchNews;
   final List<NewsEntity> savedNews;
-
-  final int selectedIndex;
 
   const ArticlesState({
     super.status,
     super.error,
-    this.selectedIndex = 0,
     this.articles = const [],
     this.savedNews = const [],
     this.searchNews = const [],
@@ -20,9 +17,8 @@ class ArticlesState extends BaseState {
   ArticlesState copyWith({
     StateStatus? status,
     String? error,
-    int? selectedIndex,
     List<NewsEntity>? savedNews,
-    List<NewsEntity>? searchNews,
+    List<ArticleEntity>? searchNews,
     List<ArticleEntity>? articles,
   }) {
     return ArticlesState(
@@ -31,7 +27,6 @@ class ArticlesState extends BaseState {
       articles: articles ?? this.articles,
       savedNews: savedNews ?? this.savedNews,
       searchNews: searchNews ?? this.searchNews,
-      selectedIndex: selectedIndex ?? this.selectedIndex,
     );
   }
 
@@ -42,24 +37,7 @@ class ArticlesState extends BaseState {
     articles,
     savedNews,
     searchNews,
-    selectedIndex,
   ];
-
-  ArticleEntity? get article {
-    if (articles.isEmpty || selectedIndex >= articles.length) {
-      return null;
-    }
-
-    return articles[selectedIndex];
-  }
-
-  List<NewsEntity> get articleNews {
-    if (article == null) {
-      return [];
-    }
-
-    return article!.news;
-  }
 
   List<NewsEntity> get allArticlesNews {
     if (articles.isEmpty) {

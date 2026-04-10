@@ -25,7 +25,7 @@ Os dados atualizados ficam disponíveis e são salvos como arquivos JSON dentro 
 
 A arquitetura se organiza em ecossistemas isolados atuando em conjunto:
 
-- `clients/`: Workspace Dart/Flutter englobando a aplicação principal.
+- `apps/`: Workspace Dart/Flutter englobando a aplicação principal.
 - `data/`: Diretório de armazenamento central (fonte de verdade) onde residem os dados estruturados pelo crawler em formato JSON (ex: `articles/`, `podcasts/`, `channel/`).
 - `scripts/`: O coração da extração, abrigando todo o código fonte do Crawler.
 - `.github/workflows/`: Repositório destinado a salvar as rotinas de jobs e esteiras de CI/CD.
@@ -58,8 +58,6 @@ A stack de ferramentas foi escolhida para atuar diretamente nas demandas de extr
 - **[![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)](https://dart.dev/)[![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)**: Construção moderna de UI que roda sem engasgos nos dispostivos alvo.
 - **Workspaces Architecture**: Para lidar com a escala do projeto, o projeto em Dart atua em moldes de Mono-Repo.
   - `apps/mobile`: Compilação direcionada as aplicações instaladas no Android/iOS.
-  - `apps/web`: Deploy otimizado destinado para a visualização na web pura.
-  - `packages/core`: Base sólida abstraindo utilitários e os parsers do repositório `/data` de forma agnóstica para qualquer client.
 
 ---
 
@@ -96,7 +94,7 @@ python main.py --target videos
 Assegure-se de que dispões do SDK do [Flutter configurado no Path](https://docs.flutter.dev/get-started/install) e com o emulador ligado.
 
 ```bash
-cd clients/apps/mobile
+cd apps/mobile
 flutter pub get
 flutter run
 ```

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 
-import '../../../config/config.dart';
-import '../../../domain/domain.dart';
-import '../../../shared/shared.dart';
+import '../../../../config/config.dart';
+import '../../../../domain/domain.dart';
+import '../../../../shared/shared.dart';
 import '../articles_page_viewmodel.dart';
 
 class NewsDetail extends StatefulWidget {

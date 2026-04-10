@@ -15,6 +15,22 @@ class ArticleEntity {
     required this.publishedAt,
     required this.news,
   });
+
+  ArticleEntity copyWith({
+    String? url,
+    String? title,
+    String? subtitle,
+    String? publishedAt,
+    List<NewsEntity>? news,
+  }) {
+    return ArticleEntity(
+      url: url ?? this.url,
+      title: title ?? this.title,
+      subtitle: subtitle ?? this.subtitle,
+      publishedAt: publishedAt ?? this.publishedAt,
+      news: news ?? this.news,
+    );
+  }
 }
 
 class NewsEntity {
@@ -39,6 +55,8 @@ class NewsEntity {
     required this.links,
     required this.comments,
   });
+
+  String get contentText => content.replaceAll(RegExp(r'<[^>]*>'), '');
 
   NewsModel toModel() {
     return NewsModel(

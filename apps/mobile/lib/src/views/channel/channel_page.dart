@@ -15,6 +15,7 @@ class ChannelPage extends StatefulWidget {
 
 class _ChannelPageState extends State<ChannelPage> {
   final _channelViewModel = it.get<ChannelViewModel>();
+  final _searchController = TextEditingController();
 
   void _showChannelDetail(ChannelEntity channel) {
     showModalBottomSheet(
@@ -88,6 +89,12 @@ class _ChannelPageState extends State<ChannelPage> {
   }
 
   @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder(
       valueListenable: _channelViewModel,
@@ -137,6 +144,7 @@ class _ChannelPageState extends State<ChannelPage> {
                   _showChannelDetail(state.channel!);
                 },
               ),
+
               if (state.playlists.isNotEmpty) ...[
                 ListTile(
                   contentPadding: EdgeInsets.zero,

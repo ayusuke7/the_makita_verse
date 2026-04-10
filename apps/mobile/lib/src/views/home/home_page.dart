@@ -1,14 +1,12 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../shared/shared.dart';
 import '../views.dart';
 
 enum HomePageIndex {
   news,
   blog,
-  podcasts,
   channel,
+  profile,
 }
 
 class HomePage extends StatefulWidget {
@@ -26,8 +24,8 @@ class _HomePageState extends State<HomePage> {
     String title = switch (_selectedIndex) {
       .news => 'The M.Akita Chronicles',
       .blog => 'AkitaOnRails Blog',
-      .podcasts => 'The M.Akita Chronicles',
       .channel => 'Fabio Akita Channel',
+      .profile => 'The MAkita Verse',
     };
 
     return Scaffold(
@@ -46,88 +44,11 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      drawer: Drawer(
-        backgroundColor: Colors.grey.shade900,
-        child: Column(
-          children: [
-            DrawerHeader(
-              child: Column(
-                children: [
-                  CircleAvatar(
-                    radius: 40,
-                    backgroundImage: CachedNetworkImageProvider(
-                      'https://avatars.githubusercontent.com/u/2840?v=4',
-                    ),
-                  ),
-                  Text(
-                    'The Makita Verse',
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            ListTile(
-              leading: Icon(Icons.code),
-              trailing: Icon(Icons.navigate_next, size: 16),
-              title: Text(
-                'See on GitHub',
-                style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              onTap: () {
-                Launch.openLink('https://github.com/ayusuke7/the_makita_verse');
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.open_in_browser),
-              trailing: Icon(Icons.navigate_next, size: 16),
-              title: Text(
-                'The Makita Chronicles',
-                style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              onTap: () {
-                Launch.openLink('https://blog.themakitachronicles.com/');
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.open_in_browser),
-              trailing: Icon(Icons.navigate_next, size: 16),
-              title: Text(
-                'AkitaOnRails Blog',
-                style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              onTap: () {
-                Launch.openLink('https://akitaonrails.com');
-              },
-            ),
-            Spacer(),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 30.0),
-              child: InkWell(
-                onTap: () {
-                  Launch.openLink('https://github.com/ayusuke7');
-                },
-                child: Text(
-                  'Developed by @ayusuke7',
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
       body: switch (_selectedIndex) {
-        .news => ArticlesPage(),
+        .news => NewsPage(),
         .blog => BlogPage(),
-        .podcasts => PodcastsPage(),
         .channel => ChannelPage(),
+        .profile => ProfilePage(),
       },
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex.index,
@@ -150,12 +71,12 @@ class _HomePageState extends State<HomePage> {
             label: 'Blog',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.podcasts),
-            label: 'Podcasts',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.video_library),
             label: 'Videos',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'Profile',
           ),
         ],
       ),

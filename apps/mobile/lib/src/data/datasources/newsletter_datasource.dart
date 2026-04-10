@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../config/config.dart';
 import '../models/models.dart';
 
 abstract interface class NewsLetterDataSource {
@@ -27,6 +28,8 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
   @override
   Future<List<ArticleModel>> getArticles() async {
+    Logger.log('Fetching articles...');
+
     final response = await _httpClient.get(
       Uri.parse('$_baseUrl/main/data/articles/index.json'),
     );
@@ -53,6 +56,8 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
   @override
   Future<List<PodcastModel>> getPodcasts() async {
+    Logger.log('Fetching podcasts...');
+
     final response = await _httpClient.get(
       Uri.parse('$_baseUrl/main/data/podcasts/index.json'),
     );
@@ -79,6 +84,8 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
   @override
   Future<List<NewsModel>> getSavedNews() async {
+    Logger.log('Getting saved news...');
+
     final json = _prefs.getString(_localNewsKey);
     if (json == null) {
       return [];
@@ -90,6 +97,8 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
   @override
   Future<bool> removeNews(String id) async {
+    Logger.log('Removing news...');
+
     final news = await getSavedNews();
     news.removeWhere((e) => e.id == id);
     return _prefs.setString(_localNewsKey, json.encode(news));
@@ -97,6 +106,8 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
   @override
   Future<bool> saveNews(NewsModel news) async {
+    Logger.log('Saving news...');
+
     final newsList = await getSavedNews();
     if (newsList.any((e) => e.id == news.id)) {
       return true;

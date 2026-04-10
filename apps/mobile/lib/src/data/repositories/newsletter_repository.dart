@@ -42,22 +42,26 @@ class NewsLetterRepositoryImpl implements NewsLetterRepository {
   }
 
   @override
-  Future<Either<Exception, List<NewsEntity>>> searchNews(String query) async {
-    if (_cacheArticles == null) {
-      return Right([]);
+  Future<Either<Exception, List<ArticleEntity>>> searchNews(
+    String query,
+  ) async {
+    final news = <ArticleEntity>[];
+    final q = query.toLowerCase();
+
+    for (final a in _cacheArticles!) {
+      final filtered = a.news
+          .where(
+            (n) =>
+                n.title.toLowerCase().contains(q) ||
+                n.content.toLowerCase().contains(q),
+          )
+          .toList();
+
+      if (filtered.isNotEmpty) {
+        news.add(a.copyWith(news: filtered));
+      }
     }
 
-    final news = _cacheArticles!.fold(<NewsEntity>[], (b, a) {
-      final q = query.toLowerCase();
-      if (a.news.any(
-        (n) =>
-            n.title.toLowerCase().contains(q) ||
-            n.content.toLowerCase().contains(q),
-      )) {
-        b.addAll(a.news);
-      }
-      return b;
-    });
     return Right(news);
   }
 

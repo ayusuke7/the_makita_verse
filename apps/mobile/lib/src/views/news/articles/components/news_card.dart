@@ -1,7 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../../domain/domain.dart';
-import '../../../shared/shared.dart';
+import '../../../../domain/domain.dart';
+import '../../../../shared/shared.dart';
 import 'news_detail.dart';
 
 class NewsCard extends StatelessWidget {
@@ -18,7 +19,7 @@ class NewsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return InkWell(
       onTap: () {
         Navigator.push(
           context,
@@ -32,31 +33,48 @@ class NewsCard extends StatelessWidget {
         margin: EdgeInsets.only(bottom: 20.0),
         child: Column(
           children: [
-            Container(
-              height: 230.0,
-              width: double.maxFinite,
-              alignment: AlignmentGeometry.topLeft,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(12.0),
-                  topRight: Radius.circular(12.0),
-                ),
-                image: DecorationImage(
-                  fit: BoxFit.cover,
-                  image: ImageNetworkCache.provider(news.image),
-                ),
-              ),
-              padding: EdgeInsets.only(left: 10),
-              child: Chip(
-                side: BorderSide.none,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20.0),
-                ),
-                label: Text(news.category),
-                labelStyle: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
-                ),
+            AspectRatio(
+              aspectRatio: 16 / 9,
+              child: Stack(
+                children: [
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(16),
+                    child: CachedNetworkImage(
+                      imageUrl: news.image,
+                      fit: BoxFit.cover,
+                      width: double.infinity,
+                      placeholder: (context, url) => Container(
+                        color: Colors.grey.shade900,
+                        child: const Center(
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        ),
+                      ),
+                      errorWidget: (context, url, error) => Container(
+                        color: Colors.grey.shade900,
+                        child: const Icon(
+                          Icons.play_circle_outline,
+                          size: 48,
+                          color: Colors.white24,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    top: 12,
+                    left: 12,
+                    child: Chip(
+                      side: BorderSide.none,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      label: Text(news.category),
+                      labelStyle: TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
             Container(
@@ -82,7 +100,7 @@ class NewsCard extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    news.content,
+                    news.contentText,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),

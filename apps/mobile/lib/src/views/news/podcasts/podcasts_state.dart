@@ -1,5 +1,5 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 
 class PodcastsState extends BaseState {
   final List<PodcastEntity> podcasts;

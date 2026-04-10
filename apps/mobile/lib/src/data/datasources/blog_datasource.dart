@@ -2,13 +2,13 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:the_makita_verse_app/src/config/logger.dart';
 import 'package:xml/xml.dart';
 
 import '../models/models.dart';
 
 abstract interface class BlogDataSource {
   Future<List<RssItemModel>> getRssItems();
-
   Future<List<RssItemModel>> getSavedRssItems();
   Future<bool> saveRssItem(RssItemModel rssItem);
   Future<bool> removeRssItem(String id);
@@ -26,6 +26,8 @@ class BlogDataSourceImpl implements BlogDataSource {
 
   @override
   Future<List<RssItemModel>> getRssItems() async {
+    Logger.log('Fetching RSS items...');
+
     final url = Uri.parse('https://akitaonrails.com/index.xml');
     final response = await _httpClient.get(url);
 
@@ -41,6 +43,8 @@ class BlogDataSourceImpl implements BlogDataSource {
 
   @override
   Future<List<RssItemModel>> getSavedRssItems() async {
+    Logger.log('Getting saved RSS items...');
+
     final json = _prefs.getString(_localRssItemsKey);
     if (json == null) {
       return [];
@@ -52,6 +56,8 @@ class BlogDataSourceImpl implements BlogDataSource {
 
   @override
   Future<bool> removeRssItem(String id) async {
+    Logger.log('Removing RSS item...');
+
     final savedItems = await getSavedRssItems();
     savedItems.removeWhere((item) => item.guid == id);
     await _prefs.setString(_localRssItemsKey, jsonEncode(savedItems));
@@ -60,6 +66,8 @@ class BlogDataSourceImpl implements BlogDataSource {
 
   @override
   Future<bool> saveRssItem(RssItemModel rssItem) async {
+    Logger.log('Saving RSS item...');
+
     final savedItems = await getSavedRssItems();
     savedItems.add(rssItem);
     await _prefs.setString(_localRssItemsKey, jsonEncode(savedItems));

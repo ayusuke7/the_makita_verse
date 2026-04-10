@@ -1,5 +1,5 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 import 'podcasts_state.dart';
 
 class PodcastsViewModel extends BaseViewModel<PodcastsState> {

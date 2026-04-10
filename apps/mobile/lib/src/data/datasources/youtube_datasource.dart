@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
+import '../../config/config.dart';
 import '../models/models.dart';
 
 abstract interface class YoutubeDataSource {
@@ -19,6 +20,8 @@ class YoutubeDataSourceImpl implements YoutubeDataSource {
 
   @override
   Future<ChannelModel> getChannel() async {
+    Logger.log('Fetching channel...');
+
     final response = await _httpClient.get(
       Uri.parse('$_baseUrl/main/data/channel/videos.json'),
     );
@@ -33,6 +36,8 @@ class YoutubeDataSourceImpl implements YoutubeDataSource {
 
   @override
   Future<List<PlaylistModel>> getPlaylists() async {
+    Logger.log('Fetching playlists...');
+
     final response = await _httpClient.get(
       Uri.parse('$_baseUrl/main/data/channel/playlists.json'),
     );

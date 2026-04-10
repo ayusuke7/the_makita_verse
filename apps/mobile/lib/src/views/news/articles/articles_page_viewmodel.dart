@@ -1,5 +1,5 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 import 'articles_state.dart';
 
 class ArticlesPageViewModel extends BaseViewModel<ArticlesState> {
@@ -59,10 +59,6 @@ class ArticlesPageViewModel extends BaseViewModel<ArticlesState> {
       (e) => null,
       (data) => getSavedNews(),
     );
-  }
-
-  void changeSelectIndex(int index) {
-    emit(state.copyWith(selectedIndex: index));
   }
 
   void clearSearch() {

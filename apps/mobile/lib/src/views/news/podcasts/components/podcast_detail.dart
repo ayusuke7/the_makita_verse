@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../domain/domain.dart';
-import '../../../shared/shared.dart';
+import '../../../../domain/domain.dart';
+import '../../../../shared/shared.dart';
 import 'audio_player.dart';
 
 class PodcastDetail extends StatefulWidget {
@@ -49,12 +49,10 @@ class _PodcastDetailState extends State<PodcastDetail> {
                 textAlign: TextAlign.center,
               ),
             ),
-            Offstage(
-              offstage: widget.podcast.audioUrl == null,
-              child: CardAudioPlayer(
-                audioUrl: widget.podcast.audioUrl!,
+            if (widget.podcast.audioUrl != null)
+              CardAudioPlayer(
+                audioUrl: '${widget.podcast.audioUrl}',
               ),
-            ),
             Expanded(
               child: ListView.builder(
                 padding: EdgeInsets.all(16.0),

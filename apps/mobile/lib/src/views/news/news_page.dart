@@ -20,11 +20,11 @@ class _NewsPageState extends State<NewsPage> {
           segments: const [
             ButtonSegment(
               value: 0,
-              label: Text('Articles'),
+              label: Text('Articles', softWrap: false),
             ),
             ButtonSegment(
               value: 1,
-              label: Text('Podcasts'),
+              label: Text('Podcasts', softWrap: false),
             ),
           ],
           selected: {_selectedIndex},

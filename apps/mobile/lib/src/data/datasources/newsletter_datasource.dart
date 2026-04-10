@@ -43,8 +43,7 @@ class NewsLetterDataSourceImpl implements NewsLetterDataSource {
 
     for (var a in body) {
       final key = (a['title'] as String).replaceAll(' ', '_').toLowerCase();
-      final url =
-          '$_baseUrl/main/data/articles/${Uri.encodeComponent(key)}.json';
+      final url = '$_baseUrl/data/articles/${Uri.encodeComponent(key)}.json';
       final res = await _httpClient.get(Uri.parse(url));
       final data = json.decode(res.body);
       final article = ArticleModel.fromJson(data);

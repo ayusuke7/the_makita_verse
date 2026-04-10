@@ -158,6 +158,7 @@ class _ChannelPageState extends State<ChannelPage> {
                 SizedBox(
                   height: 150.0,
                   child: CarouselView.weighted(
+                    backgroundColor: Colors.transparent,
                     flexWeights: [1, 1, 1, 1],
                     onTap: (index) {
                       Launch.openLink(state.playlists[index].url);

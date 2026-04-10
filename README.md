@@ -8,90 +8,90 @@
     <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License">
   </p>
-  <p align="center">Centralizando e mapeando o universo de conteúdos do Fabio Akita.</p>
+  <p align="center">Centralizing and mapping the content universe of Fabio Akita.</p>
 </div>
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Este projeto tem como principal objetivo realizar o **DUMP** de diversas fontes de informações referentes à pessoa Fabio Akita. A coleta de conteúdo (artigos do blog, podcasts e vídeos) é realizada utilizando um crawler construído em **Python**, que roda de forma contínua por meio de um agendamento (cron) do **Github Actions**.
+The main objective of this project is to perform a **DUMP** of various sources of information regarding Fabio Akita. The content collection (blog articles, podcasts, and videos) is carried out using a crawler built in **Python**, which runs continuously via a **Github Actions** schedule (cron).
 
-Os dados atualizados ficam disponíveis e são salvos como arquivos JSON dentro do diretório estático `/data`, que por sua vez é consumido de forma assíncrona pela nossa **aplicação móvel e web desenvolvida com Flutter**.
-
----
-
-## 🏗️ Estrutura do Projeto
-
-A arquitetura se organiza em ecossistemas isolados atuando em conjunto:
-
-- `apps/`: Workspace Dart/Flutter englobando a aplicação principal.
-- `data/`: Diretório de armazenamento central (fonte de verdade) onde residem os dados estruturados pelo crawler em formato JSON (ex: `articles/`, `podcasts/`, `channel/`).
-- `scripts/`: O coração da extração, abrigando todo o código fonte do Crawler.
-- `.github/workflows/`: Repositório destinado a salvar as rotinas de jobs e esteiras de CI/CD.
+The updated data is available and saved as JSON files inside the static directory `/data`, which in turn is consumed asynchronously by our **mobile and web application developed with Flutter**.
 
 ---
 
-## ⚙️ Como Funciona
+## 🏗️ Project Structure
 
-O repositório automatiza a extração e a compilação por meio de **dois workflows** essenciais:
+The architecture is organized into isolated ecosystems acting together:
+
+- `apps/`: Dart/Flutter workspace encompassing the main application.
+- `data/`: Central storage directory (source of truth) where the structured data from the crawler resides in JSON format (e.g., `articles/`, `podcasts/`, `channel/`).
+- `scripts/`: The heart of the extraction, housing all the Crawler source code.
+- `.github/workflows/`: Repository meant to save job routines and CI/CD pipelines.
+
+---
+
+## ⚙️ How It Works
+
+The repository automates the extraction and compilation via **two essential workflows**:
 
 1. **Dump Newsletter (`dump_newsletter.yml`)**  
-   Atua executando um _cronjob_ diariamente (`0 0 * * *`) que aciona a raspar os dados de novos conteúdos. Caso existam, o script é finalizado comitendo as atualizações de forma autônoma na base `/data`. Em vez das aplicações requisitarem diretamente das fontes (gerando lentidão e rate-limit), elas agem lendo apenas esses estáticos previamente extraídos.
+   Runs a daily _cronjob_ (`0 0 * * *`) that triggers scraping data for new content. If there's new content, the script finishes by autonomously committing the updates into the `/data` base. Instead of applications directly requesting from the sources (causing slowness and rate-limits), they act by simply reading these previously extracted static files.
 2. **Build and Deploy Mobile (`build_mobile_release.yml`)**  
-   Sempre que modificações robustas chegam à branch `release`, a integração aciona o build para o ambiente Android. Após a finalização, ela automaticamente vincula o `APK` assinado do aplicativo a uma nova Release aqui no próprio Github.
+   Whenever robust modifications reach the `release` branch, the integration triggers the build for the Android environment. After completion, it automatically links the signed `APK` of the application to a new Release here on Github itself.
 
 ---
 
-## 🛠️ Quais Tecnologias
+## 🛠️ Technologies
 
-A stack de ferramentas foi escolhida para atuar diretamente nas demandas de extração intensiva e flexibilidade cross-platform no projeto final. Separamos abaixo suas responsabilidades:
+The tool stack was chosen to act directly on the demands of intensive extraction and cross-platform flexibility in the final project. Their responsibilities are separated below:
 
-### 🐍 Scripts (Crawler e Extração)
+### 🐍 Scripts (Crawler and Extraction)
 
-- **[![Python Badge](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)**: Motor por de trás de toda a raspagem.
-- **`requests` & `beautifulsoup4`**: Requisições de rede e extração semântica para buscar postagens e metadados no blog ou em catálogos de podcasts.
-- **`yt-dlp`**: Integração minuciosa para raspar informações brutas das playlists e dos canais associados no YouTube sem precisar autenticação na Data API oficial limitante.
+- **[![Python Badge](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)**: Motor behind all the scraping.
+- **`requests` & `beautifulsoup4`**: Network requests and semantic extraction to fetch posts and metadata on the blog or in podcast catalogs.
+- **`yt-dlp`**: Deep integration to scrape raw information from YouTube playlists and associated channels without needing authentication on the limiting official Data API.
 
-### 📱 Frontend (App Mobile e Web)
+### 📱 Frontend (Mobile and Web App)
 
-- **[![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)](https://dart.dev/)[![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)**: Construção moderna de UI que roda sem engasgos nos dispostivos alvo.
-- **Workspaces Architecture**: Para lidar com a escala do projeto, o projeto em Dart atua em moldes de Mono-Repo.
-  - `apps/mobile`: Compilação direcionada as aplicações instaladas no Android/iOS.
+- **[![Dart Badge](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)](https://dart.dev/)[![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)**: Modern UI construction that runs smoothly on target devices.
+- **Workspaces Architecture**: To handle the project scale, the Dart project acts in Mono-Repo molds.
+  - `apps/mobile`: Compilation directed to applications installed on Android/iOS.
 
 ---
 
-## 🧪 Como Testar
+## 🧪 How to Test
 
-Para checar os serviços localmente no seu escopo, execute os direcionais abaixo.
+To check the services locally in your scope, run the instructions below.
 
-### Testar a Extração de Dados (Scripts Python)
+### Test Data Extraction (Python Scripts)
 
-É preferível o isolamento do motor utilizando um virtual environment (venv) para evitar sujeiras de dependências.
+It is preferable to isolate the engine using a virtual environment (venv) to avoid dependency conflicts.
 
 ```bash
 cd scripts
 python3 -m venv venv
-source venv/bin/activate  # Ambiente Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows environment: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Finalizada a instalação, invoque o `main.py` repassando diretamente o escopo que deseja re-extrair e testar:
+Once the installation is complete, invoke `main.py` directly passing the scope you want to re-extract and test:
 
 ```bash
-# Para coletar os Artigos do blog principal
+# To collect main blog Articles
 python main.py --target articles
 
-# Para coletar as informações dos Podcasts
+# To collect Podcast information
 python main.py --target podcasts
 
-# Para coletar metadados do Canal de Vídeos (Youtube)
+# To collect Video Channel metadata (Youtube)
 python main.py --target videos
 ```
 
-### Testar o Aplicativo (Frontend Flutter)
+### Test the Application (Flutter Frontend)
 
-Assegure-se de que dispões do SDK do [Flutter configurado no Path](https://docs.flutter.dev/get-started/install) e com o emulador ligado.
+Ensure you have the [Flutter SDK configured in your Path](https://docs.flutter.dev/get-started/install) and the emulator running.
 
 ```bash
 cd apps/mobile
@@ -101,7 +101,7 @@ flutter run
 
 ---
 
-## 📱 Telas do Aplicativo
+## 📱 Application Screens
 
 <table align="center">
   <tr>
@@ -115,12 +115,12 @@ flutter run
 
 ---
 
-## 🤝 Como Contribuir
+## 🤝 How to Contribute
 
-Qualquer feedback ou PR para somar nos crawlers ou nas animações do aplicativo são hiper bem-vindos!
+Any feedback or PRs to add to the crawlers or app animations are highly welcome!
 
-1. Realize um **Fork** do escopo no seu github original;
-2. Crie a sua **Branch** isolada (`git checkout -b feature/sua_maravilhosa_contribuicao`);
-3. Faça os **Commits** pertinentes, visando uma mensagem clara (`git commit -m 'feat: alterado lógica main do yt-dlp'`);
-4. Empurre a alteração com um **Push** pra a branch recifrada (`git push origin feature/sua_maravilhosa_contribuicao`);
-5. Submeta na nossa aba um **Pull Request**.
+1. **Fork** the scope to your original github;
+2. Create your isolated **Branch** (`git checkout -b feature/your_wonderful_contribution`);
+3. Make relevant **Commits**, aiming for a clear message (`git commit -m 'feat: changed main logic of yt-dlp'`);
+4. Push the change with a **Push** to the rebased branch (`git push origin feature/your_wonderful_contribution`);
+5. Submit a **Pull Request** in our tab.

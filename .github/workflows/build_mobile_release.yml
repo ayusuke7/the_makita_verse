@@ -52,8 +52,8 @@ jobs:
       - name: Get Version
         id: get_version
         run: |
-          VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}')
-          echo "::set-output name=version::$VERSION"
+          VERSION=$(grep '^version:' apps/mobile/pubspec.yaml | awk '{print $2}')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Create Tag
         id: create_tag

@@ -38,8 +38,9 @@ jobs:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
           KEY_PROPERTIES: ${{ secrets.KEY_PROPERTIES }}
         run: |
-          cd apps/mobile/android
+          cd apps/mobile/android/app
           echo "$KEYSTORE_BASE64" | base64 --decode > key.jks
+          cd ../
           echo "$KEY_PROPERTIES" > key.properties
 
       - name: Build Android APK

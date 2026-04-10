@@ -3,7 +3,7 @@ name: Build and Deploy to Android APK
 on:
   push:
     branches:
-      - release
+      - main
 
 env:
   FLUTTER_VERSION: 3.41.2

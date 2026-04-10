@@ -27,19 +27,4 @@ class ChannelViewModel extends BaseViewModel<ChannelState> {
       ),
     );
   }
-
-  void getPlaylists() async {
-    (await _youtubeRepository.getPlaylists()).fold(
-      (error) => emit(
-        state.copyWith(
-          error: error.toString(),
-        ),
-      ),
-      (playlists) => emit(
-        state.copyWith(
-          playlists: playlists,
-        ),
-      ),
-    );
-  }
 }

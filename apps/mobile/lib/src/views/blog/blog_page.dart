@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../config/di.dart';
 import '../../shared/shared.dart';
 import 'blog_page_viewmodel.dart';
-import 'components/post_detail.dart';
+import 'components/post_item_card.dart';
 
 class BlogPage extends StatefulWidget {
   const BlogPage({super.key});
@@ -68,46 +68,7 @@ class _BlogPageState extends State<BlogPage> {
                   return Column(
                     children: [
                       ListTile(title: Text('$month, $y')),
-                      ...posts.map(
-                        (post) {
-                          return Card(
-                            child: ListTile(
-                              title: Text(
-                                post.title,
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                  fontSize: 14.0,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              leading: Container(
-                                padding: EdgeInsets.all(10.0),
-                                decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white),
-                                  borderRadius: BorderRadius.circular(7.0),
-                                ),
-                                child: Text(
-                                  '${post.formatedDate.day}'.padLeft(2, '0'),
-                                  style: TextStyle(
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        PostDetail(post: post),
-                                  ),
-                                );
-                              },
-                            ),
-                          );
-                        },
-                      ),
+                      ...posts.map((post) => PostItemCard(post: post)),
                     ],
                   );
                 }).toList(),

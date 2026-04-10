@@ -12,6 +12,7 @@ class ChannelEntity {
   final List<String> tags;
   final List<VideoEntity> videos;
   final List<ThumbnailEntity> thumbnails;
+  final List<PlaylistEntity> playlists;
 
   ChannelEntity({
     required this.id,
@@ -27,6 +28,7 @@ class ChannelEntity {
     required this.playlistCount,
     required this.uploader,
     required this.channelUrl,
+    required this.playlists,
   });
 
   ThumbnailEntity get thumbnail => thumbnails.first;

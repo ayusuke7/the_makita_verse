@@ -13,9 +13,16 @@ class _NewsPageState extends State<NewsPage> {
   int _selectedIndex = 0;
 
   @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       children: [
+        const SizedBox(height: 16.0),
         SegmentedButton(
           segments: const [
             ButtonSegment(

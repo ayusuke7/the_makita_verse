@@ -46,4 +46,10 @@ void setupDI() {
   it.registerLazySingleton<ChannelViewModel>(
     () => ChannelViewModel(it<YoutubeRepository>()),
   );
+  it.registerLazySingleton<BookmarkViewModel>(
+    () => BookmarkViewModel(
+      it<NewsLetterRepository>(),
+      it<BlogRepository>(),
+    ),
+  );
 }

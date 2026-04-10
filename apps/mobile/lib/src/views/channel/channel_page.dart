@@ -84,7 +84,6 @@ class _ChannelPageState extends State<ChannelPage> {
   @override
   void initState() {
     super.initState();
-    _channelViewModel.getPlaylists();
     _channelViewModel.getChannel();
   }
 

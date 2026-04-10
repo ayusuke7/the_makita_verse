@@ -14,6 +14,7 @@ class ChannelModel {
   final List<String> tags;
   final List<VideoModel> videos;
   final List<ThumbnailModel> thumbnails;
+  final List<PlaylistModel> playlists;
 
   ChannelModel({
     required this.id,
@@ -29,6 +30,7 @@ class ChannelModel {
     required this.playlistCount,
     required this.uploader,
     required this.channelUrl,
+    required this.playlists,
   });
 
   factory ChannelModel.fromJson(Map<String, dynamic> json) => ChannelModel(
@@ -55,6 +57,11 @@ class ChannelModel {
     playlistCount: json['playlist_count'],
     uploader: json['uploader'],
     channelUrl: json['channel_url'],
+    playlists: json['playlists'] == null
+        ? []
+        : (json['playlists'] as List<dynamic>)
+              .map((e) => PlaylistModel.fromJson(e as Map<String, dynamic>))
+              .toList(),
   );
 
   ChannelEntity toEntity() => ChannelEntity(
@@ -71,6 +78,7 @@ class ChannelModel {
     channelUrl: channelUrl,
     videos: videos.map((e) => e.toEntity()).toList(),
     thumbnails: thumbnails.map((e) => e.toEntity()).toList(),
+    playlists: playlists.map((e) => e.toEntity()).toList(),
   );
 }
 

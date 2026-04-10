@@ -4,7 +4,7 @@ import 'package:the_makita_verse_app/src/config/di.dart';
 
 import 'src/app_widget.dart';
 
-Future<void> main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   setupDI();

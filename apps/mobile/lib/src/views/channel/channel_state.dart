@@ -2,14 +2,12 @@ import '../../domain/domain.dart';
 import '../../shared/shared.dart';
 
 class ChannelState extends BaseState {
-  final List<PlaylistEntity> playlists;
   final ChannelEntity? channel;
 
   const ChannelState({
     super.status,
     super.error,
     this.channel,
-    this.playlists = const [],
   });
 
   @override
@@ -17,7 +15,6 @@ class ChannelState extends BaseState {
     status,
     error,
     channel,
-    playlists,
   ];
 
   ChannelState copyWith({
@@ -30,8 +27,13 @@ class ChannelState extends BaseState {
       status: status ?? this.status,
       error: error ?? this.error,
       channel: channel ?? this.channel,
-      playlists: playlists ?? this.playlists,
     );
+  }
+
+  List<PlaylistEntity> get playlists {
+    if (channel == null) return [];
+
+    return channel!.playlists;
   }
 
   List<VideoEntity> get videos {

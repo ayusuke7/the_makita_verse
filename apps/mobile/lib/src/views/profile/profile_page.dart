@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/shared.dart';
+import '../views.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -52,7 +53,13 @@ class _ProfilePageState extends State<ProfilePage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => const BookmarkPage(),
+                      ),
+                    );
+                  },
                 ),
               ),
               Card(

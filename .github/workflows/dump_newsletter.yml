@@ -1,4 +1,4 @@
-name: Newsletter and Podcasts Dump
+name: Scripts for Dump Data
 
 on:
   schedule:

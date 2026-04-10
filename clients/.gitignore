@@ -1,8 +1,0 @@
-.DS_Store
-.dart_tool
-.flutter-plugins-dependencies
-.flutter-plugins
-.dart_tool/
-.pub-cache/
-.pub/
-build/

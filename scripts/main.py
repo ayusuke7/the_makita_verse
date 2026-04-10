@@ -69,11 +69,11 @@ def execute_podcasts(target):
 
 
 def execute_videos():
-    videos = yt_dlp.get_videos_from_channel("@Akitando")
-    save_to_json(videos, f'data/channel/videos.json')
-
+    channel = yt_dlp.get_videos_from_channel("@Akitando")
     playlists = yt_dlp.get_playlists_from_channel("@Akitando")
-    save_to_json(playlists, f'data/channel/playlists.json')
+
+    channel["playlists"] = playlists['entries']
+    save_to_json(channel, f'data/channel/channel.json')
 
 
 def main():

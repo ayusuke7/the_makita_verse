@@ -1,5 +1,3 @@
 export 'blog_page.dart';
-export 'blog_page_viewmodel.dart';
-export 'blog_state.dart';
-export 'components/post_detail.dart';
-export 'components/post_item_card.dart';
+export 'posts/posts.dart';
+export 'posts/saved_news_page.dart';

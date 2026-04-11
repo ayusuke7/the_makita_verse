@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../config/di.dart';
-import '../../shared/shared.dart';
-import 'blog_page_viewmodel.dart';
-import 'components/post_item_card.dart';
+import 'blog.dart';
 
 class BlogPage extends StatefulWidget {
   const BlogPage({super.key});
@@ -13,70 +10,58 @@ class BlogPage extends StatefulWidget {
 }
 
 class _BlogPageState extends State<BlogPage> {
-  final _searchController = TextEditingController();
-  final _blogViewModel = it.get<BlogPageViewModel>();
+  final _pageController = PageController();
+  int _selectedIndex = 0;
 
   @override
-  void initState() {
-    super.initState();
-    _blogViewModel.getSavedPosts();
-    _blogViewModel.getPosts();
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return ValueListenableBuilder(
-      valueListenable: _blogViewModel,
-      builder: (context, state, child) {
-        if (state.status.isLoading) {
-          return const Center(
-            child: CircularProgressIndicator(
-              color: Colors.amber,
+    return Column(
+      children: [
+        const SizedBox(height: 16.0),
+        SegmentedButton(
+          segments: const [
+            ButtonSegment(
+              value: 0,
+              label: Text('Posts', softWrap: false),
             ),
-          );
-        }
-
-        if (state.status.isError) {
-          return Center(
-            child: Text('Ops! something went wrong'),
-          );
-        }
-
-        final postsByMonth = state.searchPosts.isEmpty
-            ? state.postsByMonthYear
-            : state.searchPostsByMonthYear;
-
-        return Column(
-          children: [
-            InputSearch(
-              hintText: 'Search',
-              controller: _searchController,
-              onChanged: _blogViewModel.search,
-              isClear: state.searchPosts.isNotEmpty,
-              onClear: () {
-                _blogViewModel.clearSearch();
-                _searchController.clear();
-              },
-            ),
-            Expanded(
-              child: ListView(
-                children: postsByMonth.keys.map((key) {
-                  final posts = postsByMonth[key]!;
-                  final [m, y] = key.split('-');
-                  final month = Helper.months[int.parse(m)];
-
-                  return Column(
-                    children: [
-                      ListTile(title: Text('$month, $y')),
-                      ...posts.map((post) => PostItemCard(post: post)),
-                    ],
-                  );
-                }).toList(),
-              ),
+            ButtonSegment(
+              value: 1,
+              label: Text('Saved', softWrap: false),
             ),
           ],
-        );
-      },
+          selected: {_selectedIndex},
+          onSelectionChanged: (value) {
+            _pageController.animateToPage(
+              value.first,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.ease,
+            );
+            setState(() {
+              _selectedIndex = value.first;
+            });
+          },
+        ),
+        Expanded(
+          child: PageView(
+            controller: _pageController,
+            onPageChanged: (page) {
+              setState(() {
+                _selectedIndex = page;
+              });
+            },
+            children: [
+              PostsPage(),
+              SavedPostPage(),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }

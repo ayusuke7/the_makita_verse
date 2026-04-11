@@ -1,7 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 
 import '../../domain/domain.dart';
-import '../datasources/datasources.dart';
+import '../data.dart';
 
 class BlogRepositoryImpl implements BlogRepository {
   final BlogDataSource _dataSource;
@@ -17,7 +17,7 @@ class BlogRepositoryImpl implements BlogRepository {
     }
 
     try {
-      final posts = await _dataSource.getRssItems();
+      final posts = await _dataSource.getBlogPosts();
       _cachePosts = posts.map((p) => p.toEntity()).toList();
       return Right(_cachePosts!);
     } catch (e) {
@@ -28,7 +28,7 @@ class BlogRepositoryImpl implements BlogRepository {
   @override
   Future<Either<Exception, List<BlogPostEntity>>> getSavedPosts() async {
     try {
-      final posts = await _dataSource.getSavedRssItems();
+      final posts = await _dataSource.getSavedBlogPosts();
       return Right(posts.map((p) => p.toEntity()).toList());
     } catch (e) {
       return Left(e as Exception);
@@ -38,8 +38,7 @@ class BlogRepositoryImpl implements BlogRepository {
   @override
   Future<Either<Exception, bool>> removePost(BlogPostEntity post) async {
     try {
-      final model = post.toModel();
-      final result = await _dataSource.removeRssItem(model.id);
+      final result = await _dataSource.removeBlogPost(post.id);
       return Right(result);
     } catch (e) {
       return Left(e as Exception);
@@ -49,7 +48,7 @@ class BlogRepositoryImpl implements BlogRepository {
   @override
   Future<Either<Exception, bool>> savePost(BlogPostEntity post) async {
     try {
-      final result = await _dataSource.saveRssItem(post.toModel());
+      final result = await _dataSource.saveBlogPost(post.toModel());
       return Right(result);
     } catch (e) {
       return Left(e as Exception);

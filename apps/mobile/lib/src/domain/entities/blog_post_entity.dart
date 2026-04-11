@@ -1,41 +1,37 @@
-import 'dart:io';
-
 import '../../data/data.dart';
 
 class BlogPostEntity {
   final String id;
   final String title;
-  final String link;
-  final String description;
-  final String pubDate;
-  final String guid;
-  final String category;
+  final String url;
   final String content;
+  final String publishedAt;
 
   BlogPostEntity({
     required this.id,
     required this.title,
-    required this.link,
-    required this.description,
-    required this.pubDate,
-    required this.guid,
-    required this.category,
+    required this.url,
     required this.content,
+    required this.publishedAt,
   });
 
-  DateTime get formatedDate {
-    return HttpDate.parse(pubDate);
+  List<String> get splitDate {
+    // date format: "11 de abril de 2006"
+    return publishedAt.split(' ')..removeWhere((e) => e == 'de');
   }
 
-  RssItemModel toModel() {
-    return RssItemModel(
+  String get day => splitDate[0];
+
+  String get month => splitDate[1];
+
+  String get year => splitDate[2];
+
+  BlogPostModel toModel() {
+    return BlogPostModel(
+      url: url,
       title: title,
-      link: link,
-      description: description,
-      pubDate: pubDate,
-      guid: guid,
-      category: category,
       content: content,
+      publishedAt: publishedAt,
     );
   }
 }

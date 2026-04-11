@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/shared.dart';
-import '../views.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -43,25 +42,6 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           Column(
             children: [
-              Card(
-                child: ListTile(
-                  leading: Icon(Icons.bookmark),
-                  trailing: Icon(Icons.navigate_next, size: 16),
-                  title: Text(
-                    'Bookmarks',
-                    style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const BookmarkPage(),
-                      ),
-                    );
-                  },
-                ),
-              ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.code),

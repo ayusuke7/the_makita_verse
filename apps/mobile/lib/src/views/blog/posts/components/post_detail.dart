@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 
-import '../../../config/di.dart';
-import '../../../domain/domain.dart';
-import '../../../shared/shared.dart';
-import '../blog_page_viewmodel.dart';
+import '../../../../config/di.dart';
+import '../../../../domain/domain.dart';
+import '../../../../shared/shared.dart';
+import '../posts_page_viewmodel.dart';
 
 class PostDetail extends StatefulWidget {
   final BlogPostEntity post;
@@ -19,7 +19,7 @@ class PostDetail extends StatefulWidget {
 }
 
 class _PostDetailState extends State<PostDetail> {
-  final _blogViewModel = it.get<BlogPageViewModel>();
+  final _blogViewModel = it.get<PostsPageViewModel>();
 
   void _handleLinkTap(String? url) {
     if (url == null) return;
@@ -31,7 +31,7 @@ class _PostDetailState extends State<PostDetail> {
 
     if (url.startsWith('/')) {
       final index = _blogViewModel.state.posts.indexWhere(
-        (p) => p.link.contains(url),
+        (p) => p.url.contains(url),
       );
       if (index > -1) {
         final post = _blogViewModel.state.posts[index];
@@ -85,7 +85,7 @@ class _PostDetailState extends State<PostDetail> {
                   ),
                 ),
                 subtitle: Text(
-                  widget.post.pubDate,
+                  widget.post.publishedAt,
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -108,7 +108,7 @@ class _PostDetailState extends State<PostDetail> {
             foregroundColor: Colors.white,
             child: Icon(Icons.open_in_new),
             onPressed: () {
-              Launch.openLink(widget.post.link);
+              Launch.openLink(widget.post.url);
             },
           ),
         );

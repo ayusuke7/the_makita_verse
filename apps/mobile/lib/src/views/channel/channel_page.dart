@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:the_makita_verse_app/src/config/config.dart';
 
-import '../../config/di.dart';
 import '../../domain/domain.dart';
 import '../../shared/shared.dart';
 import 'channel_viewmodel.dart';
@@ -167,8 +167,12 @@ class _ChannelPageState extends State<ChannelPage> {
                         children: [
                           CircleAvatar(
                             maxRadius: 50.0,
+                            backgroundColor: Colors.grey.shade800,
                             backgroundImage: ImageNetworkCache.provider(
                               e.thumbnail.url,
+                              errorListener: (p0) {
+                                Logger.error('Error loading image');
+                              },
                             ),
                           ),
                           Text(

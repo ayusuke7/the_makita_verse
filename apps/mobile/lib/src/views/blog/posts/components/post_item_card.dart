@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../domain/domain.dart';
+import '../../../../domain/domain.dart';
 import 'post_detail.dart';
 
 class PostItemCard extends StatelessWidget {
@@ -31,7 +31,7 @@ class PostItemCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(7.0),
           ),
           child: Text(
-            '${post.formatedDate.day}'.padLeft(2, '0'),
+            post.day.padLeft(2, '0'),
             style: TextStyle(
               fontSize: 18.0,
               fontWeight: FontWeight.bold,

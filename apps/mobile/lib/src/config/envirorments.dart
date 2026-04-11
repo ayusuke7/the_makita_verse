@@ -1,10 +1,12 @@
 import 'package:flutter/foundation.dart';
 
-const _supabaseUrl = String.fromEnvironment('SUPABASE_URL');
-const _supabaseKey = String.fromEnvironment('SUPABASE_KEY');
+const _githubStorageUrl = String.fromEnvironment(
+  'GITHUB_STORAGE_URL',
+  defaultValue:
+      'https://raw.githubusercontent.com/ayusuke7/the_makita_verse/temp_storage',
+);
 
 class Environment {
   static bool get debugMode => kDebugMode;
-  static String get supabaseUrl => _supabaseUrl;
-  static String get supabaseKey => _supabaseKey;
+  static String get githubStorageUrl => _githubStorageUrl;
 }

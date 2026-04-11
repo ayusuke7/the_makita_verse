@@ -33,6 +33,10 @@ class _NewsPageState extends State<NewsPage> {
               value: 1,
               label: Text('Podcasts', softWrap: false),
             ),
+            ButtonSegment(
+              value: 2,
+              label: Text('Saved', softWrap: false),
+            ),
           ],
           selected: {_selectedIndex},
           onSelectionChanged: (value) {
@@ -57,6 +61,7 @@ class _NewsPageState extends State<NewsPage> {
             children: [
               ArticlesPage(),
               PodcastsPage(),
+              SavedNewsPage(),
             ],
           ),
         ),

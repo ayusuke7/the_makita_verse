@@ -12,8 +12,7 @@ abstract interface class YoutubeDataSource {
 class YoutubeDataSourceImpl implements YoutubeDataSource {
   final http.Client _httpClient;
 
-  final String _baseUrl =
-      'https://raw.githubusercontent.com/ayusuke7/the_makita_verse/storage';
+  final String _baseUrl = '${Environment.githubStorageUrl}/data/channel';
 
   YoutubeDataSourceImpl() : _httpClient = http.Client();
 
@@ -22,7 +21,7 @@ class YoutubeDataSourceImpl implements YoutubeDataSource {
     Logger.log('Fetching channel...');
 
     final response = await _httpClient.get(
-      Uri.parse('$_baseUrl/data/channel/channel.json'),
+      Uri.parse('$_baseUrl/channel.json'),
     );
 
     if (response.statusCode != 200) {

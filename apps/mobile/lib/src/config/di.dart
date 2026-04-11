@@ -37,19 +37,13 @@ void setupDI() {
   it.registerLazySingleton<ArticlesPageViewModel>(
     () => ArticlesPageViewModel(it<NewsLetterRepository>()),
   );
-  it.registerLazySingleton<BlogPageViewModel>(
-    () => BlogPageViewModel(it<BlogRepository>()),
+  it.registerLazySingleton<PostsPageViewModel>(
+    () => PostsPageViewModel(it<BlogRepository>()),
   );
   it.registerLazySingleton<PodcastsViewModel>(
     () => PodcastsViewModel(it<NewsLetterRepository>()),
   );
   it.registerLazySingleton<ChannelViewModel>(
     () => ChannelViewModel(it<YoutubeRepository>()),
-  );
-  it.registerLazySingleton<BookmarkViewModel>(
-    () => BookmarkViewModel(
-      it<NewsLetterRepository>(),
-      it<BlogRepository>(),
-    ),
   );
 }

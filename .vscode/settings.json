@@ -1,0 +1,21 @@
+{
+  "dart.flutterSdkPath": "/Users/alexandreh/.puro/envs/stable/flutter",
+  "dart.sdkPath": "/Users/alexandreh/.puro/envs/stable/flutter/bin/cache/dart-sdk",
+  "dartBarrel.files.disableRecursiveBarrelling": false,
+  "dartBarrel.files.includeExtensionOnExport": ["dart"],
+  "dartBarrel.files.ignoreFilePathPatternOnExport": [
+    "**/*.freezed.dart",
+    "**/*.g.dart"
+  ],
+  "dartBarrel.files.supportsHiddenFiles": true,
+  "dartBarrel.files.preserveGitignoreSettings": false,
+  "dartBarrel.files.enableClassExportDetection": true,
+  "dartBarrel.files.exportDefaultFilename": "barrel",
+  "dartBarrel.files.outputFilePrefix": "",
+  "dartBarrel.files.outputFileSuffix": "",
+  "dartBarrel.files.outputFileSeparator": "_",
+  "dartBarrel.formatting.endOfLine": "lf",
+  "dartBarrel.formatting.insertFinalNewline": true,
+
+  "python.defaultInterpreterPath": "${workspaceFolder}/scripts/venv/bin/python3"
+}

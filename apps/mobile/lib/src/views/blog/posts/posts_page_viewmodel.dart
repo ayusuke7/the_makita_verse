@@ -1,13 +1,13 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
-import 'blog_state.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
+import 'posts_state.dart';
 
-class BlogPageViewModel extends BaseViewModel<BlogState> {
+class PostsPageViewModel extends BaseViewModel<PostsState> {
   final BlogRepository _blogRepository;
 
-  BlogPageViewModel(
+  PostsPageViewModel(
     this._blogRepository,
-  ) : super(BlogState());
+  ) : super(PostsState());
 
   void getPosts() async {
     if (state.posts.isNotEmpty) {

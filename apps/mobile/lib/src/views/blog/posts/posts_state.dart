@@ -1,12 +1,12 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 
-class BlogState extends BaseState {
+class PostsState extends BaseState {
   final List<BlogPostEntity> posts;
   final List<BlogPostEntity> searchPosts;
   final List<BlogPostEntity> savedPosts;
 
-  const BlogState({
+  const PostsState({
     super.status,
     super.error,
     this.posts = const [],
@@ -14,14 +14,14 @@ class BlogState extends BaseState {
     this.searchPosts = const [],
   });
 
-  BlogState copyWith({
+  PostsState copyWith({
     List<BlogPostEntity>? posts,
     List<BlogPostEntity>? searchPosts,
     List<BlogPostEntity>? savedPosts,
     StateStatus? status,
     String? error,
   }) {
-    return BlogState(
+    return PostsState(
       error: error ?? this.error,
       posts: posts ?? this.posts,
       savedPosts: savedPosts ?? this.savedPosts,
@@ -37,7 +37,7 @@ class BlogState extends BaseState {
     final map = <String, List<BlogPostEntity>>{};
 
     for (var post in posts) {
-      final monthYear = '${post.formatedDate.month}-${post.formatedDate.year}';
+      final monthYear = '${post.month}, ${post.year}'.capitalize();
       if (map.containsKey(monthYear)) {
         map[monthYear]!.add(post);
       } else {
@@ -51,7 +51,7 @@ class BlogState extends BaseState {
   Map<String, List<BlogPostEntity>> get searchPostsByMonthYear {
     final map = <String, List<BlogPostEntity>>{};
     for (var post in searchPosts) {
-      final monthYear = '${post.formatedDate.month}-${post.formatedDate.year}';
+      final monthYear = '${post.month}, ${post.year}'.capitalize();
       if (map.containsKey(monthYear)) {
         map[monthYear]!.add(post);
       } else {

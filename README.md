@@ -85,8 +85,15 @@ python main.py --target articles
 # To collect Podcast information
 python main.py --target podcasts
 
+# To collect main blog posts
+python main.py --target posts
+
+# To collect main blog transcripts
+python main.py --target transcripts
+
 # To collect Video Channel metadata (Youtube)
 python main.py --target videos
+
 ```
 
 ### Test the Application (Flutter Frontend)

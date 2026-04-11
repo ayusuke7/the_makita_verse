@@ -83,13 +83,6 @@ class _PostsPageState extends State<PostsPage> {
                         .map((post) => PostItemCard(post: post))
                         .toList(),
                   );
-
-                  // return Column(
-                  //   children: [
-                  //     ListTile(title: Text(key)),
-                  //     ...posts.map((post) => PostItemCard(post: post)),
-                  //   ],
-                  // );
                 }).toList(),
               ),
             ),

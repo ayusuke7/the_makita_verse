@@ -93,20 +93,24 @@ class _ArticlesPageState extends State<ArticlesPage> {
                 itemCount: articles.length,
                 itemBuilder: (context, index) {
                   final article = articles[index];
-                  return Column(
-                    children: [
-                      ListTile(
-                        contentPadding: EdgeInsets.zero,
-                        title: Text(
-                          article.title,
-                          softWrap: false,
-                          style: TextStyle(
-                            fontSize: 15.0,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        leading: Icon(Icons.calendar_month),
+                  final expanded = index == 0;
+
+                  return ExpansionTile(
+                    initiallyExpanded: expanded,
+                    tilePadding: EdgeInsets.fromLTRB(10, 0, 0, 0),
+                    shape: RoundedRectangleBorder(),
+                    textColor: Colors.white,
+                    iconColor: Colors.white,
+                    leading: Icon(Icons.calendar_month),
+                    title: Text(
+                      article.title,
+                      softWrap: false,
+                      style: TextStyle(
+                        fontSize: 15.0,
+                        fontWeight: FontWeight.bold,
                       ),
+                    ),
+                    children: [
                       ...article.news.map((news) {
                         final isSaved = state.savedNews.any(
                           (e) => e.id == news.id,

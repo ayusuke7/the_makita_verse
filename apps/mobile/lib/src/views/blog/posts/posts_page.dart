@@ -62,13 +62,34 @@ class _PostsPageState extends State<PostsPage> {
               child: ListView(
                 children: postsByMonth.keys.map((key) {
                   final posts = postsByMonth[key]!;
+                  final expanded = key == postsByMonth.keys.first;
 
-                  return Column(
-                    children: [
-                      ListTile(title: Text(key)),
-                      ...posts.map((post) => PostItemCard(post: post)),
-                    ],
+                  return ExpansionTile(
+                    initiallyExpanded: expanded,
+                    tilePadding: EdgeInsets.fromLTRB(20, 0, 10, 0),
+                    shape: RoundedRectangleBorder(),
+                    textColor: Colors.white,
+                    iconColor: Colors.white,
+                    leading: Icon(Icons.calendar_month),
+                    title: Text(
+                      key,
+                      softWrap: false,
+                      style: TextStyle(
+                        fontSize: 15.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    children: posts
+                        .map((post) => PostItemCard(post: post))
+                        .toList(),
                   );
+
+                  // return Column(
+                  //   children: [
+                  //     ListTile(title: Text(key)),
+                  //     ...posts.map((post) => PostItemCard(post: post)),
+                  //   ],
+                  // );
                 }).toList(),
               ),
             ),

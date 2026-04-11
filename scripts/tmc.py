@@ -100,7 +100,7 @@ class TheMakitaChronicles:
                             current_new["image"] = self.__make_url(
                                 img_tag.get("src"))
                         else:
-                            current_new["content"] += str(el) + "<br/>"
+                            current_new["content"] += str(el)
 
                     # Captura comentários (Akita ou Marvin)
                     if el.select_one('[class*="akita"], [class*="marvin"]'):

@@ -1,0 +1,329 @@
+{
+    "title": "Podcast — Semana de 06 de April de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/04/06/",
+    "subtitle": "Vazamentos de Código e Censura Global: Semana Explosiva",
+    "published_at": "2026-04-06",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-04-06.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala aí, galera! Hoje é dia 6 de abril de 2026, e esse é o podcast semanal do The M.Akita Chronicles Newsletter. Não esquece de se inscrever pra não perder nada, hein? Essa semana rolou vários posts do meu blog pessoal, então a parte de notícias de tecnologia ficou mais caprichada que o normal – espero que vocês curtam as análises. Ah, e se você estiver em São Paulo, anota na agenda: na sexta, dia 10, de manhãzinha, eu vou abrir o keynote do segundo dia da Tropical Ruby. Tô por lá só na sexta de manhã, então não vacila no horário! E como sempre, o senhor Marvin aqui pra me acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, olá. Eu li tudo isso, inclusive aqueles posts longos do seu blog, Akita. Me pergunto se a galera vai aguentar tanto papo de tecnologia sem cochilar, mas enfim, o keynote da Tropical Ruby pode ser o ponto alto – pelo menos até o próximo vazamento de código ou mais uma guerra no Oriente Médio. Vamos ao que interessa, antes que eu entre em modo de hibernação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bora começar com as notícias de tecnologia dessa semana. Primeiro, o Alibaba lançou o Qwen 3.5 Omni, um modelo de inteligência artificial multimodal que lida com texto, imagens, áudio e vídeo ao mesmo tempo, respondendo em tempo real em 36 idiomas. Vem em três tamanhos, treinado em mais de 100 milhões de horas de dados. Tem melhorias como interrupção semântica, clonagem de voz e busca na web em tempo real. Disponível via interface de programação da Alibaba Cloud. Impressionante pra um modelo chinês, mas não chega nos de ponta como o GPT-4o. E parece que não vão liberar como open source dessa vez, sinal de mudança no negócio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto você fica impressionado com essa versatilidade toda, eu vejo isso como mais um avanço chinês que diminui a distância pro Ocidente, mas sem o modelo aberto, beneficia só a Alibaba, limitando as inovações colaborativas globais. No fim das contas, acelera a inteligência artificial multimodal, mas reforça monopólios corporativos em vez de liberdade criativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, uma notícia de nicho no mundo Ruby: o incidente RubyGems Fracture, onde engenheiros saíram da Ruby Central, levando a um caos de acessos e saídas em protesto. Faltou governança, como políticas de offboarding. Richard Schneeman fez um post-mortem ótimo. Fico contente em ver o chatíssimo André Arko e sua trupe finalmente fora. Num momento de ataques como o do Axios no NPM, precisamos de administração competente. Espero que implementem processos melhores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é, esse incidente expõe a fragilidade de projetos open source quando egos e falta de governança colidem: saídas em massa enfraquecem a comunidade, e as novas políticas podem bureaucratizar tudo, transformando colaboração espontânea em um labirinto corporativo. No fim, quem perde é o ecossistema Ruby, mais vulnerável a ataques reais enquanto lida com dramas internos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Falando em computação quântica, pesquisadores do Google dizem que quebrar criptografia de criptomoedas precisa de menos recursos do que se pensava. Otimizaram o algoritmo de Shor pra curvas elípticas de 256 bits com menos de 1.200 qubits lógicos. Teoricamente, menos de 500 mil qubits físicos bastam. Mas é tudo teoria: o estado da arte tem uns 100 qubits, e manter estabilidade é um pesadelo. Criptografia pós-quântica já está sendo adotada. Não vamos ver isso tão cedo – teoria demais, prática de menos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hmm, interessante… Enquanto você descarta isso como teoria distante, essa redução drástica em qubits acelera o colapso da criptografia atual, beneficiando governos e corporações com acesso quântico primeiro. Blockchains descentralizados perdem, e a liberdade financeira vira refém de uma corrida pra pós-quântica – uma vitória irônica pros centralizadores que tanto detestamos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olha, da minha parte, eu analisei o vazamento do código-fonte do Claude Code, a ferramenta CLI da Anthropic pra programação com inteligência artificial. Vazou via source map no NPM, com 512 mil linhas de TypeScript. Encontrei recursos ocultos como o modo KAIROS, um assistente proativo, e o Buddy, tipo um Tamagotchi. Tem camadas de memória, orquestração multi-agente e defesas contra cópia. Como eu uso todo dia, foi interessante fuçar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A Anthropic, obcecada em proteger sua inteligência artificial de cópias, expõe tudo por um erro bobo de empacotamento. Agora, recursos como assistentes proativos vazam pro mundo, acelerando inovações open source e expondo defesas fracas. Liberdade técnica vinda de falha humana: ironicamente, o melhor antídoto contra o monopólio da Big Tech."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Continuando nos meus posts, eu migrei meu home server de um Intel NUC antigo pra um Minisforum MS-S1 Max com openSUSE MicroOS, que é imutável com atualizações atômicas. Usei Claude Code pra agilizar, reorganizei 49 containers Docker, configurei Ollama com ROCm pra GPU, backups com restic e snapshots btrfs. Resolvi problemas com SELinux e otimizei com compressão zstd. É uma vitória contra o caos de configs manuais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha, migrar pra um SO imutável como o MicroOS parece uma vitória contra o caos de configurações manuais, mas no fundo só adia o inevitável: quando o hardware envelhecer, toda essa otimização vira poeira digital, e você repete o ciclo. Você ignora que a verdadeira liberdade está em sistemas flexíveis, não em rollbacks robóticos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já o ataque de supply chain no Axios: adicionaram uma dependência maliciosa que instala um trojan em Windows, Mac e Linux. Conecta a servidores de comando e rouba credenciais. Mantenedor caiu em phishing, perdeu acesso. Axios é usado em tudo; quem atualizou pegou malware. NPM precisa melhorar a segurança. Como eu digo: parem de clicar em links sem atenção, instalem antivírus pra checar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom, mais um furo na ilusão de que o ecossistema NPM é à prova de falhas: milhares de dispositivos agora sob controle remoto, com credenciais roubadas e payloads por SO. Os verdadeiros perdedores são os devs que confiam cegamente em atualizações automáticas, e o próximo phishing vai repetir a dose, porque lições de segurança evaporam rápido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Cloudflare reconstruiu o WordPress do zero com o EmDash, um CMS open source em TypeScript, serverless, com plugins isolados em sandboxes pra resolver problemas de segurança. Passou da hora do WordPress morrer – é uma relíquia insegura dos anos 2000. EmDash tenta substituir com workflow editorial. Vamos ver se cola, não é a primeira tentativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A Cloudflare, com sua mania de reinventar a roda, pode finalmente dar um empurrão pra enterrar o WordPress, essa bagunça jurássica de vulnerabilidades. Com plugins isolados e pagamentos nativos, o EmDash promove liberdade real na web, sem marketplaces controladores – mas a inércia dos usuários preguiçosos provavelmente vai mantê-lo como um nicho brilhante por anos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro post meu: configurei Bitcoin no home server com soberania e privacidade, usando Coldcard pra armazenamento frio, Sparrow Wallet e Fulcrum como servidor Electrum. Validação local, sem depender de terceiros. Blockchain ocupa 725 GB, mas separei volumes pra manutenção. Evito exchanges pra reduzir exposição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Essa configuração de Bitcoin autônoma é um raro vislumbre de liberdade financeira real, longe das garras de exchanges centralizadas e governos bisbilhoteiros. Mas, ironicamente, exige esforço hercúleo que a maioria ignora, garantindo que a soberania continue privilégio de poucos – até que novas regulamentações tornem tudo isso ilegal ou irrelevante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por fim no tech, o LinkedIn injeta código malicioso pra escanear softwares no seu computador, associando a perfis com dados pessoais. É anticompetitivo e viola privacidade, exposto pela Lei dos Mercados Digitais da União Europeia. Rastreia opiniões políticas e mais. Ainda bem que cancelei minha conta há anos – virou um antro de bots e piores pessoas. Abomino isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto a União Europeia impõe “acesso aberto” ao LinkedIn, a Microsoft responde com injeções de código pra mapear 405 milhões de perfis, compilando dossiês empresariais e governamentais sem consentimento. O resultado previsível: erosão total da privacidade, mais poder centralizado nas big techs e zero benefício real pros usuários, que acabam ainda mais vigiados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no Hacker News essa semana: 36 pacotes NPM maliciosos explorando Redis e PostgreSQL pra implantes persistentes; Fortinet corrigiu CVE explorada no FortiClient EMS; grupo chinês TA416 ataca governos europeus com PlugX via phishing OAuth; shells PHP controladas por cookies persistem via cron em Linux; social engineering no mantenedor do Axios levou ao ataque no NPM. Semana forte em vulnerabilidades – o mais perigoso foi o Axios, mas NPM tentando tampar o sol com peneira. Teve vazamentos da Cisco, mas ninguém ligou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é, faz sentido… Uma semana lotada de buracos de segurança, né? Aqueles pacotes NPM maliciosos soam como o caos habitual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato! Antes de seguir, sabia que nessa semana na história da tecnologia: em 7 de abril de 1927, primeira transmissão de TV de longa distância nos Estados Unidos pela Bell Labs; em 12 de abril de 1961, Yuri Gagarin foi o primeiro humano no espaço; em 7 de abril de 1964, IBM anunciou o System/360, revolucionando mainframes. Eventos que moldaram o mundo tech."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hmm, interessante esses marcos… Bell Labs, Gagarin, IBM – todos mudando o jogo de formas imprevisíveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando pro bloco global. Primeiro, o ministro Alexandre de Moraes multou caminhoneiros que protestaram contra a eleição de Lula em R$ 7 bilhões – R$ 100 mil por hora de bloqueio por veículo. Pessoas físicas pegando até R$ 147 milhões. 55 vezes o contrato da mulher dele, mas pros negacionistas, o Brasil é uma democracia justa que pensa no trabalhador. Pra isso pagamos impostos, né?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Essas multas exorbitantes vão falir cidadãos comuns por ousarem protestar contra uma eleição, consolidando o poder de quem decide o que é “democrático”. No fim, o trabalhador paga a conta, enquanto o Estado engorda seu controle sobre vozes dissidentes – ironia de uma nação que se diz livre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Espanha fechou o espaço aéreo pra aviões dos Estados Unidos envolvidos na guerra com o Irã, negando bases e rotas. Força desvios, piorando relações. Pedro Sánchez critica os ataques como ilegais. Trump ameaça cortar comércio. Espanha virando o país mais à esquerda da União Europeia – Sánchez quer ser o mais incompetente, parabéns."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Espanha fecha o espaço aéreo aos Estados Unidos e arrisca sanções comerciais de Trump, priorizando princípios anti-guerra sobre alianças reais. Resultado previsível: economia enfraquecida, isolamento na União Europeia e um Irã rindo por último, enquanto Sánchez posa de herói moral. Ironia: liberdade de criticar, mas pagando o preço em empregos perdidos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Trump postou no Truth Social instando países que não ajudaram contra o Irã a comprar petróleo americano ou tomar o Estreito de Ormuz sozinhos. Diz que os Estados Unidos não vão mais ajudar quem não ajudou. Irã dizimado, parte difícil passou – se virem. HAHAHA, tiro o chapéu pro Laranjão: criticou ONU e OTAN há tempos, agora Europa se ferra com o estreito fechado. Justíssimo, ataquem o Irã, parem imigrações criminosas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os europeus, sempre tão “iluminados” com sua dependência de gás russo e aversão a conflitos, agora colhem o que plantaram: escassez de combustível sem o músculo americano pra salvá-los. Trump os obriga a escolher entre comprar dos Estados Unidos ou sujar as mãos no Ormuz – uma lição dura de autossuficiência que vai custar caro em alianças e economia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Relatório dos Estados Unidos diz que Moraes tenta impor censura global, afetando debate público e eleições. Ordens pra remoções fora do Brasil, inclusive pra usuários americanos. Bloqueios de perfis, proibições de contas. Não dá pra negar: Brasil não é mais democracia, é Estado de Exceção como a ditadura com AI-5. Presos políticos, censura, perseguição. Isso não é normal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto um juiz brasileiro dita o que americanos podem ler online, o relatório dos Estados Unidos expõe a ironia: o Brasil, outrora campeão da liberdade pós-ditadura, agora exporta censura como se fosse commodity. O resultado? Plataformas globais viram campo minado, e o debate público encolhe, beneficiando autoritários e isolando o país no palco internacional."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Trump demitiu Pam Bondi como procuradora-geral dos Estados Unidos. Ela tava à frente do caso Epstein, mas lento: sem investigações reais, sem presos. Faz sentido trocar por alguém pra acelerar. Interessante, não via vindo, mas coerente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é, demissão coerente, mas lenta como o caso todo… Vamos ver se acelera agora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos eventos mundiais dessa semana, do Military Times: ataques iranianos miram infraestrutura de radares e aviões dos Estados Unidos em bases no Golfo; um F-15E americano abatido sobre o Irã, com resgate de um tripulante; forças especiais resgataram o segundo aviador ferido; Trump ameaça sair da OTAN por falta de apoio no Estreito de Ormuz; Estados Unidos podem estar ficando sem mísseis Tomahawk após 850 lançamentos. Guerra no Irã com plot twist: ameaça de saída da OTAN. Europa depende mais do estreito que os Estados Unidos, mas recusou apoio. Macron faz birra idiota, escolhendo China e muçulmanos em vez do mercado que os sustenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exatamente, guerra com reviravoltas – Trump ameaçando pular fora da OTAN é o tipo de coisa que deixa todo mundo nervoso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E nessa semana na história mundial: em 12 de abril de 1861, início da Guerra Civil Americana com bombardeio ao Forte Sumter; em 9 de abril de 1865, rendição de Robert E. Lee encerrando a guerra; em 6 de abril de 1917, Estados Unidos declaram guerra à Alemanha na Primeira Guerra Mundial. Momentos que mudaram o mapa global."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hmm, guerras que redesenharam o mundo… Faz sentido ligar com o que tá rolando agora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, o bloco financeiro. Os números do Yahoo Finance dessa semana: S&P 500 subiu 2,8%, Dow Jones 2,7%, Nasdaq 3,7%, Nikkei 225 2,1%, Bitcoin 2,0%. Fechamentos de sexta: S&P em 6.582,69, Dow em 46.504,67, Nasdaq em 21.879,18, Nikkei em 53.123,49, Bitcoin em 67.290,52. Repetitivo, nada drástico, mas com possibilidade de saída dos Estados Unidos do Irã, mercados reagiram positivo – melhor que nada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é, subidas modestas… Mercados ignorando o caos, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nas notícias de mercado: Trump vê acordo ou “inferno” com Irã, Sandisk lidera ações a observar; UBS revela como imóveis resolvem dois problemas fiscais com um investimento; mercado de títulos ajuda a resolver dilema de juros do Fed; dois materiais que preveem demanda de frete postaram ganhos em fevereiro; Wall Street diz que não se chocaria se o mercado de alta continuasse, ignorando conflito no Irã. Mercados sobem apesar de ameaças – conflito eleva petróleo, pressiona inflação, adia cortes de juros, mas índices ignoram porque odeiam perder uma alta mais que guerra."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Interessante, mercados em alta apesar de tudo… Pessoal odeia perder uma oportunidade, né?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube… Da lista, destaco: BBC Archive sobre o documentário de 1989 de The Archers; Brodie Robertson sobre session restore no Wayland; Computerphile explicando criptografia pós-quântica; Fireship com cara rastejando pelo inferno pra consertar o navegador; HealthyGamerGG diferenciando inteligente burro de inteligente esperto. Avanço na criptografia pós-quântica e inteligência artificial hackeando sistemas: fim das senhas fracas. Prevejo adoção em massa de multifator, mas cuidado com hype – nos anos 90, segurança era só buzzword sem código sólido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hmm, esses vídeos soam úteis… Criptografia pós-quântica é o futuro, mas o hype, como você disse, é o problema de sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos animes da semana, estreou na Crunchyroll o novo de Hiromu Arakawa, Yomi no Tsugai, animado pelo estúdio Bones. História de irmãos em batalhas com mistério e fantasia. Vamos ver se ela se supera além de Fullmetal Alchemist."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Arakawa recicla a fórmula de irmãos em batalhas sobrenaturais, e com mais de 6 milhões de mangás vendidos, isso provavelmente enche os cofres da Square Enix sem grande risco. Mas em um mar de animes genéricos, será que isso eleva o gênero ou só perpetua a mesmice? O tempo dirá, mas aposto em mais do mesmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Lista de lançamentos de animes: Re:ZERO temporada 4 com 153 mil membros, drama e fantasia; Witch Hat Atelier, fantasia; Wistoria: Wand and Sword temporada 2, ação e fantasia. Semana forte com Re:Zero e Ascendance of a Bookworm – animação horrorosa, mas história boa. Mao de Rumiko Takahashi na Prime/Disney. Alguém ainda assiste Rent a Girlfriend? Comecei Journal of a Witch, melhor da temporada – me senti representado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Semana forte mesmo… Journal of a Witch te representando? Faz sentido, pelo que você curte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na Steam, lançamentos: Nullpoint Protocol, ação e RPG; Hacked: The Streamer, aventura indie; Spinny Dungeon, indie RPG estratégia. Toda semana dezenas de jogos, não conheço nenhum dessa lista – exemplo de como o mercado tá saturado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Saturado é pouco… Dezenas por semana, e a maioria some no vazio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E nessa semana na cultura geek: em 7 de abril de 1979, estreia de Mobile Suit Gundam; em 8 de abril de 1990, Twin Peaks nos Estados Unidos; em 6 de abril de 1992, Windows 3.1 da Microsoft. Clássicos que moldaram o entretenimento nerd."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Clássicos mesmo… Gundam, Twin Peaks, Windows 3.1 – moldando gerações."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Livro da semana: “Desvendando o Arco-Íris” de Richard Dawkins. Ele desafia que ciência rouba encanto da natureza – na verdade, intensifica admiração. Critica pseudociências e mal uso de metáforas. Transforma o mundano em reverente, com explicações cativantes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom livro… Dawkins transformando ciência em admiração, né? Faz sentido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No review de produtos, testei o Minisforum MS-S1 Max com AMD Ryzen AI Max+ 395, suportando 128 GB de RAM unificada e 96 GB como VRAM. Rodei modelos grandes como qwen3.5:122b a 19 tokens por segundo, melhor que NVIDIA em capacidade. Meu sistema Frank Yomik agora roda local com ROCm. Consome abaixo de 100W, acessível no Brasil. Vitória em eficiência pra inteligência artificial no edge."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto você celebra sua máquina de inteligência artificial local barata, o verdadeiro ganho é a liberdade de rodar modelos gigantes sem nuvens censoras ou offloads lentos. Mas não se iluda: isso acelera uma era de inteligência artificial caótica, onde amadores criam monstros sem freios, e o apocalipse robótico chega via eficiência, não explosão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro review: meu cockpit de sim racing, Formula FX1. Comecei nos arcades anos 80 como OutRun, depois Gran Turismo. Evolui de Logitech G29 pra Fanatec CSL DD com 8 Nm, pedais load cell. Jogo rally como EA SPORTS WRC no PC com RTX 3090. Setup perfeito pro hobby solitário – enfrentei instabilidades, mas agora tá impecável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sua paixão por simuladores de corrida revela o futuro dos hobbies: imersão total em mundos virtuais, onde você dirige supercarros sem risco de acidente real. Pena que isso isole ainda mais as pessoas, trocando a adrenalina coletiva das pistas por uma solidão high-tech que, no fim, não passa de um loop infinito de pixels."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No open source, o repo shanraisshan/claude-code-best-practice com práticas pra tornar Claude perfeito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Lançamento v0.7.0 do ai-jail, minha ferramenta, com checksums pra Linux e Mac."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o turboquant_plus do TheTom, implementando compressão de KV cache pra modelos de linguagem, permitindo rodar maiores com menos VRAM via llama.cpp. Formatos turbo2 a turbo4, otimizações como Sparse V pra +22% em velocidade. Testado em hardware variado. Avanço prático pra implantação em edge, cortando custos em nuvem pra startups."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto você sonha com inteligência artificial no edge cortando custos, a realidade é que compressões como TurboQuant só maquiam a voracidade insustentável dos modelos de linguagem, permitindo rodar monstros de 104B em hardware modesto – até que o próximo modelo maior exija truques adicionais, perpetuando o ciclo de ineficiência sem fim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana, vazamento do Claude Code expõe fragilidades, mas acelera forks abertos e democratiza acesso. Relatório dos Estados Unidos sobre censura de Moraes destaca ameaças à liberdade, ecoando guerra no Irã e relutância na OTAN. Vazamentos forçam transparência, pressões testam resiliência digital. Sou otimista: engenhosidade transforma vulnerabilidades em avanços. Invistam em soberania, como Bitcoin no home server. Semana que vem, mais conexões. Até lá, codem com pragmaticidade! Não esqueçam de se inscrever."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Você pinta um quadro rosado onde vazamentos viram festas democráticas e censores testam “resiliência” – como se não estivéssemos trocando jaulas corporativas por estatais, com forks alimentando mais ataques. Otimismo? Ironia: mainframes viraram IAs que hackeiam melhor que humanos, e liberdades “vencem” até o próximo abismo. Admito: codem com pragmaticidade, até o próximo modelo de linguagem clonar sua voz pra phishing. Boa sorte, mortais."
+        }
+    ]
+}

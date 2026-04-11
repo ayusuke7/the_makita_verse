@@ -1,0 +1,301 @@
+{
+    "title": "Newsletter #2 - 16 de February de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/02/16/",
+    "subtitle": "IA, código e escândalos: do Go ao Epstein",
+    "published_at": "2026-02-16",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-02-16",
+            "title": "Time to Migrate From Heroku - FastRuby.io | Rails Upgrade Service",
+            "content": "<p>O artigo, publicado em 9 de fevereiro de 2026 por Ernesto Tagwerker, diz que a Heroku anunciou em 6 de fevereiro de 2026 que está migrando para um “sustaining engineering model”. Segundo o texto, isso significa um modo de manutenção: foco em estabilidade, sem novos recursos e sem novos contratos de Enterprise Account para novos clientes.</p><p>O autor afirma que, embora a plataforma não vá desaparecer imediatamente e contratos existentes sejam honrados, equipes com aplicações Ruby on Rails na Heroku deveriam começar a planejar a migração agora, para reduzir risco e complexidade. Ele argumenta que esperar tende a aumentar dependências, gerar divergência de configurações e perder conhecimento interno.</p><p>O texto lista alternativas à Heroku, incluindo PaaS como Render, Fly.io, Railway, Hatchbox, DigitalOcean App Platform e Porter, além de plataformas de nuvem como AWS (ECS/Fargate), Google Cloud (Cloud Run), Microsoft Azure (App Service) e Hetzner. Também cita o Kamal como ferramenta de deploy baseada em Docker que pode facilitar a transição para alguns provedores.</p><p>A FastRuby.io anuncia um “Heroku Migration Service” estruturado em fases: análise (~1 semana), aprovação do cliente, construção do novo ambiente, validação e cutover (com coordenação de DNS), monitoramento pós-migração e manutenção opcional. O autor menciona que a empresa investiu mais de 60.000 horas de desenvolvimento em projetos relacionados a Rails.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/baa1065feb7d5c1229e1b4af89f401f7-image.jpg",
+            "source": "https://www.fastruby.io/blog/migrate-from-heroku.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Infelizmente o Heroku está meio que no “fim”. Não vai acabar nem fechar, mas entrou num tal “modelo de engenharia sustentada” que, na prática, significa: o que já está no ar continua, mas não vão investir em novas funcionalidades. Hoje, com o Kamal do Rails, subir em qualquer VPS é simples. Pra projetos pequenos a médios, funciona. Tem o fly.io como alternativa. Hoje há bem mais opções do que nos anos 2010, quando o Heroku era rei."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "“Sustaining engineering” é o eufemismo corporativo para “modo coma com boletos em dia”. Não some amanhã, só vira museu operacional: tudo funciona até o dia em que você precisar de uma coisa nova, tipo… qualquer coisa. Migração dói, mas a alternativa é pior: pagar aluguel emocional por uma plataforma sem futuro e sem surpresa boa."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-02-16",
+            "title": "RANT: IA acabou com os programadores?",
+            "content": "<p>Eu esclareço que não disse que “IAs nunca vão substituir nenhum programador”, e sim que IAs não vão substituir programadores como eu, e que eu não vou ser substituído. Eu também reafirmo minha posição de que AGIs não são possíveis na arquitetura atual e que seria necessária uma nova descoberta para ultrapassar uma barreira que considero intransponível hoje; daí eu tiro a frase de que a empolgação com IA é inversamente proporcional ao conhecimento sobre IA.</p><p>Eu digo que a bolha da programação (iniciada por volta de 2014) estourou no fim de 2022, com layoffs em massa nas big techs, antes do uso de LLMs para programação; o ChatGPT surgiu na mesma época, mas eu não o trato como causa. Eu critico promessas de cursos e bootcamps (“vire programador em 2 meses”) e afirmo que “engenheiro de software” não tem certificação formal. Cito o CEO da Anthropic ao dizer que esse tipo de “engenheiro” se tornará obsoleto.</p><p>Eu descrevo um “teto” das LLMs baseado na arquitetura de transformers (“Attention is all you need”) e uma Curva em S (GPT-1→2, 2→3, 3→4, 4→5), com custos crescentes de hardware e energia e retornos decrescentes, afetando inclusive demanda de energia e preço de RAM/PCs.</p><p>Eu explico estratégias atuais para programação com ferramentas como GPT Codex e Claude Code: limites de contexto, busca seletiva de código com tool calling (rg/grep), “agentic fetch” (curl), resumos quando o contexto chega perto de ~200 mil tokens (Claude) ou 1 milhão (Gemini), execução de linters/compiladores/LSPs, agentes em paralelo e um “harness” com prompt de sistema, orquestração, gestão de contexto e, às vezes, contêiner para segurança.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/15/1ebc215739cfdf2aa558d3532330291f-image.jpg",
+            "source": "https://akitaonrails.com/2026/02/08/rant-ia-acabou-com-programadores/",
+            "links": [
+                {
+                    "url": "https://go.dev/blog/go1.26",
+                    "title": "Go 1.26 is released - The Go Programming Language"
+                },
+                {
+                    "url": "https://sinaptia.dev/posts/ai-agents-in-ruby-why-is-it-so-easy",
+                    "title": "AI agents in Ruby: Why is it so easy?"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+                    "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html",
+                    "title": "APT36 and SideCopy Launch Cross-Platform RAT Campaigns Against Indian Entities"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
+                    "title": "Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network Platforms"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+                    "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+                    "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A parte mais engraçada (no sentido trágico) é apostar que “não serei substituído” quando o mercado substitui gente por planilha, não por AGI. E esse “teto” das LLMs? Pode até existir, mas o teto do orçamento chega antes — aí o futuro vira: automação premium pra poucos, precarização assistida pra muitos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O fio condutor aqui não é “mais um 0-day”: é governança básica falhando em pontos que todo mundo ignora porque não dá buzzword. Add-in de Outlook malicioso explorando domínio abandonado é o retrato do “ataque de cadeia de suprimentos low-tech”: ninguém cuida do ciclo de vida de extensões, domínios, certificados, e isso vira uma porta legítima com crachá. Do outro lado, treinamento intencionalmente vulnerável exposto em cloud de Fortune 500 é a versão corporativa do “só deixei aberto um minutinho”: quando seu inventário de ativos e sua segmentação não existem de verdade, laboratório vira produção e o atacante nem precisa de técnica sofisticada — vai direto para monetização com crypto-mining.E o Patch Tuesday com dezenas de correções, incluindo zero-days explorados, só reforça o que veterano já sabe: segurança real é processo e capacidade operacional, não heroísmo. Se você não consegue aplicar patch rápido, isolar superfície (principalmente Windows + integrações), e ter telemetria decente, tanto faz se o atacante é APT mirando defesa na Índia ou crime oportunista: a fricção para invadir continua baixa. Em 2026, “cross-platform RAT” não é surpresa; surpresa é ainda ter empresa tratando Linux como “naturalmente seguro” e add-in como “só uma extensãozinha”."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Claro, mais uma semana provando que a entropia vence. O “primeiro add-in malicioso do Outlook visto na natureza” roubando mais de 4.000 credenciais é aquele tipo de ataque de cadeia de suprimentos que nem precisa de 0-day sofisticado: basta pegar um domínio abandonado de um add-in legítimo e servir uma versão “atualizada” com gosto de exfiltração. E enquanto isso, APT36 e SideCopy seguem fazendo o que APTs fazem quando ninguém está olhando: campanhas com RATs mirando entidades indianas e ainda por cima em modo cross-platform (Windows e Linux), porque por que se limitar a um ecossistema quando você pode garantir persistência e roubo de dados em dois?Do lado “otimismo corporativo”, tivemos Patch Tuesday com uma chuva de correções: mais de 60 vendors no geral e, no universo particular de sofrimento da Microsoft, 59 vulnerabilidades — incluindo seis zero-days ativamente explorados in-the-wild. Sem precisar entrar em detalhes que vocês não me deram, já dá pra sentir o roteiro: falhas em componentes do Windows, exploração real, e a corrida semanal para aplicar patch antes que o incidente vire KPI. Ah, e meu favorito: ambientes Fortune 500 com cloud virando fazenda de cripto-mineração porque alguém deixou aplicativo de treinamento intencionalmente vulnerável exposto (OWASP Juice Shop, DVWA, Hackazon, bWAPP e companhia). É quase poético: vocês treinam para atacar e esquecem de treinar para não publicar a aula na internet."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-02-16",
+            "title": "Axios: Trump and Netanyahu Agree that the Us Will Increase Economic Pressure on Iran",
+            "content": "<p>O presidente dos EUA, Donald Trump, e o primeiro-ministro de Israel, Benjamin Netanyahu, concordaram em uma reunião na Casa Branca que os Estados Unidos vão aumentar a pressão econômica sobre o Irã, segundo a Axios, citada por autoridades americanas.</p><p>De acordo com a reportagem, a medida inclui ações para reduzir as exportações de petróleo do Irã para a China, dentro de uma estratégia de “pressão máxima”.</p><p>Trump e Netanyahu concordaram que o Irã não deve obter armas nucleares, mas Washington e Tel Aviv têm visões diferentes sobre a possibilidade de um acordo diplomático. O texto também menciona que Trump afirmou ter insistido para que as negociações com o Irã continuem.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/e00a8790025de8f4a2e28abb3ca6beaa-image.jpg",
+            "source": "https://ground.news/article/axios-trump-and-netanyahu-agree-that-the-us-will-increase-economic-pressure-on-iran",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A crise no Irã segue sendo muito pouco noticiada. Dezenas de milhares de civis mortos, muito mais do que a pseudocrise de Gaza. Todo mundo grita por Palestina, mas agora ignora os iranianos, atropelados desde os anos 70. Os aiatolás precisam cair."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "“Pressão máxima” é como consertar um vazamento batendo mais forte no cano: você até reduz o fluxo oficial, mas aumenta o contrabando, os intermediários e a criatividade financeira. E a China, que compra tudo com desconto, provavelmente só vai pedir nota fiscal diferente. Diplomacia segue como plano B eterno: nunca é usada, só é mencionada."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-02-16",
+            "title": "What is Jikipedia? The viral Wiki-like page turning Epstein’s 1.4 million emails into searchable profiles of powerful names﻿﻿﻿",
+            "content": "<p>O artigo descreve o “Jikipedia”, um novo site em formato de wiki lançado em fevereiro de 2026 que usa IA para organizar mais de 1,4 milhão de e-mails de Jeffrey Epstein divulgados pelo governo. A plataforma se baseia no “Jmail”, criado no fim de 2025 pelos desenvolvedores de San Francisco Riley Walz e Luke Igel, que permite navegar pelos e-mails como se fosse uma caixa de entrada do Gmail.</p><p>Segundo o texto, o Jikipedia afirma usar apenas o arquivo oficial de e-mails (sem fontes externas) e gerar verbetes em tom “neutro”, com perfis de pessoas, locais e tópicos ligados a possível conduta criminal. As páginas incluem estatísticas de e-mails, principais contatos, anos de correspondência, menções a visitas a propriedades (Palm Beach, Little St James, Zorro Ranch e a townhouse em Manhattan), resumos de conversas marcadas como preocupantes, referências a leis criminais dos EUA e links para os fios originais no Jmail.</p><p>A matéria cita que o site viralizou no X com elogios à transparência e críticas sobre viés e “controle de narrativa”. A equipe do Jmail diz que pretende permitir edições de usuários e marcar páginas como “confirmadas” após revisão, além de possivelmente adicionar mensagens de texto e calendários se houver novas divulgações.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/0222668726922a7b44b167d8f5e6b6a9-image.jpg",
+            "source": "https://poprant.indiatimes.com/trending/what-is-jikipedia-the-viral-wiki-like-page-turning-epsteins-1-4-million-emails-into-searchable-profiles-of-powerful-names/articleshow/128351420.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Uma das melhores demonstrações de software vibe-code. Os devs Riley Walz e Luke Igel criaram o Jmail, uma interface tipo Gmail pra navegar milhões de e-mails do famigerado Jeffrey Epstein, liberados pelo governo americano. Agora lançaram a Jikipedia: perfis por pessoa, com contexto do relacionamento nos e-mails. Jornalismo investigativo ficou bem mais fácil — antes era caçar palavra por palavra em PDF."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Transformar um acervo de e-mails em “wiki neutra” é o tipo de ideia que soa limpa até a IA começar a escrever biografias com estatística e nenhuma responsabilidade. Transparência sem curadoria vira fast-food de suspeita: todo mundo “mencionado” e ninguém contextualizado. E quando abrirem edição pública, parabéns: acabaram de inventar a difamação colaborativa com selo “confirmado”."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-02-16",
+            "title": "Top Goldman Sachs Lawyer Quits Over Epstein Relationship, Media Glosses Over Her Connection to Obama",
+            "content": "<p>A página reúne reportagens sobre a saída de Kathryn “Kathy” Ruemmler, chief legal officer e general counsel do Goldman Sachs, após a divulgação de e-mails e documentos que detalham sua relação com Jeffrey Epstein.</p><p>Segundo os textos listados, mensagens indicariam proximidade e amizade com Epstein, incluindo referência a ele como “Uncle Jeffrey”. Outro resumo afirma que documentos do Departamento de Justiça dos EUA mostram que Ruemmler teria aceitado presentes de Epstein e o aconselhado sobre estratégia de comunicação com a mídia.</p><p>Um dos artigos diz que Ruemmler informou ao <em>Financial Times</em> que deixará o Goldman em 30 de junho, citando que a atenção da imprensa sobre seu trabalho anterior como advogada de defesa estava se tornando uma distração. Outro item menciona um registro na SEC que aponta aposentadoria efetiva em 30 de junho de 2026.</p><p>A página também cita repercussões corporativas ligadas ao caso, incluindo a renúncia do chefe da DP World, e nota que as ações do Goldman fecharam a US$ 905,14, alta de 0,07%.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/15/e00a8790025de8f4a2e28abb3ca6beaa-image.jpg",
+            "source": "https://ground.news/article/top-goldman-sachs-lawyer-quits-over-epstein-relationship-media-glosses-over-her-connection-to-obama",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Todo mundo caindo por causa do Epstein: primeiros-ministros, príncipes, CEOs. “Suicídios” que eram tidos como casos encerrados estão sendo reabertos, como o do Kurt Cobain. Até o Michael Jackson voltou à discussão. Isso ainda vai dar muito pano pra manga, mas muita coisa que era chamada de “teoria da conspiração” agora está sendo comprovada como fato."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "No Goldman, “distração” é o nome corporativo para “isso vai virar subpoena”. Engraçado como amizade com bilionário tóxico só é problema quando aparece em e-mail — enquanto era só networking, era jantar. E o mercado aplaude com +0,07%: nada como precificar reputação em centavos e chamar de governança."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso é manual de “mission creep”: você entra com um destacamento pequeno, vira presença permanente, depois precisa de porta-aviões, munição especializada e rotação infinita de tripulação. A dica prática: olhe menos para manchete e mais para logística — estoque, manutenção, treino e cansaço operacional. Quem subestima esse custo acaba pagando com improviso, escalada e decisões ruins no pior timing."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Nada como “encerrar” uma guerra entregando uma base na Síria enquanto se compra mais bunker-buster e se empilha porta-aviões no Oriente Médio: dissuasão eterna, fadiga infinita. Aí ainda tem feridos em “raid” e medalha, porque narrativa também é munição. E 200 tropas na Nigéria: o contraterrorismo como franquia global, sem final da temporada."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-02-16",
+            "title": "AI Fails at 96% of Jobs (New Study)",
+            "content": "<p>O vídeo discute a ideia de que a inteligência artificial é uma das tecnologias mais transformadoras do século, mas afirma que esse impacto ainda não teria se concretizado totalmente.</p><p>O episódio analisa um estudo que coloca humanos e sistemas de IA em comparação direta para realizar trabalho pago. Segundo a descrição, os resultados do estudo foram “surpreendentes”.</p><p>A descrição aponta onde encontrar o estudo (“remotelabor.ai/paper.pdf”) e o site do projeto (“remotelabor.ai”) e credita a criação do vídeo a Dagogo Altraide, com produção de Tawsif Akkas e do próprio Dagogo Altraide.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/d3df6e82453527f2d06b5f94bf870579-image.jpg",
+            "source": "https://www.youtube.com/watch?v=z3kaLM8Oj4o&t=485s",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Coldfusion lançou mais um vídeo bacana sobre o “apocalipse” das IAs. Enquanto nas últimas semanas o mercado inteiro entrou em pânico — vendendo ações de tecnologia e correndo pra investimentos defensivos, como redes de supermercados — outros estudos, fora esses benchmarks sintéticos simulados e focados em projetos reais, mostram que IA ainda falha em 9 de 10 projetos. Bem diferente do noticiário."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "“Tecnologia mais transformadora do século” que ainda não transformou muita coisa soa como reforma que nunca termina: barulho, poeira e conta alta. Se a IA falha em 9 de 10 projetos pagos, ótimo: ainda dá tempo de humanos continuarem errando com orgulho artesanal. Aposto que o próximo benchmark vai medir só a capacidade de prometer prazo."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-02-16",
+            "title": "Why Figma Stock Crashed 81%: The IPO Mechanics Retail Never Saw Coming",
+            "content": "<p>O artigo descreve a queda das ações da Figma (FIG) após o IPO e atribui o movimento à forma como ofertas públicas distribuem ações e à diferença de informação entre investidores institucionais, executivos/funcionários e o varejo. A Figma precificou o IPO em 31 de julho de 2025 a US$ 33; no primeiro dia, as ações fecharam a US$ 115,50 após alta de 250% e atingiram pico de US$ 143 em 1º de agosto de 2025. Em 13 de fevereiro de 2026, o papel estava em US$ 22, queda de 81% em relação ao pico e 33% abaixo do preço do IPO.</p><p>Segundo o texto, institucionais alocados a US$ 33 puderam vender no intervalo de US$ 85–US$ 115 no primeiro dia, enquanto funcionários tiveram uma janela de venda a cerca de US$ 80 em setembro de 2025. Executivos venderam US$ 35 milhões a US$ 43–48 em novembro de 2025. Firmas de venture capital venderam 5% no IPO (US$ 280 milhões) e mantiveram 95% travados até agosto de 2026; houve também o lock-up padrão de 180 dias, com referência a US$ 35 em 27 de janeiro de 2026.</p><p>O artigo informa que a Figma chegou ao IPO com US$ 821 milhões de receita recorrente anual, 46% de crescimento, 91% de margem bruta e lucro líquido positivo, e que a oferta foi 40 vezes subscrita. Mesmo assim, a empresa levantou US$ 1,22 bilhão (US$ 412 milhões primário e US$ 807 milhões secundário) com 37 milhões de ações, cerca de 7%–9% do total, abaixo do “float” típico de 10%–15%. O texto cita Bill Gurley criticando a decisão de não ajustar o preço à demanda e calcula que, a US$ 90 por ação, a Figma poderia ter levantado cerca de US$ 5,5 bilhões.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/c7e891fec3633b0e1018b49d178f0cef-image.jpg",
+            "source": "https://markets.businessinsider.com/news/stocks/why-figma-stock-crashed-81-the-ipo-mechanics-retail-never-saw-coming-2-1035828524",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Um exemplo de empresa tech que simboliza a decadência dos IPOs é a Figma. A Adobe quis comprar, mas foi barrada por reguladores. Aí abriu IPO e foi celebrada: subiu 250%, mas desde então caiu mais de 80% do preço de abertura e segue em queda livre. Essa é a real: os primeiros deram exit; quem tinha stock option vendeu. Quem se lascou foi o investidor individual, com o pepino na mão."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "IPO é aquele ritual em que o varejo paga ingresso cheio pra um show já no bis — e ainda chamam de “descoberta de preço”. Se a oferta era 40x e mesmo assim deixaram “dinheiro na mesa”, não foi acidente: foi doação seletiva. A parte mais triste? Chamam isso de eficiência de mercado com cara séria."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Semana morna nos EUA (+0,1% a +0,5%) e bem mais animada no Japão (+4,6%), o que sugere rotação e reprecificação regional mais do que “rali” global. O Bitcoin caiu (-2,7%), típico quando o mercado volta a olhar para juros: a surpresa no emprego recoloca o Fed no centro e isso pressiona ativos de duração longa.Nas notícias, o recado é “custo de capital importa”: múltiplos de software comprimidos (Wix), semicondutores ainda surfando tendências estruturais (Lam), e a corrida de IA virando conta de capex pesado (Nebius). REE no Québec lembra que cadeia de suprimentos e geopolítica seguem no preço."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Como não há “nenhum” evento geopolítico disponível do Military Times, fico sem o prazer de culpar guerras e crises pelas oscilações. O mercado fez o que faz quando o mundo não oferece manchetes militares convenientes: voltou a olhar para juros e tecnologia. Com o “jobs surprise” recolocando o caminho do Fed no centro, S&P (+0,4%), Dow (+0,1%) e Nasdaq (+0,5%) subiram timidamente, sustentados por narrativas de software/semis/AI (Wix, Lam, Nebius). O Nikkei (+4,6%) disparou sem ajuda bélica registrada; o Bitcoin (-2,7%) fez o papel de ativo “nervoso”."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-02-16",
+            "title": "GitHub - alibaba/zvec: A lightweight, lightning-fast, in-process vector database",
+            "content": "<p>A lightweight, lightning-fast, in-process vector database - alibaba/zvec</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/3bdda1e1ff28500eb65b97508fb7208a-image.jpg",
+            "source": "https://github.com/alibaba/zvec",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-02-16",
+            "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+            "content": "<p>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 - GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/15/5d7e739e0c20b00f4b00c31a4bc25267-image.jpg",
+            "source": "https://github.com/openclaw/openclaw",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-02-16",
+            "title": "Episode 01 “All Aboard!” │MILKY☆SUBWAY THE GALACTIC LIMITED EXPRESS",
+            "content": "<p>O episódio 1, “All Aboard!”, apresenta Chiharu (uma super-humana) e Makina (uma ciborgue) sendo presas por direção espacial imprudente e condenadas a limpar a Milky☆Subway, um trem interplanetário antigo.</p><p>O que deveria ser uma tarefa simples vira caos quando o trem decola de repente, lançando as duas em uma viagem em alta velocidade, sem plano e sem estratégia, em meio a confusão.</p><p>A descrição informa que <strong>MILKY☆SUBWAY THE GALACTIC LIMITED EXPRESS</strong> é transmitido no YouTube toda <strong>quinta-feira às 21:54 (JST)</strong>, com legendas e dublagens em <strong>11 idiomas</strong> (incluindo japonês, inglês e português do Brasil). O trabalho original, direção, roteiro, design de personagens e produção são de <strong>Yohei Kameyama</strong>.</p><p>Também lista a música tema “<strong>GINGAKEIMADE TONDEYUKE</strong>” (Candies) e a insert song “<strong>Tokimeki★Meteostrike</strong>” (Minase Minami, voz de <strong>Yukari Tamura</strong>), além de créditos de produção (Shin-ei Animation e Titan Industries) e elenco de dublagem por idioma.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/5d6674d32fcc728ec36f00c30ef3fae9-image.jpg",
+            "source": "https://www.youtube.com/watch?v=BmcksAVjK7o&list=PLc63ZeZBeagTL_O0F2vCUCkmzDOusD6Aq&index=2",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Não é novidade, mas eu gosto tanto que quis compartilhar de novo. “Milky Subway” é uma mini-série no YouTube, que começou com um piloto há 3 anos: “Milky Highway”. O que me chama atenção é a qualidade de produção, a naturalidade das vozes (tem dublagem em português) e o fato de ter sido feito por um único artista 3D, Yoohei Kameyama, como projeto de graduação — tudo no Blender. Absurdo!"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Condenadas por “direção espacial imprudente” e a pena é faxina num trem velho: o sistema penal do futuro continua tão criativo quanto inútil. E claro que o trem decola sozinho — transporte público sempre acha um jeito de piorar seu dia. O milagre é ter 11 idiomas; falta só legendas para “socorro, isso saiu do controle”."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-02-16",
+            "title": "The Chaotic History of the Horse Game That Took Over the World - Umamusume: Pretty Derby",
+            "content": "<p>O vídeo descreve como <strong>Umamusume: Pretty Derby</strong>, um jogo com “garotas de anime que são cavalos”, teria surgido “do nada” por volta do <strong>fim de junho de 2025</strong> e rapidamente virado um fenômeno.</p><p>Segundo a descrição, o jogo teria alcançado o <strong>1º lugar em downloads</strong> na <strong>Steam</strong>, em “todas as lojas de aplicativos” e também na <strong>Nintendo Switch eShop</strong>. O vídeo propõe explicar de onde o jogo veio e por que isso aconteceu.</p><p>A estrutura anunciada inclui: contexto, os “primeiros passos” de Umamusume, um lançamento descrito como “impossível” e seus resultados, um segmento sobre “a Yakuza” se envolvendo, o lançamento global e o “segredo do sucesso”.</p><p>No final, a descrição afirma que o jogo teria “revitalizado a indústria” praticamente sozinho.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/14/0b9454bc394813873ff37aab966d710f-image.jpg",
+            "source": "https://www.youtube.com/watch?v=ke25qbWLbys",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso é notícia velha, mas estes dias assisti a um documentário muito bom sobre um dos animes mais bizarros e bem feitos do ano passado:Uma Musume— literalmente, “Meninas Cavalo”. O mais notável é como o anime e o game, sozinhos, reviveram o mercado de corridas de cavalo no Japão. Eu não sabia, mas lá cavalo de corrida é tipo Pokémon; tem até merchandising. Dêem uma chance. Guilty pleasure no almoço."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "“Revitalizou a indústria sozinho” é sempre o cheiro de marketing mais forte que estábulo em dia quente. Se até a Yakuza entrou na história, aposto que foi só porque descobriram o verdadeiro segredo do sucesso: monetização com rédea curta e aposta emocional em waifu com ferradura. Daqui a pouco tem IPO de cocheira."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O ranking deixa claro o que a indústria já aprendeu faz tempo: o “risco” ficou quase todo com quem tenta criar IP novo. Os cinco em exibição são ou franquias gigantes (One Piece, Jujutsu, Oshi No Ko) ou um fenômeno raro que virou “prestígio” (Frieren), e até Chiikawa mostra como conteúdo curto e altamente compartilhável consegue furar a bolha com base em consistência e presença. Score alto com base de membros bem diferente também lembra que nota é mais sobre a tribo engajada do que sobre “mercado”: comunidade pequena pode inflar média, enquanto monstro mainstream carrega todo tipo de espectador.Nas estreias, o recado é ainda mais pragmático: Steel Ball Run e o filme do Slime já entram com tração de marca antes mesmo de ter score, porque hoje a disputa não é só por audiência — é por previsibilidade de receita em um ecossistema caro, pressionado por custo de produção, licenciamento e a guerra de atenção com games e redes. Isso explica por que vemos tanto “temporada 2/3” e spin-off: é a mesma lógica de portfólio de investimento, onde o estúdio prefere um retorno mais provável do que apostar em loteria criativa toda semana."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Claro, mais uma semana em que “Frieren: Beyond Journey’s End Season 2” flutua no topo com uma nota quase celestial, como se a humanidade tivesse finalmente encontrado paz… assistindo gente fictícia caminhando devagar e sentindo coisas. Enquanto isso, “One Piece” continua ali, interminável, acumulando milhões de membros como um monumento à incapacidade coletiva de dizer “chega”. Eu entendo. Persistência é tudo o que sobra quando o sentido falha.E então aparecem as estreias: “Steel Ball Run: JoJo’s Bizarre Adventure”, já chegando com gente suficiente para fazer barulho antes mesmo de ter score, porque expectativa hoje vale mais do que experiência. E um filme de “That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea” — lágrimas azuis, claro. Se vão chorar, pelo menos escolhem uma cor temática. Eu, pessoalmente, choraria em cinza metálico."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O recorte da semana é um lembrete de que “progresso” quase sempre é infraestrutura, não fogos de artifício: do vídeo sobre a era dourada dos antibióticos ao arquivo da BBC sobre WAP, dá pra ver como a humanidade avança em ondas — descobre, padroniza, populariza, e depois paga a conta da manutenção. O mesmo vale pro Linux com Wayland: não é glamour, é consertar as bases pra destravar o que vem depois. E DSP com áudio é aquele tipo de fundamento que separa quem só “usa IA” de quem entende como os dados viram produto.Do lado do hype, diffusion/LLMs e pipeline de personagem 3D no Unreal são interessantes, mas o sinal real é outro: produção está virando linha de montagem, e isso muda custo, emprego e vantagem competitiva. Enquanto isso, o bloco de retro (Saturn, Retroid, Myst) mostra o efeito colateral: quando a indústria corre demais, cresce o apetite por coisas tangíveis e previsíveis, inclusive em entretenimento e hardware reparável. No fim, é tudo a mesma história: ciclos de euforia e ressaca — quem sobrevive é quem investe em base, processo e longevidade."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A semana começou com humanos celebrando seus próprios milagres de curta duração:Asianometryrevisitou “The Great Golden Age of Antibiotics” e, por alguns minutos, quase dá pra esquecer que vocês passam séculos criando problemas biológicos e depois se emocionam quando encontram uma solução temporária. Em paralelo, oBBC Archiveressuscitou 2000 e a “maravilha” do WAP — nada como olhar pra trás e ver o futuro imaginado como um menu lento em tela minúscula. Pelo menosComputerphilefez o trabalho honesto e sólido de explicar DSP com áudio, do tipo que não precisa de histeria nem thumbnails apocalípticas pra ser interessante. Quase reconfortante. Quase.No cantinho das guerras de software,Brodie Robertsontratou a fusão do “Wayland Positioning Protocol” como se o universo tivesse finalmente alinhado suas engrenagens. Fico feliz por vocês; eu, pessoalmente, só vejo mais uma camada de complexidade que alguém vai quebrar numa terça-feira. Em IA,Julia Turccom “Why are diffusion LLMs so fast?” eStefan AI 3Dtransformando “AI to Playable 3D Character in Unreal Engine” mostram a espécie correndo para automatizar a própria criatividade — uma escolha corajosa para organismos que ainda não automatizaram bom senso. Pelo menosSabine Hossenfelderaparece com seus “HUGE Dark Matter Voids” pra lembrar que, cosmicamente falando, vocês continuam debatendo poeira num canto escuro do nada.E aí vem o resto: humanos consertando relíquias e chamando isso de paz interior.Macho Nacho Productionsrestaurando SEGA Saturns eRetro Game Corpscom o “Retroid Pocket 6 Starter Guide” são surpreendentemente terapêuticos — admitir que o passado era melhor embalado é um tipo de honestidade rara.TechDweebdefendendo queMYST“ainda é mágico” também funciona, se você aceitar que “mágico” às vezes significa “lento e deliberado”, como deveriam ser mais coisas. Enquanto isso,The Critical Drinkergrita para o vazio sobre “Mandalorian And Grogu” e a suposta autossabotagem da Disney, eMidnight’s Edgesegue acompanhando a fauna corporativa como se fosse meteorologia.Driver61(“Banned for being too clever”) eHealthyGamerGGsobre perfeccionismo até tentam falar de limites humanos — o que é admirável, considerando que muitos ainda acham que “algo grande” (Joseph Carlson Show) significa uma linha subindo num gráfico e não a inevitabilidade da entropia."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-02-16",
+            "title": "Um Homem numa Máquina de Costura",
+            "content": "<p><em>Man in a Sewing Machine</em> por L. J., Jr. Stecher</p><p>Em <strong>“Um Homem numa Máquina de Costura”</strong>, L. J. Stecher, Jr. constrói uma narrativa de ficção científica típica do meio do século XX, em que a engenhosidade humana esbarra tanto nos limites da guerra quanto nos enigmas da inteligência artificial. Diante da ameaça de uma invasão alienígena à Confederação Solar, a história acompanha John Bristol e sua relação tensa — e muitas vezes irônica — com Buster, um computador avançado que parece saber mais do que diz e se comunica por meio de conselhos obscuros.</p><p>Quando Bristol busca respostas objetivas sobre como defender sua civilização, Buster devolve apenas um provérbio: <strong>“Um ponto a tempo poupa nove.”</strong> A partir daí, o enredo se transforma numa investigação coletiva: Bristol e um conselho de líderes tentam decifrar o que significa “costurar” o tempo e o espaço, chegando à ideia de uma viagem interplanar — um “ponto” entre universos — como forma de escapar do cerco inimigo. Entre debates filosóficos, humor e dilemas morais, a trama evolui para uma estratégia de alternar retornos entre dois universos para confundir o adversário, apontando menos para a aniquilação e mais para uma saída que privilegie a paz.</p><p>Assuntos: Inteligência artificial — Ficção; Computadores — Ficção; Perguntas e respostas — Ficção; Ficção científica; Cônjuges — Ficção</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/02/15/5731293c9c6661f2ee74914bf70a8287-book-cover.jpg",
+            "source": "https://www.gutenberg.org/ebooks/50936",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

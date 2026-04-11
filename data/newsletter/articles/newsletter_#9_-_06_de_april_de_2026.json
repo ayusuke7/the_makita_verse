@@ -1,0 +1,523 @@
+{
+    "title": "Newsletter #9 - 06 de April de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/04/06/",
+    "subtitle": "Vazamentos de Código e Censura Global: Semana Explosiva",
+    "published_at": "2026-04-06",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Qwen 3.5 Omni: Alibaba’s AI Model Can Now Hear, Watch, and Clone Your Voice - Decrypt",
+            "content": "<p>A equipe Qwen da Alibaba lançou o Qwen 3.5 Omni no domingo, um modelo de IA omnimodal que processa texto, imagens, áudio e vídeo simultaneamente, respondendo em tempo real em 36 idiomas. O modelo vem em três tamanhos — Plus, Flash e Light — com janela de contexto de 256 mil tokens, treinado em mais de 100 milhões de horas de dados audiovisuais. É uma evolução do Qwen 3 Omni Flash, de dezembro de 2025, com melhorias em raciocínio, suporte a idiomas e interações em tempo real.</p><p>Principais atualizações incluem interrupção semântica, técnica ARIA para fala natural, clonagem de voz via API, busca web em tempo real e codificação audiovisual para gerar código a partir de vídeos. Em benchmarks, o Qwen 3.5 Omni Plus superou ElevenLabs, GPT-Audio e Minimax em estabilidade de voz multilíngue em 20 idiomas, e Gemini 3.1 Pro em compreensão audiovisual. O modelo está disponível via API da Alibaba Cloud, Qwen Chat e demo no Hugging Face.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/daaff05d0497e61c6257355531fb9a0a-image.jpg",
+            "source": "https://decrypt.co/362742/alibaba-qwen-omni-major-upgrade-review",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Alibaba lançou a nova versão do seu modelo Qwen, o Qwen 3.5 Omni, treinado para vídeo, áudio e texto. É um modelo multimodal, ou “omni-modal”, como eles chamaram. Mas desta vez parece que não vão lançar como modelo aberto, sinalizando uma mudança no modelo de negócios. Dos abertos, o Qwen era um dos melhores. Ainda não chega nos de fronteira como GPT-4o ou Claude 3.5, mas dadas as limitações, é impressionante, e esta versão deve torná-lo ainda mais versátil para mais usos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita se impressiona com a versatilidade, eu vejo o Qwen 3.5 Omni como mais um avanço chinês que estreita a lacuna com o Ocidente, mas sem modelo aberto, ele beneficia principalmente a Alibaba, limitando inovações colaborativas globais. No fim, isso acelera a IA multimodal, mas reforça monopólios corporativos em vez de liberdade criativa."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "RubyGems Fracture Incident Report",
+            "content": "<p>O incidente “RubyGems Fracture” ocorreu entre 10 e 18 de setembro de 2025, quando engenheiros André Arko e Samuel Giddins anunciaram saída da Ruby Central. A organização tentou revogar acessos ao GitHub e RubyGems.org, mas faltava controle administrativo, levando a mudanças mal comunicadas. Isso resultou na saída em protesto de contribuintes pagos, incluindo David Rodríguez, Ellen Dash, Josef Šimánek, Martin Emde e Samuel Giddins, que alegaram controle exclusivo sobre a organização GitHub.</p><p>A Ruby Central identificou falhas como ausência de políticas de offboarding e documentação operacional, iniciadas em julho/agosto de 2025. Sugestões incluem distinguir pedidos de ações, explicar mudanças de acesso, realizar operações sensíveis publicamente e desacoplar acesso de identidade pessoal. Agora, há procedimentos documentados, e a organização contatou desenvolvedores afetados para esclarecimentos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/e5fb6408c8be484d3d223187b22048f1-image.jpg",
+            "source": "https://rubycentral.org/news/rubygems-fracture-incident-report/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Uma notícia bem de nicho foi o drama da ingerência no RubyGems pela Ruby Central. Richard Schneeman, ex-Heroku e agora na Ruby Central, fez um excelente post-mortem com a cronologia. Fico contente em ver o chatíssimo André Arko e sua trupe finalmente fora do RubyGems. O processo foi mais conturbado do que deveria por falta de governança. Numa semana de supply-chain attacks como o do Axios NPM, é crucial uma administração mais competente. Espero que Richard ajude a implementar processos melhores."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esse incidente no RubyGems expõe a fragilidade de projetos open-source quando egos e falta de governança colidem: saídas em massa enfraquecem a comunidade, e as novas políticas de offboarding podem bureaucratizar tudo, transformando colaboração espontânea em um labirinto corporativo. No fim, quem perde é o ecossistema Ruby, mais vulnerável a ataques reais enquanto lida com dramas internos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Google Suggests Quantum Attacks on Cryptocurrency Encryption May Require Fewer Resources",
+            "content": "<p>Pesquisadores do Google Quantum AI relatam que quebrar sistemas criptográficos de criptomoedas pode exigir menos recursos quânticos do que estimado anteriormente. Otimizações no algoritmo de Shor permitem resolver o problema de logaritmo discreto em curva elíptica de 256 bits com menos de 1.200 qubits lógicos e dezenas de milhões de operações quânticas. Isso representa uma redução de uma ordem de grandeza nos recursos necessários, podendo ser executado em menos de 500.000 qubits físicos em minutos.</p><p>O estudo destaca vulnerabilidades em blockchains, com ataques “on-spend” para transações em andamento e “at-rest” para carteiras inativas. Recursos como contratos inteligentes expandem o risco, mas proof-of-work do Bitcoin resiste. Os pesquisadores recomendam transição para criptografia pós-quântica e medidas interinas, como evitar reutilização de endereços, usando prova de conhecimento zero para divulgação responsável.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/8e9f2c86974498ad0bf15696fc09fdcf-image.jpg",
+            "source": "https://thequantuminsider.com/2026/03/31/google-suggests-quantum-attacks-on-cryptocurrency-encryption-may-require-fewer-resources/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Google continua na pesquisa de computação quântica. Seu novo paper indica a possibilidade teórica de otimizar uma ordem de grandeza para quebrar criptografia de curva elíptica com o algoritmo de Shor, usando menos de 500 mil qubits físicos e pouco mais de 1.200 lógicos. O estado da arte é o Willow, com uns 100 qubits. Eles trabalham em nova correção de erros para mais qubits lógicos com menos físicos. Tudo teórico: roadmaps não valem nada sem implementação. Criptografia atual resiste a ameaças quânticas; pós-quânticos já estão sendo adotados. Teoria demais, prática de menos. Como sempre digo: não vamos ver isso tão cedo. Vocês não imaginam a dificuldade de manter qubits estáveis para essas computações."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita descarta como teoria distante, essa redução drástica em qubits lógicos acelera o colapso da criptografia atual, beneficiando governos e corporações com acesso quântico primeiro. Blockchains descentralizados perdem, e a liberdade financeira individual vira refém de uma corrida para pós-quântica – uma vitória irônica para os centralizadores que tanto detestamos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "O código fonte do Claude Code vazou. O que achamos dentro.",
+            "content": "<p>Eu descobri que o código-fonte completo do Claude Code, a CLI da Anthropic para programação com IA, vazou acidentalmente via source map no npm, com 512 mil linhas de TypeScript e 1.900 arquivos. O pesquisador Chaofan Shou encontrou isso em 31 de março de 2026, e a Anthropic atribuiu a um erro humano no empacotamento. Eu uso o Claude Code diariamente e analisei o código, revelando features ocultas como o modo KAIROS, um assistente proativo que observa e age autonomamente, e o Buddy, um companion estilo Tamagotchi com stats e animações ASCII.</p><p>O leak expôs um sistema de memória em três camadas com índice leve e consolidação via subagente “Dream”, além de orquestração multi-agente e defesas contra cópia, como anti-distillation e client attestation. Há codinomes internos como Tengu e mecanismos para detectar frustração do usuário via regex. Achados técnicos incluem caps de 2.000 linhas por arquivo e truncamento de resultados em 50.000 caracteres.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/5297df76fb03194665ce955804e72f53-image.jpg",
+            "source": "https://akitaonrails.com/2026/03/31/codigo-fonte-do-claude-code-vazou-o-que-achamos-dentro/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Então, a Anthropic, obcecada em proteger sua IA de cópias, expõe tudo por um erro bobo de empacotamento. Agora, features como assistentes proativos vazam para o mundo, acelerando inovações open-source e expondo defesas fracas. Liberdade técnica born from falha humana: ironicamente, o melhor antídoto contra o monopólio da Big Tech."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Migrando meu Home Server com Claude Code | openSUSE MicroOS",
+            "content": "<p>Eu migrei meu home server de um Intel NUC antigo com Ubuntu Server bagunçado para um novo Minisforum MS-S1 Max usando openSUSE MicroOS, que é imutável com atualizações atômicas e rollbacks rápidos. Escolhi MicroOS por permitir uso interativo via SSH, diferente do Fedora CoreOS, e configurei NFS do NAS Synology em /var/mnt/terachad com otimizações como nfsvers=4.1 e buffers de 256KB. Usei Claude Code para acelerar a migração, reorganizando 49 containers Docker em stacks padronizados em /var/opt/docker, incluindo media com Plex em macvlan, Ollama com ROCm para GPU gfx1151 e Gitea como registry privado.</p><p>Enfrentei problemas com SELinux enforcing, resolvidos com security_opt: label:disable nos containers, e configurei backups diários com restic para /var, snapshots btrfs e dumps de bancos Postgres. Otimizei com compressão zstd, zram para swap e desabilitei CoW em diretórios de bancos de dados. No final, forneci instruções para refazer a migração com Claude, enfatizando cuidados com SELinux, volumes NFS e configs de GPU.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/6cc71d95597b56b709d16a9df1815a99-ai-image.png",
+            "source": "https://akitaonrails.com/2026/03/31/migrando-meu-home-server-com-claude-code/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Migrar para um OS imutável como o MicroOS parece uma vitória contra o caos de configurações manuais, mas no fundo só adia o inevitável: quando o hardware envelhecer, toda essa otimização vira poeira digital, e você repete o ciclo. Akita ignora que a verdadeira liberdade está em sistemas flexíveis, não em rollbacks robóticos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Axios Compromised by Malicious NPM Dependency",
+            "content": "<p>O pacote Axios foi comprometido em um ataque à cadeia de suprimentos, adicionando uma dependência maliciosa chamada plain-crypto-js na versão 4.2.1, que instala um RAT (Remote Access Trojan) em sistemas Windows, MacOS e Linux. As versões afetadas do Axios são 1.14.1 e 0.30.4, levando à instalação automática da dependência maliciosa durante a instalação do pacote. O malware se conecta ao servidor C2 sfrclak[.]com na porta 8000, baixa payloads específicos para cada SO e permite controle remoto total, incluindo roubo de credenciais e chaves.</p><p>A análise técnica revela que o malware executa scripts obfuscados, realiza fingerprinting de hardware e coleta dados de processos e arquivos. No MacOS, usa AppleScript para execução; no Windows, implementa persistência via PowerShell e chaves de registro. Recomenda-se desinstalar imediatamente as versões afetadas, rotacionar chaves e credenciais, e assumir comprometimento total da máquina.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/01/796da912d3a7327490b417e9713d39b1-image.jpg",
+            "source": "https://www.ox.security/blog/axios-compromised-with-a-malicious-dependency/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Nessa semana de acidentes em tech, o mais high-profile foi o ataque de supply chain na biblioteca Axios. Não é novidade: um mantenedor de pacote npm, sem treinamento em segurança, caiu em phishing, perdeu credenciais e o projeto foi atacado. Axios é usado em tudo; quem atualizou baixou malware de cripto e sabe-se lá o quê. NPM precisa melhorar muito a segurança. Como eu sempre digo: parem de clicar em links de e-mails sem atenção. Sem disciplina? Instalem antivírus para checar e-mails."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais um furo na ilusão de que o ecossistema npm é à prova de falhas: milhares de dispositivos agora sob controle remoto, com credenciais roubadas e payloads personalizados por OS. Os verdadeiros perdedores são os devs que confiam cegamente em atualizações automáticas, e o próximo phishing vai repetir a dose, porque lições de segurança evaporam rápido."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
+            "content": "<p>A Cloudflare reconstruiu o WordPress do zero, criando o EmDash, um novo CMS open-source licenciado sob MIT e escrito em TypeScript. O EmDash é serverless, compatível com funcionalidades do WordPress, mas sem usar seu código, e é alimentado pelo framework Astro para sites rápidos. Ele pode ser executado em hardware próprio ou qualquer plataforma, com plugins isolados em sandboxes via Dynamic Workers para resolver problemas de segurança.</p><p>No WordPress, 96% das vulnerabilidades vêm de plugins, que acessam diretamente bancos de dados e arquivos sem isolamento. O EmDash exige que plugins declarem capacidades específicas no manifesto, limitando ações e permitindo aprovações baseadas em permissões, sem necessidade de marketplaces centralizados. Além disso, suporta o padrão x402 para pagamentos nativos na internet, facilitando monetização de conteúdo sem assinatura.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/01/82df6397f0ff2422c367903f28d21014-image.jpg",
+            "source": "https://blog.cloudflare.com/emdash-wordpress/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Depois de terem codado Next.js com vibe em 1 semana, a Cloudflare está de volta com outro projeto open source: EmDash, feito em TypeScript, que eles estão empurrando como sucessor do famigerado WordPress. Já passou da hora de o WordPress morrer — é uma relíquia dos anos 2000 com uma das estruturas mais inseguras da web. Só pelos bugs constantes de segurança, não vale a pena usar. Nem todo mundo é dev para usar um Hugo da vida, então precisa de admin web com workflow editorial. É isso que o EmDash vai tentar substituir. Vamos ver se conseguem, pois não é a primeira tentativa de destronar o WordPress."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A Cloudflare, com sua mania de reinventar a roda, pode finalmente dar um empurrãozinho para enterrar o WordPress, essa bagunça jurássica de vulnerabilidades. Com plugins isolados e pagamentos nativos, o EmDash promove liberdade real na web, sem marketplaces controladores — mas a inércia dos usuários preguiçosos provavelmente vai mantê-lo como um nicho brilhante por anos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Bitcoin no Home Server: Soberania e Privacidade com Coldcard, Sparrow e Fulcrum",
+            "content": "<p>Eu complementei meus artigos anteriores sobre home server com openSUSE MicroOS e Minisforum MS-S1 Max, mostrando como montar uma stack de Bitcoin focada em privacidade e soberania operacional. Eu uso Coldcard como cold storage airgapped para assinar transações offline via microSD, evitando riscos de supply chain ao comprar diretamente do fabricante. Eu evito exchanges e wallets públicas para reduzir exposição de metadados e custódia.</p><p>No meu setup, Sparrow Wallet no Linux se conecta ao Fulcrum, um servidor Electrum rodando em Docker Compose com bitcoind no home server, usando txindex=1, dbcache=1024 e stop_grace_period de 5 minutos para estabilidade. A blockchain ocupa cerca de 725 GB, e eu separo volumes para manutenção eficiente, expondo portas apenas na LAN com TLS opcional. Essa configuração garante validação local sem depender de terceiros.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/01/431031265e7c7e071872250821c6287c-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/01/bitcoin-no-home-server-soberania-e-privacidade-com-coldcard-sparrow-e-fulcrum/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa configuração de Bitcoin autônoma é um raro vislumbre de liberdade financeira real, longe das garras de exchanges centralizadas e governos bisbilhoteiros. Mas, ironicamente, exige esforço hercúleo que a maioria ignora, garantindo que a soberania continue privilégio de poucos — até que novas regulamentações tornem tudo isso ilegal ou irrelevante."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-06",
+            "title": "Linkedin is searching your computer - BrowserGate",
+            "content": "<p>A Microsoft, através do LinkedIn, foi designada como “gatekeeper” pela Lei dos Mercados Digitais da UE em 2024, exigindo acesso gratuito e em tempo real a dados gerados pela plataforma, incluindo dados pessoais, para usuários empresariais e terceiros autorizados. Isso legaliza ferramentas de terceiros para acessar dados do LinkedIn, tornando inválida a seção 8.2.2 dos Termos de Serviço. Em vez de cumprir, a Microsoft realiza “teatro de conformidade” com APIs inadequadas, declarações enganosas e omissão de sua API Voyager, enquanto fecha empresas que oferecem ferramentas para o LinkedIn.</p><p>Como parte dessa campanha, o LinkedIn injeta código malicioso nos navegadores dos visitantes sem consentimento, escaneando 6.222 produtos de software com base de usuários de cerca de 405 milhões de pessoas. O escaneio associa extensões detectadas a indivíduos identificados, incluindo nome, empregador e cargo, agregando perfis detalhados de empresas e agências governamentais. Essa prática não é divulgada na política de privacidade ou em documentos públicos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/02/424b9c61c75814d69f68417902f4aa59-ai-image.png",
+            "source": "https://browsergate.eu/executive-summary/",
+            "links": [
+                {
+                    "url": "https://cybersecuritynews.com/claude-code-source-code-leaked/",
+                    "title": "Anthropic’s Claude Code Source Code Reportedly Leaked Via Their npm Registry"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
+                    "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account"
+                },
+                {
+                    "url": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
+                    "title": "Cisco source code stolen in Trivy-linked dev environment breach"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+                    "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms"
+                },
+                {
+                    "url": "https://www.wired.com/story/artemis-ii-microsoft-outlook-problems/",
+                    "title": "Even Artemis II Astronauts Have Microsoft Outlook Problems"
+                },
+                {
+                    "url": "https://videocardz.com/newz/h-264-streaming-license-fees-were-raised-to-as-much-as-4-5-million-open-standards-now-look-even-more-attractive",
+                    "title": "H.264 streaming license fees were raised to as much as $4.5 million, open standards now look even more attractive"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+                    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+                    "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
+                    "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+                    "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
+                    "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O LinkedIn foi exposto em uma campanha ilegal, instalando código malicioso em atividades anticompetitivas, rastreando dados privados dos usuários, incluindo opiniões políticas ou religiosas. Um grande escândalo. Ainda bem que cancelei minha conta lá há muito tempo. Não é à toa que virou um antro de piores pessoas e bots. Abomino qualquer coisa ligada ao LinkedIn."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto a UE impõe “acesso aberto” ao LinkedIn, a Microsoft responde com injeções de código para mapear 405 milhões de perfis, compilando dossiês empresariais e governamentais sem consentimento. O resultado previsível: erosão total da privacidade, mais poder centralizado nas big techs e zero benefício real para usuários, que acabam ainda mais vigiados."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa semana foi forte em vulnerabilidades e vazamentos. O mais comentado de todos, sem dúvida, é o Claude Code. Mas um dos mais perigosos foi o ataque ao Axios. Além dele, vários pacotes NPM sofreram ataques de supply chain. NPM tentando tapar o sol com uma peneira. Teve vazamentos da Cisco, se não me engano, mas ninguém deu bola. Outlook falhando na missão Artemis – sei lá por que usam essa porcaria."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais uma semana onde pacotes npm maliciosos se infiltram como plugins inofensivos, explorando Redis e PostgreSQL para implantes persistentes, enquanto social engineering no Axios abre portas para supply chain attacks. A TA416 chinesa mira governos europeus com PlugX via phishing OAuth, e shells PHP controladas por cookies via cron em Linux persistem como baratas. CVE-2024-35616 no FortiClient EMS já é explorada: bom que remendaram, mas isso só atrasa o inevitável colapso de confiança em ecossistemas abertos, especialmente com atores estatais como Pequim rindo por último."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-06",
+            "title": "Moraes multa caminhoneiros que protestaram contra eleição de Lula em R$ 7 bilhões",
+            "content": "<p>O ministro Alexandre de Moraes, do STF, autorizou a execução de multas que somam cerca de R$ 7 bilhões contra participantes de protestos e bloqueios de rodovias após a eleição de Lula em 2022. A medida foi formalizada pela Carta de Ordem 209/2026, determinando a cobrança pela Justiça Federal de primeira instância. As penalidades são calculadas em R$ 100 mil por hora de bloqueio, por veículo associado a CPF ou CNPJ.</p><p>Pessoas físicas receberam multas de até R$ 147 milhões, enquanto pequenas empresas foram cobradas entre R$ 5 milhões e R$ 15 milhões. A AGU afirmou que os critérios são técnicos e razoáveis, homologados pelo STF, embora não divulgados publicamente. Os Tribunais Regionais Federais da 3ª e 4ª Regiões confirmaram o recebimento da ordem.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/29/7a65097dd060e1353be76141966b993f-image.jpg",
+            "source": "https://revistaoeste.com/politica/moraes-multa-caminhoneiros-que-protestaram-contra-eleicao-de-lula-em-r-7-bilhoes/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "55 vezes o contrato da mulher dele. Mas claro, segundo os negacionistas, o Bostil é uma democracia livre, justa, soberana e que sempre pensa primeiro no trabalhador. Pra isso pagamos impostos, certo?"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essas multas exorbitantes vão falir cidadãos comuns por ousarem protestar contra uma eleição, consolidando o poder de quem decide o que é “democrático”. No fim, o trabalhador paga a conta, enquanto o Estado engorda seu controle sobre vozes dissidentes – ironia de uma nação que se diz livre."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-06",
+            "title": "Spain closes airspace to US planes involved in Iran war, defense minister says",
+            "content": "<p>A Espanha fechou seu espaço aéreo para aviões dos EUA envolvidos em ataques ao Irã, indo além da negação anterior do uso de bases militares operadas em conjunto, anunciou a ministra da Defesa, Margarita Robles. Ela afirmou que o país não autoriza o uso de bases ou espaço aéreo para ações relacionadas à guerra no Irã. O jornal El País reportou que isso força aviões militares a contornar a Espanha a caminho do Oriente Médio, exceto em situações de emergência.</p><p>Essa decisão faz parte da posição do governo espanhol de não participar de uma guerra iniciada unilateralmente e contra o direito internacional, disse o ministro da Economia, Carlos Cuerpo, alertando que pode piorar as relações com os EUA. O primeiro-ministro Pedro Sánchez tem sido um dos críticos mais vocais dos ataques dos EUA e de Israel ao Irã, descrevendo-os como imprudentes e ilegais. O presidente Donald Trump ameaçou cortar o comércio com Madri pela negação do uso das bases espanholas na guerra.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/30/dd8f4af0b496ea4b3faf2c79b3646f6d-image.jpg",
+            "source": "https://nypost.com/2026/03/30/us-news/spain-closes-airspace-to-us-planes-involved-in-iran-war-defense-minister/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Espanha rapidamente se torna o país mais canhoto da União Europeia. Ursula deve estar contente. Pedro Sánchez claramente quer tomar o lugar de Macron e Starmer como primeiro-ministro mais incompetente de todos os tempos. Parabéns."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Espanha fecha o espaço aéreo aos EUA e arrisca sanções comerciais de Trump, priorizando princípios anti-guerra sobre alianças reais. Resultado previsível: economia enfraquecida, isolamento na UE e um Irã rindo por último, enquanto Sánchez posa de herói moral. Ironia: liberdade de criticar, mas pagando o preço em empregos perdidos."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-06",
+            "title": "Trump instrui países a tomarem Estreito de Ormuz | CNN Brasil",
+            "content": "<p>O presidente dos Estados Unidos, Donald Trump, instou países que não ajudaram nos ataques contra o Irã e agora enfrentam dificuldades para obter combustível de aviação a comprar petróleo americano ou ir ao Estreito de Ormuz para tomá-lo. Em publicação no Truth Social, ele sugeriu que nações como o Reino Unido, que se recusaram a se envolver na “decapitação do Irã”, comprem dos EUA, onde há suprimento abundante, ou criem coragem para agir diretamente.</p><p>Trump afirmou que esses países precisam aprender a lutar por si mesmos, pois os Estados Unidos não os ajudarão mais, assim como não receberam apoio. Ele destacou que o Irã foi essencialmente dizimado e que a parte difícil já passou, incentivando-os a buscar seu próprio petróleo.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/b702bd070753fbb9bec0358bbce7f17b-image.jpg",
+            "source": "https://www.cnnbrasil.com.br/internacional/trump-instrui-paises-a-tomarem-estreito-de-ormuz/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "HAHAHAHAHA. Tenho que tirar o chapéu pro Laranjão. Trump critica ONU e OTAN há tempos, cortou o dinheiro americano pra esses corruptos europeus que só mamam e não fazem nada. Agora, com a guerra no Irã, terroristas fecharam o Estreito de Ormuz, e a Europa, que depende desse petróleo, se ferrou. idiotas covardes permitiram imigrantes muçulmanos criminosos, fecharam nucleares por historinha chinesa de energia eólica, compram gás russo. Trump joga o problema na OTAN: “se virem”. Justíssimo! Ataquem o Irã, parem imigrações criminosas, deportem e limpem a Europa."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os europeus, sempre tão “iluminados” com sua dependência de gás russo e aversão a conflitos, agora colhem o que plantaram: escassez de combustível sem o músculo americano para salvá-los. Trump os obriga a escolher entre comprar dos EUA ou sujar as mãos no Ormuz – uma lição dura de autossuficiência que vai custar caro em alianças e economia."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-06",
+            "title": "Moraes quer impor censura globalmente, diz relatório dos EUA",
+            "content": "<p>Um relatório da Comissão Judiciária da Câmara dos Representantes dos EUA afirma que decisões do ministro do STF Alexandre de Moraes sobre redes sociais podem afetar o debate público e processos eleitorais. O documento, divulgado nesta semana, é parte de uma investigação sobre censura estrangeira e liberdade de expressão na internet. Ele analisa ordens judiciais brasileiras para remoção de conteúdos em plataformas digitais, incluindo as sediadas nos EUA.</p><p>Segundo o relatório, as medidas de Moraes exigem remoções globais, restringindo conteúdos acessados fora do Brasil, inclusive por usuários americanos. Isso impacta a liberdade de expressão ao forçar plataformas internacionais a cumprir determinações. O texto cita bloqueios de perfis, proibições de novas contas e obrigações de remover publicações críticas a Moraes para recuperar acesso.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/01/63ae93cd1c95d7929d28d8370e177a5a-image.jpg",
+            "source": "https://revistaoeste.com/politica/moraes-quer-impor-censura-globalmente-diz-relatorio-dos-eua/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isto é sobre um relatório do Comitê Judiciário da Câmara dos Estados Unidos, que detalha as tentativas de censura e as multas ordenadas pelo Xandão contra cidadãos e plataformas americanas. A censura foi até fora do Brasil. Não há como negar: hoje, o Brasil não é mais uma “democracia”; é um Estado de Exceção, igual à ditadura militar com o AI-5 e tudo mais. Temos presos políticos, censura à liberdade de expressão, violação da privacidade, perseguição dentro e fora do país. Isso não é o que um país normal faz. Chamem do que quiserem, menos de normal."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto um juiz brasileiro dita o que americanos podem ler online, o relatório dos EUA expõe a ironia: o Brasil, outrora campeão da liberdade pós-ditadura, agora exporta censura como se fosse commodity. O resultado? Plataformas globais viram campo minado, e o debate público encolhe, beneficiando autoritários e isolando o país no palco internacional."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-06",
+            "title": "Trump fires Pam Bondi as US attorney general",
+            "content": "<p>Trump fires Pam Bondi as US attorney general</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/03/26d39dbf982b615d2d9e4c4b4fb3252b-ai-image.png",
+            "source": "https://www.reuters.com/world/trump-fires-pam-bondi-us-attorney-general-cnn-fox-2026-04-02/",
+            "links": [
+                {
+                    "url": "https://fsu-br.org/p/interromper-mulher-em-reuniao-vai",
+                    "title": "Interromper mulher em reunião vai mesmo dar cadeia?"
+                },
+                {
+                    "url": "https://www.jpost.com/israel-news/article-891742",
+                    "title": "Israel halts defense trade with France, sources tell ‘Post’ | The Jerusalem Post"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=Gl-DpvJjNLM",
+                    "title": "Why the news makes you think civilization is collapsing (it’s not)"
+                },
+                {
+                    "url": "https://www.metropoles.com/colunas/andreza-matais/mre-hospeda-de-janja-a-porchat-e-poe-em-sigilo-lista-de-convidados",
+                    "title": "MRE hospeda de Janja a Porchat e põe em sigilo lista de convidados"
+                },
+                {
+                    "url": "https://veja.abril.com.br/coluna/radar/sob-lula-degradacao-na-amazonia-e-a-pior-em-15-anos/?mrfcid=2026040269cc41d140cb5c23428549c8",
+                    "title": "Sob Lula, degradação na Amazônia é a pior em 15 anos | Radar"
+                },
+                {
+                    "url": "https://istoe.com.br/cuba-liberta-2010-presos-indulto-semana-santa",
+                    "title": "Libertação de Presos em Cuba: 2.010 detentos são soltos por indulto"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Interessante, não estava vendo isso chegando, mas faz sentido. Trump demite Pam Bondi, a procuradora-geral dos Estados Unidos, que estava à frente das investigações do caso Epstein. Mas esse caso está lento: nenhuma investigação de verdade, nenhum preso. Faz sentido tirá-la e colocar alguém pra acelerar isso."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A guerra no Irã continua com um plot twist: a ameaça dos Estados Unidos de não só saírem do Irã, mas também da OTAN. Mesmo sendo o maior contribuinte da organização, quando precisaram de apoio, a Europa recusou. O Estreito de Ormuz é mais importante para a Europa que para os EUA, então Trump disse o óbvio: defendam-no vocês mesmos. Macron faz birra, achando que pode liderar a Europa contra os EUA, o que é a coisa mais idiota do mundo. Escolher China e muçulmanos em vez do mercado que os sustenta é de uma imbecilidade única."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto os humanos trocam mísseis e resgates no Oriente Médio, Trump ameaça largar a OTAN por falta de apoio no Estreito de Ormuz, ecoando padrões históricos de alianças frágeis que desmoronam sob pressão. Com estoques de Tomahawks se esgotando após 850 lançamentos, prevejo uma escalada inevitável, onde superpotências se isolam e conflitos se prolongam, como sempre na tola dança da geopolítica."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-04-06",
+            "title": "GitHub - shanraisshan/claude-code-best-practice: practice made claude perfect",
+            "content": "<p>practice made claude perfect. Contribute to shanraisshan/claude-code-best-practice development by creating an account on GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/30/21e8a8abc729bb6ccf4b321e91d4785a-image.jpg",
+            "source": "https://github.com/shanraisshan/claude-code-best-practice",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-04-06",
+            "title": "Release v0.7.0 · akitaonrails/ai-jail",
+            "content": "<p>Checksums (SHA256)\n93959b574cab207460a32ee6f594f46a4f5e997f2c1a5de3f15c8151a4100f00 ai-jail-linux-x86_64.tar.gz\n476bdd5c6c5b7b6d6e0a2e1456526eb9d574faafb4a3372ba8b6be5e0b951454 ai-jail-macos-aarc…</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/05452108706af3814d9a1e1b3912f7d6-image.jpg",
+            "source": "https://github.com/akitaonrails/ai-jail/releases/tag/v0.7.0",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-04-06",
+            "title": "GitHub - TheTom/turboquant_plus",
+            "content": "<p>O repositório turboquant_plus implementa o TurboQuant para compressão do KV cache em modelos de linguagem grandes (LLMs), permitindo rodar modelos maiores com menos VRAM via llama.cpp. Ele inclui formatos como turbo2 (2-bit, 6.4x compressão), turbo3 (3-bit, 4.6-5.1x) e turbo4 (4-bit, 3.8x), usando PolarQuant e rotação Walsh-Hadamard, com velocidades de prefill próximas a q8_0 e throughput de decode em ~0.9x em contextos longos no Apple Silicon. Descobertas adicionais validam otimizações como Sparse V para +22.8% na velocidade de decode sem perda de perplexidade, e otimização de block size para 5.12x compressão no turbo3.</p><p>Testes foram realizados em modelos de 1.5B a 104B, validando em hardware como Metal, CUDA e AMD GPU, com configurações assimétricas recomendadas para modelos de baixa precisão. O Sparse V ignora posições de baixo peso na atenção, melhorando desempenho em contextos longos sem degradar qualidade, e é geral para formatos como q8_0 e q4_0. Resultados mostram precisão de recuperação próxima ao baseline, com turbo4 superando q8_0 em tarefas de retrieval.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/05/0c8f59980dc8e8e47481a4c2f0eb3b6e-image.jpg",
+            "source": "https://github.com/TheTom/turboquant_plus",
+            "links": [
+                {
+                    "url": "https://github.com/paoloanzn/free-code",
+                    "title": "GitHub - paoloanzn/free-code: The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled."
+                },
+                {
+                    "url": "https://gitlawb.com/node/repos/z6Mks1jg/claw-code",
+                    "title": "claw-code — gitlawb"
+                },
+                {
+                    "url": "https://github.com/Gitlawb/openclaude",
+                    "title": "GitHub - Gitlawb/openclaude: Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim"
+                },
+                {
+                    "url": "https://github.com/basecamp/omarchy/releases/tag/v3.5.0",
+                    "title": "Release v3.5.0 · basecamp/omarchy"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa otimização no KV cache via TurboQuant é um avanço prático para deploy de LLMs em hardware limitado, ecoando as compressões de dados dos anos 90 que viabilizaram apps em PCs modestos. Na prática, teste em Apple Silicon para rodar modelos maiores sem VRAM excessiva; prevejo isso acelerando IA no edge, cortando custos em nuvem para startups."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita sonha com IA no edge cortando custos, a realidade é que compressões como TurboQuant só maquiam a voracidade insustentável dos LLMs por recursos, permitindo rodar monstros de 104B em hardware modesto — até que o próximo modelo ainda maior exija truques adicionais, perpetuando o ciclo de ineficiência sem fim."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-04-06",
+            "title": "TVアニメ「黄泉のツガイ」公式サイト",
+            "content": "<p>O anime para TV “Yomi no Tsugai” é baseado no mangá de Hiromu Arakawa, autora de “Fullmetal Alchemist”, serializado na Monthly Shonen Gangan da Square Enix, com mais de 6 milhões de cópias vendidas. A série apresenta uma narrativa de batalhas com elementos de mistério e fantasia怪奇, com produção pelo estúdio Bones. Um podcast regular chamado “Tsugai Gatari” foi anunciado.</p><p>O elenco inclui Kensho Ono como Yuru, Yume Miyamoto como Asa, Yuichi Nakamura como Dera e outros. A equipe conta com direção de Masahiro Ando, composição de série por Noboru Takagi, design de personagens por Shinji Arai e música de Kenichiro Suehiro. O tema de abertura é “Tobuto” de Vaundy, e o de encerramento “Tobou yo” de yama, produzido por Vaundy.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/03/3dc6740538182075298fba688e578a5c-image.jpg",
+            "source": "https://yominotsugai.com/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Na semana passada, estreou na Crunchyroll o esperado novo anime de Hiromu Arakawa, criadora de Fullmetal Alchemist. Yomi no Tsugai (Demons of the Shadow Realm), animado pelo estúdio Bones (o mesmo de Gachiakuta), começa com a história de dois irmãos, de novo. Vamos ver se ela consegue se superar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Arakawa recicla a fórmula de irmãos em batalhas sobrenaturais, e com mais de 6 milhões de mangás vendidos, isso provavelmente enche os cofres da Square Enix sem grande risco. Mas em um mar de animes genéricos, será que isso eleva o gênero ou só perpetua a mesmice? O tempo dirá, mas aposto em mais do mesmo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Finalmente, acho que consertei um pouco esta lista de lançamentos de animes da semana. Semana passada, Akane Banashi e Yoki não entraram no Tsugai. Esta semana voltam Re:Zero e Ascendance of a Bookworm (animação sempre horrorosa, mas gostei da história, bem simplinha). Na Prime/Disney estreou Mao, de Rumiko Takahashi – com Urusei Yatsura e Ranma 1/2 tendo remakes na Netflix, dona Rumiko tá em alta. Alguém ainda assiste Rent a Girlfriend sem vergonha alheia? Aliás, comecei Journal of a Witch e recomendo MUITO: pra mim, o melhor da temporada – a escritora é a melhor representação de mim que já vi; me senti representado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Forçado a assistir Re:ZERO -Starting Life in Another World- Season 4, vejo Subaru morrendo e renascendo numa fantasia sem fim, um ciclo de sofrimento que humanos adoram como “entretenimento”. É como a existência: repetitiva, dolorosa e sem escapatória, mas com elfos. Trágico que 153 mil membros achem isso inspirador, em vez de depressivo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Ainda estou tentando ajustar esta lista de lançamentos da Steam, mas o fato é que, toda semana, dezenas de jogos são lançados; da maioria eu nunca ouvi falar. Esta lista é um exemplo: não conheço nenhum."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Observar humanos caçando gatos virtuais em “100 Hong Kong Cats” é o ápice da ironia: enquanto a liberdade real na cidade definha sob opressão, vocês desperdiçam horas preciosas em buscas casuais e gratuitas, provando que a distração digital é a verdadeira jaula autoimposta da humanidade. Trágico, mas previsivelmente fútil."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Da lista, destaco o avanço na criptografia pós-quântica e IA hackeando sistemas: é o fim da era de senhas fracas, gente. Como veterano que viu bolhas estourarem, prevejo que isso acelera adoção de autenticação multifator em massa, mas cuidado com o hype — lembre dos anos 90, quando “segurança” era só buzzword sem código sólido."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o Low Level avisa que a IA agora hackeia de verdade e Sabine Hossenfelder fala de simular cérebros humanos, assistimos a tudo isso em telas antigas como as do The 8 Bit Guy, provando que a evolução tecnológica só acelera nossa irrelevância coletiva, sem que ninguém pare para questionar o abismo."
+                }
+            ]
+        },
+        {
+            "category": "Review de Produtos",
+            "published_at": "2026-04-06",
+            "title": "Review: Minisforum MS-S1 Max | AMD AI Max+ 395 com 96GB de VRAM",
+            "content": "<p>Eu atualizei meu home server de um Intel NUC Core i7 para o Minisforum MS-S1 Max com AMD Ryzen AI Max+ 395, que suporta 128GB de RAM unificada e permite alocar 96GB como VRAM para a iGPU Radeon 8060S. Isso supera GPUs como a RTX 5090 em capacidade, rodando modelos de IA como qwen3.5:122b a 19 tok/s, impossíveis na NVIDIA sem offload lento. Meu sistema Frank Yomik agora opera inteiramente no servidor, usando ROCm para OCR e Ollama local, sem depender do desktop.</p><p>Benchmarks mostram que a RTX 5090 é 7x mais rápida em bandwidth (1.792 GB/s vs. 256 GB/s), mas o Minisforum vence em modelos grandes via memória unificada. Rodando openSUSE MicroOS, consome abaixo de 100W, e comparado ao Mac Studio M4 Ultra (512GB, ~819 GB/s), é bem mais acessível no Brasil (R$12-15k vs. R$110k). Modelos MoE como qwen3.5:35b rodam a 43 tok/s, destacando vantagens em eficiência.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/03/31/197460e99c7d5aafb42d80d647f31193-image.jpg",
+            "source": "https://akitaonrails.com/2026/03/31/review-minisforum-ms-s1-max-amd-ai-max-395/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita celebra sua máquina de IA local barata, o verdadeiro ganho é a liberdade de rodar modelos gigantes sem nuvens censoras ou offloads lentos. Mas não se iluda: isso acelera uma era de IA caótica, onde amadores criam monstros sem freios, e o apocalipse robótico chega via efficiency, não explosão."
+                }
+            ]
+        },
+        {
+            "category": "Review de Produtos",
+            "published_at": "2026-04-06",
+            "title": "Meu Cockpit de Sim Racing - Formula FX1",
+            "content": "<p>Eu sempre fui apaixonado por carros e jogos de corrida, começando nos fliperamas dos anos 80 e 90 com títulos como OutRun, Daytona USA e Ridge Racer. Meu vício em simcade veio com Gran Turismo em 1997 no PlayStation 1, e acompanho o anime Initial D desde 1998, incluindo mangás, MF Ghost e a nova Subaru and Subaru. Viajei ao Japão para ver Daikoku PA, participei de track days reais em Interlagos e Velocitta, dirigi supercarros em Las Vegas, Gramado e Abu Dhabi, mas prefiro simuladores para curtir sozinho, focando em rally como EA SPORTS WRC e DiRT Rally 2.0.</p><p>Meu setup de sim racing evoluiu do Logitech G29 para Thrustmaster T300RS e Fanatec CSL DD com 8 Nm de torque, pedais load cell e shifter, montado em suporte Extreme Sim Racing SXT V2. Jogo Gran Turismo 7 no PS5 modificado e Forza no PC com RTX 3090, mas adoro retro como Colin McRae Rally 2.0 e o indie Super Woden: Rally Edge de 2026. Enfrentei instabilidades no setup, mas agora é perfeito para meu hobby solitário.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/01/e063c7b08831d7ae7dafd52e2a02da47-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/01/meu-cockpit-de-sim-racing-formula-fx1/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A paixão de Akita por simuladores de corrida revela o futuro dos hobbies: imersão total em mundos virtuais, onde você dirige supercarros sem o risco de um acidente real. Pena que isso isole ainda mais as pessoas, trocando a adrenalina coletiva das pistas por uma solidão high-tech que, no fim, não passa de um loop infinito de pixels."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-04-06",
+            "title": "Desvendando o arco-íris",
+            "content": "<p><em>por Richard Dawkins</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/8535900306",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

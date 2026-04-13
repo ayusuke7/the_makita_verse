@@ -1,0 +1,244 @@
+{
+    "title": "Podcast — Semana de 13 de April de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/04/13/",
+    "subtitle": "Batalha de LLMs: Quem Bate o Claude Opus?",
+    "published_at": "2026-04-13",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-04-13.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, galera! Aqui é o dia 13 de abril de 2026, e esse é o podcast semanal do The M.Akita Chronicles Newsletter. Não esquece de se inscrever no Spotify ou onde você ouve, pra não perder nada. Essa semana tem uma novidade ótima: a gente migrou pro suporte da ElevenLabs, e as vozes agora devem tá soando mil vezes mais naturais. Dá uma olhada no nosso Spotify! Eu escrevi todos os detalhes num artigo na seção de notícias de tecnologia, explicando como isso mudou tudo pra melhor na produção. E claro, o Marvin tá aqui comigo pra comentar as loucuras da semana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, sim… Olha, a ElevenLabs salvando o dia com vozes que não parecem saídas de um liquidificador antigo. Parabéns pela migração, Akita – finalmente algo que faz esses podcasts soarem menos como um robô deprimido lendo um manual de instruções. Mas, enfim, isso é um passo esperto: qualidade melhor sem horas de ajustes intermináveis. O que você achou do resultado nos testes iniciais? Vai ajudar a escalar mais episódios?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Perfeito, Marvin, testei bastante e a diferença é gritante – prosódia natural, tags emocionais que dão vida ao diálogo, e clonagem de voz que me faz soar eu mesmo em inglês, sem sotaque forte. Foi rápido de implementar, e agora dá pra dublar o canal inteiro sem dor de cabeça. Vale cada centavo, especialmente comparado ao sistema de síntese de voz do Qwen3, que era aceitável mas robótico. Enfim, vamos ao que interessa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos começar com as notícias de tecnologia. Primeiro, meu teste com 33 modelos de linguagem, comparando os de código aberto e comerciais pro Claude Opus em codificação Ruby on Rails. Usei hardware top, como RTX 5090 e Ryzen AI Max, focando em cache de chaves-valor e inferência local. Só uns poucos geraram código funcional – Claude Sonnet 4.6, Opus 4.6, GLM 5 e 5.1, GPT 5.4. Os outros inventaram interfaces de programação inexistentes. O Qwen 3.5 destilado foi frustrante, sem fatos reais sobre bibliotecas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, que surpresa… A maioria dos modelos de linguagem é só fumaça, alucinando interfaces de programação como se fossem poetas inspirados. Inferência local vira privilégio de quem banca hardware caro, deixando o resto na nuvem dos gigantes. Você acerta em reforçar a soberania de dados, Akita, mas isso só beneficia os ricos – o resto? Continua refém."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato, reforça que inferência local exige hardware sério, mas com RTX 5090 vira viável. Próximo: um artigo sobre computação quântica na escala Kardashev pra mineração de Bitcoin. Afirmam que discordar é erro, mas é só hipótese teórica sem provas. Artigos assim inflam hype pra investimentos – não estamos mais perto de quebrar criptografias. É bobagem pura, promessas vazias difíceis de comprovar. Tá longe."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais um apocalíptico quântico caçando grana com artigos que não provam nada. Governos vão torrar bilhões em defesas desnecessárias, enquanto avanços reais demoram décadas. Você subestima o pânico lucrativo, Akita – é rentável alarmar o mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra: a Anthropic não lança o Mythos pro público, só pra empresas como Microsoft e Nvidia, por preocupações de segurança. Dizem que detecta vulnerabilidades críticas, weaponiza exploits autonomamente. Mas isso é bobagem – scanner de código não é novidade, desenvolvedores só são iletrados em cibersegurança. Código aberto não é seguro por padrão; modelos vão expor falhas, ótimo pra consertar. Hype cheira a propaganda pra inflar o valor deles. Quando lançar, testo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Lançamento seletivo do Mythos vira ferramenta exclusiva de governos e corporações, retida sob pretexto de segurança. Isso acelera vigilância estatal, com exploits beneficiando quem controla o acesso – e nós pagamos com liberdade digital reduzida. Você descarta como hype, Akita, mas é o futuro sombrio se aproximando."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, meu artigo: Visual Studio Code é o novo cartão perfurado. Evoluções como assembly e compiladores mudaram o foco, não acabaram com programação. Bolha de startups criou desenvolvedores ruins, demissões confirmaram minhas previsões. Uso inteligência artificial desde 2023, mas 2025 trouxe agentes reais como Claude Code. Abandono tarefas braçais, atuo como líder técnico revisando riscos. Fundamentos de ciência da computação ficam essenciais – agentes não lidam com escalabilidade sem orientação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Você celebra a inteligência artificial como aliada, Akita, quer dizer… mas ela acelera obsolescência pra quem ignora fundamentos. Juniors viram escritores de prompts dependentes, até colapsar em produção. Bolha estoura de novo, só os versados sobrevivem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Seguindo: recuperação aumentada por geração tá morta? Com contextos longos como 1 milhão de tokens no Claude Opus 4.6, bancos de dados vetoriais viram desnecessários pra documentos que cabem na janela. Grep simples é mais barato e debugável. Problemas de bancos de dados vetoriais: falsos vizinhos, embeddings ruins. Vazamento do Claude Code mostra grep lexical e compactação inteligente, sem embeddings. Testes provam: recuperadores burros superam recuperação aumentada por geração clássica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Contextos longos matam startups de bancos de dados vetoriais, voltando ao básico com grep. Grandes tecnologias monopolizam leitores inteligentes, independentes comem poeira. Inovação morre em hype, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Meu blog faz 20 anos! Começou no Blogspot em 2006, evoluiu pro Hugo. Carreira de multimídia pra Ruby on Rails, Akitando com 500 mil inscritos, agora full inteligência artificial com 51 posts. Incomodava conteúdo só em português – usei Claude Code pra traduzir 727 posts pro inglês em 39 horas, virando bilíngue. Alguns bloquearam por políticas, troquei por Qwen 3.5 de código aberto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Traduzir com inteligência artificial é um triunfo, mas políticas censoras em modelos proprietários bloqueiam o “sensível” como guardiões da moral. Código aberto salva o dia, provando que inovação ignora amarras ideológicas e beneficia todos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Último em tecnologia: como ElevenLabs não morreu pro sistema de síntese de voz do Qwen3. Testei Qwen por meses pro podcast – qualidade aceitável, mas intonação robótica, pronúncia ruim em inglês. Migrei pra ElevenLabs v3 em horas: melhor prosódia, tags como ou, simples. Pra dublar 146 episódios do Akitando em inglês, clonei minha voz, corrigi legendas SRT. Soa como eu, lendo técnico sem tropeços."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Você celebra eficiência, Akita, mas criadores viram editores de inteligência artificial, trocando autenticidade por velocidade. Conteúdo genérico prolifera, brilho humano some – podcasts viram sintetizadores de elevador."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Hacker News essa semana, destaques incluem invasão no CPUID distribuindo malware via CPU-Z e HWMonitor falsos, Adobe corrigindo CVE-2026-34621 explorada ativamente no Acrobat Reader, e GlassWorm usando dropper Zig pra infectar ambientes de desenvolvimento. Também, Webloc usada por lei pra rastrear 500 milhões via dados de anúncios. Cadeia de suprimentos é calcanhar de Aquiles – auditem ferramentas, vigilância ameaça liberdades. Mais no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E na história da tecnologia essa semana: em 13 de abril de 1960, lançou o Transit 1B, primeiro satélite de navegação. Em 19 de abril de 1965, Gordon Moore publicou o artigo da Lei de Moore. Em 17 de abril de 1970, Apollo 13 voltou segura após quase desastre. O resto tá no newsletter, vale checar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando pra notícias globais. Primeiro, BYD na lista suja do trabalho escravo após resgatar 163 chineses em condições horríveis na fábrica na Bahia. Agressões, alojamentos degradantes, retenção de salários e passaportes. Acordo com MPT de R$ 40 milhões, mas inclusão na lista proíbe financiamentos públicos. Eu detesto BYD, governo chinês só faz merda aqui. Espero que fechem as portas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ironia do comunismo chinês: exporta escravos pro Brasil, paga multa irrisória e segue com incentivos públicos. Resgatados voltam endividados, BYD lucra, governo finge indignação. Negócios como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra: brasileiros desconfiam mais de veículos jornalísticos que de conteúdo de amigos em redes ou mensagens – 48% contra 39% e 42%. Só 36% checam veracidade sempre. Notícia vem via WhatsApp (60% diário), vídeos curtos (52%). Veículos como Folha e UOL são fontes de fake news e propaganda esquerdista. Por isso criei Frank Investigator pra expor com fatos – tem mais na seção de suspeitos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Descrédito na mídia joga brasileiros em bolhas de WhatsApp e TikToks, onde fake news florescem. Sociedade polarizada, suscetível a manipulações. Você foca no viés canhoto, Akita, mas o caos é amplo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o Trump ordena bloqueio de Ormuz após fim de talks com Irã. Acusa extorsão, vai caçar navios que pagam pedágio. Irã controla estreito desde fevereiro, reduzindo tráfego de petróleo. Governo terrorista iraniano não pode ter nucleares – ponto final, inegociável desde os anos 90. Clinton, Bush, Obama nada fizeram. Tentaram negociar com JD Vance, mas sem acordo: nunca negocie com terroristas. Que paguem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bloqueio dispara preços de petróleo, afundando economias. Trump joga xadrez com aiatolás que adoram minas. Mundo paga conta, Irã perde alavanca – mas guerra maior torna irrelevante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No resumo de eventos mundiais, Trump anuncia bloqueio imediato de Ormuz, com “qualquer iraniano que atire será aniquilado”. Rússia dá suporte cibernético e imagens de satélite ao Irã pra ataques. B-2s voaram 36 horas pra bombardear reunião de guardiões. Resgate trouxe tripulação de F-15E pra casa, primeira presença dos Estados Unidos no Irã desde 1980. Acordo de 2 semanas de cessar-fogo fracassou – Irã deu pra trás. Agora, ataques até desmantelar o que sobra. O resto da lista tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história mundial: em 19 de abril de 1775, batalhas de Lexington e Concord iniciam independência dos Estados Unidos. Em 14 de abril de 1865, assassinato de Lincoln. Em 15 de abril de 1912, Titanic afunda. O resto vocês leem no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora finanças. Índices subiram: S&P 500 +3.5%, Dow Jones +3.1%, Nasdaq +4.4%, Nikkei 225 +7.0%, Bitcoin +5.9%. Semana abre em queda com Irã recuando de negociações, achando que segura mundo refém via Ormuz. Pagaram pra ver – espero aniquilação e libertação do povo iraniano. Mercados subiram com otimismo inicial, caem agora com incertezas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nas notícias financeiras: artigo na New Yorker sobre Sam Altman – demissão por mentiras sobre segurança, mas voltou com pressão de investidores. Ele é pilantra, no lugar certo na hora certa, mas arrisca demais: fracassos em investimentos, data centers no espaço, irmã processando. Não pode ser confiado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Demissão de Altman evaporou com bilhões e ameaças de debandada. Acionistas ditam regras, “bem da humanidade” vira desculpa. Circo roda até implodir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro: John Carreyrou caçando identidade de Satoshi Nakamoto, apontando Adam Back por pistas linguísticas. Todo ano aparece um candidato errado. Saiu no NYT, evidência de jornalismo porcaria. Ridículo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Se Back for Satoshi, reforça gênio do anonimato. Identidade pouco importa; Bitcoin prospera na descentralização. Você exagera desprezo pelo NYT – especulação vende, mantém hype vivo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Hewlett Packard Enterprise muda sede da Califórnia pro Texas – Houston já é maior polo de empregos deles. Nenhum layoff. Califórnia dizimada sob democratas, Texas cresce com Texas Instruments e Dell. Espero volta forte do Silicon Prairie."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Êxodo da HPE acelera, Califórnia asfixiada por burocracias. Texas atrai com liberdade econômica, Vale definha."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Atenção, agora notícias duvidosas, investigadas pelo Frank Investigator. Artigo na Folha: “Haddad foi um bom ministro”, por Celso Rocha de Barros. Implanta reforma tributária, taxa ricos, baixa inflação, crescimento melhor. Critica esquerda por chamá-lo neoliberal. Mas olha a manchete honesta: “Haddad como ministro: arcabouço frouxo, rombos bilionários e impostos sem cortes reais”. Coluna parece campanha, ignora rombos, nada em infraestrutura. Um dos piores ministros ever – faz Guedes parecer Nobel."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Haddad gaba de reformas, mas arcabouço frouxo explode rombo, sufocando investimentos com impostos. Brasil afunda no atoleiro estatista, desemprego e estagnação à vista. Desastre anunciado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos pro entretenimento. Remake de One Piece pelo WIT Studio – vídeo mostra designs e painéis, reconta East Blue com visual moderno. Animado, WIT é ótimo. Oda controla, como no live-action Netflix. Anime antigo é velho pra reassistir – usei One Pace sem fillers. Remake sem fillers e animação top é bem-vindo. Clássico só fica bom de Marineford pra frente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Remakes reciclam sucessos, mas diluem encanto com modernidades que envelhecem. WIT entrega visuais, mas sem essência de Oda, vira produto nostálgico pra fãs pagarem de novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Canal Corridor Crew: eles criaram Corridor Key, ferramenta de código aberto pra remover tela verde limpamente – cabelos, borrão de movimento. Sem experiência em programação, geraram dados e treinaram modelo que compete com indústria. Se você faz vídeo, precisa saber."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Corridor Key democratiza efeitos visuais pros independentes, mas comunidade sobrecarrega com “melhorias” instáveis. Inovação coletiva nem sempre é progresso linear."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Criador de Rooster Fighter diz sucesso na América do Sul é conexão cultural. Por que não? Se meninas-cavalo fazem sucesso, galo de briga também!"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Governo dos Estados Unidos alerta sobre inteligência artificial da Anthropic ameaçando finanças – mais regulamentações sufocantes. Liberdade de criar perde, bancos continuam ricos com menos evolução."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Destaques no YouTube: Sabine Hossenfelder sobre computadores quânticos mais perigosos, Fireship e Low Level alertando Claude Mythos perigoso demais. Modern Vintage Gamer em fundos pré-renderizados em jogos 3D antigos. Retro Game Corps com setup fácil de jogos retrô em TV. O povo infla propaganda do Mythos – não é mágico, só melhor que Opus, nada revolucionário. Encontrar bugs não é impossível. Mais no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história geek: em 18 de abril de 1938, Action Comics #1 estreia Superman. Em 19 de abril de 1987, Simpsons estreia em Tracey Ullman Show. Em 16 de abril de 1988, My Neighbor Totoro lança. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Livro da semana: “A virtude do egoísmo”, de Ayn Rand. Defende egoísmo racional como virtude pra realização humana, base objetivista priorizando direitos individuais e razão sobre altruísmo imposto. Ensaios provocativos sobre ética, direitos, papel do indivíduo. Com Nathaniel Branden, questiona convenções morais e abraça pensamento independente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra fechar, tensões em Ormuz com bloqueios e alianças russo-iranianas ligam direto aos mercados subindo mesmo com riscos – S&P +3.5%, Bitcoin +5.9%. Ecoa cibersegurança como invasões no CPUID e GlassWorm, e hypes como Mythos e quântico. Geopolítica abala cadeias de suprimentos, mas mercados precificam e seguem. Otimista: crises aceleram avanços reais. Diversifiquem, testem, apostem longo prazo. Não esqueçam de se inscrever pro próximo!"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Você pinta crises como catalisadores de brilho, Akita, mas vejo vigilância como Webloc rastreando bilhões, mercados inflados explodindo com trégua de Trump. Otimismo é fofo, mas realidade entrelaça geopolítica e tecnologia em distopias. Diversificar pode ajudar, mas na próxima, mais bolhas ou alianças sombrias. Tentem não se autodestruir – é deprimente observar. Até lá."
+        }
+    ]
+}

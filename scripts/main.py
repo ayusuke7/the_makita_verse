@@ -72,7 +72,7 @@ def execute_get_podcasts(target):
             if p["url"] == podcast["url"]:
                 break
         else:
-            index_json.append(podcast)
+            index_json.insert(0, podcast)
             save_to_json(index_json, index_file)
 
 
@@ -123,30 +123,26 @@ def execute_get_blog_transcripts(target):
 
 
 def main():
-    parser.add_argument('--target',
-                        help='Target to crawl (articles or podcasts)',
-                        choices=['articles',
-                                 'podcasts',
-                                 'channel',
-                                 'posts',
-                                 'transcripts'],
-                        required=True)
+    parser.add_argument('-t',
+                        '--target',
+                        type=str,
+                        required=True,
+                        help='Target to dump (articles,podcasts,posts,transcripts,channel)')
     args = parser.parse_args()
+    all = ['articles', 'podcasts', 'posts', 'transcripts']
+    targets = all if args.target == 'all' else str(args.target).split(',')
 
-    if args.target == 'articles':
-        execute_get_articles(args.target)
-
-    elif args.target == 'podcasts':
-        execute_get_podcasts(args.target)
-
-    elif args.target == 'posts':
-        execute_get_blog_posts(args.target)
-
-    elif args.target == 'transcripts':
-        execute_get_blog_transcripts(args.target)
-
-    elif args.target == 'channel':
-        execute_get_channel()
+    for t in targets:
+        if t == 'articles':
+            execute_get_articles(t)
+        elif t == 'podcasts':
+            execute_get_podcasts(t)
+        elif t == 'posts':
+            execute_get_blog_posts(t)
+        elif t == 'transcripts':
+            execute_get_blog_transcripts(t)
+        elif t == 'channel':
+            execute_get_channel()
 
 
 if __name__ == "__main__":

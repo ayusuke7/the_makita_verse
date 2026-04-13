@@ -1,0 +1,45 @@
+name: Scripts for Dump Data
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Input targets for dump data
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: 1 - Execute Dump Script
+        run: python scripts/main.py --target ${{ github.event.inputs.target || 'all' }}
+
+      - name: 3 - Verify files for to commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"          
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update data $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "Nenhuma nova informação encontrada no blog."
+          fi

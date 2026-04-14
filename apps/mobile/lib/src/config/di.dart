@@ -29,8 +29,8 @@ void setupDI() {
   it.registerLazySingleton<BlogRepository>(
     () => BlogRepositoryImpl(it<BlogDataSource>()),
   );
-  it.registerLazySingleton<YoutubeRepository>(
-    () => YoutubeRepositoryImpl(it<YoutubeDataSource>()),
+  it.registerLazySingleton<ChannelRepository>(
+    () => ChannelRepositoryImpl(it<YoutubeDataSource>()),
   );
 
   // ViewModels
@@ -44,6 +44,9 @@ void setupDI() {
     () => PodcastsViewModel(it<NewsLetterRepository>()),
   );
   it.registerLazySingleton<ChannelViewModel>(
-    () => ChannelViewModel(it<YoutubeRepository>()),
+    () => ChannelViewModel(it<ChannelRepository>()),
+  );
+  it.registerLazySingleton<TranscriptViewModel>(
+    () => TranscriptViewModel(it<BlogRepository>()),
   );
 }

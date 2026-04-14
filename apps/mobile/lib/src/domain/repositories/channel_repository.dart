@@ -2,6 +2,6 @@ import 'package:fpdart/fpdart.dart';
 
 import '../domain.dart';
 
-abstract interface class YoutubeRepository {
+abstract interface class ChannelRepository {
   Future<Either<Exception, ChannelEntity>> getChannel();
 }

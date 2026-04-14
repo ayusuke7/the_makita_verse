@@ -1,14 +1,19 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../../domain/domain.dart';
-import '../../../shared/shared.dart';
+import '../../../../domain/domain.dart';
+import '../../../../shared/shared.dart';
 
 class YTVideoCard extends StatelessWidget {
   final VideoEntity video;
+  final VoidCallback? onTap;
+  final VoidCallback? onTapMore;
+  final EdgeInsets? margin;
 
   const YTVideoCard({
     super.key,
+    this.onTap,
+    this.onTapMore,
+    this.margin = const EdgeInsets.only(bottom: 20.0),
     required this.video,
   });
 
@@ -41,12 +46,10 @@ class YTVideoCard extends StatelessWidget {
     final theme = Theme.of(context);
 
     return InkWell(
-      onTap: () {
-        Launch.openLink(video.url);
-      },
+      onTap: onTap,
       child: Card(
         elevation: 4.0,
-        margin: EdgeInsets.only(bottom: 20.0),
+        margin: margin,
         child: Column(
           spacing: 16.0,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -57,24 +60,10 @@ class YTVideoCard extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16),
-                    child: CachedNetworkImage(
+                    child: ImageNetworkCache(
                       imageUrl: video.thumbnail.url,
                       fit: BoxFit.cover,
                       width: double.infinity,
-                      placeholder: (context, url) => Container(
-                        color: Colors.grey.shade900,
-                        child: const Center(
-                          child: CircularProgressIndicator(strokeWidth: 2),
-                        ),
-                      ),
-                      errorWidget: (context, url, error) => Container(
-                        color: Colors.grey.shade900,
-                        child: const Icon(
-                          Icons.play_circle_outline,
-                          size: 48,
-                          color: Colors.white24,
-                        ),
-                      ),
                     ),
                   ),
                   Positioned(
@@ -100,63 +89,53 @@ class YTVideoCard extends StatelessWidget {
                       ),
                     ),
                   ),
+                  if (onTapMore != null)
+                    Positioned(
+                      right: 0,
+                      child: IconButton(
+                        onPressed: onTapMore,
+                        icon: Icon(Icons.more_vert),
+                      ),
+                    ),
                 ],
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(12.0),
-              child: Row(
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          video.title,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: theme.textTheme.titleMedium?.copyWith(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
-                            letterSpacing: -0.2,
-                            height: 1.2,
-                          ),
-                        ),
-                        const SizedBox(height: 6),
-                        Row(
-                          children: [
-                            Text(
-                              '${_formatViewCount(video.viewCount)} visualizações',
-                              style: theme.textTheme.bodySmall?.copyWith(
-                                fontWeight: FontWeight.w500,
-                              ),
-                            ),
-                            const SizedBox(width: 8),
-                          ],
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          video.description,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: Colors.white38,
-                            height: 1.4,
-                          ),
-                        ),
-                      ],
+                  Text(
+                    video.title,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                      letterSpacing: -0.2,
+                      height: 1.2,
                     ),
                   ),
-                  InkWell(
-                    borderRadius: BorderRadius.circular(20),
-                    onTap: () {},
-                    child: const Padding(
-                      padding: EdgeInsets.all(4.0),
-                      child: Icon(
-                        Icons.more_vert,
-                        size: 20,
+                  const SizedBox(height: 6),
+                  Row(
+                    children: [
+                      Text(
+                        '${_formatViewCount(video.viewCount)} visualizações',
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          fontWeight: FontWeight.w500,
+                        ),
                       ),
+                      const SizedBox(width: 8),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    video.description,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: Colors.white38,
+                      height: 1.4,
                     ),
                   ),
                 ],

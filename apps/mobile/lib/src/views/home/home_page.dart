@@ -5,7 +5,7 @@ import '../views.dart';
 enum HomePageIndex {
   news,
   blog,
-  channel,
+  videos,
   profile,
 }
 
@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
     String title = switch (_selectedIndex) {
       .news => 'The M.Akita Chronicles',
       .blog => 'AkitaOnRails Blog',
-      .channel => 'Fabio Akita Channel',
+      .videos => 'Fabio Akita Channel',
       .profile => 'The MAkita Verse',
     };
 
@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
       body: switch (_selectedIndex) {
         .news => NewsPage(),
         .blog => BlogPage(),
-        .channel => ChannelPage(),
+        .videos => VideosPage(),
         .profile => ProfilePage(),
       },
       bottomNavigationBar: BottomNavigationBar(

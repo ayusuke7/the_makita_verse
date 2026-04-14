@@ -1,18 +1,18 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 import 'channel_state.dart';
 
 class ChannelViewModel extends BaseViewModel<ChannelState> {
-  final YoutubeRepository _youtubeRepository;
+  final ChannelRepository _channelRepository;
 
   ChannelViewModel(
-    this._youtubeRepository,
+    this._channelRepository,
   ) : super(const ChannelState());
 
   void getChannel() async {
     emit(state.copyWith(status: StateStatus.loading));
 
-    (await _youtubeRepository.getChannel()).fold(
+    (await _channelRepository.getChannel()).fold(
       (error) => emit(
         state.copyWith(
           status: StateStatus.error,
@@ -26,5 +26,9 @@ class ChannelViewModel extends BaseViewModel<ChannelState> {
         ),
       ),
     );
+  }
+
+  VideoEntity? getVideo(String videoId) {
+    return state.channel?.videos.where((v) => v.id == videoId).firstOrNull;
   }
 }

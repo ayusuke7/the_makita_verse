@@ -3,12 +3,12 @@ import 'package:fpdart/fpdart.dart';
 import '../../domain/domain.dart';
 import '../data.dart';
 
-class YoutubeRepositoryImpl implements YoutubeRepository {
+class ChannelRepositoryImpl implements ChannelRepository {
   final YoutubeDataSource _dataSource;
 
   ChannelEntity? _cacheChannel;
 
-  YoutubeRepositoryImpl(this._dataSource);
+  ChannelRepositoryImpl(this._dataSource);
 
   @override
   Future<Either<Exception, ChannelEntity>> getChannel() async {

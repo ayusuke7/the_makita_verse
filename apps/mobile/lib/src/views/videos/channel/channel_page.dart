@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:the_makita_verse_app/src/config/config.dart';
 
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
+import '../transcripts/transcript.dart';
 import 'channel_viewmodel.dart';
 import 'components/video_card.dart';
 
@@ -20,50 +21,113 @@ class _ChannelPageState extends State<ChannelPage> {
   void _showChannelDetail(ChannelEntity channel) {
     showModalBottomSheet(
       context: context,
+      useSafeArea: true,
       isScrollControlled: true,
       backgroundColor: Colors.grey.shade900,
       builder: (context) {
-        return Padding(
+        return ListView(
           padding: const EdgeInsets.fromLTRB(12, 12, 12, 30),
-          child: Column(
-            spacing: 20.0,
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              ListTile(
-                contentPadding: EdgeInsets.zero,
-                leading: CircleAvatar(
-                  backgroundImage: ImageNetworkCache.provider(
-                    channel.thumbnails.last.url,
-                  ),
+          children: [
+            ListTile(
+              contentPadding: EdgeInsets.zero,
+              leading: CircleAvatar(
+                backgroundImage: ImageNetworkCache.provider(
+                  channel.thumbnails.last.url,
                 ),
-                title: Text(
-                  channel.title,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+              ),
+              title: Text(
+                channel.title,
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              subtitle: Text(
+                '${_formatViewCount(channel.channelFollowerCount)} Subscribers',
+              ),
+              trailing: IconButton(
+                icon: Icon(Icons.close),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
+            ),
+
+            Text(
+              channel.description,
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                color: Colors.white70,
+              ),
+            ),
+
+            Wrap(
+              spacing: 8.0,
+              runSpacing: 8.0,
+              children: channel.tags.map((tag) {
+                return Chip(
+                  label: Text(tag),
+                  backgroundColor: Colors.white10,
+                );
+              }).toList(),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showActions(VideoEntity video) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.grey.shade900,
+      builder: (context) {
+        return Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 12.0,
+            vertical: 20.0,
+          ),
+          child: Column(
+            spacing: 7.0,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ElevatedButton.icon(
+                label: Text('Transcript'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.grey.shade800,
+                  foregroundColor: Colors.white,
+                  textStyle: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
+                  fixedSize: Size(double.maxFinite, 50),
                 ),
-                subtitle: Text(
-                  '${_formatViewCount(channel.channelFollowerCount)} Subscribers',
-                ),
-              ),
+                icon: Icon(Icons.text_fields),
+                onPressed: () {
+                  Navigator.pop(context);
 
-              Text(
-                channel.description,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Colors.white70,
-                ),
+                  final vm = it.get<TranscriptViewModel>();
+                  final transcript = vm.getTranscript(video.id);
+                  if (transcript != null) {
+                    TranscriptDetail.show(
+                      context,
+                      transcript: transcript,
+                      video: video,
+                    );
+                  }
+                },
               ),
-
-              Wrap(
-                spacing: 8.0,
-                runSpacing: 8.0,
-                children: channel.tags.map((tag) {
-                  return Chip(
-                    label: Text(tag),
-                    backgroundColor: Colors.white10,
-                  );
-                }).toList(),
+              ElevatedButton.icon(
+                label: Text('Watch Video'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red,
+                  foregroundColor: Colors.white,
+                  textStyle: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+                  fixedSize: Size(double.maxFinite, 50),
+                ),
+                icon: Icon(Icons.play_circle_outline),
+                onPressed: () {
+                  Launch.openLink(video.url);
+                },
               ),
             ],
           ),
@@ -79,12 +143,6 @@ class _ChannelPageState extends State<ChannelPage> {
       return '${(count / 1000).toStringAsFixed(1)}K';
     }
     return count.toString();
-  }
-
-  @override
-  void initState() {
-    super.initState();
-    _channelViewModel.getChannel();
   }
 
   @override
@@ -190,6 +248,7 @@ class _ChannelPageState extends State<ChannelPage> {
                   ),
                 ),
               ],
+
               ListTile(
                 contentPadding: EdgeInsets.zero,
                 title: Text(
@@ -201,7 +260,15 @@ class _ChannelPageState extends State<ChannelPage> {
               ),
               Column(
                 children: state.channel!.videos.map((e) {
-                  return YTVideoCard(video: e);
+                  return YTVideoCard(
+                    video: e,
+                    onTap: () {
+                      Launch.openLink(e.url);
+                    },
+                    onTapMore: () {
+                      _showActions(e);
+                    },
+                  );
                 }).toList(),
               ),
             ],

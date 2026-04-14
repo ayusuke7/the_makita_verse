@@ -76,7 +76,10 @@ class LinksEntity {
   final String url;
   final String title;
 
-  LinksEntity({required this.url, required this.title});
+  LinksEntity({
+    required this.url,
+    required this.title,
+  });
 
   LinksModel toModel() {
     return LinksModel(

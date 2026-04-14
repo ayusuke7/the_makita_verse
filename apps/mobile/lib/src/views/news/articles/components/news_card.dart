@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../domain/domain.dart';
@@ -39,24 +38,10 @@ class NewsCard extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16),
-                    child: CachedNetworkImage(
+                    child: ImageNetworkCache(
                       imageUrl: news.image,
                       fit: BoxFit.cover,
                       width: double.infinity,
-                      placeholder: (context, url) => Container(
-                        color: Colors.grey.shade900,
-                        child: const Center(
-                          child: CircularProgressIndicator(strokeWidth: 2),
-                        ),
-                      ),
-                      errorWidget: (context, url, error) => Container(
-                        color: Colors.grey.shade900,
-                        child: const Icon(
-                          Icons.play_circle_outline,
-                          size: 48,
-                          color: Colors.white24,
-                        ),
-                      ),
                     ),
                   ),
                   Positioned(

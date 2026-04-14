@@ -24,13 +24,28 @@ class _SavedPostPageState extends State<SavedPostPage> {
           );
         }
 
-        return ListView.builder(
-          padding: const EdgeInsets.fromLTRB(12, 20, 12, 12),
-          itemCount: state.savedPosts.length,
-          itemBuilder: (context, index) {
-            final post = state.savedPosts[index];
-            return PostItemCard(post: post);
-          },
+        return ListView(
+          padding: const EdgeInsets.only(top: 20, bottom: 12),
+          children: state.savedPostsByMonthYear.keys.map((key) {
+            final posts = state.savedPostsByMonthYear[key]!;
+            return Column(
+              children: [
+                ListTile(
+                  contentPadding: EdgeInsets.fromLTRB(20, 20, 10, 5),
+                  leading: Icon(Icons.calendar_month),
+                  title: Text(
+                    key,
+                    softWrap: false,
+                    style: TextStyle(
+                      fontSize: 15.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                ...posts.map((post) => PostItemCard(post: post)),
+              ],
+            );
+          }).toList(),
         );
       },
     );

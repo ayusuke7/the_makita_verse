@@ -3,9 +3,8 @@ import '../../domain/domain.dart';
 class BlogPostModel {
   final String url;
   final String title;
-  final String publishedAt;
-
   final String content;
+  final String publishedAt;
 
   BlogPostModel({
     required this.url,

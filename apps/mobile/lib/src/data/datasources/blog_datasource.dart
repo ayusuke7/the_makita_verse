@@ -8,6 +8,7 @@ import '../models/models.dart';
 
 abstract interface class BlogDataSource {
   Future<List<BlogPostModel>> getBlogPosts();
+  Future<List<TranscriptModel>> getTranscripts();
   Future<List<BlogPostModel>> getSavedBlogPosts();
   Future<bool> saveBlogPost(BlogPostModel blogPost);
   Future<bool> removeBlogPost(String id);
@@ -20,9 +21,23 @@ class BlogDataSourceImpl implements BlogDataSource {
   final String _localBlogPostsKey = 'saved_blog_posts';
   final String _baseUrl = '${Environment.githubStorageUrl}/data/blog';
 
-  BlogDataSourceImpl(
-    this._prefs,
-  ) : _httpClient = http.Client();
+  BlogDataSourceImpl(this._prefs) : _httpClient = http.Client();
+
+  @override
+  Future<List<TranscriptModel>> getTranscripts() async {
+    Logger.log('Fetching transcripts...');
+
+    final response = await _httpClient.get(
+      Uri.parse('$_baseUrl/transcripts.json'),
+    );
+
+    if (response.statusCode != 200) {
+      throw Exception('Failed to load blog posts');
+    }
+
+    final body = json.decode(response.body) as List<dynamic>;
+    return body.map((e) => TranscriptModel.fromJson(e)).toList();
+  }
 
   @override
   Future<List<BlogPostModel>> getBlogPosts() async {

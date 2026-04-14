@@ -61,4 +61,18 @@ class PostsState extends BaseState {
 
     return map;
   }
+
+  Map<String, List<BlogPostEntity>> get savedPostsByMonthYear {
+    final map = <String, List<BlogPostEntity>>{};
+    for (var post in savedPosts) {
+      final monthYear = '${post.month}, ${post.year}'.capitalize();
+      if (map.containsKey(monthYear)) {
+        map[monthYear]!.add(post);
+      } else {
+        map[monthYear] = [post];
+      }
+    }
+
+    return map;
+  }
 }

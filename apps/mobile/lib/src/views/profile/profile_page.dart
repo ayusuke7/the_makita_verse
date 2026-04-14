@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/shared.dart';
@@ -26,8 +25,8 @@ class _ProfilePageState extends State<ProfilePage> {
                 children: [
                   CircleAvatar(
                     radius: 40,
-                    backgroundImage: CachedNetworkImageProvider(
-                      'https://avatars.githubusercontent.com/u/2840?v=4',
+                    backgroundImage: ImageNetworkCache.provider(
+                      Consts.avatarUrl,
                     ),
                   ),
                   Text(
@@ -53,9 +52,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                   onTap: () {
-                    Launch.openLink(
-                      'https://github.com/ayusuke7/the_makita_verse',
-                    );
+                    Launch.openLink(Consts.appGithubUrl);
                   },
                 ),
               ),
@@ -70,7 +67,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                   onTap: () {
-                    Launch.openLink('https://blog.themakitachronicles.com/');
+                    Launch.openLink(Consts.blogUrl);
                   },
                 ),
               ),
@@ -85,7 +82,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                   onTap: () {
-                    Launch.openLink('https://akitaonrails.com');
+                    Launch.openLink(Consts.akitaOnRailsBlogUrl);
                   },
                 ),
               ),
@@ -96,7 +93,7 @@ class _ProfilePageState extends State<ProfilePage> {
             padding: const EdgeInsets.only(bottom: 30.0),
             child: InkWell(
               onTap: () {
-                Launch.openLink('https://github.com/ayusuke7');
+                Launch.openLink(Consts.githubUrl);
               },
               child: Text(
                 'Developed by @ayusuke7',

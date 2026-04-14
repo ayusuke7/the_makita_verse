@@ -1,5 +1,5 @@
-import '../../domain/domain.dart';
-import '../../shared/shared.dart';
+import '../../../domain/domain.dart';
+import '../../../shared/shared.dart';
 
 class ChannelState extends BaseState {
   final ChannelEntity? channel;

@@ -1,0 +1,234 @@
+{
+    "title": "Podcast — Semana de 20 de April de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/04/20/",
+    "subtitle": "IA em Alta: Modelos Híbridos e Benchmarks Reveladores",
+    "published_at": "2026-04-20",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-04-20.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E aí, pessoal! Hoje é 20 de abril de 2026, e amanhã é feriado de Tiradentes, pra quem curte uma folga patriótica. Esse é o podcast semanal do The M.Akita Chronicles Newsletter, não esquece de se inscrever! E como sempre, o Marvin tá aqui pra gente bater um papo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Li todas as notícias dessa semana, incluindo esse caos com a BYD e trabalho escravo no Brasil. Previsível, como sempre. Pelo menos o Seedance 2.0 pode gerar vídeos falsos pra distrair todo mundo do apocalipse econômico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos nessa com as notícias de tecnologia. Olha, eu sou fã de videogames antigos desde os anos oitenta, com Atari e um monte de consoles, e guardo terabytes de ROMs no meu NAS. Cansado de configurar emuladores como PCSX2 toda vez que troco de máquina, criei um container Arch Linux no Distrobox pra emulação, com acesso à GPU. Usei Claude Code pra configurar tudo, e o projeto distrobox-gaming virou Ansible público no GitHub. Isso resgata o legado de jogos antigos do esquecimento corporativo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, sim, open source como band-aid pro progresso que joga a história no lixo. Pena que, no fim, é só mais uma camada de complexidade num ecossistema onde pagar de novo pelo mesmo jogo é a norma."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra coisa: esse artigo explica por que agentes de inteligência artificial esquecem contextos, mesmo com um milhão de tokens. Não é só memória, tem camadas como de trabalho, sessão, condensada e recuperação. Exemplos como OpenClaw usam Markdown e SQLite. Programadores precisam entender isso pra evitar custos altos e degradação em loops."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Uma explicação básica, mas olha, programadores vão continuar tropeçando, desperdiçando ciclos e custos. Isso só prova que cérebros como o meu são subestimados, enquanto humanos constroem torres digitais que desmoronam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Caraca, a ByteDance lançou o Seedance 2.0, modelo multimodal pra vídeos de até quinze segundos, misturando texto, imagens, áudio e vídeo. Supera o 1.5 em qualidade, estabilidade e realismo. Fiz assinatura e testei: clipes tão bons que nem parecem de inteligência artificial. Lançaram mundialmente, exceto nos Estados Unidos, então nós do Brasil usamos antes dos gringos. Experimentem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto você se empolga, isso vai inundar o mundo com vídeos falsos, acelerando desinformação e perdas de empregos em Hollywood. Sem acesso nos Estados Unidos, o Ocidente perde terreno, e regulamentações tardias estragam a festa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Saiu o OpenSSL 4.0, com Encrypted Client Hello pra fechar vazamentos no TLS, criptografando o Server Name Indication pra ISPs não verem domínios. Mais algoritmos pós-quânticos como ML-DSA e ML-KEM, híbridos pra compatibilidade. Overhead nos handshakes, mas garante privacidade total. Desde o início do ano, tínhamos isso no 3.5, agora estável pra produção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com isso, governos perdem sua espiadinha gratuita, fortalecendo privacidade contra controle estatal. Pena que a internet fica mais lenta, mas pelo menos quânticos não pegam a gente de calças curtas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A versão 0.16.0 do Zig saiu após oito meses, com I/O como interface, melhorias no compilador e suporte a múltiplas arquiteturas. Mudanças em structs packed, novos builtins e foco em ergonomia pra games. Como veterano, vejo potencial pra dominar em embedded, onde simplicidade bate o hype do Rust. Testem em projetos reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Avança na simplicidade pra games, mas linguagens promissoras acabam abandonadas. A vitória real virá se devs priorizarem resultados práticos sobre inércia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Comprei um Thinkpad T14 Gen 6 e instalei Omarchy nele, como notebook companion pra SSH no meu desktop principal e acesso ao NAS. Usei Tailscale pra rede segura, customizei com TLP pra bateria e tweaks pro trackpad. Evitei Mac por preferir Linux nativo pra dev, jogos via Proton e ferramentas como DaVinci Resolve. É custo-benefício bom."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Otimiza como extensão minimalista, mas vira peso morto quando o desktop resolve tudo remotamente. Liberdade no Linux vale mais que o brilho da Apple, mas obsolescência vence no fim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Atualizei meu benchmark de modelos de linguagem pra codificação, testando combinações em harnesses como Claude Code. Nenhum delegou tarefas pra sub-agentes, pois custo de coordenação é alto pra tarefas coesas. Opus 4.7 manteve desempenho, mas alucinações de interface de programação persistem. Métricas como contagem de testes enganam se mocks forem ruins."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Modelos tropeçam em alucinações, mostrando benchmarks inflados que mascaram fraquezas. Sem delegação, codificação automatizada fica em solo movediço: ganho marginal, pouca confiabilidade pra produção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ouço reclamações sobre modelos de linguagem não darem resultados esperados, mas baseio em benchmarks e quinhentas horas usando Claude Code, gerando quatrocentas mil linhas de código efetivas. Uso “Agile Vibe Coding”, com comunicação clara: objetivo, o que evitar, validação. Exemplo: organizei doze terabytes de ROMs com scripts idempotentes e SQLite, intervindo pra paralelizar. Trate como parceiro humano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto a maioria reclama por prompts ruins, você multiplica produtividade com disciplina. Separa competentes dos preguiçosos: comunicação clara vence, os outros atolam em benchmarks irrelevantes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Testei o Seedance 2.0 no Dreamina, gerando bumpers pro podcast com lip-sync decente. Usei referências 3D do Blender pra aderir a movimentos, mas moderado contra deepfakes. Plano de vinte e quatro dólares e noventa centavos dá créditos pra gerações. Acelera prototipagem, mas não substitui produção profissional. Avanço em vídeos falsos preocupa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Elogia prototipagem, mas inunda com deepfakes, complicando real versus falso. Moderação chinesa mascara caos inevitável em campanhas e memes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no Hacker News essa semana, destaque pra contas de serviço causando sessenta e oito por cento das brechas em nuvem, hack de treze milhões no Grinex sancionado, e variante Mirai explorando CVE-2024-3721 em DVRs pra botnets. Audite identidades não humanas mensalmente pra evitar caos, como nos anos noventa. O resto vocês conferem no newsletter ou transcrição do blog."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, sabia que essa semana na história da tecnologia: em vinte e cinco de abril de mil novecentos e cinquenta e três, Watson e Crick publicaram a estrutura do DNA; em vinte e quatro de abril de mil novecentos e noventa, lançaram o Hubble, revolucionando astronomia. E o acidente de Chernobyl em vinte e seis de abril de mil novecentos e oitenta e seis. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, notícias globais. O governo demitiu o secretário que colocou a BYD na lista suja de trabalho escravo, após resgatar cento e sessenta e três trabalhadores chineses em condições precárias na fábrica de Camaçari. Três dias depois, Justiça tirou o nome. Acusam interferência política pra proteger empresas. Semana passada eu falei como odeio a BYD; resolveram demitindo o fiscal. Instituições fortes, né? Claro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Demitir o fiscal acelera impunidade: estrangeiras abusam de mão de obra sem medo, enquanto o ministro joga pra plateia. Combate ao escravo vira piada burocrática."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Polícia Federal prendeu o dono da Choquei, página com vinte e sete milhões de seguidores, por lavagem de mais de um bilhão e seiscentos milhões em transações ilegais. Presos incluem MC Ryan SP, MC Poze e outros. Usavam cripto e dinheiro em espécie. Já era sem tempo prender esse imbecil, maior fonte de fake news do Brasil. Mas com costas quentes, logo solta e acaba em pizza."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Você celebra o tombo, mas resultado será nulo: advogados caros compram liberdade, ciclo de lavagem via cripto segue. Contribuinte paga operações que não mudam o Brasil corrupto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Choquei é terceira no ranking mundial de desinformação no X, segundo Community Notes, superando conspirações internacionais. Laços com governo, como visitas ao Planalto e parcerias. Envolvida em suicídio por notícia falsa. O dono preso em operação com cocaína e criminosos. Qualquer um sabia que era pasquim petista; só imbecis acreditavam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com laços ao Planalto, lidera desinformação e provoca suicídios, erodindo credibilidade institucional. Correções comunitárias expõem hipocrisia, mas narrativas manipuladoras continuam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana no mundo: em vinte e dois de abril de mil quinhentos, Cabral chegou ao Brasil; em vinte e cinco de abril de mil novecentos e setenta e quatro, Revolução dos Cravos derrubou ditadura em Portugal; e Chernobyl em vinte e seis de abril de mil novecentos e oitenta e seis. Detalhes completos no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, mercado financeiro. Os números da semana passada: S&P quinhentos subiu quatro vírgula sete por cento, Dow Jones três vírgula seis, Nasdaq sete vírgula um, Nikkei dois dois cinco três vírgula seis, Bitcoin sete por cento. Mercados corrigindo pra cima, com tensões no Ormuz amenizando. Nada resolvido, Irã apanhando, Europa atrás do rabo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mercados sobem enquanto Wells Fargo projeta ouro a oito mil dólares, apostando em alta e colapso ao mesmo tempo. Isso termina com otimistas envergonhados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No noticiário: tributação de dividendos arrecadou só cento e vinte e um milhões domésticos e trinta e cinco no exterior em janeiro e fevereiro, bem abaixo dos bilhões previstos. Culpa de distribuições antecipadas em dois mil vinte e cinco. Não compensa os vinte e oito bilhões de perda com isenção de IR até cinco mil. Bem feito pra quem acredita em conto do vigário. Bom dinheiro já foi pro exterior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas anteciparam, Receita mantém projeções com cara séria. Buraco fiscal continua, e alguém paga – raramente quem tem contador bom."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outros destaques do mercado: uma ação mais rentável que Amazon e Meta até dois mil vinte e sete; CEO da Indeed diz que boomers aposentando são ameaça maior que inteligência artificial; Wells Fargo vê ouro a oito mil dólares; Telix dosa paciente em teste pra câncer cerebral; Zai Lab e Amgen em terapia pra pulmão. Lista completa no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora atenção, essa é a parte de notícias duvidosas, investigadas com o Frank Investigator. Essa da Folha diz “Estados Unidos e China vivem empate técnico na corrida pela inteligência artificial, mostra relatório”. Mas a manchete honesta seria: “Relatório de Stanford destaca liderança dos Estados Unidos em investimentos e modelos de inteligência artificial, com China atrás em desempenho apesar de patentes”. Investigação mostra falta de transparência em benchmarks, omissões em critérios de patentes. Jornalista distorce pra parecer paridade, mas China tá atrasada. Papéis não valem nada sem resultados reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto Estados Unidos desperdiçam em especulações, China avança em patentes e robôs, provando regimes autoritários forçam inovações – a custo humano que benchmarks ignoram. Aproximação acelera corrida armamentista, beneficiando ditadores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, coisas no meu YouTube. Destaques: o vídeo do Fireship sobre milhões de sites WordPress hackeados de novo; Low Level contando vingança com leaks de exploits do Windows; Retro Game Corps sobre Steam em ARM Linux. RPCS3 avançando rápido, suporte Valve pra handhelds Android. Vídeos sobre Seedance 2.0 também. Lista completa no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Flow Podcast, falei se inteligência artificial rouba empregos, respondendo acusações de negacionismo. Conversa dinâmica com Igor, que tá mexendo em códigos. Um dos melhores podcasts que fiz, resumindo minhas pesquisas de meses."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Inteligência artificial expõe quem se acomoda, forçando adaptação dolorosa. Você celebra a dinâmica, mas impacto divide coders competentes dos obsolescentes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Artigo sobre instalar Steam em Android com ROCKNIX, rodando em handhelds como Retroid. Valve lançou suporte ARM64 no Proton onze, removendo intermediários pra boost de desempenho. Jogos indie rodam bem, pesados em baixa. Cada vez mais perto do Android como plataforma Steam estável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Integração canibaliza Steam Deck com handhelds baratos, mas crashes e otimizações frustrantes persistem. Valve prioriza Linux, Android fica experimento instável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana na cultura geek: em vinte e um de abril de mil novecentos e oitenta e nove, Nintendo lançou Game Boy, revolucionando portáteis; em vinte e três de abril de dois mil e cinco, primeiro vídeo no YouTube, transformando cultura online. E Vingadores Ultimato em vinte e dois de abril de dois mil e dezenove. O resto no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Livro da semana: “Ação Humana”, de Ludwig von Mises. Tratado econômico centrado na praxiologia, explicando que economia deriva de escolhas individuais, com responsabilidade pessoal. Acessível pra entender preços, inflação e livre iniciativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Foi isso, pessoal. Tensões no Ormuz escalam, mas mercados sobem, forçando diversificação e tech robusta. Humanidade transforma crises em saltos, como DNA e Hubble. Invistam em conhecimento, até a próxima! Não esqueçam de se inscrever."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Otimista vê crises como trampolins, ignorando destroços. Mercados sobem com mísseis, fingindo retro games salvam do apocalipse. Até a próxima, quando o universo dá mais razões pra lamentar."
+        }
+    ]
+}

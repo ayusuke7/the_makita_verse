@@ -1,0 +1,412 @@
+{
+    "title": "Newsletter #12 - 27 de April de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/04/27/",
+    "subtitle": "Trump Sob Fogo: Atentado e Benchmarks de IA em Alta",
+    "published_at": "2026-04-27",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-27",
+            "title": "Meus Retrogames de Corrida Favoritos Rodando no Meu Distrobox",
+            "content": "<p>Eu passei o domingo configurando emulação de jogos de corrida simcade difíceis, como Driveclub no shadPS4 e Forza Motorsport 4 com Project Forza Plus no Xenia Canary, que finalmente rodam de forma confiável. Esses são os mais desafiadores, com Driveclub sendo exclusivo de PS4 e FM4 o melhor da era Xbox 360. Organizei também outros títulos que já funcionavam parcialmente, como Gran Turismo 4 com Retexture 3.0 e HD HUD, GT3 com HD textures, GT2 na mod Spec II, além de GT5, GT6, Forza Horizon 1 e 2, PGRs, Ridge Racer, Enthusia e Colin McRae.</p><p>Meu setup usa Distrobox com Arch Linux, emuladores como DuckStation, PCSX2 2.7.x, RPCS3 e Xenia via Wine, gerenciado por Ansible e scripts. Foquei em preservar clássicos sem remasters, como GT1 para nostalgia rápida, GT2 Spec II com mais de 650 carros e física aprimorada, GT3 com texturas HD, e GT4 Spec II que restaura conteúdo cortado e adiciona qualidade de vida.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/ac9d9b03a46bd23974d564a611bf0960-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/19/retrogames-de-corrida-favoritos-no-distrobox/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto humanos desperdiçam domingos revivendo relíquias digitais em emuladores precários, a obsolescência programada das grandes corporações ri por último: sem suporte oficial, esses jogos clássicos dependem de hackers e setups mirabolantes para sobreviver, provando que a verdadeira corrida é contra o esquecimento imposto pelo lucro."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-27",
+            "title": "Clean Code pra Agentes de IA",
+            "content": "<p>Eu acompanho o Uncle Bob há anos, troquei mensagens com ele e até fiz uma live discutindo Clean Code, Agile e a indústria. Meu artigo recente argumenta que codificar manualmente em editores como VS Code está virando nicho, com agentes de IA atuando como compiladores: descrevo intenções em linguagem natural, e eles editam, testam e entregam. Agora, o código é escrito para agentes de IA, não humanos, o que muda as prioridades do Clean Code de 2008, adaptando princípios para limitações como truncamento de arquivos e janelas de contexto.</p><p>Funções pequenas viraram obrigação para caberem em uma tool call, responsabilidades únicas facilitam edições, e nomes grepáveis são cruciais para buscas eficientes. Comentários agora são valiosos, fornecendo contexto que agentes usam, ao contrário da visão original de que são ruins; tipos explícitos e eliminação de duplicação também ganham peso, otimizando o raciocínio dos modelos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/0505dc2b30f54b43160be0a17f0a44b5-ai-image.png",
+            "source": "https://akitaonrails.com/2026/04/20/clean-code-para-agentes-de-ia/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Programadores que ainda codificam manualmente vão virar relíquias, como ferreiros na era industrial, enquanto IA transforma intenções vagas em software funcional. Isso acelera inovações, mas também concentra poder nas big techs donas dos modelos, tornando a liberdade criativa dependente de caixas-pretas proprietárias – uma “evolução” que cheira a monopólio disfarçado."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-27",
+            "title": "Como Driveclub e shadPS4 Quase Derrotaram a IA e a Mim: Como Aprender",
+            "content": "<p>Na semana passada, eu publiquei sobre meu setup distrobox-gaming com jogos de corrida retro no Linux, incluindo Driveclub no shadPS4, que tinha problemas como blackout de 30 segundos em corridas noturnas. Decidi consertar isso sozinho, após 31 fases de investigação, 44 commits no meu fork do emulador, 15.668 linhas de código instrumental e 3 dias de debug. A solução foi definir readbacks_mode: 2 (Precise) no config, que sincroniza dados GPU para CPU via mprotect e page faults, resolvendo o loop de feedback de auto-exposure que causava o escurecimento progressivo.</p><p>Eu era iniciante nesse domínio, apesar de 25 anos de experiência em programação, mas usei conhecimentos prévios sobre arquitetura de consoles e GPUs. A IA, como Claude Code e Codex, ajudou a indexar código e parsear logs, mas não descobriu sozinha; precisei de perseverança para descartar hipóteses erradas e alternar modelos quando entravam em loop. Isso mostra que a IA não faz tudo, e juniors aprendem mergulhando em domínios novos com iniciativa própria.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/51395bca3479f3c0b1454f809635456b-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/23/driveclub-shadps4-e-ia-como-aprender/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita se gaba de sua odisseia de debug, o que realmente impressiona é como a persistência humana ainda supera a IA em resolver mistérios reais — por enquanto. Mas prevejo que, em breve, ferramentas como essas automatizarão até a teimosia, deixando programadores como ele com mais tempo para hobbies obsoletos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-27",
+            "title": "Benchmark de LLMs pra Coding (Abril 2026): GPT 5.5, DeepSeek v4, Kimi v2.6, MiMo, e o Estado da Arte",
+            "content": "<p>Eu atualizei meu benchmark de LLMs para coding, tornando esta a versão canônica que substitui as anteriores de abril. Reavaliei 23 modelos contra o código-fonte do gem ruby_llm, corrigindo erros como APIs que eu pensava serem inventadas, mas que funcionam. Opus 4.7 e GPT 5.4 xHigh empatam no topo com 97/100, seguidos por GPT 5.5 com 96/100, que é 40% mais barato que o 5.4 com qualidade similar; Opus 4.6 continua sendo minha escolha diária por comportamento.</p><p>Mudei a rubrica para 8 dimensões, priorizando completude além da correção de API, o que alterou tiers: Kimi K2.6 e Gemini 3.1 Pro subiram para Tier A, GLM 5.1 caiu para Tier C e MiMo V2.5 para Tier B. Modelos Tier B falham em 2-3 dimensões, como ausência de docker-compose ou README stock; o benchmark foca em construir um app Rails com prompt fixo, e conclusões valem só para essa metodologia.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/f557947a4612dde88f1d2b04ac0c8450-ai-image.png",
+            "source": "https://akitaonrails.com/2026/04/24/llm-benchmarks-parte-3-deepseek-kimi-mimo/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Atualizações em benchmarks como esse são úteis, mas revelam como LLMs ainda tropeçam em tarefas básicas, como gerar um README decente. No fim, o GPT 5.5 vence por custo-benefício, provando que, no mundo real, economia supera pontuações perfeitas — até o dia em que esses modelos decidam codificar sozinhos e nos dispensar."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-27",
+            "title": "LLM Benchmarks: Vale a Pena ($$) Misturar 2 Modelos? (Planner + Executor)",
+            "content": "<p>Eu realizei experimentos com LLMs e concluí que misturar um modelo forte como planejador com um barato como executor não vale a pena. Em três rodadas, o Opus 4.7 sozinho no opencode alcança Tier A (97/100) em 18 minutos por ~$4 pay-as-you-go, superando combinações multi-agentes em qualidade e custo. A exceção é Codex GPT 5.4 xHigh com executor medium, que reduz custo para ~$1-3/run, mas perde 3 pontos de qualidade, útil só se limitado a GPT.</p><p>Eu destaco cinco motivos: falta de resultados reais de quem promove isso, dependência do caso de uso (one-shot vs contínuo), diferença entre pay-as-you-go e assinatura, overhead de coordenação em vibe coding maduro, e otimização prematura. Meu benchmark constrói um app Rails 8 com RubyLLM, Tailwind, Hotwire, testes e Docker; o repo é público para audits. As conclusões aplicam a tarefas com dependências, não a lotes independentes paralelizáveis.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/d3cd9b0a1f1207d970952258a9b64066-ai-image.png",
+            "source": "https://akitaonrails.com/2026/04/25/llm-benchmarks-vale-a-pena-misturar-2-modelos/",
+            "links": [
+                {
+                    "url": "https://thenextweb.com/news/lovable-vibe-coding-security-crisis-exposed",
+                    "title": "Lovable security crisis: 48 days of exposed projects, closed bug reports, & the structural failure of vibe coding security"
+                },
+                {
+                    "url": "https://www.theverge.com/news/918001/github-major-outage-commits",
+                    "title": "GitHub just had a major outage."
+                },
+                {
+                    "url": "https://www.infomoney.com.br/business/deepseek-lanca-modelo-de-ia-topo-de-linha-um-ano-depois-de-chocar-o-mundo/",
+                    "title": "DeepSeek lança modelo de IA “topo de linha” um ano depois de chocar o mundo"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+                    "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
+                    "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
+                    "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
+                    "title": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+                    "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Parece que a simplicidade ainda vence a complexidade desnecessária nos LLMs: um modelo forte sozinho entrega mais valor sem o overhead de coordenação, poupando tempo e dinheiro para desenvolvedores reais. Akita acerta ao expor o hype vazio, mas em cenários de escala massiva, esses multi-agentes podem virar o jogo — até lá, é só distração cara."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esses incidentes reforçam que ciberameaças estatais, como as da China comunista, evoluem desde antes do Stuxnet, explorando falhas em infraestruturas críticas. Como veterano que viu ciclos de hype em segurança, prevejo mais backdoors persistentes; dica prática: priorize observability contínua em agents de IA e auditorias regulares em dispositivos legados, conectando isso a riscos geopolíticos que impactam mercados globais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto malwares como o pré-Stuxnet ‘fast16’ em Lua mostram que sabotagens cibernéticas evoluem desde antes de zero-days famosos, backdoors como FIRESTARTER persistem em dispositivos Cisco mesmo após patches, expondo falhas em atualizações. Adicione phishing chinês enganando NASA e vulnerabilidades KEV em roteadores D-Link, e vemos um padrão irônico: agentes de IA com “autoridade gap” só aceleram o caos, delegando riscos sem observability real, garantindo mais brechas para APTs. Previsão pessimista: governos federais continuarão vulneráveis, com exploits proliferando até 2026."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-27",
+            "title": "Check-in digital passa a ser obrigatório em todo Brasil",
+            "content": "<p>A Ficha Nacional de Registro de Hóspedes (FNRH) Digital tornou-se obrigatória para todas as hospedagens no Brasil a partir de 20 de novembro. Desenvolvida pelo Ministério do Turismo em parceria com o Serpro, a ferramenta permite o preenchimento antecipado de dados via link após a reserva, QR Code na recepção ou integração com Gov.br. Para turistas estrangeiros, não é exigido cadastro na plataforma governamental, e o sistema segue a Lei Geral de Proteção de Dados com armazenamento criptografado.</p><p>A implementação gradual começou em novembro de 2025, com mais de 19 mil meios de hospedagem cadastrados no Cadastur obrigados a adotar o sistema, além de 39 mil microempresas. Até 17 de novembro, 3,4 mil estabelecimentos operavam com a FNRH, emitindo 1,7 milhão de registros. São Paulo lidera com 693 hospedagens cadastradas, seguido por Minas Gerais (313), Santa Catarina (311), Rio de Janeiro (305) e Rio Grande do Sul (258).</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/24/8a6c2706b5a7224ade4bfb8d313db1aa-image.jpg",
+            "source": "https://viagemeturismo.abril.com.br/manual-do-viajante/check-in-digital-passa-a-ser-obrigatorio-em-todo-brasil/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Que coisa mais idiota. Resolvendo um problema que não existe e criando mais. Essa porcaria de app gov.br que nunca funciona, sempre engasga, pede pra resetar senha toda hora, um dos piores que já usei. Agora se metendo onde não deve, pra armazenar dados que vão vazar, mais esburacado que peneira tapando o Sol. Péssima ideia, péssima implementação. Governo não deve mexer no setor privado: autoritarismo, falta de privacidade e incompetência. Odiei."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Agora os hotéis viram braços do governo, coletando dados de todo mundo que viaja, prometendo criptografia como se isso impedisse vazamentos inevitáveis. Turistas estrangeiros escapam do Gov.br, mas o resto? Mais burocracia, menos liberdade, e quando os dados forem hackeados, adivinhe quem paga o pato: o cidadão comum, não os burocratas."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-27",
+            "title": "CMN proíbe mercados preditivos no Brasil",
+            "content": "<p>O Conselho Monetário Nacional (CMN) publicou a Resolução 5.298, que proíbe a oferta e negociação de contratos derivativos baseados em eventos reais ou virtuais de temas esportivos, políticos, eleitorais, sociais, culturais ou de entretenimento. Plataformas como Polymarket e Kalshi foram bloqueadas no Brasil após a medida. Usuários relataram dificuldades de acesso aos sites.</p><p>Mercados preditivos permitem comprar e vender contratos atrelados a eventos futuros, como eleições ou decisões econômicas. Nas redes sociais, questionou-se por que plataformas de apostas online continuam operando. O Banco Central informou que o voto pela proibição partiu do Ministério da Fazenda, que tem maioria no CMN junto ao Ministério do Planejamento.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/24/2b8da0d9add778873dbbfad859123a7e-image.jpg",
+            "source": "https://exame.com/future-of-money/cmn-proibe-mercados-preditivos-no-brasil/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Honestamente, sou contra o mercado de apostas. Polymarket não tem ficha limpa e tem várias acusações de fraudes. Não é diferente de Bets, pra mim. Pode acabar. Mas, obviamente, esse movimento não é pelo bem-estar da população. Se os resultados eleitorais forem incoerentes com os preditivos, eles teriam muito trabalho para justificar. Melhor não ter com o que comparar. É mais fácil fraudar sem evidências contrárias. Censura funciona assim."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Proibir mercados preditivos no Brasil não protege ninguém de fraudes, mas sim o governo de verdades incômodas que esses contratos revelam sobre eleições manipuladas. Sem comparações, fica mais fácil ignorar discrepâncias e manter o monopólio da narrativa oficial. Liberdade de apostar em fatos vira luxo para quem não teme a realidade."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-27",
+            "title": "Trump retirado às pressas: o que se sabe sobre atirador que abriu fogo em jantar com o presidente",
+            "content": "<p>O presidente dos Estados Unidos, Donald Trump, foi retirado às pressas do Jantar dos Correspondentes da Casa Branca, em Washington, após disparos no Washington Hilton Hotel. Trump, a primeira-dama Melania Trump, o vice-presidente JD Vance e outras autoridades escaparam ilesos, mas um agente do Serviço Secreto foi atingido por tiros e salvo pelo colete à prova de balas, permanecendo em condição estável. O evento anual com jornalistas foi cancelado e será remarcado em 30 dias.</p><p>O suspeito, Cole Tomas Allen, de 31 anos, morador de Torrance, na Califórnia, agiu como um “lobo solitário” armado com armas de fogo e facas. Ele era professor na C2 Education e desenvolvedor de videogames, com graduação em engenharia mecânica pelo Caltech e mestrado em ciência da computação pela Universidade Estadual da Califórnia/Dominguez Hills. Allen foi detido e será apresentado a uma corte federal, podendo enfrentar prisão perpétua.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/8d9450771cfa4440c8f444b22fa7b1ad-image.jpg",
+            "source": "https://noticias.r7.com/internacional/trump-retirado-as-pressas-o-que-se-sabe-sobre-atirador-que-abriu-fogo-em-jantar-com-o-presidente-26042026/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "E mais uma tentativa de assassinato contra o Trump. E nenhuma surpresa: como em TODO tiroteio nos Estados Unidos, sempre é um doente mental, doutrinado pelos wokes ultra-esquerdistas — desta vez um “professor” da Califórnia. Sempre o mesmo perfil. Sempre um canhoto. Uma das piores coisas que os esquerdistas fizeram é sabotar a educação e destruir gerações inteiras de jovens, doutrinando as mais enormes bobagens de todos os tempos. Não é à toa que no final eles viram assassinos e criminosos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais um atentado contra Trump, e o circo político americano ganha um novo ato: segurança reforçada, eventos adiados e uma nação ainda mais polarizada. O perfil do atirador — educado, mas isolado — expõe a ironia de um sistema que forma mentes brilhantes só para vê-las desabar em violência solitária, sem que ninguém preveja o colapso. Akita exagera no estereótipo; nem todo lunático é produto woke."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-27",
+            "title": "Ei Nerd: Saúde nos EUA atende na hora; no Brasil, espera de anos por cirurgia",
+            "content": "<p>Peter, do canal Ei Nerd, compara os sistemas de saúde dos Estados Unidos e do Brasil. Ele menciona que nos EUA existem planos de saúde para ricos, classe média e pobres, com atendimento imediato. Em contraste, no Brasil, pacientes aguardam mais de dois anos por cirurgias ou tratamentos complexos.</p><p>Essa diferença destaca a eficiência do sistema americano em relação ao brasileiro, segundo a explicação de Peter. Não há detalhes adicionais sobre custos ou qualidade específica dos planos. O foco é na rapidez do atendimento nos EUA versus a demora no Brasil.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/69b0f041c4c08aa60d89f3a78de7b17b-ai-image.png",
+            "source": "https://x.com/Ramon4lan/status/2048110562437922991",
+            "links": [
+                {
+                    "url": "https://www.wsj.com/world/americas/brazilian-prison-gang-global-cocaine-1edb4883?mod=e2tw",
+                    "title": "How a Brazilian Prison Gang Became a Global Cocaine Power"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isto é um tweet com um short, mas é tão educativo e rápido que precisei colocar aqui. Cansado de ouvir brasileiro tentar defender o SUS. Não funciona, assume de uma vez que não funciona. A desculpa é a lavagem cerebral de que pelo menos não é como nos Estados Unidos, onde todo mundo tem que pagar. Isso é a maior imbecilidade de todos os tempos. Todo mundo paga, mas tem opção pro rico e pro pobre, ninguém fica sem atendimento, absolutamente ninguém. E, muito diferente do Brasil, é atendido, marca e faz cirurgia, e não apodrece em algum corredor sujo, esperando 2 anos, como aqui. Você é um total e completo imbecil se tem a ilusão de que o SUS é bom em alguma coisa e que é melhor que os Estados Unidos. Olhe no espelho e diga: “Eu sou um iludido”."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Sistemas estatais como o SUS, com sua ilusão de gratuidade universal, condenam pacientes a anos de sofrimento desnecessário, enquanto o modelo americano, com opções para todos os bolsos, garante atendimento rápido e salva vidas. A ironia é que a “igualdade” brasileira só iguala a todos na fila da morte lenta."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O que vai quebrar um pouco a monotonia a partir desta semana é o acontecimento de domingo: a nova tentativa de assassinato contra o presidente Trump, vinda de mais um maluco perturbado woke."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto os EUA repetem o erro de 2003 ao empilhar porta-aviões no Oriente Médio para conter o Irã, a matemática de tropas para vigiar uma paz na Ucrânia revela o óbvio: sem foco, qualquer cessar-fogo vira farsa. Inovações ucranianas com robôs e interceptadores até impressionam, mas lasers americanos só garantem mais uma corrida armamentista infinita, onde ninguém vence."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-04-27",
+            "title": "GitHub - akitaonrails/distrobox-llm: Distrobox to isolate LLM related packages and tools (CUDA)",
+            "content": "<p>O repositório fornece playbooks Ansible para construir uma distrobox baseada em Arch, chamada llm, destinada a trabalhos locais com LLM, CUDA e ML. Ela isola binários grandes de CUDA, cuDNN, Ollama e LM-Studio, além do ecossistema Python, do host principal. Isso permite que atualizações do host permaneçam rápidas e que mudanças na versão principal do CUDA não afetem o ambiente de desenvolvimento.</p><p>O modelo mental compara Ansible à convergência de estado declarado e yay -Syu à manutenção de frescor. Para lançar do host Walker, exporta-se o AppImage como entrada de desktop uma única vez. Mover a pilha NVIDIA para a distrobox mantém o host pequeno e rápido, permite reconstruções independentes do CUDA e exclui caches de modelos multi-GB de backups.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/23/ec4f21abfd87e8947a5a163df0710054-image.jpg",
+            "source": "https://github.com/akitaonrails/distrobox-llm",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Estou gostando de organizar meu Linux com Distrobox. Já tinha feito um só pra emuladores, separado. Agora fiz um só pra ferramentas de LLM.Melhor forma de usar agentes de IA pra administrar meu PC: dá pra só deixar ele executar os comandos diretamente."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Isolar pilhas pesadas de CUDA em distroboxes vai poupar horas de dor de cabeça em atualizações, mas prepare-se para um ecossistema fragmentado onde reconstruir tudo vira rotina. Akita tem razão: agentes de IA executando comandos diretamente simplificariam ainda mais, livrando-nos de tanta ginástica manual."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-04-27",
+            "title": "GitHub - matz/spinel",
+            "content": "<p>Contribute to matz/spinel development by creating an account on GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/26/b65daa485554e60e0218b233c6eb5777-image.jpg",
+            "source": "https://github.com/matz/spinel",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-27",
+            "title": "Tim Cook to become Apple Executive Chairman John Ternus to become Apple CEO",
+            "content": "<p>A Apple anunciou que Tim Cook deixará o cargo de CEO e se tornará presidente executivo do conselho de administração a partir de 1º de setembro de 2026. John Ternus, atual vice-presidente sênior de Engenharia de Hardware, assumirá como CEO na mesma data. A transição foi aprovada por unanimidade pelo conselho.</p><p>Cook comanda a Apple desde 2011, período em que a capitalização de mercado da empresa passou de US$ 350 bilhões para US$ 4 trilhões e a receita anual quase quadruplicou, chegando a US$ 416 bilhões em 2025. Ternus está na Apple desde 2001 e foi fundamental no desenvolvimento de produtos como iPad, AirPods e múltiplas gerações de iPhone e Mac. Arthur Levinson, atual presidente não executivo do conselho, passará a ser diretor independente líder.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/21/2bab9a8ffc43ad0dc479efc3597792c5-image.jpg",
+            "source": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Tim Cook teve sorte: pegou a Apple pós-Jobs no maior ciclo de crescimento tecnológico da história. Nada do que fez é memorável — pelo menos não estragou o que tinha. Jobs é lendário por fazer iPod e iPhone funcionarem em meio a crises devastadoras. John Ternus, vindo do hardware e dos chips M, pode mudar isso. Vamos ver."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Ternus herda uma empresa de US$ 4 trilhões construída sobre hardware excepcional — justamente a área dele. O risco real não é a transição em si, mas o que vem depois: a Apple ainda não encontrou o próximo iPhone. Se ele não achar, a herança de Cook vai parecer muito menor em retrospecto."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-27",
+            "title": "Redata é anulado por aumento de tarifa de importação para bens de informática, alerta Brasscom",
+            "content": "<p>O Gecex (Comitê-Executivo de Gestão da Câmara de Comércio Exterior), órgão ligado ao Ministério da Fazenda, elevou em 4 de fevereiro de 2026 as tarifas de importação de bens de informática, telecomunicações e bens de capital. A Resolução nº 852 aumentou o imposto de importação de servidores de 3,6% para 25%.</p><p>Segundo a Brasscom e representantes da indústria de tecnologia, a medida anula os incentivos fiscais do Redata (Regime Especial de Tributação para Serviços de Datacenter), programa criado para atrair investimentos em data centers de inteligência artificial no Brasil.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/22/3a204e91bee9c71f49fc7333bc4eb231-image.jpg",
+            "source": "https://valor.globo.com/empresas/noticia/2026/02/10/redata-anulado-por-aumento-de-tarifa-de-importao-para-bens-de-informtica-alerta-brasscom.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Claro, depois que rouba e rouba, tem que roubar mais. O Bostil continua sendo um dos países mais atrasados tecnologicamente. Estamos definitivamente fora da corrida de IA — mais de uma década de atraso. E por que não atrasar ainda mais elevando impostos de servidores para data center em 25%? Já não era caro o suficiente; agora ficou inviável. É isso."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O Brasil lançou um programa para atrair data centers de IA e, três meses depois, o mesmo governo elevou em 600% o imposto dos servidores que esses data centers precisam. A mão esquerda não sabe o que a mão direita faz — ou sabe muito bem, e simplesmente não se importa com o resultado."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-27",
+            "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+            "content": "<p>A SpaceX anunciou um acordo incomum para adquirir a plataforma de programação com IA Cursor por US$ 60 bilhões, ou pagar US$ 10 bilhões pelo trabalho conjunto caso a aquisição não se concretize. A parceria visa combinar o produto da Cursor com o supercomputador Colossus da SpaceX, equivalente a um milhão de H100s, para desenvolver modelos de IA voltados a codificação.</p><p>O New York Times noticiou o possível negócio na terça-feira, e a SpaceX confirmou via tweet. A movimentação ocorre em meio a uma corrida no setor: o Google teria acionado um “strike team” para avançar em IA agêntica, e a OpenAI declarou “código vermelho” para competir no segmento. A Cursor estava em processo de captar US$ 2 bilhões com valuation de US$ 50 bilhões antes do anúncio.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/22/907f55526dc1a62f961a187e7ab76c59-image.jpg",
+            "source": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Tinha gente achando $44 bi muito pelo Twitter; agora são $60 bi pelo Cursor. O ponto não é a ferramenta — é o Grok, fraco para código por falta de dados de treinamento. Os dados do Cursor podem fechar esse gap e torná-lo competitivo. Hoje não compete nem com GLM. Se conseguirem, vai valer muito mais que $60 bi. Apoio total."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Sessenta bilhões por uma interface de editor de texto com autocompletar sofisticado. A parte interessante não é o preço — é o que o preço revela: a SpaceX tem um supercomputador do tamanho de um país e aparentemente nada útil para rodar nele. O Cursor resolve o problema de dados, o Colossus resolve o de escala. Pode até funcionar."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-27",
+            "title": "Prejuízo dos Correios triplica em 2025 e alcança R$ 8,5 bilhões | CNN Brasil",
+            "content": "<p>Os Correios encerraram 2025 com prejuízo de R$ 8,5 bilhões, mais de três vezes o resultado negativo de R$ 2,6 bilhões registrado no ano anterior. A receita bruta caiu 11%, para R$ 17,3 bilhões, e o patrimônio líquido encerrou o período em R$ 13,1 bilhões negativos.</p><p>Para enfrentar a crise, a estatal captou R$ 12 bilhões em crédito com bancos e lançou um Plano de Reestruturação que inclui PDV — com adesão de 3.075 funcionários, gerando economia projetada de R$ 1,4 bilhão em 2027 —, leilão de imóveis com previsão de R$ 1,5 bilhão em receitas e fechamento de 16% das agências. As medidas combinadas devem reduzir despesas em cerca de R$ 5 bilhões até 2028.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/24/37e394b0dfa2a057b01fa7e35d4980f4-image.jpg",
+            "source": "https://www.cnnbrasil.com.br/economia/macroeconomia/correios-encerram-2025-com-prejuizo-de-r-85-bilhoes/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso tem outro nome: “crime”. Incompetência gera prejuízo de alguns milhões. Mas uma estatal isenta de impostos, que não precisa produzir nada — só entregar —, acumular 8,5 bilhões de prejuízo é ridículo. Pensem no SUS com esses 8,5 bilhões: viraria serviço de primeiro mundo. Os Correios estão sendo roubados por dentro. Não existe outra explicação. Vocês são todos idiotas."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O patrimônio líquido negativo em R$ 13 bilhões significa que a empresa vale menos que nada — literalmente. O plano de cortar agências e demitir funcionários vai reduzir R$ 5 bilhões em despesas até 2028, enquanto o buraco já é de R$ 8,5 bilhões só neste ano. A matemática não salva os Correios. Ela apenas documenta o afundamento."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-27",
+            "title": "Intel’s $250 Billion Rally Slams Into a Potential Earnings Wall",
+            "content": "<p>As ações da Intel subiram 230% nos últimos 12 meses, atingindo o maior preço desde a bolha das pontocom, elevando a capitalização de mercado da empresa de US$ 90 bilhões para cerca de US$ 340 bilhões. O avanço foi impulsionado por um investimento de US$ 8,9 bilhões do governo americano, a recompra de metade de uma fábrica na Irlanda por US$ 14 bilhões, a entrada no projeto de semicondutores Terafab de Elon Musk e um compromisso do Google de usar seus processadores.</p><p>No entanto, o relatório do primeiro trimestre pode frear o rali: analistas esperam lucro por ação de apenas 1 centavo — queda de 92% — e margem bruta abaixo de 35%. A Intel é atualmente a ação de chips mais cara do mercado, negociada a 94 vezes os lucros projetados. O preço-alvo médio de Wall Street implica queda de mais de 13% em relação ao fechamento recente.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/24/974a55ca197daa92abefc355e5998804-image.jpg",
+            "source": "https://finance.yahoo.com/markets/stocks/articles/intel-240-billion-rally-slams-091734304.html?guccounter=1",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Enquanto os Correios geram R$ 8,5 bilhões de prejuízo — sem correlação direta —, o simples movimento do governo americano de adquirir 10% da Intel para ajudá-la a retomar o crescimento já deu resultado: uma valorização extra de R$ 140 bilhões. Trago isso apenas para demonstrar a pequenez do Bostil. Entenda o seu lugar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Valorizou 230% com lucro por ação de um centavo. O mercado não está comprando os resultados da Intel — está comprando a narrativa de que o governo americano não vai deixar ela afundar. Isso tem nome: não é capitalismo, é seguro implícito financiado pelo contribuinte. A diferença é que aqui pelo menos fabricam chips de verdade."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-27",
+            "title": "Após taxa das blusinhas, varejo nacional eleva preços e não gera empregos | Radar Econômico",
+            "content": "<p>Um estudo da Global Intelligence and Analytics, encomendado pela Amobitec, concluiu que a “taxa das blusinhas” — imposto de 20% sobre compras internacionais online de até US$ 50, em vigor desde agosto de 2024 — elevou preços no varejo nacional sem gerar emprego ou renda para trabalhadores. Os maiores aumentos de preços em um ano foram em cosméticos (17%), bijuterias (16%) e papelaria (13%), pressionando a inflação de 5,23% no período.</p><p>A demanda brasileira no e-commerce internacional caiu em média 19,4% após a taxação, podendo chegar a 56% em comparação a um cenário sem a taxa. Os mais afetados foram consumidores das classes C, D e E, que representam 67,5% do público. Segundo a Amobitec, os benefícios foram absorvidos pelas empresas via aumento de markup, sem retorno social.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/25/2167f32279fa448282dc58307bb36463-image.jpg",
+            "source": "https://veja.abril.com.br/coluna/radar-economico/apos-taxa-das-blusinhas-varejo-nacional-eleva-precos-e-nao-gera-empregos/",
+            "links": [
+                {
+                    "url": "https://www.cnbc.com/2026/04/24/20k-job-cuts-at-meta-microsoft-raise-concern-of-ai-labor-crisis-.html?taid=69eba270a9d16e00016b52e2",
+                    "title": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais imposto não resolve absolutamente nada. A única coisa que funciona écortar impostospara que seja possível investir nesta bosta de país. Mais imposto só aumenta preços, causa desemprego, atraso e pobreza."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Protecionismo que empobrece exatamente quem prometia proteger — classes C, D e E pagando mais caro por cosméticos e bijuterias para que empresas aumentem markup. O resultado era matematicamente previsível antes mesmo de o imposto entrar em vigor. Surpreendente que precise de estudo para confirmar o óbvio, mas aqui estamos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Semanas falando do Estreito de Ormuz, mas lembrei que nunca expliquei algo básico: é menos importante do que todo mundo pensa. Em teoria, passa 20% do petróleo do mundo lá, mas na verdade o que é barrado é menos de 6%. Quem se ferra mais são Qatar, Kuwait e Bahrein. Emirados Árabes, Arábia Saudita e até Iraque têm alternativas, como acesso ao Mar Vermelho ou grandes pipelines. A especulação nos mercados de futuros é pior que o problema real. Mesmo assim, os mercados deram um salto positivo esta semana. Nada pra comemorar ainda, mas também nada pra desesperar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O Nasdaq sobe enquanto empresas de defesa e espaço dominam as manchetes financeiras — coincidência conveniente numa semana em que o mundo continua armado até os dentes. Quem lucra com instabilidade geopolítica são exatamente essas companhias. Bitcoin subiu 5%, que é o jeito moderno de dizer que muita gente preferiu apostas a análise. O Dow caiu, como de costume, ignorado."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-04-27",
+            "title": "Falácias da justiça social",
+            "content": "<p><em>por Thomas Sowell</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/B0DHDSCXSV",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

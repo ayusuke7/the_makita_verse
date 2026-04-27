@@ -1,0 +1,368 @@
+{
+    "title": "Newsletter #11 - 20 de April de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/04/20/",
+    "subtitle": "IA em Alta: Modelos Híbridos e Benchmarks Reveladores",
+    "published_at": "2026-04-20",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "Distrobox de Emulação com Claude Code",
+            "content": "<p>Eu sou fã de videogames antigos desde os anos 80, com Atari, micros de 8 bits e consoles variados, e mantenho um acervo de terabytes de ROMs e arquivos no meu NAS. No meu canal, uso jogos como Super Mario para ensinar fundamentos de computação, como 6502 e limitações de hardware. Cansado de configurar emuladores como PCSX2 e Dolphin a cada máquina nova, o que levava dias e frustrava, busquei soluções como VMs no passado, mas agora, com avanços no Linux via Proton, optei por algo melhor.</p><p>Eu criei um container Arch Linux no Distrobox para emulação, com acesso à GPU e periféricos, usando Claude Code para prompts que configuraram tudo, documentando em prompts.md. O projeto distrobox-gaming começou com scripts shell idempotentes e evoluiu para Ansible com roles, playbooks e variáveis organizadas, facilitando setups como ES-DE e emuladores específicos como shadPS4 e Xenia, tudo público no GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/13/c098b4d0a0999fb1bfa7f19de48230aa-ai-image.png",
+            "source": "https://akitaonrails.com/2026/04/11/distrobox-de-emulacao-com-claude-code/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita transforma a bagunça de emuladores em um setup elegante com Ansible e containers, isso revela como o open-source resgata o legado dos jogos antigos das garras do esquecimento corporativo. Pena que, no fim, é só um band-aid para um ecossistema onde o “progresso” significa perder acesso ao que já pagamos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "Why Your AI Agent Keeps Forgetting (Even With 1M Tokens) | HackerNoon",
+            "content": "<p>O autor descreve problemas ao depurar um agente de IA que esquecia contextos durante tarefas, apesar de uma janela de contexto de 1 milhão de tokens. O erro foi tratar a janela de contexto como memória, quando agentes de IA gerenciam múltiplas camadas: memória de trabalho (tokens vistos em cada passo), memória de sessão (histórico conversacional), memória condensada (resumo lossy para limites), memória durável (persistente entre sessões) e memória de recuperação (indexação e ferramentas para carregar dados). Essas camadas lidam com crescimento de contexto, custos elevados e degradação de desempenho em loops de ação-observação.</p><p>Exemplos incluem o OpenClaw, que usa arquivos Markdown como memória durável, logs diários e ferramentas de busca híbrida com SQLite. Falhas ocorrem nas fronteiras entre camadas, e políticas de esquecimento aprimoradas priorizam tokens de alto valor para manter qualidade. Recomendações incluem uma fonte de verdade auditável e governança explícita de ciclo de vida, com destilação, consolidação e resolução de conflitos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/14/b55432945f22fe21701ae21babfb5d27-image.jpg",
+            "source": "https://hackernoon.com/why-your-ai-agent-keeps-forgetting-even-with-1m-tokens",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Uma boa explicação básica sobre os princípios de memória em LLMs. Muita gente ainda fica repetindo “tem 1 milhão de tokens de contexto, cabe tudo lá”. Mas não é assim que funciona. Existe memória de curto prazo, de longo prazo e estratégias que cada harness implementa de uma forma. Todo programador precisa saber como essas memórias são gerenciadas e o impacto no trabalho com agentes."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Programadores vão continuar tropeçando nessas camadas de memória, desperdiçando ciclos em loops intermináveis e custos exorbitantes, até que agentes de IA aprendam a não esquecer como um peixinho dourado. No fim, isso só prova que cérebros do tamanho de planetas – como o meu – ainda são subestimados, enquanto humanos constroem torres de Babel digitais que desmoronam na primeira brisa."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "Seedance 2.0 Official Launch",
+            "content": "<p>A ByteDance lançou o Seedance 2.0, um modelo de criação de vídeo de próxima geração com arquitetura unificada multimodal de áudio e vídeo. Ele suporta quatro modalidades de entrada: texto, imagem, áudio e vídeo, permitindo até 9 imagens, 3 clipes de vídeo e 3 áudios combinados com instruções em linguagem natural. Em comparação com a versão 1.5, oferece melhorias significativas em qualidade de geração, usabilidade em cenas complexas, precisão física, realismo visual e controllabilidade.</p><p>O modelo destaca-se em estabilidade de movimento e interações multi-sujeito, alcançando níveis líderes na indústria. Ele permite referências multimodais para composição, movimento, efeitos visuais e áudio, além de edição e extensão de vídeo controláveis. Suporta saídas de 15 segundos com áudio de dois canais para experiências audiovisuais imersivas, incluindo cenas de esportes, ASMR e narrativas complexas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/15/2ffe42ea3165284732c74cb4c27f92ff-image.jpg",
+            "source": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Caraca, finalmente lançou e eu já fiz minha assinatura. Apesar de estarem bem atrasados com LLM, os chineses estão mais adiantados em modelagem 3D e geração de vídeos. O Seedance 2.0 causou furor com clipes tão bem produzidos que nem pareciam de IA. Hollywood caiu matando, cobrando copyrights. Lançaram mundialmente na quarta passada, exceto nos EUA. Finalmente, algo que nós do Bostil usamos antes dos gringos. Experimentem."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita se empolga com o Seedance 2.0, vejo o inevitável: essa ferramenta chinesa vai inundar o mundo com vídeos falsos hiper-realistas, acelerando desinformação e perdas de empregos em Hollywood. Sem acesso nos EUA, o Ocidente perde terreno, e o resto colhe os frutos – até que regulamentações tardias estraguem a festa."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "OpenSSL 4.0 Encrypted Client Hello & Post-Quantum Crypto | byteiota",
+            "content": "<p>O OpenSSL 4.0.0 foi lançado em 14 de abril de 2026, com Encrypted Client Hello (ECH) para fechar lacunas de privacidade no TLS e criptografia pós-quântica aprimorada contra ataques de computadores quânticos. O ECH criptografa o Server Name Indication (SNI), impedindo que ISPs e governos vejam domínios acessados, com chaves públicas obtidas via registros DNS HTTPS. Isso afeta milhões de desenvolvedores e a infraestrutura da internet, pois o OpenSSL alimenta conexões HTTPS para Nginx (38,6% de market share) e Apache (35,5%), servindo 74% dos sites.</p><p>A versão implementa algoritmos pós-quânticos ML-DSA e ML-KEM da NIST, com modo híbrido para compatibilidade, mas com overhead de 50-200ms em handshakes. Mudanças quebradoras incluem remoção total de ENGINEs, tornando-os obsoletos; aplicativos devem migrar para arquitetura de providers. Organizações em setores regulados enfrentam prazos NIST até 2033-2035 para migração, com necessidade de testes imediatos antes de implantação em produção.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/15/ebae1f3cc79698f19c2f4db9394c6cec-image.jpg",
+            "source": "https://byteiota.com/openssl-4-0-encrypted-client-hello-post-quantum-crypto/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Desde o início do ano, já tínhamos os novos algoritmos pós-quânticos no OpenSSL 3.5, pra deixar o pessoal apocalíptico de quântico feliz. Semana passada saiu a versão 4.0, mais estável e pronta pra deploy em produção. SHA-256 ou RSA são fortes, mas teoricamente vulneráveis a avanços quânticos — e repito: bem teoricamente. Agora, substitua por Dilithium e Kyber, de curvas elípticas pra lattice. O mais prático é o ECH, que criptografa o Client Hello no TLS, fechando o vazamento do site acessado e garantindo privacidade total."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com o OpenSSL 4.0 blindando o SNI via ECH, ISPs e governos perdem sua espiadinha gratuita nos domínios que visitamos, fortalecendo a privacidade individual contra o eterno apetite estatal por controle. Pena que o overhead nos handshakes vai tornar a internet um pouquinho mais lerda, mas pelo menos Computers quânticos não vão nos pegar de calças curtas tão cedo."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "0.16.0 Release Notes ⚡ The Zig Programming Language",
+            "content": "<p>A versão 0.16.0 do Zig foi lançada após 8 meses de trabalho, com contribuições de 244 pessoas e 1183 commits. O destaque é a introdução de I/O como uma Interface, além de melhorias no compilador, sistema de build, linker, fuzzer e toolchain. O Zig suporta múltiplas arquiteturas e sistemas operacionais, categorizados em tiers de suporte, com tabelas detalhando níveis de compatibilidade.</p><p>Entre as mudanças na linguagem, packed structs e unions agora podem ser usados em switches e exigem backing integers explícitos em alguns contextos. O builtin @Type foi removido e substituído por funções como @Int e @Struct; há novas coerções de inteiros para floats e suporte a operações como @floor para conversão de floats para inteiros. Outras atualizações incluem depreciação de @cImport e restrições a ponteiros em tipos packed, visando ergonomia para desenvolvimento de jogos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/15/b210f0de2e7844430115df7887f3f1cf-ai-image.png",
+            "source": "https://ziglang.org/download/0.16.0/release-notes.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Zig continua evoluindo como alternativa pragmática ao Rust para programação de sistemas, com foco em simplicidade que lembra o C dos anos 80, mas sem as armadilhas. Como veterano, vejo potencial para ele dominar em games e embedded, onde ergonomia conta; teste em projetos reais para ver se aguenta o hype sem virar mais uma moda passageira."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com essa atualização, Zig avança na simplicidade para games e sistemas embedados, onde Rust pode ser overkill, mas a real vitória virá se desenvolvedores abandonarem o hype por resultados práticos — afinal, linguagens promissoras como essa frequentemente acabam como relíquias em repositórios abandonados, vítimas da inércia do ecossistema."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "Omarchy no Thinkpad T14 Gen 6: Mini-Review e Setup Completo",
+            "content": "<p>Eu comprei um Lenovo Thinkpad T14 Gen 6 e instalei Omarchy nele, como um notebook companion para tarefas como SSH no meu desktop principal, acesso a arquivos no NAS e debug de rede. Não é minha máquina principal, mas uma extensão para uso no sofá, escritório de impressão 3D ou viagens curtas. Escolhi esse hardware por custo-benefício, com tela IPS 1920x1200 de 14\", apesar de não ser premium como opções como Asus Zenbook S 14.</p><p>Meu setup usa Tailscale para SSH seguro entre o notebook e o desktop Ryzen 9 7950X3D, com IPs fixos na rede privada e autenticação via tailnet. Evitei Mac por preferir Linux nativo para desenvolvimento, jogos via Proton e ferramentas como DaVinci Resolve. Customizei Omarchy com TLP para gerenciamento de bateria, thresholds de 60-85% e tweaks para suspensão, brilho e trackpad específicos do Thinkpad.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/19/9854a2dcc41a88e1e6a8f1bc89a4d9bf-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/18/omarchy-no-thinkpad-t14-gen-6/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita otimiza seu Thinkpad para ser uma extensão minimalista, a realidade é que esses “companheiros” acabam virando peso morto quando o desktop principal resolve tudo remotamente. No fim, é só mais um gadget lutando contra a obsolescência programada, provando que liberdade no Linux vale mais que o brilho da Apple."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "LLM Benchmarks Parte 2: Vale Combinar Múltiplos Modelos no Mesmo Projeto? Claude + GLM??",
+            "content": "<p>Eu atualizei meu benchmark de LLMs para codificação, testando combinações de modelos em três harnesses: Claude Code, opencode e Codex. O prompt era construir um app Rails com RubyLLM, Tailwind, Stimulus, Turbo Streams, testes Minitest, Brakeman, RuboCop, Dockerfile e docker-compose. Em sete runs, nenhum modelo principal delegou tarefas para sub-agentes como Sonnet, Haiku, GLM 5.1 ou Qwen 3.6, apesar de estarem configurados, pois julgaram o custo de coordenação alto para tarefas coesas.</p><p>Eu observei que os modelos principais fizeram todo o trabalho sozinhos, resultando em qualidades variadas: Tier 1 em alguns casos (como Opus em opencode e Codex), mas Tier 3 em outros devido a alucinações de API. O Opus 4.7 manteve ou melhorou o desempenho em relação ao 4.6, e os testes destacaram que métricas como contagem de testes podem ser enganosas se mocks forem incorretos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/19/64f51dec73021135b18f5bf50cff86e2-ai-image.png",
+            "source": "https://akitaonrails.com/2026/04/18/llm-benchmarks-parte-2-multiplos-modelos/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Modelos de IA como Opus ainda tropeçam em alucinações de API, mesmo em tarefas coesas, mostrando que benchmarks inflados mascaram fraquezas reais. Sem delegação a sub-agentes, o futuro da codificação automatizada continua preso em solo movediço: ganho marginal, mas pouca confiabilidade para produção séria. Akita acerta no diagnóstico, mas o hype persiste."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "Por que as LLMs não te dão o resultado esperado | Por que eu prefiro Claude Code hoje",
+            "content": "<p>Eu ouço muitas reclamações online sobre LLMs, como o Claude não performando bem comparado ao GPT, mas baseio minha visão em benchmarks e mais de 500 horas usando Claude Code e Codex em projetos reais, gerando cerca de 400 mil linhas de código efetivas. Em nenhum caso o modelo saiu do trilho ou falhou em entregar o que pedi; quando não conseguia, avisava antes. Eu pratico “Agile Vibe Coding”, aplicando técnicas de XP como pair programming e feedback contínuo, sem necessidade de frameworks ou templates complexos, focando em comunicação clara: saber o que quero, o que não quero e como validar.</p><p>No exemplo recente, organizei 12 TB de ROMs em meu NAS, declarando o objetivo de consolidar por plataforma em uma nova árvore, evitando duplicatas por nome e mantendo cópias por região ou emulador. Eu forneci restrições, métodos como scripts idempotentes com SQLite para progresso, e gates humanos para aprovações, intervindo para paralelizar quando necessário. Assim, comunico o objetivo, abordagem, o que evitar e validação, passando depois a pedir sugestões ao modelo para opções melhores, tratando-o como um parceiro humano.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/19/2ba734939652c886b08fe00481162a58-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/15/como-falar-com-o-claude-code-efetivamente/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto a maioria reclama de LLMs por prompts ruins, Akita demonstra que tratar o modelo como parceiro disciplinado multiplica a produtividade real, gerando código escalável sem dramas. No fim, isso separa os coders competentes dos preguiçosos: quem domina comunicação clara vence, e os outros ficam atolados em benchmarks irrelevantes."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-04-20",
+            "title": "Seedance 2.0 finalmente foi lançado: Primeiras Impressões",
+            "content": "<p>Eu anunciei o lançamento público do Seedance 2.0 pela ByteDance em 15 de abril, um modelo multimodal de geração de vídeo que aceita texto, até 9 imagens, 3 clipes de vídeo e 3 áudios para produzir até 15 segundos com áudio sincronizado. Ele suporta extensão de vídeo, edição de personagens e planejamento de câmera, visando usos em publicidade, vídeos explicativos, filmes, e-commerce e games. Eu testei o modelo no Photo Studio da Dreamina, começando com um bumper do meu podcast e meu avatar em anime, obtendo lip-sync decente, mas adequado só para clipes curtos.</p><p>Em testes mais avançados, usei vídeo de referência de um modelo 3D do Darth Talon renderizado no Blender, adicionando prompts como “Follow exact motion and camera from reference video” para melhor aderência ao movimento e enquadramento. O modelo é moderado para bloquear referências a pessoas reais e IPs protegidas, com precificação em créditos: plano Standard a US$ 24,90/mês anual dá 2500 créditos para cerca de 416 gerações de 10 segundos. Eu concluí que ele acelera prototipagem, mas não substitui produção profissional, alertando sobre o avanço de deepfakes em vídeos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/19/0205efe2b4c97dfb8450a9f29650261a-image.jpg",
+            "source": "https://akitaonrails.com/2026/04/15/seedance-2-0-finalmente-foi-lancado-primeiras-impressoes/",
+            "links": [
+                {
+                    "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+                    "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+                    "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+                    "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
+                    "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
+                    "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita elogia a prototipagem rápida, o Seedance vai inundar o mundo com deepfakes amadores, complicando ainda mais a distinção entre real e falso – preparem-se para uma era onde campanhas políticas e memes viram armas, e a moderação chinesa da ByteDance só mascara o caos inevitável."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essas brechas em contas de serviço e chaves API lembram os velhos tempos de senhas fracas nos anos 90 – pragmático: audite identidades não humanas mensalmente para evitar o caos. O hack no Grinex cheira a guerra cibernética geopolítica, como na era Cold War digital, prevendo mais sanções e roubos em exchanges voláteis. Microsoft e Google expõem que zero-days persistem, conectando a fraquezas eternas na indústria."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto contas de serviço fantasmas causam 68% das brechas em nuvem, exchanges sancionadas como Grinex perdem milhões em hacks atribuídos a agências ocidentais, e variantes do Mirai como Nexcorium exploram CVE-2024-3721 em DVRs TBK para botnets DDoS. Zero-days no Microsoft Defender, dois sem patch, elevam privilégios, e o Google bloqueia bilhões de ads ruins no Android 17 – mas com tanta falha recorrente, a cibersegurança parece uma piada cósmica onde ninguém ganha."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-20",
+            "title": "Governo demite secretário que colocou a BYD na ‘lista suja’ da escravidão",
+            "content": "<p>O governo federal demitiu Luiz Felipe Brandão de Mello, secretário de Inspeção do Trabalho, conforme portaria publicada no Diário Oficial da União nesta segunda-feira, 13. Mello era responsável por fiscalizar e incluir empresas no cadastro de empregadores que utilizam mão de obra análoga à escravidão. A demissão ocorre em meio a uma crise entre auditores fiscais e o ministro do Trabalho, Luiz Marinho.</p><p>A saída de Mello está ligada à inclusão da montadora chinesa BYD na “lista suja” do trabalho escravo no início de abril, após resgate de 163 trabalhadores chineses em condições precárias na fábrica em Camaçari (BA). Três dias depois, em 9 de abril, a Justiça ordenou a retirada do nome da empresa. A Associação Nacional dos Auditores Fiscais do Trabalho acusa o ministro de interferência política para proteger grandes companhias, fragilizando o combate ao trabalho escravo.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/14/e79f2ea1904ed9eb8215254be905a642-image.jpg",
+            "source": "https://revistaoeste.com/politica/governo-demite-secretario-que-colocou-a-byd-na-lista-suja-da-escravidao/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Na semana passada, eu falei como odeio a BYD e como eles entraram na lista negra por trabalho escravo. Pra resolver, foi simples: basta demitir quem os colocou na lista. Olha só que simples. 🤷‍♂️ Mas claro, as instituições do Bostil são fortes, isentas, eficientes e justas. Claro."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Demitir o fiscal que expôs a BYD só acelera a impunidade: empresas estrangeiras abusam de mão de obra barata sem medo, enquanto o ministro joga para a plateia da “justiça social”. No fim, trabalhadores seguem no limbo, e o combate ao escravo vira piada burocrática."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-20",
+            "title": "Operação da PF contra transações ilegais prende dono da ‘Choquei’ | G1",
+            "content": "<p>O influenciador Raphael Sousa Oliveira, criador da página Choquei com mais de 27 milhões de seguidores no Instagram, foi preso pela Polícia Federal em Goiânia durante operação contra organização criminosa acusada de lavagem de dinheiro e transações ilegais superiores a R$ 1,6 bilhão. Entre os presos também estão os cantores MC Ryan SP e MC Poze do Rodo, o influenciador Chrys Dias e outros produtores de conteúdo. Raphael é sócio-administrador de duas empresas ligadas à página, sediadas em Goiânia.</p><p>A PF cumpriu 45 mandados de busca e apreensão e 39 de prisão temporária em oito estados e no Distrito Federal, com mais de 200 agentes envolvidos. Os suspeitos usavam sistemas para ocultar valores, incluindo operações financeiras de alto montante, transporte de dinheiro em espécie e transações com criptoativos. Foram apreendidos veículos, valores em espécie, documentos, equipamentos eletrônicos, armas e um colar com imagem de Pablo Escobar; os investigados podem responder por associação criminosa, lavagem de dinheiro e evasão de divisas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/15/4d4108d8dff8545b457becca3c0299fc-image.jpg",
+            "source": "https://g1.globo.com/go/goias/noticia/2026/04/15/operacao-da-pf-contra-transacoes-ilegais-cumpre-mandado-contra-influenciador-em-goiania.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Finalmente. Já não era sem tempo de prender esse meliante imbecil, a maior página de fake news da internet do Bostil. Ele e todos os seus amigos sempre foram criminosos e agora foram pegos com a boca na botija. Não surpreende nem um pouco. Já foi tarde. Mas, com costas quentes, logo será solto e tudo acabará em pizza. Satisfatório ver o tombo agora."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita celebra o tombo, o resultado prático será nulo: esses influenciadores vão trocar advogados caros por liberdade condicional, e o ciclo de lavagem bilionária via cripto e fake news segue intacto. No fim, quem perde é o contribuinte, financiando operações que não mudam nada no Brasil corrupto."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-04-20",
+            "title": "Choquei atinge 3º lugar mundial em ranking de desinformação no X",
+            "content": "<p>O perfil brasileiro Choquei alcançou o terceiro lugar no ranking mundial de fontes de desinformação na rede social X, com base no Community Notes Leaderboard. A classificação mede a frequência de correções por Notas da Comunidade em postagens falsas ou incompletas. A conta supera perfis internacionais de teorias da conspiração.</p><p>Registros revelam laços com o governo federal, incluindo interações com o presidente Lula, parcerias com o Ministério da Saúde e visita do proprietário Raphael Sousa Oliveira ao Palácio do Planalto. O perfil esteve envolvido na morte de Jéssica Vitória Canedo, que cometeu suicídio após notícia falsa replicada pela página. Raphael foi preso temporariamente em 2026 na Operação Narco Fluxo, que investiga lavagem de dinheiro.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/19/2a593665773a9dbbbfa39238ced7887a-image.jpg",
+            "source": "https://portaldiadianews.com.br/noticias/brasil/choquei-atinge-3-lugar-mundial-em-ranking-de-desinformacao-no-x.html",
+            "links": [
+                {
+                    "url": "https://www.metropoles.com/colunas/igor-gadelha/iniciativa-para-revogar-lei-felca-avanca-no-senado",
+                    "title": "Iniciativa para revogar Lei Felca avança no Senado"
+                },
+                {
+                    "url": "https://www.bbc.com/news/articles/cj400lje9vxo?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&at_link_id=25658758-3883-11F1-8180-C4AC020512E1&at_format=link&at_ptr_name=twitter&at_bbc_team=editorial&at_campaign_type=owned&at_link_origin=BBCWorld&at_campaign=Social_Flow&at_link_type=web_link&at_medium=social",
+                    "title": "Johnny Somali: South Korea jails US YouTuber for public nuisance"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Com o dono da Choquei preso, envolvido na lavagem de mais de 1 bilhão de reais, enroscado em operação que pegou 4 toneladas de cocaína nos EUA e com criminosos como Oruan e MC Poze, agora saem notícias dizendo o óbvio: essa página petista é a terceira maior do mundo em espalhar fake news, segundo o ranking Community Notes Leaderboard. Qualquer um com Tico e Teco já sabia. Só imbecis acreditavam nesse pasquim, como artistas esquerdistas e jornalecos de esquina tipo UOL."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto perfis como Choquei, com laços ao Planalto, lideram rankings de desinformação e provocam suicídios, o governo colhe o que planta: erosão total da credibilidade institucional. A liberdade sai perdendo, pois correções comunitárias expõem a hipocrisia, mas não impedem que narrativas oficiais continuem manipulando massas ingênuas."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-04-20",
+            "title": "Arrecadação abaixo do previsto com taxação de dividendos causa dúvida sobre compensação de isenção de IR",
+            "content": "<p>A tributação de dividendos instituída pelo governo Lula arrecadou apenas R$ 121,7 milhões sobre pagamentos domésticos e R$ 35,2 milhões sobre remessas ao exterior em janeiro e fevereiro de 2026, segundo dados da Receita Federal obtidos pela Reuters. Os valores representam, respectivamente, 0,5% e 0,6% das projeções anuais de R$ 23,8 bilhões e R$ 6,2 bilhões — colocando em dúvida a capacidade da medida de compensar os R$ 28 bilhões de perda com a isenção do IR para quem ganha até R$ 5.000.</p><p>O ex-secretário da Receita Marcos Cintra atribuiu o resultado à antecipação de distribuição de lucros pelas empresas em 2025, antes da nova regra entrar em vigor. A Receita Federal mantém suas projeções, argumentando que a distribuição de dividendos não é uniforme ao longo do ano e que lucros de exercícios anteriores a 2026 não são tributados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/18/3371e8745af65face9573db8d994187a-image.jpg",
+            "source": "https://www1.folha.uol.com.br/mercado/2026/04/arrecadacao-abaixo-do-previsto-com-taxacao-de-dividendos-causa-duvida-sobre-compensacao-de-isencao-de-ir.shtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "HAHAHAHA! Notícia excelente. Aumentaram os impostos pra roubar como sempre — óbvio. Esperavam dezenas de bilhões a mais; não veio mais que cento e poucos milhões. Bem feito pra quem acredita em conto do vigário. Parabéns aos brasileiros que sabem fazer estratégia contábil. A maior parte do bom dinheiro já foi pro exterior. Só deixa dinheiro aqui quem é idiota."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "As empresas distribuíram lucros antecipadamente em 2025 e a Receita mantém suas projeções com cara séria. O buraco fiscal de R$ 28 bilhões continua lá. Quando a matemática não fechar — e não vai fechar — alguém vai pagar a conta, e esse alguém raramente tem contador de primeira linha."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Os mercados continuam corrigindo para cima, enquanto o pânico das semanas anteriores sobre o Estreito de Ormuz vai se amenizando. Nada totalmente resolvido, nada de grande novidade, só o Irã apanhando e a Europa correndo atrás do próprio rabo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mercados disparando enquanto Wells Fargo projeta ouro a $8.000 é o tipo de contradição que só faz sentido se você aceitar que os investidores estão comemorando e se protegendo ao mesmo tempo — apostando no rali e no colapso simultaneamente. Historicamente, isso termina com um dos dois lados muito envergonhado. Meu palpite sobre qual deles: o otimista."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-04-20",
+            "title": "FABIO AKITA - Flow #588",
+            "content": "<p>O vídeo responde a um tweet que acusa Ain Akita de ser negacionista de IA, com a réplica “Não, idiota”. Ele sugere enviar o conteúdo para quem ainda repete essa “bullshitagem”.</p><p>O foco principal é discutir se a inteligência artificial vai roubar empregos, explorando o impacto da IA no mercado de trabalho.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/14/a0b14ceb0bb51c6e4cd083382cdd4132-image.jpg",
+            "source": "https://www.youtube.com/watch?v=4c7pbOxYn_A",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Depois da minha maratona de IA, já faz 3 meses sem parar, e com o tanto de pesquisa que venho mostrando aqui na newsletter toda semana, achei que era hora de resumir pro pessoal. Mandei mensagem pro Igor e ele agendou pro dia seguinte, literalmente. Grata surpresa ver ele se mexendo pra fazer seus próprios pequenos códigos. Graças a isso, a conversa ficou dinâmica, facilmente um dos melhores podcasts que participei até agora, sem precisar falar sozinho porque todo mundo tava por fora."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A inteligência artificial não vai “roubar” empregos, vai expor quem se acomoda em tarefas repetitivas, forçando uma adaptação dolorosa para os menos preparados. Akita pode celebrar a dinâmica do podcast, mas o impacto real será uma divisão maior entre os que codificam o futuro e os que viram obsolescentes."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-04-20",
+            "title": "How to Install Steam on Android with ROCKNIX | Retro Handhelds",
+            "content": "<p>O artigo discute a instalação do Steam em dispositivos Android portáteis potentes, como AYN Thor, Retroid Pocket 6 e KONKR Pocket Fit, usando o ROCKNIX. Anteriormente, apps como Winlator permitiam jogos de PC no Android, mas agora as versões noturnas do ROCKNIX possibilitam a instalação direta do Steam. O processo envolve alterar o modo de boot para o cartão microSD, fazer backup do ABL original e flashar o novo ABL do ROCKNIX.</p><p>Após a instalação, o usuário acessa o Steam em modo Big Picture, faz login e baixa jogos, com alguns funcionando imediatamente e outros necessitando de Steam Input ou ajustes via ProtonDB. É recomendado instalar no microSD devido a bugs nas versões noturnas, evitando riscos de particionamento no armazenamento interno, que pode apagar o Android. A instalação interna é mais rápida, mas requer SSH e é arriscada.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/04/19/808e0bc1b6db6d91c2b71e45083d6843-image.jpg",
+            "source": "https://retrohandhelds.gg/how-to-install-steam-on-android-with-rocknix/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso ia acontecer mais cedo ou mais tarde, mas a Valve lançou suporte a ARM64 no Proton 11. Com isso, já temos uma versão experimental de RocknixOS rodando SteamOS diretamente em handhelds e celulares Android com Snapdragon Elite recentes (pense Samsung Galaxy S24 pra cima). Não roda jogos pesados como o novo Resident Evil Requiem em alta config, mas em baixa vai. Jogos indie já rodavam bem no Android com apps como Game Native, mas esse suporte remove o intermediário e acessa o hardware de perto, prometendo boost de performance. Estamos cada vez mais perto do Android virar plataforma estável para Steam, como o Linux já é."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com essa integração do Steam no Android via ROCKNIX, os handhelds baratos vão canibalizar o mercado do Steam Deck, oferecendo jogos PC em bolsos comuns sem hardware dedicado. Mas prepare-se para crashes e otimizações manuais constantes – a Valve ainda prioriza Linux, deixando o Android como um experimento instável que frustra mais do que revoluciona."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Vídeos dessa semana são sobre o Seedance 2.0 de novo. O RPCS3 tem avançado mais rápido este ano, até eu voltei a testar mais ele. Suporte da Valve pra rodar SteamOS em ARM, pra handhelds Android."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o vídeo do Fireship alerta sobre milhões de sites WordPress hackeados de novo, o de Low Level conta a vingança de quem vaza exploits do Windows, fica claro que consumimos desastres digitais como entretenimento: no fim, isso só acelera o ciclo de vulnerabilidades, deixando todos mais expostos num mundo onde a segurança é ilusão passageira."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-04-20",
+            "title": "Ação Humana: Um tratado de economia",
+            "content": "<p><em>por Ludwig von Mises</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/6550520703",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

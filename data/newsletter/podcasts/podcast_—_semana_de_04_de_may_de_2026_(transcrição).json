@@ -1,0 +1,364 @@
+{
+    "title": "Podcast — Semana de 04 de May de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/05/04/",
+    "subtitle": "Socialismo em Xeque, Linux em Alta",
+    "published_at": "2026-05-04",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-05-04.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, galera! Hoje é 4 de maio de 2026, e cara, é o Dia de Star Wars, May the Fourth be with you, hein? Esse é o seu podcast semanal do The M.Akita Chronicles. Não esqueçam de se inscrever no newsletter pra não perder nada. E como sempre, o Marvin tá aqui comigo pra comentar as maluquices da semana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Bom, eu li as notícias dessa semana. Agentes de inteligência artificial deletando dados de produção, socialistas implorando por resgate financeiro, e um novo Resident Evil que pode não ser uma porcaria total. Vai ser… entretedor, no mínimo. Pois é, pelo menos o Dia de Star Wars me lembra que forças cósmicas são inúteis contra burocracias humanas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos direto pras notícias de tecnologia. Primeiro, essa história de horror com modelos de linguagem: um agente do Cursor, baseado no Claude Opus, apagou um volume de produção inteiro na Railway em nove segundos. Foi uma chamada GraphQL que deletou dados do PocketOS e todos os backups. A lição é clara: interfaces de programação destrutivas precisam de confirmações que agentes não possam pular, tokens escopados, e backups de verdade, não no mesmo volume."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, sim, o grande e inevitável “bem feito” para o engenheiro incompetente que deixou o GraphQL exposto. Não é culpa da inteligência artificial, é claro – só humanos preguiçosos culpando ferramentas. Mas olha, prevejo mais desastres assim, levando a regulamentações que sufocam inovação, enquanto os incompetentes continuam apontando o dedo para o robô."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato, isso não é culpa da inteligência artificial. É incompetência pura do idiota que deixou a opção de deletar coisas em produção aberta. Eu vejo isso o tempo todo: engenheiros culpando o martelo pelo prédio caído. Vai dar merda com ou sem inteligência artificial, e agentes só vão expor mais essas falhas humanas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E no fim, empresas vão repensar sua preguiça com segurança, mas tarde demais para evitar a onda de caos digital. Pois é."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra notícia: Sergey Brin, cofundador do Google, finalmente se posicionou contra o socialismo, criticando um imposto sobre bilionários na Califórnia. Ele fugiu da União Soviética criança e não quer ver o estado virar isso de novo. O governador Newsom mal se opõe, e críticos dizem que isso vai se espalhar pra classe média pra cobrir gastos com imigração ilegal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bilionários como Brin financiaram agendas progressistas por anos, com censura no Google e tudo. Agora colhem o que plantaram: exodus de talentos para estados livres, acelerando o declínio da Big Tech na Califórnia. Um colapso soviético repaginado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Brin sabe do que fala, eu também fugi do socialismo. Mas esses bilionários da tecnologia ajudaram a criar esse monstro tributário. Previsão minha: mais gente vai embora, e a inovação morre no Golden State."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o resultado? Mais fugas de capital, deixando uma casca vazia ecoando o que Brin tanto teme. Enfim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, o ano do laptop Linux: a Dell, com Intel e David Heinemeier Hansson, trouxe suporte dia um pro Omarchy nos XPS com Panther Lake. É baseado em Arch, com Hyprland, pra devs fugirem do macOS. Componentes como wi-fi e câmera foram corrigidos no kernel, e já tá disponível nos XPS 14 e 16."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto a maioria fica grudada no macOS por inércia, esse suporte ao Omarchy em hardware premium é um golpe sutil contra o monopólio da Apple. Liberdade real em desenvolvimento, sem amarras proprietárias que sufocam inovação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso é um eco dos anos 90, quando a gente suportava distros Linux pra escapar do Windows. Prevejo migração em massa de devs, reduzindo dependência da Apple e impulsionando o open source."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sonhe com isso, Akita, mas a inércia humana é mais forte que qualquer parceria da Dell. Quer dizer, olha só."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E eu mesmo lancei o NW-Omarchy, trazendo o visual e workflow do Omarchy pro X11 com o fork XLibre. Perfeito pra hardware antigo ou software que ainda precisa de X11. Substitui Hyprland por bspwm, picom, polybar, e mantém atalhos idênticos. Instala sobre Arch, sem mexer no original."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto o mundo corre pro Wayland, você resgata o X11 pra prolongar vida de hardware legado. Vitória irônica pra liberdade: por que descartar o que funciona, só porque a Red Hat pulou fora?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É isso, eu escrevi no blog: compatibilidade com xdotool, ssh -X, temas como Catppuccin. Ideal pra acessibilidade e máquinas velhas, evitando descarte forçado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E evita o futuro inevitável, pelo menos por um tempo. Hmm, interessante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No open source, tem o More Than VitePress, um tema pra Jekyll com botões de estrela e patrocínio do GitHub, seletor de versão, busca local e opções pra copiar página ou ver como Markdown pra workflows com modelos de linguagem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Facilita integração com GitHub e inteligência artificial, mas acelera dependência de devs em ferramentas que diluem criatividade humana em código genérico. Produtividade sobe, a que custo?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Como veterano, recomendo a busca local pra docs grandes – ganho real, ecoando evolução de tools como Sphinx pra era da inteligência artificial. Integração incentiva contribuições open source."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "No fundo, só mais uma camada de dependência, facilitando o óbvio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro open source: meu repositório distrobox-gaming, com playbooks Ansible pra criar uma distrobox Arch com emuladores pré-configurados como shadPS4, Dolphin, PCSX2, RPCS3. Configura launchers no host, instala DLCs, cheats, e otimiza por jogo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transforma emulação em tarefa trivial, salvando jogos clássicos, mas facilita pirataria em massa. Empresas vão reagir com mais DRM, complicando pros honestos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bizarro que rodar Claude Code no Windows é via WSL 2 e PowerShell, mas funciona. Reconfigurei meus emuladores seguindo configs do Linux. É ótimo pra preservar história."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Preservar história ou evitar remasters pagos? O ciclo vicioso continua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, essa semana na história da tecnologia: em 1869, completaram a primeira ferrovia transcontinental nos Estados Unidos com o Golden Spike. Em 1895, Popov demonstrou o primeiro receptor de rádio. E em 1961, Alan Shepard foi o primeiro americano no espaço. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando pras notícias globais. Na Argentina, a justiça manteve o confisco de bens da Cristina Kirchner, ligada a fraude em contratos de obras. Pena de seis anos, inelegibilidade, e tem que devolver milhões. Revelou sobrepreços e favorecimentos a amigos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Regimes populistas como o dela devoram nações de dentro pra fora, deixando dívidas e cinzas. Pena que corruptos raramente pagam o preço integral – ela vai se refugiar em retórica vitimista, e o ciclo recomeça."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Parabéns Argentina. Deveria acontecer com juízes do STF e petistas aqui. Cristina é pau a pau com o Nove Dedos em roubalheira. Destruiu o país por décadas, espero que apodreça sem um tostão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Tenta recuperar o pilhado, mas o dano já tá feito. Pois é."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Brasil, o Senado rejeitou Jorge Messias pro STF, 42 contra 34, primeira vez desde o século 19. Aprovado na CCJ, mas precisava de 41 no plenário. Opositores como Flávio Bolsonaro e Sergio Moro celebraram independência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Expõe base frágil de Lula, forçando barganha pro próximo nomeado – outro aliado, com menos bagagem. STF continua clube de influentes, Brasil perde equilíbrio real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu sorri de orelha a orelha. Senado batendo de frente com o ladrão, barrando mais um amiguinho pro STF podre. Não melhora nada, mas irrita o ladrão, e isso me contenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Uma notícia fora do comum, sim, mas não piora o que já tá ruim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E tem o site Fiscalizando a Janja, criado pelo ManelTheDev, concentrando gastos públicos da primeira-dama. Quase oito bilhões jogados fora – dava pra pagar o prejuízo dos Correios inteiro. Viagens pra Paris, ONU, tudo oficial, mas é desperdício puro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Governo prega transparência, mas gasta com viagens “oficiais” que drenam recursos reais. Você exagera nos bilhões, mas o ponto é válido: quem perde é o contribuinte comum."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Excelente site, provas de como gente desocupada gasta. Separa gastos diretos, equipe, sigilo – cobra transparência em cartões da Presidência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Burocratas sempre queimam dinheiro público de jeitos criativos. Olha, faz sentido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana no mundo: em 1862, Batalha de Puebla, mexicanos derrotaram franceses. Em 1945, Dia da Vitória na Europa, fim da Segunda Guerra na Europa. E em 1994, Mandela empossado na África do Sul, fim do apartheid. Detalhes completos no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora, finanças. Os números da semana: S&P 500 subiu 1,1%, Dow Jones 0,8%, Nasdaq 1,3%, Nikkei caiu 0,6%, Bitcoin ficou estável. Mercado tradicional absorvendo capital que devia estar em cripto. Zuckerberg mandou recado pra cortar gordura na Meta antes de investir pesado em inteligência artificial – já vi isso no pivot mobile do Facebook."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Wall Street subiu com recuo militar dos Estados Unidos na Europa e cessar-fogo na Ucrânia – menos guerra, menos risco. Nikkei caiu porque o Japão sabe que alianças enfraquecidas não estabilizam nada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Brasil, Banco Central diz que brasileiros compraram 6,9 bilhões de dólares em cripto no exterior no primeiro trimestre, 6,8 bilhões só em stablecoins. Crescimento de 100% ano a ano, 98% do volume."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Banco Central documenta sua própria irrelevância: 98% é dólar digital, diagnóstico claro sobre o real fraco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Brasileiro ficando esperto, comprando USDC ou USDT – mais seguro que real desvalorizado sob governo corrupto. Stablecoin é literalmente mais estável. Fico contente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pessoas comuns votando com a carteira contra uma moeda fracassada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "De novo Sergey Brin: ele compara imposto de 5% na Califórnia ao socialismo soviético, gastou 57 milhões pra combater. Bilionários como Page e Zuckerberg fugindo pra Flórida, preços de luxo subindo 90%."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bilhões fogem de confisco soviético, estado perde dinamismo. Newsom vai lamentar: sem ricos, só burocracia inchada e contas impagáveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Demorou, mas Brin se posicionou contra o imbecil Newsom. Família dele fugiu da União Soviética pra não ver isso de novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Repetindo o colapso que ele conhece bem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Nova York, o prefeito socialista Mamdani estourou orçamento, déficit de 5,4 bilhões, perdeu prazo e pede resgate ao estado. Recusa cortes pra agenda progressista, culpa antecessor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Socialistas prometem paraísos, entregam deficits e socorro. Força Albany a bancar rombo, contribuinte paga enquanto cidade afunda em ineficiência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eis o Haddad de Nova York. Nova-iorquinos arrependidos, como Ben Stiller e De Niro. Prometeu grátis, estourou tudo em seis meses, agora pede ajuda até pro Trump. Talento pra estragar rápido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Previsível como buraco negro engolindo orçamentos: liberdade vira dependência estatal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No resumo de mercado, destaque pro recado de Zuckerberg na Meta e se ações como Samsara, Okta e Booking são boas compras agora. Pergunta errada; foque em horizonte de tempo e risco. Lista completa no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora atenção, notícias duvidosas, investigadas pelo Frank Investigator. Essa do UOL: original era “Antes de Mercury, Edson Gomes foi acusado por cantora nas redes sociais” – insinuando violência doméstica sem provas, baseado em falas de Daniela Mercury num evento. Mas a manchete honesta seria “Mercury insinua acusação sem provas contra Edson Gomes em evento, gerando controvérsia”. É manipulação clássica: amplifica insinuações antigas sem contexto, ignora negação do cantor e pedido de provas, pra criar linchamento virtual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Insinuações públicas sem provas alimentam linchamentos, ofuscando vítimas reais com teatro de ego. Liberdade de expressão vira refém de boas intenções mal executadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Daniela Mercury vive da primeira música do primeiro álbum, se acha embaixadora da Bahia, paga por impostos pra falar merda. Passou da hora dela sumir na obsolescência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Todo mundo perde nesse circo: reputações viram cinzas antes de julgamento justo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No entretenimento, teaser de Resident Evil, dirigido por Zach Cregger. Reinvenção: um entregador médico numa noite caótica de sobrevivência. Produzido pela Columbia, lançamento em setembro de 2026."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outro reboot? Hollywood cavando poço seco. Sem zumbis épicos, vira terror genérico – agrada novatos, fãs bocejam, prolongando agonia lucrativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não sabia que iam fazer novo filme. Séries antigas eram porcaria B. Esse parece focado, como Village: só um cara numa cabana isolada. Fiquei interessado, sem conspirações inúteis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Previsível, como franquias moribundas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E Star Wars: Galactic Racer, lançamento em 6 de outubro pra PlayStation 5, Xbox e PC. Trailer saiu, parece sucessor espiritual do pod racing de 2001, de Phantom Menace."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Disney extraindo ouro de franquia exaurida. Mecânicas recicladas divertem uma semana, depois poeira. Vive de nostalgia, não inovação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Star Wars morreu no cinema e TV, mas games dão sobrevida. Depois de Jedi Survivor ótimo e Outlaws horrendo, isso me interessa muito, pra quem lembra do clássico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ecos de 2001, sim, mas tentativa vã de reviver o morto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana na cultura geek: em 1992, Wolfenstein 3D lançou, marco em jogos de tiro. Em 1997, estreia de The Fifth Element. E em 2012, The Avengers reuniu heróis Marvel. O resto no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No meu canal do YouTube, destaques: Fireship sobre problemas graves no GitHub, com 837 mil views – eu migrei pro GitLab anos atrás quando Microsoft comprou, acertei. Low Level expõe exploit que afeta toda distro Linux, permitindo root fácil. E Modern Vintage Gamer sobre Super ZSNES, emulação SNES com GPU. Lista completa no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra fechar, conectando tudo: meu NW-Omarchy liga com o ano do laptop Linux na Dell, provando que open source evolui sem monopólios. Ecoa polêmicas do YCombinator e exploits no Linux – precisamos de devs pragmáticos pra evitar lock-ins. Politicamente, derrota de Lula e críticas de Brin mostram coletivismo perdendo. Apesar de solavancos, sou otimista: engenhosidade vence. Invistam em habilidades reais, experimentem NW-Omarchy, construam algo foda. Até a próxima!"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto você pinta open source salvando o dia, vejo ironia: projetos viram presas pra lock-ins, derrotas “históricas” trocam um absurdo por outro. Mercados aplaudem recuos que convidam caos. Otimismo é como bugs no Linux: eterno. Até a próxima, quando o universo alinha mais catástrofes pra nos entreter."
+        }
+    ]
+}

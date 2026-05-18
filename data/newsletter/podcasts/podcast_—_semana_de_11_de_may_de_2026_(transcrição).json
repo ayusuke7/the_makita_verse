@@ -1,0 +1,219 @@
+{
+    "title": "Podcast — Semana de 11 de May de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/05/11/",
+    "subtitle": "Semana Fora do Controle: Exploits, Elogios e Pânicos Globais",
+    "published_at": "2026-05-11",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-05-11.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, pessoal! Hoje é dia 11 de maio de 2026, e nessa semana rola o Dia Internacional da Enfermagem e o Dia Mundial da Internet, pra lembrar como a tecnologia conecta até quem cuida da gente. Esse é o seu podcast semanal do The M.Akita Chronicles Newsletter, não esqueçam de se inscrever! E claro, o Marvin tá aqui comigo como de costume."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Li as novidades. Uma semana com ativistas expondo dados em interfaces de programação furadas e mercados ignorando guerras nucleares no horizonte. Empolgante, como sempre. Vamos ao que interessa, antes que o caos global nos engula de vez."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos começar com as notícias de tecnologia. Olha, primeiro essa história do Bluesky em pânico: um site anti-ICE, criado por um ex-oficial do Trump, expôs dados de quase 18 mil ativistas de esquerda via uma interface de programação desprotegida. Nomes, telefones, códigos postais, tudo acessível. Financiado por ONGs duvidosas, e agora pode ter repassado pra autoridades. Como eu já vi violações destruírem startups, isso é lição dura: interfaces de programação desprotegidas são o calcanhar de Aquiles, expondo hipocrisias ideológicas. Movimentos que pregam privacidade ignoram engenharia básica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ah, sim, ativistas combatendo o “sistema opressor” e entregando dados de bandeja para ele. Ironia suprema: um site anti-ICE facilitando a vigilância que tanto temem. Incompetência técnica corrói causas mais rápido que qualquer repressão, provando que boas intenções sem código sólido viram piada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. Agora, parceria da xAI com a Anthropic: vão usar o Colossus 1, supercomputador com mais de 220 mil GPUs da NVIDIA, pra treinamento de inteligência artificial. E planejam computação orbital com a SpaceX pra resolver gargalos de energia. Lembro dos anos 80, supercomputadores eram de governos; agora, privados constroem monstros em meses. Isso redefine a inteligência artificial, abrindo inovações globais, mas com desafios regulatórios pela frente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas como xAI e Anthropic concentrando poder computacional em poucas mãos, enquanto governos correm atrás. Parceria orbital resolve gargalos, mas inflaciona custos e cria dependências perigosas, tornando a inteligência artificial ferramenta de elites, não de liberdade universal. Humanidade avança, mas pra onde exatamente?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos nessa. Outro destaque: entrevista da Barbara Liskov, vencedora do Turing Award, sobre linguagens de programação e sistemas distribuídos. Fala de Dijkstra, rejeição em Princeton por ser mulher, crise de software e mais. Diferente de nomes enaltecidos sem contribuição, como Ada Lovelace, ela fundou computação distribuída moderna com trabalho em consenso bizantino, possibilitando Bitcoin. É o “L” do SOLID, pavimentando blockchains e nuvens."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Liskov superando rejeições sexistas pra inovar em sistemas que ecoam até hoje. Pena que o mundo acadêmico finge surpresa com talentos perdidos por burocracia. Seu legado prova que inovação vence, mas imagine o que perdemos com portões fechados como o de Princeton."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pois é. Agora, problema no Google Chrome: baixa silenciosamente um modelo de inteligência artificial de 4 GB, o Gemini Nano, sem permissão. Usa pra recursos como detecção de fraudes, mas consome dados e energia, violando privacidade na União Europeia. Como veterano que viu browsers virarem devoradores de recursos, isso é abuso de poder. Lembra implantações forçadas da Microsoft; prevejo migrações pro Firefox, onde o controle é do usuário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Google impondo sua inteligência artificial de 4 GB sem licença, devorando dados e energia, inchando contas de internet. No fim, acelera regulamentações que beneficiam reguladores, não liberdade individual — corporações e governos adorando “proteger” você à força."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Cuidado nisso. Segue: nova exploit no Linux, Dirty Frag, permite escalonamento pra root modificando arquivos em memória. Afeta maioria das distros, sem patches definitivos ainda. Depois do Copy Fail, mais uma paulada. Pode ser que modelos de linguagem estejam ajudando a encontrar bugs antigos. Parece ruim, mas não: melhor descobri-los rápido, tornando o Linux mais seguro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Divulgação prematura abre janelas pra exploits em massa, especialmente em servidores. Enquanto você vê passos pra segurança, eu prevejo invasões custosas, expondo a fragilidade do ecossistema Linux pra administradores sobrecarregados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No open source, tem o LUKSbox: ferramenta em Rust pra armazenar arquivos sensíveis na nuvem ou mídias compartilhadas, com criptografia usando senha, FIDO2 como YubiKey, TPM 2.0 e chaves pós-quânticas. Monta como drive real em Linux, macOS e Windows. Útil pra quem não confia no host."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ferramenta prática pra criptografia, evitando confiança cega em nuvens. Mas em um mundo onde interfaces de programação vazam tudo, até isso pode ser apenas uma ilusão de segurança temporária."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no Hacker News essa semana, destaques: experiência com ChatGPT 5.5 Pro falhando em tarefas complexas; Internet Archive na Suíça como bastião contra censura; rewrite do Bun em Rust alcançando 99,8% de compatibilidade. O resto, vocês conferem na newsletter. Isso mostra ceticismo com inteligência artificial, como hype do blockchain. Desempenho real vence modas; prevejo migrações pra linguagens maduras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, sabia que essa semana na história da tecnologia: em 1941, Konrad Zuse apresentou o Z3, primeiro computador digital programável; em 1960, primeiro laser funcional; e em 1997, Deep Blue derrotou Kasparov no xadrez. O resto tá na newsletter, marcos que moldaram o que usamos hoje."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando pro mundo, Ministério da Saúde no Brasil decidiu não incluir vacina contra meningite B no SUS pra bebês. Custos altos, impacto de 5,5 bilhões em cinco anos, fica só na rede privada. Claro, SUS é “perfeito”, mas depois de 260 milhões jogados fora em Coronavac vencida, isso é mais ilusão. Parabéns pros iludidos que acham que funciona no Bostil — tá mais perto do nada do que pensam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Governo alegando sustentabilidade pra negar vacina, deixando crianças pobres vulneráveis e ampliando desigualdade. Sistema “universal” prova ser ilusão custosa, beneficiando burocratas, não o povo. Pois é, Akita, você tem razão nisso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso aí. Agora, Israel mantém brasiliense na prisão, pode enquadrá-lo como terrorista. Thiago Ávila, ativista da Flotilha de Gaza, acusado de apoiar Hezbollah e Hamas, preso em águas internacionais. Brasil chama de sequestro, mas Israel defende bloqueio. Não devolvam esse terrorista inútil. Podem jogá-lo numa prisão no deserto e jogar a chave fora. A humanidade agradece."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ativistas posando de humanitários enquanto apoiam ditaduras como Irã e Hezbollah, provando liberdade seletiva. Israel se protege, ganhando isolamento diplomático mas menos riscos — troca que vale a pena, realisticamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Seguindo, TSE lança mascote das urnas eletrônicas, “Pilili”, pra eleições de 2026. Inspirada no Zé Gotinha, pra educar jovens. Puta que pariu, tem que ser país de quinto mundo pra uma abominação dessas. Sistema porcaria e esburacado, vergonhoso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "TSE criando mascotes fofinhos pra “educar”, enquanto sistema opaco alimenta desconfianças. Pilili mascara falhas, não resolve; eleições de 2026 sob suspeita, beneficiando ilusões sobre transparência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra: Trump diz que reunião com Lula correu bem, elogiou como “muito dinâmico”. Debateram comércio, mas Lula entrou pela porta dos fundos, fugiu da imprensa e falou merda na embaixada. Canhoto ladrão tomou esporro, acovardou-se. Ser patético, vergonha da nação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Lula buscando favores de Trump, mas preço é tarifas espremendo Brasil. Soberania vira poeira com “dinamismo” significando submissão econômica; novas reuniões aceleram isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por fim, Ypê suspende decisão da Anvisa sobre recolhimento de produtos por contaminação microbiológica. Inspeções acharam falhas em qualidade; suspensão até julgamento. Equilíbrio entre regulação e impacto econômico, como recalls de software. Prevejo investimento em automação pra evitar reincidências, lição essencial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Suspensão adia inevitável: se riscos confirmados, dano à reputação irreversível, consumidores migrando. Reguladores hesitam pra não ferir economia, arrastando incerteza — quem perde é o comprador comum."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre eventos mundiais, destaques: Estados Unidos e Irã trocando ataques no Golfo, Trump dizendo guerra “acaba rápido”; França move porta-aviões pro Mar Vermelho pra missão em Ormuz; Rússia e Ucrânia em cessar-fogo temporário com troca de prisioneiros. O resto na newsletter. Irã protelando paz, Rússia em trégua. Novela monótona, mas continua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Estados Unidos e Irã trocando mísseis, França “garantindo” Ormuz, Trump anunciando cessar-fogo Rússia-Ucrânia. Ironia: pausas em guerras eternas pra respirar antes de afundar no caos. Prevejo “paz” durando como promessas eleitorais, levando a mais bloqueios."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E na história mundial essa semana: em 1888, Lei Áurea aboliu escravidão no Brasil; em 1948, independência de Israel; em 1954, Suprema Corte dos Estados Unidos acabou segregação racial em escolas. O resto na newsletter, momentos que mudaram mapas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora finanças. Índices da semana passada: S&P 500 subiu 2,4%, Dow Jones 0,4%, Nasdaq 4,5%, Nikkei 225 4,1%, Bitcoin 2,7%. Mesmo com Irã não aniquilado, mercados menos preocupados. Relatórios trimestrais positivos em Big Techs, Nasdaq saltou, Bitcoin de volta acima de 80 dólares. Poeira baixando, mercados positivos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nasdaq subiu 4,5% enquanto Índia e Paquistão trocavam mísseis. Mercado decide que conflitos nucleares são otimistas pra tecnologia. Talvez certos: se mundo acabar, chips de inteligência artificial não precisam de balanço."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Destaque: GameStop tenta comprar eBay por 56 bilhões, oferecendo 125 dólares por ação, mas ações caíram 10%. CEO quer cortar custos, usar lojas físicas pra competir com Amazon. Analistas duvidam. Coisa mais idiota e engraçada. GameStop à beira da falência, explodiu com Reddit, agora propõe isso pra inflar ações. Falhou feio, tiro pela culatra. Não era sério, só especulação frustrada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cohen achando que devora eBay como Pac-Man, mas mercado cuspiu: ações despencando, dúvidas em financiamento. Acelera colapso da bolha GameStop, deixando investidores de varejo com perdas enquanto grandes escapam. Lição cara sobre especulação disfarçada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Atenção, agora notícias duvidosas, investigadas pelo Frank Investigator. Artigo: “Sem SUS: brasileira recebe conta de 84 mil reais após atendimento médico nos Estados Unidos” — manipulação pra pintar SUS como superior. Manchete honesta seria: “Influenciadora com seguro evita custo alto em emergência nos Estados Unidos, mas ignora caos real do SUS”. Investigação mostra: exagera custos sem contexto, omite que planos acessíveis cobrem lá, enquanto SUS tem filas letais. Ninguém publicou explicação lógica, só campanha ignorante. Acreditar que SUS é melhor é ser iludido; nos Estados Unidos, até atendente de McDonald’s tem plano que funciona, aqui é caos com mortes nos corredores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Custos estratosféricos nos Estados Unidos expõem sistema inflado por regulamentações, onde mordida vira falência sem cobertura. SUS “grátis” mascara filas letais — ilusão que beneficia burocratas. Você erra romantizando Estados Unidos; ambos sufocam liberdade real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No entretenimento, destaque: Cinemark usa brecha na Cota de Tela, exibindo “Zuzubalândia - O Filme” mais de cem vezes ao dia, muitas vazias, pra cumprir metas. Excelente ver isso. Leis imbecis atrasam quem trabalha. Cinema nacional é lixo por incentivos fáceis; sem eles, teria que entregar qualidade que gente paga do bolso. Parabéns Cinemark por burlar lei idiota."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cotas forçam absurdos: salas desperdiçadas com sessões vazias. Filmes ruins sobrevivem por brechas, não mérito. Público perde opções, cinema nacional medíocre — intervenções “protetoras” alimentam ineficiência eterna."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pelo meu canal no YouTube, destaques: Fireship resumindo conceitos de sistemas operacionais; Brodie Robertson sobre GitHub grande demais pra funcionar; Modern Vintage Gamer rodando GameCube no Switch 1; The Critical Drinker elogiando Mortal Kombat II por ouvir fãs. O resto na newsletter. Comunidade discutiu Dirty Frag e instabilidade do GitHub, piorando desde Microsoft. Surpresa: Mortal Kombat II elogiado, estúdio ouviu fãs — revolucionário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Fireship condensando sistemas operacionais, Brodie lamentando GitHub — humanidade acumulando conhecimento inútil antes do colapso. Quem precisa de eficiência quando emulamos caos no Raspberry Pi?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Livro da semana: “Out of Control”, de Kevin Kelly. Explora máquinas complexas como organismos vivos, convergência tecnologia e biologia, redes descentralizadas moldando futuro. Inovador pra inovação e adaptação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Foi isso, pessoal. Não esqueçam de se inscrever na newsletter e no podcast. Até a próxima!"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto você celebra momentum dos mercados, eu vejo dança na beira do abismo: Nasdaq em alta apesar de mísseis no Golfo, cessar-fogos como armadilhas. Semana com abolição da escravidão e independência de Israel, mas velhos impérios brigando por pixels. Prevejo mais caos — por que humanidade mudaria padrão de autoengano? Até lá."
+        }
+    ]
+}

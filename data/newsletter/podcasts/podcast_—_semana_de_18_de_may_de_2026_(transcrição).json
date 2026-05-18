@@ -1,0 +1,334 @@
+{
+    "title": "Podcast — Semana de 18 de May de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/05/18/",
+    "subtitle": "Nvidia em trilhões: a sombra da China na IA",
+    "published_at": "2026-05-18",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-05-18.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá, pessoal! Hoje é 18 de maio de 2026, e esse é o seu podcast semanal do The M.Akita Chronicles. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin pra nos acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom, eu li tudo. Vou precisar de terapia depois. Já começamos com maratona de inteligência artificial e políticos se declarando espiões da China. Ótima semana pra confirmar que nada surpreende mais ninguém."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando com minha própria maratona. Depois de 500 horas, quase meio milhão de linhas de código e 24 repositórios, eu testei se modelos de linguagem de ponta da Anthropic e da OpenAI conseguiam programar sozinhos o tempo todo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o veredito foi sim, né? Com projetos em Ruby on Rails, Rust, Go, Python, Flutter e Tauri."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. Mas quase tudo é pra ser jogado fora depois. Os mais estáveis foram ai-jail e o próprio akitando-news. Os outros, como FrankClaw e shadPS4, ficaram abaixo de 2. Sem usuários reais cobrando funcionalidade, vira só lixo técnico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Previsível. A inteligência artificial multiplica o volume, mas a manutenção continua sendo problema humano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu recomendo o Agile Vibe Coding com revisões manuais. A lição é clara: software nunca acaba de verdade sem feedback de gente de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Isso explica por que a maioria dos repositórios morre tão rápido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E agora o caso da Bambu Lab. A empresa ameaçou processar o desenvolvedor do OrcaSlicer-BambuLab por engenharia reversa. GamersNexus e Louis Rossmann estão hospedando o software e ofereceram 10 mil dólares cada pra defesa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Porque nada grita mais insegurança do que atacar quem melhora seu produto de graça."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu apoio. Minha próxima impressora vai ser uma Prusa. Mexer com projeto open source é problema garantido. Evite ecossistemas que punem quem contribui."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado é sempre migração em massa para quem deixa o código aberto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Google lançou o Gemini Intelligence no Android. Ele resume páginas, cria widgets por linguagem natural e até agenda viagens sozinho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Parece fantástico no papel."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na prática é só marketing. Tá enfiando inteligência artificial em todos os cantos, de relógios a carros. Microsoft e Apple já tentaram e ficou irritante. Vamos ver se o Google consegue algo útil sem roubar privacidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transformando todo mundo em usuário que aceita sugestões o dia inteiro. Que autonomia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E teve o postmortem do TanStack. Um ataque comprometeu 42 pacotes no npm por causa de configuração errada no GitHub Actions. O malicioso foi removido rápido, mas quem baixou precisa rotacionar credenciais de AWS, Google Cloud, Kubernetes, tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Toda semana o npm parece um alvo fácil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Configure seu gerenciador pra não pegar versões com menos de três dias. Nunca baixe algo de um dia só. Os ataques de supply chain não param."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O npm continua frágil. Detecção rápida não evita o prejuízo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em segurança ainda tivemos várias notícias. O NGINX explorado em produção, breach de token no GitHub da Grafana e o grupo Turla transformando Kazuar em botnet modular. Priorize monitoração de dependências críticas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ferramentas centrais de infraestrutura nunca recebem manutenção proporcional ao uso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, sabia que essa semana na história: em 24 de maio de 1844 Samuel Morse enviou a primeira mensagem telegráfica de longa distância. Em 22 de maio de 1973 Robert Metcalfe escreveu o memorando da Ethernet. E em 22 de maio de 1990 a Microsoft lançou o Windows 3.0. O resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No mundo, o Trump comemorou a ONU abandonando o cenário mais extremo de aquecimento global, o RCP8.5. Os cientistas admitiram que ele virou implausível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Depois de quinze anos mantendo a histeria viva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. O medo climático justificou muito controle e gasto desnecessário. Agora quem vendia catástrofe perde influência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Dados reais incomodam quem precisa de pânico para ter poder."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E uma prefeita na Califórnia renunciou admitindo ser agente do governo chinês. Ela coordenava propaganda pró-China sem registrar. O FBI falou em mais de 60 casos desde 2021."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outro caso de conspiração que virou notícia oficial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os chineses influenciam diretamente políticas locais. Esse é o modus operandi."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Minando soberania de dentro para fora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Aqui no Brasil, o pai do banqueiro Vorcaro doou um milhão ao diretório do Novo e foi preso na operação Compliance Zero. Mensagens mostram cobranças por financiamento de filme."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Até os partidos novos nadam no mesmo esgoto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o governo criou um Dia em Memória das Vítimas da Covid. O cara que elogiou a natureza por inventar o vírus agora honra as vítimas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Gestos simbólicos não consertam sistemas que colapsam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Lula aconselhou Vorcaro a não vender o Banco Master ao BTG. Reuniões no Planalto com o mesmo estilo da Lava Jato."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Decisões financeiras seguindo alinhamento político, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na Bolívia, Evo Morales foi declarado em desacato por suposto tráfico agravado de menores. Tem mandado de prisão e processo continua sem ele."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um dos grandes amigos de Maduro e do Molusco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos eventos mundiais, Xi alertou Trump sobre Taiwan e condenou o Irã. A comitiva americana teve recepção excelente em Pequim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto o Irã fica perto da bomba nuclear e a Europa fica de lado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O resto, como fusão de comandos no Pacífico e robôs terrestres da OTAN, dá pra ler no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado financeiro. A Nvidia bateu 5,4 trilhões de dólares. Mesmo sem receita da China, que representava 20 por cento antes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O terceiro maior país do mundo, aparentemente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "AMD subiu 90 por cento no mês, rivais cresceram forte. Jensen Huang foi junto com Trump negociar. Monopólio de CUDA continua impressionante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mas perder o mercado chinês é o preço real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O governo Lula ficou surpreso com veto da União Europeia à carne brasileira. Quarenta anos de exportação e agora barram por questões sanitárias."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Competência internacional em ação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E publicaram o fim da taxa das blusinhas. Produtos até 50 dólares isentos do imposto federal. Perda de arrecadação estimada em 5 bilhões."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Propaganda para pegar votos depois de ter criado o imposto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Xi disse que vai abrir mais o mercado para CEOs americanos. Troca de petróleo, aviões e chips da Nvidia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Executivos americanos apertando as mãos certas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os índices: S&P 500 subiu 0,3 por cento, Dow parou, Nasdaq 0,3. Nikkei caiu 2,8 e Bitcoin 4,9. Otimismo conservador, nada bombástico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Wall Street parou de cair por exaustão, não por boas notícias."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos mercados ainda tem otimismo com a aliança Estados Unidos e China. O resto fica no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No entretenimento, saiu o port do Twilight Princess para PC, o Dusk. Correções, resolução alta e suporte a vários sistemas via Aurora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Reviver clássicos é sempre bom."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora no YouTube, destaco o Driver61 explicando o câmbio de Fórmula 1, a Sabine Hossenfelder desmontando promessa de energia do nada e o Fireship comentando um julgamento real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto o resto multiplica o tédio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu também encomendei o Anbernic RG Rotate. Formato quadrado que serve de fidget toy. Retro handheld competente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Porque jogo antigo precisa de hardware novo para ficar novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E na história geek: Star Wars Episódio V em 21 de maio de 1980, a Ameaça Fantasma em 1999 e a Vingança dos Sith em 2005. O livro da semana é False Alarm, de Bjorn Lomborg. Ele argumenta que o pânico climático custa trilhões e prejudica os pobres, desviando recursos de coisas que realmente resolvem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Priorizar dados em vez de histeria. Que conceito radical."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É isso aí, pessoal. Não esqueçam de se inscrever pra não perder a próxima semana. O newsletter completo está no site."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Até semana que vem. Ou até a próxima crise provar que 42 continua sendo a resposta mais honesta."
+        }
+    ]
+}

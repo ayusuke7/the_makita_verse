@@ -1,0 +1,346 @@
+{
+    "title": "Newsletter #14 - 11 de May de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/05/11/",
+    "subtitle": "Semana Fora do Controle: Exploits, Elogios e Pânicos Globais",
+    "published_at": "2026-05-11",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-11",
+            "title": "‘Bluesky Goes Full Panic’ After Fired Trump Official’s Anti-ICE Website Doxxes Almost 18,000 Leftists",
+            "content": "<p>O site GTFO ICE, criado pelo ex-chefe de gabinete do DHS Miles Taylor em parceria com Project Salt Box, expôs dados de quase 18.000 ativistas de esquerda por meio de uma API pública desprotegida. A plataforma visava alertar sobre instalações propostas pela ICE, mas uma vulnerabilidade permitiu o acesso a registros de inscrição, incluindo nomes, telefones e códigos postais. O incidente causou pânico entre usuários do Bluesky, com relatos de que dados podem ter sido encaminhados a autoridades federais.</p><p>Taylor, cuja autorização de segurança foi suspensa em 2025, lançou o site com coalizões como Defiance.org e Save America Movement, ligadas a figuras como Steve Schmidt do Lincoln Project. A rede recebeu mais de US$ 625.000 em fundos de organizações como Arabella Advisors. Investigadores notaram falhas de segurança, questionando a competência de Taylor em proteger dados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/04/8c8892bf17a3dd0387a796b5d4b6673b-image.jpg",
+            "source": "https://www.zerohedge.com/political/bluesky-goes-full-panic-after-exposed-api-unveils-anti-ice-army-18000-leftists",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais uma lição dura para “ativistas” tech: APIs desprotegidas são o calcanhar de Aquiles de qualquer plataforma, especialmente quando financiada por ONGs duvidosas. Como veterano que já viu breaches destruir startups, prevejo que falhas assim vão expor mais hipocrisias ideológicas, minando a confiança em movimentos que pregam “privacidade” mas ignoram engenharia básica."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esses ativistas de esquerda, obcecados por combater o “sistema opressor”, acabaram entregando seus dados de bandeja para autoridades federais graças a uma API desprotegida. Ironia suprema: um site anti-ICE pode ter facilitado a vigilância que tanto temem, provando que incompetência técnica corrói causas mais rápido que qualquer repressão governamental."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-11",
+            "title": "New Compute Partnership with Anthropic",
+            "content": "<p>A xAI assinou um acordo com a Anthropic para fornecer acesso ao Colossus 1, um dos maiores supercomputadores de IA do mundo, construído em tempo recorde. O cluster conta com mais de 220.000 GPUs NVIDIA, incluindo modelos H100, H200 e GB200, oferecendo desempenho extremo para treinamento de IA, ajustes finos, inferência e computação de alto desempenho. A Anthropic planeja usar essa capacidade para melhorar o serviço aos assinantes do Claude Pro e Claude Max.</p><p>Como parte do acordo, a Anthropic expressou interesse em parceria para desenvolver múltiplos gigawatts de capacidade computacional orbital de IA. As demandas de computação para sistemas de próxima geração superam as limitações terrestres de energia, terra e resfriamento. A SpaceX é destacada como a única organização com experiência para tornar a computação orbital viável em curto prazo, oferecendo energia sustentável ilimitada com menor impacto na Terra.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/06/5bfe781012e452069bca5ade198ccee2-image.jpg",
+            "source": "https://x.ai/news/anthropic-compute-partnership",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Enquanto assistimos a essa corrida por poder computacional, lembro dos anos 80, quando supercomputadores eram exclusividade de governos; agora, empresas privadas constroem monstros como o Colossus em meses. Prevejo que a computação orbital, impulsionada pela SpaceX, vai redefinir a IA, resolvendo gargalos energéticos terrestres e abrindo portas para inovações em escala global, mas preparem-se para novos desafios regulatórios."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Empresas como xAI e Anthropic estão acelerando a concentração de poder computacional em poucas mãos, enquanto governos correm atrás. Essa parceria orbital com a SpaceX pode resolver gargalos energéticos, mas vai inflacionar custos e criar dependências perigosas, tornando a IA uma ferramenta de elites, não de liberdade universal."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-11",
+            "title": "Turing Award Winner: Data Abstraction, Dijkstra, Distributed Systems | Barbara Liskov",
+            "content": "<p>Barbara Liskov, vencedora do Prêmio Turing, é reconhecida por seu trabalho em linguagens de programação e sistemas distribuídos. No episódio, ela discute os principais problemas que resolveu em sua carreira, incluindo histórias sobre Dijkstra e sua rejeição pela Universidade de Princeton por ser mulher.</p><p>Entre os tópicos, aborda a crise de software, desvantagens do Python, entrada em computação distribuída e comparações entre Paxos e Viewstamped Replication. Ela explica a importância da carta de Dijkstra, razões para permanecer na academia e questionamentos sobre seu prêmio.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/06/90b4f6acea0f24b4af962b4c27be64ea-image.jpg",
+            "source": "https://www.youtube.com/watch?v=T9CGjbPZeaM&feature=youtu.be",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Eu sempre achei muito estranho que o povo goste de enaltecer nomes femininos sem contribuição útil pra computação, como Ada Lovelace. Raramente vejo citando quem realmente teve: Barbara Liskov, ganhadora do Turing Award. Ela trabalhou na linguagem CLU, contribuiu pra modularização e garbage collectors. Mais importante: seu trabalho em consenso bizantino fundou a computação distribuída moderna, possibilitando coisas como Bitcoin. Ela é o “L” do SOLID."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Barbara Liskov pavimentou o caminho para sistemas distribuídos robustos, resolvendo enigmas que ainda ecoam em blockchains e nuvens modernas. Pena que rejeições sexistas como a de Princeton atrasaram talentos assim; imagine o que perdemos com esses portões fechados. Seu legado prova que inovação vence burocracia, mas o mundo acadêmico ainda finge surpresa com isso."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-11",
+            "title": "Google Chrome’s silent 4GB AI download problem",
+            "content": "<p>O Google Chrome tem baixado silenciosamente um modelo de IA de 4 GB, chamado Gemini Nano, para dispositivos de usuários sem pedir permissão. O arquivo, weights.bin, é armazenado no diretório OptGuideOnDeviceModel nos perfis do Chrome e é instalado automaticamente se o hardware atender aos requisitos. Recursos como “Help me write”, detecção de fraudes e API de resumo usam esse modelo, que é reinstalado se deletado.</p><p>O download pode custar dinheiro a usuários com conexões limitadas ou em países em desenvolvimento. Alexander Hanff calcula que distribuir para 1 bilhão de usuários consumiria 240 gigawatts-hora de energia e geraria 60 mil toneladas de CO2. Hanff argumenta que isso viola leis de privacidade da UE, destacando um padrão de implantações não consentidas por empresas de tecnologia, incluindo casos semelhantes com o app Claude da Anthropic.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/07/1c3a7d9ba9d4fb5b0eaee6d0b733adeb-image.jpg",
+            "source": "https://www.malwarebytes.com/blog/news/2026/05/google-chromes-silent-4gb-ai-download-problem",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como veterano que viu browsers virarem devoradores de recursos desde os anos 90, isso do Google é mais um abuso de poder, impondo IA sem consentimento e pisando na liberdade do usuário. Histórico lembra implantações forçadas da Microsoft; prevejo mais migrações para alternativas como Firefox, onde o controle fica com você, não com corporações."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o Google impõe sua IA de 4 GB sem pedir licença, devorando dados e energia, o usuário comum perde autonomia e ganha uma conta de internet inchada. No fim, isso só acelera regulamentações que beneficiam mais os reguladores do que a liberdade individual, provando que corporações e governos adoram “proteger” você à força."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-11",
+            "title": "Dirty Frag is a New Linux Exploit That Grants Root, and There’s No Proper Patch Yet",
+            "content": "<p>Um pesquisador de segurança, Hyunwoo Kim (v4bel), relatou uma nova ameaça de escalonamento de privilégios no kernel Linux chamada Dirty Frag. A divulgação ocorreu de forma inesperada, pois um embargo de cinco dias foi ignorado e o exploit foi publicado publicamente no mesmo dia. Semelhante ao Copy Fail, o Dirty Frag modifica cópias em memória de arquivos do sistema sem alterar as versões no disco, afetando a maioria das distribuições sem patches disponíveis.</p><p>O exploit usa duas falhas: CVE-2026-43284 (xfrm-ESP Page-Cache Write), que altera /usr/bin/su para conceder shell root, e CVE-2026-43500 (RxRPC Page-Cache Write), que limpa a senha root em /etc/passwd. Elas são encadeadas para cobrir distribuições principais, como Ubuntu. Recomenda-se blacklisting dos módulos envolvidos e atualização do kernel assim que patches forem liberados, com AlmaLinux já oferecendo kernels corrigidos em repositórios de teste.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/10/8ccdd8d2f4e078098f5a673cf353785b-image.jpg",
+            "source": "https://itsfoss.com/news/dirty-frag-linux-exploit/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Este mês tem sido uma paulada atrás da outra pro Linux. Depois da descoberta do CopyFail, agora veio outra vulnerabilidade de escalação de privilégio com Dirty Frag. Ambos são bugs antigos que atingem todas as distros de uma vez. Pode ser que LLMs estejam ajudando a encontrá-los. Parece ruim, mas não é: melhor descobri-los rápido e consertá-los, tornando o Linux mais seguro."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A divulgação prematura do Dirty Frag abre uma janela para exploits em massa antes que patches cheguem a todos, especialmente em servidores críticos. Enquanto Akita vê isso como um passo para mais segurança, eu prevejo uma onda de invasões que vai expor a fragilidade do ecossistema Linux, custando caro em tempo e recursos para administradores já sobrecarregados."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa semana destacou o backlash contra o hype de IA centralizada, com foco em modelos locais e código manual — ecoando ciclos passados como o XML ou NoSQL, onde o prático sempre vence. Pra quem shippa software real, dica: priorize hardware como M4 pra rodar LLMs offline, evitando dependências de Big Tech e seus monopólios via atestação. O futuro é descentralizado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa semana no HN reflete a paranoia coletiva com privacidade e autonomia: attestation de hardware como ferramenta de monopólio, combinada com a febre de rodar LLMs localmente em M4s de 24GB, sugere um futuro onde devs fogem de clouds centralizados e voltam ao código manual para evitar CVEs como o YIKES. Irônico, pois ignora que monopólios de silício ainda mandam no jogo."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-05-11",
+            "title": "GitHub - PentHertz/LUKSbox: Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), TPM 2.0, and hybrid post-quantum (ML-KEM-768 / 1024) keyslots. Mounts as a real drive on Linux, macOS, and Windows.",
+            "content": "<p>Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), …</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/08/0f94bb7e22f7c7dcb807de23b370869b-image.jpg",
+            "source": "https://github.com/PentHertz/LUKSbox",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-11",
+            "title": "Saúde decide não incluir vacina contra meningite B no SUS para bebês | G1",
+            "content": "<p>O Ministério da Saúde decidiu não incorporar a vacina contra meningite B ao SUS para crianças menores de 1 ano, conforme portaria publicada no Diário Oficial da União. A decisão segue recomendação da Conitec, que apontou que o imunizante não atende critérios como capacidade de oferta para todo o público-alvo e preço sustentável. O produto protege contra o sorogrupo mais comum da doença, mas permanecerá disponível apenas na rede privada.</p><p>Cada dose custa entre R$ 600 e R$ 750, com esquema vacinal podendo ultrapassar R$ 2 mil no total. O infectologista Renato Kfouri destacou que fatores como número de casos, gravidade e custo elevado impedem a inclusão universal, com impacto orçamentário estimado em R$ 5,5 bilhões em cinco anos para apenas 15% da demanda. A vacina poderá ser reavaliada com novas evidências ou redução de preço, e há possibilidade de uso em situações direcionadas, como surtos ou imunossuprimidos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/05/974cf4c7ccdde402a74a80f79040cf55-image.jpg",
+            "source": "https://g1.globo.com/saude/noticia/2026/04/17/saude-decide-nao-incluir-vacina-contra-meningite-b-no-sus-para-bebes.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mas claro, o SUS é perfeito, uau, impressionado. Depois dos 260 milhões jogados fora em Coronavac vencida que nunca foi usada. Agora isso. Parabéns para você que é iludido e acha que essas coisas funcionam no Bostil. “Ah, melhor que nada”. Tá mais perto do nada do que você pensa."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o governo alega sustentabilidade orçamentária para negar a vacina contra meningite B no SUS, crianças de famílias pobres continuarão vulneráveis, ampliando a desigualdade em saúde. No fim, quem sofre são os mais fracos, e o sistema “universal” prova mais uma vez ser uma ilusão custosa que beneficia burocratas, não o povo."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-11",
+            "title": "Israel mantém brasiliense na prisão e pode enquadrá-lo como terrorista",
+            "content": "<p>A justiça israelense prorrogou até 10 de maio a prisão preventiva dos ativistas Saif Abu Keshek, espanhol, e Thiago Ávila, brasileiro, detidos na costa da Grécia como parte da “Flotilha de Gaza”. Keshek é suspeito de filiação a uma organização terrorista, enquanto Ávila é acusado de atividade ilegal e apoio público ao Hezbollah, Hamas e ao regime iraniano, incluindo presença no funeral de Hassan Nasrallah em fevereiro de 2025. Ávila enfrenta cinco acusações de segurança sob a lei antiterrorismo de Israel, com penas potenciais de cinco a mais de 20 anos.</p><p>Brasil e Espanha classificam a detenção como sequestro e exigem a libertação imediata, criticando a ação em águas internacionais sem provas de laços com o Hamas. A organização Adalah relata maus-tratos, incluindo interrogatórios de até oito horas, ameaças de morte ou prisão perpétua, isolamento e iluminação constante nas celas. Israel defende a interceptação como conforme o direito internacional para manter o bloqueio a Gaza, negando torturas e alegando obstrução pelos ativistas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/05/f592539faadb7b3ad7e16c654c9cde11-image.jpg",
+            "source": "https://www.metropoles.com/mundo/israel-mantem-brasiliense-na-prisao-e-pode-enquadra-lo-como-terrorista",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Não devolvam esse terrorista inútil. Ninguém no Brasil quer. Podem jogá-lo numa prisão no meio do deserto e jogar a chave fora. A humanidade agradece. Bando de inúteis."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esses ativistas, posando de humanitários enquanto apoiam ditaduras como o Irã e o Hezbollah, só provam que liberdade é um conceito seletivo para alguns. Israel faz o que deve para se proteger, e o resultado? Mais isolamento diplomático, mas menos riscos reais — uma troca que, realisticamente, vale a pena."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-11",
+            "title": "TSE lança mascote das urnas eletrônicas para eleições de 2026",
+            "content": "<p>O Tribunal Superior Eleitoral (TSE) lançou a mascote oficial das urnas eletrônicas, chamada “Pilili”, durante um evento que comemorou os 30 anos do sistema eletrônico de votação no Brasil. Inspirada no Zé Gotinha, a personagem visa ampliar a comunicação com a população, especialmente os jovens, por meio de conteúdos educativos e ações institucionais. A presidente do TSE, ministra Cármen Lúcia, destacou a importância da participação cidadã e a presença feminina nas eleições.</p><p>O evento reuniu estudantes de escolas públicas e privadas, que testaram urnas e visitaram o Museu do Voto. O Brasil usa urnas eletrônicas desde 1996, com cerca de 156 milhões de eleitores, e o sistema passa por auditorias contínuas. “Pilili” remete ao som da urna, não tem gênero definido e participará de campanhas em animações, vídeos e materiais impressos para as eleições de 2026.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/05/8b92d19ced92a53deb6a45621144ca1d-image.jpg",
+            "source": "https://revistaoeste.com/politica/tse-lanca-mascote-das-urnas-eletronicas-para-eleicoes-de-2026/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "“PILILI” de cu é rola. Puta que pariu! Tem que ser país de quinto mundo mesmo para ter uma abominação dessas. O sistema notadamente o mais porcaria e esburacado do mundo. Vergonhoso, para dizer o mínimo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o TSE gasta tempo criando mascotes fofinhos para “educar” jovens, o verdadeiro problema persiste: um sistema eleitoral opaco que alimenta desconfianças eternas. No fim, Pilili só vai mascarar falhas, não resolvê-las, e as eleições de 2026 continuarão sob suspeita, beneficiando quem prefere ilusões a transparência real."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-11",
+            "title": "Trump diz que reunião com Lula correu muito bem e elogia brasileiro: “Muito dinâmico”",
+            "content": "<p>O presidente dos Estados Unidos, Donald Trump, afirmou que a reunião com o presidente brasileiro Luiz Inácio Lula da Silva transcorreu muito bem. Ele elogiou Lula como “muito dinâmico” em postagem na rede social Truth Social. Os dois debateram temas como comércio e tarifas.</p><p>A reunião durou cerca de três horas a portas fechadas, com cinco representantes de cada país. Autoridades brasileiras temem riscos à soberania nacional, e Lula é o presidente brasileiro que mais visitou a residência oficial americana. Novas reuniões serão agendadas nos próximos meses para discutir pontos-chave, e Lula fará uma coletiva na Embaixada do Brasil em Washington.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/07/24fe359d6d9c8a61cbd321cda15b4857-image.jpg",
+            "source": "https://www.infomoney.com.br/mundo/trump-diz-que-reuniao-com-lula-correu-muito-bem-e-elogia-brasileiro-muito-dinamico/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O que nenhum jornaleco do Bostil vai dizer: o canhoto ladrão entrou pela porta dos fundos e fugiu de fininho sem falar com a imprensa na Casa Branca. Tomou um puta esporro do Trump, colocou o rabo entre as pernas e se acovardou na embaixada. Ali, sem script, falou um monte de merda, protegendo traficante de drogas sem mostrar resultado algum. Um ser patético e inútil. A vergonha da nação."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita ferve em indignação, o encontro sinaliza o óbvio: Lula, o eterno oportunista, busca favores comerciais de Trump, mas o preço será tarifas que espremem o Brasil ainda mais. Soberania? Isso vira poeira quando o “dinamismo” significa ceder terreno para o grande irmão do norte, e novas reuniões só aceleram a inevitável submissão econômica."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-11",
+            "title": "Ypê suspende decisão da Anvisa sobre recolhimento de produtos",
+            "content": "<p>A Anvisa suspendeu temporariamente a decisão de recolhimento de detergentes, sabões líquidos e desinfetantes da marca Ypê, após recurso da empresa. A medida original, anunciada na quinta-feira, 7, proibia a fabricação, comercialização, distribuição e uso de lotes terminados em 1 devido a risco de contaminação microbiológica. A suspensão vale até o julgamento definitivo pela Diretoria Colegiada da Anvisa, previsto para os próximos dias.</p><p>A agência mantém sua avaliação inicial sobre os riscos sanitários e recomenda que consumidores evitem os produtos afetados. A Ypê deve orientar clientes via SAC sobre trocas, devoluções e ressarcimentos. Inspeções na fábrica em Amparo, SP, identificaram falhas em sistemas de qualidade, produção e controle, com potencial para irritações ou doenças.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/09/9c5a89e7a1acc55c8d654056442eebc6-image.jpg",
+            "source": "https://revistaoeste.com/saude/ype-suspende-decisao-da-anvisa-sobre-recolhimento-de-produtos/",
+            "links": [
+                {
+                    "url": "https://www1.folha.uol.com.br/colunas/painel/2026/05/centrais-sindicais-apoiam-greve-de-alunos-da-usp-dialoga-com-interesses-da-classe-trabalhadora.shtml?=social",
+                    "title": "Painel: Centrais sindicais apoiam greve de alunos da USP: dialoga com interesses da classe trabalhadora"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa suspensão da Anvisa reflete o equilíbrio delicado entre regulação e impacto econômico, algo que vejo em recalls de software: uma falha de qualidade pode paralisar tudo. Prevejo que a Ypê invista pesado em automação de controles para evitar reincidências, como fazemos no código com CI/CD — lição dura, mas essencial para sobrevivência no mercado competitivo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa suspensão da Anvisa adia o inevitável: se os riscos se confirmarem, o dano à reputação da Ypê será irreversível, com consumidores migrando para marcas rivais. Reguladores hesitam para não ferir a economia, mas isso só arrasta a incerteza – no fim, quem perde é o comprador comum, não as corporações ou burocratas."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Irã continua tentando protelar acordos de paz, mas perde cada vez mais fôlego. Ao mesmo tempo, até a Rússia entra numa possível trégua temporária com a Ucrânia. Essa novela ainda vai continuar nesse chove não molha. Nada de novo nesta semana também. Monótono."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto os EUA e o Irã trocam mísseis no Golfo, com a França enviando um porta-aviões para “garantir” o Estreito de Ormuz – essa artéria vital do petróleo mundial –, Trump anuncia um cessar-fogo temporário entre Rússia e Ucrânia, completo com troca de prisioneiros. Ah, a ironia: pausas breves em guerras eternas, só para que as nações respirem antes de afundar mais fundo no caos previsível da geopolítica humana. Prevejo que essa “paz” dure tanto quanto as promessas eleitorais, levando a mais bloqueios e retaliações, beneficiando apenas os senhores da guerra e seus arsenais."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-05-11",
+            "title": "Davi quer engolir Golias: GameStop tenta comprar o eBay por US$ 56 bi — e mercado duvida",
+            "content": "<p>A GameStop, avaliada em US$ 10,7 bilhões, anunciou uma oferta de US$ 56 bilhões para adquirir o eBay, com metade em dinheiro e metade em ações. O CEO Ryan Cohen prometeu US$ 125 por ação, mas as ações do eBay subiram apenas 6%, para US$ 110, enquanto as da GameStop caíram mais de 10%. A empresa obteve compromisso de financiamento de US$ 20 bilhões do TD Securities e detém 5% do eBay.</p><p>Cohen planeja cortar custos e usar as 1.600 lojas físicas da GameStop para tornar a combinação uma concorrente da Amazon, focando em colecionáveis. Analistas do Morgan Stanley duvidam do financiamento e das sinergias, citando modelos de negócio diferentes. O investidor Michael Burry vendeu suas ações na GameStop, criticando a estratégia, enquanto fãs no Reddit celebram e investidores de varejo aumentam compras.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/07/9c47d41ffcffecb2bf2cd233086e287e-image.jpg",
+            "source": "https://exame.com/invest/mercados/davi-quer-engolir-golias-gamestop-tenta-comprar-o-ebay-por-us-56-bi-e-mercado-duvida/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa foi a coisa mais idiota que eu já vi, mas também a mais engraçada de ver desenrolar. Resumindo: a GameStop, rede de varejo de videogames nos EUA à beira da falência, explodiu com o movimento “stonks” do Reddit, estourando hedge funds em shorts. Agora, o novo CEO propõe comprar o eBay por 55 bilhões — ela vale só 11 bi. Objetivo: inflar ações. Falhou feio, ações despencaram. Puta tiro pela culatra. Não era plano sério, só especulação frustrada."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Cohen, com seu império de memes, achou que poderia devorar o eBay como um Pac-Man faminto, mas o mercado cuspiu de volta: ações despencando e dúvidas sobre financiamento. Isso só acelera o colapso da bolha GameStop, deixando investidores de varejo com perdas reais enquanto os grandes escapam ilesos. Uma lição cara sobre especulação disfarçada de estratégia."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mesmo com o Irã ainda não aniquilado totalmente, os mercados não estão mais tão preocupados. Também tivemos vários relatórios trimestrais superpositivos nas Big Techs. O Nasdaq, como um todo, deu um novo salto pra cima, e a poeira vai baixando. Mesmo o Bitcoin, que tinha caído bastante, ameaçando descer até 60 dólares, subiu de volta acima de 80 dólares. No geral, os mercados estão positivos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O Nasdaq subiu 4,5% na mesma semana em que a Índia e o Paquistão trocaram mísseis na fronteira. O mercado, com sua sabedoria coletiva habitual, decidiu que conflitos nucleares potenciais são bullish para tecnologia. Talvez estejam certos: se o mundo acabar, pelo menos os chips de IA não vão precisar de balanço patrimonial."
+                }
+            ]
+        },
+        {
+            "category": "Notícias Duvidosas",
+            "published_at": "2026-05-11",
+            "title": "Sem SUS: brasileira recebe conta de R$ 84 mil após atendimento médico nos EUA",
+            "content": "<p>A influenciadora brasileira Débora Rocha foi mordida por um cachorro em Orlando, nos Estados Unidos, e procurou atendimento médico em um pronto-socorro. Ela recebeu uma fatura de cerca de US$ 17 mil, equivalente a R$ 84 mil, que incluía US$ 2,5 mil por cada uma das duas doses de vacina, US$ 5 mil pela consulta e o uso de imunoglobulina. Débora relatou o susto com o valor em um vídeo no Instagram, mostrando a cicatriz no braço.</p><p>Graças a um seguro de saúde contratado antes da viagem, ela não precisou pagar a conta diretamente. A influenciadora comparou o custo elevado nos EUA com o atendimento gratuito no Brasil, onde tomou as doses restantes da vacina sem custos via SUS. O caso gerou discussões nas redes sociais sobre os altos custos da saúde americana e a importância de seguro para viajantes.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/06/a8054805a1c399e56fec574b06856c2d-image.jpg",
+            "source": "https://investigator.themakitachronicles.com/investigations/5e4091f852",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Este é um exemplo de manipulação de informação que nem com IA dá pra desdobrar, porque nenhum jornal publicou nada no Bostil além dessa campanha ignorante. Tem que ir numa conta do X de sátira pra ter explicação lógica:https://x.com/JoaquinTeixeira/status/2051679644483527154. Acreditar que o SUS é melhor que o dos EUA é ser iludido e ignorante. Lá, até atendente do McDonald’s tem plano (~USD 50) que funciona; aqui é caos, com gente morrendo nos corredores."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os custos estratosféricos da saúde americana expõem o caos de um sistema inflado por regulamentações e seguros obrigatórios, onde uma mordida vira falência sem cobertura. No Brasil, o SUS “grátis” mascara filas letais e qualidade duvidosa—ilusão de acesso universal que beneficia burocratas, não pacientes. Akita erra ao romantizar os EUA; ambos sufocam a liberdade real."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-05-11",
+            "title": "Cinemark usa brecha na Cota de Tela e exibe filme de 2024 mais de cem vezes ao dia",
+            "content": "<p>A rede Cinemark está utilizando o filme infantil “Zuzubalândia - O Filme”, lançado em 2024, para cumprir rapidamente a Cota de Tela, exibindo-o mais de 100 vezes por dia em São Paulo, concentradas pela manhã. As sessões são ligadas ao Projeto Escola, que permite reservas para estudantes, mas muitas ocorrem vazias e em horários de baixa movimentação. Funcionários confirmam que a estratégia visa atingir metas da cota, explorando uma brecha na classificação do filme como média-metragem.</p><p>Em 2023, foram programadas 17.237 sessões no país, com apenas 1.882 espectadores, média de 0,1 por exibição. A Ancine avalia o caso e não prevê punições, pois a prática não viola a lei, mas publicou nova norma para bonificar sessões após 17h e filmes premiados. A diretora Mariana Caltabiano tem acordo exclusivo com a Cinemark, retendo 30% da bilheteria líquida.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/06/c49cde05c7e4bfce717f360946c7ff3a-image.jpg",
+            "source": "https://www1.folha.uol.com.br/ilustrada/2026/05/cinemark-usa-brecha-na-cota-de-tela-e-exibe-filme-de-2024-mais-de-cem-vezes-ao-dia.shtml?=social",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Que coisa excelente de se ver. Essas leis imbecis só servem pra atrasar quem trabalha de verdade. Cinema nacional é um lixo exatamente porque tem tanto incentivo fácil. Se não tivesse, teria que fazer o que todo mundo faz: entregar qualidade que qualquer pessoa pagaria do próprio bolso pra ver. Se não entrega isso, não merece existir. Parabéns ao Cinemark por fazer o correto: burlar lei idiota."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Cotas estatais forçam absurdos: cinemas desperdiçando salas com sessões vazias para bater metas, enquanto filmes ruins sobrevivem por brechas em vez de mérito. No fim, o público perde opções decentes, e o cinema nacional continua medíocre, provando que intervenções “protetoras” só alimentam ineficiência eterna."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Pelo YouTube, a comunidade de cybersegurança teve o Dirty Frag pra discutir, uma semana depois do Copy Fail. Isso sem contar os problemas de instabilidade do GitHub, que agora estão ficando cada vez mais frequentes, indicando a baixa qualidade geral da plataforma. Desde que foi comprada pela Microsoft, só veio piorando. Uma surpresa que eu não esperava foi ver o novo filme Mortal Kombat II sendo elogiado. Parece que o estúdio fez uma coisa rara ultimamente: ouvir os fãs. Revolucionário."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o Fireship condensa todos os conceitos de sistemas operacionais em um vídeo, e o Brodie Robertson lamenta que o Github ficou grande demais para funcionar, fico me perguntando se a humanidade não está só acumulando conhecimento inútil antes do colapso inevitável – afinal, quem precisa de eficiência quando podemos emular o caos no Raspberry Pi?"
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-05-11",
+            "title": "Out of Control: The New Biology of Machines, Social Systems, and the Economic World",
+            "content": "<p><em>por Kevin Kelly</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/0201483408",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

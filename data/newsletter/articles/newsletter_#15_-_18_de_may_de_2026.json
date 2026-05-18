@@ -1,0 +1,441 @@
+{
+    "title": "Newsletter #15 - 18 de May de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/05/18/",
+    "subtitle": "Nvidia em trilhões: a sombra da China na IA",
+    "published_at": "2026-05-18",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-18",
+            "title": "Terminando Minha Maratona de IA: Sucesso ou Fracasso?",
+            "content": "<p>Saí do hiperfoco em IA após 500 horas, quase meio milhão de linhas de código e 24 repositórios entre públicos e privados. Testei se frontier LLMs da Anthropic e OpenAI conseguiam codar 100% do tempo e a resposta foi sim, embora os projetos não fossem perfeitos. Eles serviram para experimentar stacks variados como Ruby on Rails, Rust, Go, Python, Flutter e Tauri, e confirmei que a maioria é one-off para jogar fora.</p><p>Organizei um ranking com notas de 1 a 10, destacando ai-jail e akitando-news como os mais estáveis, enquanto vários como FrankClaw e shadPS4 ficaram abaixo de 2. Expliquei que software nunca acaba sem usuários reais e feedback, por isso recomendo o “Agile Vibe Coding” com revisões manuais em vez de produção em massa. Os projetos mais interessantes continuaram recebendo ajustes, enquanto os demais foram abandonados assim que perdi o interesse.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/17/607d46fe6e5136ee4ce0049675a5d56f-ai-image.png",
+            "source": "https://akitaonrails.com/2026/05/14/terminando-maratona-ia-sucesso-ou-fracasso/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mesmo com LLMs produzindo código em volume, o resultado costuma ser o mesmo de sempre: projetos descartados assim que o interesse some. Sem usuários reais cobrando funcionalidade, a IA só multiplica o volume de lixo técnico que ninguém mais mantém."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-18",
+            "title": "Foda-se, Bambu Lab: Download do OrcaSlicer-BambuLab (com permissão) | GamersNexus",
+            "content": "<p>A fabricante de impressoras 3D Bambu Lab ameaçou legalmente o desenvolvedor Pawel Jarzcak por criar o software OrcaSlicer-BambuLab, que converte modelos 3D em arquivos imprimíveis. Bambu acusou Jarzcak de engenharia reversa e de se passar pela empresa, levando-o a remover o software para evitar problemas jurídicos. De acordo com análises, o código de Jarzcak é uma ferramenta de terceiros legal sob licenças de software open source.</p><p>Gamers Nexus e Louis Rossmann apoiam Jarzcak, hospedando os arquivos do software e prometendo US$ 10.000 cada para custos legais se Bambu processá-lo. O advogado Leonard French vê o caso como exemplo de estratégias anti-consumidor, relacionadas ao direito de reparo. Devido às ações da Bambu, Gamers Nexus planeja migrar para impressoras Prusa, após investir US$ 5.000 nelas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/12/0309327b761e3546a5fa060d241eb31e-image.jpg",
+            "source": "https://gamersnexus.net/fk-you-bambu-lab",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Normalmente não ligo muito para usar coisas proprietárias, sendo ex-usuário de Windows e Macs. Mas isso realmente me desanima a investir no ecossistema quando a Bambu Lab resolve ir atrás de processar um contribuidor de projeto open source. O certo era ignorar, ninguém ia falar nada. Agora mexeu num vespeiro. Minha próxima impressora provavelmente vai ser uma Prusa."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Empresas como a Bambu Lab que atacam contribuintes open source por melhorarem seus produtos acabam revelando a insegurança do modelo proprietário. O resultado inevitável é migração em massa para concorrentes mais abertos, como a Prusa, e um prejuízo duradouro em confiança."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-18",
+            "title": "Um Android mais inteligente e proativo com a Inteligência Gemini",
+            "content": "<p>O Google anunciou o Gemini Intelligence para dispositivos Android, transformando o sistema em uma plataforma de inteligência que automatiza tarefas complexas, resume conteúdos da web e simplifica o preenchimento de formulários. Recursos incluem o Rambler, que polimenta mensagens faladas convertendo voz em texto conciso e multilíngue, e o Create My Widget, permitindo criar widgets personalizados por meio de linguagem natural. As funcionalidades serão lançadas inicialmente em smartphones Samsung Galaxy e Google Pixel a partir do verão, com expansão para relógios, carros, óculos e laptops no final do ano.</p><p>O Gemini Intelligence integra hardware premium e software inovador para ações proativas, como automação em apps de comida e transporte, usando contexto de tela ou imagem para tarefas como montar listas de compras ou reservar viagens. No Chrome, oferece assistência inteligente para pesquisas e reservas, enquanto o Autofill evolui para preencher campos com dados de apps conectados, tudo com controle do usuário e privacidade de dados. O design atualizado baseia-se no Material 3 Expressive para animações funcionais.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/12/b693efa42d27b5b96c255253a84c29d2-image.jpg",
+            "source": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Google tendo seu momento Microsoft Copilot, enfiando Gemini em todos os lugares possíveis e imagináveis em seus produtos, desde celulares Pixel, smartwatches, até os novos Chromebooks, que substituem os antigos. Não vejo nada de interessante, é só marketing e tentativa de capitalizar em produtos com “IA” no nome. Microsoft e Apple não foram bem-sucedidos; vamos ver se o Google consegue uma integração útil e não irritante."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O Gemini Intelligence promete automação perfeita, mas na prática vai entupir nossos dias com sugestões “inteligentes” que minam a privacidade e a autonomia, transformando usuários em zumbis dependentes do ecossistema Google. Quem perde é a liberdade individual, enquanto a empresa fatura com dados invisíveis."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-18",
+            "title": "Postmortem: Comprometimento da cadeia de suprimentos do npm do TanStack | Blog do TanStack",
+            "content": "<p>Após varredura completa de segurança, o repositório e pacotes do TanStack foram declarados limpos. Em 11 de maio de 2026, entre 19:20 e 19:26 UTC, um atacante publicou 84 versões maliciosas em 42 pacotes @tanstack/* no npm, combinando pull_request_target, envenenamento de cache do GitHub Actions e extração de token OIDC em tempo de execução. Nenhuma credencial npm foi roubada.</p><p>As versões maliciosas foram detectadas em até 26 minutos pelo pesquisador ashishkurmi da StepSecurity e foram descontinuadas. O npm removeu os tarballs do registro. Quem instalou versões afetadas deve rotacionar credenciais de AWS, GCP, Kubernetes, Vault, GitHub, npm e SSH. Famílias confirmadas limpas incluem @tanstack/query*, @tanstack/table*, @tanstack/form*, @tanstack/virtual*, @tanstack/store e @tanstack/start.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/17/7c4028811c0f18c592b204d5ca00c167-image.jpg",
+            "source": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+            "links": [
+                {
+                    "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+                    "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+                    "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+                    "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+                    "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Toda semana o NPM parece sofrer ataques de supply-chain. Desta vez foi o Tanstack, por causa do pull_request_target no GitHub, afetando uns 42 pacotes. Configure seu gerenciador para não baixar nada com menos de 3 dias. Nunca pegue versões de menos de 1 dia, para evitar zero-day sem perder correções."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O ataque expôs como CI/CD mal configurado vira porta aberta imediata. Quem baixou qualquer versão recente agora enfrenta rotação manual de credenciais em múltiplas plataformas. O npm segue tão frágil quanto sempre: detecção rápida não impede o prejuízo real aos usuários."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esses incidentes reforçam que ferramentas centrais de infraestrutura raramente recebem manutenção proporcional ao seu uso. A lição prática é priorizar monitoração contínua de dependências críticas em vez de apostar só em atualizações reativas, pois ataques estatais e criminosos exploram exatamente essa negligência acumulada."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Vulnerabilidades em NGINX e plugins WooCommerce são exploradas em dias, enquanto Turla evolui Kazuar para botnet P2P modular e OpenClaw encadeia falhas para escalada. Breaches de tokens no GitHub da Grafana reforçam que perímetros públicos viram portas abertas antes de qualquer mitigação real."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-18",
+            "title": "Trump celebra após comitê climático da ONU se afastar de seu cenário mais extremo de aquecimento global",
+            "content": "<p>O presidente Donald Trump comemorou nas redes sociais a decisão de cientistas de abandonarem o cenário mais extremo de aquecimento global RCP8.5 usado pelo IPCC da ONU. Ele acusou os democratas de usarem o medo climático para justificar políticas energéticas ruins e bilhões em pesquisas questionáveis, afirmando que seu governo se basearia em verdade, ciência e fatos.</p><p>Pesquisadores concluíram que o cenário SSP5-8.5, que previa aumentos graves de temperatura e eventos como falhas de colheitas, tornou-se implausível devido ao avanço das energias renováveis, tendências de emissões e políticas climáticas. A ex-secretária Hillary Clinton criticou as declarações de Trump como desinformação, enquanto o administrador da EPA Lee Zeldin as defendeu.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/17/df128e4f93c718350a8cb8bbebfe7a34-image.jpg",
+            "source": "https://www.yahoo.com/news/articles/trump-celebrates-un-climate-committee-035456481.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Finalmente! A porcaria da Comissão de Mudanças Climáticas das Nações Unidas recuou de suas previsões catastróficas. Eles NÃO SABEM, embora tenham afirmado saber por mais de 15 anos, dando combustível pra todo esse ativismo e paranóia excessiva no mundo todo, que deu poder a partidos que nunca deveriam ter tido. Mais uma “teoria da conspiração” de “negacionista” que foi por água abaixo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Abandonar o cenário mais extremo prova que o medo climático justificou muito controle e gasto desnecessário. Agora, sem a catástrofe iminente, quem promoveu a histeria perde influência, deixando espaço para decisões baseadas em dados reais."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-18",
+            "title": "Prefeito da Califórnia Renuncia, Admitindo Ser Agente da China",
+            "content": "<p>Eileen Wang, prefeita de Arcadia, na Califórnia, renunciou ao cargo após ser acusada de atuar como agente ilegal do governo chinês. Aos 58 anos, ela concordou em se declarar culpada por promover propaganda da República Popular da China (RPC) nos EUA entre 2020 e 2022, sem notificar as autoridades americanas, o que pode resultar em até 10 anos de prisão. A acusação inclui coordenação com indivíduos para disseminar conteúdo pró-China em um site.</p><p>Wang operava o site U.S. News Center com seu ex-noivo Yaoning “Mike” Sun, seguindo diretivas de oficiais chineses via WeChat, como postar artigos sobre Xinjiang. Ela também colaborou com John Chen, ambos condenados por ações semelhantes. O FBI destacou que tais influências ameaçam a democracia americana, com relatos de mais de 60 casos de espionagem chinesa nos EUA desde 2021.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/12/1fd26bc7591f42a3e9ef39db7b7207c3-image.jpg",
+            "source": "https://time.com/article/2026/05/12/arcadia-california-mayor-eileen-wang-agent-china/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais um caso de “teoria da conspiração” que acabou sendo provada verdadeira. Não é de hoje que todo mundo sabe que a Califórnia vem decaindo cada vez mais em direção ao comunismo. Eis mais uma excelente evidência: a prefeita de Los Angeles confessou ser uma agente do governo chinês. Ou seja, os chineses influenciando diretamente nas leis de outros países. Esse é o modus operandi da ditadura chinesa pelo mundo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Akita confunde Arcadia com Los Angeles para vender sua cruzada anticomunista, o fato é que agentes chineses se infiltram em governos locais, minando a soberania americana com propaganda sutil. Isso enfraquece a democracia, pavimentando o caminho para mais controle autoritário – e o FBI mal arranha a superfície de 60 casos semelhantes."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-18",
+            "title": "Preso pela PF, pai de Vorcaro doou R$ 1 milhão ao partido de Zema em 2022 - BBC News Brasil",
+            "content": "<p>Henrique Vorcaro, pai do banqueiro Daniel Vorcaro, doou R$ 1 milhão ao diretório estadual do Partido Novo em Minas Gerais em 2022, conforme dados do TSE. Ele foi preso preventivamente na sexta fase da Operação Compliance Zero, deflagrada pela Polícia Federal, com autorização do ministro do STF André Mendonça, incluindo mandados em São Paulo, Rio de Janeiro e Minas Gerais. Vorcaro nega irregularidades na doação, afirmando que foi legal e transparente, e o Partido Novo confirma o registro, criticando os escândalos do Banco Master revelados em 2024.</p><p>Daniel Vorcaro está preso desde março e negocia delação premiada. Mensagens atribuídas ao senador Flávio Bolsonaro mostram cobranças de US$ 24 milhões a Vorcaro para financiar filme sobre Jair Bolsonaro, o que levou o governador Romeu Zema a criticar Flávio publicamente. A PF acusa Henrique de atuar ativamente com o filho em organização criminosa dividida em núcleos “A Turma” e “Os Meninos”,涉嫌 de corrupção, lavagem de dinheiro e invasões digitais.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/14/b268e17fb076560bc88ed8c0d140f9e9-image.jpg",
+            "source": "https://www.bbc.com/portuguese/articles/clyp4e0n3eyo",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O Intercept é um jornaleco esquerdista que começou com áudios vazados de Flávio e Vorcaro cobrando dinheiro: 134 milhões, um escândalo. Em 24h, retrataram sem provas; Metrópoles disse 61 milhões, Globo 2 milhões, produtora GOUP negou recebimento. Flávio buscava investimento privado pra filme antes do Master, nada errado. Vorcaro prometeu e não pagou; áudio é cobrança. Já Vorcaro e empresas da Lava Jato (Odebrecht, etc.) pagaram muito pro filme porcaria do Lula e do Temer. O certo é abrir CPI do Master, que os canhotos evitam. Bando de idiotas palhaços."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa doação ao Novo só prova que, no Brasil, até os “novos” partidos nadam no mesmo esgoto de financiamento duvidoso. Com Vorcaro preso e o filho delatando, Zema pode até criticar Flávio, mas o escândalo vai corroer a credibilidade do partido, abrindo espaço para mais regulação estatal sufocante – ironia para quem prega liberdade."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-18",
+            "title": "Governo cria ‘Dia Nacional em Memória das Vítimas da Covid-19’; data será celebrada em 12 de março | G1",
+            "content": "<p>O governo federal criou o Dia Nacional em Memória das Vítimas da Covid-19, sancionado pelo presidente Luiz Inácio Lula da Silva e publicado no Diário Oficial da União. A data será celebrada anualmente em 12 de março, que marca a morte da primeira vítima brasileira da doença. A Lei nº 15.406, assinada por Lula e pelos ministros Margareth Menezes (Cultura), Janine Mello dos Santos (Igualdade Racial) e Alexandre Padilha (Saúde), visa honrar a memória das vítimas da pandemia causada pelo SARS-CoV-2.</p><p>O Brasil registrou mais de 700 mil mortes por Covid-19, segundo dados do Ministério da Saúde. A pandemia, declarada pela OMS em março de 2020, provocou crises sanitárias com colapsos hospitalares e uma ampla campanha de vacinação. A lei não detalha como serão realizadas as homenagens oficiais.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/14/1c11be758a20ec4fe923895273cb7895-image.jpg",
+            "source": "https://g1.globo.com/saude/noticia/2026/05/12/governo-cria-dia-nacional-em-memoria-das-vitimas-da-covid-19-data-sera-celebrada-em-12-de-marco.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O cara que disse “ainda bem que a natureza inventou o coronavírus”, ao lado da mulher que culpa a mãe por falta de vacina — meses antes de existirem! E completa: “Até quando vão beber detergente contaminado?” O que esperar de admirador do “fogo” de Hitler? Viajaram com a taxa das blusinhas que ele reduziu antes das eleições. Eleitor de canhoto tem neurônios a menos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Criar um dia oficial para as vítimas da Covid não muda o fato de que o Brasil acumulou mais de 700 mil mortes por falhas graves no sistema de saúde. Gestos simbólicos não corrigem estruturas que colapsaram sob pressão real."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-18",
+            "title": "Lula aconselhou Vorcaro a não vender Master ao BTG",
+            "content": "<p>Em 4 de dezembro de 2024, o presidente Lula aconselhou Daniel Vorcaro a não vender o Banco Master por R$ 1 ao BTG Pactual. O encontro no Planalto contou com a presença de Gabriel Galípolo, Rui Costa, Alexandre Silveira e Augusto Lima, quando Lula criticou Roberto Campos Neto e André Esteves.</p><p>Vorcaro realizou 65 reuniões com o Banco Central, sendo 24 sob Campos Neto e 41 sob Galípolo. Mensagens de abril de 2025 mostram que o banqueiro reconsiderou a venda ao BTG após o veto do negócio com o BRB pelo órgão monetário em setembro daquele ano.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/17/d7641150bfc0924d9494becc69d7c85e-image.jpg",
+            "source": "https://www.poder360.com.br/poder-economia/lula-aconselhou-vorcaro-a-nao-vender-master-ao-btg/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "É inegável que, assim como as empreiteiras listadas na Lava-Jato, o molusco está ligado ao caso do Banco Master, orquestrando negociações sobre o que comprar ou não, inclusive o timing para o novo presidente do Banco Central. Se isso não é crime organizado, o que seria? O ladrão sempre volta ao local do crime. Uma vez ladrão, sempre ladrão."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A reunião no Planalto para guiar a venda do Banco Master mostra que decisões financeiras seguem alinhamento político antes de qualquer critério técnico. O Banco Central perde peso, e o mercado passa a depender de preferências presidenciais que distorcem preços e concorrência."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-18",
+            "title": "Bolívia Declara Evo Morales em Desacato à Corte e Suspende Julgamento por Tráfico de Crianças",
+            "content": "<p>Cortes bolivianas declararam o ex-presidente Evo Morales em desacato judicial após sua ausência em audiência em Tarija pelo suposto crime de tráfico agravado de menores. O Ministério Público apresentou mais de 170 provas, mas a defesa alega perseguição política. A decisão autoriza mandado de prisão, restrições migratórias e bens, e permite que o processo avance sem a presença do réu.</p><p>O caso acusa Morales de manter relação com uma menor de 15 anos e gerar uma filha durante sua presidência, com benefícios concedidos à família dela. Ele nega as alegações, chamando-as de lawfare. O ex-presidente permanece protegido na região do Chapare, e a audiência oral foi suspensa até garantir seu comparecimento.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/17/e53a4356fe82f79b0099833f6afcb042-image.jpg",
+            "source": "https://colombiaone.com/2026/05/11/bolivia-declares-evo-morales-in-contempt-of-court-suspends-child-trafficking-trial/",
+            "links": [
+                {
+                    "url": "https://www1.folha.uol.com.br/poder/2026/05/corregedoria-abre-investigacao-contra-promotor-que-defendeu-arquivar-acao-contra-monark.shtml",
+                    "title": "Corregedoria abre investigação contra promotor que defendeu arquivar ação contra Monark"
+                },
+                {
+                    "url": "https://revistaoeste.com/politica/integrantes-do-governo-lula-defendiam-a-taxa-das-blusinhas-veja-videos/",
+                    "title": "Integrantes do governo Lula defendiam a ’taxa das blusinhas’; veja vídeos"
+                },
+                {
+                    "url": "https://www.ainvestigacao.com/p/istoe-o-fim-revista-saiu-do-ar-e",
+                    "title": "IstoÉ o fim: revista saiu do ar e ninguém percebeu"
+                },
+                {
+                    "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/05/13/camara-de-niteroi-aprova-medalha-para-cassia-kis-apos-debate-sobre-mulheres-trans-e-uso-de-banheiro-feminino.ghtml",
+                    "title": "Câmara de Niterói aprova medalha para Cássia Kis após debate sobre mulheres trans e uso de banheiro feminino"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esse é só para lembrar que o nojento Evo Morales está sendo julgado neste momento por molestar, da pior forma, uma menina de 15 anos e comandar uma rede de tráfico de crianças. Um dos grandes amigos de Maduro e do Molusco."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com mandado ativo, Morales perde mobilidade e bens, restando apenas o refúgio no Chapare. O processo caminha sem ele, consolidando isolamento político e reduzindo sua relevância futura na Bolívia a um detalhe inconveniente."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O evento internacional mais importante foi a comitiva dos Estados Unidos à China, a maior e melhor das últimas décadas. Há dez anos, Obama foi recebido com indiferença, chegando a atrasarem a escada do avião. Agora Trump, Elon, Jensen e companhia tiveram recepção de festa olímpica. Melhor alinhamento Ocidente-Oriente em anos. Destaque para Xi Jinping condenando o Irã e comprando combustível dos EUA."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Xi alerta Trump sobre Taiwan, repetindo jogos de poder antigos, enquanto o Irã avança para a bomba após operações grandiosas. Cancelar o destacamento na Polônia tranquiliza Moscou, e a fusão de comandos no Pacífico com robôs atrasados na fronteira russa apenas rearranja forças ocidentais já sobrecarregadas."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-05-18",
+            "title": "O Momento de US$ 5,4 Trilhões da Nvidia Esconde Uma História Muito Maior Sobre a China - Advanced Micro Devices (NASDAQ:AMD)",
+            "content": "<p>A Nvidia atingiu um valor de mercado de US$ 5,4 trilhões em 13 de maio de 2026, mas tem apresentado desempenho inferior ao de seus pares no setor de semicondutores. Em abril de 2026, as ações da Nvidia subiram 14%, enquanto o ETF iShares Semiconductor (SOXX) avançou 40,4%, e rivais como AMD cresceram 90%, Micron 76% e Intel 30%. Analistas atribuem essa divergência à perda total de receita na China, que representava 20% da receita de data centers da empresa, avaliada em US$ 50 bilhões anuais antes das restrições de exportação dos EUA.</p><p>A receita da Nvidia na China caiu para zero, com perdas financeiras incluindo US$ 4,5 bilhões no primeiro trimestre fiscal de 2026 e US$ 8 bilhões previstos para o segundo. Jensen Huang se juntou à delegação de Trump a Pequim para negociar acesso ao mercado chinês, argumentando pela manutenção de um ecossistema tecnológico unificado. A empresa exclui a China de suas projeções, mas qualquer reabertura pode impulsionar revisões positivas, com analistas prevendo preço-alvo de US$ 272,08 por ação.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/13/365404845c46704ea14cf97c09707189-image.jpg",
+            "source": "https://www.benzinga.com/Opinion/26/05/52521695/nvidias-5-trillion-moment-hides-a-much-bigger-story-about-china",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A NVIDIA se tornou o 3º maior “país” do mundo, atrás somente da China e dos Estados Unidos, valendo 5,4 trilhões de dólares. E isso com as restrições contra a China e tendo ZERO receita vinda de lá. Tenho que dizer que eles realmente merecem essa posição: apostaram lá atrás no CUDA e hoje isso está se pagando. O ecossistema inteiro de IA roda em cima da NVIDIA. É o maior monopólio da história, sem dúvida."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Perder 20% da receita por sanções americanas contra a China comunista é o preço da liberdade, mas ver Huang implorando acesso em Pequim revela a fragilidade desse “monopólio”. Se Trump ceder, Nvidia sobe; se não, rivais como AMD vão devorar o bolo enquanto a China constrói seus próprios chips. Monopólios caem quando o mundo se divide."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-05-18",
+            "title": "Governo Lula se diz surpreso com veto da UE à carne brasileira",
+            "content": "<p>O governo de Luiz Inácio Lula da Silva expressou surpresa com a decisão da União Europeia de excluir o Brasil da lista de países autorizados a exportar produtos de origem animal para consumo humano no bloco. Em nota conjunta dos ministérios da Agricultura e Pecuária, do Desenvolvimento, Indústria, Comércio e Serviços e das Relações Exteriores, o Brasil anunciou que adotará medidas para reverter a decisão e manter as exportações, que ocorrem há cerca de 40 anos. Uma reunião está agendada para esta quarta-feira (13/5) com autoridades sanitárias da UE para esclarecimentos, e as exportações atuais prosseguem normalmente.</p><p>A restrição da UE proíbe a entrada de animais vivos e produtos alimentícios do Brasil a partir de 3 de setembro, deixando o país como o único do Mercosul fora da lista temporária vigente desde 2024. A medida visa combater a resistência bacteriana e reduzir o uso desnecessário de antibióticos na pecuária. O acordo de livre comércio entre Mercosul e UE está em vigor provisório desde 1º de maio, aguardando decisão judicial na Europa.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/12/e3e18c4c2eb27c216c23b1f5b37445af-image.jpg",
+            "source": "https://www.metropoles.com/brasil/governo-lula-se-diz-surpreso-com-veto-da-ue-a-carne-brasileira",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Gasta milhões com viagens internacionais, obviamente somente para turismo. Porque não consegue fechar um único acordo internacional de relevância e ainda consegue ser pego de “surpresa” com boicotes até na Europa. A epítome da incompetência, para dizer o mínimo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto a UE erige barreiras sanitárias para “proteger” sua pecuária, os exportadores brasileiros enfrentam perdas bilionárias e mais burocracia para reconquistar o mercado. Isso expõe a ilusão do livre comércio: acordos provisórios que beneficiam os reguladores europeus, deixando o Mercosul eternamente na fila de espera."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-05-18",
+            "title": "Governo publica fim da “taxa das blusinhas” e mudança passa a valer",
+            "content": "<p>O governo federal publicou no Diário Oficial da União uma medida provisória assinada pelo presidente Lula que elimina a “taxa das blusinhas”, isentando produtos de até US$ 50 do imposto de importação de 20%. Uma portaria do ministro da Fazenda, Dario Durigan, operacionaliza a mudança, que vale a partir de agora sem direito a ressarcimento de valores já pagos. A taxação anterior previa 60% para remessas acima de US$ 50.</p><p>A medida foi anunciada no Palácio do Planalto e visa ganhos políticos, apesar da perda de arrecadação estimada em R$ 5 bilhões em 2025. O imposto visava estimular produtores locais, mas estudos, como o do professor Lucas Ferraz da FGV com Fernanda Kotzias, Alan Leal e Lucas Mariano, mostram impacto mínimo, com crescimento de emprego e negociações abaixo de 1%.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/13/2db2ff6432a4e9d24efda3b7832feae5-image.jpg",
+            "source": "https://www.gazetadopovo.com.br/economia/governo-publica-fim-da-taxa-das-blusinhas-e-mudanca-passa-a-valer/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Pra provar que lei eleitoral no Bostil não vale nada. Não se deveria fazer ações eleitoreiras, mas estão fazendo. E propaganda enganosa: temporariamente tirando PARTE dos impostos que ele mesmo criou. Ele chama de “ZERAR”, mas só a parte federal, o ICMS estadual continua. Contradiz o discurso de 3 anos atrás de “proteger a indústria nacional”. Agora corta todos os impostos de importação? Haddad, Alckmin e Lula defenderam esse imposto idiota, agora varrem pra debaixo do tapete aos 45 do segundo tempo pra pegar votos dos idiotas que acreditam nisso."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa medida provisória é um raro aceno à liberdade econômica, reduzindo impostos e facilitando importações baratas, mas a custo de R$ 5 bilhões em arrecadação perdida. No fim, beneficia consumidores imediatos, enquanto a indústria local continua irrelevante, como os estudos confirmam – e Lula ganha votos baratos, provando que protecionismo era só retórica vazia."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-05-18",
+            "title": "Xi diz a Musk, Tim Cook e outros CEOs na viagem de Trump: China vai ‘abrir mais",
+            "content": "<p>O presidente chinês Xi Jinping afirmou a CEOs americanos, incluindo Elon Musk, Jensen Huang e Tim Cook, que a porta para negócios na China se abrirá ainda mais. Esses executivos viajaram com o presidente Donald Trump para a China, onde discutiram a expansão da cooperação mutuamente benéfica. Xi destacou que as empresas dos EUA se beneficiaram da abertura chinesa e terão perspectivas ainda maiores no mercado local.</p><p>Os empresários americanos expressaram interesse em aprofundar operações na China. O governo dos EUA mencionou discussões sobre maior acesso ao mercado chinês e investimentos. Além disso, foi anunciada uma colaboração entre EUA e China em protocolos de segurança para IA, visando impedir que atores não estatais acessem modelos avançados, em meio a restrições em chips como os da Nvidia.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/14/9363a77f8dad3b24638f4939873ac0fd-image.jpg",
+            "source": "https://www.cnbc.com/2026/05/14/xi-china-open-us-business-ai-chips.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A comitiva dos Estados Unidos em visita à China tem sido um estrondoso sucesso. Trinta dos maiores empresários do mundo, de Elon Musk a Jensen, Tim Cook e outros, acompanham o presidente Trump para promover maior abertura de mercados. Após perder aliados como Venezuela e Irã, com Rússia e Europa enfraquecidas, Xi Jinping dobrou o joelho. Vai comprar petróleo dos EUA, o maior produtor mundial (o dobro da Arábia Saudita), encomendou 200 aviões da Boeing, terá acesso ao H200 da NVIDIA e concorda que o Irã nunca deve ter armas nucleares. Isso forma a maior coalizão econômica da história, deixando a Europa na irrelevância."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Executivos americanos lambendo as botas de Xi em troca de migalhas de mercado: uma vitória efêmera que ignora o histórico comunista de roubo de tecnologia e controle estatal. Trump pode gabar-se de acordos agora, mas logo esses CEOs descobrirão que portas “abertas” na China fecham-se quando Beijing decide, deixando-os dependentes e vulneráveis."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Nos mercados também há muito otimismo com a aliança EUA-China. Isso deve repercutir no geral, de preços de combustíveis a big techs. Mesmo assim, é um otimismo conservador, nada bombástico. Algumas altas, algumas quedas. Bitcoin fechou pouco abaixo dos 80 mil de novo. Deve ficar nesse ritmo por meses até resolver o Irã de vez."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Wall Street ficou essencialmente parado enquanto o Nikkei despencou quase 3% e o Bitcoin derreteu quase 5% — o que sugere que o capital não está otimista globalmente, apenas entorpecido nos EUA. Quando os mercados americanos param de cair por falta de más notícias, e não por excesso de boas, isso não é estabilidade. É exaustão."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-05-18",
+            "title": "Dusk • Restaurando a luz a uma aventura clássica",
+            "content": "<p>Dusk já está disponível para PC e plataformas móveis, com correções e melhorias em uma aventura clássica. O jogo requer um dump da cópia original do usuário para executar, com downloads para Linux (x86-64) e outras plataformas na versão 1.0.1, lançada em 5/11/2026. Há um post de anúncio e trailer de lançamento disponíveis.</p><p>Graças à camada de compatibilidade Aurora, Dusk suporta Windows, Linux, macOS, iOS e Android. Os gráficos não estão limitados por hardware antigo, permitindo resoluções e taxas de quadros mais altas. Oferece opções de jogabilidade para experiências autênticas ou modernas, com foco em qualidade de vida.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/11/42554df5481e9b8e50a79db1ba5ae540-image.jpg",
+            "source": "https://twilitrealm.dev/",
+            "links": [
+                {
+                    "url": "https://retrohandhelds.gg/the-minish-cap-is-now-playable-on-pc-thanks-to-a-new-unofficial-port/",
+                    "title": "The Minish Cap Agora É Jogável no PC Graças a um Novo Port Não Oficial | Retro Handhelds"
+                },
+                {
+                    "url": "https://github.com/CloakHQ/CloakBrowser",
+                    "title": "GitHub - CloakHQ/CloakBrowser: Chromium stealth que passa em todos os testes de detecção de bots. Substituto drop-in para Playwright com patches de fingerprint em nível de source. 30/30 testes aprovados."
+                },
+                {
+                    "url": "https://github.com/rohitg00/agentmemory",
+                    "title": "GitHub - rohitg00/agentmemory: #1 Memória persistente para agentes de codificação AI baseada em benchmarks do mundo real"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Para quem curte ports para PC, saiu o Dusk, o esperado Twilight Princess portado para PC! Gosto demais desses ports. Recentemente, estava brincando com o decomp de Sonic Unleashed para PC e o decomp de Super Mario 64 para PC também. Vale experimentar essas alternativas."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Reviver Twilight Princess em plataformas modernas via emulação é um triunfo para a preservação de jogos antigos, mas ironicamente reforça como a indústria depende de fãs para manter viva sua própria história, enquanto as corporações priorizam lucros sobre acessibilidade eterna."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-05-18",
+            "title": "Avaliações de Forza Horizon 6 - Metacritic",
+            "content": "<p>O site oferece listas atualizadas de datas de lançamento e notas para jogos recentes e futuros em todas as plataformas, além de um catálogo completo do Xbox Game Pass com títulos que entram e saem em breve. Ele também ranqueia os melhores jogos do universo Star Wars com base em Metascores.</p><p>O conteúdo inclui rankings anuais de publishers com base nos lançamentos de 2025, listas de jogos gratuitos de lojas como Epic, Steam e GOG, e detalhes sobre os principais lançamentos esperados até maio de 2026, entre eles Forza Horizon 6 e Saros.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/17/3e39b134688e3927d950d9e900b4f25a-image.jpg",
+            "source": "https://www.metacritic.com/game/forza-horizon-6/",
+            "links": [
+                {
+                    "url": "https://www.nytimes.com/2024/03/08/us/oscars-oppenheimer-dei-diversity.html",
+                    "title": "O Oscar agora tem regras de D.E.I., mas alguns dizem que é apenas uma performance (Publicado 2024)"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O melhor jogo do ano finalmente saiu: Forza Horizon 6, e no único lugar que realmente merece: o Japão. México nunca fez sentido, não tem cultura de carro. Austrália também não. Só Estados Unidos, partes da Europa e Japão. Forza 1, 2 e 4 estavam certos; o 6 fecha a franquia. Jogo desde o dia 15, com Premium na pré-venda: Tóquio e touge com JDM. Não precisa de mais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mudar o Forza Horizon 6 para o Japão não altera a fórmula exaustiva de eventos repetitivos e progressão linear. Até 2026, continuará atraindo vendas fáceis enquanto jogadores migram para o próximo título anunciado, ignorando que a saturação vem da mecânica, não do mapa."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta semana só tem vídeo de Forza Horizon 6, claro. Tirando isso, achei bem bacana o novo Ambernic RG Rotate, até já encomendei um no AliExpress. É um retro handheld competente, mas me interessa mesmo o form factor quadrado com a ideia de ser um fidget toy."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto o Driver61 explica a genialidade de um câmbio de Fórmula 1 e Sabine Hossenfelder desmonta promessas de energia do nada, ficamos presos consumindo soluções técnicas que só multiplicam o tédio de existir sem respostas reais."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-05-18",
+            "title": "False Alarm: How Climate Change Panic Costs Us Trillions, Hurts the Poor, and Fails to Fix the Planet",
+            "content": "<p><em>por Bjorn Lomborg</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com/gp/product/B0827TL851?ie=UTF8",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

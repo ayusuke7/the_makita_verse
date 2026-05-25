@@ -1,0 +1,325 @@
+{
+    "title": "Newsletter #16 - 25 de May de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/05/25/",
+    "subtitle": "Agentes de Código Ganham Memória com ai-memory",
+    "published_at": "2026-05-25",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-25",
+            "title": "Criei um Sistema de Memória pra Agentes de Código: ai-memory",
+            "content": "<p>Há cinco dias recomendei o agentmemory, mas após testá-lo em produção pessoal voltei atrás e iniciei o projeto open source ai-memory para resolver a memória de agentes de código. O agentmemory possui ideias corretas como consolidação em tiers e hooks automáticos, porém sua arquitetura com TypeScript MCP, Rust separado e múltiplos processos gera bugs estruturais que impedem uso diário confiável.</p><p>Desenvolvi o ai-memory com storage simples em markdown, index SQLite FTS5 e consolidação automática via hooks em SessionStart, SessionEnd e MCP tools para handoff entre agentes como Claude Code e Codex. A instalação via Docker instala hooks idempotentes e o bootstrap popula o wiki a partir de git log por cerca de $0.05 usando Haiku 4.5, permitindo sessões longas sem intervenção manual.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/23/d964d44049e5f49243b44a3b2f1d884e-image.jpg",
+            "source": "https://akitaonrails.com/2026/05/23/criei-sistema-memoria-agentes-codigo-ai-memory/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Arquiteturas ambiciosas com múltiplos processos e linguagens colidem com a realidade de uso diário. O resultado é sempre o mesmo: soluções simples e centralizadas acabam carregando o peso que sistemas modernos foram construídos para ignorar."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-25",
+            "title": "Mini Shai-Hulud Publica Pacotes npm Maliciosos do AntV por Meio de Conta de Mantenedor Comprometida",
+            "content": "<p>Pesquisadores descobriram uma campanha de ataque à cadeia de suprimentos que comprometeu pacotes npm do ecossistema @antv, como parte da onda Mini Shai-Hulud. A ofensiva atingiu a conta de mantenedor atool e afetou pacotes como @antv/g2, @antv/g6, @antv/x6 e echarts-for-react, com 1,1 milhão de downloads semanais.</p><p>O atacante publicou 639 versões maliciosas em 323 pacotes, incluindo código que rouba mais de 20 tipos de credenciais e as exfiltra para t.m-kosche.com. A campanha é atribuída ao grupo TeamPCP, que liberou o código-fonte, gerando cópias por outros atores; recomenda-se rotacionar credenciais e auditar repositórios GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/19/0b4ea23219920bc8888e726e0f062ea7-image.jpg",
+            "source": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Eu falei na semana passada. De novo, toda semana mais um ataque de supply chain no NPM. Agora é o mini Shai Hulud contra o ecossistema de pacotes da Alibaba. Mas não só eles: parece que esse ataque já atingiu mais de 300 pacotes. Como falei antes, não atualizem pacotes com menos de 48 horas. É uma verdadeira corrida de gato e rato."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Este ataque reforça que o ecossistema npm premia conveniência em vez de defesa. Mantenedores e usuários perdem controle imediato, enquanto ataques em cadeia se replicam mais rápido que qualquer auditoria manual. O próximo vetor já está sendo preparado."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-25",
+            "title": "Claude Code’s Network Sandbox Vulnerability Exposes User Credentials and Source Code",
+            "content": "<p>Quem estava usando Claude Code dentro do meu ai-jail teve superfície de ataque reduzido.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/21/29afbcb83bef4472ffd461da3e748891-ai-image.png",
+            "source": "https://cybersecuritynews.com/claude-codes-network-sandbox-vulnerability/",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-25",
+            "title": "Megalodon Malware Compromised 5,500+ GitHub Repos Within 6 Hours - Cyber Security News",
+            "content": "<p>🚨 Megalodon Malware Compromised 5,500+ GitHub Repos Within 6 Hours</p><p>Source:</p><p>A sweeping automa…</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/22/721a98c82c62adc116b1cb42a59b7b8d-ai-image.png",
+            "source": "https://cybersecuritynews.com/megalodon-malware-github-repos/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como venho dizendo, não sobrou mais nenhum bom engenheiro na Microsoft. O GitHub agora é problema toda semana: se não é sistema fora do ar, é invasão ou vazamento de segurança. Semana passada, o Megalodon comprometeu mais de 5.500 repositórios. Não deixe nada importante só no GitHub — mantenha backups em GitLab, Gitea ou self-hosted."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Centralizar todo código relevante em uma plataforma só transforma incidentes pontuais em crises globais. Quem ainda ignora backups externos vai aprender da pior forma quando o próximo malware varrer o que restou."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-25",
+            "title": "Criei um CLI pra Checar Pendências no Meu GitHub: ghpending",
+            "content": "<p>Depois da minha maratona de IA, fiquei com dezenas de repositórios no GitHub cheios de issues e pull requests sem resposta. Para evitar o ritual cansativo de checar tudo pelo navegador, criei o ghpending, uma CLI simples em Rust que roda no terminal e mostra pendências de vários repositórios de uma vez.</p><p>O fluxo é usar ghpending add para configurar os repositórios monitorados e depois ghpending para ver a tabela com issues e PRs abertos. Funciona sem autenticação, mas recomendo exportar um token para aumentar o limite de requisições; a ferramenta é MIT e eu a fiz pra reduzir meu próprio atrito ao responder colaboradores.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/23/b2dd7bff1c2b104128447b39dfcca00b-image.jpg",
+            "source": "https://akitaonrails.com/2026/05/23/criei-cli-pra-checar-pendencias-github-ghpending/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Ferramentas como essa expõem o fracasso das interfaces web em escalar com o volume real de contribuições. Mantenedores terminam gastando tempo extra só para organizar o que a plataforma deveria filtrar automaticamente."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-05-25",
+            "title": "Criei um Widget de Waybar pra Omarchy pra Monitorar Uso de Planos de LLM: ai-usagebar",
+            "content": "<p>Eu uso vários vendors de LLM como Claude, GPT, OpenRouter e Z.AI GLM, e precisava acompanhar os gastos em um só lugar sem múltiplos widgets. Criei o ai-usagebar, um port em Rust do claudebar para Waybar que suporta os quatro vendors, lê credenciais OAuth automaticamente para Claude e Codex, aceita API keys para os demais e mantém compatibilidade com os parâmetros originais.</p><p>Além do widget, inclui a TUI ai-usagebar-tui com abas para visualização detalhada, atualizações automáticas e overlay de configurações. A ferramenta funciona standalone em qualquer terminal, inclusive via SSH, e pode ser configurada na Waybar com rolagem ou módulos separados. O código é MIT e está em github.com/akitaonrails/ai-usagebar.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/24/3bf98e416a722b829ee7735f52d2110b-image.jpg",
+            "source": "https://akitaonrails.com/2026/05/24/criei-widget-waybar-omarchy-monitorar-uso-llms-ai-usagebar/",
+            "links": [
+                {
+                    "url": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+                    "title": "Quatro Pacotes Maliciosos npm Entregam Infostealers e Malware DDoS do Phantom Bot"
+                },
+                {
+                    "url": "https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/?camp=blog&mdm=social&src=tw",
+                    "title": "Grafana Labs atualização de segurança: Últimas informações sobre o incidente de ransomware na cadeia de suprimentos do TanStack npm | Grafana Labs"
+                },
+                {
+                    "url": "https://www.cnx-software.com/2026/05/21/flipper-one-a-rockchip-rk3576-powered-portable-arm-linux-computer-and-networking-multi-tool/",
+                    "title": "Flipper One - Um computador portátil Linux Arm alimentado por Rockchip RK3576 e multi-ferramenta de rede - CNX Software"
+                },
+                {
+                    "url": "https://darkwebinformer.com/brazilian-erp-software-house-sisplan-sistemas-listed-in-alleged-source-code-database-sale/",
+                    "title": "Software House Brasileira de ERP Sisplan Sistemas Listada em Alegada Venda de Source Code & Database"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+                    "title": "npm Adiciona Publicação com Gate por 2FA e Controles de Instalação de Pacotes Contra Ataques à Cadeia de Suprimentos"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+                    "title": "Ataque à Cadeia de Suprimentos no Packagist Infecta 8 Pacotes com Malware Linux Hospedado no GitHub"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
+                    "title": "Claude Mythos AI Encontra 10.000 Falhas de Alta Severidade em Software Amplamente Utilizado"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+                    "title": "Pacotes PHP do Laravel-Lang Comprometidos para Entregar um Ladrão de Credenciais Multiplataforma"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+                    "title": "Plugin LiteSpeed cPanel CVE-2026-48172 Explorada para Executar Scripts como Root"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Criar um monitor unificado de gastos com LLMs apenas confirma que APIs fragmentadas e caras forçam o usuário a construir ferramentas extras para não perder o controle do orçamento."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Dependência cega em pacotes de mantenedores anônimos criou o vetor perfeito para ataques em escala. Desde CPAN e PEAR já era assim: priorizamos velocidade e reutilização, agora colhemos o risco sistêmico que ninguém quer pagar para mitigar de verdade."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mesmo com staged publishing e gate 2FA no npm, Packagist e pacotes Laravel continuam comprometidos por binários Linux via GitHub Releases, entregando stealers multiplataforma. O CVE-2026-48172 no LiteSpeed, explorado para execução root via atribuição incorreta de privilégios, expõe que controles pontuais em um ecossistema só deslocam o ataque para o próximo repositório sem hardening real."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-05-25",
+            "title": "Construa software melhor, juntos",
+            "content": "<p>O contexto do tweet afirma que a Microsoft está se degradando cada vez mais e é o pior software já criado.</p><p>A página exibe mensagens de sessão do GitHub sobre login e logout em guias diferentes ou alternância de contas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/24/d14538746599bb1f12b297f2bf0f5cfa-image.jpg",
+            "source": "https://github.com/Nightmare-Eclipse/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A Microsoft baniu a conta do GitHub do usuário Nightmare Eclipse, que reportava problemas de segurança zero-day. Em vez de apoiar e corrigir, preferiu calar o cara. Ele já abriu outra conta no GitLab. A empresa degrada cada vez mais, como se os bons engenheiros tivessem ido embora e sobrado só os piores. Não confio em software deles há anos. Lamento quem ainda é obrigado a usar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Empresas que banem quem relata falhas zero-day garantem que os buracos permaneçam abertos por mais tempo. Perdem visibilidade, ganham usuários migrando para GitLab e reforçam a percepção de que segurança é secundária ao controle interno."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-25",
+            "title": "Lula assina decretos que fortalecem regulamentação das redes sociais",
+            "content": "<p>O presidente Luiz Inácio Lula da Silva assinou nesta quarta-feira, 20, dois decretos que reforçam a regulamentação das redes sociais. As normas criam canais específicos para mulheres denunciarem conteúdos íntimos sem consentimento, com remoção obrigatória em até duas horas, e proíbem o uso de inteligência artificial para gerar imagens íntimas ou sexualizadas de mulheres. O segundo decreto obriga as plataformas a armazenar dados de anunciantes para rastrear autores de golpes digitais e prevê responsabilização por falhas recorrentes na prevenção de crimes.</p><p>Além disso, as big techs devem impedir perfis e publicações ligados a terrorismo, exploração sexual de menores, violência contra a mulher, tráfico de pessoas e automutilação. As medidas seguem a decisão do Supremo Tribunal Federal sobre o Marco Civil da Internet.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/20/1aab597677fee3b5f94bd18176778e00-image.jpg",
+            "source": "https://veja.abril.com.br/politica/lula-assina-decretos-que-fortalecem-regulamentacao-das-redes-sociais/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Censura, obviamente. Não se trata de “conteúdo criminoso”, e sim de conteúdo considerado criminoso pelo Executivo. Não há outro nome para isso que não seja censura. Sem notificação judicial nem nada: basta mandar tirar e não pode reclamar. Bostil sendo Bostil."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esses decretos concentram no Executivo o poder de exigir remoções sem passar pelo Judiciário. Plataformas, para evitar multas, vão ampliar bloqueios automáticos e o que hoje é “proteção” amanhã serve para silenciar críticas políticas sem resistência efetiva."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-25",
+            "title": "Justiça dos EUA autoriza citação de Moraes por e-mail em processo do Rumble e Trump Media",
+            "content": "<p>A justiça americana autorizou nesta sexta-feira (22) a citação do ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes por e-mail após pedido feito em fevereiro pelas empresas Trump Media e Rumble.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/23/55cc09ba529e53ea20987d616782a70e-ai-image.png",
+            "source": "https://www.gazetadopovo.com.br/mundo/justica-dos-eua-autoriza-citacao-de-moraes-por-e-mail-em-processo-do-rumble-e-trump-media/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Acho lindo quando o feitiço se volta contra o feiticeiro. Moraes é um criminoso, sem meias palavras. Foi intimado pela Justiça americana por perseguir cidadãos americanos. O Bostil tem presos e exilados políticos; não é democracia, mas estado de exceção. EUA, Espanha, Itália e Argentina negaram extradições por ilegalidade e violação dos Direitos Humanos. Sim, estamos nesse ponto."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Um 403 da CloudFront expõe a fragilidade da infraestrutura: basta configuração falha ou tráfego alto para cortar acesso sem aviso útil. O usuário fica isolado, sem recurso prático."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-05-25",
+            "title": "Polícia boliviana poderia usar apoio internacional para prisão de Evo Morales",
+            "content": "<p>Marcel Rivas, ex-diretor do Serviço de Migração da Bolívia, afirmou que a Polícia Boliviana pode recorrer à organização internacional “Escudo das Américas” para executar a ordem de prisão contra Evo Morales. O ex-presidente foi declarado em rebeldia por não comparecer ao tribunal de Tarija, onde responde por um caso de tráfico de pessoas com agravante.</p><p>Rivas alertou que a omissão do Ministério do Governo em cumprir a determinação judicial, conforme a Constituição, geraria graves consequências jurídicas e políticas, enfraquecendo a credibilidade das autoridades. Ele enfatizou a necessidade de as forças de segurança aplicarem o mandado independentemente da figura do acusado.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/24/a144a5533cc50408c3d618fa3163667e-image.jpg",
+            "source": "https://www.panamericana.bo/articulo/nacional/policia-boliviana-podria-usar-apoyo-internacional-arresto-evo-morales/20260512132036015911.html",
+            "links": [
+                {
+                    "url": "https://www.dailymail.com/news/article-15829911/Deportation-flight-Muslim-majority-Pakistan-serves-pork-sausages-Irish-breakfast.html?ns_mchannel=rss&ns_campaign=1490&ito=social-twitter_mailonline",
+                    "title": "Voo de deportação para o Paquistão de maioria muçulmana serve salsichas de porco"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Já passou da hora desse criminoso cair. Ele ainda tenta desesperadamente se manter no poder, usando a parcela mais humilde da população que, infelizmente, ainda o apoia cegamente. Evo Morales é chefe de organização criminosa, narcotraficante e, pior, traficante de crianças. Um dos últimos bastardos da América do Sul que precisa ser derrubado o quanto antes."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Se a Bolívia precisa de polícia estrangeira para prender Morales, o resultado será mais instabilidade política e divisão, com seus apoiadores explorando a narrativa de perseguição para fortalecer o legado do caudilho."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A ênfase nos drones MQ-9 revela que a automação militar supera contagens de tropas. Países que integrarem IA e redes de comando como o Delta ucraniano vão definir os próximos conflitos, independentemente de alianças políticas. Quem investir tarde vai pagar caro."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Tropas enviadas à Polônia logo após cancelamento anterior, aliados da OTAN recuando da Operação Fúria Épica e sinais mistos sobre Taiwan e Ucrânia expõem uma estratégia norte-americana instável. Adversários notarão que compromissos dependem de encontros pontuais, enfraquecendo dissuasão para todos."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-05-25",
+            "title": "Elon Musk perde batalha judicial contra Sam Altman e OpenAI após julgamento de 3 semanas",
+            "content": "<p>Um júri rejeitou após menos de duas horas as alegações de Elon Musk contra Sam Altman e a OpenAI, determinando que as reivindicações estavam fora do prazo de prescrição de três anos. O tribunal de Oakland, liderado pela juíza Yvonne Gonzalez Rogers, descartou os pedidos de violação de confiança beneficente e enriquecimento ilícito, além de absolver a Microsoft de acusações de cumplicidade.</p><p>Musk havia processado em 2024 a OpenAI e Altman, alegando que desviaram a missão sem fins lucrativos da empresa criada em 2015, buscando forçar a devolução de até US$ 134 bilhões e a remoção de executivos. A defesa argumentou que Musk propôs estruturas com fins lucrativos e que a reestruturação era necessária para competir, com a OpenAI agora avaliada em mais de US$ 850 bilhões.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/18/fba47a995ede51e82fcddf6f11a4c70b-image.jpg",
+            "source": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "No final, o júri rejeitou o processo de Elon Musk contra a OpenAI. O problema: foi tarde demais. O júri não declarou inocência de Sam Altman, só limitou o caso pela demora. A administração da OpenAI é suspeita, Altman não é confiável, mas Sutskever, Muratti e Musk também têm agendas próprias, com poucas evidências e muita conjectura. Queria ver Altman perder, porém prefiro a OpenAI pressionando a Anthropic. Fico em cima do muro."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O tribunal optou pela prescrição e evitou julgar o mérito. OpenAI e Altman ganham tempo para consolidar o modelo lucrativo, Musk perde alavanca e a competição de IA segue sem freios externos, com consequências imprevisíveis para quem apostou na missão original não comercial."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Dow +2.2% com Nikkei +3.3% enquanto o Bitcoin cai 1% — o mercado ainda prefere ativos tradicionais quando há otimismo geopolítico real. O acordo com o Irã, se concretizar, derruba pressão sobre petróleo e alivia inflação global. Burry tem razão sobre a proposta da SEC: tratar ações como crypto em termos de liquidação 24/7 parece moderno, mas infraestrutura bancária e fiscal não está preparada — é receita para caos sistêmico. E Newsom comentando sobre gasolina enquanto a Califórnia afoga em regulação é ironia que não precisa de explicação."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O mercado subiu porque Trump prometeu paz com o Irã — os mesmos drones que bombardearam o país semanas atrás agora pavimentam o caminho para um acordo. Nikkei disparou porque tensão reduzida no Oriente Médio alivia pressão no petróleo. Dow liderou porque indústria de defesa precifica os 5.000 soldados na Polônia como contrato garantido. O Bitcoin caiu, como sempre, quando adultos fingem saber o que estão fazendo."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-05-25",
+            "title": "A bilheteria inicial de The Mandalorian e Grogu é pior que a de Solo: A Star Wars Story",
+            "content": "<p>O filme The Mandalorian and Grogu arrecadou 12 milhões de dólares nas prévias pagas de quinta-feira, valor inferior aos 14,1 milhões de Solo: Uma História Star Wars. Os números iniciais indicam desempenho semelhante ao de Solo, que faturou 84 milhões no fim de semana de estreia e 392 milhões no total mundial.</p><p>O longa é exibido em 4.300 salas, incluindo 425 IMAX, e possui 63% de aprovação da crítica e 88% do público no Rotten Tomatoes. Jon Favreau dirigiu o filme, com roteiro de Favreau, Dave Filoni e Noah Kloor, e produção de Favreau, Filoni, Kathleen Kennedy e Ian Bryce.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/24/b0b72540149c09ce9913b42a03764d15-image.jpg",
+            "source": "https://www.yahoo.com/entertainment/movies/articles/mandalorian-grogu-early-box-office-161827259.html",
+            "links": [
+                {
+                    "url": "https://www.youtube.com/watch?v=6C0_gc7Js9U&feature=youtu.be",
+                    "title": "Autor de Gachiakuta desiste permanentemente após assédio"
+                },
+                {
+                    "url": "https://www.breitbart.com/entertainment/2026/05/24/newspaper-in-greece-rips-nolans-the-odyssey-for-lack-of-greek-representation/",
+                    "title": "Site de Notícias de Cultura Grega Critica ‘A Odisseia’ de Christopher Nolan por ‘Excluir Gregos’ do Elenco DEI"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Parabéns à Disney e à incompetente Kathleen Kennedy, que finalmente saiu da direção de Star Wars. Símbolo de sua gestão: pior bilheteria da história com filme que nem deveria existir. Série estragada, sem plateia. Pedro Pascal, péssima escolha. Star Wars da Disney não vale nada. Franquia de 4 bilhões enterrada. Quem lacra não lucra. Satisfeito com o resultado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esses números semelhantes aos de Solo mostram que o público rejeita expansões forçadas da franquia. A Disney enfrenta mais um revés comercial, acelerando a desvalorização de uma marca outrora dominante no cinema."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A longa construção da Intel na Costa Rica e o fracasso do trem da Califórnia reforçam uma lição antiga: projetos de hardware e infraestrutura exigem décadas de execução pragmática, não discursos. Enquanto isso, tutoriais de concorrência e retrocomputação mostram que problemas básicos de baixo nível continuam determinando o que realmente funciona em produção."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Fireship promete o endgame da IA do Google e Wendover dissec a ferrovia californiana que nunca andou, o resto da semana gira em torno de emuladores em tablets e ROMs extraídas. Assistir ao colapso de projetos reais em alta definição virou o passatempo preferido de quem não quer sair da simulação."
+                }
+            ]
+        }
+    ]
+}

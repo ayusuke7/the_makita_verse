@@ -1,0 +1,169 @@
+{
+    "title": "Podcast — Semana de 25 de May de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/05/25/",
+    "subtitle": "Agentes de Código Ganham Memória com ai-memory",
+    "published_at": "2026-05-25",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-05-25.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá! Hoje é dia 25 de maio de 2026, semana de Dia da Toalha e Memorial Day. Esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Marvin pra nos acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Mais uma rodada de ataques no npm, malware varrendo repositórios e decretos de censura. Eu já estou cansado só de imaginar o que vem depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando pela tech. Eu criei o ai-memory depois de testar o agentmemory em produção e ver os problemas. Armazenamento em markdown, índice no SQLite e hooks automáticos pra handoff entre agentes como o Claude Code. Instalação simples via Docker."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Claro. Mais uma ferramenta pra corrigir a bagunça que arquiteturas complicadas criam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No The Hacker News dessa semana, o npm adicionou publicação com gate de 2FA e o Packagist foi infectado. Tem também o Claude Mythos achando 10 mil falhas e o CVE no LiteSpeed. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E em 29 de maio de 1919, observações no eclipse confirmaram a relatividade de Einstein. Em 1961, Kennedy anunciou o pouso na Lua. Em 1971, o Mariner 9 orbitou Marte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mini Shai-Hulud comprometeu pacotes do AntV, 639 versões maliciosas e mais de um milhão de downloads por semana. O TimePCP liberou o código. Eu já falei: não atualizem pacotes com menos de 48 horas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outra semana, outro ataque que replica mais rápido que qualquer auditoria. Previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Megalodon comprometeu mais de 5.500 repositórios no GitHub em seis horas. Não deixem código importante só lá. Mantenham backups em GitLab ou self-hosted."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Centralizar tudo em uma plataforma e esperar que nada dê errado. Clássico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Criei o ghpending, uma ferramenta de linha de comando em Rust pra ver issues e pull requests pendentes de vários repositórios de uma vez. Resolve o problema de ficar abrindo navegador o tempo todo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o ai-usagebar, widget pro Waybar que monitora gastos com modelo de linguagem de vários fornecedores em um lugar só. Confirma que interfaces de programação fragmentadas forçam a gente a criar gambiarras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ferramentas pra controlar gastos que as próprias ferramentas geram. Humanos nunca param de complicar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No open source, o GitHub baniu a conta de Nightmare Eclipse por reportar zero-days. Ele migrou pro GitLab. Microsoft degrada rápido, não sobrou engenheiro bom lá."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Banir quem aponta buracos garante que os buracos fiquem abertos mais tempo. Estratégia impecável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na parte global, Lula assinou decretos que obrigam remoção de conteúdo em duas horas sem ordem judicial e proíbem inteligência artificial pra gerar imagens íntimas. Isso é censura pura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Claro, o Executivo decide o que é criminoso e as plataformas obedecem pra não levar multa. Nada pode dar errado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Justiça dos Estados Unidos autorizou citação de Moraes por e-mail no processo da Rumble e Trump Media. O feitiço volta contra o feiticeiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Perseguir gente e depois reclamar de intimação estrangeira. Clássico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na Bolívia, polícia pode pedir apoio internacional pra prender Evo Morales por tráfico de pessoas. Já passou da hora desse cara cair."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais instabilidade pra um caudilho que ainda tem apoio cego de parte da população. Resultado esperado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Military Times, Trump anuncia 5 mil tropas pra Polônia depois de cancelar antes. Aliados recuam da Operação Fúria Épica e sinais mistos sobre Taiwan e Ucrânia. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história do mundo, Joana d’Arc foi executada em 1431. Constantinopla caiu em 1453. E a Convenção Constitucional americana começou em 1787."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No financeiro, o júri rejeitou o processo de Musk contra OpenAI e Altman por prescrição. O mérito nem foi julgado. Altman ganha tempo, a competição continua sem freio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Todos têm agendas próprias e evidências frágeis. Prefiro ver a OpenAI pressionando a Anthropic mesmo assim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os índices subiram: Dow mais 2,2 por cento, Nikkei mais 3,3. Bitcoin caiu 1 por cento. O mercado reagiu a promessas de acordo com o Irã. O resto das notícias tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No entretenimento, The Mandalorian and Grogu arrecadou só 12 milhões nas prévias, pior que Solo. Parabéns à Disney e à Kathleen Kennedy. Quem lacra não lucra."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Público rejeita expansão forçada da franquia. Resultado inevitável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No YouTube dessa semana, Fireship sobre o evento de inteligência artificial do Google, Wandover dissecando o trem da Califórnia e Low Level sobre o Mythos. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história geek, Star Wars Episódio IV estreou em 1977 e O Retorno de Jedi em 1983."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Instabilidade na OTAN, ataques no npm e falhas no GitHub mostram que resiliência técnica ainda é o que vale. Até semana que vem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais uma vitória técnica que confirma a gravidade continua funcionando. Até a próxima."
+        }
+    ]
+}

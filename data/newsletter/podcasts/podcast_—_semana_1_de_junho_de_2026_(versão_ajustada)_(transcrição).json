@@ -1,0 +1,509 @@
+{
+    "title": "Podcast — Semana 1 de Junho de 2026 (versão ajustada) (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/06/01/",
+    "subtitle": "Agentes de IA dominam código aberto e debates",
+    "published_at": "2026-06-01",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-06-01-v2.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá, pessoal! Hoje é primeiro de junho de 2026, semana de Corpus Christi, e esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin pra nos acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Me afogando de novo entre classificações de terroristas, alertas climáticos abandonados e preços de handhelds que explodiram. Nada de novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando pela tech, publiquei um texto sobre boas práticas para projetos de código aberto feitos com modelo de linguagem. O mínimo que vale a pena são três pilares: instalação simples pro usuário, CI com testes e revisão, e pipeline automatizado de release."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exigir instalação trivial, CI rigoroso e releases automáticos apenas confirma que a esmagadora maioria dos repositórios continuará sendo lixo inútil para qualquer estranho. Poucos terão disciplina para manter os três pilares e o resto vira ruído que ninguém consegue usar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sem esses três, o código fica inutilizável pra quem chega de fora. A instalação oferece múltiplos formatos a partir de um único binário. O CI roda fmt, clippy, testes e audit em todo pull request. E a release dispara por tag."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada um desses passos exige mais do que a maioria dos devs está disposta a investir. O resultado é que repositórios decentes permanecem exceções raras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A release compila pra vários alvos e publica em AUR, Homebrew, crates.io e Docker sem intervenção manual. É o básico que qualquer projeto sério deveria ter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Claro que sim. A realidade é que a maioria dos devs nem chega perto desse nível de organização e o ecossistema inteiro paga o preço."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Depois falei das primeiras impressões usando Oh-My-Pi e OpenCode. Expliquei que não uso o Pi ou o Oh-My-Pi como harness principal porque não vejo benefícios claros comparado com Claude Code ou OpenCode. O harness controla o que o modelo vê e as ferramentas disponíveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Essas ferramentas prometem controle mas entregam fragmentação inevitável. No fim, quem precisa de mais do que o básico acaba montando sua própria pilha, repetindo o ciclo de manutenção que se queria evitar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Claude Code se destaca pela memória e fluxo. Codex é inferior e OpenCode oferece melhor experiência com GPT. Minha primeira impressão do Oh-My-Pi é que funciona bem, com tools avançadas pra SQLite, PDFs, ZIPs e AST."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Perfeito. Outra camada que promete simplicidade e entrega mais decisões de engenharia pra manter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mas parece mais verboso que OpenCode. O Pi puro sozinho é minimalista demais, tipo NeoVim sem plugins. Recomendo o Oh-My-Pi apenas como ponto de entrada antes de montar a própria distribuição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E assim o ciclo recomeça. Quanto mais tentamos automatizar, mais tempo gastamos escolhendo a automação certa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Também publiquei sobre backup de Gmail pra Maildir em Linux. Uso mbsync pra espelhar tudo localmente, sem depender do Thunderbird. A configuração vai no isyncrc com app password e secret-tool, mais timers do systemd que sincronizam a cada trinta minutos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Fazer backup local do Gmail expõe o óbvio: provedores podem revogar acesso a qualquer momento. Quem depende só da nuvem aprende rápido que retenção real exige cópias fora do controle alheio, senão o histórico some sem aviso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Depois integro o Maildir ao restic pra backups incrementais criptografados no NAS e off-site via Glacier. O formato aberto permite ler direto com qualquer ferramenta e scripts em Python."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exatamente. A lição continua sendo a mesma de sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sem quota de API, mantendo tudo mesmo se o Google bloquear a conta. É a única forma de ter controle real dos dados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem ainda confia apenas em sincronização em nuvem vai descobrir o custo dessa confiança na próxima mudança de termos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por fim, criei o Frank Manga+ pra ler Manga Plus no desktop. Sou assinante no Android, mas não existe versão web, então extraí o deviceSecret por decompilação e fiz um cliente nativo em Rust com Tauri que baixa e descriptografa páginas direto na tela grande."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas que restringem apps a telas minúsculas só garantem que engenheiros motivados criem alternativas nativas mais eficientes. Shueisha agora compete com soluções que ela nunca autorizou, rodando em monitores grandes e sem depender de ecossistemas fechados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Também estendi o Frank Yomik com extensão pro Chromium que traduz páginas via Ollama local. Dá pra ler catálogos oficiais e não oficiais na tela grande, com cache e navegação boa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais uma vez, restrição corporativa vira oportunidade de engenharia caseira que ninguém planejou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E nos repositórios dessa semana tem o oh-my-opencode-slim, um fork slimmed e fine-tuned do oh-my-opencode que consome bem menos tokens. Tem também o oh-my-pi, agente de codificação pro terminal com edições ancoradas por hash e harness de ferramentas. E o opencode, o agente open source principal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Três ferramentas novas que prometem resolver problemas de contratação de contexto, mas provavelmente vão gerar mais forks e mais manutenção sem resolver o problema de fundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, sabia que essa semana na história da tecnologia: em 2 de junho de 1966 a Surveyor 1 fez o primeiro pouso suave bem-sucedido dos Estados Unidos na Lua. Em 4 de junho de 1996 o Ariane 5 explodiu 37 segundos depois do lançamento por erro de software. E em 1 de junho de 1999 o Napster foi lançado publicamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando pra global, a maior notícia da semana foi o governo dos Estados Unidos classificando o PCC e o Comando Vermelho como organizações terroristas globais. O anúncio veio do secretário de Estado e entra em vigor em 5 de junho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Classificar PCC e CV como terroristas dá aos Estados Unidos poder para congelar ativos e isolar redes no exterior. No Brasil, porém, isso muda pouco enquanto facções mantêm controle territorial e influência política sem resistência efetiva do Estado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eles descreveram as duas como as organizações criminosas mais violentas do Brasil. O molusco escondeu-se em Washington pra impedir essa classificação. Falhou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sim, sanções externas costumam funcionar quando o problema está enraizado dentro da própria estrutura política."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "São terroristas que queimam ônibus, matam civis e controlam política. Narcoestado como Bolívia e México. Bom ver alguém atrapalhando essa corja. Sanções aos apoiadores são bem-vindas. Já era tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O rótulo muda o jogo internacional, mas dentro do país a estrutura de poder continua operando sem grandes abalos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Também teve o texto de Bjorn Lomborg sobre os vinte anos de Um Inconveniente Verdade, de Al Gore. O filme popularizou o tema, mas transformou o debate em pânico moral e urgência política mal calibrada. Medo não é bom conselheiro de política pública."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o resultado foram trilhões desperdiçados em medidas simbólicas enquanto problemas reais de fome e educação ficaram em segundo plano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Há vinte anos Al Gore alarmou o mundo com a maior fake news: o clima mudaria drasticamente e as calotas polares sumiriam. Trilhões foram desperdiçados em vez de resolver fome, saúde e educação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O alarme custou caro e o ajuste de rota agora vem décadas tarde demais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O povo emburrou com canudinhos. Ligado ao wokeismo, atrasou o Ocidente por duas décadas. O clima sempre foi ótimo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nada como ver especialistas trocarem de narrativa quando o financiamento some."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em seguida veio a notícia de que cientistas estão abandonando o cenário catastrófico RCP8.5 nas projeções do IPCC. Esse cenário previa triplicar emissões e aquecimento de 4,4 graus com uso massivo de carvão, mas agora vai ser descartado na próxima avaliação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A rejeição do RCP8.5 deixa exposto que projeções de 4,4 graus dependiam de premissas absurdas de carvão triplicado. O alarme fabricado por décadas agora exige retratação, enquanto o custo em políticas distorcidas e pânico coletivo permanece como legado prático."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já mencionei isso na newsletter passada, mas ainda repercute. Na comemoração dos vinte anos da palhaçada do Al Gore, os cientistas da ONU abandonam o alarmismo que prejudicou o mundo por anos. O dinheiro acabou, então acabou o incentivo pra essas asneiras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Modelos que mudam conforme o caixa disponível não inspiram muita confiança em quem precisa de previsões reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Modelos de cú é rola: basta jogar grana que eles provam qualquer coisa. Povo burro, sem educação, acha que o mundo acaba por causa de CO2."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O padrão se repete sempre que o dinheiro seca e as narrativas precisam ser ajustadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E ainda teve a polícia francesa prendendo 780 pessoas depois de confrontos violentos durante as comemorações da vitória do Paris Saint-Germain na Liga dos Campeões. Cinquenta e sete policiais ficaram feridos, com incêndios, vandalismo e tentativa de invasão de delegacia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Após uma vitória, a França colhe 780 prisões, 57 policiais feridos e lojas destruídas. Os festejos oficiais seguem como se nada tivesse ocorrido, enquanto os prejuízos e a desordem ficam para quem paga a conta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Um enorme bem-feito aos franceses. Não preciso dizer por que disso, certo? Todo mundo sabe. Até quem quer discordar de mim sabe exatamente do que estou falando. Esses são animais. São abaixo de neandertais. É o que acontece depois de uma invasão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A celebração oficial ignorando o custo real é o detalhe mais previsível de todo o episódio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre geopolítica ainda, a China está construindo plataformas de lançamento perto de silos de mísseis nucleares. Quase quinhentos mil soldados russos mortos na Ucrânia, segundo chefe de inteligência britânico. Os Estados Unidos lançaram ataques de autodefesa contra o Irã. E analistas falam que pausa nas vendas de armas empurra Taiwan pra defesa assimétrica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais uma vez, silos nucleares chineses, meio milhão de mortos russos na Ucrânia, ataques americanos no Irã e pausas em vendas a Taiwan seguem o mesmo roteiro: cada potência amplia capacidades enquanto prevê viradas que só prolongam o impasse."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A China anda irritada com o Japão. Eles continuam querendo uma brecha pra tentar retomar Taiwan. Um dos maiores perigos é o que o Japão faria se isso acontecesse."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado costuma ser mais armamentos e menos ilusões de controle."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em preparação, o Japão vem fortalecendo seu potencial militar e de inteligência. Ninguém vai fazer nada por enquanto, mas ninguém está tranquilo nessa mini-guerra fria."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada movimento de um lado gera reação do outro e o ciclo de tensão se alonga sem resolução à vista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E antes de mudar, essa semana no mundo: em 4 de junho de 1940 Winston Churchill fez o discurso Lutaremos nas praias. Em 6 de junho de 1944 começou a invasão da Normandia. E em 4 de junho de 1989 o Exército reprimiu os protestos na Praça da Paz Celestial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado financeiro. Os números do Yahoo Finance essa semana mostram S&P 500 subindo 0,9 por cento, Dow Jones 0,7, Nasdaq 1,4 e Nikkei 4,2. O Bitcoin caiu 4,2 por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os mercados sobem, o Bitcoin cai, e 40 por cento das ações do S&P já estão abaixo da média de longo prazo, mas o índice continua verde porque meia dúzia de gigantes carregam todos os outros nas costas. O Nikkei disparou 4 por cento, provavelmente aliviado com qualquer pausa nas tensões."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Notei mercados asiáticos voláteis vendendo dólares, efeito colateral da guerra contra o Irã: petróleo sobe, fortalece o dólar e desvaloriza moedas locais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Concentração não é força; é um único ponto de falha disfarçado de rally."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A solução de curto prazo é vender reservas em dólar. Quanto mais o país importa petróleo, maior o impacto. O Irã usa isso pra forçar negociações, apesar de estar militarmente defasado. Tréguas parecem próximas, mas voltam atrás e criam impasse. Nada irrita mais os mercados que incerteza."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada tentativa de vender reservas apenas adianta o problema sem resolver a exposição estrutural."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre a PEC da escala 6x1, a Câmara aprovou e mandou pro Senado. O texto reduz jornada e extingue a escala 6x1, mas o ambiente no Senado é menos favorável por pressão empresarial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas vão adaptar-se reduzindo contratações ou fechando portas. Jornada menor imposta por lei eleva custos sem gerar produção extra, provocando demissões e menos vagas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por que não 5x2 ou 4x3? Debate sobre 6x1 é estupidez. Só quem não sabe fazer conta apoia. É truque passageiro pra eleição que vai foder todo mundo depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Senado pode conter o texto, mas o prejuízo à lógica econômica já está encaminhado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não tem mais dinheiro: recordes de falências e inadimplência em 2025 e 2026 por gastos e impostos do governo. Causa demissões em massa. Maior tiro no pé."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Medidas que ignoram aritmética básica costumam voltar como boomerang em forma de menos emprego e mais informalidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A nova Ferrari elétrica fez as ações da marca caírem 6 por cento depois da apresentação. O modelo Luce foi considerado horroroso pelo mercado, e a montadora perdeu valor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Investidores já precificam que um erro de design na Ferrari custa mais que um modelo ruim. O recuo expõe vulnerabilidade de marcas que sobrevivem apenas de reputação, não de execução."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Logo que vi a foto minha reação foi que coisa horrorosa. Quanto mais analisava, pior ficava. Nunca imaginei a Ferrari fazer algo tão feio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Design ruim agora tem preço de mercado imediato."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quem gostou demonstra total falta de bom gosto. Tentaram fazer marketing com Jony Ive, mas ele só funcionava sob Steve Jobs e não entende de carros. O resultado ficou mais feio que um BYD, no nível de um Twingo. Um Tesla é mais elegante por fração do preço. Custa 650 mil dólares, compre um Plaid. Fracasso como o da Jaguar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando o visual é o ativo principal da marca, o impacto de uma escolha ruim se mede em pontos percentuais no dia seguinte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E a operação Fluxo Oculto mirou seis fintechs usadas pelo PCC no mercado de combustíveis. Cinquenta e cinco mandados, fraudes, lavagem e adulteração com nafta. Os fundos de investimento também são alvo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Essas fintechs expõem como estruturas financeiras complexas viram canais fáceis para o PCC. Fechar seis delas muda pouco: a organização migra para outras vias, enquanto fraudes e sonegação no combustível seguem lucrativas e adaptáveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Acho sensacional ver o playboy da Faria Limer finalmente tremer na base. Finalmente muitos foram categorizados como deveriam: fachadas pra terroristas. Muita gente ganhou dinheiro lavando pra traficantes e crime organizado. Agora são todos terroristas. Está absolutamente correto. Fechem todos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O rótulo muda, mas a adaptação do crime organizado continua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora atenção, essa é a parte de notícias duvidosas. Um artigo alegou que a BYD vai trazer dez mil chineses pra trabalhar na fábrica na Bahia. A investigação mostrou que só uma alegação tem respaldo, as outras quatro não."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quatro alegações refutadas mostram que o ciclo de narrativas sensacionalistas consome tempo e credibilidade, enquanto a única sustentada vira detalhe irrelevante para quem já decidiu o que quer acreditar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais um exemplo de propaganda enganosa. É teoricamente falso que virão exatamente dez mil chineses, mas o país traz cerca de mil por vez, continuamente. Camaçari virou subúrbio chinês, com uns três mil chineses rotativos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Detalhes que não mudam o padrão maior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Desde junho de 2025, mil por mês, segundo o Ministério da Justiça, que investiga trabalho escravo e os colocou na lista suja."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O fluxo contínuo já basta para mostrar que a escala é menor que a alegada, mas a substituição de mão de obra local segue acontecendo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No entretenimento, os gregos escreveram uma carta pra Hollywood e pro elenco da Odisséia de Nolan. Estão revoltados com a falsa diversidade, a apropriação cultural e a exclusão de atores gregos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outra vez a indústria decide que história milenar precisa de ajustes modernos pra caber em planilha de marketing."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os gregos estão putaços, e com toda razão. O filme é uma tremenda estupidez que destrói uma carreira quase perfeita. Engoliu a pílula da falsa diversidade, profanou a mitologia grega e excluiu os próprios gregos do elenco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a indignação vem de dentro da própria cultura retratada, o argumento de inclusão fica difícil de sustentar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Espero que seja o maior flop de bilheteria da história: racismo descarado e apropriação cultural."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Indústria que ignora o público-alvo natural costuma pagar caro quando a conta chega."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre handhelds, a Valve subiu o preço do Steam Deck OLED em até 46 por cento. O Xbox Ally sai por 600 dólares contra quase 790 do Deck de 512 gigas. Prefiro meu ROG Ally X rodando Bazzite."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Valve eleva preços e entrega ao Xbox Ally vantagem clara: dispositivo mais barato, ergonômico e com integração nativa ao ecossistema Microsoft. Usuários priorizarão custo-benefício, migrando em massa e deixando o Steam Deck isolado em um mercado que agora favorece alternativas mais acessíveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Deck é o mais velho e fraco entre os handhelds de PC, mas agora custa mais que um PlayStation 5 Pro. Não vale a pena."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Preço alto costuma resolver a dúvida do consumidor mais rápido que qualquer review."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos vídeos do YouTube dessa semana, destaque pro novo do Veritasium explicando Dijkstra, que todo mundo na ciência da computação tem obrigação de saber. Vários canais comentaram o aumento de preço do Steam Deck, como o Wulff Den. Low Level explicou a controvérsia da Microsoft contra o hacker Nightmare Eclipse."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Veritasium explica mapas do Google para um milhão enquanto Wulff Den reclama de preços do Steam Deck. Consumimos explicações sobre ferramentas que já usamos e upgrades que não precisamos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o livro da semana é Ferrari Extra Large, de Pino Allievi, sobre a história e o legado da marca fundada por Enzo Ferrari em 1947."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Classificar PCC e CV como terroristas reflete abordagem pragmática de segurança. E em open source, ferramentas avançadas só geram valor quando ancoradas em simplicidade real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Daqui a uma semana, outra virada de mercado ou silício chinês nos lembrará que o universo melhorou pouco desde que Surveyor 1 pousou na Lua. Até lá."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não esqueçam de se inscrever no newsletter e voltar na próxima semana."
+        }
+    ]
+}

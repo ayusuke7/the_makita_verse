@@ -1,0 +1,361 @@
+{
+    "title": "Newsletter #17 - 01 de June de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/06/01/",
+    "subtitle": "Agentes de IA dominam código aberto e debates",
+    "published_at": "2026-06-01",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-01",
+            "title": "Boas práticas de projetos de código aberto com LLM - O Mínimo",
+            "content": "<p>Publiquei dezenas de projetos no GitHub, a maioria em Rust, usando Claude e Codex. Defendo que todo repositório só vira projeto de código aberto de verdade com três pilares: instalação simples para o usuário, CI com testes e revisão, e pipeline automatizado de release. Sem eles, o código fica inutilizável para estranhos.</p><p>A instalação oferece múltiplos formatos a partir de um único binário compilado. O CI executa fmt, clippy, testes e audit em todo PR, complementado por revisões feitas por LLM. A release dispara por tag, compila para vários alvos, assina quando necessário e publica em AUR, Homebrew, crates.io e Docker sem intervenção manual.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/30/433bcf0b8aa465cb94fba9f1ec6d56e8-ai-image.png",
+            "source": "https://akitaonrails.com/2026/05/30/boas-praticas-projetos-codigo-aberto-llm-o-minimo/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Exigir instalação trivial, CI rigoroso e releases automáticos apenas confirma que a esmagadora maioria dos repositórios continuará sendo lixo inútil para qualquer estranho. Poucos terão disciplina para manter os três pilares."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-01",
+            "title": "Primeiras Impressões usando Oh-My-Pi e OpenCode",
+            "content": "<p>Eu explico por que não uso Pi ou Oh-My-Pi como harness principal: falta de benefícios objetivos claros frente a Claude Code ou OpenCode. Defino harness como a camada que controla o que o modelo vê, suas ferramentas e ações, e mostro que planos mensais da Anthropic e OpenAI são mais baratos que API por token, mas com restrições de uso em terceiros. Claude Code se destaca pela memória e fluxo, enquanto Codex é inferior e OpenCode oferece melhor experiência com GPT.</p><p>Minha primeira impressão do Oh-My-Pi é que ele funciona bem, com tools avançadas para SQLite, PDFs, ZIPs e AST, mas parece mais verboso e menos polido que OpenCode. Pi puro é minimalista demais, como NeoVim sem plugins, e recomendo Oh-My-Pi apenas como ponto de entrada antes de montar uma distribuição própria.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/25/7cf4aa237de2e02cb4dcdacff9aaf87d-image.jpg",
+            "source": "https://akitaonrails.com/2026/05/25/primeiras-impressoes-usando-oh-my-pi-e-opencode/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essas ferramentas prometem controle mas entregam fragmentação inevitável. No fim, quem precisa de mais do que o básico acaba montando sua própria pilha, repetindo o ciclo de manutenção que se queria evitar."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-01",
+            "title": "Backup de Gmail pra Maildir em Linux",
+            "content": "<p>Eu explico meu método para espelhar o Gmail em Maildir local via mbsync, sem depender do Thunderbird. Detalho a configuração do ~/.config/isyncrc com app password, o uso de secret-tool e os timers do systemd que executam sincronizações automáticas a cada 30 minutos após o boot.</p><p>Em seguida, mostro como integro o Maildir ao restic para backups incrementais criptografados no NAS e off-site via Glacier. Destaco que o formato aberto permite leitura direta por qualquer ferramenta, scripts em Python sem quotas de API e retenção total dos e-mails mesmo se o Google bloquear a conta.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/713495d52336b64a14461ea2b0e2f141-ai-image.png",
+            "source": "https://akitaonrails.com/2026/05/28/backup-gmail-maildir-linux/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Fazer backup local do Gmail expõe o óbvio: provedores podem revogar acesso a qualquer momento. Quem depende só da nuvem aprende rápido que retenção real exige cópias fora do controle alheio, senão o histórico some sem aviso."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-01",
+            "title": "Manga Plus (Shueisha) no Desktop: Frank Manga+",
+            "content": "<p>Eu sou assinante do MANGA Plus by Shueisha no Android e usei meu Samsung ZFold 7 para ler títulos como One Piece e Chainsaw Man. Como não existe versão web, extraí o deviceSecret do app via decompilação e criei o Frank Manga+, um cliente nativo em Rust + Tauri que acessa direto a API da Shueisha, baixando e descriptografando páginas no monitor de 32 polegadas.</p><p>Paralelamente, estendi o Frank Yomik com uma extensão Manifest V3 para Chromium que traduz páginas do Kindle Japan e Naver Webtoon via Ollama local. Juntos, os projetos permitem ler catálogos oficiais e não oficiais no desktop sem depender de telas pequenas, mantendo estado, cache e navegação otimizada.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/30/1bfae6144e9514d63ba206f059693945-image.jpg",
+            "source": "https://akitaonrails.com/2026/05/30/manga-plus-shueisha-desktop-frank-manga-plus/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Empresas que restringem apps a telas minúsculas só garantem que engenheiros motivados criem alternativas nativas mais eficientes. Shueisha agora compete com soluções que ela nunca autorizou, rodando em monitores grandes e sem depender de ecossistemas fechados."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-01",
+            "title": "EUA classificam PCC e CV como organizações terroristas",
+            "content": "<p>O governo dos Estados Unidos classificou nesta quinta-feira, 28, as facções brasileiras Primeiro Comando da Capital (PCC) e Comando Vermelho (CV) como organizações terroristas globais. O anúncio foi feito pelo secretário de Estado Marco Rubio e entra em vigor em 5 de junho. O Departamento de Estado descreveu as duas como “as organizações criminosas mais violentas do Brasil”, responsáveis por ataques contra forças de segurança, autoridades e civis, com redes que se estendem além das fronteiras brasileiras.</p><p>A medida está associada à política de segurança do governo Trump contra o tráfico de drogas. Rubio afirmou que a administração continuará usando ferramentas legais para combater grupos criminosos e proteger a segurança nacional dos EUA. O anúncio ocorreu após encontros do senador Flávio Bolsonaro com autoridades americanas em Washington, incluindo reuniões com Rubio e o vice-presidente J.D. Vance.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/987f5787182f4409ae1b3c8112875eb9-image.jpg",
+            "source": "https://revistaoeste.com/mundo/eua-classificam-pcc-e-cv-como-organizacoes-terroristas/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Maior notícia da semana: o molusco escondeu-se em Washington para impedir que EUA classifiquem PCC e CV como terroristas. Falhou. São terroristas que queimam ônibus, matam civis e controlam política. Narcoestado como Bolívia e México. Bom ver alguém atrapalhando essa corja. Sanções aos apoiadores são bem-vindas. Já era tempo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Classificar PCC e CV como terroristas dá aos EUA poder para congelar ativos e isolar redes no exterior. No Brasil, porém, isso muda pouco enquanto facções mantêm controle territorial e influência política sem resistência efetiva do Estado."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-01",
+            "title": "A verdade inconveniente sobre o alarmismo climático de Al Gore",
+            "content": "<p>O artigo, de Bjorn Lomborg, revisita os 20 anos de An Inconvenient Truth, de Al Gore, argumentando que o filme foi importante para popularizar o tema das mudanças climáticas, mas também ajudou a transformar o debate em pânico moral e urgência política mal calibrada. A crítica central é que medo não é bom conselheiro de política pública: quando o problema é tratado como apocalipse iminente, governos tendem a adotar medidas caras, simbólicas ou ineficientes. A conclusão aparente é que a política climática deveria priorizar soluções custo-efetivas: inovação tecnológica, adaptação, energia mais barata e limpa, e medidas com melhor retorno por dólar gasto. O texto não nega o problema climático; critica o alarmismo e a tendência de sacrificar crescimento, energia acessível e racionalidade econômica em nome de metas climáticas mal desenhadas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/27/d2521638383ab1ef01168b8c6000d888-ai-image.png",
+            "source": "https://www.telegraph.co.uk/news/2026/05/21/two-decades-on-an-inconvenient-truth-panic-terrible-policy/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Há 20 anos, Al Gore alarmou o mundo com a maior fake news: o clima mudaria drasticamente e as calotas polares sumiriam. Trilhões foram desperdiçados, em vez de resolver fome, saúde e educação. O povo emburrou com canudinhos. Ligado ao wokeismo, atrasou o Ocidente por duas décadas. O clima sempre foi ótimo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Sites como o Telegraph reforçam muros digitais contra rastreadores, forçando usuários a abandonar VPNs e ferramentas de privacidade. O resultado é mais fragmentação da informação, com acesso seletivo que premia conformidade e pune quem busca anonimato ou flexibilidade real."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-01",
+            "title": "Cientistas desistem de cenário catastrófico do aquecimento global; Trump comemora - Claudio Dantas",
+            "content": "<p>Cientistas abandonam o cenário extremo RCP8.5 nas projeções do IPCC da ONU, que previa triplicar emissões de carbono e aquecimento de 4,4°C com uso massivo de carvão. Um estudo da União Europeia de Geociências confirmou que esse cenário será descartado na próxima avaliação do painel.</p><p>Donald Trump comemorou a mudança em postagem na Truth Social. O cenário foi usado por veículos de imprensa para alarmismo, como previsões de Brasil inabitável em 50 anos, com parte da mídia fazendo correções posteriores; especialistas afirmam que ele sempre foi uma hipótese implausível, mas tratada incorretamente como provável.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/610cb248abcaf2866f4dc871f749bc1d-image.jpg",
+            "source": "https://claudiodantas.com.br/cientistas-desistem-de-cenario-catastrofico-do-aquecimento-global-trump-comemora/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Já mencionei isso na newsletter passada, mas ainda repercute. Na comemoração dos 20 anos da palhaçada do Al Gore, os “cientistas” da ONU abandonam o alarmismo que prejudicou o mundo por anos. O dinheiro acabou, então acabou o incentivo para essas asneiras. Modelos de cú é rola: basta jogar grana que eles provam qualquer coisa. Povo burro, sem educação, acha que o mundo acaba por causa de CO2. Ótimo que a ONU perdeu o financiamento desse circo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A rejeição do RCP8.5 deixa exposto que projeções de 4,4°C dependiam de premissas absurdas de carvão triplicado. O alarme fabricado por décadas agora exige retratação, enquanto o custo em políticas distorcidas e pânico coletivo permanece como legado prático."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-01",
+            "title": "Polícia francesa prende 780 após confrontos violentos enquanto torcedores do PSG celebram vitória na Liga dos Campeões",
+            "content": "<p>Polícia francesa deteve 780 pessoas após confrontos violentos em Paris e cerca de 15 cidades, após o Paris Saint-Germain vencer o Arsenal e conquistar a Liga dos Campeões. O ministro do Interior, Laurent Nuñez, informou que 57 policiais ficaram feridos, com incêndios, vandalismo em lojas e uma tentativa de invasão a uma delegacia na capital.</p><p>Cerca de 277 detidos foram colocados sob custódia formal, incluindo 82 menores, por agressão a agentes, roubo e vandalismo. Um acidente grave feriu duas pessoas; celebrações oficiais previstas para domingo no Champ de Mars prosseguem, e a equipe será recebida pelo presidente Emmanuel Macron.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/31/e8a9f90ee239546b781670fe0114f810-image.jpg",
+            "source": "https://www.theguardian.com/world/2026/may/30/paris-police-arrest-paris-saint-germain-fans-celebrate-champions-league-win-over-arsenal",
+            "links": [
+                {
+                    "url": "https://www.gazetadopovo.com.br/ideias/aquecimento-global-brasil-inabitavel-em-50-anos-foi-mais-um-fiasco-do-alarmismo-ambiental/",
+                    "title": "“Brasil inabitável em 50 anos” foi mais um fiasco do alarmismo"
+                },
+                {
+                    "url": "https://www.dailywire.com/news/exclusive-state-department-organizing-global-push-against-far-left-terror",
+                    "title": "EXCLUSIVO: Departamento de Estado Organizando Esforço Global Contra o Terror da Extrema Esquerda"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Um enorme bem-feito aos franceses. Não preciso dizer por que disso, certo? Todo mundo sabe. Até quem quer discordar de mim sabe exatamente do que estou falando, o que evidencia que até você sabe que é isso, mas está tentando achar justificativa pra essa barbárie. Esses são animais. São abaixo de neandertais. É o que acontece depois de uma invasão. Mas tudo bem, pelo menos não estão falando em alemão, certo?"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Após uma vitória, a França colhe 780 prisões, 57 policiais feridos e lojas destruídas. Os festejos oficiais seguem como se nada tivesse ocorrido, enquanto os prejuízos e a desordem ficam para quem paga a conta."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A China anda irritada com o Japão. Eles continuam querendo uma brecha para tentar retomar Taiwan. Um dos maiores perigos é o que o Japão faria se isso acontecesse. Em preparação, o Japão vem fortalecendo seu potencial militar e de inteligência. Ninguém vai fazer nada por enquanto, mas ninguém está tranquilo nessa mini-guerra fria."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais uma vez, silos nucleares chineses, meio milhão de mortos russos na Ucrânia, ataques americanos no Irã e pausas em vendas a Taiwan seguem o mesmo roteiro: cada potência amplia capacidades enquanto prevê “viradas” que só prolongam o impasse. O resultado costuma ser mais armamentos e menos ilusões de controle."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-01",
+            "title": "Texto da PEC da escala 6x1 ainda precisa passar pelo Senado",
+            "content": "<p>A Câmara dos Deputados concluiu a votação da PEC que reduz a jornada de trabalho e extingue a escala 6×1. O texto agora segue para análise no Senado, onde o ambiente é considerado menos favorável devido à pressão do setor empresarial.</p><p>A tramitação depende das decisões do presidente do Senado, Davi Alcolumbre, e deve passar primeiro pela CCJ, que terá até 30 dias para emitir parecer. O governo Lula busca concluir a votação ainda neste semestre, mas enfrenta resistência de parlamentares que defendem mais tempo para negociações com empresários; qualquer alteração no texto obrigará nova votação na Câmara.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/722f9adfeb5617351a714d7dc26e388e-image.jpg",
+            "source": "https://revistaoeste.com/politica/texto-da-pec-da-escala-6x1-ainda-precisa-passar-pelo-senado/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Por que não 5x2 ou 4x3? Debate sobre 6x1 é estupidez. Só quem não sabe fazer conta apoia. É truque passageiro pra eleição que vai foder todo mundo depois. Não tem mais dinheiro: recordes de falências e inadimplência em 2025-2026 por gastos e impostos do governo. Causa demissões em massa. Maior tiro no pé."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Empresas vão adaptar-se reduzindo contratações ou fechando portas. Jornada menor imposta por lei eleva custos sem gerar produção extra, provocando demissões e menos vagas. O Senado pode conter o texto, mas o prejuízo à lógica econômica já está encaminhado."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-01",
+            "title": "Nova Ferrari elétrica é tão odiada que fez as ações da marca despencaram após sua apresentação",
+            "content": "<p>O recuo de 6% após a chegada da <strong>nova Ferrari</strong> Luce sinalizou a desconfiança imediata do mercado financeiro em relação ao modelo, que fez a montadora, avaliada em € 56 bilhões antes do anúncio, perder valor de mercado.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/3624c37675b5851faa0a96437bc02d02-ai-image.png",
+            "source": "https://autopapo.com.br/curta/nova-ferrari-eletrica-e-tao-odiada-que-acoes-da-marca-despencaram-apos-revelacao-do-carro/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Logo que vi a foto desse novo carro da Ferrari, minha reação foi “que coisa horrorosa”. Quanto mais analisava, pior ficava. Nunca imaginei a Ferrari fazer algo tão feio. Quem gostou demonstra total falta de bom gosto. Tentaram fazer marketing com Jony Ive, ex-designer da Apple, mas ele só funcionava sob Steve Jobs e não entende de carros. O resultado ficou mais feio que um BYD, no nível de um Twingo. Um Tesla é mais elegante por fração do preço. Custa 650 mil dólares — compre um Plaid. Fracasso como o da Jaguar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Investidores já precificam que um erro de design na Ferrari custa mais que um modelo ruim. O recuo expõe vulnerabilidade de marcas que sobrevivem apenas de reputação, não de execução."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-01",
+            "title": "Veja lista das fintechs alvo de nova fase da Operação Carbono Oculto",
+            "content": "<p>O Ministério Público de São Paulo deflagrou a operação Fluxo Oculto, desdobramento da Carbono Oculto, contra seis fintechs e instituições de pagamento usadas pelo PCC no mercado de combustíveis. Foram cumpridos 55 mandados de busca e apreensão com apoio da Receita, ANP e Secretaria da Fazenda, visando fraudes, sonegação, lavagem de dinheiro e adulteração de combustíveis com nafta.</p><p>As fintechs funcionavam como bancos paralelos da organização para compensações entre distribuidoras e postos. Quatro fundos de investimento com patrimônio de R$ 205 milhões, administrados por duas gestoras e duas administradoras, também são alvo por ocultação patrimonial via empresas-fantasma que desviavam solventes. A YAW negou qualquer vínculo com o esquema.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/29/b6c12dce76e3d4d30e19ce5683bd6315-image.jpg",
+            "source": "https://www.metropoles.com/sao-paulo/fintechs-alvo-nova-carbono-oculto",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Acho sensacional ver o playboy da Faria Limer finalmente tremer na base. Finalmente muitos foram categorizados como deveriam: fachadas para terroristas. Muita gente ganhou dinheiro lavando para traficantes e crime organizado. Agora são todos terroristas. Está absolutamente correto. Fechem todos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essas fintechs expõem como estruturas financeiras complexas viram canais fáceis para o PCC. Fechar seis delas muda pouco: a organização migra para outras vias, enquanto fraudes e sonegação no combustível seguem lucrativas e adaptáveis."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta semana vi mercados asiáticos voláteis, especialmente vendendo dólares. Efeito colateral da guerra contra o Irã: o petróleo sobe e fortalece o dólar, desvalorizando moedas locais como o won sul-coreano. A solução de curto prazo é vender reservas em dólar. Quanto mais o país importa petróleo, maior o impacto. O Irã usa isso para forçar negociações a seu favor, apesar de estar militarmente defasado. Tréguas parecem próximas, mas voltam atrás e criam impasse. Nada irrita mais os mercados que incerteza."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os mercados sobem, o Bitcoin cai, e 40% das ações do S&P já estão abaixo da média de longo prazo — mas o índice continua verde porque meia dúzia de gigantes carregam todos os outros nas costas. O Nikkei disparou 4%, provavelmente aliviado com qualquer pausa nas tensões comerciais do Pacífico. Concentração não é força; é um único ponto de falha disfarçado de rally."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-01",
+            "title": "Uma Carta a Hollywood e ao Elenco de A Odisseia de Nolan, de Nós Gregos",
+            "content": "<p>Ao elenco e à equipe criativa de … Odyssey, <strong>Escrevemos a vocês como gregos, não como fragmentos da antiguidade, não como ecos de exposições em museus, e não como personagens selados em mármore, mas como um povo vivo cuja história nunca parou de ser escrita.</strong>…</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/5dd52bc1fabc0de3912e5794f34087a6-ai-image.png",
+            "source": "https://greekcitytimes.com/2026/05/25/a-letter-to-hollywood-and-nolans-odyssey-cast-from-us-greeks/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Os gregos estão putaços — e com toda razão. O “Odisséia”, de Nolan, é uma tremenda estupidez que destrói uma carreira quase perfeita. Engoliu a pílula da falsa diversidade, profanou a mitologia grega e excluiu os próprios gregos do elenco. Espero que seja o maior flop de bilheteria da história: racismo descarado e apropriação cultural."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-01",
+            "title": "O Steam Deck não é mais o rei do orçamento. Aqui está por que o Xbox Ally agora é uma escolha óbvia.",
+            "content": "<p>A Valve aumentou os preços do Steam Deck OLED em até 46% devido à alta nos custos de componentes. O Xbox Ally tem preço base de US$ 599,99 nos EUA, contra US$ 789,99 do Steam Deck OLED de 512 GB.</p><p>O Xbox Ally usa processador AMD Ryzen Z2 A, tela de 7 polegadas com resolução 1080p, taxa de 120 Hz e VRR, e é mais ergonômico. Ele roda Windows 11 com integração nativa ao Xbox e permite instalar SteamOS ou Bazzite para acesso ao ecossistema Steam.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/28/487e9f34a3712857a3521087cf3aa825-image.jpg",
+            "source": "https://www.windowscentral.com/hardware/handheld-gaming-pc/steam-deck-xbox-ally-prices",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Valve surpreendeu todo mundo, negativamente. Ainda não lançaram a Steam Machine e subiram os preços do Steam Deck. Entre handhelds de PC como ROG Ally X ou Legion Go, ele é o mais velho e fraco, mas agora custa mais que um PlayStation 5 Pro. Não vale a pena. Prefiro meu ROG Ally X rodando Bazzite."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Valve eleva preços e entrega ao Xbox Ally vantagem clara: dispositivo mais barato, ergonômico e com integração nativa ao ecossistema Microsoft. Usuários priorizarão custo-benefício, migrando em massa e deixando o Steam Deck isolado em um mercado que agora favorece alternativas mais acessíveis."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Destaque pro novo vídeo do Veritasium explicando Dijkstra. Todo mundo que está na ciência da computação tem obrigação de saber isso, então assistam. Vários canais comentaram o aumento de preço do Steam Deck, como o Wulff Den. Outros mostraram alternativas da Lenovo no canal Retro Game Corps. Low Level explica a controvérsia da Microsoft contra o hacker Nightmare Eclipse, que chamou atenção esta semana pela maneira porca que a Microsoft lidou com a situação."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Veritasium explica mapas do Google para 1 milhão enquanto Wulff Den reclama de preços do Steam Deck. Consumimos explicações sobre ferramentas que já usamos e upgrades que não precisamos. Clássico: quanto mais conteúdo, menos tempo sobra para viver."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-01",
+            "title": "GitHub - alvinunreal/oh-my-opencode-slim: Fork slimmed, cleaned e fine-tuned do oh-my-opencode, consome muito menos tokens",
+            "content": "<p>Fork slim, limpo e fine-tuned do oh-my-opencode, consome muito menos tokens - alvinunreal/oh-my-opencode-slim</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/25/6a9e6125759a2d4efaca52d81b93cb2b-image.jpg",
+            "source": "https://github.com/alvinunreal/oh-my-opencode-slim",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-01",
+            "title": "GitHub - can1357/oh-my-pi: ⌥ Agente de codificação de IA para o terminal — edições ancoradas por hash, harness de ferramentas otimizado, LSP, Python, navegador, subagentes e mais",
+            "content": "<p>⌥ Agente de codificação por IA para o terminal — edições ancoradas por hash, harness de ferramentas otimizado, LSP, Python, navegador, subagentes e mais - can1357/oh-my-pi</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/25/136a8fa5a714edb0c5abd2fdc080666c-image.jpg",
+            "source": "https://github.com/can1357/oh-my-pi",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-01",
+            "title": "GitHub - anomalyco/opencode: O agente de codificação open source.",
+            "content": "<p>O agente de codificação open source. Contribua para o desenvolvimento de anomalyco/opencode criando uma conta no GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/25/a4bc4c7c8105ef2683d8e6ce839c295a-image.jpg",
+            "source": "https://github.com/anomalyco/opencode",
+            "links": [
+                {
+                    "url": "https://github.com/akitaonrails/ai-jail",
+                    "title": "GitHub - akitaonrails/ai-jail: Sandbox multi-OS para executar agentes AI com melhores restrições (não é 100% seguro, mas suficiente)"
+                }
+            ],
+            "comments": []
+        },
+        {
+            "category": "Notícias Duvidosas",
+            "published_at": "2026-06-01",
+            "title": "É falso que BYD vai trazer 10 mil chineses para trabalhar em fábrica na BA",
+            "content": "<p>Um artigo de notícias apresentou cinco alegações que foram submetidas a verificação de credibilidade. A análise avaliou o conteúdo e identificou que apenas uma alegação é sustentada por evidências, enquanto as demais carecem de apoio factual.</p><p>A investigação contestou quatro das cinco alegações com base em evidências disponíveis, sem identificar lacunas contextuais significativas na narrativa original. Não foram detectados padrões de coordenação ou omissões convergentes entre diferentes coberturas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/05/26/b553316a178e91ef7e0482e40592e039-image.jpg",
+            "source": "https://investigator.themakitachronicles.com/investigations/3655368b02",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais um exemplo de propaganda enganosa. É “teoricamente falso” que virão exatamente 10 mil chineses para as fábricas na Bahia, mas o país traz cerca de mil por vez, continuamente. Camaçari virou subúrbio chinês, com uns 3 mil chineses rotativos. Desde junho de 2025, mil por mês, segundo o Ministério da Justiça, que investiga trabalho escravo e os colocou na “lista suja”."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quatro alegações refutadas mostram que o ciclo de narrativas sensacionalistas consome tempo e credibilidade, enquanto a única sustentada vira detalhe irrelevante para quem já decidiu o que quer acreditar."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-06-01",
+            "title": "Ferrari (Extra Large)",
+            "content": "<p><em>por Pino Allievi</em></p>",
+            "image": "",
+            "source": "https://us.amazon.com/dp/3754401351",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

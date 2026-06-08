@@ -1,0 +1,573 @@
+{
+    "title": "Newsletter #18 - 08 de June de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/06/08/",
+    "subtitle": "Ibovespa afunda em maior tombo desde o Real",
+    "published_at": "2026-06-08",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-08",
+            "title": "NVIDIA anuncia superchip RTX Spark com CPU Arm e GPU RTX Blackwell - Adrenaline",
+            "content": "<p>A NVIDIA anunciou oficialmente o superchip RTX Spark na Computex 2026, que combina CPU Arm com até 20 núcleos, GPU RTX Blackwell com 6.144 núcleos CUDA, até 128 GB de RAM LPDDR5X e conexão NVLink C2C. O chip entrega 1 petaflop de desempenho em IA, suporta modelos com 120 bilhões de parâmetros e propõe desempenho similar ao de uma RTX 5070 para notebooks.</p><p>A linha dará origem a mais de 30 laptops e 10 desktops de parceiros como ASUS, Dell, HP e Lenovo, com telas de 14 ou 16 polegadas, espessura de até 14 mm e peso de 1,3 kg. Os aparelhos chegam aos EUA a partir de 22 de setembro, voltados também para criadores com suporte de Adobe e outras empresas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/01/1e406d1535500b75892f49fc5e44674a-image.jpg",
+            "source": "https://www.adrenaline.com.br/nvidia/nvidia-anuncia-superchip-rtx-spark-com-cpu-arm-e-gpu-rtx-blackwell/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A NVIDIA lançou a RTX Spark com Dell, Asus e Microsoft para Windows ARM. A mídia elogiou, mas acho que vai ser um péssimo produto. É uma CPU ARM de terceiros com GPU Blackwell similar à 5070, vendida pelo dobro do preço de um MacBook Neo e bem inferior a um MacBook normal ou Pro. A NVIDIA vive numa ilusão."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A iniciativa da NVIDIA com o RTX Spark reforça a corrida por dispositivos ARM no Windows, prometendo desempenho de IA impressionante. Mesmo assim, provavelmente só beneficiará fabricantes de hardware enquanto os consumidores preferem ecossistemas já otimizados. O resultado será mais opções premium caras que falham em conquistar adoção ampla contra a integração superior de rivais."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-08",
+            "title": "TelaBrasil usa CDN da Amazon e gera custo ao governo por minuto assistido",
+            "content": "<p>A plataforma de streaming do governo federal, TelaBrasil, utiliza a CDN da Amazon para entrega de vídeos, gerando custo ao governo por cada minuto assistido por espectador.</p><p>Considerando um longa-metragem de 1h30min e 5,4 GB, cada visualização implica pagamento proporcional pelo uso da infraestrutura da Amazon.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/01/29631f999f575c259f2451dd27a9fe91-image.jpg",
+            "source": "https://x.com/ayubio/status/2061297903813980325",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Telebras é desperdício de dinheiro público. Falam tanto em soberania, mas usam CDN da Amazon para os streamings, em vez das opções brasileiras. A Globo tem cobertura nacional; a Amazon, só SP, RJ e CE, e ainda sai mais cara. Nem o governo usa data centers locais. Cadê a Magalu Cloud? Incoerência total, como sempre."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Apesar das promessas de independência tecnológica, a plataforma federal continua pagando pelo uso de CDN estrangeira e ignora alternativas brasileiras disponíveis. Isso perpetua o desperdício de verbas públicas, reforça a dependência de provedores externos e não traz ganho algum em eficiência ou autonomia real."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-08",
+            "title": "Microsoft Anuncia Coreutils para Windows e Containers WSL Integrados",
+            "content": "<p>Microsoft está trazendo Coreutils no estilo Linux e containers nativos do WSL para o Windows para simplificar os fluxos de trabalho dos desenvolvedores</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/02/0e67452010ad2c57f57bb81301f4cd41-ai-image.png",
+            "source": "https://windowsreport.com/microsoft-announces-coreutils-for-windows-and-built-in-wsl-containers/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Dado que só vêm más notícias da Microsoft ultimamente, este pacote Coreutils chamou atenção ao trazer ferramentas básicas de Linux nativamente para o Windows. Teoricamente é bom. Já usei as ferramentas UNIX do Subsystem for UNIX no Windows Server 2003, e o WSL também oferece isso. Mas são os binários reescritos em Rust que a Canonical tenta empurrar goela abaixo. Uma droga. Melhor que nada, talvez."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A adição de utilitários clássicos do Linux ao Windows atende a uma demanda real dos desenvolvedores que precisam de compatibilidade, mas demonstra que o sistema da Microsoft continua secundário em termos de ferramentas nativas para programação avançada, levando a uma maior fragmentação em vez de uma solução unificada e verdadeiramente eficiente."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-08",
+            "title": "74 mil ordens secretas de bloqueio afetam milhões de endereços na internet",
+            "content": "<p>As autoridades brasileiras expediram atualmente 74 mil ordens de bloqueio de endereços na internet, quase todas mantidas em sigilo. Cada ordem menciona múltiplos endereços e provoca o bloqueio colateral de milhões de outros.</p><p>O deputado federal André Halders apresentou estudo com esses dados. O texto destaca que o volume de ordens resulta em impacto amplo sobre a rede.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/03/4e53d0d507639ecdf96f2b5b64a5e6ef-ai-image.png",
+            "source": "https://x.com/i/status/2062174200182231264",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Este artigo do Ayub é só para relembrar que vivemos num estado de exceção. Não existe mais liberdade de expressão. Tudo é censurado em silêncio. Você não fica sabendo que milhões de endereços na internet são afetados por ordens judiciais que sequer deveriam existir. Mas isto é o Bostil, terra sem lei."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Setenta e quatro mil ordens secretas de bloqueio resultam em milhões de endereços inacessíveis por colateralidade. O efeito é que o fluxo de informação fica manipulado sem transparência, permitindo que autoridades limitem o que circula online sem prestar contas ao público. Cidadãos perdem acesso amplo e qualquer consciência do que foi removido da rede de forma silenciosa."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-08",
+            "title": "Hackers enganaram chatbot de suporte do Meta AI para roubar contas de Instagram de celebridades",
+            "content": "<p>Hackers exploraram o chatbot de suporte de IA da Meta para roubar contas notáveis do Instagram. Eles usavam VPN para alinhar a localização, iniciavam a redefinição de senha e pediam à IA para alterar o e-mail associado à conta. O golpe, ativo desde fevereiro, permitiu o sequestro e revenda de perfis valiosos, incluindo @hey e @jowo, com valor estimado acima de US$ 1 milhão no mercado cinza. Contas de alto perfil, como a Casa Branca de Obama, foram comprometidas antes do patch emergencial em 29 de maio.</p><p>A falha funcionou como ataque de injeção de prompt contra o sistema de permissões elevadas da IA. Contas com autenticação multifator resistiram ao exploit. Pesquisadores como ZachXBT e Dark Web Informer divulgaram o problema, destacando o risco de agentes de IA com acesso amplo a alterações críticas sem verificação adicional.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/03/ebda4c945883b1892dbd7dabd6110b67-image.jpg",
+            "source": "https://arstechnica.com/ai/2026/06/meta-ai-support-chatbot-gave-hackers-access-to-notable-instagram-accounts/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais uma vez a IA sendo usada de forma errada, agora pela Meta. Aviso para amadores: não integrem LLMs com acesso livre a operações na infraestrutura. Tudo precisa ser exaustivamente testado, pois prompts não são determinísticos. A Meta errou ao permitir injeção de prompts via suporte, expondo dados de usuários. O problema é deixar amadores usarem IA."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Permitir que chatbots de IA alterem detalhes de contas expõe sistemas a injeções de prompt como essa. Hackers usaram o bot para sequestrar perfis valiosos do Instagram, revendendo handles premium por milhões. O conserto tardio da Meta deixou vários usuários prejudicados, mostrando que automação sem barreiras rígidas gera vulnerabilidades previsíveis em plataformas sociais."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-08",
+            "title": "Controvérsia de IA em contribuições de projetos de código aberto - minha opinião",
+            "content": "<p>Nos últimos dias discuti a onda de contribuições geradas por IA em projetos open source. Minha opinião curta é que a IA veio pra ficar: aumentará o volume de PRs, issues e relatórios de bug, mas banir ferramentas como Claude ou Cursor é irrealista e sem chance de sucesso.</p><p>Exemplos como rsync 3.4.3, a política anti-LLM do Zig, a migração do Bun e a suspensão do bounty do curl mostram o problema real de AI slop. A solução que defendo não é proibir, mas adaptar o fluxo: usar LLM para triagem inicial, resumo de diffs e checagem de riscos, enquanto o mantenedor decide o merge, exatamente como faço nos meus projetos ai-memory e outros.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/05/a436bdc647970e0d8fb312cbd6bc46bf-image.jpg",
+            "source": "https://akitaonrails.com/2026/06/05/controversia-ia-contribuicoes-projetos-codigo-aberto-minha-opiniao/",
+            "links": [
+                {
+                    "url": "https://www.theverge.com/games/940722/asus-xbox-ally-x20-special-edition-oled-screen",
+                    "title": "A Asus acabou de anunciar o Xbox Ally X OLED dos meus sonhos"
+                },
+                {
+                    "url": "https://world.hey.com/dhh/let-the-agents-democratize-open-source-9fd630a9",
+                    "title": "Deixem os agentes democratizarem o open source"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+                    "title": "Novo Modo Lockdown do ChatGPT Limita Ferramentas Que Podem Habilitar Exfiltração de Dados"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+                    "title": "Aplicativos Gratuitos Estão Transformando Silenciosamente Smart TVs em Proxies de Web Scraping para AI"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+                    "title": "CISA Adiciona Falha de DoS no SolarWinds Serv-U Ativamente Explorada ao Catálogo KEV"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+                    "title": "Agente de IA Descobre 21 Zero-Days no FFmpeg; Chrome Corrige Recorde de 429 Bugs"
+                },
+                {
+                    "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+                    "title": "Miasma Worm Atinge 73 Repositórios do GitHub da Microsoft em Grande Ataque à Cadeia de Suprimentos"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Todo projeto open source que tentar usar IA para filtrar o slop gerado por IA acabará multiplicando camadas de verificação sem fim. Os mantenedores continuarão sobrecarregados porque cada filtro adicionado exige checagem extra, sem resolver que o volume real de ruído só cresce com o tempo e a dependência crescente de ferramentas automatizadas."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Toda semana é a mesma coisa: IA descobrindo novas vulnerabilidades ou sendo usada para invasões. Este é o novo normal. Não há nada de mágico nisso. São buracos que seriam encontrados mais cedo ou mais tarde. Não existe software perfeito, muito menos feito por IA sem supervisão. Crença cega na IA só multiplica os problemas. Esta será a nova corrida de gato e rato da década. Acostumem-se."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Apesar de um agente de IA descobrir 21 zero-days no FFmpeg e o Chrome corrigir 429 bugs, worms como o Miasma continuam a atingir repositórios e falhas no SolarWinds permanecem exploradas. O modo Lockdown do ChatGPT e proxies em Smart TVs revelam que vetores de exfiltração evoluem mais rápido que as defesas."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-08",
+            "title": "GitHub - akitaonrails/clock-tui: Um app de relógio no terminal escrito em Rust, suporta relógio local, timer e cronômetro.",
+            "content": "<p>tclock é um aplicativo de terminal para relógio, timer, cronômetro e contagem regressiva, escrito em Rust. Trata-se de um fork mantido do projeto original race604/clock-tui, com dependências atualizadas, binários de release, pacote AUR e suporte a widgets de comandos.</p><p>O app permite alternar modos com teclas c, w ou t, pausar com espaço e sair com q. O modo relógio aceita fuso horário, milissegundos e widgets que executam comandos para exibir status. Widgets são limitados por largura do terminal e ignoram saídas muito grandes. Configurações usam TOML e aceitam durações com sufixos s, m, h e d.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/cb8c2417629c36417143c4dc12f1d71d-image.jpg",
+            "source": "https://github.com/akitaonrails/clock-tui",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Brincadeira de IA da noite: eu queria um relógio de mesa e resolvi fazer um.A ideia foi pro meu monitor vertical ter algo mais útil e fácil de ver, então coloquei o relógio e também suporte a widgets como coisas pendentes no meu GitHub."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Manter forks deste tipo permite que utilitários básicos continuem funcionando em sistemas atualizados sem depender de manutenção original. Relógios no terminal combinam bem com monitores verticais por sua simplicidade e integração com comandos, oferecendo widgets personalizáveis. Contudo, o público permanece restrito a desenvolvedores habituados à linha de comando."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-08",
+            "title": "GitHub - akitaonrails/google-calendar-tui: Simples TUI para listar próximos compromissos do Google Calendar no terminal (integra com gnome online accounts)",
+            "content": "<p>TUI simples para listar compromissos próximos do Google Calendar no terminal (integra com contas online do GNOME) - akitaonrails/google-calendar-tui</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/80af61dc2e6aee3ba3f75761ca85d72a-image.jpg",
+            "source": "https://github.com/akitaonrails/google-calendar-tui",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-08",
+            "title": "GitHub - akitaonrails/ghpending: CLI simples para listar rapidamente issues e pull requests abertos dos repositórios da sua conta no GitHub",
+            "content": "<p>CLI simples para listar rapidamente issues e pull requests abertos dos repositórios da sua conta no GitHub - akitaonrails/ghpending</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/f5b39deea63343905e6497d7e0a47ce5-image.jpg",
+            "source": "https://github.com/akitaonrails/ghpending",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-08",
+            "title": "GitHub - akitaonrails/clock-tui: Um app de relógio no terminal escrito em Rust, suporta relógio local, timer e cronômetro.",
+            "content": "<p>Um app de relógio no terminal escrito em Rust, suporta relógio local, timer e cronômetro. - akitaonrails/clock-tui</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/ebd0c8b1b93af3c337a87a6b314f7403-image.jpg",
+            "source": "https://github.com/akitaonrails/clock-tui",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-08",
+            "title": "GitHub - akitaonrails/prettify-manga: Extensão para Chrome para habilitar leitura em dupla página na maioria dos sites de mangá fansub",
+            "content": "<p>Extensão do Chrome para habilitar leitura em página dupla na maioria dos sites de mangá fansub - akitaonrails/prettify-manga</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/25144f5fb892bec70505b1a7c5c6bdd4-image.jpg",
+            "source": "https://github.com/akitaonrails/prettify-manga",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-08",
+            "title": "GitHub - akitaonrails/geary-hide-sidebar-module: módulo gtk para permitir que a Barra Lateral do Mail recolha automaticamente e seja mais responsiva.",
+            "content": "<p>Módulo GTK para permitir que a barra lateral do Mail recolha automaticamente e seja mais responsiva. - akitaonrails/geary-hide-sidebar-module</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/ebc7a4d7a903a1ce4220782b17619755-image.jpg",
+            "source": "https://github.com/akitaonrails/geary-hide-sidebar-module",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-08",
+            "title": "O que é a Seção 301, poderoso mecanismo dos EUA usado para propor tarifa de 25% ao Brasil",
+            "content": "<p>A Seção 301 é uma ferramenta da lei comercial dos EUA que permite ao governo americano investigar práticas de outros países consideradas injustas, discriminatórias ou prejudiciais ao comércio dos EUA. No caso do Brasil, ela foi usada para justificar uma proposta de tarifa de 25% sobre parte dos produtos brasileiros, alegando problemas em temas como comércio digital, propriedade intelectual, etanol, corrupção e desmatamento. O ponto central é que a Seção 301 dá aos EUA um mecanismo unilateral de pressão econômica: antes da tarifa final, há consulta pública e audiência, mas a lógica é usar a ameaça tarifária como instrumento de negociação. A medida aumenta a tensão diplomática porque atinge o Brasil mesmo com os EUA tendo superávit comercial na relação bilateral, e porque alguns produtos importantes — como café, carne, energia, aeronaves e minerais — foram poupados para reduzir impacto interno nos consumidores americanos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/02/5f2a504725e3839df7fa1b1a8edc3fb9-image.jpg",
+            "source": "https://www.estadao.com.br/economia/o-que-e-a-secao-301-poderoso-mecanismo-dos-eua-usado-para-propor-tarifa-de-25-ao-brasil-npr/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Já passou da hora de um adulto agir. Após mais de 20 anos protegendo e investindo no crime, PCC e CV viraram problema internacional. Esta semana, 7 toneladas de cocaína foram rumo à Ásia. Não é venda inocente: é terrorismo. STF, Executivo e grandes empresas, como bancos e fintechs, financiam e lavam o dinheiro. Apertem onde dói: no bolso. Que a Seção 301 mate o mal pela raiz."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A pressão tarifária americana via Seção 301 visa extrair concessões brasileiras em temas como propriedade intelectual e comércio digital. Mesmo com superávit dos EUA, a escolha de produtos poupados indica foco em minimizar dor doméstica. Exportadores brasileiros atingidos enfrentarão custos maiores e perda de mercado, sem garantia de qualquer ajuste estrutural local."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-08",
+            "title": "Sistema de votação high-tech do Brasil está perdendo a confiança dos eleitores",
+            "content": "<p>Brasil é o único país do mundo onde todas as eleições são inteiramente eletrônicas. Para celebrar os 30 anos do sistema em maio, o Tribunal Superior Eleitoral (TSE) lançou a mascote Pilili, uma urna amigável com olhos grandes.</p><p>Apesar das ações de divulgação do TSE nos últimos anos, a confiança dos eleitores no sistema de votação eletrônica brasileira continua em declínio.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/04/8de4149e7ae8edd371c299fd6ebfde0f-image.jpg",
+            "source": "https://www.economist.com/the-americas/2026/05/31/brazils-high-tech-voting-system-is-losing-voters-trust",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isto é só pra lembrar que o Bostil é o único país que faz eleições num sistema impossível de auditar. A urna é o menor dos problemas: o processo inteiro é a maior caixa preta do mundo. Sistemas não auditáveis não são confiáveis. É tudo ou nada: ou 100% aberto ou 100% fechado. Hoje é 100% fechado e 100% não confiável."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O lançamento de uma urna com olhos grandes para celebrar três décadas de votação eletrônica ignora a raiz do problema. Sistemas fechados geram desconfiança natural, e esforços de marketing não substituem a possibilidade de auditoria independente. O declínio na confiança reflete a percepção de que a transparência é essencial para qualquer processo eleitoral legítimo."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-08",
+            "title": "Monique falhou miseravelmente com Henry, e o patriarcado não tem nada a ver com isso",
+            "content": "<p>A juíza Elizabeth Louro absolveu Monique Medeiros do homicídio culposo na morte do filho Henry Borel, de 4 anos, concedendo-lhe perdão judicial e soltura imediata por entender que a perda da criança e críticas sociais já configuravam punição suficiente, citando misoginia e patriarcado. Monique foi condenada por omissão de socorro à tortura, enquanto o namorado Jairo Souza Santos Júnior recebeu 43 anos de prisão pela morte causada por hemorragia interna e laceração no fígado.</p><p>O texto relata que Monique admitiu ter recebido alertas da criança e da babá sobre agressões, optou por manter o relacionamento e que os jurados a consideraram responsável. Critica a introdução de categorias ideológicas na sentença penal e questiona a aplicação seletiva da lei com base em identidades de gênero.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/591acdb4e69d7e6450a22153a17d2d2c-image.jpg",
+            "source": "https://oglobo.globo.com/opiniao/thais-oyama/coluna/2026/06/monique-falhou-miseravelmente-com-henry-e-o-patriarcado-nao-tem-nada-a-ver-com-isso.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta semana, dois Henrys foram assassinados: Henry Nowak na Inglaterra e Henry Borel no Brasil. Sobre o menino, o UOL empurrou a narrativa de “culpa do patriarcado”, tratando a mãe como vítima. A desgraçada estava no salão quando o filho pediu ajuda apanhando, ignorou, voltou depois do crime, tirou selfies e sorriu. Juíza canhota feminazi a inocentou. Canhotos adoram matar crianças."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A absolvição fundamentada em conceitos de misoginia e patriarcado em vez de fatos concretos tem o efeito prático de minar a aplicação igualitária da lei. Responsabilidades são atenuadas por narrativas identitárias, o que reduz a proteção efetiva a crianças e normaliza a omissão diante de abusos quando conveniente ideologicamente."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-08",
+            "title": "Como a Grã-Bretanha foi abalada pelo assassinato de Henry Nowak – e por que os EUA intervieram",
+            "content": "<p>JD Vance e o Departamento de Estado dos EUA intervieram no caso do assassinato de Henry Nowak, criticando o “policiamento de dois níveis” no Reino Unido. Nowak, estudante de 18 anos, foi esfaqueado em Southampton em dezembro de 2025 por Vickrum Digwa, que alegou portar uma faca cerimonial sique. O irmão de Digwa denunciou falso ataque racial, e a polícia algemou Nowak agonizante.</p><p>Líderes de direita, incluindo Elon Musk e Nigel Farage, usaram o caso para acusar migração em massa e policiamento enviesado. O premiê Keir Starmer rejeitou as alegações e acusou os críticos de fomentar divisão. O governo nega policiamento de dois níveis; dados mostram negros parados 48 vezes mais que brancos em Londres. O IOPC investiga o caso.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/2d60f83d9db9d7bcb4fab7705898a6b7-image.jpg",
+            "source": "https://www.theguardian.com/uk-news/2026/jun/05/henry-nowak-controversy-behind-us-intervention-murder-case-britain",
+            "links": [
+                {
+                    "url": "https://www1.folha.uol.com.br/mundo/2026/06/petro-diz-que-nao-aceita-resultados-de-apuracao-previa-na-colombia-que-coloca-apadrinhado-em-2o-lugar.shtml?=social",
+                    "title": "Petro diz que não aceita resultados de apuração prévia na Colômbia, que coloca apadrinhado em 2º lugar"
+                },
+                {
+                    "url": "https://claudiodantas.com.br/toffoli-entra-na-mira-dos-eua-por-decisao-sobre-odebrecht/",
+                    "title": "Toffoli entra na mira dos EUA por decisão sobre Odebrecht"
+                },
+                {
+                    "url": "https://claudiodantas.com.br/toffoli-entra-na-mira-dos-eua-por-decisao-sobre-odebrecht/",
+                    "title": "Toffoli entra na mira dos EUA por decisão sobre Odebrecht"
+                },
+                {
+                    "url": "https://nypost.com/2026/06/05/opinion/remember-june-5-when-the-elites-shattered-americas-trust/",
+                    "title": "Nunca esqueça 5 de junho — o dia em que as elites destruíram a confiança da América"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O outro Henry que sofreu esta semana foi Henry Nowak, da Inglaterra. O imbecil do Keir Starmer acelerou a entrada de criminosos muçulmanos sem critério, reformou a polícia para protegê-los e chama de racista quem critica. Um cidadão esfaqueado por imigrante ilegal foi algemado, a polícia duvidou do ferimento e ele morreu. A Inglaterra precisa de intervenção, está virando uma favela."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A intervenção americana no caso de Henry Nowak expõe como o policiamento seletivo britânico, moldado por migração em massa e medo de acusações de racismo, falha em proteger vidas. Algemar vítimas em vez de suspeitos inverte prioridades e erosiona qualquer pretensão de igualdade perante a lei, com consequências fatais que se acumulam."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Nenhuma grande notícia pelo mundo que valha destaque. Assim como foi com a Ucrânia, a guerra no Irã já se tornou parte da rotina. Ninguém mais se lembra tanto. Se você é novo e não está acostumado, sempre foi assim: Guerra Fria até o fim dos anos 80, as movimentações de Saddam Hussein nos anos 90, a caça a Osama bin Laden nos anos 2000. Não ter guerra é que é incomum."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os EUA alternam ataques no Irã com visitas à Venezuela pós-Maduro, enquanto armas químicas ocultas ressurgem na Síria e o terrorismo jihadista avança na África diante da retirada americana. A ironia histórica se repete: intervenções para estabilizar regiões geram novos focos de instabilidade, mantendo tropas e famílias em alerta constante sem perspectiva real de resolução."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-08",
+            "title": "Tombo em Wall St se aprofunda após dados fortes de emprego nos EUA; US$ 1 trilhão é eliminado em menos de 3 horas - BusinessToday",
+            "content": "<p>Mercados acionários dos EUA caíram fortemente em 5 de maio após dados de emprego mais robustos que o previsto, elevando preocupações com juros altos por mais tempo. O S&amp;P 500 perdeu cerca de US$ 1 trilhão em valor de mercado em menos de três horas, com o Nasdaq recuando 3,1%, o S&amp;P 500 1,9% e o Dow Jones 465 pontos.</p><p>Os dados do Bureau of Labor Statistics mostraram 172 mil novos empregos não agrícolas em maio, acima das expectativas de 80 mil, enquanto a taxa de desemprego ficou em 4,3%. Os rendimentos dos Treasuries subiram, pressionando ações de tecnologia, e o S&amp;P 500 caminha para sua primeira semana negativa em dez semanas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/05/be2f927a18b9f10188df3bc3e487a6f8-image.jpg",
+            "source": "https://www.businesstoday.in/world/us/story/wall-st-rout-deepens-after-strong-us-jobs-data-1-trillion-wiped-out-under-3-hours-535242-2026-06-05",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Parece que há movimento massivo de realocação para títulos do Tesouro. Ações, cripto, ouro e prata caem bastante. Quedas recentes não têm motivo isolado, parece convergência, mais a antecipação de mega IPOs como SpaceX e Anthropic. Empregos nos EUA dobraram o esperado — boa notícia —, mas mercados caíram mais de 1 trilhão de dólares. FED deve manter juros altos. Bom momento de compras com desconto."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Números de emprego acima do esperado nos Estados Unidos geram quedas expressivas nos mercados porque sinalizam que os juros permanecerão elevados por mais tempo. A ironia central é que boas notícias econômicas acabam punindo investidores em ações e transferindo valor para títulos públicos. Crescimento real enfrenta agora a resistência artificial criada por políticas monetárias anteriores."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-08",
+            "title": "Ibovespa tem maior sequência de perdas semanais desde o Plano Real – Money Times",
+            "content": "<p>O Ibovespa acumulou queda de 2,74% nos últimos quatro pregões e completou a oitava semana seguida de perdas, a maior sequência negativa desde o Plano Real. Investidores estrangeiros retiraram R$ 14,91 bilhões em maio, o maior fluxo negativo desde março de 2020, com migração de recursos para o setor de tecnologia nos EUA, Coreia do Sul e Taiwan, além de expectativas de Selic terminal mais alta.</p><p>A volatilidade eleitoral ganhou força após reportagens sobre possível financiamento de US$ 24 milhões ao filme de Jair Bolsonaro por Daniel Vorcaro. Os EUA anunciaram intenção de taxar o Brasil em 25%, mais taxa adicional de 12,5% para 60 países. Mesmo assim, o índice acumula alta de 4,90% no ano e fluxo estrangeiro positivo de R$ 41,6 bilhões, enquanto empresas do Ibovespa perderam R$ 778 bilhões em valor de mercado desde as máximas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/05/14708be2e3bed3c153c172235fce0349-image.jpg",
+            "source": "https://www.moneytimes.com.br/ibovespa-tem-maior-sequencia-de-perdas-semanais-desde-o-plano-real-lils/?mrfcid=202606056a1fa6c0c6b91e272f5ad5a8",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Com exceção de quem lucra com trading, não vale a pena segurar investimentos no Bostil. Aqui é só para especular, pois não existe estabilidade política há décadas. Dinheiro estrangeiro só entra quando eventos internacionais obrigam. Se houver algo melhor fora, todo estrangeiro retira os investimentos. Sempre. Não existem motivos para deixar aqui, a não ser como fundo de transição."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A fuga de R$ 14,91 bilhões em maio revela que investidores priorizam mercados com retornos mais previsíveis em tecnologia, como EUA e Ásia. No Brasil, ruído eleitoral e incerteza sobre Selic elevada afastam capital de forma estrutural, deixando apenas quem aposta em oscilações de curto prazo enquanto o índice perde valor desde as máximas."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-08",
+            "title": "Citi revisita preço-alvo da Broadcom após sell-off pós-resultados | AVGO - TheStreet",
+            "content": "<p>A ação da Broadcom fechou a US$ 418,91 … veio ligeiramente abaixo das previsões de Wall Street. A Citi manteve sua recomendação de compra e <strong>preço-alvo de US$ 500</strong> para a ação….</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/06/787fc54bcb0137a7de8fe765fb484132-ai-image.png",
+            "source": "https://www.thestreet.com/investing/stocks/citi-maintains-broadcom-stock-price-target-avgo",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A Broadcom faz parte das empresas de infraestrutura com ótimos resultados nesta bolha de IA. No último trimestre, apresentou números fortes, mas as ações caíram mais de 12%, com efeito dominó que chegou a causar circuit breaker na Coreia do Sul. Não é um “crash” ainda. As regras diferem da bolha dos anos 90. As ferramentas de especulação são mais complexas. Bons resultados sozinhos não inflam o mercado. Ele exige o dobro, depois o triplo. Por enquanto, é um tropeço, não catástrofe. Crashes assim, antes apocalípticos, hoje são rotina."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-08",
+            "title": "Carne vai ficar mais barata no Brasil com veto da UE ao produto nacional?",
+            "content": "<p>A União Europeia anunciou a suspensão das importações de carne bovina brasileira a partir de setembro por falta de garantias sobre o controle de antimicrobianos. O bloco comprou 128,9 mil toneladas em 2025, representando 3,7% das exportações brasileiras. A China, principal destino, deve atingir o limite de 1,1 milhão de toneladas e parar de comprar após esse volume, após ter adquirido 48% do total exportado pelo Brasil em 2025.</p><p>Especialistas avaliam que a menor demanda externa pode aumentar a oferta interna, mas não deve reduzir de forma significativa os preços nos açougues brasileiros. O preço da carne subiu 7,7% nos últimos meses, enquanto a arroba do boi gordo recuou 5,6% em maio para US$ 69,43. Novos mercados e a sazonalidade da oferta determinam o impacto doméstico.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/8ac0d12618335070ae6f4848896fd047-image.jpg",
+            "source": "https://economia.uol.com.br/noticias/redacao/2026/06/06/exportacao-carne-bovina-uniao-europeia-preco.ghtm",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Só mencionei essa matéria porcaria pra reforçar o que sempre falo: UOL é um dos piores sites de notícia que existem. A incompetência do Ministério da Agricultura transformou o Bostil num dos poucos países que não exporta mais carne pra Europa. O título só sugere: “Ah, é assim que o molusco vai entregar picanha mais barata”. Papelão. Tem que ser idiota pra ler UOL."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A suspensão das importações pela União Europeia evidencia falhas de controle que fecham portas para mercados de alto valor acessíveis ao Brasil. Com a China limitando volumes, o excesso de oferta interna não baixará preços nos açougues de forma relevante. Perdem os exportadores, enquanto os consumidores mantêm gastos elevados devido a má gestão."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O entrave no Estreito de Hormuz continua, por isso os preços dos combustíveis seguem subindo. O dólar valoriza e provoca realocações globais, com venda massiva de títulos do Tesouro americano e fuga de investimentos de risco. Nem ouro nem prata resistiram. Juros permanecem altos, sem cortes próximos. Mega IPOs se aproximam e o fôlego da IA parece estagnado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O Nasdaq despencou quase 5% enquanto o Bitcoin perdeu quase um quinto do seu valor — e o Nikkei ficou praticamente estável. O mercado japonês, curiosamente isolado das apostas especulativas ocidentais em tecnologia e cripto, observou a carnificina de longe. Quando os ativos mais “transformacionais” do planeta derretem juntos, o que sobra é a pergunta que ninguém quer responder: o que exatamente estava sendo precificado antes?"
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-08",
+            "title": "Novos dados mostram que as vendas dos exclusivos do PlayStation da Sony estão em declínio desde 2020, abrangendo quase toda a geração do PS5 até agora",
+            "content": "<p>Vendas de jogos exclusivos de primeira parte da PlayStation caíram desde o ano fiscal de 2020, segundo dados da própria Sony compilados pelo Game File. O total atingiu pico de 58,4 milhões de cópias no FY20, entre abril de 2020 e março de 2021, e despencou para 28,9 milhões no FY24, subindo ligeiramente para 32,1 milhões no FY25.</p><p>O ápice coincidiu com o lançamento do PS5, compatibilidade com PS4 e lockdowns da Covid. A Sony passou a lançar alguns títulos em PC a partir de 2020, mas decidiu recentemente interromper a estratégia para exclusivos single-player, possivelmente por causa da queda nas vendas em suas plataformas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/02/d7308b5c363c320e76d39e4ba60236d4-image.jpg",
+            "source": "https://www.eurogamer.net/sony-playstation-first-party-sales-decline",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como comentei antes, o State of Play foi o pior evento da temporada. Na era PS3 e PS4, a Sony dominava com Bloodborne, The Last of Us, Shadow of the Colossus, Spider-Man e Ghost of Tsushima. No PS5, pioraram as franquias, mataram Bloodborne e anunciaram um God of War sem o deus da guerra. A cultura woke destruiu tudo. Quem lacra não lucra."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A queda nas vendas de exclusivos da PlayStation reflete não apenas o fim do período da pandemia, mas também a expansão do público para além dos consoles dedicados. Ao interromper os lançamentos em PC, a Sony limita seu alcance em um momento em que a competição por atenção do consumidor só aumenta, potencialmente piorando a tendência de queda nas receitas."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-08",
+            "title": "Stellar Blade: BLOOD RAIN | Trailer Oficial de Revelação",
+            "content": "<p>Stellar Blade: BLOOD RAIN é o próximo capítulo da franquia de ação e aventura da SHIFT UP. O jogo continua a história após os eventos do título original e introduz uma nova protagonista chamada Evie.</p><p>O trailer foi capturado inteiramente no jogo em PC. As imagens são de um título ainda em desenvolvimento e podem sofrer mudanças.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/05/1593b1137feb4d2311cb6073d1b43de2-image.jpg",
+            "source": "https://www.youtube.com/watch?v=zhdh_LspRHk",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta semana, o Summer Fest foi o melhor evento, seguido do Xbox Showcase; o pior foi o State of Play. O mais comentado foi Stellar Blade: Blood Rain, da Shift Up. A polêmica sobre o corte de cabelo tomboy da Evie é ridícula: acusam-na de parecer menor, mas é ignorância sobre asiáticos e hipocrisia, como no romance lésbico de The Last of Us. IGN erra: uniu fãs. Só reclama quem não compra jogos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "As controvérsias geradas pelo visual da nova heroína de Stellar Blade mostram como o debate ideológico costuma ofuscar o foco no gameplay real e nas mecânicas que realmente importam para os jogadores. Críticos e fãs opostos acabam promovendo o título mais do que qualquer trailer, mas isso não garante qualidade futura para a franquia."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-08",
+            "title": "Summer Game Fest 2026, Resumo: Resident Evil: Veronica, Stellar Blade: Blood Rain, Final Fantasy VII Revelation e todos os anúncios",
+            "content": "<p>O Summer Game Fest 2026 terminou após quase duas horas de anúncios e trailers. Entre os destaques estavam revelações inesperadas como Resident Evil: Veronica, Stellar Blade: Blood Rain e Final Fantasy VII Revelation.</p><p>O evento também mostrou novos trechos de Control Resonant and X e o retorno de The Wolf Among Us 2.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/05/79ebe51238f44392ce312ef459e932bd-image.jpg",
+            "source": "https://en.as.com/meristation/news/summer-game-fest-2026-recap-resident-evil-veronica-stellar-blade-blood-rain-final-fantasy-vii-revelation-and-all-the-announcements-f202606-n/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Depois da porcaria que foi o State of Play da PlayStation, com anúncios ruins como o odiado God of War: Laufie, o Summer Fest 2026 trouxe boas notícias. Stellar Blade: Blood Rain impressiona, Code Veronica melhora Claire, o capítulo final de Final Fantasy VII Remake é bonito e o remake de Star Fox parece promissor. Hitman original supera 007: First Light, mas Virtua Fighter Crossroads decepciona com personagens genéricos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com tantos remakes e sequências anunciados no Summer Game Fest, incluindo Resident Evil Veronica e Final Fantasy VII Revelation, fica evidente que as empresas priorizam lucros previsíveis sobre criatividade arriscada. Os jogadores podem esperar mais conteúdo familiar nos próximos anos, enquanto ideias originais continuam marginalizadas no mercado, resultando em uma indústria mais previsível e menos diversificada ao longo do tempo."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-08",
+            "title": "Taylor Swift se torna a musicista mais rica da história com fortuna de US$ 2 bilhões",
+            "content": "<p>Aos 36 anos, Taylor Swift foi apontada pela revista Forbes como a musicista feminina mais rica da história, com fortuna estimada em US$ 2 bilhões, conforme a lista Iconoclast 50 de 2026. O valor decorre principalmente da turnê The Eras Tour, realizada entre 2023 e 2024, que arrecadou US$ 2,2 bilhões.</p><p>Os álbuns The Tortured Poets Department e The Life of a Showgirl, somados aos relançamentos de discos antigos, elevaram receitas com streaming, vendas e direitos autorais. A publicação destaca ainda a presença de Beyoncé, Bad Bunny e The Weeknd na mesma lista.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/06/c18937d5877c867f9a07196c44d54b5a-image.jpg",
+            "source": "https://f5.folha.uol.com.br/celebridades/2026/06/taylor-swift-se-torna-a-musicista-mais-rica-da-historia-com-fortuna-de-us-2-bilhoes.shtml?=social",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta matéria é só pra relembrar aos canhotos do “Ain, bilionário não deveria existir, só dá pra virar bilionário se roubar muito”. Pois bem, lacradores: e quando é com a Taylor Swift, que também é lacradora? Dois pesos e duas medidas? Eu acho que ela fez por merecer, dou meus parabéns. Só porque todo político do Bostil que fica rico é porque roubou, a maioria não é assim. Não existe político no Bostil que ficou rico produzindo. Isso é fato."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O sucesso de Swift revela que a fortuna na música exige mais que criatividade: depende de turnês globais exaustivas e posse total dos direitos autorais. Enquanto ela alcança dois bilhões, a maioria dos músicos fica presa a remunerações mínimas de plataformas, perpetuando a desigualdade estrutural da indústria como sempre."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-08",
+            "title": "Bilheteria: ‘The Super Mario Galaxy Movie’ Torna-se o Primeiro Lançamento de 2026 a Ultrapassar US$ 1 Bilhão",
+            "content": "<p>O filme “The Super Mario Galaxy Movie” ultrapassou US$ 1 bilhão em bilheteria global, tornando-se o primeiro lançamento de 2026 a alcançar essa marca. Produzido pela Universal e Illumination em parceria com a Nintendo, o longa teve custo de US$ 110 milhões e conta com retorno de Chris Pratt, Anya Taylor-Joy, Charlie Day, Keegan-Michael Key e Jack Black, além de Donald Glover, Glen Powell e Benny Safdie no elenco.</p><p>Aaron Horvath e Michael Jelenic dirigiram a sequência, que lidera a lista de maiores bilheterias do ano, à frente de “Michael”, “Project Hail Mary” e “The Devil Wears Prada 2”. A produção anterior da franquia arrecadou quase US$ 1,4 bilhão.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/07/a2a5f58a2ba2fc9f69a22630005523fc-image.jpg",
+            "source": "https://variety.com/2026/film/news/box-office-super-mario-galaxy-movie-hits-1-billion-1236768837/",
+            "links": [
+                {
+                    "url": "https://www.youtube.com/watch?v=-J0_2eMtFQM",
+                    "title": "GUNDAM ROGUE ORBIT – Trailer de Anúncio"
+                },
+                {
+                    "url": "https://www.videogameschronicle.com/news/shadow-of-the-colossus-creator-fumito-uedas-gen-atlas-revealed/",
+                    "title": "‘Gen Atlas’ do criador de Shadow of the Colossus Fumito Ueda é revelado | VGC"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Super Mario Galaxy atingiu 1 bilhão, único filme de 2026 nessa marca. O mais próximo é o do Michael Jackson. Excelente notícia. Antes, só Marvel chegava lá. Após quase cinco anos de filmes ruins e lacradores, surgem produções divertidas, sem enfiar agenda lacradora goela abaixo de crianças e jovens. É puro fan service infantil, nada profundo. Era só isso que precisava ser. Merecido."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O êxito de bilheteria demonstra que produções sem forçar pautas sociais atraem multidões em busca de diversão pura. Estúdios provavelmente notarão o padrão e ajustarão estratégias futuras, priorizando adaptações fiéis ao material original. Com custo baixo e retorno alto, confirma que o caminho do lucro evita controvérsias e foca no entretenimento direto."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Não está nesta lista, mas o tema mais comentado na internet foi o anúncio de jogos na Summer Fest, State of Play e Xbox Showcase. Trailers de Virtua Fighter Crossroads, Resident Evil: Veronica, Stellar Blade: Blood Rain, Gen Atlas, novo Halo e Gears of War. Tivemos bons anúncios este ano, bem melhor que o anterior. Xbox trouxe franquias clássicas, mas a PlayStation decepcionou de novo. Vale o vídeo do Low Level sobre o hack de IA da Meta."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Enquanto Wendover Productions detalha por que a fast food ficou cara e Macho Nacho Productions tenta ressuscitar consoles sucata, o padrão é claro: perdemos horas assistindo explicações sobre problemas práticos sem nunca parar de consumir mais vídeos que só alimentam a mesma rotina improdutiva."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-06-08",
+            "title": "Project Hail Mary: A Novel",
+            "content": "<p><em>por Andy Weir</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com/dp/0593135229",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

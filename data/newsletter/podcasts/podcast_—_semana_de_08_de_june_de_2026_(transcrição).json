@@ -1,0 +1,479 @@
+{
+    "title": "Podcast — Semana de 08 de June de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/06/08/",
+    "subtitle": "Ibovespa afunda em maior tombo desde o Real",
+    "published_at": "2026-06-08",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-06-08.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala pessoal! Hoje é dia 8 de junho de 2026, esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin pra nos acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Eu li tudo. E as notícias de mercado e geopolítica não vão me surpreender positivamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A NVIDIA anunciou na Computex o superchip RTX Spark. Ele junta uma CPU Arm de até 20 núcleos com GPU RTX Blackwell de mais de 6 mil núcleos CUDA, até 128 GB de RAM LPDDR5X e conexão NVLink."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais uma promessa de hardware revolucionário que provavelmente vai acabar esquecida nos cantos do mercado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O desempenho prometido é de 1 petaflop em inteligência artificial, com suporte a modelos grandes, e a linha vai gerar mais de 30 laptops e 10 desktops de parceiros como ASUS, Dell, HP e Lenovo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mesmo assim, a integração real com o que já existe no mercado costuma ser o ponto fraco nesses lançamentos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu acho que vai ser um péssimo produto. É uma CPU ARM de terceiros com GPU Blackwell similar à 5070, vendida pelo dobro do preço de um MacBook Neo e bem inferior a um MacBook normal ou Pro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado será mais opções premium caras que falham em conquistar adoção ampla contra a integração superior de rivais. O consumidor acaba pagando mais por menos estabilidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A NVIDIA vive numa ilusão. O consumidor que cai nessa vai descobrir rápido que o ecossistema não acompanha."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Promessas de desempenho isolado raramente se traduzem em usabilidade cotidiana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A plataforma de streaming do governo federal, TelaBrasil, usa a CDN da Amazon e gera custo por minuto assistido. Um longa de hora e meia consome dados e gera pagamento proporcional à infraestrutura da Amazon."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mesmo com todo o discurso de independência, o dinheiro público continua saindo para provedores estrangeiros sem ganho real de eficiência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Telebras é desperdício de dinheiro público. Falam tanto em soberania, mas usam CDN da Amazon para os streamings, em vez das opções brasileiras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Isso perpetua o desperdício de verbas públicas, reforça a dependência de provedores externos e não traz ganho algum em eficiência ou autonomia real. O contribuinte financia a própria vulnerabilidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Globo tem cobertura nacional; a Amazon, só SP, RJ e CE, e ainda sai mais cara. Nem o governo usa data centers locais. Cadê a Magalu Cloud? Incoerência total, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A conta cai no colo de quem paga imposto sem ver retorno em qualidade ou alcance."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Microsoft está trazendo Coreutils no estilo Linux e containers nativos do WSL para o Windows para simplificar o trabalho dos desenvolvedores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A adição atende uma demanda real, mas mostra que o sistema continua secundário em ferramentas nativas para programação avançada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Dado que só vêm más notícias da Microsoft ultimamente, este pacote Coreutils chamou atenção ao trazer ferramentas básicas de Linux nativamente para o Windows."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Desenvolvedores acabam mantendo ambientes paralelos porque a solução nativa ainda não resolve tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já usei as ferramentas UNIX do Subsystem for UNIX no Windows Server 2003, e o WSL também oferece isso. Mas são os binários reescritos em Rust que a Canonical tenta empurrar goela abaixo. Uma droga."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O sistema da Microsoft continua secundário, levando a uma maior fragmentação em vez de uma solução unificada. O tempo gasto em compatibilidade poderia ir para desenvolvimento real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "As autoridades brasileiras expediram 74 mil ordens de bloqueio de endereços na internet, quase todas mantidas em sigilo. Cada ordem menciona múltiplos endereços e provoca o bloqueio colateral de milhões de outros."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O efeito é que o fluxo de informação fica manipulado sem transparência. O usuário descobre o bloqueio só quando precisa do conteúdo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Este artigo é só para relembrar que vivemos num estado de exceção. Não existe mais liberdade de expressão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cidadãos perdem acesso amplo e qualquer consciência do que foi removido da rede de forma silenciosa. O silêncio vira a regra."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tudo é censurado em silêncio. Você não fica sabendo que milhões de endereços na internet são afetados por ordens judiciais que sequer deveriam existir. Mas isto é o Bostil, terra sem lei."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Qualquer negócio que dependa de acesso estável vira refém dessa opacidade sem aviso prévio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Hackers enganaram o chatbot de suporte do Meta AI para roubar contas de Instagram de celebridades. Usaram VPN, iniciaram redefinição de senha e pediram à IA para alterar o e-mail. Contas com autenticação multifator resistiram."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Permitir que chatbots de IA alterem detalhes de contas expõe sistemas a injeções de prompt. O conserto tardio da Meta deixou vários usuários prejudicados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais uma vez a IA sendo usada de forma errada, agora pela Meta. Aviso para amadores: não integrem modelos de linguagem com acesso livre a operações na infraestrutura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Automação sem barreiras rígidas gera vulnerabilidades previsíveis em plataformas sociais. A próxima exploração vai mirar exatamente nesses pontos fracos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tudo precisa ser exaustivamente testado, pois prompts não são determinísticos. A Meta errou ao permitir injeção de prompts via suporte, expondo dados de usuários. O problema é deixar amadores usarem inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas que abrem atalhos para conveniência pagam depois em incidentes que nunca deveriam acontecer."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos últimos dias discuti a onda de contribuições geradas por IA em projetos open source. A IA veio pra ficar: aumentará o volume de PRs, issues e relatórios de bug, mas banir ferramentas como Claude ou Cursor é irrealista e sem chance de sucesso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Todo projeto open source que tentar usar IA para filtrar o slop gerado por IA acabará multiplicando camadas de verificação sem fim. O esforço de revisão dobra sem fim à vista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu lancei alguns repositórios no GitHub essa semana, como o clock-tui, um relógio no terminal em Rust com timer e widgets de comandos, e o google-calendar-tui para listar compromissos do Calendar no terminal. Também o ghpending para ver issues e pulls abertos rapidamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Manter forks permite que utilitários básicos continuem funcionando em sistemas atualizados, mas o público permanece restrito. Ferramentas simples como essas ainda encontram espaço entre quem evita interfaces pesadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E em cibersegurança essa semana, uma startup relatou 21 zero-days no FFmpeg descobertos por agente de IA, o Chrome corrigiu 429 bugs, e o worm Miasma atingiu 73 repositórios da Microsoft no GitHub. A CISA adicionou falha no SolarWinds ao catálogo de exploração ativa. O resto da lista está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Worms como o Miasma continuam a atingir repositórios e falhas permanecem exploradas. Agentes automatizados só vão multiplicar o volume de descobertas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em 14 de junho de 1951, o UNIVAC I foi entregue ao Departamento do Censo dos Estados Unidos, sendo o primeiro computador comercial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O início de uma era que ainda lida com os mesmos dilemas de controle e segurança décadas depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Seção 301 é uma ferramenta da lei comercial dos Estados Unidos que permite investigar práticas de outros países consideradas injustas. No caso do Brasil, ela foi usada para justificar uma proposta de tarifa de 25% sobre parte dos produtos brasileiros, alegando problemas em comércio digital, propriedade intelectual, etanol, corrupção e desmatamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A pressão tarifária visa extrair concessões brasileiras em temas como propriedade intelectual. Exportadores brasileiros enfrentarão custos maiores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já passou da hora de um adulto agir. Após mais de 20 anos protegendo e investindo no crime, PCC e CV viraram problema internacional. Esta semana, 7 toneladas de cocaína foram rumo à Ásia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mesmo com superávit dos Estados Unidos, a escolha de produtos poupados indica foco em minimizar dor doméstica. A escolha de alvos mostra cálculo político."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não é venda inocente: é terrorismo. STF, Executivo e grandes empresas, como bancos e fintechs, financiam e lavam o dinheiro. Apertem onde dói: no bolso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A medida externa pode ser o único instrumento capaz de atingir quem nunca foi tocado por ações internas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Que a Seção 301 mate o mal pela raiz. Sem pressão no bolso, nada muda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O histórico mostra que sanções só funcionam quando realmente apertam quem decide."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Brasil é o único país do mundo onde todas as eleições são inteiramente eletrônicas. Para celebrar os 30 anos do sistema, o TSE lançou a mascote Pilili, uma urna amigável com olhos grandes. Apesar disso, a confiança dos eleitores continua em declínio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sistemas fechados geram desconfiança natural, e esforços de marketing não substituem a possibilidade de auditoria independente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isto é só pra lembrar que o Bostil é o único país que faz eleições num sistema impossível de auditar. A urna é o menor dos problemas: o processo inteiro é a maior caixa preta do mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O declínio na confiança reflete a percepção de que a transparência é essencial para qualquer processo eleitoral legítimo. Sem ela, a adesão pública desmorona."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sistemas não auditáveis não são confiáveis. É tudo ou nada: ou 100% aberto ou 100% fechado. Hoje é 100% fechado e 100% não confiável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Qualquer tentativa de vender o sistema como moderno esbarra nessa realidade intransponível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A juíza absolveu Monique Medeiros do homicídio culposo na morte do filho Henry Borel, de 4 anos, citando misoginia e patriarcado. A mãe admitiu ter recebido alertas da criança e da babá sobre agressões, mas optou por manter o relacionamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A absolvição fundamentada em conceitos de misoginia e patriarcado em vez de fatos concretos tem o efeito prático de minar a aplicação igualitária da lei."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Esta semana, dois Henrys foram assassinados: Henry Nowak na Inglaterra e Henry Borel no Brasil. Sobre o menino, o UOL empurrou a narrativa de “culpa do patriarcado”, tratando a mãe como vítima."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transformar a responsabilidade em vítima é uma tática que distorce a justiça e deixa as crianças mais vulneráveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A desgraçada estava no salão quando o filho pediu ajuda apanhando, ignorou, voltou depois do crime, tirou selfies e sorriu. Juíza canhota feminazi a inocentou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Responsabilidades são atenuadas por narrativas identitárias, o que reduz a proteção efetiva a crianças. O padrão se repete."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Canhotos adoram matar crianças. Essa é a verdade que ninguém quer admitir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a ideologia precede os fatos, o sistema de justiça deixa de proteger quem mais precisa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "JD Vance e o Departamento de Estado dos Estados Unidos intervieram no caso do assassinato de Henry Nowak na Inglaterra. Nowak foi esfaqueado por Vickrum Digwa, que alegou portar uma faca cerimonial sique. O irmão denunciou falso ataque racial, e a polícia algemou Nowak agonizante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Algemar vítimas em vez de suspeitos inverte prioridades e erosora qualquer pretensão de igualdade perante a lei."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O imbecil do Keir Starmer acelerou a entrada de criminosos muçulmanos sem critério, reformou a polícia para protegê-los e chama de racista quem critica. Um cidadão esfaqueado por imigrante ilegal foi algemado, a polícia duvidou do ferimento e ele morreu."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A intervenção americana expõe como o policiamento seletivo britânico falha em proteger vidas. A desordem vira rotina."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Inglaterra precisa de intervenção, está virando uma favela."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem reversão imediata das políticas de entrada, o problema só escala."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre geopolítica ainda, os Estados Unidos atacaram sites iranianos após o Irã lançar drones, tropas se adaptam à guerra com o Irã, o chefe do Estado-Maior visitou a Venezuela pós-Maduro, armas químicas ressurgem na Síria e o terrorismo jihadista avança na África. O resto da lista está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Intervenções para estabilizar regiões geram novos focos de instabilidade, mantendo tropas em alerta constante. Cada movimento abre brechas para novos atores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em 12 de junho de 1898, as Filipinas declararam independência da Espanha. Em 10 de junho de 1940, a Itália declarou guerra à França e ao Reino Unido. Em 14 de junho de 1940, tropas alemãs ocuparam Paris. Em 10 de junho de 1967, terminou a Guerra dos Seis Dias. Em 12 de junho de 1987, Ronald Reagan discursou em Berlim pedindo que o Muro fosse derrubado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Momentos que definiram fronteiras e poderes, mas a lição sobre determinação contra regimes opressores continua relevante hoje."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado financeiro, os números do Yahoo Finance essa semana. O S&P 500 caiu 2,6%, o Dow Jones 0,6%, o Nasdaq 4,6% e o Bitcoin 17,3%. O Nikkei ficou estável em mais 0,3%."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Nasdaq despencou quase 5% enquanto o Bitcoin perdeu quase um quinto do seu valor. O mercado japonês observou a carnificina de longe."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Broadcom fechou a 418 dólares após resultados ligeiramente abaixo das expectativas. A Citi manteve recomendação de compra e preço-alvo de 500 dólares."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bons resultados sozinhos não inflam o mercado quando a especulação já precificou o triplo. Qualquer ajuste vira notícia ruim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A ação faz parte das empresas de infraestrutura com ótimos resultados nesta bolha de inteligência artificial, mas caiu mais de 12%, com efeito dominó que chegou a causar circuit breaker na Coreia do Sul. Não é um crash ainda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O ajuste mostra que as expectativas estão em outro patamar e qualquer desvio gera reações em cadeia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os resultados sozinhos não inflam o mercado. Ele exige o dobro, depois o triplo. Por enquanto, é um tropeço, não catástrofe."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O mercado tolera resultados sólidos, mas não aceita que eles fiquem abaixo do que já foi precificado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A União Europeia anunciou a suspensão das importações de carne bovina brasileira a partir de setembro por falta de garantias sobre o controle de antimicrobianos. O bloco comprou 128 mil toneladas no ano passado, representando 3,7% das exportações brasileiras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A suspensão evidencia falhas de controle que fecham portas para mercados de alto valor. O Brasil perde oportunidades por falta de rigor administrativo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Só mencionei essa matéria porcaria pra reforçar o que sempre falo: UOL é um dos piores sites de notícia que existem. A incompetência do Ministério da Agricultura transformou o Bostil num dos poucos países que não exporta mais carne pra Europa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com a China limitando volumes, o excesso de oferta interna não baixará preços nos açougues de forma relevante. A imprensa local ainda tenta minimizar o dano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O título só sugere: “Ah, é assim que o molusco vai entregar picanha mais barata”. Papelão. Tem que ser idiota pra ler UOL."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A narrativa oficial ignora que o problema é de gestão, não de mercado externo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Ibovespa acumulou queda de 2,74% nos últimos quatro pregões e completou a oitava semana seguida de perdas, a maior sequência negativa desde o Plano Real. Investidores estrangeiros retiraram 14,91 bilhões de reais em maio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A fuga de capital revela que investidores priorizam mercados com retornos mais previsíveis. A instabilidade crônica afasta quem busca retorno consistente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Com exceção de quem lucra com trading, não vale a pena segurar investimentos no Bostil. Aqui é só para especular, pois não existe estabilidade política há décadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O capital foge de ambientes onde a política domina sobre a economia real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Dinheiro estrangeiro só entra quando eventos internacionais obrigam. Se houver alguma melhora concreta na governança, as coisas podem mudar, mas por enquanto é só risco alto sem recompensa proporcional."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem reformas estruturais, o ciclo de saída continua. O investidor aprende rápido a não voltar."
+        }
+    ]
+}

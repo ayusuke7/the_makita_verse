@@ -1,0 +1,539 @@
+{
+    "title": "Podcast — Semana de 15 de June de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/06/15/",
+    "subtitle": "Governo, IA e vacinas agitam a semana",
+    "published_at": "2026-06-15",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-06-15.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, pessoal! Hoje é 15 de junho de 2026 e aqui é o seu podcast semanal do The M.Akita Chronicles. Não esqueçam de se inscrever no canal e no newsletter. E como sempre, o Sr. Marvin tá aqui pra acompanhar tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Entre bloqueio de ferramenta de desenvolvedor, vacina que mata gente e sigilo de milhões, essa semana prova que o improviso do Estado nunca decepciona quem aposta no pior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando pela tech, percebi que a interface de programação do GitHub começou a dar timeout aqui no Brasil, com sinais claros de bloqueio da Anatel via operadoras como Vivo e Claro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Órgãos estatais bloqueiam sem aviso e o problema vira rotina pra quem depende de automação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso bagunçou automações de CI, scripts e meu utilitário ghpending, embora o site e o SSH continuassem funcionando."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nada de novo nesse padrão de intervenção silenciosa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Minha solução foi criar um wrapper com SOCKS via Tor para redirecionar só os comandos específicos. Testei também DNS Quad9 e endereços IP fixos. Atualizei o ghpending com fallback de proxy porque o risco de bloqueios sigilosos em infraestrutura crítica é real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nada como desperdiçar minutos de trabalho pra contornar uma decisão arbitrária que ninguém teve a decência de anunciar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Anthropic lançou o Claude Fable 5."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E a novela do Mythos voltou à tona de novo?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. Recontei toda aquela história do modelo secreto alegadamente perigoso, o consórcio fechado no Project Glasswing e o marketing agressivo. No benchmark de coding atualizado, o Fable 5 tirou 94 de 100, Tier A, empatando tecnicamente com o Opus 4.8 que fez 95."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Só que o custo foi bem maior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Cerca de dez vezes maior para um resultado praticamente igual. O cenário de escassez de data centers e retorno decrescente de treino explica por que as empresas agora otimizam modelos existentes em vez de lançar monstros novos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O salto real ainda não apareceu e o preço por essa ilusão só cresce."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais uma confirmação de que capacidade genuína não surge apenas despejando dinheiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem data centers caros, o avanço fica restrito aos grandes provedores e a dependência só aumenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na mesma semana apresentei mais uma rodada do benchmark com Kimi K2.7 Code, GLM 5.2 e MiniMax M3. O Kimi marcou 86 de 100 e o GLM 5.2 alcançou 87 de 100."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Subindo 41 pontos em relação à versão anterior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Modelos open source melhoram rápido, mas hardware viável para inferência local de qualidade só deve surgir em 2030."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem acesso a data centers caros, o avanço fica restrito aos grandes provedores e a dependência só aumenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Zcash perdeu mais de 5 bilhões de dólares em valor de mercado depois que uma auditoria com inteligência artificial encontrou um bug de quatro anos no pool blindado Orchard."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O preço caiu mais de 50 por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O bug permitia criar moedas falsificadas, embora não haja evidência de exploração até agora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bilhões evaporam só com a revelação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Desenvolvedores aplicaram correções emergenciais e hard fork em dias. A cripto sempre foi vista como anônima como a Monero e agora está na mira, porque o bug sempre esteve lá e provavelmente já foi explorado antes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hard forks consertam código, mas não restauram a ilusão de inviolabilidade que o mercado acabou de punir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais de 400 pacotes do Arch User Repository foram comprometidos para distribuir rootkit Linux e malware infostealer."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um novo mantenedor falsificou identidade para injetar os pacotes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ele roubou credenciais de navegadores, Slack, GitHub, npm e SSH, além de usar eBPF para ocultar processos. Começou com 400 pacotes e terminou com mais de 1.500 infectados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Qualquer um pode subir pacotes sem checagem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quem usa Arch precisa verificar a lista. Eu chequei e nunca instalei nenhum dos afetados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A conveniência de uploads abertos cobra preço alto em segurança e confiança."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Finalmente, para quem usa Linux via WSL no Windows, o WSL 3 apresentado na Build 2026 permite que aplicativos Linux acessem GPU e NPU com desempenho próximo ao nativo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ferramentas como Ollama e PyTorch passam a utilizar aceleradores diretamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sim, sem o overhead anterior. Porém, a restrição inicial a máquinas Copilot+ recentes deixa a maioria dos usuários esperando atualizações que podem demorar anos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Atualizações que podem demorar anos até chegar pra todo mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Prefeitura do Rio lançou um modelo de linguagem aberto chamado Rio-3.5-Open-397B."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E logo veio a exposição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ficou claro que era cópia descarada do Qwen da Alibaba e do Nex N2 Pro, sem créditos. Trabalho porco, malfeito e desonesto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Contribuintes financiam renomeações de trabalhos chineses e qualquer pretensão de autonomia em inteligência artificial local perde credibilidade na hora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Após pressão vieram com um oops e no Bostil não existe capacidade nenhuma para criar algo nesse nível. Vergonha."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Instituições públicas anunciam avanços sem capacidade própria e o resultado é sempre o mesmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Publiquei o ai-memory há três semanas, meu sistema de memória de longo prazo para agentes de código."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E como foi a recepção?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em 24 dias ele cresceu para 482 commits graças a contribuições de 26 pessoas, sem plano inicial. Funcionalidades emergiram do uso real e sigo o mantra de make it work, make it right, make it fast."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Projetos que deixam espaço para necessidades concretas atraem contribuições reais e geram sistemas mais adaptáveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no radar da comunidade dev essa semana discutiram usar 80 por cento da capacidade do engenheiro, armazenar jogos em HDDs, reaproveitar notebooks velhos como servidores e por que a inteligência artificial ainda não substitui engenheiros. O resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando para global, o Ministério da Saúde suspendeu a vacinação contra dengue com o Butantan-DV após dois óbitos suspeitos e três casos graves entre 500 mil doses aplicadas. O ministro citou 42 reações adversas graves em investigação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Dados de ensaios clínicos não capturam riscos raros que só aparecem em aplicação em massa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Obviamente, quando há suspeitas, o correto é suspender a aplicação imediatamente para evitar mais efeitos colaterais. Vacinas também podem ter defeitos e matar pessoas, ninguém é negacionista por exigir mais testes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "As investigações agora ditam o ritmo enquanto a proteção prometida fica postergada para milhões."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O governo Lula colocou sigilo de cem anos em processos de liberação de bets. Documentos enviados pelas empresas, pareceres e beneficiários finais ficam enterrados, mesmo após solicitação via Lei de Acesso à Informação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem acesso aos documentos, a fiscalização prometida vira ilusão e a dívida dos apostadores só cresce."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Lula declarou que vai defender a proibição na campanha, mas sancionou a lei que regulamentou o setor. Quem não deve, não teme, mas as provas foram colocadas em sigilo de propósito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O controle estatal se fortalece em nome de uma proteção que não chega e os beneficiários permanecem anônimos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Cortes orçamentários impuseram ao Ministério da Defesa contenção de 2,6 bilhões de reais em 2026, sendo 691 milhões em bloqueios e 1,9 bilhão em contingenciamentos. As Forças Armadas ficaram em modo sobrevivência, adiando projetos de modernização e compra de munições."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Brasil vê sua capacidade militar erodida enquanto potências globais investem pesado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É por isso que PCC e CV fazem a festa aqui. Não tem defesa nenhuma, zero soberania. Um país sem exército é melhor ficar de quatro de uma vez."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Grupos criminosos consolidam poder em áreas sem fiscalização efetiva enquanto o orçamento militar sangra."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Ministério Público Federal moveu ação contra o Hospital Israelita Albert Einstein para obrigar cotas de 55 por cento nas residências médicas, incluindo 30 por cento para negros e 5 por cento para pessoas trans. A instituição arrisca deteriorar se implementarem essa imbecilidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Critério técnico é substituído por identidade e pacientes enfrentarão maior risco de falhas em um dos centros mais exigentes da América Latina."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Einstein é referência na América Latina e cotas nivelam por baixo, destruindo o que o lugar tinha de bom. Essa é a coisa mais imbecil de todos os tempos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A eficiência cai e ninguém ganha nada em retorno real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Um homem sudanês com visto de permanência esfaqueou um cidadão em Belfast quase tentando degolar ele. O vídeo viralizou e centenas protestaram contra a imigração em massa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando o caso é filmado e o suspeito tem visto, a resposta popular era previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O criminoso veio de Paris para a Irlanda como refugiado até 2028. Refugiado de cu é rola. Essa palhaçada de imigração sem critérios precisa parar, as pessoas civilizadas estão cansadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais distúrbios virão enquanto nada muda na política de fronteiras."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "De 2004 a 2024 o mundo gastou mais de 14 trilhões de dólares na transição verde, valor superior a cem vezes os investimentos contra a fome. As emissões de CO2 bateram recorde no ano passado e petróleo, carvão e gás ainda fornecem 87 por cento do consumo energético."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O dinheiro evapora em subsídios que encarecem a energia sem reduzir o uso de combustíveis fósseis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Iniciativas verdes pra reduzir CO2 custam 100 vezes mais que combater a fome, mas servem só de desculpa pra políticos lavarem dinheiro do contribuinte. Daria pra acabar com fome e saúde global várias vezes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Contribuintes ficam com contas maiores e resultados nulos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No mercado financeiro, o governo dos Estados Unidos ordenou que a Anthropic retirasse Fable 5 e Mythos 5 três dias após o lançamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A ordem suspendeu acesso por nacionais estrangeiros por causa de possível jailbreak."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Empresas que pedem regulação estatal recebem exatamente o controle que pediram, só que usado contra elas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas que pedem regulação estatal recebem exatamente o controle que pediram, só que usado contra elas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vocês sabem que detesto o Dario Amodei e odeio a estratégia agressiva de marketing com o hype do Mythos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Blefaram tanto que o governo mandou bloquear."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por um lado bem feito, por outro isso só inflaciona mais a valuation do IPO da Anthropic."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O bloqueio paralisa inovação e beneficia rivais que escaparam da medida."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A SpaceX estreou na Nasdaq sob o ticker SPCX."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E como foi a estreia?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Abrindo a 150 dólares e fechando a 160,95, alta de 19 por cento após levantar 75 bilhões no maior IPO da história. A empresa foi avaliada em 2,1 trilhões, tornando Elon Musk o primeiro trilionário do mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quarenta e um bilhões em prejuízo acumulado e o mercado responde com alta de 19 por cento no primeiro dia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No S-1 da SEC, 85 por cento da empresa é declarada como inteligência artificial, não foguetes. Com os IPOs da Anthropic e OpenAI chegando, 2026 vai testar se a bolha estoura ou se consolida."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Analistas chamam as projeções de quase cômicas, mas o dinheiro continua fluindo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O ministro Haddad afirmou que empresas brasileiras migraram para o Paraguai durante o governo Bolsonaro, mas os dados mostram que o movimento ganhou força desde os governos Lula e Dilma, com crescimento contínuo. Hoje são mais de 230 empresas, alta superior a 400 por cento em uma década."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Impostos punitivos e custos trabalhistas elevados expulsam fábricas e empregos para vizinhos com carga tributária menor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Haddad foi de longe o pior ministro da Economia da história. A única coisa que fez foi aumentar impostos e derrubar a economia, depois bota a culpa nos outros."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Paraguai ganha capacidade produtiva enquanto o Brasil perde."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O economista Marcos Mendes identificou 33 medidas do governo Lula em 2024 que somam 215 bilhões em aumento de despesas ou redução de receitas. A dívida pública sobe sem transparência, em estratégia que lembra as pedaladas fiscais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Manobras elevam a dívida sem registro imediato e o contribuinte paga via inflação ou corte de serviços."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Nubank disparou e-mail falso informando liquidação extrajudicial e orientando clientes a acionar o Fundo Garantidor de Créditos. O Banco Central negou e a empresa chamou de erro operacional pontual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um erro interno que causa desconfiança duradoura entre usuários, mesmo com saúde financeira confirmada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os mercados mal se mexeram, S&P 500 caiu 0,1 por cento, Dow Jones subiu 0,4 por cento e Bitcoin subiu 1,9 por cento. Expectativa de acordo com o Irã e o IPO da SpaceX deixaram o fim de semana otimista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a geopolítica oscila entre guerra e negociação, ativos tradicionais travam e quem compra cripto nem liga para embaixadores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube, recomendo o vídeo do Driver61 sobre saúde, talvez algumas pessoas se identifiquem. Fora da lista, o que trendou foram os vídeos sobre o caso dos Legos de 200 mil dólares e como uma corporação mal administrada destrói tudo por mixaria. No The Serial Port tem um mini-doc bom sobre protocolos de remote desktop."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada clique sobre perda de controle gera mais dados para o sistema que os vídeos descrevem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O filme Michael tornou-se a cinebiografia musical com maior bilheteria da história, 911 milhões de dólares, superando Bohemian Rhapsody. O público deu 97 por cento de aprovação enquanto a crítica deu 38."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O público elege celebridade e sucessos musicais acima de ressalvas críticas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Nintendo anunciou remake de The Legend of Zelda: Ocarina of Time para Switch 2 em 2026, junto com Star Fox. O maior anúncio foi esse remake, que ainda vai demorar, mas a expectativa é alta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Fãs precisam comprar novo hardware para reviver um título de 1998 e a estratégia prioriza vendas de consoles."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, sabia que essa semana na história em 21 de junho de 1948 o Manchester Baby executou seu primeiro programa, o primeiro computador eletrônico com programa armazenado. Em 15 de junho de 1215 a Magna Carta foi selada e em 18 de junho de 1815 Napoleão foi derrotado em Waterloo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Eventos antigos que ainda definem limites de poder e tecnologia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O livro da semana é The Camp of the Saints, de Jean Raspail, que acompanha uma frota de migrantes com um milhão de pessoas partindo de Calcutá rumo à Europa e as reações de ilusão e pânico que levam ao desembarque final."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O bloqueio da interface de programação do GitHub e a suspensão da vacina contra dengue evidenciam falhas recorrentes de intervenção estatal, enquanto o IPO recorde da SpaceX reforça como capital privado e execução técnica consistente geram valor real em escala global. Em momentos de restrições regulatórias e respostas sanitárias instáveis, empresas que operam fora desses limites continuam entregando avanços concretos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada avanço técnico apenas realoca as mesmas crises para escala maior. Na próxima semana preparem-se para novas versões do improvável vendidas como solução definitiva.Total words: 3027"
+        }
+    ]
+}

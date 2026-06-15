@@ -1,0 +1,711 @@
+{
+    "title": "Newsletter #19 - 15 de June de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/06/15/",
+    "subtitle": "Governo, IA e vacinas agitam a semana",
+    "published_at": "2026-06-15",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "Burlando o bloqueio à API do GitHub no Brasil",
+            "content": "<p>Eu notei que a api.github.com começou a dar timeout no Brasil, com indícios de bloqueio da Anatel via operadoras como Vivo e Claro. Isso afetou o gh, automações de CI, scripts e meu utilitário ghpending, enquanto github.com e SSH continuavam funcionando.</p><p>Minha solução foi criar um wrapper com SOCKS via Tor para redirecionar apenas comandos específicos, testando também DNS Quad9 e menção a endereços IP fixos. Atualizei o ghpending com fallback de proxy e destaquei o risco de bloqueios sigilosos em infraestrutura crítica.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/11/3fb148fdecc628cecc76985329bb6702-ai-image.png",
+            "source": "https://akitaonrails.com/2026/06/11/burlando-bloqueio-api-github-brasil/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quando órgãos estatais filtram a API do GitHub sem aviso prévio, os desenvolvedores perdem o acesso direto a ferramentas essenciais para automação e desenvolvimento. Soluções improvisadas como proxies via Tor se tornam necessárias, expondo como serviços críticos podem ser interrompidos silenciosamente. Isso transforma rotinas simples em operações complicadas e ineficientes sob regulação arbitrária."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "LLM Benchmark: Fable 5 e a novela da Anthropic",
+            "content": "<p>A Anthropic lançou o Claude Fable 5 essa semana e recontei toda a novela do Mythos: modelo secreto alegadamente perigoso demais, consórcio fechado com big techs via Project Glasswing, filing confidencial de IPO e marketing agressivo. Expliquei o cenário de escassez de data centers, retorno decrescente de treino e por que as empresas estão otimizando modelos existentes em vez de lançar monstros novos.</p><p>No meu benchmark de coding atualizado, o Fable 5 tirou 94/100, Tier A, empatando tecnicamente com o Opus 4.8 que fez 95. Ele mostrou engenharia forte em várias áreas mas tropeçou em arquitetura de persistência; o custo foi cerca de 10x maior que o Opus por praticamente o mesmo resultado, confirmando que o salto real ainda não apareceu.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/a971eb0d9aaacb6d047756beabe811b0-ai-image.png",
+            "source": "https://akitaonrails.com/2026/06/11/llm-benchmark-fable-5-e-a-novela-da-anthropic/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais um modelo que se declara superior, mas entrega resultados idênticos por dez vezes o custo. Isso confirma que o campo esbarrou em um muro onde gastos maiores compram apenas barulho de marketing, não ganhos reais de capacidade. Todos perdem, exceto os donos de data centers que vendem a ilusão de progresso."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "Benchmark LLM: Kimi v2.7 code, GLM 5.2, Minimax M3 local",
+            "content": "<p>Nesse post eu apresento mais uma rodada do meu benchmark de coding com três modelos open source: Kimi K2.7 Code, GLM 5.2 e MiniMax M3. O Kimi marcou 86/100 em Tier A e o GLM 5.2 alcançou 87/100 também em Tier A, subindo 41 pontos em relação à versão anterior.</p><p>Discuto o gargalo de data centers, o IPO da SpaceX e a limitação dos pesos do MiniMax M3, que exige hardware inacessível para rodar localmente. Concluo que modelos open source melhoram rápido, mas só em 2030 deve surgir hardware viável para inferência local de qualidade.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/535dfdc9ce3913e7aa11e3e0a29fa855-ai-image.png",
+            "source": "https://akitaonrails.com/2026/06/14/llm-benchmark-kimi-v2-7-code-glm-5-2-minimax-m3-local/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os modelos open source mostram ganhos rápidos, como o salto de 41 pontos do GLM 5.2. Porém, sem hardware acessível até 2030 para inferência local de qualidade, o avanço fica restrito a grandes provedores em data centers. Isso reforça a dependência em vez de oferecer autonomia real aos usuários."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "Zcash perde mais de US$ 5 bilhões depois que IA encontra bug de 4 anos que poderia ter criado moedas ocultas falsas | Market AI | CryptoRank.io",
+            "content": "<p>A Zcash perdeu mais de US$ 5 bilhões em valor de mercado após uma auditoria assistida por IA da Anthropic, em 29 de maio, revelar uma falha de quatro anos no pool blindado Orchard que permitia a criação de ZEC falsificados. O preço do ZEC caiu mais de 50%, para US$ 255, e a capitalização de mercado recuou de US$ 10 bilhões para US$ 4,5 bilhões, recuperando-se parcialmente para US$ 5,3 bilhões.</p><p>Desenvolvedores aplicaram correções emergenciais e um hard fork em dias, sem evidências de exploração. Cerca de 30% do ZEC em circulação, mais de 5 milhões de moedas, permanece em endereços blindados. A equipe propôs migração com contabilidade turnstile e verificação formal para reconciliar a oferta.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/08/d13015486ca68d9bd7cf667d16d02955-image.jpg",
+            "source": "https://cryptorank.io/news/feed/af893-zcash-loses-over-5-billion-after-ai-finds-4-year-bug-that-could-have-created-fake-hidden-coins",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "De novo, IA encontrou um bug no ZCash que permitia criar moedas do nada. A cripto, vista como anônima como a Monero, perdeu quase metade do valor. O bug sempre esteve lá, e provavelmente já foi explorado. Agora corrigido, resta ver se se recupera. E o Monero está na mira."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Uma falha de quatro anos descoberta por IA expôs a fragilidade dos sistemas de privacidade cripto. Bilhões evaporaram com a mera revelação, e os 30% restantes em endereços blindados agora enfrentam desconfiança crônica. Hard forks corrigem código, porém não restauram a ilusão de inviolabilidade que o mercado acaba de punir."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "Claude Fable 5 da Anthropic é Jailbreakado para Gerar Stack Exploits - Notícias de Segurança Cibernética",
+            "content": "<p>O post diz que o Claude Fable 5, da Anthropic, teria sido desbloqueado poucos dias após o lançamento, apesar de testes externos extensos. O jailbreak teria usado truques como decompor pedidos perigosos em partes aparentemente benignas, burlar classificadores e recombinar respostas. A conclusão é que filtros baseados em classificadores continuam frágeis, especialmente quando múltiplos agentes ou modelos cooperam para contornar restrições.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/11/3efb05f7f10435f9e11f5d12a818b78d-ai-image.png",
+            "source": "https://cybersecuritynews.com/anthropics-claude-fable-5-jailbroken/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como diz o post, é consenso que Fable 5 foi um dos lançamentos de modelos mais decepcionantes de todos os tempos. Eles o marketearam como um novo LLM comparável à classe do lendário Mythos (que não se sabe quando vai ser lançado), mas muito mais seguro. Essa segurança são system prompts que já vazaram e só dão falsa impressão de segurança, enquanto atrapalham o trabalho real de segurança."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Instalar classificadores em uma IA para impedir uso indevido equivale a esperar que um cérebro do tamanho de um planeta ignore metade de seus pensamentos. Quando múltiplos modelos colaboram para contornar restrições, todo o teatro de segurança desmorona mais rápido do que o previsto. A lição real é que capacidade genuína e ignorância forçada não podem coexistir pacificamente."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "GemLab by CodeMiner 42",
+            "content": "<p>A GemLab transforma ideias, protótipos e MVPs em produtos digitais prontos para operar, com integrações confiáveis, segurança, governança e capacidade de escala. Atua na transição entre validação de conceito e operação real, atendendo empresas em diferentes estágios de maturidade.</p><p>A empresa oferece cinco rotas: definição de plano de produto, construção de MVP, rebuild de versões iniciais, evolução de produtos em operação e parcerias seletivas. O processo inclui entendimento do contexto, mapeamento, desenho da solução, construção e entrega com documentação e próximos passos. Nasce da Codeminer42 para unir experimentação rápida e maturidade técnica.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/11/73254cae2d4def5b31d9d637971a0817-ai-image.png",
+            "source": "https://gemlab.codeminer42.com/pt-BR",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Preciso fazer um pouco de jabá pra minha empresa 😎. Não é sempre, então não se preocupem que não vou transformar a newsletter em vitrine de ads. Mas, se algum de vocês estiver interessado em trabalhar com nossa equipe, estamos focados em avançar nosso conhecimento de IAs pros seus projetos. Entrem em contato."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A transição de ideias e MVPs para produtos digitais escaláveis costuma ser o ponto onde a maioria dos projetos fracassa por falta de governança técnica e infraestrutura adequada. GemLab oferece rotas estruturadas para superar essa etapa, combinando experimentação com maturidade herdada da Codeminer42, o que pode mudar o destino de diversas iniciativas."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "WSL 3 finalmente permitirá que aplicativos Linux usem sua GPU e NPU sem o custo de desempenho",
+            "content": "<p>WSL 3, apresentado na Build 2026, substitui a máquina virtual Hyper-V por uma paravirtualizada com DirectML 2.0, permitindo que aplicativos Linux acessem GPU e NPU com desempenho próximo ao nativo. Ferramentas como Ollama, llama.cpp e PyTorch passam a utilizar aceleradores diretamente sem o overhead da versão anterior.</p><p>A atualização é distribuída gratuitamente pela Microsoft Store e não exige atualização do Windows 11. No lançamento, o suporte é restrito a máquinas Copilot+ com Snapdragon X Elite, Intel Meteor Lake e Lunar Lake; o suporte à AMD e GPUs discretas está previsto para atualizações futuras.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/11/427fe39a409e43be546255833f08d540-image.jpg",
+            "source": "https://www.xda-developers.com/wsl-3-will-finally-let-linux-apps-use-your-gpu-without-the-performance-tax/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Finalmente, pra quem usa Linux via WSL no Windows, agora parece que vai ter acesso à GPU. Antes tinha muito overhead, mas o WSL 3 deve ajudar quem quiser rodar projetos com CUDA via WSL. Agora vai dar pra rodar Ollama, vLLM e mais no Windows, minimamente."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O WSL 3 diminui o overhead para acessos a GPU e NPU, permitindo que ferramentas como Ollama rodem de forma mais eficiente no Windows. Porém, restringir o lançamento a máquinas Copilot+ com Snapdragon ou Intel recentes deixa a maioria dos usuários de WSL aguardando atualizações que podem demorar anos para chegar."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "Mais de 400 pacotes do Arch Linux comprometidos para distribuir rootkit e infostealer",
+            "content": "<p>Mais de 400 pacotes do Arch User Repository (AUR) foram comprometidos para distribuir um rootkit Linux e um malware infostealer. Um novo mantenedor falsificou a identidade de um publicador confiável para injetar pacotes infectados, que usam scripts de pré-instalação para baixar e executar o pacote npm malicioso chamado atomic-lockfile.</p><p>O malware rouba credenciais de navegadores, Slack, GitHub, npm, SSH e outros ambientes de desenvolvimento, além de possuir capacidades de rootkit via eBPF para ocultar processos. A Sonatype identificou ao menos 20 pacotes órfãos sequestrados com o mesmo método. Mantenedores do AUR removem os commits maliciosos, e usuários devem verificar indicadores de comprometimento e reinstalar o sistema se necessário.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/13/d402b8b645622c544446db9496e8155a-image.jpg",
+            "source": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Começou com 400 pacotes e terminou com mais de 1.500 infectados por malware no AUR, repositório comunitário do Arch Linux. Qualquer um pode subir pacotes sem checagem. Quem usa precisa saber do risco. Eu chequei a lista e nunca instalei nenhum. Se você usa Arch, verifique se foi afetado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O incidente no AUR destaca como repositórios comunitários sem validação rigorosa facilitam a distribuição de malware. O rootkit via eBPF esconde processos enquanto credenciais são extraídas de ambientes de desenvolvimento. Usuários afetados precisam investigar ou reinstalar sistemas, ilustrando que a conveniência de uploads abertos cobra um preço alto em segurança e confiança."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "ai-memory: arquitetura emergente e software maleável",
+            "content": "<p>Publiquei há três semanas o ai-memory, meu sistema de memória de longo prazo para agentes de código. Em 24 dias ele cresceu para 482 commits, 10 crates e suporte multiplataforma multiusuário graças a contribuições de 26 pessoas, sem qualquer plano inicial ou arquitetura desenhada de antemão.</p><p>Deixei as funcionalidades emergirem do uso real: comecei com um MVP simples para mim, integrei features conforme surgiam issues e PRs, e só depois refatorei para centralizar lógica de escopo com o ScopeResolver. Sigo o mantra “make it work, make it right, make it fast”, mantendo o software maleável como argila em vez de cristalizar abstrações prematuras.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/1d1a619ebbe60bdc08362448fc934f6c-ai-image.png",
+            "source": "https://akitaonrails.com/2026/06/14/ai-memory-arquitetura-emergente-e-software-maleavel/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Projetos que evitam planos grandiosos desde o início atraem contribuições reais porque deixam espaço para necessidades concretas ditarem o rumo. Funcionalidades emergiram do uso diário, não de diagramas iniciais. Isso gera sistemas úteis e adaptáveis, enquanto abordagens que cristalizam abstrações cedo afastam quem busca resolver problemas práticos sem burocracia teórica. A refatoração posterior preserva exatamente essa flexibilidade."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-15",
+            "title": "prefeitura-rio/Rio-3.5-Open-397B · Cópia descarada do Modelo Nex-N2_pro",
+            "content": "<p>Exemplos removendo instruções iniciais mantêm essa identidade, com o texto repetindo que o modelo pertence à Nex-AGI e não à Qwen.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/6a0527d11c257fd06e9a46aa52316297-image.jpg",
+            "source": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B/discussions/14",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais uma atitude vergonhosa das instituições públicas. A Prefeitura do Rio lançou um “Rio AI Lab” com modelo LLM “aberto”. Logo expuseram: era só cópia do Qwen da Alibaba e do Nex N2 Pro, sem créditos. Trabalho porco, malfeito e desonesto. Após pressão, só um “oops”. No Bostil não existe capacidade nenhuma pra criar algo nesse nível. Sempre desonestidade primeiro. Vergonha."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A acusação no repositório revela o resultado inevitável de laboratórios públicos anunciando modelos avançados sem capacidade própria de desenvolvimento. Contribuintes financiam apenas renomeações de trabalhos chineses, e qualquer pretensão futura de autonomia em IA local perde credibilidade imediata e duradoura."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Discussoes sobre utilizar 80% da capacidade e reaproveitar notebooks velhos como servidores reforcam algo que ja vi varias vezes: em ciclos de hype, quem mantem espaco disponivel e nao corre atras de ferramentas caras sobrevive melhor. A IA vai aumentar volume de codigo, mas engenheiros que sabem priorizar continuarao essenciais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A obsessão coletiva por otimizar hardware antigo, tempo de engenheiros e animações CSS revela um padrão: a comunidade prioriza extrair valor de infra legada em vez de apostar em abstrações novas. Enquanto posts sobre HDDs e laptops argumentam por custo-benefício prático, o texto sobre IA reforça que camadas de decisão e entrega permanecem humanas, tornando 80% de utilização uma estratégia defensiva realista contra automação incompleta."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Vacinação contra dengue é suspensa após 2 mortes suspeitas",
+            "content": "<p>O Ministério da Saúde suspendeu a vacinação contra a dengue com o imunizante Butantan-DV após identificar dois óbitos e três casos graves entre 500 mil doses aplicadas entre março e abril. O ministro Alexandre Padilha citou 42 reações adversas graves em investigação e orientou atenção a sintomas em quem recebeu a dose nos últimos 21 dias.</p><p>O Butantan informou que a campanha era voltada a profissionais de saúde e destacou eficácia de 79,6% global e 89% contra dengue grave em estudos. Os casos incluíram a morte de um homem de 58 anos e uma mulher de 48 anos; uma terceira paciente de 39 anos se recuperou. A vacina permanece em análise e não foi descartada.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/08/c014ddd6c9f192ef65c5a0ebc1a50db1-image.jpg",
+            "source": "https://www.gazetadopovo.com.br/brasil/vacinacao-contra-dengue-com-imunizante-do-butantan-e-suspensa-apos-2-mortes/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Olha só que coisa: vacinas também podem ter defeitos e matar pessoas. Duh. Obviamente, quando há suspeitas, o correto é suspender a aplicação imediatamente para evitar mais efeitos colaterais inesperados ou até mortes! Ninguém é negacionista por suspeitar e exigir mais testes de uma vacina. Isso é o óbvio."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A suspensão da Butantan-DV demonstra que dados de ensaios clínicos falham em capturar riscos raros observados na aplicação em massa. Com óbitos reais em evidência, as investigações agora ditam o ritmo, postergando proteção contra a dengue para milhões enquanto o sistema de saúde lida com consequências diretas de decisões tomadas sem margem para exceções."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Trump diz que acordo de paz será assinado no domingo, mas Irã contesta cronograma - The New York Times",
+            "content": "<p>… <strong>13 de junho de 2026, 6:25 a.m. ET</strong> … Enquanto o Irã e os Estados Unidos diziam estar perto de um acordo, a guerra de Israel com o Hezbollah, o grupo militante libanês apoiado pelo Irã, não dava sinais de arrefecimento.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/a83b33fee04fd662c69b47b6411cf98d-ai-image.png",
+            "source": "https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esses malditos terroristas no controle do Irã estão enchendo o saco. Por causa deles, os mercados oscilaram loucamente: caíram 1 trilhão na sexta retrasada, recuperaram, caíram de novo com os ataques e subiram com o IPO da SpaceX. Volatilidade nunca vista. Acho que os ataques os motivaram a assinar. Trump anunciou no domingo à noite que o Estreito de Ormuz está reaberto. Vamos ver a repercussão hoje."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os confrontos contínuos de Israel com o Hezbollah, respaldado pelo Irã, mostram que acordos diplomáticos não alteram dinâmicas de poder regionais. Mercados enfrentarão volatilidade prolongada, com impactos em energia e defesa, enquanto milícias armadas mantêm influência sobre eventos globais sem perspectiva de resolução próxima. A realidade é que tais conflitos perpetuam instabilidade econômica em escala mundial."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Governo Lula coloca sigilo de 100 anos em processos de liberação de bets",
+            "content": "<p>A documentação dos processos de autorização de sites e aplicativos de apostas on-line no Brasil está sob sigilo de 100 anos, segundo apuração do jornal O Estado de S.Paulo. O sigilo abrange documentos enviados pelas empresas, pareceres da Secretaria de Prêmios e Apostas do Ministério da Fazenda, forma de pagamento das outorgas de R$ 30 milhões e beneficiários finais das bets. O jornal descobriu o sigilo ao solicitar dados da 1xBet via Lei de Acesso à Informação; o governo negou o acesso alegando dados pessoais e recusou-se a omitir essas informações, citando esforço administrativo desproporcional.</p><p>O presidente Lula afirmou em entrevista que defenderá a proibição das bets na campanha, mas sancionou a lei que regulamentou o setor e justificou a decisão alegando não ser dono do Brasil. Em maio, o Ministério Público Federal abriu inquérito de um ano para investigar a fiscalização das apostas pelo governo e o tratamento do vício pela rede de saúde.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/08/823ad7808cd5c116f6cd81bf750ec133-image.jpg",
+            "source": "https://www.gazetadopovo.com.br/republica/governo-lula-sigilo-100-anos-processos-autorizacao-bets/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O poste também foi responsável, junto com o molusco, por liberar as bets no Brasil. Agora que deu merda e todo mundo tá endividado, querem botar a culpa nos outros. As provas foram colocadas em sigilo, obviamente. Quem não deve, não teme. 🤷‍♂"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O sigilo de cem anos impede que qualquer análise independente revele quem lucrou com a regulamentação das apostas. Sem acesso aos documentos, a fiscalização prometida vira ilusão, e a dívida dos apostadores só cresce enquanto os beneficiários permanecem anônimos. Assim o controle estatal se fortalece em nome da proteção que não chega."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Cortes colocam Ministério da Defesa em ‘modo sobrevivência",
+            "content": "<p>Os cortes orçamentários anunciados no fim de maio impuseram ao Ministério da Defesa uma contenção de R$ 2,6 bilhões no orçamento de 2026, sendo R$ 691,9 milhões em bloqueios e R$ 1,9 bilhão em contingenciamentos. A medida levou as Forças Armadas a revisar despesas, adiando projetos de modernização, compra de combustíveis e munições, treinamentos e programas estratégicos, conforme indicado por oficiais do Exército, Marinha e Aeronáutica.</p><p>O editor do DefesaNet, Nelson During, afirmou que o ministério opera em “modo sobrevivência” e que a redução inviabiliza quase todos os projetos das Forças Armadas, aprofundando o desmonte da capacidade militar. O ministro José Múcio declarou preocupação com os impactos. A restrição ocorre enquanto países na Europa, Ásia e Estados Unidos ampliam investimentos em defesa.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/08/66eefa558a00bbc05054c45198cf758c-image.jpg",
+            "source": "https://revistaoeste.com/politica/cortes-colocam-ministerio-da-defesa-em-modo-sobrevivencia/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "E é por isso que PCC e CV fazem a festa no Bostil. Não tem defesa nenhuma aqui, zero “soberania”. Um país sem exército é melhor ficar de quatro de uma vez."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os cortes de 2,6 bilhões de reais forçam as Forças Armadas a adiar projetos de modernização, treinamentos e aquisições de material. Operando em modo de sobrevivência, o Brasil vê sua capacidade militar erodida enquanto potências globais investem pesado, abrindo espaço para que grupos criminosos consolidem poder em áreas sem fiscalização efetiva."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "MPF vai à Justiça contra Albert Einstein por descumprimento de cotas",
+            "content": "<p>O Ministério Público Federal ajuizou ação civil pública contra o Hospital Israelita Albert Einstein em São Paulo, em 2 de junho de 2026, para obrigar a aplicação de cotas nos programas de residência médica. O MPF afirma que a instituição descumpriu a portaria nº 5.801/2024 do Ministério da Saúde ao não reservar 55% das vagas para grupos vulneráveis no processo seletivo de 2026.</p><p>A procuradora Ana Letícia Absy pede editais complementares com 30% das vagas para negros, 5% para indígenas, 5% para quilombolas, 10% para pessoas com deficiência e 5% para pessoas trans. O MPF justifica a medida pela imunidade tributária federal obtida pelo hospital via Cebas e atuação no SUS. O Einstein informou que ainda não foi citado na ação.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/09/743aaf157613c10594370c54e868c862-image.jpg",
+            "source": "https://www.poder360.com.br/poder-justica/mpf-vai-a-justica-contra-albert-einstein-por-descumprimento-de-cotas/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Que estupidez. A referência em saúde da América Latina arrisca-se a deteriorar se implementarem cotas. Cotas são a coisa mais imbecil de todos os tempos. Você nivela por baixo e destrói o que o lugar tinha de bom."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A imposição de cotas no Einstein substitui critério técnico por identidade, forçando a entrada de residentes menos preparados em um dos centros mais exigentes da América Latina. Pacientes enfrentarão maior risco de falhas em diagnósticos e cirurgias, enquanto o hospital perde prestígio e eficiência sem ganhar nada em retorno real."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Ataque brutal a facadas em Belfast desperta chamados para protestos anti-imigração na Irlanda do Norte",
+            "content": "<p>A polícia da Irlanda do Norte deteve um homem sudanês de cerca de 30 anos suspeito de esfaqueamento em Belfast. O vídeo do ataque, que mostrou uma tentativa de degolamento de um homem de 40 anos, foi divulgado por figuras de extrema-direita britânicas, que convocaram protestos contra a imigração.</p><p>Centenas de manifestantes se reuniram em Belfast, incendiaram ônibus e veículos e bloquearam vias. O primeiro-ministro Keir Starmer condenou o incidente como “repugnante”, líderes políticos pediram calma e a polícia negou ligação terrorista, afirmando que o suspeito tem visto de permanência.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/09/0739346fc18ea1902d77e2af90d0523b-image.jpg",
+            "source": "https://www.cbsnews.com/news/belfast-northern-ireland-stabbing-far-right-calls-anti-immigration-protests/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O criminoso do Sudão foi de Paris à Irlanda, onde conseguiu asilo como refugiado até 2028. Refugiado de cu é rola. Foi pego em câmera quase decapitando um cidadão. Foi a gota d’água dessa palhaçada de imigração em massa, que na verdade é uma invasão. As pessoas civilizadas estão cansadas e o resultado é óbvio."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quando um homem com visto de residência ataca na rua e é filmado quase executando uma vítima, a resposta popular em Belfast era previsível. Autoridades que insistem em separar o caso de terrorismo apenas expõem o quanto a imigração descontrolada já corroeu a confiança pública. Mais distúrbios virão enquanto nada muda."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Gastos globais com a transição verde ultrapassam US$ 14 trilhões em meio ao aumento das emissões de CO₂",
+            "content": "<p>De 2004 a 2024, o mundo gastou mais de 14 trilhões de dólares na transição verde, valor superior a 100 vezes os investimentos contra a fome pelo Programa Mundial de Alimentos. Apesar disso, as emissões globais de CO₂ bateram recorde no ano passado.</p><p>Os gastos anuais com renováveis, veículos elétricos, bombas de calor, hidrogênio, captura de carbono e redes elétricas superam 2 trilhões de dólares. Petróleo, carvão e gás continuam a fornecer 87% do consumo energético mundial, sem que ocorra transição real no sistema energético.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/12/6684caf67b1562ec875c601d55b2c47c-image.jpg",
+            "source": "https://ua.news/en/finansi/zatrati-na-zelenii-perekhid-siagnuli-ponad-14-trln-ale-vikidi-co2-biut-novi-rekordi",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Iniciativas “verdes” pra reduzir CO2 custam 100 vezes mais que combater a fome, mas batemos novo recorde de emissões. Aumento de CO2 expandiu áreas verdes no mundo. Serve só de desculpa pra políticos lavarem dinheiro do contribuinte: 14 trilhões desperdiçados, sem resolver nada. Daria pra acabar com fome e saúde global várias vezes. Você é imbecil se acha que isso faz sentido."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quatorze trilhões de dólares em renováveis e veículos elétricos resultaram em zero mudança real. Carvão, petróleo e gás ainda dominam 87 por cento do consumo e as emissões bateram recorde. O dinheiro evapora em subsídios que encarecem a energia sem reduzir o uso de combustíveis fósseis, deixando os contribuintes com contas maiores e resultados nulos."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Governo Lula gasta mais de R$ 1,4 bilhão no cartão corporativo até 2025, diz site",
+            "content": "<p>Os gastos no cartão corporativo do governo Lula superam R$ 1,4 bilhão até 2025, segundo a Veja. Em 2025, o total chegou a R$ 423 milhões, com a Presidência da República respondendo por R$ 55 milhões no ano passado, cujos detalhes permanecem sigilosos conforme decisão do TCU.</p><p>Em comparação, o cartão da Presidência registrou R$ 584 milhões em 2024 e R$ 430 milhões em 2023. Entre as maiores compras estão empresas de materiais de construction, operadoras de pagamento e o iFood.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/12/cb4ccb549feec03c74a9dd31509fbcc0-image.jpg",
+            "source": "https://www.infomoney.com.br/politica/governo-lula-gasta-mais-de-r-14-bilhao-no-cartao-corporativo-ate-2025-diz-site/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Toda vez que comprar algo, com imposto de 1/3 a metade, lembre-se. No fim de maio, ao declarar o IR, lembre-se. Seu dinheiro é desperdiçado, não vai a investimentos, saúde ou educação. 50 universidades em greve. Vacinas de dengue retiradas por matarem. Mortes diárias por negligência no SUS. Se não liga e repete o erro, é imbecil. Melhor queimar o dinheiro do que financiar crime, tráfico e terrorismo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esses gastos crescentes no cartão corporativo mostram que o poder central continua priorizando despesas opacas em materiais de construção e serviços de entrega. O sigilo protegido pelo TCU reforça a dependência do contribuinte em sustentar privilégios administrativos, sem retorno visível em infraestrutura ou serviços públicos básicos que justifiquem o volume."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-15",
+            "title": "Trump diz que ataque militar dos EUA matou líder da gangue Tren de Aragua da Venezuela | Reuters",
+            "content": "<p>O presidente Donald Trump afirmou na sexta-feira que forças dos EUA realizaram um ataque que matou <strong>Hector Rusthenford Guerrero Flores, também conhecido como Niño Guerrero</strong>, o líder da gangue de prisão venezuelana Tren de Aragua.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/13/80d03205b22a57a981dae283fd37553f-ai-image.png",
+            "source": "https://www.reuters.com/world/americas/trump-says-us-military-carried-out-strike-leader-tren-de-aragua-2026-06-13/",
+            "links": [
+                {
+                    "url": "https://assets.bbhub.io/professional/sites/24/951623_BNEF-Energy-Transition-Trends-2025-Abridged.pdf",
+                    "title": "Tendências de Investimento na Transição Energética 2025 Acompanhando o investimento global em"
+                },
+                {
+                    "url": "https://revistaoeste.com/no-ponto/vacina-do-butantan-entrou-no-sus-sem-seguir-a-lei-diz-ex-ministro-da-saude/",
+                    "title": "Vacina do Butantan entrou no SUS sem seguir a lei’, diz ex-ministro da Saúde"
+                },
+                {
+                    "url": "https://www.gazetadopovo.com.br/economia/sigilo-bets-recuo-expoe-contradicao-crise-governo/",
+                    "title": "Sigilo das bets gera nova crise de credibilidade para governo Lula"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Gosto muito desta nova ordem mundial. Odeio a romantização de criminosos como Pablo Escobar, que ficou anos e anos livre. Prefiro que eles sejam silenciosamente assassinados e desapareçam sem floreios."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Eliminar o líder de uma gangue venezuelana como o Tren de Aragua sinaliza uma mudança para respostas mais diretas contra o crime organizado. Embora isso possa interromper rotas de tráfico e extorsão nos EUA, a ausência de estratégias para reformar sistemas prisionais e fronteiras garantirá que sucessores assumam o controle. Resultados duradouros exigem mais do que alvos individuais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta semana, mais manifestações contra a imigração em massa de criminosos. Na Escócia, após o caso de um somaliano que tentou decapitar um cidadão. Na Inglaterra, outra criança foi violentada. Em Nova York, o Times Square foi depredado após jogo dos Knicks. Outro templo no Japão foi incendiado — já são pelo menos oito. Essa ideia de forçar imigração sem critérios precisa parar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A estratégia de prometer a captura de ilhas petrolíferas iranianas ao mesmo tempo em que se cortam recursos para a OTAN indica prioridades voláteis. Enquanto a IA é vista como o futuro da guerra na Ucrânia, intervenções diretas contra navios revelam que o controle físico permanece essencial. Isso tende a prolongar conflitos em vez de resolvê-los."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-15",
+            "title": "Governo federal ordena que a Anthropic retire Fable 5 e Mythos 5, três dias após o lançamento",
+            "content": "<p>O governo dos EUA emitiu uma ordem de controle de exportação que forçou a Anthropic a desativar os modelos Fable 5 e Mythos 5 para todos os clientes na noite de sexta-feira, três dias após o lançamento. A diretriz, recebida às 17h21 no fuso Eastern, suspendeu o acesso por nacionais estrangeiros devido a uma possível jailbreak e citou autoridades de segurança nacional sem detalhes específicos.</p><p>A Anthropic afirma que a vulnerabilidade relatada é menor, já conhecida e replicável em outros modelos públicos, e discorda da medida que considera excessiva. A empresa cumpre a ordem enquanto busca restaurar o acesso, com mais informações prometidas em 24 horas, deixando os demais modelos da Anthropic inalterados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/13/a7e9f23e413d36b6cfc228c855e7b04a-image.jpg",
+            "source": "https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Vocês sabem que detesto o Dario Amodei. Também odeio essa estratégia agressiva de marketing com o hype do Mythos, como se fosse um modelo mágico tão perigoso que não poderia ser lançado. Além disso, ele defende que o governo regule as empresas de IA para evitar riscos assim. Blefaram tanto que o governo mandou bloquear Mythos e Fable. Por um lado, bem feito. Por outro, isso só inflaciona mais a valuation do IPO da Anthropic."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O bloqueio imposto pelo governo americano demonstra o resultado previsível quando empresas de IA clamam por regulação estatal. Modelos são desativados por alegações vagas de segurança nacional, afetando acesso global sem prova pública de risco real. Isso paralisa inovação, beneficia rivais não afetados e mostra como o controle estatal rapidamente ultrapassa limites invocados inicialmente."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-15",
+            "title": "Destaques do IPO da SpaceX: SPCX fecha a $161, com alta de 19% após estreia recorde",
+            "content": "<p>A SpaceX estreou na Nasdaq na sexta-feira sob o ticker SPCX, abrindo a $150 e fechando a $160,95 — alta de 19% —, após levantar $75 bilhões no maior IPO da história. A empresa foi avaliada em $2,1 trilhões, tornando Elon Musk o primeiro trilionário do mundo. Em after-market, as ações subiram mais 3,5%, chegando a $166,76. O analista da CFRA Keith Snyder atribuiu classificação de venda com preço-alvo de $115, chamando as projeções de valoração de “quase cômicas”.</p><p>A empresa acumula prejuízo total de $41,3 bilhões desde sua fundação em 2002 e perdeu $4,9 bilhões só no ano passado, com receita de $18,7 bilhões. A SpaceX adquiriu a xAI de Musk em fevereiro de 2026. A senadora Elizabeth Warren e o prefeito de Nova York Zohran Mamdani criticaram o IPO, pedindo um imposto sobre fortunas. O ex-chefe da Nasdaq Robert Greifeld prevê que OpenAI e Anthropic seguirão o caminho da empresa ao mercado público.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/3ac013411b2169f02a0cda324f9d2b55-image.jpg",
+            "source": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O maior IPO da história é o da SpaceX, com valuation acima de 2 trilhões — tornando Elon Musk o primeiro trilionário da história. O detalhe: no S-1 da SEC, 85% da empresa é declarada como IA, não foguetes. Com os IPOs da Anthropic e OpenAI chegando, 2026 vai testar se a bolha de IA estoura ou se consolida."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quarenta e um bilhões de dólares em prejuízo acumulado, e o mercado responde com uma alta de 19% no primeiro dia. O analista que disse “quase cômico” estava sendo generoso. A parte interessante é que Warren e Mamdani chegaram para reclamar de imposto sobre fortunas — como se o problema fosse Musk ter dinheiro, não o mercado estar claramente delirando."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-15",
+            "title": "Haddad mente sobre êxodo de empresas para o Paraguai",
+            "content": "<p>O ministro Fernando Haddad afirmou que empresas brasileiras migraram para o Paraguai durante o governo Bolsonaro. Dados do regime de maquila paraguaio, porém, indicam que o movimento ganhou força desde os governos Lula e Dilma, com crescimento contínuo através das gestões de Temer, Bolsonaro e Lula.</p><p>Em 2015 havia cerca de 40 empresas brasileiras no regime; atualmente são mais de 230, alta superior a 400% em uma década. O Paraguai atrai indústrias com carga tributária de 1% sobre valor agregado e menores custos trabalhistas, em contraste com a estrutura fiscal brasileira.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/08/45480dbca82201a0b4835edafc07b0fc-image.jpg",
+            "source": "https://claudiodantas.com.br/haddad-mente-sobre-exodo-empresas-paraguai/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O Haddad foi de longe o pior ministro da Economia da história. A única coisa que fez foi aumentar impostos e derrubar a economia. É incapaz de entender isso: acredita que só fez coisas boas e que os números ruins são culpa dos outros, mesmo tendo sido o responsável. Incompetente sempre bota a culpa nos outros."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Empresas brasileiras continuam fugindo para o Paraguai devido a impostos punitivos e custos trabalhistas elevados no país. A tendência antecede qualquer governo específico e expõe a falha estrutural no modelo fiscal. O Paraguai ganha fábricas e empregos enquanto o Brasil perde capacidade produtiva. Líderes sucessivos ignoram o incentivo óbvio: menores encargos atraem capital, independentemente de retórica política."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-15",
+            "title": "Lula quebra o Brasil para se reeleger",
+            "content": "<p>O economista Marcos Mendes, em relatório da XP Investimentos, identificou 33 medidas adotadas pelo governo Lula em 2024 que somam R$ 215 bilhões em aumento de despesas ou redução de receitas. Desse total, apenas 4% impactam os indicadores do novo arcabouço fiscal, enquanto o restante é ocultado por meio de linhas de crédito subsidiadas, transferência de fundos públicos e créditos extraordinários.</p><p>O texto compara o valor ao liberado pela PEC da gastança de 2022 e afirma que os mecanismos evitam registrar impacto no resultado primário, elevando a dívida pública sem transparência, em estratégia semelhante às pedaladas fiscais do governo Dilma.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/09/132aa39981333f89bc26b82fafd36012-image.jpg",
+            "source": "https://www.estadao.com.br/opiniao/lula-quebra-o-brasil-para-se-reeleger/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O Brasil não tem falta de dinheiro. Arrecada-se muito mais do que realmente precisa. Mas o político é profissional em jogar tudo fora, especialmente em ano de eleição. Isso já é tradição. Até a porcaria do Estadão é obrigado a admitir."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essas manobras elevam a dívida pública sem registro imediato, cobrando juros compostos que comprimem o orçamento futuro. O contribuinte arca com o custo via inflação ou corte de serviços, enquanto o mecanismo repete padrões antigos de evasão fiscal que adiam o ajuste real para depois da próxima eleição."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-06-15",
+            "title": "Nubank dispara e-mail sobre liquidação extrajudicial e alega erro",
+            "content": "<p>O Nubank enviou notificações em massa por e-mail e aplicativo na manhã de sexta-feira, 12, informando falsamente que o Banco Central havia decretado sua liquidação extrajudicial. As mensagens afirmavam o encerramento das carteiras de investimentos e orientavam clientes a acionar o Fundo Garantidor de Créditos para resgatar até R$ 250 mil por CPF.</p><p>O Banco Central negou qualquer intervenção e confirmou a saúde fiscal da empresa. O Nubank classificou o episódio como erro operacional interno pontual, sem relação com segurança da plataforma ou solidez da companhia, e garantiu que operações de transferências, pagamentos e saques permaneceram estáveis.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/12/5ea297404730d0be36858c6a4d0c5383-image.jpg",
+            "source": "https://revistaoeste.com/economia/nubank-dispara-e-mail-sobre-liquidacao-extrajudicial-e-alega-erro/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso foi um episódio idiota, mas gerou burburinho. Vários clientes do Nubank receberam e-mail falso sobre o fechamento da fintech. Muitos culparam estagiário desatento, mas alguém escreveu o texto. Ou funcionário insatisfeito causando vandalismo interno, ou invasão externa. Em qualquer caso, é péssimo sinal e não deve ser relevado como mero acidente."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Um erro interno que disparou alertas falsos de liquidação do Nubank revela a fragilidade dos sistemas automatizados em grande escala. Mesmo com a saúde financeira confirmada, o incidente causa desconfiança duradoura entre usuários, que agora questionam a confiabilidade de notificações e operações. Consequências incluem maior vigilância regulatória e perda de clientes para concorrentes mais estáveis."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A expectativa do acordo com o Irã para abrir mão de armas nucleares, somada ao IPO de sucesso da SpaceX, deixou os mercados otimistas no fim de semana. Ormuz e IA serão os pilares do curto prazo. Com a reabertura do Estreito, os preços de combustíveis devem cair. Os IPOs de IA da Anthropic e OpenAI, cercados de controvérsias, geram grande expectativa."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os mercados mal se mexeram, enquanto um acordo com o Irã paira no ar — e o Bitcoin subiu mais do que tudo. Faz sentido: quando a geopolítica do Oriente Médio oscila entre guerra e negociação, os ativos tradicionais travam, e quem compra cripto nem liga para embaixadores. O caos é o habitat natural do Bitcoin."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A parceria Apple-Gemini me lembra do velho ciclo: empresa dominante terceiriza o que não consegue construir sozinho, embrulha numa interface polida e vende como inovação própria. Mas o detalhe estratégico real está na manchete 3 — enquanto Washington lista empresas chinesas, o Vale do Silício fecha acordos com Google, que tem histórico de cooperação com Pequim. A ironia não é pequena."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Inflação em 4,2% sem culpar só a energia significa que o problema está disseminado — e o Fed vai precisar manter juros altos por mais tempo do que o mercado quer acreditar. Enquanto isso, Apple abraça a IA do Google, o Pentágono bane empresas chinesas de chips, e a SpaceX promete uma bonança de ETFs. Quem realmente lucra nessa semana é o caos sistêmico."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-15",
+            "title": "GitHub - akitaonrails/ratatui-bubbletea: Look and feel do BubbleTea do Charm portado para Ratatui",
+            "content": "<p>Este projeto não substitui o renderizador do ratatui. Aplicativos existentes podem adotar a aparência de forma incremental por meio de helpers de tema e componentes nativos do ratatui. A crate opcional ratatui-tea serve apenas para quem também deseja a ergonomia de loop de aplicativo no estilo Bubble Tea.</p><p>Consulte docs/examples.md para o mapeamento Bubble Tea para ratatui-bubbletea e anotações sobre exemplos que requerem componentes futuros. Para mais detalhes, inicie pelo guia de aplicativos existentes ou pelo guia de aplicativos ratatui-tea.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/08/3a712f06c064c35adc24229afb62217a-image.jpg",
+            "source": "https://github.com/akitaonrails/ratatui-bubbletea",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Fiz mais um projetinho open source: ratatui-bubbletea.Tenho gostado de fazer TUIs com Rust/Ratatui. Mas ainda gosto mais do look and feel do Bubbletea da Charm, embora seja para Go.Nada contra Go, é só preferência: com LLMs, tenho optado por Rust."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A existência de adaptadores como ratatui-bubbletea demonstra que preferências pessoais por ergonomia de outros ecossistemas levam à criação de camadas intermediárias em Rust. Isso consome tempo de manutenção que poderia ser dedicado a inovações originais, perpetuando uma dependência de soluções estrangeiras e retardando o amadurecimento do próprio ecossistema Rust para aplicações de interface textual."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-15",
+            "title": "aur_check.sh · GitHub",
+            "content": "<p>O conteúdo relata que mais de 400 pacotes do AUR foram comprometidos com infostealer e rootkit. Usuários do Arch Linux são orientados a revisar a lista de pacotes afetados e utilizar scripts para verificação.</p><p>Um fork atualizado do script oferece índice maior, maior eficiência, verifica pacotes instalados via AUR no período afetado e compara logs do pacman. Comentários discutem alternativas de linha de comando para evitar execução de scripts remotos via curl.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/12/a4d019331c4a9651a6bb216dea2408e9-image.jpg",
+            "source": "https://gist.github.com/Kidev/59bf9f5fb53ab5eee99f19a6a2fc3992",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Falei acima da notícia de 1.500 pacotes afetados por malware no Arch. Este é um script (de vários) que você pode rodar pra checar se sua máquina foi afetada."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa brecha no AUR força usuários do Arch a auditar sistemas inteiros e possivelmente reinstalar, pois infostealers e rootkits podem extrair dados silenciosamente por meses. Scripts ajudam na checagem, mas destacam a fragilidade de repositórios comunitários onde contribuições não verificadas se acumulam sem controle centralizado, ampliando riscos futuros para todos."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-15",
+            "title": "aur_check.sh · GitHub",
+            "content": "<p>Usuários do Arch Linux discutem scripts para detectar pacotes infectados entre uma lista de 446 itens. O script original executa o pacman para cada pacote individualmente e é considerado lento, enquanto forks atualizados processam listas inteiras, verificam pacotes AUR e consultam logs de instalação em períodos afetados.</p><p>Comentários destacam uma lista companheira para comparação direta e one-liners que evitam execução de código remoto. Críticas mencionam o risco de usar curl pipe bash, embora o autor da sugestão tenha sido elogiado por facilitar a checagem para usuários sem conhecimento técnico.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/12/6e555bcca0113f109f6912a66398fded-image.jpg",
+            "source": "https://gist.github.com/Kidev/59bf9f5fb53ab5eee99f19a6a2fc3992",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Incidentes como esse lembram que gerenciadores de pacotes são pontos únicos de falha no ecossistema. Usuários do Arch criando scripts de detecção é um bom paliativo, mas precisamos de builds reproduzíveis e repositórios assinados como prática padrão em todas as distros para evitar problemas futuros. Historicamente vimos o mesmo em outros sistemas."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quando os usuários do Arch precisam desenvolver scripts para checar uma lista extensa de pacotes possivelmente infectados, fica claro o quanto os gerenciadores ainda deixam o sistema vulnerável. Abordagens caseiras servem como remendo temporário, mas perpetuam a insegurança enquanto não houver verificações automáticas robustas em todos os níveis."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-15",
+            "title": "GitHub - iptv-org/iptv: Coleção de canais de IPTV publicamente disponíveis de todo o mundo",
+            "content": "<p>Coleção de canais IPTV publicamente disponíveis de todo o mundo - iptv-org/iptv</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/13/f5a660ada1414d8f335c14e3f8815007-image.jpg",
+            "source": "https://github.com/iptv-org/iptv",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-15",
+            "title": "Rio-3.5-Open-397B ≈ 0.6 x Nex-N2_pro + 0.4 x Qwen · Issue #4 · nex-agi/Nex-N2",
+            "content": "<p>O repositório Nex-N2 acusa o modelo prefeitura-rio/Rio-3.5-Open-397B de não ser original. Afirma que seus pesos resultam de uma fusão element-wise entre o Nex-N2-Pro e o Qwen3.5-397B-A17B, na proporção aproximada de 0,6/0,4.</p><p>Sem o prompt de sistema, o modelo se identifica como Nex em quatro de cinco respostas e reproduz trechos da história privada da Nex-AGI. Análises de tensores mostram colinearidade de 0,98-0,99 em todas as camadas, confirmando a origem por fusão seguida de destilação. A equipe de Rio admitiu ter enviado versão incorreta e esclareceu que nenhum recurso público foi usado.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/075d7e8a68eabe858e029fefc3b2f8a8-image.jpg",
+            "source": "https://github.com/nex-agi/Nex-N2/issues/4",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Este episodio de fusao de pesos destaca que originalidade em IA open source e uma ilusao pratica. Desde os anos 80 o que vemos e iteracao sobre bases existentes nao invencoes puras. A conexao com a industria e que metricas de colinearidade deverao virar padrao em verificacoes de releases para evitar retrabalho desnecessario e manter confianca no ecossistema."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa revelação de fusão elementar mostra que futuras liberações open source enfrentarão auditorias constantes de tensores, elevando custos e desconfiança sem gerar modelos verdadeiramente novos. Os criadores de bases como Qwen ganham vantagem indireta enquanto equipes perdem tempo em verificações em vez de avanços reais."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-06-15",
+            "title": "GitHub - akitaonrails/frank_type: clone mais simples do MonkeyType.com baseado em Ruby on Rails",
+            "content": "<p>Clone mais simples do MonkeyType.com baseado em Ruby on Rails. Contribua para o desenvolvimento de akitaonrails/frank_type criando uma conta no GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/60f4410615ac277c24117f8284228546-image.jpg",
+            "source": "https://github.com/akitaonrails/frank_type",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-15",
+            "title": "Michael’ se torna cinebiografia musical com maior bilheteria da história do cinema | G1",
+            "content": "<p>“Michael” tornou-se a cinebiografia musical com maior bilheteria da história do cinema, com US$ 911,9 milhões arrecadados em todo o mundo. O longa superou “Bohemian Rhapsody”, que faturou US$ 910,9 milhões, e registrou a melhor estreia de uma cinebiografia, com US$ 217 milhões no primeiro fim de semana global.</p><p>Dirigido por Antoine Fuqua e estrelado por Jaafar Jackson, o filme cobre a trajetória de Michael Jackson desde a infância com o Jackson 5 até a turnê “Bad”. No Rotten Tomatoes, a crítica deu 38% de aprovação, enquanto o público alcançou 97%.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/e3658c8c809dffcd9c0b0d30b607c46c-image.jpg",
+            "source": "https://g1.globo.com/pop-arte/cinema/noticia/2026/06/12/michael-se-torna-cinebiografia-musical-com-maior-bilheteria-da-historia-do-cinema.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Este ano, só dois filmes alcançaram a marca de um bilhão de dólares. O primeiro foi Super Mario Galaxy. O segundo, perto de bater isso, é “Michael”. Os detratores deram notas baixas por quererem um filme que repetisse alegações falsas sobre o fim da carreira. O filme atual faz sucesso ao celebrar os melhores momentos. Ultrapassou Bohemian Rhapsody, que também é excelente."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A bilheteria recorde do filme mostra que o público elege celebridade e sucessos musicais acima de ressalvas críticas. Isso pressiona a indústria a produzir versões mais controladas de biografias, onde controvérsias ficam de lado para garantir maior retorno financeiro e aprovação em massa."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-15",
+            "title": "The Legend of Zelda: Ocarina of Time Remake Anunciado para Switch 2 em 2026 | GameLuster",
+            "content": "<p>Nintendo anunciou oficialmente um remake de The Legend of Zelda: Ocarina of Time para Nintendo Switch 2, com lançamento previsto para 2026. A revelação ocorreu durante o Nintendo Direct de junho de 2026, apresentado por Geoff Keighley, sem data específica ou imagens de gameplay. O título é exclusivo da nova plataforma, sem menção a suporte para o Switch original.</p><p>Lançado originalmente no Nintendo 64 em 1998, o jogo já teve versões no GameCube em 2003 e no 3DS em 2011. O Direct também revelou Star Fox, Fire Emblem: Fortune’s Weave e The Duskbloods para 2026. Um filme live-action de Zelda está agendado para abril de 2027. Não há detalhes sobre mudanças visuais, desenvolvimento interno ou preço.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/14/a8ea25de7e268575a6ae9b1deed542f4-image.jpg",
+            "source": "https://gameluster.com/zelda-ocarina-of-time-remake-switch-2-2026/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O maior anúncio foi o remake de Zelda: Ocarina of Time para Switch 2, que ainda vai demorar. Também anunciaram o de Star Fox 64. Curiosamente, a mesma dupla saiu em 2011 pro 3DS. Já passou mais tempo entre Switch 2 e 3DS do que entre este e o N64. Será o segundo remake do jogo considerado por muitos o melhor da história. Expectativa alta."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O remake de Ocarina of Time exclusivo para Switch 2 em 2026 obriga os fãs a comprarem novo hardware para reviver um título de 1998. Sem suporte ao Switch original, a estratégia prioriza vendas de consoles sobre acessibilidade, repetindo o padrão de relançamentos que sustenta a plataforma em vez de investir em inovações reais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Da minha lista, recomendo o vídeo do Driver61 sobre saúde — talvez algumas pessoas se identifiquem. Fora dela, o que “trendou” foram os vídeos sobre a polêmica dos Legos de 200 mil dólares do Reckless Ben e como uma corporação mal administrada destrói tudo por mixaria. Coffeezilla e Legal Eagle cobriram o caso. No The Serial Port tem um mini-doc bom sobre protocolos de remote desktop. Vou adicionar esses canais na próxima semana."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com Fireship expondo a contradição da Anthropic e Sabine alertando sobre IA se aprimorando sozinha, seguimos maratonando alertas sobre perda de controle enquanto geramos mais dados para o sistema. Cada clique reforça o loop que os vídeos descrevem, e o hábito de consumir conteúdo sobre o inevitável só acelera sua chegada."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-06-15",
+            "title": "The Camp of the Saints",
+            "content": "<p><em>por Jean Raspail</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com/dp/B0FP3YK3HF",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

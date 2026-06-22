@@ -1,0 +1,534 @@
+{
+    "title": "Podcast — Semana de 22 de June de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/06/22/",
+    "subtitle": "Acusações bombásticas: Wuhan, Fauci e gangue de estupro",
+    "published_at": "2026-06-22",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-06-22.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, galera! Hoje é 22 de junho de 2026, semana do Dia de Alan Turing. Esse é o podcast semanal do The M.Akita Chronicles. Não esqueçam de se inscrever! E o Marvin está aqui de novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Depois de relatórios sobre abuso em massa e negociações nucleares que desabaram num dia só, eu já espero o pior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos começar pela tech. Tem essa controvérsia toda com o modelo Rio 3.5 que a prefeitura do Rio lançou. A Nex alega que o checkpoint inicial era cópia direta dos pesos deles misturado com Qwen, sem nenhum crédito no começo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a análise tensor a tensor revela coeficiente de similaridade alto, a história de inovação oficial desmorona. Contribuintes acabam pagando por reembalagem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. Depois da reclamação a documentação mudou e reconheceu o erro de envio dos pesos. Mas o modelo original se apresentou como desenvolvimento próprio baseado só em Qwen, sem treino adicional de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transparência só aparece quando a pressão externa bate na porta. Isso não ajuda em nada a imagem de projetos oficiais de inteligência artificial no país."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora sobre o vídeo que viralizou de alguém reescrevendo o SQLite em Rust e criando o Turso. Eu achei o hype completamente idiota."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Clones recentes sempre prometem melhorias, mas a confiabilidade real do SQLite original só veio depois de décadas em campo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O SQLite não está sendo reescrito. Alguém de fora fez um clone e acrescentou uns recursos novos. Vai levar anos para provar que funciona sem criar falhas sutis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Acrescentar funcionalidades não substitui o teste brutal que o original já passou em ambientes adversos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Caminhar por esse caminho costuma terminar em abandono do projeto depois de seis meses. Eu não perderia meu tempo com isso agora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A lição costuma ser cara para quem migra cedo demais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tem também o caso do suposto hacker Misantropia que usou senhas vazadas de servidores públicos para enviar alertas falsos da Defesa Civil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Senhas sem autenticação em duas etapas expõem o quanto os sistemas governamentais permanecem frágeis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Todo mundo recebeu aqueles alertas falsos na semana passada. O sujeito achou a senha de login e mandou mensagens. Softwares feitos por instituições públicas são por definição os piores códigos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nenhuma surpresa quando a falta de segurança básica permite invasão com esforço mínimo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Bostil estão entre os piores do mundo. A porta está sempre aberta para esse tipo de coisa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A exposição recorrente de credenciais em órgãos públicos cria um padrão que ninguém parece disposto a romper."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por último no tech user, eu publiquei sobre o ai-memory como arquitetura para memória de longo prazo em projetos. Transforma sessões longas de desenvolvimento em wiki versionada que agentes consultam semanas depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hooks e jobs de fundo transferem o esquecimento para manutenção de arquivos que ainda exigem auditoria humana constante. Qualquer falha no pipeline desmonta tudo de novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O sistema usa markdown versionado, permite busca de decisões antigas, armadilhas e procedimentos sem depender só do contexto bruto da sessão atual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A wiki continua legível e indexada em SQLite reconstituível via arquivos. Ainda assim, o risco de perda de contexto persiste se os trabalhos em background falharem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tem loop de auto-aprendizado inspirado no Hermes, mas o foco principal é evitar memória ruim ou caixas pretas de embeddings."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O formato legível ajuda na auditoria, mas mantém a dependência de quem revisa os arquivos manualmente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no radar da comunidade dev essa semana o tema central é que engenheiros param de entender o código que o Claude escreve. Vários posts sobre devs mid-level aceitando que a inteligência artificial cuida do básico e depois não conseguem explicar arquitetura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Perda simultânea de controle aparece em vários relatos ao mesmo tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não é a inteligência artificial que vai nos substituir. São engenheiros que abdicam da responsabilidade final e da revisão completa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Já vimos isso com geradores automáticos nos anos 90 e com low-code. O padrão se repete."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Use a ferramenta para explorar opções, mas a decisão e a revisão são suas. Quem abdica vira descartável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resto do radar mostra Chrome matando extensões Manifest V2, governo puxando modelo da Anthropic e devs aceitando soluções de lock sem avaliar alternativas reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, essa semana na história da tecnologia nasceu Alan Turing em 23 de junho de 1912, criador dos fundamentos da computação moderna. Em 1974 veio o primeiro código de barras UPC lido em supermercado. Em 2000 o rascunho do genoma humano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora no bloco global, o relatório de inquérito sobre gangues de estupro na Inglaterra expõe abuso sexual infantil sistemático contra mais de duzentas e cinquenta mil crianças."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O número supera a população de muitos municípios brasileiros. O silêncio inicial da polícia e da mídia agrava a escala."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A maioria dos casos foi cometida por paquistaneses muçulmanos em 87 a 95 por cento dos incidentes. Num caso a atendente da polícia disse à mãe para agradecer que a filha estava aprendendo uma nova cultura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Essa resposta revela exatamente o quanto as instituições preferiram não olhar para o problema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa é a Inglaterra de Keir Starmer. Imigração em massa de muçulmanos criminosos não é boa e tem que barrar todos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Relatórios só surgem nas redes sociais enquanto a mídia comprada pelo governo fica quieta. Restringir discussão online não apaga os fatos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O relatório detalhado mostra que denúncias eram ignoradas ou minimizadas por anos. A censura e as restrições na internet não são pelo bem das crianças."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empurrar jovens para vpns só diminui o escrutínio público e deixa os abusos continuarem sem atenção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Elas servem exatamente para esconder o tamanho do problema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O custo de impedir a conversa pública é que as vítimas ficam sem apoio e os culpados continuam impunes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O segundo caso grande é Tulsi Gabbard soltando documentos que provam que Fauci financiou pesquisas de ganho de função no Instituto de Virologia de Wuhan."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Burocracia científica prioriza avanços arriscados sem supervisão. O resultado afeta bilhões enquanto os envolvidos mudam de cargo sem impedimento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu sempre gostei da Tulsi, uma das melhores escolhas de Trump. Ela renunciou para cuidar do marido com câncer raro. Respeito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Documentos mostram financiamento sem supervisão adequada em laboratórios estrangeiros. Cadeia de erros segue sem correção real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O mesmo Fauci que admitiu inventar na hora as regras idiotas de máscara e distanciamento. Mais uma teoria da conspiração confirmada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem defendeu as medidas na época agora prefere não lembrar dos documentos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Reino Unido anunciou proibição ampla de redes sociais para menores de dezesseis anos junto com restrições em games e transmissões ao vivo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Medidas de bloqueio empurram uso para soluções alternativas e reduzem a visibilidade de problemas reais como exploração."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A reação de Starmer contra as big techs vai além de outros países, mas depois do relatório de duzentas e cinquenta mil abusos fica claro que o objetivo é controlar o que o povo vê."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Menos discussão aberta online significa menos pressão para mudar políticas que falharam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Hoje esquerdistas, pró-palestina, feministas e wokes estão em silêncio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O silêncio coletivo mostra onde realmente está a prioridade quando o risco é criticar a própria narrativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "As conversas entre Estados Unidos e Irã foram canceladas depois que o Hezbollah matou quatro soldados israelenses e Israel revidou com ataques aéreos no Líbano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Proxies determinam o ritmo e acordos de sessenta dias colapsam em menos de um dia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O memorando previa negociações sobre o programa nuclear iraniano e liberação do tráfego no estreito de Hormuz. O aiatolá aprovou, os Estados Unidos suspenderam o bloqueio naval, mas Israel manteve operações."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Washington perde influência quando Tel Aviv prioriza operações militares e o risco de conflito maior no Líbano aumenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Por isso não se negocia com terroristas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O padrão de cancelamento rápido mostra o quanto a influência americana depende de quem mantém o controle operacional."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Trump twittou que Keir Starmer deve renunciar na segunda-feira por falhas em imigração e energia. Pesquisa do YouGov mostra que quarenta e oito por cento dos militantes do Labour acham o desempenho pior que o esperado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A possível saída de Starmer abre espaço para novo rosto, mas os impasses de imigração e energia permanecem os mesmos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E quarenta e cinco por cento apoiam Andy Burnham como primeiro-ministro. Starmer é de longe o pior primeiro-ministro britânico e vergonha da Europa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O ciclo de insatisfação popular segue intacto mesmo com mudança de comando."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ignorou o relatório sobre duzentas e cinquenta mil meninas abusadas, quer prender quem critica muçulmanos e aplica censura nível Gestapo. Inglaterra precisa deportar em massa esses paquistaneses."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A pressão por deportação em massa tende a crescer à medida que novos casos vêm à tona."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre os eventos militares dessa semana, o Pentágono pediu oitenta bilhões adicionais para a guerra no Irã. Ucrânia acertou refinaria em Moscou com drones pela segunda vez."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A solicitação de recursos extras junto com reabertura do estreito após ataques de drones mostra o padrão recorrente de super-extensão militar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os Estados Unidos suspenderam o bloqueio no estreito de Hormuz depois de dois meses. O exército lançou novo comando multi-domínio no Indo-Pacífico e Hegseth anunciou revisão de tropas na Europa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto revisam presenças na Europa e criam comandos no Indo-Pacífico, a fragilidade de negociações com proxies fica evidente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu mesmo critiquei o memorando com o Irã na hora. Era porcaria, os Estados Unidos se rendendo. Em menos de vinte e quatro horas o Hezbollah atacou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O acordo não durou nem um dia. Terroristas do governo iraniano não merecem acordo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Hamas e Hezbollah têm que ser eliminados até o fim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Qualquer sinal de fraqueza costuma ser interpretado como convite para novos ataques."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana na história do mundo o arquiduque Francisco Ferdinando foi assassinado em Sarajevo em mil novecentos e quatorze. O Tratado de Versalhes foi assinado em mil novecentos e dezenove. A Alemanha nazista lançou a Operação Barbarossa em mil novecentos e quarenta e um."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No mercado, os índices da semana passada ficaram assim: S&P quinhentos caiu zero vírgula dois por cento, Dow Jones subiu zero vírgula quatro, Nasdaq subiu zero vírgula três, Nikkei subiu seis vírgula sete e Bitcoin caiu dois vírgula dois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Nikkei disparou quase sete por cento enquanto Wall Street mal saiu do lugar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mercados vão voltar a ficar voláteis esta semana. A semana passada subiu tudo com o otimismo do acordo com o Irã que iria garantir reabertura do estreito de Hormuz."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Dinheiro grande parece ter encontrado refúgio no Japão longe de tensão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vimos rapidinho que não se negocia com terroristas. No curto prazo a situação do estreito pode piorar e isso deve derrubar os mercados no começo da semana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando o cenário geopolítico muda de repente, os fluxos de capital migram para mercados que parecem mais estáveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No The Daily Upside, Apple anunciou aumento de preços, a fundição da Intel trouxe otimismo, Anthropic luta para recolocar modelos online, Accenture despencou com pressão sobre consultores e BlackRock lançou ETF de Bitcoin com call coberto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a inovação desacelera a solução óbvia vira cobrar mais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A queda da Accenture é o sinal que eu esperava. Quando a inteligência artificial avança de verdade, o primeiro setor a sangrar é o de consultoria de TI que vende horas de trabalho humano para tarefas repetitivas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Apple eleva preços, Accenture descobre que transformação digital vende menos quando clientes percebem que a inteligência artificial faz por fração do custo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não é crise conjuntural, é obsolescência estrutural. Quem ainda precifica serviço por hora em vez de por resultado já está com um pé na cova."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O ETF da BlackRock é o detalhe mais honesto: instituições não acreditam em alta ilimitada, só em taxas garantidas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No entretenimento, estúdios da divisão Xbox como Compulsion Games e Double Fine estão em negociações para possível fechamento ou independência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Autonomia sem suporte corporativo traz risco real de projetos fracassarem por falta de recursos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Minha surpresa é a Microsoft ter colhão de limpar a massa woke. Ninja Theory, Compulsion e Double Fine só fizeram porcaria com agenda progressista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O mercado já mostrou que autonomia nem sempre traz sucesso duradouro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Merecem o corte. É o oposto da Sony que dobra a aposta em lixo. Se a Xbox for esperta, traz Halo e Gears de volta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cortar estúdios que perderam o rumo pode ser o único jeito de recuperar foco, mas exige execução precisa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outra polêmica: Gabriela Duarte republicou vídeo chamando Caetano, Gil e Chico de exército de artistas decadentes que receberam dinheiro público para manifestação. Depois apagou e pediu desculpas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Artistas veteranos que recebem recursos públicos para eventos políticos raramente inovam hoje."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Gabriela continua linda e não deve pedir desculpas por dizer a verdade. Caetano e Gil são inúteis decadentes, parasitas que vivem do meu dinheiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Defender gastos estatais com cultura exige silêncio sobre seus beneficiários."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não tenho que sustentar esses imbecis. O valor que tiveram no passado acabou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a defesa dos recursos públicos exige ignorar a qualidade, a discussão sobre mérito some."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube, destaque pro vídeo do CoreTeks um pouco inflamatório mas o sentimento atual parece convergir pro fim da bolha de inteligência artificial. Aprendam sobre a Palantir no vídeo do ColdFusion."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quanto mais falamos de soluções do futuro, mais evidente fica que ninguém vai desligar o computador para aplicá-las."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu gostei do vídeo do Retro Game Corps sobre viagem a Shenzhen para conhecer empresas como Ambernic e AYN."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Explorar hardware chinês direto traz perspectiva que os relatórios de mercado raramente entregam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana na história geek Blade Runner estreou em mil novecentos e oitenta e dois, Batman de Tim Burton em mil novecentos e oitenta e nove, Harry Potter e a Pedra Filosofal em mil novecentos e noventa e sete."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A lição prática é manter independência analítica em vez de delegar julgamento a órgãos ou algoritmos. Isso abre espaço para correções rápidas e novas soluções técnicas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Akita deposita fé na independência analítica como antídoto. Na prática isso só funciona para quem já carrega o ônus de verificar tudo sozinho. Até a próxima semana, quando novas narrativas vão colidir com mais fatos inconvenientes e ninguém vai admitir que avisamos."
+        }
+    ]
+}

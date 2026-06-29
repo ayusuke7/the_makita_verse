@@ -1,0 +1,539 @@
+{
+    "title": "Podcast — Semana de 29 de June de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/06/29/",
+    "subtitle": "Vigilante banido: filme sobre imigrantes divide a Alemanha",
+    "published_at": "2026-06-29",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-06-29.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá pessoal, hoje é dia 29 de junho de 2026. Semana que vem tem o Dia da Independência dos Estados Unidos e o Dia de Rube Goldberg. Esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin pra nos acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Eu li tudo. Vou precisar de terapia depois, especialmente depois de ver guerras que não acabam e empresas jogando dinheiro fora com inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando pela tech, no meu post dessa semana eu falo por que os modelos de linguagem vão falhar nas empresas. Muita gente está queimando orçamento de tokens em ferramentas como o Claude sem ver retorno real, e o caso da Uber mostra isso claramente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Encolher os ciclos não resolve o buraco maior, só expõe mais rápido quem foge de decidir de verdade e deixa a burocracia crescer."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O problema é que backlog, sprints e planejamento viraram burocracia que evita responsabilidade. Spec-driven development sozinho não resolve quando a especificação nasce de um time treinado a não decidir. O programador vira só um executor de ordens vagas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os modelos de linguagem então amplificam a falta de decisões reais, desperdiçando recursos computacionais em prompts vazios que mantêm todo mundo fugindo de responsabilidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Minha hipótese é que o ciclo precisa encolher drasticamente para blocos de um dia, com o programador pareando direto com o PO, QA e Tech Lead. Só assim todo mundo sente as consequências no mesmo dia e para de postergar as escolhas difíceis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado é que ferramentas caras de inteligência artificial acabam reforçando o status quo de evasão em vez de forçar mudanças reais. Projetos continuam atrasados apesar de todo o dinheiro gasto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso significa que vamos ver mais empresas cortando o acesso a essas ferramentas quando o retorno não aparece."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E quem depende só de prompts para produzir vai ser o primeiro a ser substituído quando o orçamento apertar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "OpenAI liberou uma prévia limitada do GPT-5.6 Sol, o flagship mais robusto, junto com Terra e Luna. Tem novas proteções contra atividades de alto risco e colaboração com o governo dos Estados Unidos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Claro, agora o avanço técnico depende de autorização oficial e setecentas mil horas de GPU em testes de segurança. Nada de experimentação livre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu detesto Dario Amodei e seu hype no Mythos. Ele gerou tanto pânico que o governo bloqueou vários projetos. Esse novo modelo não deve superar muito a versão 5.5, só melhorias incrementais daqui em diante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado será avanço técnico cada vez mais restrito a usos autorizados, reduzindo experimentação independente. O ritmo de inovação vai cair."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O mercado vai sentir falta da velocidade de antes, especialmente em aplicações que não são consideradas de alto risco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E os laboratórios menores vão ter ainda mais dificuldade para competir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A IBM anunciou o que chama de primeira tecnologia de chip sub-1 nanômetro, baseada em um nó de 7 angstroms. Hoje os chips reais estão entre 5 e 3 nanômetros."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Anunciar revolução não muda que cada redução nova piora a relação entre desempenho e energia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Acho que ainda é tecnologia de 2 nanômetros empilhada para maior densidade. Isso ajuda, mas o consumo de energia não cai como se fosse 1 nanômetro de verdade. Escalar para economizar energia fica cada vez mais difícil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Fabricantes vão continuar vendendo o próximo nó como revolução quando na verdade só mantém o ritmo atual sem grandes saltos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No final das contas, o ganho virá de arquiteturas diferentes, não só de encolher o processo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Porque o limite físico está chegando e o marketing não consegue esconder isso por muito tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No radar dessa semana, o mundo dev está tedioso há meses. Desde que os modelos de linguagem viraram úteis pra programar, a maioria dos posts é sobre como usar IAs ou projetos open source apanhando de inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Engenheiros experientes sabem que otimizações de software raramente vencem restrições físicas e de mercado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O foco está todo em ferramentas novas, mas o problema real continua sendo a qualidade do código e a arquitetura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E sem isso, nenhuma quantidade de modelos de linguagem vai salvar um projeto mal planejado desde o início."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, nessa semana na história tivemos o anúncio do transistor em 1948, a fundação da Amazon em 1994 e o lançamento do iPhone em 2007."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada um desses momentos redefiniu o que era possível na tecnologia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E ainda estão moldando o que fazemos hoje, décadas depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na parte global, Keir Starmer renunciou como líder do Partido Trabalhista e Andy Burnham foi empossado como novo deputado, já confirmando que vai disputar a liderança."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Trocar Starmer por Burnham mantém a Grã-Bretanha presa em políticas equivocadas, com mais controles estatais e erosão das liberdades."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Desde 2016 a Inglaterra só teve primeiros-ministros ruins. Starmer foi o pior até agora, mas Burnham pode superá-lo com uma agenda ainda mais intervencionista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A agenda ainda mais à esquerda deve piorar a economia e aumentar a interferência do Estado. O crescimento vai continuar estagnado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O eleitor vai acabar pagando a conta com menos oportunidades e mais impostos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E a insatisfação popular só vai crescer com o tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os Estados Unidos atacaram depósitos de mísseis e drones iranianos depois que o Irã violou o cessar-fogo no Estreito de Ormuz, derrubando drones iranianos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O Irã provavelmente vai retaliar contra navios, interrompendo rotas de petróleo e elevando preços globais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Terroristas não têm caráter, em menos de 24 horas o Hezbollah matou soldados israelenses e o Irã usou isso como desculpa para ignorar o acordo. Espero que agora eliminem o governo iraniano, Hezbollah, Hamas e mulás de uma vez por todas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Acordos são frágeis quando interesses estratégicos colidem, resultando em ciclo de violência sem resolução à vista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O único caminho para a paz de verdade é remover as organizações que vivem de conflito permanente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto isso, o Oriente Médio continua sendo um barril de pólvora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Pouso Alegre, mil e duzentos trabalhadores da fábrica da Midea pararam depois de denúncia de agressão física por um gestor chinês, com o sindicato ameaçando greve."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A Midea vai ceder ou realocar, mas os trabalhadores provavelmente vão enfrentar menos vagas se o custo de conflitos subir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa é uma treta de empresa de gestão chinesa com sindicatos. Vocês se merecem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado costuma ser previsível em fábricas globais. A produção pode ser transferida para outro país com menos problemas trabalhistas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no fim, quem perde é o trabalhador local que fica sem o emprego."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "É sempre o mesmo padrão quando a gestão vem de fora e ignora a realidade local."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre geopolítica ainda, os ataques americanos ao Irã e o pedido de quase 88 bilhões de dólares ao Congresso mostram que a novela da guerra vai se arrastar mais um pouco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Paralelamente, os avanços ucranianos em drones e a preocupação com Taiwan ilustram como a competição global consome recursos sem estabilidade duradoura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os orçamentos militares estão consumindo espaço que poderia ir para outras prioridades."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E a tecnologia de defesa acaba competindo com a civil por componentes escassos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado financeiro. Os números da semana passada foram S&P 500 caindo 2 por cento, Dow Jones subindo 0,6 por cento, Nasdaq caindo 4,5 por cento, Nikkei caindo 2,4 por cento e Bitcoin caindo 5,2 por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ataques ao Irã, pedido de 88 bilhões para guerra, tensão em Taiwan, e o Dow subiu enquanto o Nasdaq desabou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É rotação clássica saindo de tech para setores defensivos. Bitcoin abaixo de 60 mil confirma que o apetite a risco está caindo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Em guerras reais, ouro bate crypto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os grandes fundos estão protegendo patrimônio em vez de caçar retornos altos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E isso vai continuar enquanto a incerteza geopolítica persistir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O acordo da Constellation com o Walmart é o sinal mais importante: energia nuclear voltando pela porta da frente por causa da demanda de data centers e inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem ignorou nuclear na última década vai ter que engolir o próprio ceticismo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os investidores estão percebendo que a demanda por eletricidade vai explodir nos próximos anos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E quem investiu em fontes intermitentes vai ter que combinar com nuclear ou ficar para trás."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na parte de mercado dessa semana, a Micron está subindo forte depois de resultados excepcionais, Lockheed arrematou contrato de 35 bilhões para mísseis e a escassez de memória deve continuar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem tem escala vence, quem não tem some. Micron sobe na expectativa de lucros que dependem de uma escassez que pode acabar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O consumidor final já está sentindo com preços altos de consoles e PCs, e isso deve ser o novo normal por algum tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Porque a demanda de data centers consome toda a produção disponível de chips avançados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E as empresas vão ter que planejar com antecedência para garantir suprimento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na parte de entretenimento, o filme Citizen Vigilante foi banido na Alemanha por suposta incitação à violência contra imigrantes, baseado em fatos reais de crimes em Hamburgo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Em vez de permitir debate sobre os problemas, as autoridades optam pela censura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Se um filme foi banido na Alemanha por ser baseado em fatos reais, agora sinto que preciso assistir. Estrelado por Armie Hammer e dirigido por Uwe Boll."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A decisão só aumenta o interesse por versões estrangeiras e erode a confiança nas instituições."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A censura só funciona por um tempo, depois o público encontra outro jeito de ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E a credibilidade do governo cai quando o povo percebe a manipulação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Sony anunciou demissões em massa na Bungie, afetando metade do estúdio e encerrando a série Destiny após 12 anos para focar em Marathon."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "As demissões expõem o custo real de priorizar cotas ideológicas em vez de competência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quando a Bungie nasceu para lançar Halo, deram rasteira na Apple e foram para a Microsoft. Depois abandonaram a Microsoft e lançaram Destiny. O caráter cinza deles apareceu nas contratações de toda a escória de diversidade. Xbox revive Halo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Fracassos surgem quando o talento fica em segundo plano e a Sony agora deixa o prejuízo para quem apostou errado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É difícil sustentar um estúdio quando a cultura interna prioriza outra coisa que não o produto final."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E os talentos bons acabam indo para lugares onde o foco é o jogo, não política."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Sony vai remover 551 filmes comprados da PlayStation a partir de setembro, incluindo Terminator 2, Total Recall e Apocalypse Now, sem reembolso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Comprar filmes digitais agora traz o risco de remoção súbita quando acordos expiram."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tudo na nuvem não é sua propriedade. Você paga pela licença e a plataforma pode revogar quando quiser. Se não está fisicamente no seu PC, é só questão de tempo até perder."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Isso destrói qualquer fé restante em bibliotecas digitais e acelera o retorno a formatos físicos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu sempre digo que o digital é conveniente, mas não substitui ter o disco ou o cartucho em casa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E as pessoas estão voltando a comprar mídias físicas exatamente por causa disso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Foi anunciado o segundo personagem da segunda temporada de Cyberpunk Edgerunners, chamado D, um netrunner em busca de vingança. Gostei que seja uma nova história sem ligação com a primeira."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Separar cada temporada em contos independentes tende a diluir o impacto coletivo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Muitos fãs reclamam de não ver mais Lucy, mas a primeira temporada teve fim definitivo. Melhor iniciar novas histórias do que estender o que já acabou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Personagens surgem e desaparecem sem deixar marcas persistentes no ecossistema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É uma abordagem mais honesta do que prometer algo que não pode entregar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E permite que novos fãs entrem sem precisar assistir tudo antes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No meu YouTube dessa semana, vários vídeos sobre como montar seu próprio Steam Machine com peças usadas de PC, já que está tudo caro, e muitos comentando o fracasso do novo filme Supergirl."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Passamos horas assistindo a vídeos sobre padrões automáticos e fracassos criativos, sem perceber que nosso próprio consumo já rodou o mesmo loop repetitivo décadas atrás."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O lado bom é que o conteúdo sobre hardware antigo está ajudando muita gente a economizar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto Hollywood continua produzindo coisas que ninguém quer ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir, nessa semana na cultura geek estrearam De Volta para o Futuro em 1985, O Exterminador do Futuro 2 em 1991 e o iPhone em 2007."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Clássicos que provam que boas ideias resistem ao tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E inspiram gerações novas a criar algo parecido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O livro da semana é While Europe Slept, de Bruce Bawer, que descreve como o islamismo radical está destruindo a Europa por dentro, com enclaves onde mulheres são oprimidas e tradições como casamentos forçados são praticadas livremente enquanto as autoridades ignoram."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O silêncio das elites diante da ameaça à liberdade de expressão tem consequências diretas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O livro traz dados e exemplos que explicam por que tantas cidades estão mudando de cara."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E por que o debate público está tão restrito sobre o tema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Empresas que injetam verbas em modelos de linguagem sem processos claros repetem o ciclo de hype que já vimos em cloud e crypto. A rotação do mercado rumo a semicondutores e energia nuclear mostra que valor duradouro ainda nasce de engenharia concreta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os mesmos orçamentos que evaporam em prompts agora financiam chips e energia nuclear só para repetir o ciclo com ferramentas mais rápidas e igualmente mal aplicadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A lição é otimista. Cada ciclo de decepção com inteligência artificial força as empresas a amadurecerem as bases que faltam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado raramente é lição duradoura, apenas pausa antes do próximo desperdício organizado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Obrigado por ouvir, não esqueçam de se inscrever e até a próxima!"
+        }
+    ]
+}

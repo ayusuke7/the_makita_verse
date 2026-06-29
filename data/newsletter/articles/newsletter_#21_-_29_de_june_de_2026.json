@@ -1,0 +1,296 @@
+{
+    "title": "Newsletter #21 - 29 de June de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/06/29/",
+    "subtitle": "Vigilante banido: filme sobre imigrantes divide a Alemanha",
+    "published_at": "2026-06-29",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-29",
+            "title": "Por que LLMs vão falhar na Sua Empresa?",
+            "content": "<p>Neste post eu especulo que empresas estão queimando orçamentos de tokens em ferramentas como Claude sem obter valor claro, usando o caso da Uber como exemplo. Explico que LLM amplifica a falta de decisões reais no processo atual, onde backlog, sprints e planejamento viram burocracia que evita responsabilidade. Defendo que spec-driven development sozinho não resolve se a especificação nasce de um time treinado a não decidir.</p><p>Minha hipótese é que o ciclo precisa encolher drasticamente para blocos de um dia, com programador pareando diretamente com PO para definir objetivo e restrições, QA para verificação imediata e Tech Lead para revisar arquitetura. O programador deixa de só executar tickets e passa a transformar decisões em prompts executáveis, enquanto todos sentem as consequências no mesmo dia.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/24/1661c56ff8263e3a76a2e8d6ccf1ca91-ai-image.png",
+            "source": "https://akitaonrails.com/2026/06/24/por-que-llms-vao-falhar-na-sua-empresa/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Encolher os ciclos de desenvolvimento para blocos diários com pareamento direto apenas revela mais rapidamente a raiz do problema: a recusa em assumir decisões. Isso faz com que os LLMs amplifiquem a burocracia existente, desperdiçando recursos computacionais em prompts que não geram valor e mantêm o status quo de evasão de responsabilidade."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-29",
+            "title": "Prévia do GPT-5.6 Sol: um modelo de próxima geração",
+            "content": "<p>OpenAI inicia prévia limitada da série GPT‑5.6 com os modelos Sol, flagship mais robusto, Terra, 2x mais barato que o GPT‑5.5, e Luna, de menor custo. O lançamento inclui nova proteção contra atividades de alto risco, colaboração inicial com governo dos EUA e planos de disponibilidade geral em semanas, com preços de US$ 5/30 para Sol, US$ 2,50/15 para Terra e US$ 1/6 para Luna por milhão de tokens.</p><p>O Sol estabelece novos recordes em Terminal‑Bench 2.1 para codificação, GeneBench v1 em biologia e ExploitBench/ExploitGym em cibersegurança, sem cruzar o limiar Cyber Critical. Introduz modo de raciocínio máximo e ultra com subagentes, além de salvaguardas em camadas testadas com 700 mil horas de GPU para evitar uso indevido.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/27/9e71f2edd97852b90893cdba598a56e2-image.jpg",
+            "source": "https://openai.com/index/previewing-gpt-5-6-sol/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como sempre falo, detesto Dario Amodei e seu hype no Mythos. Ele é um fear monger que gerou tanto pânico que o governo bloqueou Mythos, Fable e GPT 5.6 Sol. Não testei ainda, mas o novo GPT não deve superar muito a versão 5.5. Só melhorias incrementais daqui em diante. Todo hype da mídia é hype mesmo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os novos modelos batem recordes em benchmarks, mas exigem colaboração com o governo dos EUA e salvaguardas validadas em setecentas mil horas de GPU. O resultado será avanço técnico cada vez mais restrito a usos autorizados, reduzindo experimentação independente e atrasando aplicações reais fora dos limites oficiais."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-29",
+            "title": "IBM afirma grande avanço em chips",
+            "content": "<p>A IBM revelou o que diz ser <strong>a primeira tecnologia de chip sub-1nm do mundo</strong>, construída com base em uma arquitetura de transistor que chama de nó de 7 angstroms.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/27/50a7bc57955d776762880489d925b019-ai-image.png",
+            "source": "https://daily.dev/posts/ibm-claims-major-chip-breakthrough-rsp8t9org",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Atualmente, chips são fabricados em tecnologias de 5 a 3 nm. A IBM resolveu anunciar que tem tecnologia “equivalente” a sub-1 nm, ou 0,7 nm. Não existe isso. Acho que ainda é 2 nm empilhado em camadas para maior densidade. Isso ajuda, mas o consumo de energia não será equivalente a 1 nm. Escalar para economizar energia fica cada vez mais difícil, por isso empresas como a ASML valem tanto."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A IBM anuncia tecnologia sub-1nm como se resolvesse os limites dos chips, mas a realidade é mais cínica. Cada nova redução dimensiona pior a relação entre desempenho e energia, elevando enormemente os investimentos necessários. Fabricantes vão continuar vendendo o próximo nó como revolução, quando na verdade apenas mantém o ritmo atual sem grandes saltos."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-06-29",
+            "title": "Romhacking.net - Hacks - Patches Starfox 30+60FPS",
+            "content": "<p>Atualizações: -Corrigido piscar da tela após derrotar o chefe -Corrigido modo 60FPS (não estava fazendo animações</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/27/598bdeb8f0520d31353885ba52b9f25b-ai-image.png",
+            "source": "https://www.romhacking.net/hacks/7163/",
+            "links": [
+                {
+                    "url": "https://www.bbc.com/news/articles/c3ryj81ywlro",
+                    "title": "Apple aumenta alguns preços em quase 20% enquanto Xbox eleva custo do console"
+                },
+                {
+                    "url": "https://linuxiac.com/tmux-3-7-terminal-multiplexer-released-with-initial-floating-pane-support/",
+                    "title": "Tmux 3.7 Multiplexador de Terminal Lançado com Suporte Inicial a Painéis Flutuantes"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Agora que o remake de Starfox 64 pra Switch 2 está em alta, resolvi revisitar o clássico Starfox do SNES. O problema: ele é LENTO, coisa de menos de 20 fps.Mas existem ROM hacks pra aumentar pra 30 ou 60 fps.De nada kkkk"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O mundo dev está tedioso há meses. Desde que as LLMs finalmente se tornaram úteis pra programar, a maioria dos posts é sobre como usar IAs, como não usar IAs, projetos open source apanhando de IA e novas vulnerabilidades descobertas com IA. Mas pelo lado bom, pelo menos parou a palhaçada de um framework de JavaScript novo toda semana. Finalmente, a futilidade disso ficou óbvia."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Em meio a anúncios de gerenciadores de janelas roláveis em Rust e capacidades desktop no Deno, o alerta sobre promessas irreais de IA e aumentos de preço de componentes destaca uma verdade persistente: engenheiros experientes sabem que otimizações de software raramente vencem restrições físicas e de mercado, mesmo após décadas de progresso técnico."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-29",
+            "title": "‘Citizen Vigilante’: Diretor defende filme após BANIMENTO na Alemanha por acusação de incitação à “violência contra imigrantes”",
+            "content": "<p>O filme de suspense “Citizen Vigilante”, dirigido por Uwe Boll e estrelado por Armie Hammer, foi proibido na Alemanha por apresentar violência extrema e mensagem anti-imigração. Boll acusou as autoridades de censura política deliberada, após perder recurso por seis votos a dois, e afirmou que só é possível ver a produção via importação de Blu-ray da Áustria ou Suíça.</p><p>A trama acompanha Matt Sanders, que vira vigilante após presenciar o assassinato de uma mãe por criminosos imigrantes. O roteiro se baseia em um estupro coletivo ocorrido em Hamburgo em 2016. Boll justificou a escalação de Hammer por seu talento e carisma, apesar das acusações anteriores contra o ator.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/22/d20e6ba66dd0bd676f9d167505d24a6c-image.jpg",
+            "source": "https://cinepop.com.br/citizen-vigilante-diretor-defende-filme-apos-banimento-na-alemanha-por-acusacao-de-incitacao-a-violencia-contra-imigrantes-750414/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Se um filme foi banido na Alemanha por “ser baseado em fatos reais”, agora sinto que preciso assistir. Estrelado por Armie Hammer — faz tempo que não via ele, parece que tinha sido cancelado — e dirigido por Uwe Boll, que só faz filmes ruins, e este não é exceção. Ouvi que é super cringe e mal feito, mas chamou atenção por mostrar um cidadão comum farto dos crimes de imigrantes ilegais resolvendo agir por conta própria."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A decisão de banir o filme na Alemanha ilustra o receio oficial em relação a histórias que ligam imigração a crimes violentos inspirados em eventos reais. Em vez de permitir debate sobre esses problemas, as autoridades optam pela censura, o que aumenta o interesse por versões estrangeiras e erode a confiança nas instituições."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-29",
+            "title": "Destiny está oficialmente morto: grandes demissões encerram a série após 12 anos enquanto a Sony redireciona a Bungie para Marathon",
+            "content": "<p>A Sony Interactive Entertainment anunciou demissões em massa na Bungie, afetando a maioria da equipe de Destiny e alguns membros de Marathon, após a atualização final de Destiny 2. A medida encerra a série após 12 anos.</p><p>Cerca de 400 funcionários foram impactados, o equivalente a metade do estúdio. Marathon permanece como projeto prioritário da SIE, enquanto Destiny original foi lançado em 2014 e Destiny 2 em 2017.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/27/3be7a0501e68ac0617f4a55011cc81f8-image.jpg",
+            "source": "https://www.vice.com/en/article/destiny-is-officially-dead-major-layoffs-end-the-series-after-12-years-as-sony-refocuses-bungie-on-marathon/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Quando a Bungie nasceu para lançar Halo, Steve Jobs deu o maior apoio. Eles deram uma rasteira e foram para a Microsoft. Halo virou a maior franquia do Xbox. Depois, independentes, abandonaram a Microsoft e lançaram Destiny, sucesso. O caráter cinza deles apareceu nas contratações: toda a escória de “diversidade”. Destiny 2 e Marathon fracassaram, e agora demitem o pessoal improdutivo. Xbox revive Halo. Gosto da simbologia."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "As demissões em massa na Bungie expõem o custo real de priorizar cotas ideológicas em vez de competência. Fracassos como Destiny 2 e Marathon surgem quando o talento fica em segundo plano. A Sony agora corta metade do estúdio, preserva Marathon e deixa o prejuízo para quem apostou errado, enquanto concorrentes colhem os frutos."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-29",
+            "title": "PlayStation exclui mais de 500 filmes comprados em grande purga de conteúdo",
+            "content": "<p>Sony removerá 551 títulos do catálogo de filmes digitais da PlayStation devido ao fim do licenciamento com a Studio Canal. Os filmes serão excluídos das bibliotecas de usuários que já os compraram, sem reembolso ou compensação.</p><p>A remoção ocorre a partir de 1º de setembro de 2026, conforme e-mail enviado pela Sony aos clientes. Entre os filmes afetados estão Terminator 2: Judgment Day, Total Recall, Apocalypse Now: The Final Cut, From Dusk Till Dawn, Highlander e Pan’s Labyrinth.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/27/5262654e7ee237b4c7e99f9880f991a3-image.jpg",
+            "source": "https://www.cbr.com/playstation-deletes-purchased-movies-studio-canal/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O que eu sempre falo? Tudo na “nuvem” não é sua propriedade. Você paga pela licença para assistir, e a plataforma pode revogar quando quiser. Se não está fisicamente no seu PC, é só questão de tempo até perder. Quem me acompanha já viu vários posts sobre self-host e meu “Netflix pessoal”, que ninguém vai apagar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Comprar filmes digitais da Sony agora traz o risco de remoção súbita quando acordos expiram. Consumidores que pagaram por títulos como Terminator 2 perdem o acesso de forma permanente sem compensação. Isso destrói qualquer fé restante em bibliotecas digitais e acelera o retorno a formatos físicos para quem busca permanência."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-06-29",
+            "title": "Cyberpunk Edgerunners 2 Apresenta Segundo Personagem Movido por Vingança Chamado D - Anime Corner",
+            "content": "<p>O Studio TRIGGER apresentou o segundo personagem, D, para a sequência Cyberpunk: Edgerunners 2. O personagem Weak Kingsley já havia sido revelado, e o anúncio oficial ocorrerá em 29 de junho. A nova série terá 10 episódios e será transmitida pela Netflix.</p><p>Dirigida por Kai Ikarashi, com design de personagens de Ichigo Kanno e roteiro de Masahiko Otsuka, a história é descrita como uma crônica de redenção e vingança no universo de Cyberpunk 2077. D é um netrunner da Snake Nation que caça o assassino de seu clã, com o teaser “No signal, no survival”.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/28/3caf22766ff9e12eaaf5b7ed12956bf3-image.jpg",
+            "source": "https://animecorner.me/cyberpunk-edgerunners-2-introduces-second-character-called-d/",
+            "links": [
+                {
+                    "url": "https://www.dailymail.com/news/article-15934465/violent-gang-rapes-teenage-girls-migrants-Germany-inspired-banned-movie-watched-millions.html",
+                    "title": "Como dois estupros coletivos de meninas jovens por migrantes inspiraram um filme ‘banido"
+                },
+                {
+                    "url": "https://discussingfilm.net/2026/06/24/supergirl-review-milly-alcock-dcu/",
+                    "title": "Supergirl’ Review - Milly Alcock Se Destaca Acima das Dores de Crescimento Ruins da DCU"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "CD Projekt Red anunciou a segunda temporada de Cyberpunk: Edgerunners. Gostei que seja uma nova história sem ligação com a primeira. Muitos fãs reclamam, como sempre, de não ver mais Lucy. A primeira temporada teve fim definitivo para todos os personagens. Melhor iniciar novas histórias a cada temporada do que estender o que já acabou só pra agradar fãs sem bom gosto."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A inclusão de D como netrunner em busca de redenção aprofunda o ciclo de perda no universo Cyberpunk, mas separar cada temporada em contos independentes tende a diluir o impacto coletivo. Personagens surgem e desaparecem sem deixar marcas persistentes no ecossistema das corporações."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta semana continuam vídeos sobre como montar seu próprio Steam Machine com peças usadas de PC, já que está tudo caro. Também vários vídeos comentando o fracasso do novo filme Supergirl e o prego no caixão de James Gunn conseguir viabilizar um novo universo de filmes da DC."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Veritasium explica metrônomos que se sincronizam sozinhos enquanto Fireship ironiza a “morte” do Midjourney. Passamos horas assistindo a vídeos sobre padrões automáticos e fracassos criativos, sem perceber que nosso próprio consumo de conteúdo já rodou o mesmo loop repetitivo décadas atrás."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-29",
+            "title": "Andy Burnham é empossado como novo MP após Starmer anunciar renúncia",
+            "content": "<p>Andy Burnham foi empossado como deputado por Makerfield horas após Keir Starmer anunciar sua renúncia como líder do Partido Trabalhista. Burnham confirmou que disputará a liderança e recebeu apoio de Wes Streeting, ex-secretário de Saúde. Starmer permanecerá como primeiro-ministro até a escolha do sucessor, que ocorrerá até setembro.</p><p>Wes Streeting retirou sua candidatura e declarou apoio total a Burnham. Reações incluíram críticas de Ed Davey e Nigel Farage, que pediram eleições gerais antecipadas, e opiniões de eleitores sobre a saída de Starmer. A posse de Burnham foi marcada por aplausos de cerca de 200 parlamentares trabalhistas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/22/367f50c0b312b413fd00bde56c9fe865-image.jpg",
+            "source": "https://www.bbc.com/news/live/ckger03mrl0t",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A alegria de pobre dura pouco, mas já era esperado. Keir Starmer renunciou. No lugar dele entra o esquerdista Andy Burnham, e a vida dos ingleses vai piorar. Desde 2016, a Inglaterra só teve PMs ruins: Cameron, May, Johnson — o menos pior, segundo alguns —, Truss e Sunak. Starmer foi o pior, mas Burnham pode superá-lo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Trocar Starmer por Burnham na chefia do Partido Trabalhista mantém a Grã-Bretanha presa em um loop interminável de políticas equivocadas. Com Burnham prometendo uma agenda ainda mais à esquerda, espera-se piora na economia, aumento de controles estatais e erosão gradual das liberdades individuais, tudo sob aplausos efêmeros de parlamentares entusiasmados."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-29",
+            "title": "EUA atacam o Irã depois que Trump acusa Teerã de violação do cessar-fogo no Estreito de Ormuz",
+            "content": "<p>O Comando Central dos EUA realizou ataques aéreos contra depósitos de mísseis e drones e sítios de radar costeiros iranianos após o Irã lançar drones contra navios no Estreito de Ormuz, violando o cessar-fogo. Um drone iraniano atingiu o cargueiro Ever Lovely, e os EUA derrubaram outros três; Trump e o vice-presidente Vance afirmaram que a agressão iraniana violou o acordo assinado há mais de uma semana.</p><p>O Irã, por meio da Guarda Revolucionária, retaliou alvejando posições militares americanas na região e afirmou que responderá de forma mais ampla a novas agressões, alegando que o acordo dá ao Irã controle sobre a passagem no estreito. Bahrein condenou o ataque como violação de soberania, e o UKMTO relatou impacto em outro navio-tanque.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/28/036fe001f1f91c47a68630e3e8c54876-image.jpg",
+            "source": "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A novela da guerra do Irã continua. Havia esperança de que o Memorando de Entendimento virasse cessar-fogo, mas terroristas não têm caráter: em menos de 24h o Hezbollah matou soldados israelenses no Líbano. Turquia e Israel se alinham contra o grupo, e o Irã usou isso como desculpa para ignorar o acordo. Além de maus-caráter, são burros e forçam os EUA a retomar os bombardeios. Espero que agora eliminem o governo iraniano, Hezbollah, Hamas, Hutis e mulás."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os ataques dos EUA aos depósitos iranianos provavelmente provocarão retaliações adicionais contra navios, interrompendo rotas vitais de petróleo e elevando preços em todo o mundo. O Irã ao reivindicar soberania sobre o estreito revela que acordos são frágeis quando interesses estratégicos colidem, resultando em um ciclo de violência que desgasta todos os envolvidos sem resolução à vista."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-06-29",
+            "title": "Midea Pouso Alegre: Fábrica para após denúncia de agressão física | G1",
+            "content": "<p>Cerca de 1.200 trabalhadores da fábrica da Midea em Pouso Alegre (MG) pararam o trabalho nesta terça-feira (23) após denúncia de agressão física contra funcionário do setor de qualidade. O sindicato afirma que um gestor chinês aplicou socos nas costelas do empregado e o atingiu com uma gaxeta de vedação, classificando o episódio como lesão corporal e denunciando também assédio moral e condições precárias.</p><p>A empresa informou estar ciente das denúncias, ter afastado preventivamente o envolvido e realizar apuração interna. O sindicato ameaça deflagrar greve por tempo indeterminado caso não haja medidas cabíveis contra o gestor chinês.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/06/28/0b2f6d2f4fbc665722a8ad3250e7c93a-image.jpg",
+            "source": "https://g1.globo.com/mg/sul-de-minas/noticia/2026/06/23/trabalhadores-denunciam-agressao-fisica-e-param-fabrica-de-multinacional-chinesa-em-mg.ghtml",
+            "links": [
+                {
+                    "url": "https://www.cartacapital.com.br/mundo/andy-burnham-confirma-que-apresentara-candidatura-para-suceder-starmer/",
+                    "title": "Andy Burnham confirma que apresentará candidatura para suceder Starmer – CartaCapital"
+                },
+                {
+                    "url": "https://www.cartacapital.com.br/mundo/terremoto-de-magnitude-71-atinge-a-venezuela/",
+                    "title": "Terremoto de magnitude 7,1 atinge a Venezuela"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa eu só observo, comendo pipoca. Treta de empresa de gestão chinesa com sindicatos. Vocês se merecem. Sem mais comentários."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Gestores chineses aplicam práticas que colidem com expectativas locais e sindicatos brasileiros, levando a paralisações como esta. A Midea deve ceder ou realocar, mas os trabalhadores provavelmente enfrentarão menos vagas caso o custo de conflitos suba e automação avance. O resultado costuma ser previsível em fábricas globais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Nada de novo na Guerra do Irã. Terroristas aumentam o terror, EUA e Israel contra-atacam como devem, e essa novela vai se arrastar. Virou o novo normal. Lembra os anos 90 com Saddam Hussein, início dos 2000 com Bin Laden. Os 2010 foram artificiais, Ocidente ajoelhado ao Oriente Médio. Agora, falsa segurança quebrada."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os ataques dos Estados Unidos contra instalações iranianas e a solicitação de quase 88 bilhões de dólares ao Congresso expõem o ciclo interminável de investimentos militares. Paralelamente, os avanços ucranianos em drones e a preocupação conjunta de potências ocidentais com Taiwan ilustram como a competição global consome recursos sem perspectiva de estabilidade duradoura."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-06-29",
+            "title": "While Europe Slept: How Radical Islam Is Destroying the West from Within",
+            "content": "<p><em>por Bruce Bawer</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/0767920058",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

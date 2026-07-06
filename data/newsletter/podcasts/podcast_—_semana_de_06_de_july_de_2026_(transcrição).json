@@ -1,0 +1,379 @@
+{
+    "title": "Podcast — Semana de 06 de July de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/07/06/",
+    "subtitle": "Lula inova com ponte-contêiner e ministra laranja",
+    "published_at": "2026-07-06",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-07-06.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala, pessoal! Hoje é dia 6 de julho de 2026 e esse é o seu podcast semanal do The M.Akita Chronicles. Não esqueçam de se inscrever no canal e no newsletter pra não perder nada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Mais uma semana cheia de inaugurações que não acabam e esquemas que todo mundo finge não ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando pela Sony. Eles anunciaram que a partir de 2028 os consoles PlayStation vão parar de receber lançamentos físicos em disco. A migração pro digital está completa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Claro, porque o consumidor adora perder a posse dos jogos que comprou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É uma tendência inevitável. A maioria dos jogadores já usa só digital no PC via Steam. O timing não foi o ideal depois dos rumores de GTA 6 sem disco, mas eu prefiro o digital inclusive pra preservação dos títulos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresas ganham controle total e cópias físicas independentes somem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sem o disco físico, fica mais fácil controlar disponibilidade e até remover títulos antigos sem aviso prévio pra ninguém."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O usuário perde a opção de guardar material que pode sumir de servidores daqui a alguns anos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Anatel aprovou faixas de frequência pra Starlink oferecer conexão direta de satélite pro celular no Brasil. O serviço só vai funcionar em parceria com operadoras terrestres como Vivo e Claro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outra regra que força todo mundo a passar pelo mesmo intermediário de sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Starlink nem planeja oferecer isso aqui agora. A Anatel só está definindo as regras, mas obriga o uso de intermediários nacionais sem necessidade real. O consumidor acaba pagando mais caro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Isso limita a concorrência e preserva margens das operadoras antigas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em outros países a Starlink já oferece direto pro celular e a cobertura chega rápido em áreas remotas. Aqui vai atrasar pra quem mais precisa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mantém a dependência dos sistemas que já existem e empurra custo extra pro usuário final."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No meu repositório no GitHub atualizei o benchmark de modelos de linguagem pra coding em Rails. O Opus 4.8 ficou com 95 pontos no Tier A e o DeepSeek V4 Pro também entregou bom resultado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mesmo com notas altas, as alucinações ainda forçam horas extras de correção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os testes mostram que dá pra usar em projetos reais, mas sempre precisa de revisão humana pra evitar bugs em produção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nada substitui o olhar atento de quem já lidou com sistemas complexos por anos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no radar da comunidade dev essa semana tem migração do Arch pro Fedora por produtividade, problemas de anti-cheat no SteamOS e atualizações do Git 2.55. O resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada um busca o que melhora o fluxo diário de trabalho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Fedora traz estabilidade melhor pra quem não quer ficar configurando o tempo todo em vez de programar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o anti-cheat no Steam continua sendo dor de cabeça pra quem joga títulos mais exigentes em hardware variado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Lula viajou pro Rio Grande do Norte e inaugurou um trecho do túnel Major Sales prometendo água do São Francisco. Usaram um contêiner metálico enferrujado da Maersk como estrutura de passagem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O espetáculo político recebe as fotos enquanto a infraestrutura real continua faltando."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na inauguração não tinha água. No dia seguinte quebrou tudo. Foi obra inexistente que gastou milhões só pra enganar o estado. O molusco pegou contêiner enferrujado e ainda reclamou do empresário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Recursos desperdiçados e populações que continuam esperando por soluções que nunca chegam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Esse tipo de obra fantasma desvia verba que poderia ir pra projetos reais de abastecimento na região seca do interior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A população local paga o preço com promessas que se repetem a cada eleição sem entrega concreta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A empresa ACX pagou setecentos mil reais pro escritório da ministra do STM indicada por Lula e amiga da Janja. O suposto dono declarou que era laranja e vendeu seus dados por cinco mil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando uma firma ligada a lavagem bilionária paga valores altos pra escritórios ministeriais, o resultado é previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa rede faz parte do esquema de trinta e nove bilhões do Careca do INSS ligado ao PCC. A ministra está enrolada no meio e tudo vira coincidência enorme. Certamente a culpa é do Bolsonaro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "As investigações atingem só intermediários visíveis enquanto as redes ligadas ao tráfico preservam contatos úteis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os valores pagos por serviços questionáveis mostram como o dinheiro circula sem fiscalização efetiva em camadas mais altas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Padrões assim se repetem porque os elos fortes no topo raramente são tocados pelas operações."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na Bélgica as autoridades desencorajaram o uso de ar-condicionado e sugeriram plantar árvores pra refrescar as casas. A Alemanha fechou usinas nucleares e agora vive racionamento de energia no calor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Moradores vão passar calor sufocante por anos enquanto problemas de saúde aumentam entre os mais vulneráveis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu já falei que foi idiota fechar nucleares. Agora economizam energia e matam gente justificando que é ruim pro meio ambiente. Bem feito pros progressistas que impõem isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Políticas ambientais radicais ignoram necessidades humanas básicas e repetem o padrão de desconexão da realidade cotidiana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Países que mantiveram as usinas nucleares evitam esses cortes e mantêm estabilidade no fornecimento mesmo em ondas de calor prolongadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A conta chega depois, quando a rede não aguenta a demanda e os mais fracos sofrem primeiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nova lei na China obriga pais a ensinar os filhos a amar o Partido Comunista e impõe mandarim como idioma principal. É assimilação forçada de uigures, tibetanos e mongóis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O comunismo repete o erro de impor ideologia pela força e semeia descontentamento duradouro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O maior inimigo do mundo continua sendo o comunismo. Deveria ter morrido em mil novecentos e oitenta e nove, mas o progressista ocidental é burro e atira no próprio pé."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Tentativas de controle cultural geram rebeldia interna que um dia volta pra cobrar o preço."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os índices subiram na semana. S&P quinhentos subiu um vírgula dois por cento. O Dow Jones subiu um vírgula sete e o Nasdaq um vírgula três. O Bitcoin subiu seis por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Movimentos de alta que refletem otimismo seletivo em meio a outras incertezas do cenário global."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Três empresas que controlam noventa por cento do mercado de DRAM foram processadas por cartel. Elas reduziram produção de memória comum pra priorizar chips de inteligência artificial e elevaram preços entre quinhentos e setecentos por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Consumidores e lojas menores pagam a conta enquanto os réus anunciam investimentos bilionários pra sustentar escassez prevista até dois mil e vinte e oito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa decisão de priorizar chips pra inteligência artificial em detrimento da memória padrão afeta quem monta PCs comuns e servidores básicos em escala."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O mercado fica refém de poucos jogadores que decidem o que vale a pena fabricar no momento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Duas semanas atrás todo mundo estava empolgado com a valorização da Micron. Depois veio a investigação de cartel e acionistas migraram pra outros mercados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oligopólios redirecionam produção e nada indica que a concentração vá diminuir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Investidores saem rápido quando surge o risco de multa ou mudança nas regras do jogo em setores concentrados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O padrão se repete em áreas onde três ou quatro nomes dominam toda a cadeia de suprimento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Itaú montou escritórios de fachada em Poá pra pagar menos ISS e gerou dívida tributária de quase vinte bilhões. É o maior devedor da prefeitura de São Paulo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sistemas tributários complexos geram exatamente esse tipo de artimanha e depois castigam quem é flagrado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Se fosse empresa qualquer eu não daria bola, mas por ser banco que lucra com juros abusivos e proteção política não tenho empatia. Bem feito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Proteção política permite manobras que outros setores não conseguem sustentar por muito tempo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bancos grandes contam com redes de influência que amortecem o impacto de dívidas assim quando surgem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado é que o contribuinte comum acaba arcando indiretamente com as distorções do sistema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E sobre o Daily Upside a semana trouxe o iene no mínimo em quarenta anos por causa do petróleo. ETFs globais bateram recorde de vinte e três trilhões de dólares. O resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Indicadores que mostram como o fluxo de capital global responde a choques em commodities e novas oportunidades."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O trailer de A Odisseia do Nolan já virou o mais odiado de Hollywood desde Branca de Neve. O filme usa tradução feminista revisionista e atores com agenda ideológica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Filmes com essa fórmula vêm fracassando há anos e o recorde de dislikes já mostra o caminho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O público rejeita quando a história fica em segundo plano pra empurrar mensagem em vez de entregar entretenimento puro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "As bilheterias posteriores costumam confirmar o que os dislikes antecipam com bastante antecedência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No meu YouTube a semana trouxe vídeos sobre tokens de inteligência artificial caros, a polêmica da Odisseia e problemas de fabricação no SuperStation. O resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Temas que misturam tecnologia e controvérsia costumam gerar bastante discussão na comunidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O livro da semana é SJWs Always Lie do Vox Day. Ele explica como identificar e resistir a ataques de guerreiros da justiça social que mentem pra policiar pensamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Táticas que se repetem em vários campos, da mídia à tecnologia, sem muita variação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O livro detalha estratégias pra não cair nas armadilhas ideológicas que paralisam discussões honestas em qualquer ambiente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Útil pra quem precisa navegar ambientes onde o consenso é imposto por pressão e não por argumentos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não esqueçam de se inscrever e até semana que vem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Até lá, acompanhem os resultados e não os discursos. O roteiro costuma se repetir."
+        }
+    ]
+}

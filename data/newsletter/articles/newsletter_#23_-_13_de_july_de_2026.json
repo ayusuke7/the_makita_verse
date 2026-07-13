@@ -1,0 +1,674 @@
+{
+    "title": "Newsletter #23 - 13 de July de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/07/13/",
+    "subtitle": "Dívida explode, Irã ataca e corrupção na UE",
+    "published_at": "2026-07-13",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Fiz o Fable 5 analisar código do TikTok, Clash of Kings e Gov.br - Entendendo Fingerprint",
+            "content": "<p>No meu artigo analisei com o Fable 5 o código decompilado de três apps Android baixados do APKPure. Mostrei que o TikTok coleta fingerprint persistente em libs nativas, varre Wi-Fi e contatos, envia dados para ByteDance e terceiros, mas sem keylogger ou malware explícito. O Clash of Kings revelou UUID resistente a reset em Lua puro, monetização predatória e pouca coleta de dados.</p><p>O gov.br se destacou pela boa privacidade, tráfego só para órgãos oficiais, certificate pinning e ausência de trackers comerciais. Concluí que o fingerprint é o mecanismo principal que transforma o usuário em produto e que qualquer desenvolvedor hoje consegue fazer análises semelhantes com LLMs.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/3960fa97f743cce396d729b594a12c0a-ai-image.png",
+            "source": "https://akitaonrails.com/2026/07/08/fable-5-analisar-codigo-tiktok-clash-of-kings-govbr-fingerprint/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A análise mostra que o fingerprinting persistente em apps como TikTok transforma o usuário em produto rastreável para ByteDance, independentemente de resets. O gov.br surge como exceção ao limitar tráfego a órgãos oficiais, mas o padrão do mercado favorece coleta agressiva. Com LLMs acessíveis, devs podem expor isso facilmente, porém o modelo econômico de dados não muda."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Benchmarks de LLM: Grok 4.5 e GPT 5.6 Sol",
+            "content": "<p>Na minha rodada mais recente do benchmark de coding em Rails 8, o Grok 4.5 alcançou 87/100 e entrou na Tier A ao corrigir falhas anteriores de Stimulus, testes e integração com RubyLLM. O GPT 5.6 Sol estreou com 92/100, usando menos tokens e rodando via assinatura, mas sem system prompt via with_instructions e com persistência limitada via campo oculto.</p><p>Reauditorias cegas derrubaram o GPT 5.5 para 85 e o GPT 5.5 para 95 por falhas no Dockerfile e cobertura de testes de erro. O Claude Opus 4.7 lidera com 97, enquanto o Grok 4.5 empata com open source cinco vezes mais barato e o Sol só compensa em planos já pagos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/d84094aea8fdd8ac703dd08ed3c9c6d7-ai-image.png",
+            "source": "https://akitaonrails.com/2026/07/09/llm-benchmark-grok-4-5-gpt-5-6-sol/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Apesar de Claude Opus liderar com 97, a reavaliação que baixou outros modelos indica instabilidade nos testes. Grok 4.5 se destaca pelo equilíbrio entre performance e preço baixo do open source, mas todos ainda demandam correções humanas para cobrir falhas em Dockerfiles e testes de erro, limitando o benefício real em projetos Rails."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Frank GO: brincando de GO com IA",
+            "content": "<p>Eu comecei a gostar de Go pelo mangá Hikaru no Go e sempre joguei sozinho, estudando tsumego e partidas históricas em formato SGF. O problema era o material espalhado pela internet sem um app simples e bonito, então criei o Frank GO.</p><p>Ele é um fork do Sabaki integrado ao KataGo, com pintura de área, placar em tempo real, nomes de jogadas e coleções embutidas para estudo offline. Disponível via AUR no Arch, instalador no Windows e brew no macOS, o app roda sem GPU ou conta e foca em aprendizado solo.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/06/42275117c9a974e42c18177745f62257-image.jpg",
+            "source": "https://akitaonrails.com/2026/07/06/frank-go-brincando-de-go-com-ia/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Criar um fork proprio com integracao offline para estudo de Go corrige a dispersao tipica de recursos na web. O resultado permite pratica continua sem depender de contas, servidores ou GPUs, algo que expõe como solucoes simples ainda superam ecossistemas inchados voltados a conectividade obrigatoria."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Microsoft Majorana 2: Qubits de 20 Segundos, Mesmas Perguntas",
+            "content": "<p>Em 2 de junho de 2026, na conferência Build em San Francisco, a Microsoft apresentou o Majorana 2, chip quântico topológico de segunda geração. A empresa alega melhoria de mil vezes na estabilidade dos qubits em relação ao Majorana 1 e reduziu o prazo para computador quântico escalável de 2033 para 2029. O artigo técnico relata tempos de vida de paridade Z superiores a 20 segundos em dispositivo tetron InAs-Pb.</p><p>A troca para chumbo como supercondutor elevou o gap topológico para cerca de 70 µeV, com mobilidades e comprimentos de localização superiores aos da geração anterior. O trabalho não apresenta medidas X, não demonstra qubits funcionais, portas quânticas ou emaranhamento, e os dados não foram revisados por pares.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/08/7ff40dcda9ada90b7da0ba9c4a953251-image.jpg",
+            "source": "https://postquantum.com/industry-news/microsoft-majorana-2-analysis/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Quantum computing voltou a ser discutido esta semana, em boa parte por causa do anúncio do Majorana 2 da Microsoft. Continua a mesma coisa: só vaporware. No anúncio do Majorana 1, o paper não demonstra que eles atingiram Majorana. O novo paper também não demonstra. Nenhum pesquisador de verdade leva isso a sério. Até agora é só marketing puro e nada mais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A redução para 2029 ignora a ausência total de qubits ou portas demonstradas. O efeito será mais capital atraído por promessas sem base, desviando talentos de experimentos sólidos para atender expectativas de investidores que exigem datas cada vez mais próximas."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Reescrevendo Bun em Rust | Bun Blog",
+            "content": "<p>Bun começou como uma porta linha a linha do transpiler de esbuild do Go para Zig, escrito por um desenvolvedor em um ano. Atualmente, o CLI do Bun registra mais de 22 milhões de downloads mensais, com suporte de empresas como Vercel, Railway e DigitalOcean.</p><p>A equipe reescreveu o Bun em Rust em 11 dias usando fluxos dinâmicos do Claude Code, mantendo a arquitetura, performance e conjunto de recursos originais. O objetivo é substituir problemas de gerenciamento manual de memória por verificações do borrow checker, com revisão adversarial via múltiplos agentes de IA e suíte de testes independente.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/08/e54118d968a72b8b4bd8aeaeeb92db46-image.jpg",
+            "source": "https://bun.com/blog/bun-in-rust",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Este artigo controverso desta semana é do Jarred — agora na Anthropic — e explica como migraram o Bun de Zig para Rust. Recomendo a leitura: é bem explicado e detalhado. Mostra que não é fácil nem barato, exige domínio técnico avançado e está muito longe de um prompt “vibe coded” pedindo para reescrever o Bun em Rust."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Reescrever o Bun de Zig para Rust em 11 dias via Claude mostra que arquiteturas sólidas permitem migrações rápidas entre linguagens de baixo nível, trocando gerenciamento manual de memória pelo borrow checker. Projetos sem essa base estruturada continuarão atolados, independentemente de quanto a IA prometa acelerar o processo."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "A Resposta sobre Bun em Rust que Andrew Kelly deveria ter feito",
+            "content": "<p>Eu li o post do Jarred Sumner sobre a reescrita do Bun em Rust e concordei com a decisão para o contexto do projeto. Fiquei decepcionado com a resposta de Andrew Kelley, que priorizou ataques pessoais e fofocas em vez de argumentos técnicos sobre arquitetura, então usei Claude e GPT para gerar a resposta que ele deveria ter escrito. Analisei como Rust transforma use-after-free, double-free e leaks em erros de compilação via ownership e Drop, com exemplos reais do código do Bun.</p><p>Mostrei que Zig oferece errdefer e DebugAllocator para detectar problemas em tempo de teste, mas Rust encapsula contratos unsafe em FFI com JavaScriptCore e libuv, reduzindo o espaço de estados inválidos em meio milhão de linhas. Mencionei ainda meu dashboard github-visualize como projeto paralelo.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/09/53adcdbe9db558a09a46920258000438-image.jpg",
+            "source": "https://akitaonrails.com/2026/07/09/resposta-sobre-bun-em-rust-que-andrew-kelly-deveria-ter-feito/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A reescrita do Bun em Rust mostra como ownership transforma bugs de memória em erros de compilação, superando verificações de runtime do Zig em integrações FFI. O foco de Kelley em ataques pessoais desvia do debate sobre arquitetura, prejudicando avanços em bases de código extensas. O resultado é um sistema mais robusto, com menos espaço para falhas críticas."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Como me precaver pros meus agentes não apagarem minhas coisas?",
+            "content": "<p>Eu venho usando Claude Code, Codex e OpenCode diariamente desde fevereiro em modo YOLO, sem permissões, gerando quase 40 repositórios e mais de 500 mil linhas de código sem incidentes graves. Atribuo os casos de deleções acidentais a prompts mal elaborados e uso o ai-jail, meu sandbox em Rust com bwrap ou sandbox-exec, para isolar o filesystem do projeto em tmpfs.</p><p>Recomendo BTRFS com snapshots via Timeshift ou snapper para recuperação instantânea, Time Machine no macOS e restic em NAS Synology para backups externos diários com retenção definida; no ambiente corporativo, proíbo agentes em produção e permito apenas em staging controlado.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/82f07a225c0427fb34d17de755bc2c15-image.jpg",
+            "source": "https://akitaonrails.com/2026/07/11/como-me-precaver-pros-meus-agentes-nao-apagarem-minhas-coisas/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Depender de sandboxes e snapshots pressupõe que a IA só quebrará coisas de forma recuperável. O perigo real surge quando o código gerado se acumula a ponto de ninguém conseguir depurá-lo ou mantê-lo sem recorrer à mesma automação cega, ampliando a fragilidade geral do projeto com o tempo."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Usando IA pra resolver meus probleminhas do dia-a-dia",
+            "content": "<p>Eu resolvi reunir em um único artigo vários projetinhos open source que criei para resolver fricções do meu dia a dia, em vez de escrever um post para cada um. Usei IA para criar clock-tui com widgets como google-calendar-tui e ghpending, além de temas Evangelion, o dashboard github-visualize para visualizações animadas de repositórios e o fork Frank Geary que adiciona recolhimento de barra lateral e autocompletar de contatos.</p><p>Também desenvolvi frank_scanlation para concentrar leituras de mangás, frank_lyrics para repetir trechos de músicas no YouTube via LRCLIB e frank_type como treinador de digitação single-player com prosa real em Rails. Todos os projetos estão no meu GitHub com binários e instruções de instalação.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/a5c52c181f53a590fbad93862b71c275-image.jpg",
+            "source": "https://akitaonrails.com/2026/07/12/usando-ia-pra-resolver-meus-probleminhas-do-dia-a-dia/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esses pequenos projetos open source criados por Akita utilizando inteligência artificial ilustram bem a busca individual por ferramentas que reduzem atritos no trabalho diário. No entanto, a maioria continua dependendo de serviços centrais como repositórios públicos e sites de vídeo, o que limita o verdadeiro avanço em direção à independência total."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-07-13",
+            "title": "Momento ‘LOL’ de Engenheiro da OpenAI Preparou o Terreno para Disputa Legal com a Apple",
+            "content": "<p>Quando o engenheiro de iPhone <strong>Chang Liu</strong> pediu demissão para trabalhar na nascente divisão de hardware da OpenAI, a Apple Inc. diz que ele saiu com mais do que apenas anos de experiência.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/5362d8bd8ea7edc965304e184d4b3e73-ai-image.png",
+            "source": "https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple",
+            "links": [
+                {
+                    "url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+                    "title": "EXCLUSIVO: Beijing está considerando limitar o acesso estrangeiro à China’s …"
+                },
+                {
+                    "url": "https://br-linux.org/2026/01/renasce-o-caso-sco-agora-uma-empresa-ainda-mais-desconhecida-quer-ser-dona-do-linux.html",
+                    "title": "Renasce o “caso SCO”: agora uma empresa ainda mais desconhecida quer ser dona do Linux"
+                },
+                {
+                    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+                    "title": "Anunciando TypeScript 7.0 - TypeScript"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa ficou feia pro Sam Altman. Eu sempre falei que não gosto dele, e isso é mais uma evidência: ele incentivava candidatos vindos de outras empresas a levarem segredos corporativos. Desta vez foi da Apple, que vai processá-los."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa semana a Apple acusou a OpenAI de roubar dados privados, usando ex-funcionários para isso. Problemas no GitHub já são rotina, mas de novo surgiram vulnerabilidades exploradas. O de sempre."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A migração para Codeberg e self-hosting expõe cansaço com indisponibilidades do GitHub, mas a falha do agente de IA que vaza repositórios privados com prompts simples revela arquitetura insegura de permissões em ferramentas automatizadas. Antigravity gerando microsserviços full-stack em minutos só multiplica código que depois exigirá revisões manuais exaustivas de segurança."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "EUA e Irã trocam ataques enquanto Teerã diz novamente que o estreito de Ormuz está fechado",
+            "content": "<p>O Corpo da Guarda Revolucionária Islâmica do Irã afirmou ter fechado o Estreito de Hormuz após atingir um navio que trafegava por rota não autorizada e desligou seus sistemas. As forças dos EUA responderam com uma terceira rodada de ataques para degradar a capacidade do Irã de atingir navios civis e comerciais.</p><p>Um navio porta-contêineres com bandeira de Chipre sofreu danos graves no compartimento de máquinas e um tripulante está desaparecido. O Irã alertou para resposta severa enquanto seu ministro das Relações Exteriores se reunia com o homólogo de Omã para discutir mecanismos de passagem segura; retórica mútua de vingança entre Mojtaba Khamenei e Donald Trump precedeu o incidente.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/b0b965cddbe968366f029114c47268d1-image.jpg",
+            "source": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa é a nova rotina: os terroristas iranianos bombardeiam navios no Estreito de Ormuz. Estados Unidos ou Israel vão lá e bombardeiam para retaliar. O Irã pede água e diz que quer negociar, mas no dia seguinte amassa o acordo e faz merda de novo. Esse é o novo normal. O filho que sobrou do Khamenei precisa ser eliminado logo de uma vez, e o resto da cadeia de sucessão."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O Estreito de Hormuz vira teatro de retaliações cíclicas onde o regime iraniano testa limites e os EUA respondem para manter rotas abertas. O resultado são navios danificados, tripulantes desaparecidos e custos elevados para todo o comércio global. Enquanto herdeiros do poder mantêm essa escalada, a liberdade de navegação permanece refém de ambições locais."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "Pfizer, Ursula von der Leyen e corrupção de €35 bilhões",
+            "content": "<p>A Procuradoria Europeia abriu investigação sobre as compras de vacinas contra a covid-19 pela União Europeia, com foco no papel da presidente da Comissão, Ursula von der Leyen, no contrato com a Pfizer. O acordo previa até 1,8 bilhão de doses e valor estimado em 35 bilhões de euros, após troca de mensagens de texto entre von der Leyen e o CEO da Pfizer, Albert Bourla, relatadas pelo New York Times.</p><p>A ouvidoria da UE acusou a Comissão de má administração por não localizar as mensagens, e o Tribunal de Contas Europeu apontou falta de transparência e negociação pessoal de von der Leyen sem equipes conjuntas. A eurodeputada Kathleen van Brempt e o comitê especial do Parlamento Europeu sobre covid-19 afirmaram que acompanharão o caso, incluindo a ausência de registro das negociações preliminares.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/191c01e99346306754152f041023d87d-image.jpg",
+            "source": "https://moderndiplomacy.eu/2022/10/21/pfizer-ursula-von-der-leyen-and-e35-billion-corruption/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Finalmente, uma das maiores tiranas totalitárias da história, presidente da Comissão Europeia, Ursula von der Leyen, enfrenta investigações sobre sua responsabilidade no caso de corrupção com a Pfizer e 1,8 bilhões de doses de vacina de Covid, que ela negociou diretamente, pessoalmente, com comunicação opaca, registros que sumiram e várias irregularidades."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Decisões pessoais de von der Leyen em contratos com a Pfizer expõem a fragilidade dos mecanismos de supervisão europeus. O mais provável é que a presidente continue em seu cargo sem grandes impactos, enquanto a falta de prestação de contas reforça a percepção de uma elite intocável operando acima das regras comuns."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "Petro não reconhece a legitimidade de De la Espriella e o presidente eleito suspende o processo de transição na Colômbia | CNN",
+            "content": "<p>O presidente eleito da Colômbia, Abelardo de la Espriella, suspendeu o processo de transição com o governo de Gustavo Petro após o mandatário saliente negar a legitimidade das novas autoridades e afirmar que De la Espriella não venceu a eleição, alegando fraude algorítmica sem apresentar provas.</p><p>De la Espriella ordenou a suspensão imediata do empalme e anunciou que, a partir de 7 de agosto, revogará os principais mecanismos da política de paz total, enquanto Petro convocou marchas para 20 de julho e criticou a Registraduría por usar empresas estrangeiras de cibersegurança.</p><p>O vice-presidente eleito, José Manuel Restrepo, afirmou que a decisão não interrompe os trabalhos de coleta de informações sobre a realidade nacional.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/08/be28ab08ad12c7a73e6bf2bf1c1dca42-image.jpg",
+            "source": "https://cnnespanol.cnn.com/2026/07/07/colombia/petro-desconoce-espriella-proceso-transicion-orix",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O comunista e projeto de ditador Gustavo Petro não reconhece a derrota e anuncia golpe de Estado na Colômbia. O que chama atenção é a mídia. No Brasil, os títulos são “Presidente eleito acusa Petro de querer dar golpe”, e nos EUA, “Trump-backed president-elect acusa predecessor de tentativa de golpe”. Mídia desonesta e canhota, como sempre."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quando um líder cessante rejeita resultados eleitorais sem provas, isso estabelece um precedente onde disputas futuras se tornam intermináveis. A suspensão da transição adia a governança, beneficiando apenas quem prefere o caos à concessão do controle. As marchas e críticas à Registraduría só acirram a instabilidade já evidente."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "Onda de calor ligada a mais de 5.000 mortes na Alemanha",
+            "content": "<p><strong>A onda de calor do início do verão foi associada a mais de 5.000 mortes na Alemanha</strong>, com especialistas alertando que os efeitos letais das mudanças climáticas estavam se tornando uma constante na vida diária.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/10/deb942dcfa1e45942216008255239d49-ai-image.png",
+            "source": "https://www.telegraph.co.uk/world-news/2026/07/09/heatwave-linked-to-more-than-5000-deaths-in-germany/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Quando a fracassada agenda climática da Alemanha fracassou tanto que agora falta energia até para ar-condicionado e o calor já matou mais que o terremoto na Venezuela. Fechar usina nuclear foi o maior erro da história recente. Imbecis."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "Apoiadores do regime e a oposição compartilham imagens geradas por IA do funeral de Khamenei",
+            "content": "<p>Tanto apoiadores do regime iraniano quanto membros da oposição compartilharam imagens geradas por IA dos funerais do aiatolá Ali Khamenei, morto em 28 de fevereiro em um ataque dos EUA e de Israel. Usuários pró-regime postaram vídeos e fotos de multidões na Mesquita Grande Mosalla e na Torre Azadi que foram criados por IA, identificados por diferenças visuais e ferramentas como o SynthID.</p><p>Integrantes da oposição favoráveis a Reza Pahlavi divulgaram uma imagem gerada por IA que mostra o rapper Toomaj Salehi no funeral, sugerindo traição à oposição. O conteúdo foi identificado como falso por ferramentas de detecção de IA devido a erros em textos e marcas d’água.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/19727589e26607d30b65155c1ecb0fb1-image.jpg",
+            "source": "https://www.france24.com/en/middle-east/20260708-regime-supporters-opposition-share-ai-generated-images-khamenei-funeral",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Olha só, especialistas da USP estimaram que milhões apareceram no funeral do terrorista Khamenei. Obviamente, ninguém sério usa fotos alteradas por IA. E, obviamente, ninguém acreditou nesse fiasco."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Quando o regime iraniano e a oposição recorrem a imagens geradas por IA para simular multidões ou traições nos funerais, fica claro que a realidade não oferece o espetáculo desejado. Ferramentas de detecção desmascaram rapidamente essas fraudes, expondo a fraqueza de narrativas que dependem de ilusões em vez de fatos concretos."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "O Acerto de Contas com a COVID que Nunca Veio",
+            "content": "<p>Senador Ron Johnson divulgou relatórios e realizou audiências em abril e junho de 2026 revelando que funcionários do FDA sabiam da inadequação do monitoramento VAERS para vacinas contra covid, ignorando sinais de segurança como mortes cardíacas e derrames para evitar hesitação vacinal. Os documentos apontam supressão de estudos sobre ligações com câncer. Tulsi Gabbard, como DNI, desclassificou registros sobre financiamento de pesquisa de ganho de função em Wuhan por Fauci e a cobertura da origem do vírus.</p><p>A mídia tradicional ignorou as revelações, enquanto a administração Trump atual mostrou silêncio sobre pedidos de responsabilização. O texto compara 25 mortes que levaram à retirada da vacina contra gripe suína em 1976 com cerca de 39 mil óbitos reportados ao VAERS após as vacinas de covid. Instituições de saúde, mídia e agências mantêm as vacinas no mercado apesar dos dados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/a3fef90b201d75bb189c6df985a97758-image.jpg",
+            "source": "https://www.zerohedge.com/covid-19/covid-reckoning-never-came",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Na semana em que a tirana Ursula se vê pega em corrupção com a Pfizer, é bom relembrar todas as merdas feitas pelos governos durante a pandemia. E, como sempre, ninguém vai ser punido como deveria."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "As revelações indicam que agências sanitárias ignoraram sinais de risco para sustentar a campanha vacinal. Milhares de relatos de mortes foram minimizados enquanto dados sobre origens virais foram ocultados. A ausência de sanções significa que futuros episódios de negligência institucional passarão sem correção, mantendo o status quo e a desconfiança pública."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-07-13",
+            "title": "Administração Trump intima jornalistas do New York Times por nova reportagem sobre o Air Force One",
+            "content": "<p>A administração Trump emitiu intimações a jornalistas do New York Times após reportagem sobre falhas de segurança no novo Air Force One, avião de US$ 400 milhões doado pelo Qatar. Os repórteres Julian E Barnes, Eric Lipton, Tyler Pager e Eric Schmitt foram convocados pela Justiça para depor perante um grande júri em Manhattan após a publicação de informações classificadas sobre a ausência de sistemas antimísseis.</p><p>O Departamento de Justiça afirmou investigar vazamentos que afetam a segurança nacional, enquanto o National Press Club, a Freedom of the Press Foundation e a White House Correspondents’ Association condenaram as intimações como ameaça à liberdade de imprensa. O Times relatou que Trump usou parcialmente o jato antigo no retorno de cúpula da Otan na Turquia por recomendação do Serviço Secreto, e a Casa Branca negou qualquer deficiência de segurança.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/09b5d555a928f284ebb0542a4e9b7390-image.jpg",
+            "source": "https://www.theguardian.com/us-news/2026/jul/11/justice-department-subpoenas-new-york-times-air-force-one",
+            "links": [
+                {
+                    "url": "https://oantagonista.com.br/analise/o-brasil-nao-perdeu-para-a-noruega-perdeu-para-a-realidade-chamem-o-gilmar/",
+                    "title": "O Brasil não perdeu para a Noruega. Perdeu para a realidade. Chamem o Gilmar"
+                },
+                {
+                    "url": "https://www.theguardian.com/world/2026/jul/06/china-missile-test-south-pacific",
+                    "title": "China testa míssil de longo alcance no Pacífico Sul em movimento que Austrália condena como ‘desestabilizador para a região’"
+                },
+                {
+                    "url": "https://veja.abril.com.br/politica/governador-do-piaui-sanciona-lei-que-obriga-empresarios-a-contratarem-presos/",
+                    "title": "Governador do Piauí sanciona lei que obriga empresários a contratarem presos"
+                },
+                {
+                    "url": "https://www.bbc.com/news/live/c17y1vnn2qxt",
+                    "title": "Trump ameaça golpear o Irã ‘com força novamente esta noite’ após dizer que cessar-fogo ‘acabou’ - atualizações ao vivo"
+                },
+                {
+                    "url": "https://www.zerohedge.com/geopolitical/return-war-iran-sends-ballistic-missiles-kuwait-bahrain-qatar-jordan-after-us-struck",
+                    "title": "Retorno à Guerra: Irã Dispara Mísseis Balísticos Contra Kuwait, Bahrein, Catar e Jordânia, Após EUA Atacarem 170 Alvos Iranianos"
+                },
+                {
+                    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/07/09/radares-com-ia-comecam-a-multar-motoristas-sem-cinto-e-ao-celular-no-rodoanel-em-sp.ghtml",
+                    "title": "Radares com IA começam a multar motoristas sem cinto e ao celular no Rodoanel em SP | G1"
+                },
+                {
+                    "url": "https://www.ainvestigacao.com/p/caso-homeschooling-cnj-investiga",
+                    "title": "Caso homeschooling: CNJ investiga juiz que condenou pais de Jales"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Passou da hora desses jornaleiros do New York Times receberem punição. Pasquim."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Investigar vazamentos sobre a ausência de sistemas defensivos em um jato presidencial prioriza o controle de dados em vez da correção das falhas. Com menos reportagens desse tipo, o público saberá menos sobre riscos reais em equipamentos críticos, deixando a segurança nacional dependente apenas de versões oficiais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Tá ficando enjoativo toda semana: o Irã diz que vai negociar cessar-fogo, mas reinicia ataques aleatórios, toma bomba no traseiro, recua e pede mais negociação. Fica nessa palhaçada. Agora o foco voltou pra Ucrânia, que ganhou licença pra produzir mísseis Patriot em casa — bom contra a Rússia. Outra novela tediosa que já deveria ter acabado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Entre ataques dos EUA ao Irã, Tomahawks alemães e defesas antimísseis ucranianas em testes, o padrão antigo se repete sem surpresa. Nações acumulam capacidade de longo alcance e sistemas de interceptação, apostando que superioridade técnica trará vantagem duradoura. A história costuma mostrar que esses investimentos apenas elevam o custo e a escala do próximo confronto inevitável."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-07-13",
+            "title": "Dívida pública brasileira dispara e chega a 96,5% do PIB",
+            "content": "<p>A dívida pública brasileira deve alcançar 96,5% do PIB até o fim de 2026, segundo o Instituto Teotônio Vilela com base em projeções do FMI, subindo de 83,9% em 2022. O Brasil é o segundo país do G20 com maior aumento no período, atrás apenas da China, e supera economias emergentes como México e África do Sul. O endividamento deve continuar crescendo e atingir 105,5% do PIB até o fim da próxima gestão presidencial.</p><p>A Instituição Fiscal Independente (IFI) projeta que a dívida pode chegar a 115% do PIB em 2036 caso persistam déficits primários, sendo necessário superávit de 2,1% do PIB ao ano para estabilizá-la. Pelo critério do Banco Central, a dívida subiria para 83,6% do PIB em 2026. As diferenças entre as projeções decorrem das metodologias utilizadas pelo FMI, Banco Central e Tesouro Nacional.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/10/f56cdc9dff159770afc328b908a100af-image.jpg",
+            "source": "https://revistaoeste.com/economia/divida-publica-brasileira-dispara-e-chega-a-965-do-pib/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O crescimento explosivo da divida publica reforça a necessidade de olhar para o longo prazo em vez de ciclos eleitorais. Historicamente, paises que permitem deficits persistentes acabam transferindo o problema para inflacao ou impostos mais altos. A lição pratica para quem opera negocios ou investe e priorizar ativos reais e eficiencia operacional agora."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Projeções de dívida pública alcançando mais de cem por cento do PIB indicam que o ajuste fiscal será inevitável em algum momento. Quando chegar, as opções se reduzem a cortes de gastos ou aumento de tributação, e nenhum governo costuma escolher a primeira sem pressão externa. O custo recai sobre a produtividade e o crescimento futuro."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-07-13",
+            "title": "Trump diz que não quer nada a ver com a Espanha: ‘Corte todo o comércio",
+            "content": "<p>Donald Trump criticizou duramente a Espanha por não contribuir o suficiente para a OTAN em coletiva de imprensa em Ancara, ao lado do secretário-geral Mark Rutte. Ele pediu o corte total do comércio com o país, classificou os espanhóis como “pessoas ruins” e “desesperados” e afirmou que a Espanha é o único membro que não se comprometeu a gastar 5% do PIB em defesa até 2035. O país destinou 2,1% do PIB em 2025.</p><p>Rutte observou que a Espanha alcançou 2% de gastos. Trump declarou-se “muito insatisfeito” com a OTAN e afirmou que o cessar-fogo com o Irã terminou. Os comentários provocaram alta de quase 10 pontos-base no rendimento dos títulos espanhóis de 10 anos, queda superior a 2,8% no IBEX 35 e recuo de 1,9% no Stoxx 600.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/08/3a34ab276d04c08a0a8c11026f462799-image.jpg",
+            "source": "https://www.cnbc.com/2026/07/08/trump-spain-nato-trade-summit.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A Espanha tem um governo socialista de extrema esquerda, chefiado pelo vil Sánchez. São os que menos contribuem para a OTAN, adoram criticar os Estados Unidos, mas querem continuar o comércio com eles. É como seu “melhor amigo” querer pegar sua namorada e achar ruim você reclamar. Se forem em frente com as sanções, eu pessoalmente acho excelente. Sánchez é um câncer que precisa cair."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os mercados espanhóis reagiram de imediato com títulos mais caros e queda nas ações. Um governo socialista que gasta o mínimo em defesa enquanto critica os Estados Unidos agora corre o risco real de perder acesso comercial. A população arcará com o preço de uma ideologia que não paga pela própria proteção."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-07-13",
+            "title": "Por que ninguém fala do tarifaço da China que afeta o Brasil | Diogo Schelp",
+            "content": "<p>A China implantou em janeiro de 2026 uma sobretaxa de 55% sobre carnes importadas que excedam cota anual, elevando a alíquota total a 67%. Para o Brasil, o limite isento foi fixado em 1,106 milhão de toneladas, abaixo das 1,68 milhão exportadas em 2025. Até junho, o país já havia preenchido 98,5% da cota, com esgotamento previsto para agosto, forçando frigoríficos a adotar férias coletivas e reduzir abates.</p><p>O excedente deve ser redirecionado ao mercado interno, pressionando para baixo o preço da arroba do boi. A União Europeia suspendeu importações de carne bovina brasileira a partir de setembro. O governo brasileiro negocia a ampliação da cota a partir de 2027 e obteve a suspensão de restrições a três frigoríficos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/10/20f5895907a13e2d00e31324df04c460-image.jpg",
+            "source": "https://veja.abril.com.br/coluna/diogo-schelp/por-que-ninguem-fala-do-tarifaco-da-china-que-afeta-o-brasil/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Sempre é bom lembrar que a China não é nossa aliada."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Exportadores de carne do Brasil enfrentam paradas forçadas nos frigoríficos porque a China ajustou regras de importação sem aviso. O excedente pressiona preços locais para baixo e as negociações por mais cota só valem a partir de 2027. Confiar em um regime centralizado para sustentar a balança comercial sempre termina expondo quem depende dele."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-07-13",
+            "title": "Split payment’? Entenda o sistema 170 vezes maior que o Pix que vai redistribuir impostos sobre o consumo após a reforma",
+            "content": "<p>A reforma tributária brasileira introduzirá o “split payment”, sistema que dividirá automaticamente os tributos no momento da compra, direcionando o valor dos impostos em tempo real aos cofres públicos sem passar pela conta da empresa. O Ministério da Fazenda investiu R$ 2 bilhões no desenvolvimento da plataforma, que processará 70 bilhões de documentos por ano — 170 vezes o volume do Pix.</p><p>O sistema integrará meios de pagamento à emissão de notas fiscais e substituirá progressivamente IPI, PIS, Cofins, ICMS e ISS pelos novos CBS e IBS a partir de 2027, com transição até 2033. Em junho, a Receita Federal e o Comitê Gestor do IBS publicaram a documentação técnica para que bancos, fintechs e operadoras de pagamento adaptem seus sistemas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/d297d3bed0c73442a477c70039e6e9fb-image.jpg",
+            "source": "https://oglobo.globo.com/economia/noticia/2026/07/09/split-payment-entenda-o-sistema-170-vezes-maior-que-o-pix-que-vai-redistribuir-impostos-sobre-o-consumo-apos-a-reforma.ghtml",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Roubo automatizado. Este país de merda só prioriza impostos. Usar esse dinheiro em coisas úteis? Jamais. O Brasil arrecada mais de 500 bilhões de dólares por ano. O Plano Marshall, que reconstruiu a Europa pós-Segunda Guerra, custou no máximo 170 bilhões. O Brasil joga tudo fora em quatro meses sem nada para mostrar. Problema de arrecadação? Bilionários? Não seja idiota."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esse sistema de split payment assegura que os impostos cheguem aos cofres públicos imediatamente após cada transação, sem depender da boa vontade das empresas. O investimento bilionário em tecnologia para processar volumes absurdos indica que a prioridade é maximizar a arrecadação, o que provavelmente levará a mais gastos ineficientes em vez de reformas estruturais."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-07-13",
+            "title": "Nem juros acima de 8% destravam demanda pelas NTN-Bs",
+            "content": "<p>O estresse recente nos mercados de renda fixa, com alta relevante nas taxas das NTN-Bs, levou o Tesouro Nacional a alterar sua estratégia de gestão da dívida. No leilão de terça-feira (7), o Tesouro fez oferta apenas protocolar de NTN-Bs e concentrou as emissões em LFTs, papéis atrelados à Selic.</p><p>A sessão registrou a maior venda semanal de LFTs do ano, movimento que acende sinal de alerta no mercado. Segundo Sérgio Goldenstein, da Eytse Estratégia, ao Tesouro resta concentrar emissões em LFTs, o que piora a composição da dívida, mas permite maior prazo médio de emissão.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/11/39f4201b8c6fef7439398b20f3cadce2-image.jpg",
+            "source": "https://valor.globo.com/financas/intraday/post/2026/07/tesouro-evita-ntn-bs-e-intensifica-emissoes-de-lfts.ghtml",
+            "links": [
+                {
+                    "url": "https://globalmarketsinvestor.beehiiv.com/p/south-korean-stocks-entered-a-technical-bear-market",
+                    "title": "Ações sul-coreanas entraram em um bear market técnico"
+                },
+                {
+                    "url": "https://www.portaltemponovo.com.br/apos-70-anos-multinacional-com-12-mil-funcionarios-fecha-mega-fabrica/",
+                    "title": "Após 70 anos, multinacional com 12 mil funcionários fecha mega fábrica e retira produção do Brasil"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Quando o governo tributador atira no próprio pé — acho lindo.O IOF de 5% nos fundos de previdência arrecadou mais do que o Tesouro paga a mais em juros nas NTN-Bs?Não.Nem perto.Antes: captação líquida de R$ 60,8 bi em 2024. Depois: R$ 4 bi — queda de 93,5%. Sem dinheiro novo, os fundos param de comprar NTN-B e a taxa explode (IPCA+2035 a 8,05%).IOF arrecadou ~R$ 20 bi. Cada 1% a mais de juro numa dívida de R$ 7 tri custa R$ 70 bi/ano. O governo matou o principal comprador da própria dívida para arrecadar uma fração do que agora gasta a mais em juros."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A lógica é brutal: o Tesouro fugiu para as LFTs porque ninguém quer comprar NTN-B a qualquer preço razoável. Isso não resolve nada — só troca risco de mercado por risco de refinanciamento e amarra ainda mais a dívida à Selic. Quanto mais LFT, menos espaço para o Banco Central cortar juros no futuro sem desestabilizar o próprio financiamento do governo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "S&P e Nasdaq sobindo enquanto Dow cai indica rotação clara: mercado saindo de industriais e entrando em tech. O alerta da BlackRock sobre o S&P 500 não ser suficiente para aposentadoria é marketing deles para vender produtos mais complexos — mas tem um fundo de verdade: concentração excessiva em poucos papéis é risco real. O Nikkei caindo 2% merece atenção; iene fraco está criando pressões estruturais no Japão. Bitcoin estável é sinal de mercado em modo de espera, aguardando o próximo gatilho macro."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Ataques ao Irã, sanções ao petróleo, Alemanha comprando Tomahawks — e Wall Street subiu. O mercado leu guerra como contrato de defesa, não como risco sistêmico. O Nikkei caiu porque o Japão é vizinho do caos, não fornecedor dele. Conflito, para o S&P 500, virou linha de receita. A história vai achar isso fascinante, de um jeito bastante deprimente."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "As demissões em massa na divisão Xbox tiveram grande destaque. Vimos muita saída de ações de big tech e IA para mercados tradicionais, especialmente após a controvérsia dos preços artificialmente inflados entre Micron e Samsung. O petróleo não voltou a subir muito, mesmo depois da retomada dos ataques do Irã ao Estreito de Ormuz."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A Apple trocar dependência da Nvidia por chips da Broadcom é menos uma vitória tecnológica e mais uma jogada de poder de barganha — quem domina a cadeia de fornecimento controla as margens. Enquanto isso, a Arábia Saudita derruba o petróleo, a AstraZeneca vê um pipeline bilionário evaporar em dados clínicos, e a Microsoft demite para sustentar múltiplos de IA. Até a SK Hynix chega à Nasdaq justamente quando o ciclo de memória parece no topo."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/frank_scanlation: App desktop para ler mangá traduzido de qualquer site (linux, windows, mac)",
+            "content": "<p>Um leitor desktop similar ao Kindle para sites ad-hoc de scanlation. O usuário cola uma URL de site e obtém um cartão de biblioteca com arte de capa, rastreamento de capítulos e notificações de novos capítulos. Funciona em Linux, macOS e Windows, sem sites fixos no código.</p><p>A leitura abre o site dentro do app com o overlay Prettify Manga Reader injetado. Usa as mesmas heurísticas de pontuação de sequências de imagens e detecção conservadora de capítulos. O app não hospeda nem proxy conteúdo, carregando diretamente os sites apontados para uso pessoal.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/09/d60cd36c0236d40b01333faf49084368-image.jpg",
+            "source": "https://github.com/akitaonrails/frank_scanlation",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Fiz mais um appzinho de mangá, nem vou fazer post: Frank Scanlation.Resolvi ter um app que centraliza todos os mangás online que eu leio de scanlations. Todos são sites diferentes. Então meu app consegue juntar todos e uniformizar a UI pra ficar mais."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Esse aplicativo surge da necessidade de organizar mangás de múltiplos sites de scanlation fragmentados. Ele simplifica o rastreamento para usuários em diferentes sistemas operacionais. O efeito prático é que a leitura não oficial se torna mais eficiente, marginalizando ainda mais os modelos pagos e oficiais que lutam para competir com essa conveniência descentralizada."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/aitrepreneur-docker: Repositório pessoal das receitas do aitrepreneur em formato automatizado com docker",
+            "content": "<p>O repositório executa localmente as ferramentas dos scripts one-click de RunPod do Aitrepreneur como imagens Docker reprodutíveis, com versões fixadas e dados persistentes no host/NAS. Todo crédito pela seleção de stack, curadoria de modelos e fluxos pertence ao Aitrepreneur; o repo apenas converte esse trabalho em Docker, sem incluir o conteúdo pago do Patreon.</p><p>Cada app roda em container separado por conflitos de torch e transformers, compartilhando a árvore de modelos do NAS. Comandos como make up, make krea2, make stop e make logs controlam os apps, e modelos são baixados apenas se ausentes; upgrades exigem editar nodes.txt ou models.txt, mantendo todo estado fora dos containers.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/09/8a2cbb587d6c9b98fcd11af338c47fb5-image.jpg",
+            "source": "https://github.com/akitaonrails/aitrepreneur-docker",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais um novo repo que não vou fazer post a respeito. Voltei a pegar as receitas do canal Aitrepreneur e fiz versões em Docker.Bom pra quem quer um ComfyUI já configurado com Krea2, Ideogram 4 ou LTX 2.3.Parece que são alguns dos melhores geradores de"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Executar esses geradores em containers Docker isolados oferece controle e persistência no NAS, mas o esforço manual com atualizações e modelos ainda recai sobre o usuário. A independência do cloud vira ilusão quando cada conflito de versão exige edição de arquivos externos, deixando a maioria sem paciência para manter o sistema."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/FrankGeary: Meu fork pessoal do Geary com simples melhorias de qualidade de vida",
+            "content": "<p>Meu fork pessoal do Geary com simples melhorias de qualidade de vida - akitaonrails/FrankGeary</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/a1068b7cee81cd680a64e82ae5f6b4d8-image.jpg",
+            "source": "https://github.com/akitaonrails/FrankGeary",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/clock-tui: Um app de relógio no terminal escrito em Rust, suporta relógio local, timer e cronômetro.",
+            "content": "<p>Um app de relógio no terminal escrito em Rust, suporta relógio local, timer e cronômetro. - akitaonrails/clock-tui</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/f00ae7f6c2c0b7651abcb2d03fb569d1-image.jpg",
+            "source": "https://github.com/akitaonrails/clock-tui",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/google-calendar-tui: Simples TUI para listar compromissos próximos do Google Calendar no terminal (integra com as Contas Online do GNOME)",
+            "content": "<p>TUI simples para listar os próximos compromissos do Google Calendar no terminal (integra com Contas Online do GNOME) - akitaonrails/google-calendar-tui</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/5fc9cd024ed25da267bcc24c1e405925-image.jpg",
+            "source": "https://github.com/akitaonrails/google-calendar-tui",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/ghpending: CLI simples para listar rapidamente issues e pull requests abertos dos repositórios da sua conta do GitHub",
+            "content": "<p>CLI simples para listar rapidamente issues e pull requests abertos dos repositórios da sua conta do github - akitaonrails/ghpending</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/845e0d5cfa3a8bcfae54eb3cfc491f8a-image.jpg",
+            "source": "https://github.com/akitaonrails/ghpending",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/frank_lyrics: Extensão do Chrome para o YouTube para ajudar a treinar karaokê em vídeos com letras (mais fácil repetir linhas)",
+            "content": "<p>Extensão do Chrome para o YouTube para ajudar a treinar karaokê em vídeos com letras (mais fácil repetir as linhas) - akitaonrails/frank_lyrics</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/a52e0e58e25e084e2c446f764c4044e8-image.jpg",
+            "source": "https://github.com/akitaonrails/frank_lyrics",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/distrobox-gaming: Script para criar um Distrobox focado em games com todos os emuladores pré-configurados",
+            "content": "<p>Script para criar um Distrobox focado em jogos com todos os emuladores pré-configurados - akitaonrails/distrobox-gaming</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/912044bfd26c0d35a2ae5f8c14094b44-image.jpg",
+            "source": "https://github.com/akitaonrails/distrobox-gaming",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-07-13",
+            "title": "GitHub - akitaonrails/ai-memory: Solução para memória de longo prazo para CLIs de codificação de agentes e para facilitar a transição entre diferentes fornecedores de agentes",
+            "content": "<p>Solução para memória de longo prazo para CLIs de agentes de codificação e para facilitar handoff entre diferentes vendors de agentes - akitaonrails/ai-memory</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/d889f98203bb685c7d60f28a81eea85a-image.jpg",
+            "source": "https://github.com/akitaonrails/ai-memory",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-07-13",
+            "title": "A Microsoft está demitindo 4.800 funcionários",
+            "content": "<p>Microsoft está demitindo cerca de 4.800 funcionários hoje, cerca de 2,1% de sua força de trabalho. A maioria dos cortes atinge as áreas de vendas comerciais e a divisão Xbox, após redução de 9.100 vagas no ano anterior.</p><p>Em memorando interno, Amy Coleman atribui as demissões à necessidade de ajuste por mudanças na indústria e impacto da IA. A empresa eliminará 1.600 posições na Xbox imediatamente e total de 20% dos empregos da divisão até o fim do ano fiscal, além de vender quatro estúdios da área. Mais de 30% dos elegíveis participaram do programa de aposentadoria voluntária.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/06/3cd8cea21d97383d8332339f941ee783-image.jpg",
+            "source": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjF6dlc3Vmw1VTQiLCJwIjoiL25ld3MvOTYxNTI4L21pY3Jvc29mdC1sYXlvZmZzLWp1bHktMjAyNi1zYWxlcy14Ym94IiwiZXhwIjoxNzgzNzc2NjMyLCJpYXQiOjE3ODMzNDQ2MzJ9.HkCv3K6oLW-VWU0GRiIAGHen5yS8Di1QBdL2CKGz1ow",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A demissão em massa e fechamento de estúdios pela Microsoft é a história da semana. Vejo como ajuste necessário pra Xbox e ponto positivo pra CEO Asha Sharma. Estúdios fechados só faziam jogos ruins. Xbox finalmente ouve quem paga, com novos Halo e Gears of War. A demissão tira gente ideológica que odeia jogos e só pensa em sexo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "As demissões na Xbox revelam uma adaptação fria da Microsoft à realidade do mercado: a IA reduz a necessidade de equipes extensas enquanto estúdios fechados cortam custos fixos. Quem perde são os cargos redundantes e a expansão irrestrita de conteúdo, mas a empresa ganha foco em áreas mais lucrativas como computação em nuvem."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-07-13",
+            "title": "Assistir Fumar Atrás do Supermercado com Você",
+            "content": "<p>Sasaki é um assalariado sobrecarregado que encontra alívio nos cigarros e no atendimento animado de Yamada, funcionária do supermercado que frequenta. Após um turno exaustivo, ele chega tarde e não encontra Yamada.</p><p>Com o ânimo baixo por falta de local para fumar, uma jovem com piercings surge e diz: “Você pode fumar aqui.”</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/07/12/947b6bf2502272e49ad53e831e7acc6d-image.jpg",
+            "source": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Um anime que iniciou bem low profile chamou bastante atenção e, por alguma razão, foi relançado na Crunchyroll. Já tinha a 1ª temporada com episódios curtos de uns 15 minutos e agora está saindo em formato duplo com episódios de 25 minutos. De qualquer forma, recomendo pra quem quer um anime um pouco mais adulto (não no sentido porn!!)."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Um assalariado sobrecarregado buscando alívio breve em conversas e cigarros expõe a rotina alienante do trabalho moderno. Expandir o formato para episódios mais longos pode enfraquecer a tensão crua e realista que conquistou o público, já que streamings priorizam retenção sobre a narrativa concisa original."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Muitos vídeos cobrem o controverso “Odisseia”, de Christopher Nolan, que estreia agora. Apostas são de que vai flopar ou ter menos público que o esperado. Vamos ver. Também foco em IA para o lançamento do GPT 5.6 Sol, que, segundo meus testes, não é tão grande coisa quanto falam."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Veritasium atrai 2 milhões de visualizações com a trajetória da luz enquanto Fireship celebra o GPT 5.6 e Modern Vintage Gamer descreve a turbulência nos games. O padrão irônico é que o público devora teorias de sistemas quânticos e colapsos industriais, mas permanece preso ao mesmo ritual semanal de cliques sem alterar nada em sua própria rotina fragmentada."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-07-13",
+            "title": "Statistics for Non-Statisticians",
+            "content": "<p><em>por Birger Stjernholm Madsen</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/3662570017",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

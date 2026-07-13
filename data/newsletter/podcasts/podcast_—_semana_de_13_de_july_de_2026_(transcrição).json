@@ -1,0 +1,419 @@
+{
+    "title": "Podcast — Semana de 13 de July de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/07/13/",
+    "subtitle": "Dívida explode, Irã ataca e corrupção na UE",
+    "published_at": "2026-07-13",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-07-13.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala pessoal! Hoje é dia 13 de julho de 2026, e esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin pra nos acompanhar. E já começo avisando que lá vem mais impostos por aí. Não era que o Pix nunca ia ser taxado? O Brasil não tem problemas de arrecadação, arrecada até demais. O problema é roubar a maior parte depois que pegam o dinheiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais uma rodada de desculpas antigas para justificar o que já arrecadam em excesso. Nada de novo no roteiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos direto pro tech. Eu analisei com o Fable 5 o código decompilado de três apps Android."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ferramentas como essa baixam a barreira pra qualquer um revisar o que os apps realmente fazem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No TikTok vi coleta persistente de fingerprint em libs nativas, varredura de Wi-Fi e contatos enviando dados pra ByteDance e terceiros."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O fingerprinting persistente transforma o usuário em produto rastreável independente de resets. Isso dificulta qualquer tentativa de privacidade real no longo prazo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Clash of Kings mostrou UUID que sobrevive a reset em Lua puro e monetização agressiva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A monetização agressiva combina com identificadores que não somem pra manter o usuário engajado à força."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já o gov.br manteve tráfego só pra órgãos oficiais, certificate pinning e sem trackers comerciais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O gov.br fica como exceção ao limitar o fluxo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Qualquer desenvolvedor hoje consegue refazer esse tipo de análise com modelos de linguagem acessíveis. O fingerprint é o mecanismo principal que transforma o usuário em produto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O padrão do mercado continua favorecendo coleta agressiva e os modelos de linguagem só tornam a exposição mais fácil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos testes de desempenho em programação com Rails 8, o Grok 4.5 chegou a 87 pontos e entrou na Tier A depois de corrigir problemas com Stimulus e testes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os ajustes mostram que o modelo ainda depende de orientação humana pra chegar longe."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O GPT 5.6 Sol estreou com 92, usando menos tokens, mas tem limitações de persistência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Usar menos tokens ajuda na velocidade, porém a persistência fraca compromete sessões longas de desenvolvimento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Claude Opus 4.7 ainda lidera com 97. Reauditorias derrubaram alguns modelos anteriores por falhas em Dockerfiles e testes de erro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A instabilidade nos testes indica que todos ainda exigem correções humanas depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre computação quântica, a Microsoft anunciou o Majorana 2 alegando qubits com vida de 20 segundos e prazo reduzido pra 2029."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Reduzir o prazo só atrai mais capital pra promessas sem base e desvia talentos de experimentos reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mas o paper não demonstra qubits funcionais, portas quânticas ou emaranhamento. É vaporware puro, como no Majorana 1. Nenhum pesquisador sério leva a sério."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Jarred Sumner reescreveu o Bun inteiro de Zig pra Rust em 11 dias usando agentes de inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Tarefas como essa exigem revisão cuidadosa pra não introduzir novos problemas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não é tarefa simples nem barata. Exige domínio técnico avançado e revisão adversarial, bem diferente de um comando rápido pedindo pra refazer tudo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Arquiteturas bem estruturadas permitem trocar gerenciamento manual de memória pelo borrow checker sem perder performance."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu fiz uma resposta técnica pra Andrew Kelly mostrando como Rust transforma use-after-free e double-free em erros de compilação via ownership."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Rust força o programador a pensar em segurança desde o início."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Zig tem verificações em runtime, mas Rust encapsula contratos unsafe melhor em integrações grandes como JavaScriptCore."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O foco em ataques pessoais desvia do debate de arquitetura e atrasa melhorias em bases extensas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Também criei vários projetinhos com inteligência artificial pra resolver atritos do dia a dia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Projetos pessoais costumam nascer de necessidades reais do dia a dia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tem o clock-tui, google-calendar-tui e ghpending."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Essas ferramentas de linha de comando evitam interface pesada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E frank_scanlation pra mangás, frank_lyrics pro YouTube e frank_type pra treino de digitação. Todos no GitHub, com binários prontos pra instalação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ferramentas individuais reduzem atritos, mas ainda dependem de serviços centrais que limitam independência total."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passando pro global, o Irã afirmou ter fechado o Estreito de Hormuz depois de atingir um navio e desligar sistemas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O estreito vira teatro cíclico de retaliações onde o regime testa limites e os custos sobem pro comércio global inteiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Os Estados Unidos responderam com ataques pra degradar a capacidade iraniana de atingir embarcações civis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada rodada de ataques aumenta o risco de escalada que afeta rotas de suprimento em todo o mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Um porta-contêineres sofreu danos graves e um tripulante desapareceu. O filho do Khamenei precisa ser eliminado de uma vez, e o resto da sucessão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem mudança na sucessão, o padrão de provocação segue se repetindo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Procuradoria Europeia investiga as compras de vacinas da União Europeia, especialmente o contrato de 35 bilhões de euros com a Pfizer."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Decisões pessoais sem registro reforçam a imagem de elite operando acima das regras comuns."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ursula von der Leyen negociou diretamente via mensagens de texto que sumiram, sem equipes conjuntas. É mais uma das maiores tiranas totalitárias da história sendo investigada por irregularidades."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Investigar só depois do fato não recupera os recursos desperdiçados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O presidente eleito da Colômbia, Abelardo de la Espriella, suspendeu a transição porque Gustavo Petro nega a legitimidade da vitória e alega fraude sem provas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Rejeitar resultados sem provas só alonga o caos e beneficia quem prefere instabilidade ao controle perdido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Petro convocou marchas e o processo de paz total deve ser revogado. A mídia brasileira e americana distorce os títulos de forma canhota e desonesta, como sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A distorção na cobertura só complica a compreensão real do que está acontecendo no país vizinho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A revelação de que agências americanas ignoraram sinais de risco em vacinas de covid pra manter a campanha e ocultaram dados sobre origem do vírus em Wuhan mostra que ninguém vai ser punido como deveria."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A ausência de sanções garante que episódios futuros de negligência passem sem correção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No mercado, a dívida pública brasileira deve chegar a 96,5% do PIB até o fim de 2026, segundo projeções do FMI, subindo de 83,9% em 2022. Pode bater 105,5% na próxima gestão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O ajuste inevitável virá em cortes ou tributação maior, e nenhum governo costuma escolher a primeira opção sem pressão externa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Países que permitem déficits persistentes acabam transferindo o problema pra inflação ou mais impostos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando a dívida cresce sem controle, o próximo passo costuma ser aumento de impostos disfarçado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Trump criticou duramente a Espanha por não contribuir com a OTAN, chamou os espanhóis de ruins e ameaçou cortar todo o comércio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os mercados reagiram com títulos mais caros e queda nas ações."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O governo socialista de Sánchez gasta só 2,1% do PIB em defesa e ainda critica os Estados Unidos. Se as sanções andarem, ótimo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A população paga o preço de ideologia que não financia a própria proteção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A China impôs sobretaxa de 55% sobre carnes importadas acima da cota."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exportadores enfrentam paradas forçadas e negociações por cota maior só valem a partir de 2027."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Brasil já preencheu 98,5% do limite e frigoríficos vão entrar em férias coletivas. O excedente pressiona o preço da arroba pro baixo. A China nunca foi aliada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Confiar em regime centralizado sempre expõe quem depende dele."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quem depende de exportação pra um único mercado grande acaba vulnerável a mudanças bruscas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O sistema garante arrecadação imediata sem depender de boa vontade das empresas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O split payment vai dividir impostos automaticamente no momento da compra e direcionar direto pros cofres públicos. Processará 70 bilhões de documentos por ano, 170 vezes o volume do Pix."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O sistema garante arrecadação imediata sem dependendo de boa vontade das empresas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É roubo automatizado. O Brasil arrecada mais de 500 bilhões de dólares por ano e joga tudo fora em meses sem mostrar resultado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A prioridade continua sendo maximizar receita em vez de reformas reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na parte de entretenimento, a Microsoft está demitindo 4.800 funcionários, a maioria em vendas e Xbox."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A inteligência artificial reduz a necessidade de equipes extensas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vai cortar 20% dos empregos da divisão Xbox até o fim do ano e vender quatro estúdios."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Estúdios que só faziam jogos ruins precisam fechar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Um anime low profile chamado Fumar Atrás do Supermercado com Você ganhou atenção e foi relançado na Crunchyroll em formato duplo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Expandir episódios longos pode enfraquecer a tensão crua que conquistou o público inicial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É mais adulto e vale a pena pra quem quer algo diferente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Alternativas diferentes são boas, mas o formato original tinha algo único que pode se perder."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos vídeos do meu canal essa semana, muitos cobrem o novo filme de Christopher Nolan e o lançamento do GPT 5.6 Sol, que não entregou tanto quanto anunciaram nos meus testes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O público devora teorias quânticas e colapsos industriais, mas segue clicando semanalmente sem mudar a própria rotina."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O livro da semana é Statistics for Non-Statisticians, do Birger Stjernholm Madsen. Dá ferramentas práticas de estatística descritiva e inferencial pra quem não tem formação na área."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A tensão no Estreito de Ormuz, as investigações na Europa e os modelos de linguagem mais precisos mostram que energia, poder político e ferramentas técnicas continuam interligados. A capacidade de iterar rápido em software e hardware segue sendo a vantagem que permite criar alternativas mais resilientes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A iteração técnica torna os riscos mais visíveis, mas crises e contratos bilionários se repetem. Na próxima semana estaremos depurando o mesmo sistema enquanto alguém fecha outra rota. Até lá.2904 words"
+        }
+    ]
+}

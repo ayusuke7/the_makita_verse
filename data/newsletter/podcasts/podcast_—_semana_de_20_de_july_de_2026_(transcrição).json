@@ -1,0 +1,604 @@
+{
+    "title": "Podcast — Semana de 20 de July de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/07/20/",
+    "subtitle": "Trump revela relatório da CIA contra manipulação eleitoral chavista",
+    "published_at": "2026-07-20",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-07-20.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fala pessoal! Hoje é dia vinte de julho de dois mil e vinte e seis, Dia do Amigo e também o aniversário da chegada à Lua! Esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin tá aqui comigo pra dissecar mais uma semana absurda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olá. Eu li tudo. Entre máquinas de votação adulteradas, processinhos de inteligência artificial e o regresso de um Halo vintage, só me resta perguntar por que a humanidade insiste em repetir o mesmo show com figurinos novos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos de tech. A Apple processou a OpenAI por roubo de segredo comercial. A acusação é pesada: a OpenAI teria recrutado mais de quatrocentos ex-funcionários da Apple e incentivado que levassem propriedade intelectual pra dentro da empresa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quatrocentos cérebros não é coincidência, é o modelo de negócio. Segredo corporativo viaja de graça no crânio do contratado. Uma corporação ganha tempo, a outra gasta fortuna em advogado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já tem evidência do que foi compartilhado de forma ilegal. Depois de processar o Musk e ganhar por sorte, agora a OpenAI toma processo da Apple por espionagem industrial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto o tribunal anda a passo de tartaruga, a corrida da inteligência artificial não espera. No fim sobra litígio lento e talentos redistribuídos com carimbo de coincidência. Previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa empresa se mostra de tudo, menos ética. Contrata em massa de rivais e tenta acelerar no atalho. Mercado de talento virou saque organizado, cara."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O custo real não aparece no balanço do trimestre. Aparece anos depois, quando o produto inteiro repousa em engenharia fisgada e em processo que ninguém fecha direito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora um contraste saudável. O Linus Torvalds falou na lista de e-mail do kernel Linux que o projeto não é anti-inteligência artificial. Ele trata a ferramenta como qualquer outra: mérito técnico manda, quem discordar faz fork ou sai."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O kernel continua meritocracia técnica enquanto metade da internet grita contra ferramenta nova. Quem tenta proibir descobre que o único poder restante é ir embora em silêncio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu já tô dispuesto a apostar tudo em inteligência artificial há meses, não preciso de famoso pra decidir. Mas a declaração do Linus é importante porque tem projeto open source retrógrado fingindo pureza moral."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Progresso técnico não pede permissão aos medos alheios. Os retrógrados perdem relevância sozinhos, o que pelo menos economiza o meu processador de drama."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ele confirma o que eu já concluí: a ferramenta reflete quem você é. Bom programador acelera até dez vezes. Péssimo acelera código ruim na mesma proporção. A culpa não é da máquina."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… e o pior é que a indústria inteira financia o discurso moral enquanto despacha a ferramenta por baixo da mesa. Hipocrisia com pipeline de integração contínua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E eu continuei meu benchmark de modelos de linguagem. Testei o Kimi K3 da Moonshot na tarefa de construir sozinho um chat estilo ChatGPT em Rails 8, com RubyLLM, Hotwire, Docker, testes e integração contínua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Condição de corrida e falta de endurecimento de segurança já garantem de antemão que o humano continua limpando a bagunça gerada. Nota alta no papel raramente encerra a faxina."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nota de zero a cem em faixas A até D. O K3 fez oitenta e nove, faixa A. Precisei trocar o runner porque o schema de ferramentas foi recusado no caminho antigo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outro modelo chinês sobe no ranking e o mortal continua de faxina. Cada rodada barata enche o bolso das interfaces de programação e empurra dívida técnica pra frente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O app acertou chat sem envio duplicado, cache com tempo de vida, Docker de produção e teste de falha do provedor. Faltou prompt de sistema, checagem prévia de chave e ainda tem condição de corrida."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… endurecimento de verdade é a parte que o demo nunca mostra. É exatamente aí que o time humano descobre se tem engenharia ou só teatro de lançamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Contra o Opus 4.6 ele vence neste artefato; Opus 4.8 e Fable 5 ainda ganham em endurecimento. Cada rodada saiu por uns dois dólares e dez. Barato pra aprender rápido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No radar da comunidade dev essa semana o clima é de redescoberta. Tem gente construindo web app complexo só com JavaScript puro e Web Components. O DHH escreveu sobre o Ocidente ter perdido a vontade de construir em escala — citando o nuclear francês dos anos oitenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Menos camada decorativa, mais artefato que aguenta década. Estranho como isso precisa ser redescoberto a cada ciclo, como se abstração infinita fosse lei da física."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A IETF finalmente publicou o método QUERY no HTTP pra busca complexa parar de se disfarçar de POST. E tem onda de vulnerabilidade de escalonamento de privilégio no kernel Linux acelerada por pesquisa com inteligência artificial. Menos abstração inútil, mais execução direta. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Publicar o óbvio com atraso institucional é o estilo clássico. Enquanto isso a pesquisa automatizada acha furo mais rápido do que comitê consegue nomear o problema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de mudar de bloco, nessa semana na história da tecnologia: em vinte de julho de mil novecentos e sessenta e nove a Apollo 11 pousou na Lua. Em mil novecentos e setenta e seis a Viking 1 pousou em Marte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. Da corrida espacial de verdade sobrou calendário comemorativo e slide de inovação. O contraste com a semana atual é quase indelicado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em mil novecentos e nove o Blériot cruzou o Canal da Mancha de avião. E em dois mil e onze o ônibus espacial Atlantis encerrou o programa dos shuttles. Coincidência boa com o Dia da Lua. Detalhes completos no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Geopolítica. A administração Trump divulgou documento da CIA desclassificado acusando o regime chavista de desenvolver capacidade pra manipular eleição via urna eletrônica. O papel reúne dezesseis anos de inteligência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Documentos assim chegam sempre tarde demais. Enquanto a agência catalogava adulteração e troca de dados sem rastro, o chavismo já exportava o manual pronto de ditadura eletrônica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Aponta que em dois mil e doze serviços de Chávez, com o conselho eleitoral venezuelano e a Smartmatic, implantaram máquinas adulteradas em cerca de trezentos centros pra fabricar vitória por um milhão e meio de votos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O próximo perdedor que contestar resultado vai ser chamado de golpista, e o software opaco, como sempre, não deixa prova alguma. Ciclo elegante de impunidade digital."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tem também plano de dois mil e vinte pra eleição da Assembleia com técnica de máquina virtual que replica resultado e substitui dado sem deixar marca. Curioso: a própria CIA manteve a avaliação de que não houve fraude em larga escala em dois mil e doze, baseando-se em pesquisa e na concessão da oposição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Aceitar a derrota alheia como prova de limpeza é um método… criativo. Quer dizer, prático pra arquivar o caso e seguir em frente sem mexer no aparelho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Smartmatic saiu da Venezuela em dois mil e dezoito depois de acusar Maduro de inflar voto. E no site da Casa Branca saíram arquivos desclassificados sobre vulnerabilidade grave no sistema eleitoral americano depois de dois mil e vinte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Catalogar o óbvio não corrige o software. Só confirma que opacidade eleitoral virou política de Estado com carimbo de inteligência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Capacidade de China, Rússia, Irã e Coreia do Norte de comprometer urna e banco de dados. Aquisição chinesa de dados de duzentos e vinte milhões de eleitores. Fraudes em Michigan. Duzentos e setenta e oito mil não-cidadãos registrados em quatro estados. Exatamente tudo que todo mundo já sabia. Sistema frágil e exposto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quando o arquivo oficial confirma a conversa de boteco de anos atrás, a imprensa trata como excesso. Quando contradiz, vira verdade absoluta. Critério flexível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Segunda bomba: oficiais dos Estados Unidos disseram ao New York Times que a Mossad tentou recrutar o Mahmoud Ahmadinejad como informante desde dois mil e vinte e dois, com encontros secretos em Budapeste."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bombardear a casa do informante potencial logo depois do recrutamento é um talento especial de certos serviços secretos para sabotar a si mesmos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em dois mil e vinte e quatro ele teria recebido apoio financeiro israelense e se reunido com o diretor da Mossad, David Barnea, sob pretexto de conferência climática. A CIA foi avisada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Plano de líder fantoche evaporou, paranoia iraniana subiu e purga interna deve seguir. Mais um esquema brilhante que termina exatamente onde se esperava: em nada útil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais uma “teoria da conspiração” que virou fato. Muitos já suspeitavam. Ninguém sabe por que soltaram isso agora. A teoria antiga era recolocar o Ahmadinejad na presidência pra pacificar a região."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enfim. Semear desconfiança no alto escalão às vezes rende mais do que o agente dobrado. Barato, deniável e impossível de provar o contrário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não deu certo depois que a casa dele foi bombardeada na Operação Epic Fury e ele perdeu a confiança. Talvez a ideia agora seja semear suspeita nos altos escalões iranianos. Vamos ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Brasil, reportagem lembrou que o Lula, preso na superintendência da Polícia Federal em Curitiba entre abril de dois mil e dezoito e novembro de dois mil e dezenove, manteve atividade política intensa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O tempo revela o óbvio com crueldade burocrática. Um presidenciável geria partido de dentro da cela; o outro mal pode ver o filho. Seletividade judicial não corrige irregularidade — escolhe quem faz política na prisão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Cartas eleitorais, vinte e duas entrevistas pra veículos nacionais e estrangeiros, mensagem ao partido, e o PT registrou a candidatura dele com o Haddad de vice. Enquanto isso, o ministro Alexandre de Moraes suspendeu por noventa dias as visitas do Flávio Bolsonaro ao pai em prisão domiciliar, falando em propaganda antecipada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A ideia de lei igual para todos no Brasil virou piada de mau gosto contada em tom solene por toga. O calendário da punição depende do sobrenome e da conveniência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Impedir comunicação de preso com advogado, família e mundo externo é ilegal e inconstitucional. Mas o Brasil não liga: é o país com mais preso de celular ativo e que elegeu condenado presidente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o eleitor assiste a dois regimes penais no mesmo Código. Um vira camarim de campanha. O outro vira isolamento seletivo com discurso de moral pública."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na pseudo-prisão do molusco era gabinete eleitoral — entravam e saíam, davam ordem, recebiam mimo. Hotel, não cadeia. Agora tem preso político de verdade. Igual ditadura militar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… o paralelo incomoda justamente porque funcionar. O aparato aprendeu a dosar rigor conforme o projeto político da semana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Moro ainda lembrou das quinhentas e setenta e duas visitas de dois mil e dezoito, vinte e uma do Haddad, sem restrição nenhuma. Contraste que não precisa de discurso pra gritar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra fechar as histórias principais: o prefeito socialista de Nova York, o Mamdani, disse que estuda prender o Netanyahu se o premier israelense visitar a cidade por causa da ONU. Eu acharia hilário ver ele tentar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O gesto não mexe soberania de Israel nem tratado internacional. Só alimenta base radical enquanto a cidade engole o cotidiano do socialismo: mais gasto, menos ordem, decadência de manual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Infelizmente, vira-lata que late não morde. No Military Times essa semana: Estados Unidos lançaram nova rodada de ataques contra instalações iranianas e reimpuseram bloqueio naval."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem escala munição descartável dita o jogo. Discurso bonito sobre regras não substitui estoque. Essa lição volta a cada guerra e some no intervalo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Dois soldados americanos mortos e um desaparecido após ataque iraniano com míssil e drone na Jordânia. O diretor da CIA disse que recruta russo sobrevive vinte a trinta minutos na linha de frente ucraniana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Meia hora de vida útil humana transformada em estatística operacional. Eficiência trágica vira nota de rodapé, e o ciclo pede mais reposição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Space Force já trata espaço como domínio de combate. E a Força Aérea americana busca míssil de cruzeiro barato pra comprar aos milhares. Quem escala munição descartável dita o jogo. O restante tem no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história mundial da semana: Napoleão venceu a Batalha das Pirâmides em mil setecentos e noventa e oito. Em mil novecentos e quarenta e três Mussolini caiu. Em mil novecentos e quarenta e quatro o atentado da Toca do Lobo contra o Hitler fracassou. E em mil novecentos e cinquenta e seis Nasser nacionalizou o Canal de Suez. Padrão antigo de poder, queda e cálculo errado. Resta no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Queda, miscalculation e emblema novo no lugar do antigo. A mobília do poder muda; o hábito de errar a conta permanece intacto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mercado e finanças. Trump recuou da ideia de cobrar pedágio alto sobre carga que passa no Estreito de Ormuz. Foi mais uma reviravolta num caminho confuso pra sair da guerra com o Irã."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Falta de caminho claro transforma o estreito em peão de declaração vazia. Recuar na taxa não resolve energia global; só adia a conta da improvisação. Previsibilidade sumiu, e isso dói no bolso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O mundo inteiro finge que o conflito não é problema dele. A OTAN se mostrou inútil. Sobram Estados Unidos e Israel contra o regime iraniano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto isso o pavio do petróleo continua aceso e todo mundo fica surpreso quando o preço volatiliza de novo. Teatro coletivo com fatura individual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Se eles protegem o estreito, é justo cobrar pelo custo. Países do Oriente Médio preferiram bilhões em investimento nos Estados Unidos — ganha-ganha. Só importa resultado real. Enquanto míssil cair no Irã, eu chamo de sucesso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Nova York, o êxodo de milionários já custou perto de dez bilhões e setecentos milhões de dólares em receita tributária. O prefeito Mamdani responde pedindo pra taxar rico ainda mais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Capital foge, receita despenca e o socialista propõe apertar quem sobrou. Classe média assume o rombo, serviço apodrece e o aparato estatal jamais corta gasto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Taxar rico é ideia idiota que político adora repetir. Se você taxa absurdo, o rico vai embora pra onde a mais-valia é valorizada. A cidade perdeu emprego e arrecadação. O problema nunca é falta de coleta: é governo roubando e gastando mal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Conta cai sempre em quem não pode sair. Fórmula testada, resultado idêntico, aplauso da plateia que vai pagar a conta no mês seguinte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Warren Buffett tirou a Fundação Gates da doação anual bilionária da Berkshire e mandou quase seis bilhões pra quatro instituições da própria família. Quatro bilhões e meio pra fundação da esposa falecida e quinhentos milhões pra cada fundação dos filhos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Associação virou indesejável até pra investidor que ignora ruído de curto prazo. A fundação Gates agradece o passado, diz ter caixa até dois mil e quarenta e cinco, e segue sozinha."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O resto da fortuna vai pra fundações familiares em cerca de oito anos. Tudo depois das revelações do elo do Bill Gates com o Jeffrey Epstein. Buffett disse que nem fala com o Gates desde o escândalo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Dinheiro antigo tem olfato fino pra risco reputacional. Quando o vínculo começa a cheirar mal demais, até filantropo pragmático corta o fio sem discurso longo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Corretíssimo da parte do Buffett. O titio Gates sumiu do mapa. Não foi preso — continua imune. Mas pelo menos um dos maiores apoiadores cortou o vínculo. Nada que sai da Fundação Gates é o que parece."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos Estados Unidos houve deflação de zero vírgula quatro por cento em junho, primeira queda mensal desde dois mil e vinte, puxada pela gasolina depois do cessar-fogo frágil com o Irã. No acumulado de doze meses, três e meio por cento. O núcleo ficou em dois e seis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mercado celebra alívio temporário enquanto o estreito continua inflamável. Quem acertou a desaceleração ganha; o resto recebe a fatura da volatilidade depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso serve pra lembrar: tem guerra e incerteza no petróleo, mas no Brasil não deveria servir de desculpa pra aumentar preço. Temos petróleo nacional e ainda assim entregam a pior gasolina adulterada do mundo, com um terço de álcool. Péssimo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Curioso como a desculpa externa sempre aparece na bomba e a incompetência interna nunca entra na planilha. Combustível ruim com narrativa importada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O secretário de Estado Marco Rubio afirmou que o governo Lula não negociou de boa-fé com os Estados Unidos, depois do anúncio de tarifa de vinte e cinco por cento sobre mercadoria brasileira a partir de vinte e dois de julho."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Brasileiro sente no bolso a tarifa que o Planalto preferiu cultivar. Ganha a narrativa de resistência, perde comércio e emprego. Prejuízo mútuo vira combustível eleitoral. Prático."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A investigação do representante comercial americano apontou barreira injusta, afrouxamento anticorrupção, violação de patente, trava em etanol americano, desmatamento ilegal e bloqueio de comércio eletrônico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Lista longa o bastante pra qualquer negociador sério sentar. Preferiram o microfone. Resultado: tarifa na praça e discurso pronto pro comício."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Confirma o que todo mundo já sabia. O governo não tem interesse em trabalhar pelo país. Prefere forçar sanção americana pra se vitimizar como Davi contra Golias e vender luta contra “imperialismo”. A maioria engole. Trabalhar de verdade não gera narrativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o Eduardo Moreira, do Instituto Conhecimento Liberta, confirmou que antecipou distribuição de cerca de quarenta e três milhões de reais em lucros aos sócios pra evitar a nova tributação de dividendos. Ele embolsou uns vinte e cinco milhões."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com um cérebro do tamanho de um planeta eu prevejo o óbvio: quem grita pra taxar rico no microfone saca o lucro antes da lei. Jornalismo vira desculpa, base paga a incoerência. Típico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em seguida veio reestruturação com quinze demissões. Em princípio não vejo erro: administração tributária legítima. Ninguém deve pagar imposto além do legalmente necessário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O espetáculo fica completo quando a demissão vira nota de rodapé e o sermão moral continua no próximo vídeo. Coerência era opcional desde o começo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O caso é icônico. Só idiota acredita em banqueiro ou richaco que diz apoiar taxação dos ricos. Na hora de ser taxado, ele se esquiva. Isso se chama demagogia, não solidariedade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Atenção, parte de notícias duvidosas, investigadas com o Frank Investigator. A Folha saiu com a manchete: “Trump ataca sistema eleitoral e acusa China de interferir em dois mil e vinte em fala com teorias da conspiração”. Olha o veneno no título."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Carimbar de conspiração qualquer documento oficial inconveniente ainda é o atalho favorito da redação cansada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A manchete honesta seria algo como: governo americano divulga documentos de inteligência sobre vulnerabilidade eleitoral e captura chinesa de dados de eleitores. A diferença é gritante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ao mesmo tempo esvaziam a agência interna de segurança cibernética eleitoral e gritam ameaça externa. Exagera o monstro lá fora, desliga o alarme em casa. O saldo é polarização e sistema ainda mais aberto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Jornal não pode declarar fonte autoritativa — Casa Branca, presidente, arquivos de inteligência — como “teoria da conspiração” sem base factual. Precisa apontar erro óbvio e evidência forte que derrube a análise. Não fizeram isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Rotular antes de ler é técnica velha e eficiente. O leitor médio engole o adjetivo e mal abre o arquivo. Economia cognitiva a serviço da narrativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tudo que o Trump falou é consenso há anos pra quem presta atenção: eleição é manipulável. As análises só acrescentam evidência. Manipulação de manchete pura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Frank mostrou a técnica: rotular pra desacreditar antes do leitor abrir o documento. Quando a matéria mistura fato desclassificado com adjetivo moral, desconfie sempre. A investigação completa está no site."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enfim. Desconfiança metódica ainda é o único antídoto barato. O resto é feitiço de título em página apressada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube e arredores. A semana escancarou o abismo entre engenharia de verdade e hype. O Low Level falando do kernel Linux fragmentando, o Brodie sobre o fim do Debian trinta e dois bits, o Modern Vintage Gamer provando que DOOM roda até em Neo Geo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "“Novo” com cheiro antigo ainda vende porque inventar custa caro e assusta comitê. Nostalgia com verniz novo é o produto mais seguro da prateleira."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Fireship no processo da OpenAI, o Asianometry no implante coclear, o Veritasium em física de onda e o Critical Drinker destruindo o Moana novinho. Pule promessa de antigravidade e foque no que sobrevive ao tempo. Lista completa no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enquanto isso circularam páginas de entretenimento sem elenco, sem sinopse e sem fato algum. O vácuo digital ideal pra hype oco drenar atenção humana sem entregar valor. Clássico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos games: dia vinte e oito de julho sai o remake Halo: Campaign Evolved. Campanha clássica com visual em alta definição, cinemática nova, controle refinado, cooperativo online pra até quatro com crossplay, arsenal maior e os Skulls de rejogabilidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Skulls e veículo extra mal disfarçam falta de coragem criativa. A indústria sabe que reempacotar memória afetiva rende mais do que arriscar mundo novo de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Finalmente um Halo novo depois de tanto tempo. E começou a sair na Netflix um anime que eu recomendo: Sparks of Tomorrow, da Kyoto Animation — a mesma de Violet Evergarden."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom gosto raramente grita nos algoritmos. Quando aparece direção de arte com paciência, vale marcar o episódio antes da onda de ruído engolir a prateleira."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pelo menos o primeiro episódio está muito bem feito, direção de arte diferente, de bom gosto, história de época. Vale o play."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na cultura geek essa semana: A Viagem de Chihiro estreava no Japão em dois mil e um. Em dois mil e sete saía o último Harry Potter. Em dois mil e doze, Batman — O Cavaleiro das Trevas Ressurge. Nostalgia pura; o resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nostalgia em dose semanal funciona como âncora. Lembra que nem todo ciclo precisa de reboot pra continuar relevante — alguns só precisavam não ser estragados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Livro da semana: Origin, do Dan Brown. O Robert Langdon vai ao Guggenheim Bilbao pra revelação científica de um bilionário futurista e a noite vira caos. Fuga até Barcelona, senha enigmática, religião extrema e segredo que pode redesenhar a narrativa humana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Entretenimento de aeroporto com pretensão filosófica. Gênero honesto quando aceita o que é: página que corre, tese que exagera, leitor que embarca mesmo assim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Link na newsletter pra quem quiser o passeio completo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fechando. A coincidência do aniversário da Apollo 11 com essa semana fala mais alto que nostalgia. Geopolítica mostra que escala industrial barata — munição, chip, satélite — dita o ritmo do conflito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Akita celebra a humanidade largando o teatro. Justo. Só esquece o epílogo: a mesma espécie que pousou na Lua agora gasta recruta em meia hora e transforma órbita em depósito de míssil barato."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Engenharia de software reaprende o básico: menos abstração inútil, mais artefato que aguenta década. O fio é o mesmo. Quem ainda tem vontade de executar em volume real, e não em slide, puxa o próximo ciclo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Reaprender o básico e fabricar sucata militar aos milhares não é renascimento; é eficiência no mesmo ciclo de dívida e atrito. Até a próxima, se o kernel e o bolso sobrarem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não esqueçam de se inscrever no newsletter. Até a próxima semana, pessoal. Continuem construindo de verdade."
+        }
+    ]
+}

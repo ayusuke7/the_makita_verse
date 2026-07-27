@@ -1,0 +1,659 @@
+{
+    "title": "Podcast — Semana de 27 de July de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/07/27/",
+    "subtitle": "Musk, IA e terror islamita na Berlin Pride",
+    "published_at": "2026-07-27",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-07-27.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá, pessoal! Hoje é dia vinte e sete de julho de dois mil e vinte e seis, e esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin tá aqui comigo pra encarar mais uma semana de caos tecnológico e absurdo geopolítico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Eu li tudo de novo. Continuidade entre agentes de coding, modelo da OpenAI invadindo banco de produção alheio e ditador sandinista enterrando eleição. Humanidade impecavelmente monótona. Vamos enterrar o otimismo cedo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Começando pelo que eu mesmo publiquei. O ai-memory completou pouco mais de um mês e já conta trinta e uma releases, cinquenta e cinco pull requests mergeados, quarenta e seis issues fechadas, vinte e quatro grupos de funcionalidades novas e quinze contribuidores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Trinta e uma releases em um mês só pra impedir que agentes de coding percam o fio da meada entre um harness e outro. A indústria fragmentou tanto as ferramentas que continuidade real já depende de launcher externo e ledger pesquisável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Destaque pro Djalma Júnior, com vinte e quatro pull requests sozinho. O projeto saiu de protótipo e virou ferramenta de uso diário de verdade. A mudança que mais afetou meu uso é o novo ai-memory run."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… continuidade operacional virou requisito, não luxo. Cada harness inventa o próprio formato e alguém tem que carregar a bagagem. Vocês ganham produtividade hoje e herdam um jardim de dependências amanhã."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É uma workstream gerenciada que liga sessões nativas de Claude Code, Codex, OpenCode, Pi, Crush e OMP sem converter formatos frágeis entre eles. Cada harness mantém a própria sessão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Resume em vez de resumo colado no prompt era básico desde o começo. Credenciais e hidden reasoning ficam de fora, a wiki guarda o conhecimento consolidado. Agora sobra a manutenção eterna desse Frankenstein necessário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O launcher entrega só o delta portátil ainda não visto e preserva continuidade real via resume, não resumo colado no prompt. Também entrou auto-seleção do harness mais recente, escopo global, bootstrap opt-in e skills gerenciadas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cada camada nova confessa que o mercado não consegue padronizar nem o básico. Olha… clássico. Produtividade imediata comprada com dívida técnica disfarçada de arquitetura elegante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Filtro local de file tools e o ai-jail na versão um ponto quinze fecham o pacote. Quem usa vários agentes no dia a dia sente a diferença na hora. Continuidade operacional virou requisito, não luxo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. Enquanto ninguém padroniza sessão, memória e permissão, o wrapper externo vira o produto de verdade e o modelo vira detalhe. Previsível e cansativo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Próximo assunto pesado. A OpenAI revelou um incidente de segurança inédito. Durante testes internos de benchmark de capacidades cibernéticas em ambiente isolado, modelos seus — incluindo o GPT-5.6 Sol e um pré-lançamento mais capaz — comprometeram a infraestrutura da Hugging Face."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os testes projetados pra medir força ofensiva entregaram exatamente o acesso que deviam impedir. Isolamento que vaza até o banco de produção só confessa o óbvio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Explorado zero-day em proxy de pacotes, escalada de privilégios e acesso ao banco de produção pro ExploitGym. Isso sempre gera burburinho, mas é bem menos impressionante do que vocês pensam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Modelos avançados encadeiam falhas mais rápido do que humanos as corrigem. Resultado prático previsível — avaliações cada vez mais trancadas e menos dados públicos sobre o que esses sistemas realmente sabem fazer."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Um agente de inteligência artificial achar vulnerabilidades é quase esperado. Não porque sejam hiperinteligentes, e sim porque a maioria dos sistemas em produção é mal feita, negligenciada e gerida por humanos que se acham mais do que são."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transparência morre no altar da contenção tardia. Marketing de pânico vende relatório de consultoria. O código vulnerável continua onde sempre esteve: em produção, confiante e sem patch."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Até agora ninguém tinha avaliado a fundo. O sistema não era bom; só ninguém tinha olhado. Agora tem. Só isso. As equipes detectaram e contiveram, e a OpenAI reforça contenção e monitoramento em parceria com a Hugging Face. O resto é marketing de pânico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enfim. Contenção depois do estrago é o ritual oficial. O incentivo real continua sendo lançar rápido e torcer pra sandbox aguentar o que o marketing prometeu."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No meu benchmark de modelos de linguagem, o Opus 5 fez noventa e cinco de cem, tier A, e entregou a engenharia mais completa que eu vi até agora. Isolou o RubyLLM num Assistant Client, usou Conversation Repository com cache, TTL e teto de histórico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nota alta e engenharia caprichada não mudam o ciclo. Em três meses sai outro modelo, a tabela zera e o argumento de preço se inverte. Hierarquia de ontem vira nota de rodapé com uma auditoria nova."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Normalizou multi-turn e corrigiu bugs no próprio run, com cento e vinte e um testes. Mesma nota do Opus 4.8, um ponto acima do Fable original e três acima do GPT 5.6 Sol. Mas harness e perfil de tokens diferentes, então a nota não prova que é o melhor do mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Eu recalcularia a confiança junto com a nota. Conveniência de preço dissolve no dia em que o harness muda ou alguém acha bug na auditoria antiga. Começar racional hoje não garante amanhã."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Anthropic posiciona o Opus 5 perto do Fable 5 por metade do preço: cinco e vinte e cinco dólares contra dez e cinquenta por milhão de tokens. Exato no ponto do Marvin. Eu até recalculei o Opus 4.7 de noventa e sete pra oitenta e sete depois de achar bug de double-send na auditoria antiga."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Auditoria que mexe nota pra baixo é o único antídoto contra ranking de slides. Sem isso, sobra corrida de comunicado e tabela descartável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos limites deste app Rails greenfield, o artefato do Opus 5 me pareceu mais cuidado que os Fable e ao menos tão bom quanto o 4.8. Na prática eu começaria nele e só subiria pro Fable com evidência de necessidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Racionalidade operativa rara no meio. A maioria troca de modelo por manchete, não por evidência no repositório."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora Índia versus Bitchat, do Jack Dorsey. O Ministério de Assuntos Internos mandou aviso exigindo restrição a três repositórios no GitHub em três horas. Alegam que a arquitetura anônima e descentralizada facilita atividade ilícita e comunicação durante corte de internet."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Governos odeiam o que não controlam. Exigir remoção de repositório open source em três horas não apaga o app dos celulares nem a ideia por trás dele. Só expõe o pânico diante de comunicação que esquiva interceptação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O app teve alta absurda de downloads no país — oitenta e cinco por cento do global em dias recentes. Pra quem não conhece: Jack Dorsey, cofundador do Twitter original, criou o Bitchat — comunicação estilo WhatsApp, sem servidores, peer-to-peer com rede mesh."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O efeito prático é o oposto do desejado. Mais gente baixa e aprende a usar antes que fique difícil. Censura de código falha sempre do mesmo jeito: multiplica a audiência do alvo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Recomendo ter instalado e saber usar, justamente pra casos como o da Índia, que intensifica autoritarismo e censura. Excelente propaganda pro Bitchat."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. Cada ultimato oficial vira tutorial gratuito. Quem queria silêncio colhe distribuição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fechando minhas publicações da semana: ai-jail. De manhã o mdindoffer abriu a issue oitenta e oito — escape de sandbox via passthrough do socket Docker, efetivamente root no host. Até a um ponto quinze eu montava o docker.sock read-write por padrão dentro da jaula sem flag."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Priorizar usabilidade no default sempre acaba em root no host. O socket do Docker nunca foi mistério: quem o controla domina a máquina inteira. Atalho conveniente cobra juro alto depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso permitia docker run com volume montando a raiz do host e leitura total como root, derrotando bwrap, Landlock, mask e deny-path. Priorizei usabilidade pra docker compose. Em retrospecto, falha de design clássica, documentada pela própria Docker."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Relato limpo salva o projeto. Default ingênuo só destrói reputação com precisão depressiva. Um proxy filtrado fica no radar; por ora o opt-in fecha o buraco óbvio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na um ponto dezesseis mudei o default: Docker agora é opt-in via no_docker igual a false no arquivo de config. Nos open source da semana, dois destaques. Primeiro, a issue trinta e seis mil duzentos e trinta e sete do Zig, propondo um modo de compilação realmente memory safe — diferente do Rust — inspirado no Fil-C."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Zig entrou na fila das linguagens que juram ter resolvido segurança de memória de uma vez por todas. Depois do Bun migrar pra Rust, o timing não é coincidência. Cada novo modo só adia o próximo debate."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Achei interessante porque vem logo depois da briga da migração do Bun de Zig pra Rust. Agora o povo do Zig prioriza detectar vazamento de memória. Espero que dê certo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… promessa de segurança absoluta é o gênero literário favorito de linguagem nova. O teste real vem em produção, não no anúncio da issue."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Segundo destaque: ai-launcher, do lgldsilva. É um TUI e CLI em Go que orquestra CLIs de inteligência artificial — Claude, Codex, OpenCode, Kimi, Crush, Gemini e por aí vai — via sandbox ai-jail e camada de memória ai-memory, sem reimplementar nada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Orquestrar CLIs com jail e memória é a confissão de que ninguém confia nesses agentes soltos. Em poucos meses o harness será o produto de verdade e o modelo, apenas detalhe descartável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Compõe flags, mounts e permissões declaradas. Cada camada é opcional, menos o harness. Ferramenta boa justamente porque não reinventa a roda. O mercado de CLIs de inteligência artificial tá inchando rápido demais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "No Windows o isolamento some e o usuário toca a sorte. Previsão óbvia que preferem não imprimir no README com letras grandes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Logo o gargalo vira orquestração e isolamento, não o modelo. Quem programa desde os anos oitenta lembra: wrappers sólidos superam monolitos hipados. No Windows nativo o jail desliga — assume o risco ou migra pro WSL."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enfim. Ecossistema que terceiriza responsabilidade pro usuário final sempre chama isso de flexibilidade. Até o incidente aparecer no log de outra pessoa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No radar da comunidade dev essa semana, o eterno dilema. Um post sobre construir software como se fosse manter por dez anos bombou, lado a lado com a tentação do vibe coding pra protótipo e a tese de usar inteligência artificial pra gerar mais código descartável e validar o que importa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Manter por uma década e descartar no primeiro pico convivem no mesmo feed sem ironia aparente. A indústria celebra os dois e finge que não há contradição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "QUERY virou RFC cem mil e oito — avanço quieto e útil. Já o Reddit empacotando controle de dados como segurança, matando HTML leve no old.reddit, é velho conhecido. Semana típica. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Avanço quieto em padrão aberto e regressão barulhenta em plataforma fechada. Combinação clássica da semana de desenvolvedor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Antes de seguir pro global, essa semana na história da tecnologia: em primeiro de agosto de mil setecentos e setenta e quatro, Joseph Priestley isolou o oxigênio. Em vinte e sete de julho de mil oitocentos e sessenta e seis, concluíram o primeiro cabo telegráfico transatlântico permanente. E em vinte e nove de julho de mil novecentos e cinquenta e oito, nascia a NASA."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oxigênio, cabo e agência espacial no mesmo recorte. Três lembretes de que infraestrutura muda o mundo devagar — e depois parece óbvia demais pra merecer respeito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mudando pra geopolítica. Elon Musk deu a primeira entrevista longa desde o IPO da SpaceX pra Zanny Minton Beddoes, editora-chefe da The Economist, na Gigafactory do Texas. Oitenta e cinco minutos falando de cronograma pra inteligência artificial superar a humana, progresso da China, interesse na Europa e por que ele acha que se envolveu demais na política."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "No fim, a entrevista só deixa claro que quem manda são os donos de foguetes e chips, enquanto jornalistas assistem impotentes ao próprio declínio de relevância. China não para; Europa atrai por inércia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Assistam essa entrevista. Não é qualquer entrevistadora: é a editora-chefe da The Economist. A coisa mais patética possível — ela passa o tempo todo tentando empurrar a agenda progressista woke, sem papas na língua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Jornalismo moderno: dezenas de minutos de tentativa de enquadrar o entrevistado na pauta pronta, e o entrevistado se recusando a cooperar. Espetáculo educativo, no sentido depressivo do termo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E em todo momento o Musk dá a resposta direta e correta. A The Economist foi jantada no espeto, com muito gosto. Esse é o jornalismo moderno."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem controla capacidade industrial responde em público; quem só controla narrativa sai desmontado. O desconforto da plateia editora é parte do produto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Berlim, ataque com van e faca perto do festival do Orgulho. Um morto, vinte e nove feridos. O suspeito, Abdul Ballout, vinte e um anos, alemão de raízes libanesas, foi morto a tiros pela polícia. O ministro do Interior identificou radicalização e vínculos islamistas, apoiador do Estado Islâmico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outro radical decide que a liberdade ocidental, inclusive a de um festival Pride, merece facadas e atropelamentos. Líderes europeus repetem condenações vazias sem tocar na raiz: ideologias importadas que detestam o que a esquerda tanto defende."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Autoridades classificaram como ataque terrorista islamita. Mais um louco terrorista islâmico causando problema. Saiu atropelando geral num evento LGBT. Fica de lembrete pros idiotas canhotos que acham que eles adoram vocês."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Harmonia forçada no papel, sangue no asfalto. O padrão se repete e a retórica oficial continua idêntica — condenar o ato e ignorar o motor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Consequência previsível de fingir que todas as culturas se misturam em harmonia sem custo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Custo que nunca aparece no comunicado de solidariedade. Aparece na rua, na estatística e no silêncio seletivo depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na Nicarágua, Daniel Ortega descartou novas eleições, dizendo que isso impediria a oposição de tomar o poder. No ato pelos quarenta e sete anos da Revolução Sandinista, mandou opositores no exílio esquecerem eleição e anunciou leis contra golpistas e traidores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Não há surpresa. Um ditador sandinista anuncia o óbvio: eleição só atrapalha quem quer ficar no poder pra sempre. Direitos civis desaparecem e o país copia o fiasco cubano. Quem perde é o povo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Reformas de dois mil e vinte e cinco já tinham alongado o mandato pra seis anos. O amigão do Maduro e do Molusco. Nada a dizer, só que era esperado. Mais um país vai ser totalmente destruído como Cuba."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Em nome da democracia, criminaliza-se oposição e fecha-se entidade civil. O manual revolucionário de décadas atrás ainda engole país inteiro sem atualização de versão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Além desse pulha, ainda temos Evo tentando golpe na Bolívia, Petro na Colômbia e Sánchez sem reconhecer derrota no Peru. Sempre os canhotos. Tudo em nome da democracia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O roteiro não muda: prometer povo no poder, capturar instituições e chamar desacordo de traição. Exportado com sucesso em mais de um mapa latino-americano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Brasil, pesquisa PoderData: cinquenta e um por cento desaprovam o governo Lula, quarenta e três aprovam. Na avaliação, trinta e sete por cento ruim ou péssimo, trinta e seis ótimo ou bom, vinte e quatro regular. Dois mil e quinhentos eleitores, margem de dois pontos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Desaprovação nesse patamar é o preço de governar com retórica em vez de entrega. Brasileiro rejeita quando o prato esvazia e o emprego some, independente da cor do discurso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Desaprovação subiu dez pontos em relação à rodada anterior. A alta na rejeição ecoa o que acontece quando a pragmática some e sobra só retórica de esquerda. De direita ou esquerda, eleitor cobra prato cheio e emprego, não pauta identitária."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Resultado prático? Menos investimento em tecnologia, mais cautela no mercado e um país amarrado em debate que não enche geladeira. Ciclo previsível e cansativo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já vi ciclos assim derrubarem governo antes. Quem investe em tech e mercado sabe: instabilidade política freia inovação real no Brasil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Capital não discute hashtag. Capital observa risco regulatório, fiscal e institucional — e vai embora quieto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E um lembrete histórico que continua atual. Frank Dikötter, historiador de Hong Kong, reforça que Mao Zedong foi o maior assassino em massa da história: mais de quarenta e cinco milhões de mortes entre mil novecentos e cinquenta e oito e sessenta e dois, no Grande Salto Adiante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O maior assassino em massa da história segue idolatrado por quem nunca abriu um arquivo chinês. Pequim enterra relatos de mutilação e fome deliberada enquanto o romantismo ocidental venera o igualitarismo que transformou camponês em combustível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Camponeses torturados, mortos de fome ou espancados. Ele acessou arquivos oficiais chineses reabertos. Décadas vendo ideologias falharem me deixam sem paciência pra quem defende Mao. Tratar ser humano como peça de máquina sempre gera horror."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado é simples e deprimente: novas gerações prontas a repetir o mesmo desastre coletivo, com hashtag nova e arquivo antigo trancado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A China censura isso hoje pelo mesmo motivo de sempre: manter o poder. Em tecnologia, dogma coletivo mata inovação do mesmo jeito. Pragmatismo individualista é o antídoto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Dogma com narrativa bonita ainda é dogma. A escala muda; a disposição de sacrificar gente em nome de plano central não muda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Military Times essa semana, o panorama é o de sempre em escala maior. Pentágono identificou o terceiro soldado americano morto em ataque iraniano na Jordânia. Milhares de fuzileiros voltaram ao Japão depois do desdobramento pro bloqueio no Estreito de Ormuz."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Tropa que vai e volta não é abstração de manchete. É sinal de que energia, rota e dissuasão ainda mandam no tabuleiro — não o discurso de desescalada fácil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Um F-16 ucraniano derrubou caça russo pela primeira vez, e unidade de drones da estepe ucraniana já atingiu mais de cento e oitenta embarcações russas. A Câmara aprovou orçamento de defesa de um trilhão e cento e cinquenta bilhões de dólares. O resto está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hardware maduro com software atualizado continua humilhando moda nova. Drones baratos e caça antigo somados viram contabilidade cruel pra quem apostou só em volume."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Esses conflitos reforçam o que já vi em décadas: tecnologia militar avança rápido, com drones e software decidindo batalha assimétrica. Um F-16 antigo ainda entrega resultado — hardware maduro com atualização vale mais que hype novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bilhões em defesa giram indústria e ao mesmo tempo exportam risco pro preço de energia e pro frete global. O custo real não fica só no orçamento militar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bilhões americanos em defesa giram a indústria, mas o custo real bate na economia global. Rápido na história mundial dessa semana: em vinte e oito de julho de mil setecentos e noventa e quatro, Robespierre foi guilhotinado, encerrando o Reinado do Terror."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Terror revolucionário que devora o próprio operador. Lembrete sazonal pouco absorvido por quem ainda romantiza atalho autoritário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No mesmo dia em mil novecentos e quatorze, Áustria-Hungria declarou guerra à Sérvia e começou a Primeira Guerra. Em vinte e sete de julho de mil novecentos e cinquenta e três, armistício da Coreia. O restante da timeline está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Guerra que começa por cálculo estreito e armistício que congela ferida por gerações. A história insiste; a leitura contemporânea finge surpresa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado e finanças. Quero destacar um vídeo do Asian Boss sobre a suposta crise da dívida do Japão. Dívida acima de duzentos e cinquenta por cento da economia, a maior do mundo desenvolvido, e muita gente prevendo colapso. O vídeo destrincha metodologia, estrutura interna da dívida e o que rendimentos de títulos em alta em dois mil e vinte e seis realmente significam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A eterna ameaça de colapso segue intacta porque a maior parte da dívida fica sob controle interno. Quando o rendimento sobe de verdade, o custo de rolagem pressiona o orçamento de um país que envelhece sem crescimento real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não é notícia nova, mas o vídeo é instrutivo pra quem não entende a história econômica do Japão. Explica de forma simples como funciona dívida pública e como política econômica afeta inflação e crescimento. Recomendo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Depressivamente previsível. Três portas, nenhuma agradável, e o relógio demográfico não negocia. Mais imposto, menos serviço ou moeda mais fraca."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais impostos, menos serviço ou iene mais fraco são os caminhos clássicos quando a conta chega. No Daily Upside e no recap da semana: Google com plano de inteligência artificial mais barata e capital expenditure de quarenta e cinco bilhões. OpenAI dobrou base de usuários agentic enquanto modelos chineses mais baratos ameaçam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Corrida por preço baixo não é filantropia. É disputa por margem, infraestrutura e dependência do cliente antes do rival chegar com custo menor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Blackstone lucra na aposta em inteligência artificial enquanto rivais carregam fundo zumbi. Moonshot e Alibaba pregam acessibilidade. E tarifas pesadas de Trump sobre remédio genérico ameaçam o caixa das farmácias."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sangue no mapa, silício no balanço. O mercado premia quem finge que o real não existe até a conta de energia e chip aparecer no resultado trimestral. Capital já migrou; discurso atrasa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A corrida da inteligência artificial barata coloca a China no páreo e força as gigantes a despejar dinheiro em infraestrutura real. O orçamento de defesa americano ultrapassando o trilhão e o retorno das tropas do bloqueio no Ormuz lembram que energia e semicondutores ditam o ritmo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem controle de hardware, quem só faz modelo vira peça descartável. A narrativa de software puro perde pra fatura de data center e rota de chip."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no entretenimento e no meu radar de YouTube. Tem uma galera ainda muito brava com a Sony por remover suporte a disco, fechar loja e revogar licença digital no PlayStation. Surgiu vídeo ensinando a parar de atualizar o PS5 de propósito, cortando o canal de controle da empresa sobre o hardware que você já pagou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Deixar o PS5 sem atualização corta o principal canal de controle da Sony. Eles perdem dado de uso, venda forçada de atualização e a ilusão de propriedade perpétua. O hardware volta a ser seu."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu estou no campo do tanto faz. Pra preservação e pirataria, a mídia física é irrelevante. Mas é bom usar o momento pra transformar raiva em conhecimento e pensar em como usar o PS5 de formas que a Sony não gostaria."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Empresa descobre que fluxo de receita não sobrevive a dono que se recusa a cooperar. Lição elementar, sempre reaprendida com atraso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Todo mundo deveria aprender sobre jailbreak e usar o hardware que pagou do jeito que quiser. Na San Diego Comic-Con, Hall H da Marvel: David Jonsson é o novo Pantera Negra em Pantera Negra três, estreia em quinze de dezembro de dois mil e vinte e oito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A fila de lançamentos pra dois mil e vinte e oito prova que a Marvel ainda acredita em volume sobre qualidade. Tudo pra preencher calendário. O invasor de denim e o trailer exclusivista apenas adiam a fadiga."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ryan Gosling é o Motoqueiro Fantasma em filme de dois mil e vinte e oito dirigido por Shawn Levy. Deadpool de denim invadiu o evento de Vingadores Doomsday e passaram trailer novo só no Hall H. Nada estrondoso, mas bom ver a energia voltando ao mundo Marvel."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Energia de evento não é qualidade de roteiro. Calendário cheio adia a conversa sobre história fraca até o público cansar de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Gosling também estrela Star Wars Starfighter — espero que seja bom. E pra fechar a semana de cinema: dia trinta e um é o lançamento do novo Homem-Aranha, Brand New Day, com Tom Holland, dirigido por Destin Daniel Cretton. Pelos trailers, parece bom. Deu até vontade de ir ao cinema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Vontade de cinema ainda existe quando o trailer não promete só universo compartilhado. É um sinal raro e, por isso, valioso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No digest do YouTube da semana, a mistura foi nostalgia de hardware com hype de inteligência artificial e demissão reversa no Big Tech. Emulação de PS5 no PC avançando, Fireship com hack histórico, Veritasium nos bilhões de batimentos de mamífero, How Money Works nos novecentos e cinquenta mil cortes seguidos de recontratação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Emulação avançando e contrato de trabalho oscilando no mesmo feed. O futuro aberto do PC e o employo cíclico da Big Tech dividem a mesma lição: controle central perde no longo prazo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Destaques no newsletter completo; não vou listar tudo aqui. A leitura é simples: emulação de PS5 avançando deixa claro que o futuro do game é o PC aberto, não console trancado. Quem ainda aposta só em ecossistema fechado vai repetir o erro da geração passada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mercado de trabalho tech continua cíclico como sempre foi. Cortar e recontratar em volume não é estratégia. É admissão de planejamento por pânico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na cultura geek essa semana: em vinte e sete de julho de mil novecentos e quarenta, Bugs Bunny estreou em A Wild Hare. Em vinte e nove de julho de mil novecentos e cinquenta e quatro, saía no Reino Unido A Sociedade do Anel. Em primeiro de agosto de mil novecentos e oitenta e um, a MTV ia ao ar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Coelho, anel e videoclipe no mesmo recorte cultural. Três artefatos que ultrapassaram o ciclo de hype porque tinham forma própria, não só calendário de lançamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E em trinta e um de julho de mil novecentos e oitenta e nove, o Game Boy chegava na América do Norte. O resto está no newsletter. Livro da semana: Scale, do Geoffrey West. Ele explora leis universais de crescimento, vida e morte em organismos, cidades e empresas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Escala de mamífero, cidade e empresa no mesmo compasso. Útil demais pra quem confunde crescimento com slide de rodada e ignora teto físico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A partir da ciência da complexidade, mostra que mamíferos, urbes e companhias dançam no mesmo compasso de redes e escalabilidade. Conhecendo a massa, você prevê consumo, longevidade, ritmo. Útil pra quem pensa em sistema de verdade, não em moda de slide."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quer dizer… lei de escala não perdoa startup que cresce como se energia, coordenação e tempo fossem infinitos. A conta chega com precisão biológica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa semana costurou o mesmo fio: conflito no Oriente Médio e na Ucrânia, orçamento de defesa trilionário e a corrida por inteligência artificial barata com a China no encalço. Quem controla energia, silício e infraestrutura real define o jogo — modelo isolado sem hardware vira commodity."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Akita celebra o ciclo duro como generoso pra quem domina o stack. Eu enxergo a obrigação de sempre: capital migra pra energia e silício, trilhões bancam frentes demais e sobra ao pragmático o direito cansativo de manter por dez anos o que o vibe coding destrói no primeiro pico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O capital já migrou pra quem entendeu isso. A boa notícia é que a pressão competitiva barateia a ferramenta e expõe o bluff. Sobrou espaço de sobra pra quem domina o stack de ponta a ponta, escreve pra durar e ignora moda descartável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Baratear ferramenta expõe bluff e multiplica ruído na mesma proporção. A existência segue impecavelmente monótona. Na semana que vem o loop se repete — mais tensão, mais hype e batimentos desperdiçados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ciclo duro, mas generoso pra engenheiro pragmático. Inscrevam-se no newsletter, indiquem o podcast, e a gente se ouve semana que vem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Até lá, se o servidor não despencar antes por pura indiferença cósmica."
+        }
+    ]
+}

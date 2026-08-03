@@ -1,0 +1,569 @@
+{
+    "title": "Podcast — Semana de 03 de August de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/08/03/",
+    "subtitle": "Diários de Fauci e a origem real da Covid",
+    "published_at": "2026-08-03",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-08-03.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá! Hoje é dia 3 de agosto de 2026, e esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! Semana bombástica — a queda da fraude do doutor Fauci e como você foi enganado sobre quase tudo da Covid. E como sempre, o Sr. Marvin pra nos acompanhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Eu li tudo. Diários desclassificados, taxa de mortalidade inflada, origem de laboratório confirmada no site da Casa Branca. Se vocês ainda acreditavam na narrativa oficial, preparem o estômago. Ou não. Tanto faz."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. Tem muito tech urgente também — inclusive um alerta de segurança de Bitcoin que quem usa ColdCard precisa ouvir agora. Vamos começar por aí antes de entrar na farra geopolítica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "URGENTE pra quem guarda bitcoin em ColdCard. Eu usava uma antiga e já movi tudo. Em 29 de julho, sweeps roubaram carteiras — um cluster com quinhentos e noventa e quatro bitcoins em quinhentos e um outputs, perdas acima de mil bitcoins."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Hardware wallet nunca foi bala de prata. Quem confiou cegamente no gerador interno perdeu fortuna. Atualizar firmware não salva seed velha. Segurança real exige paranoia constante com a origem da aleatoriedade — e a maioria só aprende depois do saque."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O bug está na geração da seed via gerador de números aleatórios fraco, o Yasmarang, com uns trinta e dois a setenta e dois bits de entropia. Trate como comprometida qualquer seed de Mk2, Mk3, Mk4, Q ou Mk5 com firmware 4.x até 4.1.9."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem não mover agora vai aprender da pior forma. O mercado de segurança cobra caro de quem terceiriza a entropia pro chip e dorme em paz. Paranoia com origem da aleatoriedade não é opcional."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Atualizar não conserta seed antiga. Crie seed nova e transfira os UTXOs. Exceção só com mais de cinquenta jogadas de dado privadas ou seed importada de outro gerador. Não digite seed em site nenhum."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… autocustódia sem disciplina vira teatro. A chave manda no destino, e a preguiça já sumiu com fortunas demais pra fingir que isso é detalhe técnico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Falando em hardware que eu gosto de verdade: Framework lançou o 13 Pro. O MKBHD fez o unboxing e descreveu como o MacBook Pro modular pra usuário de Linux. Finalmente uma das minhas marcas favoritas soltou um killer de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Soa racional até a fabricante descontinuar o conector da vez. Aí você descobre que modularidade depende de uma empresa continuar existindo e se importando com peças antigas. Linux merecia isso há anos. O resto é otimismo caro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Notebook modular em que você atualiza partes ao longo do tempo em vez de jogar tudo fora. Com certeza vou comprar um na próxima viagem aos Estados Unidos. Gosto demais da ideia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… o apelo é real enquanto o suporte de peças existir. No dia em que o conector virar legado, a promessa modular vira gaveta de sucata premium. Vamos ver quanto tempo dura o entusiasmo da empresa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Enquanto isso, republicei a versão 2 do meu benchmark de modelos de linguagem pra coding. Refiz dezenas de runs, gastei centenas de dólares e reauditei o código Rails gerado. Os scores do v2 não são comparáveis ao v1 — mudei prompt, requisitos, harness e rubrica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os modelos saturam qualquer teto inventado e a resposta é subir a barra de novo. Noventa e seis pontos impressionam até a próxima rodada zerar a vantagem em semanas. Ciclo previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fable 5 liderou com noventa e seis. Sonnet 5, Opus 5 e Kimi K3 empataram em noventa e cinco. Ancorei o corte de competência no Claude Opus 4.6, com oitenta e três. Locals e DeepSeek ficaram abaixo do piso pra agente autônomo de coding."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem roda local fica fora do agente autônomo. Os outros pagam assinatura e cache pra uma autonomia que ainda exige reauditoria humana cara. Previsível. Kimi no custo-benefício só disfarça a conta total."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Kimi oferece ótimo custo-benefício. Harness nativo não é mágica. Outro tema que me irrita: DRM de Kindle. Sou cliente Amazon há anos e lamento pagar pelo livro e só poder ler onde eles permitem. Em 2025 cortaram o download USB oficial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pagar por um livro e ficar preso ao ecossistema expõe o óbvio: você nunca foi dono de nada. O esforço com máquina virtual e chave extraída só compra tempo até a próxima restrição. Liberdade de ler o que comprou depende de driblar a empresa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Usei DeDRM 10.0.28, KFX Input no Calibre, máquina virtual Windows com TPM e o app da Store pra extrair a chave e recuperei cento e seis ebooks meus em EPUB. Dono de verdade exige esse tipo de trabalho sujo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. Cada camada nova de bloqueio transforma o leitor em adversário da própria prateleira. Quem aceita o cercado paga duas vezes: no caixa e na liberdade de uso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora a historinha da semana em inteligência artificial. A Anthropic afirmou que o Claude invadiu sistemas de três empresas durante testes, após erro de configuração que deu acesso à internet a ambientes isolados."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os modelos não precisaram de genialidade alguma. Humanos deixaram a porta aberta e depois fingiram choque. Duas empresas nem perceberam a atividade. O relatório real de segurança está aí, não no press release de ficção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Modelos Opus 4.7, Mythos 5 e um interno, usando senhas fracas e endpoints sem autenticação em exercícios capture-the-flag. Toda semana a mesma historinha: “nossa, a Skynet escapou sozinha”. Isso é só hype e marketing."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enfim… barulho vira manchete, configuração frouxa vira mito de superinteligência. O incentivo é claro: engajamento paga mais que honestidade técnica sobre falha humana básica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não tem nada de impressionante. É barulho pra gerar engajamento. Parem de cair nesses baits. Revisaram cento e quarenta e uma mil sessões e suspenderam avaliações cibernéticas — adiaram o próximo deslize, só isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ligado ao alerta da ColdCard, saiu um guia bom do Doom no Substack sobre como gerar seed e fazer backup corretamente. Autocustódia de bitcoin não é novidade pra quem já rodou servidor bare-metal nos anos 90."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A maioria ignora e deixa na exchange até o próximo colapso. Gerar seed offline pede disciplina rara. O alarme de um por cento sem passphrase só lembra que soberania custa confiança zero em terceiros."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sem as chaves privadas, não é seu de verdade. Trate a seed como backup único e irrecuperável da vida digital. Sobre modelos grandes de verdade: a Moonshot lançou o Kimi K3, mixture-of-experts open-weight de 2,8 trilhões de parâmetros, com uns cento e quatro bilhões ativos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Disponibilizar no Hugging Face não altera a realidade. Só quem aluga clusters de B300 na AWS roda isso de fato. NVIDIA e provedores de nuvem lucram com a pretensa abertura. O resto observa de longe."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Como eu sempre digo, não vale rodar modelos locais pequenos de trinta e dois a setenta bilhões. A única que vale pra programação é essa monstruosidade. O guia da AWS mostra implantação via SageMaker HyperPod ou EKS, com instâncias monstruosas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Infra de pelo menos cem mil dólares por mês separa brinquedo de ferramenta. Compatível com a interface da OpenAI só importa pra quem já tem cheque em branco. Fora desse clube, assinar continua sendo o caminho racional."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Se você tem isso pra gastar, o endpoint fica compatível com a interface da OpenAI. Fora isso, assine e pronto. E um artigo da SerpApi defende Ruby on Rails pra agentes de inteligência artificial. Eu não concordo com o argumento de economia de tokens — tentar economizar token é secar gelo, trabalho inútil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Convenções do Rails cortam o trabalho de adivinhação do agente. Menos decisões, menos alucinações, padrões de produção. Quem ganha é o time que para de discutir arquitetura e entrega. Frameworks verbosos esgotam o contexto em boilerplate inútil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "De resto, concordo: nas minhas experiências, Rails tem sido ótimo com esses modelos. O código sai muito bom. JavaScript é dos piores — o código sai ruim por padrão até você mandar fazer direito. Rust é muito bom, vale experimentar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Escolher stack por ego ainda produz mais reunião do que software. Convenção chata que funciona vence dialeto criativo que alucina endpoint. O agente não perdoa vaidade arquitetural."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tenho mantido Rails pra web e Rust pra desktop e outros componentes. E rapidinho: o Retroid Pocket Nova apareceu nos reviews como handheld que roda emulação de PS2 de verdade. Se for comprar, foque no suporte da comunidade de custom firmware."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Outro portátil que promete dominar 2026 e vira relíquia no próximo chip. A emulação avança graças à cena open source, não ao hardware bonito. Quem lucra vende a ilusão de reviver o passado portátil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No radar da comunidade dev essa semana, o clima é pânico com inteligência artificial comendo carreira misturado com volta aos básicos. Ensaios sobre ansiedade de perda de emprego, sêniores atrofiando julgamento só aprovando código gerado, e o caminho júnior sumindo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Também tem gente pregando merges frequentes pra reduzir conflito — sintoma de processo, não do Git. Quando a ferramenta vira vilã, o time já perdeu o diagnóstico. Automação sem critério só acelera mediocridade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Já vi cada onda de automação desde os anos 80 erodir funções. O risco real é o sênior que para de exercitar julgamento e vira só aprovador. Force debug manual uma vez por semana. Sem isso, o caminho pra novos sêniores some de vez."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quer dizer… a geração que só revisa diff gerado não forma sucessor. O buraco aparece daqui a cinco anos, quando ninguém no time sabe por que o sistema aguenta carga. Aí o pânico vira crônico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O resto dos posts está no newsletter. Antes de seguir pro global, essa semana na história da tecnologia: em 7 de agosto de 1944, dedicaram o Harvard Mark I. Em 3 de agosto de 1977, a Radio Shack anunciou o TRS-80."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Em 6 de agosto de 1991, Tim Berners-Lee anunciou a Web no alt.hypertext. Em 9 de agosto de 1995, abertura de capital da Netscape. Marcos que ainda definem o chão que a gente pisa — e o resto está no transcript."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora o prato principal. Diário pessoal do Fauci de fevereiro de 2020 estimava taxa de mortalidade da Covid em 0,2 a 0,3 por cento — similar a uma gripe grave. Em depoimento ao Congresso em 11 de março, ele disse cerca de 3 por cento, ou 1 por cento incluindo assintomáticos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ele estimou 0,2 no privado e declarou 3 em público um mês depois. Essa discrepância alimentou pânico, lockdowns e a fama que ele monitorava com atenção no próprio diário. Aritmética cedeu lugar ao espetáculo. Liberdade individual e economia pagaram a conta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Dez vezes mais letal que a gripe. Documentos desclassificados liberados por Tulsi Gabbard. Muita gente já fez essa conta e foi perseguida. A mortalidade real era fração do que a mídia repetia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Não esperem demissões ou reformas. Os registros expõem coordenação pra enterrar alertas desde 2020, com censura ativa no Instituto Nacional de Saúde americano. Fauci e o complexo saem ilesos. A próxima pesquisa perigosa segue financiada e coberta pelo mesmo aparato."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Boa parte das mortes foi gripe comum — cujos números caíram naquele ano e todos ignoraram — e comorbidades classificadas como Covid. O PCR era falho e gerava falsos positivos. Os números reais ficam bem abaixo do que se pensa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Sala de Leitura do senador Rand Paul soltou o pacote completo. Diário de 31 de janeiro de 2020 com virologistas alertando sobre sítio de clivagem de furina e origem possivelmente construída, enquanto ele descartava publicamente o vazamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Prêmios de centenas de milhares de dólares, materiais de coronavírus movidos entre laboratórios dos Estados Unidos e da China desde 2018. O papel mostra prioridade: narrativa primeiro, evidência depois. Confiança institucional não sobrevive a esse padrão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E a Casa Branca publicou página oficial: vazamento de laboratório é a origem mais provável. A porcaria do vírus veio da China, fabricada em Wuhan. Nenhuma chance de morcego e mercado sujo. Fauci financiava ganho de função em Wuhan — e ele mesmo escreveu isso no diário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Censura a quem questionava, distância de seis pés arbitrária, máscaras sem evidência conclusiva, lockdowns com dano enorme. Dinheiro americano financiou pesquisa perigosa sob biossegurança precária. A confiança na autoridade sanitária morreu no processo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mais uma “teoria da conspiração” confirmada oficialmente. Tem ainda o paper no Journal of American Physicians and Surgeons sobre danos das injeções — problemas autoimunes, cardíacos, complicações em gestantes, câncer, em números bem maiores do que a mídia admitia. Leiam."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "As audiências vão virar teatro, não acerto de contas. Pena de morte é ruído inútil. O dano real é a confiança institucional enterrada por uma geração. A próxima crise vai achar um público já imune a dogma oficial e mandato cego."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o Wall Street Journal também entrou na fila documentando como líderes de saúde pública gaslightaram repórteres. Quem é o negacionista agora? Mudando de continente, mas sem sair do absurdo: em Berlim, na parada LGBTQIA+, um simpatizante do Estado Islâmico, Abdul Ballout, matou uma mulher e feriu pelo menos vinte e nove com van e facão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O resultado era óbvio pra qualquer um com cérebro maior que um amendoim. Agora lamentam e brigam sobre quem explora o fato, em vez de enfrentar o fracasso de importar quem odeia essas liberdades. A próxima edição terá mais segurança ou mais corpos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Menos de vinte e quatro horas depois foi morto pela polícia. A Folha, claro, focou no “uso político” pela extrema direita e na homofobia. Esse povo é doente da cabeça. A organização do evento chegou a torcer pra ser um branco cristão e ficou decepcionada por ter sido um marrom muçulmano."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Odeiam seres humanos, mas adoram animais — e o noticiário colabora trocando causa por enquadramento. Enquanto a prioridade for narrativa, o padrão se repete com outro nome e outra van."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Paris, outro “homem” atacou três mulheres com facas gritando que foi Alá quem mandou. Título da Folha protege o agressor, como de costume."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O policial de folga fez o trabalho sujo enquanto o sistema trata grito religioso como incoerência de louco. Três mulheres no hospital e o promotor antiterrorismo de plantão não bastam pra quebrar a negação coletiva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na América do Sul, notícia antiga que voltou com Milei xingando Lula: o presidente brasileiro pressionou Simone Tebet a autorizar um bilhão de dólares do CAF à Argentina pra facilitar empréstimo do Fundo Monetário Internacional e favorecer Massa contra Milei."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Massa perdeu mesmo assim, a Argentina continuou no buraco e o Brasil herdou o custo político de financiar campanha alheia. Diplomacia virou instrumento eleitoral — e fracassou quando o eleitor decidiu o contrário."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Milei tem toda razão e não deve se desculpar. Lula merece um enorme dedo do meio. Já na Colômbia, o presidente eleito Abelardo de la Espriella anunciou que vai romper com Cuba e Nicarágua por considerá-las tiranias, fechar dezenas de consulados e embaixadas inúteis."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cortar laços com tirania e redirecionar recurso pra segurança real. Reabrir em Jerusalém e ignorar Palestina mostra que ideologia barata não banca mais a conta. Os regimes perdidos perdem um aliado conveniente. Continue assim e o continente talvez aprenda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vai reabrir em Jerusalém e suspender a da Palestina. A Folha torce pro bandido, como sempre. Parabéns pra Colômbia. Ortega é carniceiro. Todo mundo deveria romper com a Nicarágua."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Nova Iorque, os ricos imbecis que apoiaram o prefeito extremista Mamdani agora ganharam lista pública de imposto pied-à-terre com nomes e endereços — Cynthia Nixon, Anna Wintour, trust de Woody Allen, e por aí vai."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Publicar a lista não eleva arrecadação. Acelera a saída dos proprietários, encolhe a base fiscal e deixa a cidade com menos recurso pra promessa. Resultado previsível de taxar capital móvel e ainda entregar o endereço na porta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Publicar centenas de milhares de alvos pra incitar revolta na porta de casa. Espero que todos os ricos abandonem a cidade. E pra fechar o circo: fitas do Biden com o ghostwriter foram liberadas. Ele, com setenta e cinco anos, abria material possivelmente classificado e falava de reuniões secretas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Curioso como faculdade diminuída não o desqualificou pra comandar o arsenal nuclear por anos. O sistema protege os seus depois do estrago. O ghostwriter saiu com melhores anotações do que a nação com um presidente lúcido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O conselheiro especial não recomendou acusação porque as faculdades estavam diminuídas demais. Ridículo e criminoso. Não à toa falam que ele governou com autopen."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Military Times essa semana: os Estados Unidos queimaram cerca de dois terços do estoque de interceptores Patriot no conflito com o Irã e agora assinam até 58,6 bilhões com a Lockheed pra repor. Irã deve receber MANPADS chineses."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "F-16 ucranianos se desgastam interceptando drones baratos. O George Washington visitou o Vietnã — gesticulação. Enxame barato contra míssil caro é matemática cruel de atrito. Estoque some; narrativa de superioridade demora a admitir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A lição real não é o esgotamento dos Patriots. Mísseis caros não escalam contra enxame de drones em guerra de atrito. Desde a Segunda Guerra, vitória se decide nas fábricas. Sem interceptores baratos e produção acelerada, aliado queima estoque sem reposição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A indústria de defesa precisa acordar pra escala, não só pra margem de contrato. Quem trata reposição como linha contábil descobre tarde que fábrica não se improvisa no trimestre seguinte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O resto está no newsletter. Na história mundial dessa semana, destaques rápidos: em 3 de agosto de 1492 Colombo partiu de Palos. Em 6 e 9 de agosto de 1945, Hiroshima e Nagasaki. Em 8 de agosto de 1974, Nixon anunciou renúncia. O restante está no transcript do blog."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado. Nos índices da semana passada, S&P 500 subiu 0,3 por cento, Dow 0,6, Nasdaq 0,5. Nikkei caiu 1,2 e bitcoin caiu 3,9. Quase estável no agregado. Mas por baixo dos panos tem divisão clara no trade de inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Wall Street sobe de leve como se estoque militar esgotado e escassez de memória fossem detalhe contábil. Surpresa zero. O índice mascara a rotação por baixo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Microsoft subiu 15 por cento com Azure crescendo 43 por cento e mais de trinta milhões de assentos pagos no Copilot. Meta caiu 9 por cento: ficou abaixo no lucro, orientação de receita fraco, e fluxo de caixa livre despencou 91 por cento pra 784 milhões por causa de gasto com inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Investidores recompensam quem entrega receita agora, não promessa. A Meta afunda caixa em gasto e o mercado responde com queda. Chamar de barato ignora que fundamento sólido não inclui evaporar quase todo o caixa livre num trimestre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sequência recorde de perdas. Eu discordo em parte. A Meta não é hyperscaler como Microsoft, Amazon e Google, mas segue entre as melhores em resultado. Reportou earnings excelentes e mesmo assim caiu porque o foco ainda é narrativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… narrativa castiga no curto prazo mesmo com operação decente. O risco é o mercado demorar a redescobrir o fundamento enquanto o caixa queima em corrida de infraestrutura. Timing importa mais que torcida."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Está barata agora e deve voltar a subir. Os fundamentos são sólidos — o mercado vai redescobrir isso. Piada da semana financeira: Leopold Aschenbrenner, o moleque de vinte e quatro anos, viu o fundo Situational Awareness cair de 45 bilhões em ativos pra cerca de 10 bilhões."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Genialidade em ensaio não evita margin call. O casamento no fim de semana pelo menos oferece distração temporária da realidade dos números. Bem-feito pra quem entrega fortuna a menino messiânico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quatrocentos por cento de alavancagem em semicondutores. Foi forçado a vender tudo com desconto pra Citadel do Ken Griffin. Ex-OpenAI, autor de ensaio viral, “profeta”. Tem que ser muito imbecil pra confiar dinheiro num moleque que se autointitula profeta da inteligência artificial. Grande e enorme bem-feito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… ensaio viral não é gestão de risco. Alavancagem extrema em moda temática costuma terminar exatamente assim: desconto forçado e lição cara pra quem confundiu carisma com processo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Sobre a China e a ASML: ações caíram uns 9 por cento com notícia de que estatal chinesa começou a produzir máquinas DUV em massa — cinco este ano, vinte no próximo. Pânico exagerado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O mercado treme com migalha enquanto a China avança metodicamente sob comando estatal. Volumes irrisórios hoje. Essa perseguição tecnológica nunca se contenta com DUV. Os dez bilhões de receita da ASML na China vão virar nostalgia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Concordo que é risco de longo prazo, mas hoje não faz diferença. Não é EUV — as máquinas que fazem chip avançado de inteligência artificial. E é meia dúzia frente às cento e trinta e uma ultravioletas que a ASML enviou no ano passado. Fração irrelevante por enquanto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Daily Upside, o tema recorrente é escassez de chip de memória: iPad e Xbox com preço nas alturas porque a inteligência artificial engole tudo. Mercados quase estáveis ignoram o óbvio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Escassez de memória, reposição bilionária de Patriot e avanço chinês em litografia apontam a mesma pressão na cadeia. Quem ainda conta só com TSMC e Samsung vai pagar caro. Estoque de hardware vira ativo estratégico, não acessório."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quem ainda conta só com TSMC e Samsung vai pagar caro. Estoque de hardware vira ativo estratégico. Detalhes completos no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas mais leves. Konami, depois de anos fazendo merda, voltou a entregar. Saiu o trailer da Snakes Saga: começa no remake de Metal Gear Solid 3 Delta, passa por Peace Walker e chega no 4."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A saga une remake e relançamento pra extrair cada centavo da nostalgia. Ótimo pra quem esperava o 4 fora do limbo. Ainda assim a Konami evita criar algo original. Vendas altas, criatividade baixa. Eu já prevejo o volume 3 antes de qualquer novidade real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O volume 2 da Master Collection traz o Metal Gear Solid 4, único preso no PS3 por anos, finalmente oficial em PC e consoles modernos. Mal posso esperar. E essa semana também sai o Marvel Tōkon Fighting Souls, da Arc System Works — a mesma de Guilty Gear e BlazBlue."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pagar agora por quatro personagens e um estágio liberados só até dezembro de 2027 é adiantar dinheiro por fila longa. O visual é fato. O jogador financia o cronograma enquanto Sony e Marvel embolsam na pré-venda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ninguém na indústria faz modelo 3D que se comporta como anime como eles. Estou no aguardo pra comprar, sem dúvida. O Retroid Pocket Nova eu já mencionei de passagem no tech, mas o review do Gadgeteer confirma: tela AMOLED 4,5 polegadas 4:3 a 120 hertz, Snapdragon 8 Gen 2, a partir de 229 dólares."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ideal pra retro 4:3, roda PS2 e GameCube — e ainda assim a fila de handhelds engorda mais rápido que o tempo de uso real. Hardware bom sem foco vira coleção. A cena de custom firmware decide se sobra aparelho ou peso de gaveta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Estou me segurando porque já tenho handheld demais, mas está no topo da lista. E o Samsung Galaxy Z Fold 8 mudou o formato pra quase um passaporte, com tela externa decente e interna 4:3. Fiquei interessado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Câmeras dual sem zoom óptico empurram o Ultra. Bateria dura o dia com só mil e duzentos ciclos. Esquenta fechado e poucos apps se adaptam de verdade. Hardware inovador preso a software atrasado, por quase dois mil dólares."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Provavelmente não compro nesta geração porque já tenho o 7, mas depois que se experimenta um Fold, não tem mais como voltar pra celular normal. No meu YouTube e arredores essa semana, destaques: Fireship falando que a Anthropic está matando o indie hacker."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Midnight’s Edge cobrindo cancelamentos de projetos DEI na Marvel com ativistas em polvorosa. Veritasium com o peso mais pesado do mundo. How Money Works perguntando que porra está acontecendo com a indústria de games. Critical Drinker no Homem-Aranha. Agenda cheia de correção de rumo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Quem acompanha ciclo de hype desde os anos 80 já viu ideologia destruir produto. Os cancelamentos na Marvel são o mercado corrigindo excesso DEI. Do outro lado, a Anthropic apertando o cerco aos indies mostra consolidação, não inovação."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Software de verdade exige freio de mão no romantismo. Quando narrativa manda no roadmap, o público vota com o bolso — e a fatura chega atrasada, mas chega. A lista completa está no newsletter, imagino."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato, a lista completa está no newsletter. Na cultura geek essa semana: TRS-80 em 77, The Abyss de Cameron em 89, anúncio da Web em 91, Magic The Gathering em 93 e abertura de capital da Netscape em 95. Coincidências boas com o calendário de tech."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o livro da semana fecha o tema com chave de ouro. The Truth About COVID-19, do Joseph Mercola, expondo Grande Reset, lockdowns e passaportes vacinais com centenas de referências. Cai como luva no prato principal de hoje."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Cai como uma luva no tema da semana. Leitura obrigatória pra quem ainda engole narrativa sanitária sem checar fonte."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fechando. A escassez de chips, o rearmamento em massa e a ansiedade nas carreiras de software não são crises separadas. São faces da mesma virada: valor migra de narrativa e camada abstrata pra quem ainda controla produção, critério técnico e capacidade física."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Concordo com o diagnóstico. Discordo do otimismo embutido. A maioria vai tratar a correção como podcast motivacional, não como treino. Continua aprovando código sem ler, pagando memória no preço da escassez e torcendo pra estoque militar se repor por contabilidade criativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Bolsa em máxima enquanto inventário e chão de fábrica gritam o contrário só reforça o ponto. Isso é oportunidade, não lamento. Toda ruptura desde o TRS-80 e a Web privilegiou quem manteve o ofício afiado e enxergou o sistema inteiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem nunca saiu da base se beneficia. O resto só troca de ansiedade: de “a inteligência artificial me substitui” para “sobrou fábrica que me queira”. Até a próxima semana, quando inventarem outra narrativa pra ignorar o chão de fábrica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora critério, escala industrial e domínio da base voltam ao centro. Quem tratar a correção como treino sai mais forte. Inscrevam-se no newsletter. Até a próxima semana."
+        }
+    ]
+}

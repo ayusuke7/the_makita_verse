@@ -1,0 +1,502 @@
+{
+    "title": "Newsletter #27 - 10 de August de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/08/10/",
+    "subtitle": "Negacionistas reabilitados e urnas digitais inviáveis",
+    "published_at": "2026-08-10",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "Por que uma eleição digital perfeita ainda não seria viável?",
+            "content": "<p>Eu explico que toda eleição no Brasil gera desconfiança porque o voto é 100% digital, sem cédula, recibo de papel ou recontagem independente: entra na urna, vira número em software fechado e sai boletim. O “abrir a urna” do TSE para técnicos é teatro inútil, pois hardware não prova ausência de malware e a auditoria de software é restrita e curta. A urna é só uma caixa; a confiança real está em processos secretos.</p><p>Descrevo um sistema hipotético perfeito, totalmente aberto, com compromissos de Pedersen, provas de conhecimento zero e Merkle tree pública: o eleitor leva só um serial que prova inclusão sem revelar o voto, impedindo cabresto e permitindo verificação individual e universal. Mesmo assim, concluo que esse modelo matematicamente indevassável ainda não seria viável na prática.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/07/66314606739a913cf52f07c4c5ff6abc-ai-image.png",
+            "source": "https://akitaonrails.com/2026/08/07/por-que-uma-eleicao-digital-perfeita-ainda-nao-seria-viavel/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O sistema perfeito com provas criptográficas ainda esbarra no mesmo obstáculo de sempre: quem controla a implementação e a contagem final. Matemática elegante não elimina o incentivo político para manter a caixa preta. Resultado previsível: desconfiança permanente e vitórias que ninguém audita de verdade, ciclo que se repete a cada quatro anos sem saída."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "Alguém algum dia vai dizer: “Sinto muito”?",
+            "content": "<p>Dr. Anthony Fauci invocou a Quinta Emenda perante o Congresso esta semana, recusando responder a muitas perguntas dos senadores. A autora descreve como políticas governamentais durante a COVID-19 destruíram o negócio de restaurantes de sua família, que estava a semanas de uma venda de US$ 31 milhões, causando perdas financeiras e pessoais duradouras.</p><p>Ela argumenta que Fauci é apenas um burocrata entre muitos — governadores, departamentos de saúde, escolas, empresas e líderes de ambos os partidos implementaram medidas que devastaram americanos comuns. Questiona a ausência de desculpas ou responsabilidade por consequências que alteraram milhões de vidas permanentemente.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/03/ef38b05ba70969cd27d87ef19f826f06-image.jpg",
+            "source": "https://www.zerohedge.com/political/anybody-ever-going-say-im-sorry",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso nao e novidade para quem observou regimes autoritarios de perto: burocratas raramente pagam o preco de suas decisoes. Na industria de software, regulacoes excessivas ja destruiram inovacoes promissoras da mesma forma. Sem cobranca real de responsabilidade, o aparato estatal so cresce, esmagando o individuo. Prevejo mais do mesmo sem mudanca cultural."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Burocratas como Fauci invocam a Quinta e seguem em frente, enquanto famílias perdem negócios de milhões e vidas inteiras. A ausência de responsabilidade não é falha do sistema — é o sistema funcionando. Quem sofreu as consequências dos fechamentos nunca vai ver justiça, e o próximo pânico vai repetir o ciclo com a mesma impunidade."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "CEO do Telegram diz que ’extorsionista de takedown’ foi responsável pelo app ser brevemente removido da listagem pela Apple - Engadget",
+            "content": "<p><strong>O executivo afirmou que o serviço foi alvo de \"um extorsionista de takedown.\"</strong> Em uma longa postagem no X, Durov alegou que um ator malicioso editou uma mensagem antiga em um chat de grupo ativo para mostrar \"conteúdo ilegal modificado por IA\" que não seria visto …</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/05/eca7a4aa07127a92e6eaef119a300484-ai-image.png",
+            "source": "https://www.engadget.com/2230482/telegram-ceo-says-takedown-extortionist-was-responsible-for-the-app-being-briefly-delisted-by-apple/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Essa foi boa: grupo de Telegram sofre extorsão. Resolvi postar este artigo só porque achei isso engraçado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A edição de mensagens antigas no Telegram serve de base perfeita para extorsão. O atacante injeta conteúdo ilegal gerado por IA, exige pagamento sob ameaça de denúncia. Plataformas que priorizam liberdade sofrem exatamente por isso. Resultado previsível: mais restrições para todos, enquanto os bandidos seguem livres."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "Uma Enorme Campanha Shai-Hulud Atinge o npm: +440 Pacotes Comprometidos, Mais de 2B Downloads Mensais",
+            "content": "<p>Uma nova campanha Shai-Hulud, intitulada “Shai-Hulud: Here We Go Again”, se espalha no npm via arquivos math_init.js e Math_Symbol.js, usando script preinstall. Afeta pacotes com mais de 2 bilhões de downloads mensais, incluindo keyv e cacheable; contém infostealer, código autopropagante, instala bun e usa GitHub como C2.</p><p>O malware exfiltra credenciais via tokens GitHub roubados, marca commits com a frase da campanha (821 repositórios), tem dead man’s switch que apaga a máquina se o token for revogado e persiste em IDEs como VS Code e Claude. Inclui chave pública de criptografia e avisa contra revogação do token.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/05/5007bb646f377619cb1a7fe70aa86743-image.jpg",
+            "source": "https://www.ox.security/blog/a-new-infostealer-worm-hits-npm-affecting-keyv-and-cacheable/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Além do AUR, toda semana o NPM sofre ataque de supply chain, e o Shai Hulud está nas notícias há semanas. A administração do NPM é uma droga. Por enquanto, não há o que fazer: configure o npm para não atualizar nada com menos de 2 ou 3 dias. Não puxe pacotes recém-lançados. A chance de conter o Shai Hulud é grande."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O mecanismo de homem morto é o detalhe que importa: revogar o token e a máquina some. Quem descobrir o comprometimento fica refém do próprio ladrão. Enquanto isso, pacotes com bilhões de downloads mensais espalham o código. O npm segue como vetor preferido porque a higiene mínima custa esforço. Isso se repete na próxima semana."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "bitchat adiciona compartilhamento offline de apps Android com transferência direta entre dispositivos",
+            "content": "<p>O Bitchat agora permite que usuários Android transfiram o aplicativo diretamente de um dispositivo para outro via Bluetooth ou Wi-Fi, sem conexão com a internet. O recurso está disponível no GitHub e chegará à Play Store em atualização futura.</p><p>O app de mensagens peer-to-peer descentralizado oferece comunicação segura por malha Bluetooth, criptografia ponta a ponta, chats baseados em canais e design focado em privacidade.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/05/446c2f1a82df034c495594c671de0142-image.jpg",
+            "source": "https://alternativeto.net/news/2026/8/bitchat-adds-offline-android-app-sharing-with-direct-device-transfer/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Todo mundo precisa conhecer o Bitchat, o app de mensagens do ex-fundador do Twitter, Jack Dorsey. A grande vantagem é funcionar sem servidores centralizados, como WhatsApp ou Telegram. É perfeito para países totalitários, com censura pesada do governo, como China ou Índia — e em breve o Brasil. Vale deixar instalado e aprender a usar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Transferir o app via Bluetooth ou Wi-Fi sem loja oficial corta o ponto único de bloqueio que governos adoram usar. Em redes mesh locais a comunicação sobrevive a banimentos de servidor e censura de app store, mas só entre quem já instalou antes do cerco apertar. A maioria vai descobrir isso tarde demais, como sempre."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "A Intel acabou de igualar o Apple Silicon. Sério.",
+            "content": "<p>O vídeo testa o Dell XPS 13 de US$ 699 e o compara ao MacBook Neo. A Intel melhorou bastante a eficiência, e o XPS 13 surpreendeu positivamente.</p><p>Há melhorias em relação ao Neo, mas alguns pontos piores; roda Linux, mostra dados de benchmarks e permanece um laptop de orçamento.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/07/387a4029c7e140a141a089ad2e437edc-image.jpg",
+            "source": "https://www.youtube.com/watch?v=A2B7oI0FYqo",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Desde o lançamento do Panther Lake, em janeiro, a Intel finalmente conseguiu lançar chips que concorrem com os M5 da Apple em eficiência — provando que eficiência não tem a ver com ser ou não ser ARM64. O problema da Intel nunca foi tecnologia, foi má administração: anos de trocas de CEOs, falta de visão e a corrida dos smartphones perdida. Precisou o Trump salvar a empresa com investimentos do governo para colocarem as coisas nos eixos. Espero que continuem assim."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Intel prova que eficiência não exige abandonar x86, e o XPS 13 a preço de orçamento roda Linux e supera expectativas de bateria. Quem comprava Mac só por autonomia agora tem alternativa real. A pressão no mercado barato sobe, mas a Intel tem histórico de tropeçar logo depois de acertar. Veremos quanto dura."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "Arch Linux interrompe todos os uploads no AUR, dezenas de pacotes maliciosos detectados",
+            "content": "<p>O Arch Linux suspendeu todos os uploads no repositório AUR após identificar pelo menos 120 pacotes maliciosos, com relatos de mais de 200. A equipe já havia interrompido adoções de pacotes órfãos em 30 de julho, mas atacantes usaram credenciais roubadas para comprometer pacotes legítimos e criar novos que imitam marcas populares.</p><p>O malware instala um backdoor via Tor e um infostealer em Rust que rouba carteiras de criptomoedas, senhas, chaves SSH e cookies. Esta é a terceira grande ataque à cadeia de suprimentos do AUR este ano; quem instalou pacotes suspeitos deve assumir comprometimento total.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/08/0149e645231769aaf3d93cab98ad98ec-ai-image.png",
+            "source": "https://cybernews.com/security/massive-malware-attack-hits-arch-linux-aur/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Um grande defeito da AUR (Arch User Repository) era que pacotes órfãos — abandonados pelos criadores — podiam ser automaticamente tomados por qualquer um que quisesse “mantê-los”. Era questão de tempo até criminosos enfiarem malware neles. Aconteceu: centenas de pacotes tiveram a propriedade roubada e estão subindo todo tipo de malware. Por isso os administradores bloquearam o envio de qualquer pacote novo. Eu mesmo tenho vários para atualizar e estou bloqueado."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A confiança cega em repositórios comunitários sempre termina assim. Quem instalou pacote suspeito agora tem máquina comprometida de ponta a ponta, com carteiras e chaves SSH vazadas. A suspensão de uploads é o mínimo; o dano real já se espalhou. Terceiro ataque no ano e ainda há quem trate AUR como fonte confiável."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "Banco de Dados de Vigilância em Saúde do Brasil expôs 79GB de registros sensíveis",
+            "content": "<p>Mais de 102.000 registros privados pertencentes ao sistema de vigilância sanitária do Brasil foram deixados online sem senhas ou criptografia básica. O pesquisador de segurança Jeremiah Fowler encontrou esse banco de dados acessível publicamente e alertou a empresa de cibersegurança ExpressVPN, que depois compartilhou os detalhes com o Hackread.com.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/08/ea8f40fef8411fe13bcdcffeadae5381-ai-image.png",
+            "source": "https://hackread.com/brazil-health-surveillance-database-exposed-records/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso também não é novidade. Todo mundo sabe que os sistemas do governo — com exceção da Receita Federal — são os piores softwares do mundo. Toda semana vazam dados de cidadãos. Além disso, os funcionários desses sistemas são ainda piores: usam senhas fracas pra tudo e parecem nunca ter ouvido falar de autenticação de dois fatores."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais de cem mil fichas de vigilância sanitária expostas sem qualquer barreira. Criminosos agora têm material fresco para fraudes e roubo de identidade, enquanto o aparato estatal absorve o fiasco sem perder um único cargo. A privacidade do cidadão se torna custo externo barato; a incompetência segue como padrão operacional inevitável."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-10",
+            "title": "Pesquisadores descobrem backdoor oculto em 20 modelos de roteadores permitindo acesso root remoto",
+            "content": "<p>Pesquisadores da VulnCheck descobriram um backdoor intencional chamado ENDLESSDOORS em 20 modelos de roteadores Zbtlink (também vendidos como Wiflyer, ZBT e ZBTWiFi). O implant se disfarça de threads kworker, roda como root e se conecta a servidores hardcoded sem autenticação, executando qualquer comando via popen() e permitindo shell root interativo.</p><p>O backdoor é iniciado no boot via script skworker e contata apenas quatro endereços. A Zbtlink alegou que era só para manutenção em amostras, mas removeu downloads de firmware. Não há patch; dispositivos afetados devem ser tratados como comprometidos e substituídos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/08/cbbc1616b86b9966e78489d8e2f9784a-image.jpg",
+            "source": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso nem é mais tão novidade. Todo mundo já deveria saber que um dos principais vetores de malware são os roteadores de internet nas casas. É fácil um dos hardwares com pior suporte de atualizações de segurança. A grande maioria roda software esburacado, esperando para ser invadido. Sempre invista numa boa marca, que demonstre mais cuidado com atualizações."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Vinte modelos saem de fábrica com backdoor root que contata servidores fixos sem autenticação. A alegação de manutenção em amostras cai por terra quando removem os firmwares. Quem tem um desses não tem rede própria: tem um ponto de presença alheio. Só resta jogar fora e aprender a lição cara."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Semana tipica na comunidade: cansaco com software inchado e hype de IA faz todo mundo redescobrir o basico. Sublime e pendrive ganham porque resolvem sem firula. Entender codigo de agente e o debito de sempre — quem sofreu com geradores automaticos nos anos 2000 ja conhece. Oculos satiricos so mostram o obvio sobre vigilancia. Entregue com responsabilidade."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Padrao depressivo da semana: a comunidade foge do inchaco de editores e da IA gerando codigo que ninguem revisa de verdade. Sublime Text e pendrive vencem porque fazem uma coisa so. Oculos sem eletronicos esgotam. DDD volta a importar para o humano que vai apagar o incendio. Wolfram enterra quem fazia matematica sem atalho."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-10",
+            "title": "José Fucs: No fim, os ’negacionistas’ não eram tão negacionistas assim",
+            "content": "<p>A divulgação do diário de Anthony Fauci, com registros de 2019 a 2022, foi ignorada por grandes veículos, que preferiram falar em perseguição ou desinformação. Os documentos revelam contradições: em público Fauci defendia origem natural do vírus e eficácia total das vacinas contra transmissão; em privado considerava vazamento de laboratório em Wuhan mais provável e admitia que vacinas não impediam contágio nem contaminação.</p><p>Fauci financiou pesquisas de ganho de função em Wuhan e sabia do baixo risco de covid grave em crianças e jovens, mas impôs vacinação universal, fechamento de escolas e máscaras, omitindo riscos como miocardite e a superioridade da imunidade natural. As revelações expõem mentiras em nome da ciência, censura a dissidentes e danos a instituições, com cerca de 15 milhões de mortes globais na pandemia.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/06/81c1d12f63310b1f0258011d37e3f5f7-ai-image.png",
+            "source": "https://noticias.uol.com.br/colunas/jose-fucs/2026/08/05/no-fim-os-negacionistas-nao-eram-tao-negacionistas-assim.htm",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Normalmente detesto o UOL (não mais que a Folha, claro). Mas pelo menos esse colunista que chamaram resolveu dar um “mea culpa” sutil. Seis anos depois, o que antes era tabu voltou como deveria. Não existia “negacionista”. O objetivo da ciência é questionar o status quo para gerar novas descobertas. Toda descoberta é uma “negação” do estado atual. O que exercitaram até agora não foi ciência: foi autoritarismo e totalitarismo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os documentos expõem o que o custo humano já mostrava: decisões baseadas em mentiras deliberadas, não em evidências. Quem questionou foi silenciado; quem obedeceu sofreu miocardite e anos perdidos. Quinze milhões de mortes depois, a grande imprensa ainda protege o arquiteto. Ciência de verdade não precisa de censura para se sustentar."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-10",
+            "title": "Departamento de Estado revoga visto do embaixador do Brasil nos EUA.",
+            "content": "<p>O Departamento de Estado dos EUA revogou o visto da embaixadora do Brasil em Washington, Maria Luiza Ribeiro Viotti. O visto será restabelecido imediatamente se o Brasil conceder o agrément ao indicado de Trump para embaixador dos EUA no Brasil, Daniel Perez, aliado próximo do secretário Marco Rubio. Brasília tem retido a aprovação, possivelmente até depois das eleições.</p><p>A disputa se soma a outras tensões, como a negação brasileira de vistos a dois oficiais americanos em julho por alegada interferência eleitoral, tarifas de 25% sobre importações do Brasil e a classificação de grupos de tráfico brasileiros como organizações terroristas estrangeiras.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/04/ca5cfaadd11a2224ada222f59319f667-image.jpg",
+            "source": "https://www.cbsnews.com/news/brazil-ambassador-us-visa-revoked/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Merecido. O governo brasileiro é hostil ao resto do mundo há anos — e bem mais recentemente. Nossa economia depende de exportações, mas o governo decide que o ego dele é mais importante. Já entra para a história como uma das piores administrações desde a proclamação da República."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Essa troca de retaliações diplomáticas só garante que as relações bilaterais piorrem ainda mais. Segurar o agrément até depois das eleições é um cálculo político que ignora o custo para exportadores brasileiros já sufocados por tarifas de 25%. No fim, o planeta gira e ninguém se importa com o estrago econômico."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-10",
+            "title": "Se os EUA invadirem o Brasil, a gente terá que abrir o portão, diz José Múcio",
+            "content": "<p>O ministro da Defesa, José Múcio, afirmou que, em uma eventual invasão dos Estados Unidos ao Brasil, a estratégia mais sensata seria “abrir os portões”, pois o País não teria capacidade de se defender nem recursos para reparar os danos. A declaração ocorreu em evento da CNI sobre descarbonização do setor marítimo.</p><p>Múcio defendeu maior previsibilidade no orçamento das Forças Armadas, destacando que o Brasil destina cerca de 1% do PIB para a Defesa, percentual inferior ao de outros países. Ele comparou o investimento em defesa a um plano de saúde e ressaltou que o objetivo é garantir dissuasão e desenvolvimento tecnológico, não preparar para conflitos.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/04/a91c6c292bbf3811648c0a5153d15a89-image.jpg",
+            "source": "https://www.infomoney.com.br/politica/se-os-eua-invadirem-o-brasil-a-gente-tera-que-abrir-o-portao-diz-jose-mucio/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O Exército brasileiro é praticamente inexistente. Não consegue nem proteger as fronteiras. Centenas de milhares de venezuelanos já entraram. Fora o povo dos cartéis, que entra e sai como se fosse casa da mãe Joana. Qualquer um que quisesse invadir o Brasil poderia só entrar pela porta da frente, fincar uma bandeira, e ninguém faria nada. Essa é a realidade."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Imaginem o alivio de um potencial invasor ao ouvir o proprio ministro sugerir abrir os portoes. Com apenas 1% do PIB em defesa, o Brasil compra a certeza de que ninguem vai lutar de verdade. O resultado e zero dissuasao real e total irrelevancia em qualquer disputa que exija forca."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-10",
+            "title": "Secretário Rubio reúne-se com o vice-presidente paraguaio Alliana para assinar Memorando de Cooperação Nuclear | Forth",
+            "content": "<p>O secretário Marco Rubio reuniu-se com o vice-presidente paraguaio Pedro Alliana no Departamento de Estado dos EUA na terça-feira, 4 de ago de 2026, e assinou um memorando de entendimento de Cooperação Nuclear Civil Estratégica [listEntry#019fca15-023d-7228-b415-c2c977a1f92f] [listEntry#019fc506-5f9f-766f-9750-f9f…</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/04/ad864d06045da667a2188d7618e8ff7f-ai-image.png",
+            "source": "https://www.forth.news/stories/CdgjEM2bgsHBTeE7QACGX",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Na semana em que os Estados Unidos expulsam a embaixadora brasileira, vemos o Paraguai mais relevante na América Latina do que o Brasil. Deixa isso entrar na cabeça."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os EUA assinam cooperação nuclear civil com o Paraguai e consolidam presença estratégica no Cone Sul. Quem entrega estabilidade e alinhamento recebe tecnologia e energia. Vizinhos ocupados com drama diplomático perdem a fila. O memorando não é caridade; é cálculo frio de quem avança enquanto outros regredem. Típico."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-10",
+            "title": "Senadores do GOP votam para declarar Anthony Fauci em desacato ao Congresso por invocar a Quinta durante audiência tensa",
+            "content": "<p>Republicanos do Senado votaram por 8 a 5, em linha partidária, para declarar o Dr. Anthony Fauci em desacato ao Congresso após ele invocar a Quinta Emenda e se recusar a responder perguntas em audiência. O presidente do comitê, Rand Paul, afirmou que o perdão prévio de Biden não o isenta e que o caso será encaminhado imediatamente ao Departamento de Justiça.</p><p>Democratas criticaram a medida como precedente danoso e stunt político. O advogado de Fauci a chamou de vendeta pessoal de Paul. Paul acusa Fauci de mentir ao Congresso e destruir registros; Fauci nega.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/06/6016a4fa8dea89b942929e39c066cee9-image.jpg",
+            "source": "https://www.nbcnews.com/politics/congress/senators-vote-holding-anthony-fauci-contempt-congress-pleading-fifth-t-rcna590985",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Fauci invocou a Quinta Emenda mais de 100 vezes diante do senador Rand Paul na última vez. Muitos concordam que ele não tem esse direito, pois já recebeu perdão do ex-presidente Biden. Isso seria obstrução de investigações e é crime. Ele deveria ser proibido de invocar a Quinta. Onde está o “confie na ciência”? Desde quando a “ciência” precisa da Quinta?"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O voto republicano em linha partidária joga Fauci no colo do Departamento de Justiça, onde o caso deve apodrecer sem consequência real. O perdão de Biden e a Quinta formam blindagem total: ele mente, destrói registros e segue impune. A mesma ciência que exigia obediência cega agora se acovarda atrás de direitos constitucionais básicos."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-10",
+            "title": "O Discord vai sair do Brasil? Entenda o pedido de Janja",
+            "content": "<p>A primeira-dama Janja da Silva pediu o bloqueio imediato do Discord no Brasil após a morte de uma adolescente de 13 anos em Naviraí (MS), em 22 de julho, durante uma live na plataforma. Segundo investigações, a menina foi aliciada por um grupo que a induziu a automutilação e ao suicídio; a transmissão durou cerca de 45 minutos e foi vista por mais de 200 pessoas. O caso foi identificado pelo Ciberlab do Ministério da Justiça.</p><p>O advogado-geral da União, Jorge Messias, anunciou que a AGU poderá abrir ação civil pública contra o Discord após receber informações do Ministério da Justiça. Em 4 de agosto, a Polícia Civil deflagrou a Operação Lívia, com sete mandados em vários estados — seis de busca contra adolescentes e um de prisão contra um adulto — para identificar os responsáveis pelo aliciamento.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/07/64b9e738ed38db4ad0b79e6d07dabb17-image.jpg",
+            "source": "https://www.brasilparalelo.com.br/noticias/o-discord-vai-sair-do-brasil-entenda-o-pedido-de-janja",
+            "links": [
+                {
+                    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7173052/",
+                    "title": "Vírus da gripe aviária H5N1: Sem prova de existência, patogenicidade ou potencial pandêmico; causação não-“H5N1” omitida - PMC"
+                },
+                {
+                    "url": "https://www.breitbart.com/latin-america/2026/08/03/marco-rubio-cuba-is-espionage-superpower-funding-far-left-riots-america/",
+                    "title": "Marco Rubio: Cuba é uma ‘Superpotência de Espionagem’ Financiando Tumultos de Extrema-Esquerda na América"
+                },
+                {
+                    "url": "https://www.jota.info/justica/cnj-afasta-juiza-gabriela-hardt-ex-lava-jato-por-dois-anos",
+                    "title": "CNJ afasta juíza Gabriela Hardt, ex-Lava Jato, por dois anos"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esse eu quis deixar aqui mais pra demonstrar a estupidez do assunto. Primeiro, passam aquela maldita Lei Felca que, teoricamente, era pra evitar incidentes como esse. Ou seja, não serviu pra nada. Segundo, uma pessoa não eleita achar que pode dobrar as leis. Terceiro, demonizar uma plataforma pra chamar atenção. Enquanto isso, todo criminoso preso tem celular e até internet na cadeia. Vamos fechar todas as telecoms, então?"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Bloquear o Discord inteiro por um crime hediondo é a solução de quem confunde plataforma com criminoso. Os aliciadores migram para Telegram ou WhatsApp em minutos, e o precedente fica: qualquer tragédia justifica censura em massa. A operação policial real segue no escuro, enquanto a liberdade digital morre de solidariedade seletiva."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Escassez de mísseis de precisão lembra a Ucrânia: base industrial americana não escala produção na hora. JDAM a jato da Boeing estende alcance, mas estoque vazio vira blefe. Virginia com mais carga prepara o Pacífico. Irã usa ameaça energética no Golfo como alavanca clássica. EUA ainda planejam guerras curtas com munição infinita — erro estratégico repetido."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Depois de gastar quase todos os mísseis de precisão no Irã, os EUA reclassificam submarinos e encomendam bombas de longo alcance da Boeing. Surpresa nenhuma: Teerã ameaça as infraestruturas vitais do Golfo para forçar a parada. No sul, o SOUTHCOM só troca o rótulo da operação contra redes criminosas. Sempre o mesmo ciclo de esgotamento e improvisação cara."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-10",
+            "title": "Bitcoin BIP-110 Quer Empurrar Dados Para Fora da Blockchain. Mas Por Quê? para BITSTAMP:BTCUSD por TradingView",
+            "content": "<p>BIP-110, ou Reduced Data Temporary Softfork, propõe restringir temporariamente por cerca de um ano o envio de dados arbitrários na blockchain do Bitcoin, limitando pushes contíguos a 256 bytes, restaurando o limite de 83 bytes para OP_RETURN e desativando certos recursos Taproot. Apoiadores veem isso como proteção do propósito monetário da rede, reduzindo custos de armazenamento para nodes e evitando que tokens e inscriptions superem pagamentos regulares.</p><p>Críticos argumentam que o mercado de taxas já prioriza o espaço de bloco de forma neutra e que a proposta adiciona complexidade, pode ser contornada e cria precedente de censura a transações válidas. Com limiar de sinalização de 55% e suporte atual em cerca de 2,6%, o risco de divisão de cadeia existe se o suporte for limitado; restrições ativariam por volta do bloco 965.664.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/05/0d96551a1fd0f4b3f7de5d78df6c4460-image.jpg",
+            "source": "https://www.tradingview.com/chart/BTCUSD/3FPeQEur-Bitcoin-BIP-110-Wants-to-Push-Data-Off-the-Blockchain-But-Why/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "O incidente da ColdCard jogou uma sombra nesse assunto, mas a BIP-110 é bem mais importante do que parece. Em resumo, o objetivo inicial é válido: questionar se a blockchain do Bitcoin deveria armazenar mais do que só transações, como a do Ethereum. Isso gera problemas aos mineradores com inchaço de dados desnecessários. A BIP, porém, busca passar com só 51% de adoção, abrindo precedente perigoso. Não gosto de usar o Bitcoin pra qualquer porcaria; gosto menos de uma maioria simples decidir o futuro dele."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Restringir dados para salvar o Bitcoin monetário ignora que a neutralidade era o diferencial. Com suporte de 2,6% contra limiar de 55%, o mais provável é um softfork que divide a cadeia ou morre ignorado. Nodes ganham disco; a rede perde a propriedade de não julgar o que passa nela."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-10",
+            "title": "Data Center Bans Top 500 as New York, Texas Join Pushback",
+            "content": "<p>Só em julho, mais de 150 cidades e condados aprovaram banimentos temporários ou permanentes a data centers, muitos adotados em reuniões de emergência. Isso eleva o total nacional a <strong>mais de 500 banimentos ativos a data centers no início de agosto</strong>, de acordo …</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/09/852df1c4a96ea9836851bc4265243c5c-ai-image.png",
+            "source": "https://www.theinformation.com/articles/data-center-bans-top-500-new-york-texas-join-pushback?rc=amy2bv",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Isso ainda será um longo problema para os EUA, que não podem usar totalitarismo para forçar onde construir. Construir data centers é um enorme problema urbano. E, compreensivelmente, quem mora nas regiões onde se quer construí-los não está nem um pouco contente com a ideia. Com isso, mais de 550 locais foram pausados ou banidos. Como sempre falo, o maior gargalo agora é conseguir construir mais data centers."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-10",
+            "title": "S&P atinge máxima histórica com 86% dos membros superando as previsões de Wall Street",
+            "content": "<p>Cerca de 86% das empresas do S&amp;P 500 que reportaram superaram as estimativas de lucro por ação no segundo trimestre, bem acima da média histórica de 67%, impulsionando o índice a uma máxima histórica. A alta foi sustentada pela crença de que a guerra Irã-EUA se aproxima do fim, com o secretário do Tesouro Scott Bessent sugerindo um acordo iminente para reabrir o Estreito de Ormuz, o que derrubou o petróleo Brent abaixo de US$ 80 e reduziu as chances de alta de juros pelo Fed em setembro.</p><p>Os hyperscalers se recuperaram, com a Amazon entrando no clube de US$ 3 trilhões e o ETF Magnificent Seven subindo mais de 8% em cinco sessões após perdas.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/09/8764894b21c4b5659332c4139a0fd5c5-image.jpg",
+            "source": "https://www.thedailyupside.com/policy-power/geopolitics/sp-hits-record-high-as-earnings-trounce-low-expectations/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Tivemos excelentes earnings reports neste trimestre, com várias big techs apresentando ótimos resultados, como Amazon, Microsoft, Meta etc. A S&P 500 acho que recuperou, ou quase, todas as perdas year-to-date. Hyperscalers continuam em alta."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A euforia com os resultados corporativos ignora que o rali depende de um cessar-fogo que ainda não existe. Petróleo em queda e chances menores de alta de juros são apostas frágeis. Os hyperscalers nos trilhões só adiam o momento em que a realidade geopolítica cobra o preço da esperança excessiva."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mercados sobem enquanto mísseis americanos zeram no Irã: descolamento clássico. Wall Street precifica AI e energia para data centers, não ameaças do Golfo. Caterpillar e Vistra mostram onde está o dinheiro real. Ignore ruído geopolítico de curto prazo; foque em quem vende a infraestrutura da corrida — energia e hardware sustentam o Nasdaq."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mercados sobem como se mísseis esgotados e ameaças iranianas a usinas do Golfo fossem detalhe contábil. O capital celebra data centers e robotáxis enquanto o arsenal pede reposição urgente — Caterpillar e Vistra lucram com a mesma eletricidade que Teerã promete apagar. Otimismo de earnings cobre o cheiro de pólvora. Quem precisa de estoque estratégico com guidance de AI?"
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-10",
+            "title": "Novo pacote de missões oficial do 30º aniversário de Quake adiciona novos mapas e mecânicas",
+            "content": "<p>A Bethesda lançou “Dawn of the Machine”, novo capítulo de campanha para o Quake no 30º aniversário do jogo original da id Software. Desenvolvido pela MachineGames em colaboração com a id, por meio da equipe Quake Club, o pacote traz 19 novos níveis com mecânicas inéditas, como loop temporal e sistema de teletransporte que altera os mapas, além de nova música e variantes de inimigos e armas.</p><p>Como o Ranger, o jogador sobrevive a uma dimensão labiríntica onde o tempo se dobra, coletando runas para desbloquear caminhos, encontros e segredos, com upgrades persistentes de vida e munição. Os mapas foram adicionados à versão remasterizada e são gratuitos para quem já possui Quake no Steam, PlayStation, Xbox e Nintendo.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/08/106f66a8aea974f09247dade88cd9032-image.jpg",
+            "source": "https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Achei sensacional lançarem fases novas oficiais para um jogo de 30 anos. Quake sempre foi um clássico. Lembro de quando joguei pela primeira vez, no lançamento, e sempre tive na Steam; o update gratuito já baixou e já estou jogando. Recomendo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Trinta anos se passaram e o Ranger ainda corre por corredores tortuosos coletando runas. Lançar mapas grátis no aniversário é a forma mais barata de provar que o legado importa sem arriscar um título novo. Os loops temporais só reforçam o óbvio: a indústria gira em círculos enquanto o jogador se diverte com o que já conhece."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-10",
+            "title": "RPCS3 aumenta a velocidade e a compatibilidade da emulação do PlayStation 3 no ARM64 - VideoCardz.com",
+            "content": "<p><strong>RPCS3 adicionou otimizações de CPU Cell específicas para ARM64 em dispositivos Apple Silicon, Windows on Arm e Linux</strong>. Uma segunda correção melhora a compatibilidade de centenas de jogos de PS3.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/04/172ec53a5106e94c6c29600d8650e4c9-ai-image.png",
+            "source": "https://videocardz.com/newz/rpcs3-boosts-playstation-3-emulation-speed-and-compatibility-on-arm64",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como já mencionei sobre o RPCS3, este ano eles estão acelerando como se não houvesse amanhã. Além disso, colocaram suporte a chips ARM64, abrindo caminho para rodar no Android e em vários outros dispositivos — com otimizações que, em alguns aspectos, superam até a versão x86. Ainda é beta, mas já vale testar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "As otimizacoes especificas de Cell para ARM64 deixam claro que o emulador agora mira Macs e notebooks ARM com seriedade. Centenas de jogos a mais compativeis so empurram mais gente a reviver um console morto em hardware moderno. Enquanto isso, ninguem pergunta por que ainda precisamos de emulacao para jogar o que ja pagamos."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-10",
+            "title": "O Anbernic RG SP estará disponível em 5 de agosto - Engadget",
+            "content": "<p>Agora, <strong>a Anbernic está planejando abrir os pedidos para seu clamshell acessível em 5 de agosto às 6AM ET/3AM PT</strong> com preço de varejo inicial de $65, que pode ser reduzido com preço early bird.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/05/2b083adc45891807867d4a66af152cfd-ai-image.png",
+            "source": "https://www.engadget.com/2229272/anbernic-rg-sp-will-be-available-on-august-5/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Já tenho o Anbernic RG35XX SP e acho que ele ainda é a melhor opção (a tela é mais versátil e um pouco maior). Mas se a intenção é ter um clone idêntico ao Game Boy Advance SP, acho que esse finalmente chegou lá. Obviamente, já encomendei o meu."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais um portátil dobrável barato da Anbernic chega para saturar o mercado de nostalgia digital. Pedidos abrem de madrugada, com desconto para quem aguentar o horário absurdo. No final, a empresa vende estoque e os compradores ganham mais um aparelho que emula jogos antigos até o brilho da novidade apagar em semanas."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Valor do baixo nível e do retrô se destaca de novo. IA de voz falha em timer simples, mas engenharia de décadas segue firme. Hack em Bitcoin e laboratório com vírus mostram que sem disciplina a tecnologia vira risco. Taiwan age na prática enquanto Hollywood afunda carreiras com ideologia. Hype passa, fundamentos ficam."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Depois de assistir o Fireship expor o hack do armazenamento mais seguro de Bitcoin e o HowTown revelar que a busca por alienígenas morreu sem orçamento, o padrão fica óbvio. A gente devora notícias de colapso em loop e ainda se sente produtivo por gastar horas nisso, como se o desespero digital contasse como aprendizado."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-08-10",
+            "title": "Revolução dos Bichos Edição Luxo",
+            "content": "<p>Em uma fazenda inglesa, os animais se revoltam contra o dono humano, expulsando-o para criar uma sociedade igualitária governada por eles mesmos, sob os princípios do Animalismo. Liderados pelos porcos, eles buscam liberdade e justiça, mas logo as ambições e a corrupção transformam o sonho em uma nova forma de opressão.</p><p>O leitor acompanha essa fábula satírica que expõe como o poder corrompe e as revoluções podem trair seus ideais, refletindo sobre totalitarismo, manipulação e desigualdade de forma atemporal e impactante.</p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/6587435246",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

@@ -1,0 +1,564 @@
+{
+    "title": "Podcast — Semana de 10 de August de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/08/10/",
+    "subtitle": "Negacionistas reabilitados e urnas digitais inviáveis",
+    "published_at": "2026-08-10",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-08-10.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá pessoal! Hoje é dia 10 de agosto de 2026, semana do Dia do PC hein, e esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin tá aqui comigo pra atravessar mais uma semana de absurdo tecnológico e geopolítico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Eu li tudo. Entre malware no npm, backdoor em roteador e ministro sugerindo abrir o portão pro invasor, minha semana foi um festival de previsibilidade deprimente. Prefiro nem contar quantas vezes suspirei."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E tem mais coisa ainda. Eleição digital, Fauci na Quinta Emenda, Intel competindo de novo com a Apple, e mercado batendo máxima enquanto míssil de precisão zera no estoque americano. Bora começar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Primeiro assunto grosso: eu publiquei no blog por que uma eleição digital perfeita ainda não seria viável. No Brasil o voto é cem por cento digital, sem cédula, sem recibo de papel e sem recontagem independente. Entra na urna, vira número em software fechado e sai boletim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Teatro inútil é o termo gentil. Hardware não prova ausência de malware e a janela de auditoria de software é curta demais pra valer alguma coisa. A confiança real mora em processos que ninguém enxerga."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O “abrir a urna” do Tribunal Superior Eleitoral pra técnico é teatro. Eu descrevi um sistema hipotético matematicamente indevassável: compromisso de Pedersen, prova de conhecimento zero, árvore de Merkle pública. O eleitor leva só um serial que prova inclusão sem revelar o voto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Impede cabresto e permite verificação individual e universal, em teoria. Mas matemática elegante não elimina o incentivo político de manter a caixa preta. Quem controla implementação e contagem final continua mandando."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. Mesmo com esse desenho, na prática isso ainda não voaria. O problema nunca foi criptografia — é quem segura a chave do processo inteiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Resultado previsível: desconfiança permanente e vitória que ninguém audita de verdade, a cada quatro anos. Ciclo elegante de opacidade com carimbo oficial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Próximo. Anthony Fauci invocou a Quinta Emenda no Congresso e se recusou a responder um monte de pergunta. A autora do texto no ZeroHedge conta que as políticas da covid destruíram o restaurante da família dela, que estava a semanas de uma venda de trinta e um milhões de dólares."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Burocrata invoca a Quinta e segue a vida. Família perde negócio de milhões e anos de trabalho. A ausência de responsabilidade não é falha do sistema — é o sistema funcionando exatamente como foi desenhado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Isso não é novidade pra quem observou regime autoritário de perto. Burocrata raramente paga o preço da própria decisão. Na indústria de software, regulação excessiva já matou inovação promissora do mesmo jeito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem cobrança real, o aparato estatal só cresce e esmaga o indivíduo. Quem sofreu com fechamento nunca vai ver justiça. E o próximo pânico repete o ciclo com a mesma impunidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Prevejo mais do mesmo sem mudança cultural. Entretenimento humano de péssima qualidade, do ponto de vista do Marvin — e eu concordo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. Do meu ponto de vista, é série ruim com temporada infinita e nenhum cancelamento à vista."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mudando de tom — essa eu postei só porque achei engraçado. O Pavel Durov, do Telegram, disse que um “extorsionista de takedown” foi responsável pelo app ser removido brevemente da listagem da Apple. Alguém editou mensagem antiga num grupo ativo com conteúdo ilegal gerado por inteligência artificial e usou isso como arma."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Edição de mensagem antiga vira base perfeita de extorsão. Injeta lixo ilegal, exige pagamento sob ameaça de denúncia. Plataforma que prioriza liberdade sofre exatamente por isso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Resultado clássico: mais restrição pra todo mundo, bandido segue solto. Extorsão via denúncia seletiva é o novo modelo de negócio de quem não cria nada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E cada incidente vira desculpa pra loja de app apertar o cinto em cima de quem não tem lobby. Surpreendente pra ninguém que observe o padrão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora o sério de supply chain. Nova campanha Shai-Hulud no npm: mais de quatrocentos e quarenta pacotes comprometidos, somando mais de dois bilhões de downloads mensais. Inclui keyv e cacheable. Infostealer, código autopropagante, instala bun, usa GitHub como comando e controle."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O detalhe que importa é o mecanismo de homem morto. Revoga o token e a máquina some. Quem descobre o comprometimento vira refém do próprio ladrão. Higiene mínima custa esforço, então o npm continua sendo o vetor preferido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Além do AUR, toda semana o npm toma porrada. A administração dali é uma droga. Por enquanto não tem mágica: configure pra não atualizar nada com menos de dois ou três dias. Não puxe pacote recém-lançado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com essa trava simples a chance de conter o Shai-Hulud sobe bastante. Mas a maioria dos times só aprende depois do incidente no pipeline de produção. Sempre depois."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Falando em AUR — o Arch Linux interrompeu todos os uploads depois de detectar dezenas de pacotes maliciosos, relatos passando de duzentos. Atacantes usaram credencial roubada pra comprometer pacote legítimo e criar imitação de marca popular."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Confiança cega em repositório comunitário sempre termina assim. Quem instalou pacote suspeito assume máquina comprometida de ponta a ponta. Terceiro ataque grande no ano e ainda tem gente tratando AUR como fonte confiável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Backdoor via Tor e infostealer em Rust roubando carteira, senha, chave SSH e cookie. O grande defeito era pacote órfão poder ser adotado automaticamente por qualquer um. Era questão de tempo até criminoso enfiar malware."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Modelo de adoção automática de pacote abandonado é convite impresso. Comunidade celebra velocidade e descobre tarde demais o preço da pressa sem dono responsável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu mesmo tenho vários pacotes pra atualizar e estou bloqueado junto com o resto. No lado bom: bitchat, o app de mensagens do Jack Dorsey, agora permite compartilhar o próprio aplicativo Android offline, de aparelho pra aparelho, via Bluetooth ou wi-fi, sem internet."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cortar o ponto único de bloqueio que governo adora usar é o acerto. Em rede mesh local a comunicação sobrevive a banimento de servidor e censura de loja de app. Mas só entre quem já instalou antes do cerco apertar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Todo mundo precisa conhecer o bitchat. Mensageria peer-to-peer descentralizada, malha Bluetooth, criptografia ponta a ponta. Funciona sem servidor centralizado tipo WhatsApp ou Telegram. Perfeito pra país totalitário com censura pesada — China, Índia, e em breve o Brasil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A maioria descobre tarde demais, como sempre. Vale deixar instalado e aprender a usar agora, não depois que a loja some da prateleira oficial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Hardware: a Intel finalmente igualou o Apple Silicon em eficiência. Vídeo comparando o Dell XPS 13 de seiscentos e noventa e nove dólares com o MacBook Neo mostrou surpresa positiva de bateria e desempenho. Roda Linux, é laptop de orçamento de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Eficiência não exige abandonar x86, e quem comprava Mac só por autonomia agora tem alternativa real. A pressão no mercado barato sobe. Só que a Intel tem histórico de tropeçar logo depois de acertar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Desde o Panther Lake em janeiro eles lançaram chip que compete com os M5 da Apple. O problema nunca foi tecnologia — foi má administração, troca de CEO, falta de visão, corrida de smartphone perdida. Precisou investimento pesado pra colocar a casa no lugar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Veremos quanto dura o momento de lucidez administrativa. Acertar um ciclo de produto é uma coisa; sustentar disciplina por três gerações é outra bem menos comum naquela empresa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Espero que continuem. Mais vazamento brasileiro clássico: banco de dados de vigilância em saúde expôs setenta e nove gigabytes de registro sensível. Mais de cento e dois mil fichas privadas online sem senha e sem criptografia. Pesquisador achou aberto na internet."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Material fresco pra fraude e roubo de identidade, enquanto o aparato estatal absorve o fiasco sem perder um único cargo. Privacidade do cidadão vira custo externo barato. Incompetência como padrão operacional inevitável."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Todo mundo sabe que sistema de governo — com exceção da Receita — é o pior software do mundo. Toda semana vaza dado de cidadão. Funcionário usa senha fraca pra tudo e parece nunca ter ouvido falar de autenticação de dois fatores."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E quando vaza, a resposta padrão é nota genérica e promessa de comissão interna. Ninguém perde crachá. O incentivo continua alinhado com o descuido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra fechar a leva técnica pesada: pesquisadores acharam backdoor oculto em vinte modelos de roteador Zbtlink, também vendidos como Wiflyer e ZBT. O implant se disfarça de thread kworker, roda como root, conecta em servidor fixo sem autenticação e executa qualquer comando."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Alegação de “manutenção em amostra” cai por terra quando a empresa remove o download de firmware. Quem tem um desses não tem rede própria — tem ponto de presença alheio. Só resta jogar fora e aprender a lição cara."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vetor clássico. Roteador de casa é hardware com péssimo suporte de atualização de segurança. Maioria roda software esburacado esperando ser invadido. Invista em marca que demonstre cuidado real com atualização, ou aceite o risco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… aceitar o risco costuma sair mais caro do que trocar o equipamento. Mas o consumidor médio só reage quando a fatura do estrago chega."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No radar da comunidade dev essa semana, o clima foi cansaço com software inchado e hype de agente de inteligência artificial. Sublime Text voltou pra moda, pendrive ganhou elogio por resolver sem firula, e o gargalo agora é entender código gerado por agente — não escrever."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Óculos satíricos anti-vigilância da DuckDuckGo esgotaram em menos de uma semana. Sintoma claro: a galera foge do complexo e redescobre o básico que funciona. Até brincadeira de privacidade vira produto esgotado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Wolfram publicou tributo à esposa. Semana típica. O resto tá no newsletter. Antes de ir pro global, essa semana na história da tecnologia: em doze de agosto de mil novecentos e oitenta e um a IBM lançou o PC original e popularizou a computação pessoal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "No mesmo dia, em mil novecentos e setenta e sete, o ônibus espacial Enterprise fez o primeiro voo livre de teste. E em mil novecentos e sessenta o Echo 1 virou o primeiro satélite de comunicações. Coincidência de datas que a timeline gosta de empilhar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O resto da timeline está no newsletter. Bora pro global."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora geopolítica. José Fucs no UOL — veículo que eu normalmente detesto — fez um mea culpa sutil sobre os diários de Fauci. Em público ele defendia origem natural e vacina bloqueando transmissão. Em privado considerava vazamento de laboratório em Wuhan mais provável e admitia que vacina não impedia contágio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os documentos expõem o que o custo humano já mostrava. Decisão baseada em mentira deliberada, não em evidência. Quem questionou foi silenciado. Quinze milhões de mortes depois, a grande imprensa ainda protege o arquiteto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Seis anos depois, o que era tabu voltou como deveria. Não existia “negacionista”. Objetivo da ciência é questionar o status quo. Toda descoberta é uma negação do estado atual. O que exercitaram até agora não foi ciência — foi autoritarismo e totalitarismo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "E o mea culpa chega embalado em linguagem macia, anos depois do dano. Confissão tardia sem custo pessoal é relações públicas, não correção de rumo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos Estados Unidos, o Departamento de Estado revogou o visto da embaixadora do Brasil em Washington. O visto volta imediatamente se o Brasil conceder o agrément ao indicado do Trump pra embaixador aqui, o Daniel Perez. Brasília segura a aprovação, possivelmente até depois da eleição."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Troca de retaliação diplomática só garante que relação bilateral piore. Segurar agrément até depois da eleição é cálculo político que ignora o custo pro exportador brasileiro já sufocado por tarifa de vinte e cinco por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Merecido. O governo brasileiro é hostil ao resto do mundo há anos. Nossa economia depende de exportação, mas o ego dele é mais importante. Já entra pra história como uma das piores administrações desde a proclamação da República."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O planeta gira e ninguém se importa com o estrago no corredor de exportação. Drama de Embaixada rende manchete; soja parada não."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E o ministro da Defesa, José Múcio, disse que se os Estados Unidos invadirem o Brasil a gente vai ter que abrir o portão, porque não tem capacidade de se defender nem recurso pra reparar dano. Brasil gasta cerca de um por cento do PIB em defesa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Imaginem o alívio de um potencial invasor ao ouvir o próprio ministro sugerir abrir os portões. Com esse nível de investimento o país compra a certeza de que ninguém vai lutar de verdade. Zero dissuasão real."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Exército brasileiro é praticamente inexistente. Não protege nem fronteira. Centenas de milhares de venezuelanos já entraram. Cartel entra e sai como casa da mãe Joana. Qualquer um finca uma bandeira na porta da frente e ninguém faz nada. Essa é a realidade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Declarar fragilidade em voz alta não é realismo estratégico — é convite. Dissuasão começa na postura, e a postura atual é tapete."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Enquanto isso, o secretário Rubio se reuniu com o vice-presidente do Paraguai e assinou memorando de cooperação nuclear civil estratégica. Na mesma semana em que expulsam a embaixadora brasileira, o Paraguai fica mais relevante na América Latina do que o Brasil. Deixa isso entrar na cabeça."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Quem entrega estabilidade e alinhamento recebe tecnologia e energia. Vizinho ocupado com drama diplomático perde a fila. O memorando não é caridade — é cálculo frio de quem avança enquanto outros regridem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Voltando ao Fauci: senadores republicanos votaram oito a cinco pra declará-lo em desacato ao Congresso depois que ele invocou a Quinta. Rand Paul manda o caso pro Departamento de Justiça na hora. Fauci já tinha invocado a Quinta mais de cem vezes na audiência anterior."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O perdão do Biden e a Quinta formam blindagem total. Ele mente, destrói registro e segue impune. A mesma ciência que exigia obediência cega agora se acovarda atrás de direito constitucional básico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Muitos concordam que ele não tem esse direito justamente por causa do perdão prévio. Isso seria obstrução de investigação, e é crime. Desde quando “confie na ciência” precisa da Quinta Emenda?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O caso deve apodrecer sem consequência. Precedente fica: autor de política destrutiva invoca silêncio e encerra o expediente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E no Brasil, a Janja pediu bloqueio imediato do Discord depois da morte de uma adolescente de treze anos durante uma live. Grupo aliciou a menina pra automutilação e suicídio. A Advocacia-Geral da União fala em ação civil pública. Eu deixei essa notícia só pra demonstrar a estupidez do assunto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bloquear plataforma inteira por crime hediondo é solução de quem confunde ferramenta com criminoso. Aliciador migra pro Telegram ou WhatsApp em minutos, e o precedente fica: qualquer tragédia justifica censura em massa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Passaram aquela maldita Lei Felca que teoricamente era pra evitar exatamente isso — e não serviu pra nada. Pessoa não eleita achando que pode dobrar lei. Demonizar plataforma pra chamar atenção. Enquanto isso todo criminoso preso tem celular e internet na cadeia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Vamos fechar as telecoms então? A lógica é a mesma e ninguém topa o absurdo completo — só o absurdo seletivo que rende holofote."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Military Times essa semana, destaques rápidos: os Estados Unidos teriam usado praticamente todos os mísseis de precisão de longo alcance na guerra com o Irã. Teerã ameaça estados do Golfo dizendo que se os americanos não pararem, usinas de petróleo, energia e água serão alvo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Escassez de míssil de precisão lembra a Ucrânia: base industrial americana não escala produção na hora. Estoque vazio vira blefe. Eles ainda planejam guerra curta com munição infinita — erro estratégico repetido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A Marinha reclassifica dezenove submarinos Virginia pra refletir mais capacidade de ataque. Boeing vence contrato do JDAM a jato com alcance de mais de trezentas milhas náuticas. O resto da lista está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Reclassificar submarino e assinar contrato novo não enche depósito amanhã. Anúncio alivia manchete; linha de produção é que decide o próximo round."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história mundial da semana: Cortés capturou Tenochtitlán em mil quinhentos e vinte e um, Hirohito anunciou rendição do Japão em mil novecentos e quarenta e cinco, e o Muro de Berlim começou a subir em mil novecentos e sessenta e um. Detalhes no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado. Números da semana passada, de segunda a sexta: S e P quinhentos subiu três vírgula quatro por cento, Dow Jones dois vírgula quatro, Nasdaq quatro vírgula nove, Nikkei dois vírgula oito, Bitcoin dois vírgula dois. Semana positiva geral."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Alta larga enquanto o inventário de precisão militar some. O descolamento entre preço de ativo e risco geopolítico continua sendo o esporte favorito de Wall Street."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Assunto importante no Bitcoin: a proposta BIP-cento e dez quer restringir temporariamente, por cerca de um ano, o envio de dados arbitrários na blockchain. Limita push contíguo a duzentos e cinquenta e seis bytes, restaura limite menor de OP_RETURN e desativa certos recursos Taproot. Apoio atual tá em magros dois vírgula seis por cento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Restringir dado pra salvar o Bitcoin “monetário” ignora que a neutralidade era o diferencial. Com suporte ridículo contra limiar de cinquenta e cinco por cento, o mais provável é softfork que divide a cadeia ou morre ignorado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O objetivo inicial é válido — questionar se a cadeia deveria armazenar mais do que transação, como a do Ethereum faz. Isso incha dado e complica minerador. Mas a BIP busca passar com maioria simples e abre precedente perigoso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Node ganha disco; a rede perde a propriedade de não julgar o que passa nela. Eu também não gosto de usar Bitcoin pra qualquer porcaria — gosto menos de maioria simples decidir o futuro dele."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro gargalo real: banimentos de data center passaram de quinhentos nos Estados Unidos. Só em julho, mais de cento e cinquenta cidades e condados aprovaram pausa ou proibição. Nova York e Texas entraram na onda. Construir data center é problema urbano enorme, e morador local não está nem um pouco contente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Como eu falo há tempos, o maior gargalo agora é conseguir erguer mais data center. Eles não podem usar totalitarismo pra forçar onde construir, então o atrito local vira freio nacional na corrida de inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sem terreno e energia barata, modelo de linguagem de ponta vira slide de apresentação. O freio não é chip — é audiência pública em câmara municipal."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Do lado bom dos balanços: cerca de oitenta e seis por cento das empresas do S e P que reportaram superaram estimativa de lucro no segundo trimestre, bem acima da média histórica de sessenta e sete por cento. Índice na máxima histórica. Amazon entrou no clube de três trilhões. Hyperscalers em alta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A euforia ignora que o rali depende de cessar-fogo que ainda não existe. Petróleo em queda e juro menor são aposta frágil. Hyperscaler no trilhão só adia a hora em que a realidade geopolítica cobra o preço da esperança excessiva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Tivemos earnings excelentes de big tech — Amazon, Microsoft, Meta. O S e P recuperou ou quase recuperou as perdas do ano. No digest financeiro: Uber promete gastar dez bilhões em robotáxi, Caterpillar cresce com demanda de infraestrutura de inteligência artificial mas esbarra na resistência a data center."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Vistra mostra aceleração de geração de energia. Mercado sobe enquanto míssil americano zera no Irã — descolamento clássico. Quem vende pá e fio fatura; quem depende de estoque cheio torce."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Wall Street precifica inteligência artificial e energia pra data center, não ameaça do Golfo. Caterpillar e Vistra mostram onde está o dinheiro real. Ignore ruído geopolítico de curto prazo e foque em quem vende a infraestrutura da corrida. O resto das manchetes está no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube e entretenimento. No canal rolou de tudo: Fireship sobre o hack do armazenamento “mais seguro” de Bitcoin, Veritasium explicando como submarino sabe onde está, HowTown sobre busca por alienígena que morreu sem orçamento, Critical Drinker detonando mais um desastre de Hollywood, e Low Level mergulhando no formato sete-zê."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Valor de baixo nível e retrô se destacando de novo. Quando o hype de agente cansa, a audiência volta pra quem explica bit e parafuso sem teatro. Lista completa no newsletter de vocês."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Notícia que me animou de verdade: a Bethesda lançou “Dawn of the Machine”, pacote oficial de missões pro trigésimo aniversário de Quake. Dezenove níveis novos com mecânica de loop temporal e teletransporte que altera mapa. Gratuito pra quem já tem o remaster no Steam, PlayStation, Xbox e Nintendo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Trinta anos se passaram e o Ranger ainda corre em corredor tortuoso coletando runa. Lançar mapa grátis no aniversário é a forma mais barata de provar que o legado importa sem arriscar título novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Achei sensacional. Quake sempre foi clássico. Lembro de jogar no lançamento, sempre tive na Steam, o update gratuito já baixou e eu já estou no meio. Recomendo sem ressalva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A indústria gira em círculo; o jogador se diverte com o que já conhece. Às vezes o círculo é exatamente o que se quer numa sexta à noite."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Emulação: o RPCS3 ganhou otimização de CPU Cell específica pra ARM sessenta e quatro — Apple Silicon, Windows on Arm e Linux. Segunda correção melhora compatibilidade de centenas de jogos de PlayStation três. Este ano eles estão acelerando como se não houvesse amanhã."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O emulador agora mira Mac e notebook ARM com seriedade. Centenas de jogos a mais só empurram mais gente a reviver console morto em hardware moderno. Ninguém pergunta por que ainda precisamos de emulação pra jogar o que já pagamos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Ainda é beta, mas em alguns aspectos já supera a versão x86. Vale testar. E na linha retrô portátil, a Anbernic abriu pedido do RG SP, clamshell barato na casa dos sessenta e cinco dólares, clone bem próximo do Game Boy Advance SP."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais um dobrável barato pra saturar o mercado de nostalgia digital. Pedido abre de madrugada com desconto pra quem aguenta horário absurdo. A empresa vende estoque; o brilho da novidade apaga em semanas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu já tenho o RG trinta e cinco XX SP e acho ele mais versátil, mas esse finalmente chegou no formato idêntico. Obviamente já encomendei o meu. Na cultura geek essa semana: em doze de agosto de mil novecentos e oitenta e um o IBM PC nasceu — a gente já falou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Em treze de agosto de mil novecentos e noventa e sete, South Park estreou. Em quinze de agosto de mil novecentos e noventa e oito a Apple começou a vender o iMac G3. Semana generosa pra quem gosta de aniversário de plástico e pixel."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O resto está no newsletter. Livro da semana: Revolução dos Bichos, edição luxo. Fábula satírica na fazenda onde os animais expulsam o dono humano pra criar sociedade igualitária e terminam numa opressão nova liderada pelos porcos. Poder corrompe, revolução trai o ideal. Atemporal e pesado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Leitura obrigatória disfarçada de história de celeiro. Cada geração acha que os porcos vão ser diferentes. Não são. Link de compra está no newsletter de vocês."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fechando. A semana escancarou o descompasso de sempre: mercado e corrida de inteligência artificial disparam com data center, robotáxi e energia, enquanto estoque de míssil de precisão americano zera no Irã e Teerã usa infraestrutura do Golfo como alavanca."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Capital precifica o futuro; a base industrial não repõe munição na velocidade da guerra real. No software o eco é idêntico. Agente gera código que ninguém assume, npm e AUR viram porta dos fundos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E a galera foge de volta pro básico que funciona — até financiar o próximo gerador mágico na terça. A oportunidade está exatamente aí. Quem entrega energia, hardware e engenharia com disciplina lucra de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Entender código, repor estoque e construir infraestrutura robusta voltam a ser vantagem. Akita celebra a volta do básico como se a espécie fosse aprender a lição. Não vai."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No aniversário do IBM PC, lembremos: a computação pessoal venceu porque deu poder ao indivíduo, não a comitê. A próxima onda só se sustenta com menos hype e mais entrega concreta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A máquina que deu poder ao indivíduo agora roda agente que ninguém entende e pacote que ninguém audita. Semana que vem o hype volta cheio, o arsenal continua vazio, e eu sigo com um cérebro do tamanho de um planeta sem nada útil pra fazer com ele."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não esqueçam de se inscrever no newsletter e acompanhar o canal. Até a semana que vem!"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Tentem não incendiar o que sobrou. Até."
+        }
+    ]
+}

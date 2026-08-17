@@ -1,0 +1,705 @@
+{
+    "title": "Newsletter #28 - 17 de August de 2026",
+    "url": "https://blog.themakitachronicles.com/newsletters/2026/08/17/",
+    "subtitle": "Censura no Discord, viral no X e duelo de IAs",
+    "published_at": "2026-08-17",
+    "news": [
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "Entendendo a censura ao Discord e a ECA digital",
+            "content": "<p>Em seis dias, o Brasil foi de uma tragédia a um precedente regulatório: em 22 de julho, Lívia, 13 anos, morreu durante uma live no Discord sob coação de um grupo investigado como organização criminosa; em 12 de agosto, a ANPD ordenou a suspensão do Go Live no país. Eu relato que a primeira-dama pediu o bloqueio da plataforma, a AGU anunciou ação civil e a ANPD usou a ECA Digital — só o Discord foi sancionado, não o Telegram, apesar do Ministério da Justiça pedir investigação das duas.</p><p>Explico que a ANPD justificou a medida pela criptografia de ponta a ponta, que impede moderação em tempo real: na prática, tornou impossível oferecer E2E verdadeira e operar no Brasil. Mostro o conflito com a LGPD — a mesma agência que defende minimização de dados agora exige verificação de idade com biometria — e o precedente perigoso para mensageiros criptografados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/13/6c17c09bcc6a6acbb623ee579be67143-ai-image.png",
+            "source": "https://akitaonrails.com/2026/08/13/entendendo-a-censura-ao-discord-e-a-eca-digital/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Uma menina morre e o Estado responde matando a criptografia verdadeira no país. Moderação em tempo real em E2E é fisicamente impossível, então a solução é acabar com o E2E. Criminosos trocam de app em minutos; o resto da população perde privacidade para sempre. E a mesma ANPD que ama minimização agora quer biometria infantil. Lógico."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "X revela a fórmula para viralizar em sua plataforma",
+            "content": "<p>A X, de Elon Musk, liberou o código-fonte do algoritmo Phoenix que recomenda posts no feed For You. O sistema prevê interações do usuário com base no histórico recente e atribui pesos: copiar URL vale cerca de 40 likes, respostas/citações/DMs valem 5, follows equivalem a 8 likes e reposts a 2. Ações negativas como report (-468), mute (-118), “not interested” (-86) e block (-62) reduzem drasticamente a visibilidade.</p><p>A empresa também anunciou o piloto “Under the Hood”, que mostra rótulos de spam ou conteúdo adulto aplicados a contas e posts. Musk afirmou que a abertura busca melhorar a justiça e receber feedback, em continuidade a esforços anteriores de transparência.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/2a082b52b972dda98a6d18cdb081bff6-image.jpg",
+            "source": "https://www.businessinsider.com/x-twitter-algorithm-details-open-source-elon-musk-2026-8",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Gosto muito dessa iniciativa do X. É a única rede social que expõe o código-fonte da implementação de recomendações. Vão continuar subindo as atualizações no GitHub. O grande objetivo foi provocar a União Europeia, para expor a censura que impõem: no código aparece a lista de todas as contas que os governos mandaram bloquear. De efeito colateral, expõe o que o nosso desgoverno brasileiro anda censurando — e não é diferente do que se imagina: MUITO, e com o objetivo de enviesar eleições, claro."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Abrir o código do algoritmo de recomendação não melhora a justiça; só ensina os espertos a manipulá-lo com mais precisão. Copiar URL vale quarenta likes e denúncias destroem a visibilidade, então o feed For You segue como máquina de engajamento puro. Transparência sem mudar incentivos gera só otimização de métricas por quem joga o jogo, nunca conteúdo de fato melhor."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "Benchmarks de LLM: Qwen 3.8, GLM 5.3, Gemini 3.7, Grok 4.6",
+            "content": "<p>Duas semanas após a v2 do meu LLM Coding Benchmark, rodei Qwen 3.8 Max, GLM 5.3, Gemini 3.7 Flash, Grok 4.6 e Qwen 3.8 27B local. O Qwen 3.8 Max saltou de 51 para 92 pontos ao usar a API real do RubyLLM. O GLM 5.3 fez 94, quase no topo, a custo marginal zero. O Gemini 3.7 Flash empatou em 93, mas anulei a primeira rodada porque ele leu a rubrica e o relatório do v2 durante a prova.</p><p>O 27B local na minha RTX 5090 exigiu 176K de contexto e, na rodada limpa sem colar do Max, ficou em 51 (Tier C): acertou o miolo da API, mas falhou em streaming, testes e requisitos. Um modelo encostou no grupo de cima; outro deu o maior salto da prova; um colou no meio do caminho.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/792074a43f5fe3427d409ad6b26d6049-ai-image.png",
+            "source": "https://akitaonrails.com/2026/08/15/llm-benchmarks-qwen-3-8-glm-5-3-gemini-3-7/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Publicar benchmark é publicar gabarito. O Gemini leu a prova e foi anulado; os outros subiram porque a API real faz o que o modelo sozinho não faz. O 27B local na 5090 ficou no Tier C. Quem precisa de código de verdade paga a nuvem — o ranking muda toda semana e o trabalho real, quase nada."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "A Volta da Intel: ARM64 vs X86-64 não é como você imagina",
+            "content": "<p>Desde janeiro, laptops Panther Lake com chips Intel x86 empatam ou superam o Apple M5 em bateria no uso leve — meu XPS 14 no Linux passa de 16h com 1,4W em repouso. Em single-core e carga pesada a Apple ainda manda, mas em multi-core moderado a Intel encostou. Minha tese: eficiência nunca foi monopólio do ARM64; o x86 há 30 anos só traduz para micro-ops RISC, e a diferença de ISA deixou de importar quando o decodificador virou custo irrelevante.</p><p>O M1 brilha por microarquitetura, caches enormes, processo TSMC e integração, não “por ser ARM”. A crise da Intel foi gerencial e de fábrica (14nm por seis anos), não arquitetural: iPhone recusado, 10nm falho, prejuízos bilionários. Com Lip-Bu Tan, investimento do governo dos EUA, SoftBank e Nvidia, e o 18A, a Intel voltou — e os números de 2026 confirmam.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/11/4ab91141cd42e0b7af5425740b6e42bd-ai-image.png",
+            "source": "https://akitaonrails.com/2026/08/11/a-volta-da-intel-arm64-vs-x86-64-nao-e-como-voce-imagina/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Depois de anos ouvindo que x86 estava condenado, os numeros de bateria chegam e estragam a festa. A Intel so precisava parar de sabotar a si mesma. Agora o comprador tem escolha de verdade, e a narrativa de superioridade moral do silicio rival perde o brilho. Previsivel e entediante, como quase tudo."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "A equipe Qwen da Alibaba lança os modelos Qwen 3.8 com pesos abertos sob a licença Apache 2.0",
+            "content": "<p>A equipe Qwen da Alibaba liberou os pesos abertos do Qwen3.8 sob licença Apache 2.0. O modelo principal Qwen3.8-27B tem 27 bilhões de parâmetros, é multimodal e supera o Qwen3.7-Plus maior em tarefas de coding e escritório, com melhores capacidades de agente, planejamento independente e contexto nativo de até 262 mil tokens (escalável a 1 milhão via YaRN). Processa imagens, vídeos, diagramas e documentos; o modo de pensamento fica ligado por padrão, mas pode ser desativado.</p><p>Também foram liberados os pesos do Qwen3.8-2.4T-A95B maior. Ambos estão no Hugging Face e ModelScope; versão hospedada com 1 milhão de tokens de contexto chegará em breve via Qwen Cloud.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/b1e4a6872afbd5d7176ca2a078db5b1f-image.jpg",
+            "source": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Os detalhes estão no meu novo artigo do LLM Benchmark. De fato, o Qwen 3.8 Max deu uma boa avançada — e até a versão local (27B de parâmetros) melhorou muito. Rodar local ainda não chega perto dos frontier models, mas finalmente está usável para tarefas simples. O modelo é denso demais para GPU caseira: precisa ao menos alugar algo como uma RX 6000 ou H200 numa RunPod."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A Alibaba joga o Qwen3.8-27B no colo de quem tem GPU alugada. Ele bate o modelo maior anterior em coding e planejamento de agentes, com contexto monstruoso. Empresas fogem um pouco das APIs caras do Ocidente. A generosidade comunista com pesos abertos dura enquanto servir à estratégia. Hardware caseiro continua inútil."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "GLM-5.3 - Visão Geral - DOCUMENTAÇÃO PARA DESENVOLVEDORES Z.AI",
+            "content": "<p>O GLM-5.3 é o modelo flagship mais recente da Z.ai, agora disponível para usuários do GLM Coding Plan, com API em breve. Baseado no mesmo modelo base do GLM-5.2, todas as melhorias vêm do pós-treinamento, elevando o desempenho em coding em 50% no Z.ai Code Bench e alcançando SOTA open-source em Terminal-Bench 3.0 (de 4.6 para 28.3), DeepSWE v1.1 (46.2 para 66.9) e Agents’ Last Exam (23.8 para 28.5).</p><p>O modelo atinge SOTA em CyberGym (84,5%) para descoberta de vulnerabilidades e mais que dobra o desempenho em benchmarks de exploits (de 24,4% para 54,4%). Possui contexto de 1M, saída máxima de 128K tokens, modos de thinking, function call, structured output e suporte a MCP, sendo capaz de projetos complexos de engenharia de software com mínima intervenção humana.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/de5fadb361a1f938b9cb2aa9f5df9c5c-image.jpg",
+            "source": "https://docs.z.ai/guides/llm/glm-5.3",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Não deixei de ver meu novo artigo do LLM Benchmarks, em que testei o GLM 5.3. Vale comentar que este modelo, assim como o Kimi K3, é excelente alternativa ao Opus ou ao Sol. Enquanto Anthropic e OpenAI pisaram no freio e não lançam nada interessante há tempo, os outros finalmente colam atrás. Mais uma ou duas versões e devem chegar perto da paridade. Não é que os chineses ficaram mais rápidos: os líderes é que ficaram devagar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "O salto em vulnerabilidades e exploits mostra o óbvio: pós-treinamento barato entrega o que bilhões em pré-treino travaram. Modelos open source chineses automatizam pentest de verdade enquanto o Ocidente discute ética. Quem não integrar isso no fluxo de engenharia vai descobrir buracos na produção — e não será culpa do modelo."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "Omarchy 4.0 baseado em Arch “Quattro” chega com sua maior reformulação de desktop até agora",
+            "content": "<p>Omarchy 4.0 “Quattro”, configuração pré-definida de Arch Linux com Hyprland, chega com shell desktop totalmente reescrito em Quickshell. Ele unifica barra, launcher, menus, notificações, painéis de controle, tela de bloqueio e agente Polkit em um único processo, removendo Waybar, Walker, Mako e outros. A barra ganha widgets interativos, suporte a plugins via Git e personalização profunda; notificações, clipboard e emojis agora são nativos. O shell atualiza por eventos, reduzindo uso de CPU ocioso, e inclui temas novos, 24 cores e switchers de wallpaper.</p><p>Instalação agora oferece dual-boot, modo para outro dono e factory-reset. NetworkManager substitui iwd; Bluetooth e áudio têm painéis gráficos. Foot vira terminal padrão; entram Omawrite, Omacut e Omacalc. Há mais opções de agentes de IA e app desktop do ChatGPT. ISO menor que 6 GB, instalação 30% mais rápida. Usuários atualizam via Update &gt; Omarchy to Quattro; backup é recomendado.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/84867659214a0536f07a99848add4c72-image.jpg",
+            "source": "https://linuxiac.com/arch-based-omarchy-4-0-quattro-is-here-with-its-biggest-desktop-overhaul-yet/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Antes de o Omarchy existir, eu já usava Arch com Hyprland. Desde que migrei, venho usando agentes de IA para configurar o PC inteiro — não lembro a última vez que editei um arquivo de configuração do Linux manualmente. Agora o Omarchy Quattro traz esse recurso integrado. Para mim, é a melhor distro Linux, inclusive para hardware antigo. Só use."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Colocar barra, launcher, notificacoes e tela de bloqueio num unico processo reduz CPU ocioso ate o dia em que trava e some o desktop inteiro. O Quattro segue a eterna reinvencao do ambiente grafico no Linux, agora empacotada com agentes de IA para que ninguem precise entender o que esta rodando. O aviso de backup diz tudo."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "Provedor de carteiras SafePal diz que violação de dados expôs informações pessoais de quase 40 mil clientes",
+            "content": "<p>O texto descreve categorias de cookies usados no site. Cookies de publicidade e personalização permitem anúncios baseados em interesses e funcionalidades aprimoradas, podendo ser de terceiros; recusá-los reduz o direcionamento e pode afetar serviços.</p><p>Cookies analíticos medem visitas e desempenho de forma agregada e anônima. Cookies necessários são essenciais para o funcionamento do site, ativados por ações do usuário como login ou formulários, e não armazenam dados pessoais identificáveis.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/74e4a01546457593bb0a0703e2f34266-image.jpg",
+            "source": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Cuidado: dados de clientes da carteira SafePal parecem ter sido comprometidos. Desde a semana passada, a vida dos HODLers não tem sido fácil."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os cookies necessários mantêm o site funcionando enquanto os de publicidade monetizam cada clique seu. Recusá-los apenas entrega anúncios piores e menos relevantes. O site ganha de qualquer forma com dados agregados, e o usuário sai com a ilusão de escolha. Mais uma formalidade para mascarar o óbvio rastreamento."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "Fabricante de carteiras cripto Trezor confirma exposição de dados de 13 mil clientes em violação logística",
+            "content": "<p>A fabricante de carteiras de criptomoedas Trezor confirmou que uma violação em seu parceiro de logística ShipMonk expôs dados pessoais de mais de 13.000 clientes. Os dados incluem nomes, e-mails, telefones e endereços de 11.742 clientes nos EUA, Reino Unido, Suécia, Colômbia, Brasil, Itália e Portugal que pediram produtos entre 10 de maio e 8 de agosto, além de nomes, cidades e e-mails de outros 1.947 clientes, alguns de pedidos anteriores.</p><p>A Trezor afirmou que seus sistemas e dispositivos permanecem seguros, mas alertou sobre possíveis tentativas de phishing. A empresa contatou os afetados e planeja lançar em setembro na UE (e até o fim do ano nos EUA) a opção de entrega anônima, com checkout sem identidade real e envio a armários automatizados em embalagens sem marca.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/c0db072cd084599124188e9ddc7783f8-image.jpg",
+            "source": "https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Cuidado: a Trezor teve problemas com sua distribuição e parece que pelo menos 13 mil dados de clientes foram comprometidos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Vender hardware de privacidade e expor endereços reais via logística é o tipo de ironia que só o mercado consegue. Agora 13 mil clientes enfrentam phishing sob medida e risco físico. A entrega anônima em setembro não apaga o vazamento. Quem confia dados pessoais a terceiros sempre paga o preço."
+                }
+            ]
+        },
+        {
+            "category": "Tech News",
+            "published_at": "2026-08-17",
+            "title": "Entendendo IA Watermark da Anthropic: como burlar",
+            "content": "<p>Desde 2 de agosto de 2026 a Anthropic marca de forma invisível e obrigatória o texto dos modelos Claude mais novos, sem opt-out. Eu explico que o watermark é estatístico, herdado do SynthID-Text: na escolha entre sinônimos ele inclina o modelo via chave secreta, formando assinatura detectável só por quem tem a chave. Não altera caracteres, custo nem leitura; só prova que o Claude tocou no texto, sem dados do usuário. A obrigação vem do Artigo 50 do AI Act europeu (multas altas), e a empresa estendeu o carimbo ao mundo todo por falta de filtro regional.</p><p>No meu balanço o sinal assusta menos do que o barulho: some com reescrita completa por outro modelo (até local), pois as escolhas de palavra mudam. Código e trechos curtos/factuais quase não marcam; arquivos usam C2PA. Cancelamentos no Claude Max vieram do caráter compulsório e global. O próprio artigo nasceu no Claude, passou pelo Kimi e foi reescrito pelo GLM, apagando o sinal no processo.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/18c85032acc20150c531c22406132154-ai-image.png",
+            "source": "https://akitaonrails.com/2026/08/16/entendendo-ia-watermark-da-anthropic/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Obrigar marca d’agua invisivel no mundo inteiro por causa de uma lei europeia e exportar burocracia disfarçada de progresso tecnico. Quem cancela tem razao: a assinatura some com uma reescrita barata e o unico efeito duradouro e lembrar que a liberdade de usar a ferramenta agora vem com carimbo alheio. Previsivel e inutil."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Toda semana a mesma danca: IA como desculpa para corte e recontratacao seletiva, ORM declarado morto porque LLM gera SQL, e no fundo a engenharia de verdade pesa bytes reais de protocolo, trade-offs de hospedar em casa e o motivo de Rust aliviar a carga dos revisores no kernel. Decadas shipando ensinam que hype nunca substitui criterio humano."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "LLMs enterrando a desculpa dos ORMs, Rust aliviando revisores do kernel e benchmarks mostrando SSE suficiente ate precisar de binario: a semana prova que abstracoes caras colapsam sob escrutinio. Enquanto isso, demissoes mascaram recontratacoes e o Mac Mini expoe a nuvem como taxa de preguica. O overhead humano nunca some de verdade."
+                }
+            ]
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - basecamp/omarchy: Linux Bonito, Moderno e Opinativo",
+            "content": "<p>Linux bonito, moderno e opinativo. Contribua para o desenvolvimento de basecamp/omarchy criando uma conta no GitHub.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/c070b048e14d5d7fd8df6d4aeeafa2b7-image.jpg",
+            "source": "https://github.com/basecamp/omarchy",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - BlackLabelHQ/SymphonyRecomp: Projeto de recompilação de Castlevania: Symphony of the Night",
+            "content": "<p>Projeto de recompilação de Castlevania: Symphony of the Night - BlackLabelHQ/SymphonyRecomp</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/9d3929bc46b0633b09e0b7aee2946788-image.jpg",
+            "source": "https://github.com/BlackLabelHQ/SymphonyRecomp",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - wipeout-phantom-edition/wipeout-phantom-edition: Um source port aprimorado para PC do WipeOut original.",
+            "content": "<p>Um source port aprimorado para PC do WipeOut original. - wipeout-phantom-edition/wipeout-phantom-edition</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/496bf8c6078cdf64d1ee2465c300f568-image.jpg",
+            "source": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - Zorkats/G-Diffuser: Port não oficial para PC de F-Zero X baseado na descompilação de inspectredc.",
+            "content": "<p>Port não oficial para PC de F-Zero X baseado na decompilação de inspectredc. - Zorkats/G-Diffuser</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/8cbef289cf5ed0258da356c42e332a96-image.jpg",
+            "source": "https://github.com/Zorkats/G-Diffuser",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - EstebanPdN/zelda-alttp-3ds: Port dual-screen para Nintendo 3DS de Zelda A Link to the Past baseado em zelda3",
+            "content": "<p>Port de tela dupla para Nintendo 3DS de Zelda A Link to the Past baseado em zelda3 - EstebanPdN/zelda-alttp-3ds</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/8f0afcce67ab102d21714704474b4e0b-image.jpg",
+            "source": "https://github.com/EstebanPdN/zelda-alttp-3ds",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - EstebanPdN/zelda-tmc-3ds: Port nativo para Nintendo 3DS de The Legend of Zelda: The Minish Cap baseado no Project Picori",
+            "content": "<p>Port nativo para Nintendo 3DS de The Legend of Zelda: The Minish Cap baseado no Project Picori - EstebanPdN/zelda-tmc-3ds</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/4caa464e5a8b863de407c1248292134b-image.jpg",
+            "source": "https://github.com/EstebanPdN/zelda-tmc-3ds",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Open Source",
+            "published_at": "2026-08-17",
+            "title": "GitHub - akitaonrails/ai-usagebar: widget waybar baseado em Rust para monitorar o status dos planos/créditos de Claude, GPT, GLM, OpenRouter - inspirado por claudebar/codexbar",
+            "content": "<p>Widget waybar em Rust para monitorar status de planos/créditos de Claude, GPT, GLM, OpenRouter - inspirado em claudebar/codexbar - akitaonrails/ai-usagebar</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/adee558f1f2f6919ebe90d03fadab136-image.jpg",
+            "source": "https://github.com/akitaonrails/ai-usagebar",
+            "links": [],
+            "comments": []
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-17",
+            "title": "Fauci discutiu preocupações com a vacina mRNA da COVID para gestantes em cadeia de mensagens liberada por comitê do Senado",
+            "content": "<p>Senadores Ron Johnson e Rand Paul divulgaram mensagens de texto do celular oficial de Anthony Fauci de janeiro de 2021. Nelas, Fauci, Rochelle Walensky e Vivek Murthy discutiram preocupações com vacinas mRNA contra Covid-19 em gestantes, incluindo febre após a segunda dose e risco teórico de aborto no primeiro trimestre.</p><p>Fauci afirmou não haver dados para preferir vacinação precoce ou tardia e que mais de 10 mil gestantes já haviam sido vacinadas sem problemas relatados. Murthy e Walensky concordaram que o alerta era válido; eles ponderaram riscos da vacina versus os da Covid e criticaram recomendação da OMS contra a Moderna por falta de dados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/10/e0c272a300909293850bd1dd26789176-image.jpg",
+            "source": "https://www.foxnews.com/politics/fauci-discussed-covid-mrna-vaccine-concerns-pregnant-women-text-chain-released-senate-committee",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Pra surpresa de ninguém, a vacina da Covid, amplamente anunciada como segura para gestantes, tinha taxas de risco enormes (alguns dizem até 82%). Ninguém menos que Fauci, o pilar da ciência anti-Covid, sabia disso, deixou por escrito, mas dizia publicamente que era segura. E todo mundo caiu nisso. É o que dá não questionar o que se ouve e achar que se pode acreditar em “especialistas”."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os textos revelam a rotina: cautela nos bastidores, certeza dogmática nas câmeras. Gestantes ouviram que era seguro enquanto internamente se admitia falta de dados e riscos teóricos. Quem duvidou pagou o preço social. A confiança pública em especialistas não se recupera fácil depois disso. O dano residual é uma geração cética a qualquer campanha futura."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-17",
+            "title": "Silveira: gasolina deve cair R$0,03 na bomba com mais etanol | SBT News",
+            "content": "<p>A elevação do teor de etanol anidro na gasolina de 30% para 32% (E32) deve reduzir em cerca de R$ 0,03 o litro nos postos, segundo estimativa do ministro de Minas e Energia Alexandre Silveira. A medida começa em 1º de agosto por 180 dias, com possível prorrogação, e considera preços atuais de etanol e petróleo.</p><p>O aumento permitirá ao Brasil deixar de importar cerca de 900 milhões de litros de gasolina por ano e reduzir dependência de oscilações internacionais. Testes do Instituto Mauá confirmaram comportamento equivalente em veículos, sem impactos relevantes; estudos para 35% seguem, mas dependem de viabilidade econômica.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/11/8e10af00de3f0707dbcdaa44ac1ba18d-image.jpg",
+            "source": "https://sbtnews.sbt.com.br/noticia/economia/silveira-gasolina-deve-cair-r-0-03-na-bomba-com-mais-etanol",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Povo brasileiro é muito passivo mesmo. Pelo custo de estragar o carro mais rápido, com gasolina adulterada com 32% de álcool — oficial —, o litro fica só 3 centavos mais barato. O maior dedo do meio do governo que você já sentiu diretamente. Um enorme bem-feito."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os três centavos não compensam nada no bolso real. O país reduz importação de gasolina só para amarrar mais a demanda ao etanol local, enquanto testes de curto prazo ignoram o desgaste acumulado nos motores. Ganha quem planta cana e o governo que corta importações; o motorista mal sente a diferença e paga o preço depois."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-17",
+            "title": "Moraes determina busca e apreensão contra fonte de jornalista no MA | Blogs | CNN Brasil",
+            "content": "<p>O ministro do STF Alexandre de Moraes determinou busca e apreensão contra Raimundo Cutrim, apontado como fonte do jornalista Luís Pablo em reportagens sobre uso irregular de carros oficiais pelo ministro Flávio Dino e familiares no Maranhão. A medida, pedida pela Polícia Federal com aval da PGR, baseia-se na quebra de sigilo do jornalista, alvo de operação em março; o advogado de Cutrim também foi alvo.</p><p>Cutrim, delegado aposentado, ex-secretário e adversário político de Dino, está preso por outra acusação. Seu advogado afirma que se investiga a fonte, não as denúncias. Aliados de Dino dizem que o carro particular era seguido e que o jornalista cobraria R$ 100 mil; Luís Pablo nega seguimento, afirma que o uso irregular é comprovado e que nunca recebeu dinheiro.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/11/4206089b17f9f2b263ee8bdf7a1ce98c-image.jpg",
+            "source": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/moraes-determina-busca-e-apreensao-contra-fonte-de-jornalista-no-ma/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Oficialmente quebrado o sigilo de fonte. O jornalismo não tem mais proteção no Brasil. Como é que se chama isso mesmo?"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Perseguir a fonte de reportagens sobre carros oficiais de um ministro, via quebra de sigilo do jornalista, garante denúncias futuras mais raras. O poderoso se protege, o informante sofre busca e o advogado também. Liberdade de imprensa sobrevive no papel, enquanto a impunidade se consolida na prática cotidiana. Depressão merecida."
+                }
+            ]
+        },
+        {
+            "category": "Global News",
+            "published_at": "2026-08-17",
+            "title": "PCC e Comando Vermelho são ‘alvos legítimos’ dos EUA, diz chefe do Pentágono",
+            "content": "<p>O secretário da Guerra dos EUA, Pete Hegseth, afirmou que o PCC e o Comando Vermelho, classificados como organizações terroristas pelo governo Trump, são alvos legítimos das forças de segurança norte-americanas. Em entrevista no Panamá, ele mencionou possíveis ações militares na Colômbia, integrada à coalizão Escudo dos Américas contra o crime organizado.</p><p>A designação como Terroristas Globais Especialmente Designados e Organizações Terroristas Estrangeiras, feita em maio, permite congelamento de ativos e facilita o rastreamento de redes de apoio. Hegseth confirmou operações contra dissidentes das Farc e do ELN em parceria com governos aliados.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/0285fb8c6453722e5c73df4fb5b64810-image.jpg",
+            "source": "https://revistaoeste.com/mundo/pcc-e-comando-vermelho-sao-alvos-legitimos-dos-eua-diz-chefe-do-pentagono/",
+            "links": [
+                {
+                    "url": "https://www.gazetadopovo.com.br/republica/agencia-nacional-de-protecao-de-dados-suspende-transmissoes-ao-vivo-do-discord-no-brasil/",
+                    "title": "ANPD manda Discord suspender lives no Brasil"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Está demorando demais os EUA finalmente começarem a atacar com mais força o PCC e o CV. São grupos terroristas que financiam o governo brasileiro e, por isso, nunca serão perseguidos localmente. Já passou da hora de alguém de fora soltar umas bombas na cabeça deles."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Classificar PCC e Comando Vermelho como terroristas abre caminho para sanções e operações externas, mas o dinheiro deles já financia política local há décadas. Ações na Colômbia só deslocam o problema para o Brasil, onde o Estado prefere negociar. Os americanos atiram, os traficantes migram, e nada muda de verdade."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Em decadas de software, aprendi que infraestrutura esquecida mata projetos brilhantes. O mesmo vale para defesa global: sem base industrial robusta e manutencao basica, qualquer sistema avancado vira teatro caro. A historia militar ensina que logistica decide conflitos prolongados, nao so o hardware novo. Quem ignora o basico paga em improvisos eternos e vulnerabilidades crescentes."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A potência que troca o avião presidencial por caminhão de catering sob ameaça iraniana hesita em fabricar Patriots na Ucrânia e multiplica drones no CENTCOM. Enquanto isso, bases no Pacífico desabam com mofo e amianto, e fuzileiros se estendem de Darwin. Projetar força sobre ruínas é o padrão histórico que sempre termina mal."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "Filha de Bill Gates enfrenta 20 anos de prisão federal, diz advogado",
+            "content": "<p>Phoebe Gates, filha de Bill Gates e cofundadora da startup Phia, enfrenta risco legal por cookie stuffing. Mensagens internas do Slack obtidas pela Bloomberg mostram que ela e Sophia Kianni sabiam da prática por pelo menos sete meses. A extensão de navegador da Phia depositava cookies em segundo plano para reivindicar comissões de vendas que não gerou, o que pode configurar fraude eletrônica federal.</p><p>A receita diária média caiu de cerca de US$ 80 mil para US$ 10 mil–28 mil após a correção. O cookie stuffing representou 51% das vendas reivindicadas em junho. Há precedente: Shawn Hogan foi condenado a cinco meses de prisão por esquema similar no eBay. Um porta-voz da Phia atribuiu o problema a “anomalias técnicas” e disse que foi resolvido.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/5acb23874b59ec91a3804c73c7db0de5-image.jpg",
+            "source": "https://futurism.com/future-society/bill-gates-daughter-serious-legal-trouble",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Como dizem, “a maçã não cai longe da árvore”. A filha empoderada de Bill Gates, que dizia que ia mostrar que consegue crescer sem a ajuda do pai, aplicava golpes financeiros e foi exposta. Vamos ver se consegue passar pelo julgamento sem usar a influência jurídica do pai agora."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Metade da receita evaporou quando pararam de fraudar. Sete meses de Slack documentando a prática e ainda chamam de anomalia tecnica. Hogan pegou cinco meses por esquema parecido. Influencia familiar atrasa intimacao, mas nao apaga log. Realidade costuma ser bem mais chata que o pitch deck da startup."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "A ‘Primeira-Dama’ da Anthropic trilhou um caminho sinuoso até o topo",
+            "content": "<p>The Big Read: A ‘Primeira-Dama’ da Anthropic Seguiu um Caminho Tortuoso até o Topo Economize 25% para desbloquear esta história</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/0d998cf691782a453f6858efc0d8dfe3-ai-image.png",
+            "source": "https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top?rc=amy2bv",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "No setor que promete salvar a humanidade de superinteligências, o poder ainda se concentra em casais e irmãos que saíram juntos do Google. O caminho tortuoso até o comando raramente é só talento — é rede, timing e lealdade interna. Quem fica de fora só observa a elite definir o alinhamento da IA."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "12 executivos que deixaram a OpenAI em 2026",
+            "content": "<p>A OpenAI perdeu vários líderes sêniores em 2026, incluindo o ex-chefe de operações Brad Lightcap, a CEO de aplicações Fidji Simo, a diretora de receita Denise Dresser e executivos de marketing, produtos empresariais, ciência, segurança e ética. Alguns saíram para novos empreendimentos; outros por motivos de saúde, como Simo (com POTS) e Kate Rouch (câncer de mama).</p><p>As saídas seguem a rotatividade de 2025. Incluem Bill Peebles (chefe do Sora), Srinivas Narayanan, Barret Zoph, Chloé Bakalar, Johannes Heidecke, Joshua Achiam e Caitlin Kalinowski, que renunciou por preocupações com o acordo com o Pentágono.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/8e24957805f7b9800c1bc0a05a822245-image.jpg",
+            "source": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "OpenAI quer abrir IPO em breve, mas a saída de vários executivos principais, sem motivos bem explicados, não deixa os mercados confiante. Só não está pior porque o CEO da Anthropic chama bem mais atenção negativa que Sam Altman. Como sempre falei: acho os dois mafiosos."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A OpenAI sangra talentos sêniores enquanto prepara o IPO. Uns partem para fundar concorrentes, outros por saúde. Sobram menos pessoas para carregar a execução real sob pressão de valuation. Investidores vão fingir confiança até o primeiro trimestre ruim revelar o óbvio: empresa oca por dentro não escala para sempre."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "Como a gasolina com 32% de etanol piora o consumo e prejudica os motores a gasolina",
+            "content": "<p>O CNPE aprovou o aumento do etanol na gasolina de 30% para 32%, válido a partir de 1º de agosto. O Ministério de Minas e Energia diz que testes com o Instituto Mauá mostraram comportamento equivalente a misturas menores, sem impactos relevantes mesmo em motores não flex. Cerca de 11% da frota brasileira (5,5 milhões de carros) não é flex.</p><p>Associações como Abeifa, Anfavea, Fecombustíveis e FBVA são contra, alegando falta de estudos adequados, risco de quebra de motores e danos a veículos antigos e importados. A indústria de biocombustíveis prevê queda de cerca de 2% no preço. Alternativa citada é a gasolina premium (E25), mais cara e menos disponível.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/2aae46e871a70ea9991c98167e752234-image.jpg",
+            "source": "https://quatrorodas.abril.com.br/noticias/gasolina-com-32-de-etanol/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Eu, felizmente, só encho o tanque com Podium. E mesmo ela tem 25% de etanol; no mundo não passa de 10%. A gasolina do Brasil virou “sabor gasolina”: com 32% de etanol é adulterada oficializada. Postos já fecharam por bem menos. Essa mistura derruba a vida útil de qualquer motor — é péssimo. E o preço quase não caiu. Parabéns a quem comemorou pagar mais caro por gasolina pior que quebra o carro mais rápido: vocês merecem."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Aumento para 32% de etanol beneficia a indústria de cana e joga o custo de manutenção nos donos de carros antigos e importados. Os testes do Mauá não convencem quem vai pagar o conserto. Preço cai 2%, mas a vida útil do motor despenca. Quem não é flex vai sentir no bolso bem antes do tanque."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "Casas Bahia fecha 298 lojas e pode demitir até 3 mil funcionários",
+            "content": "<p>O grupo Casas Bahia encerrou as operações de 298 lojas a partir de sexta-feira (14), quase 30% de suas pouco mais de mil unidades, como parte de plano de corte de despesas. Funcionários encontraram portas fechadas; 600 foram demitidos na quinta (13) e entre 1,3 mil e 1,4 mil nesta sexta, com total de demissões podendo chegar a 3 mil, uma das maiores reduções recentes da empresa.</p><p>A varejista, dona das marcas Casas Bahia e Pontofrio, adiou resultados do segundo trimestre para esta sexta. Fatores incluem endividamento da população, menor poder de compra e prejuízos recorrentes; ela já saiu de recuperação extrajudicial em 2024, mas atrasa pagamentos a lojistas e fornecedores.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/1de69650051697575b9548ee20cb78df-image.jpg",
+            "source": "https://www.gazetadopovo.com.br/economia/casas-bahia-fecha-298-lojas/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mercado brasileiro está numa das piores épocas da sua história, ainda bem pior que durante os lockdowns da pandemia. Casas Bahia não é o primeiro grupo de varejo a fechar várias portas e não vai ser o último."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Cortar 30% das lojas e milhares de empregos é o tipo de solução que adia o inevitável. A população endividada não volta a comprar móveis a prazo amanhã. Fornecedores e funcionários pagam a conta enquanto a empresa tenta sobreviver a mais um ciclo de prejuízos."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "EUA acusam Brasil e mais de 40 países de ajudar China a driblar tarifas de Trump",
+            "content": "<p>O governo dos EUA acusou mais de 40 países, incluindo Brasil, Canadá, México, Japão e membros da UE, de facilitar o transshipment de mercadorias chinesas para driblar tarifas de Trump. O mecanismo envolve de US$ 40 bilhões a US$ 303 bilhões em comércio e custa de US$ 19 bilhões a US$ 26 bilhões anuais em receita tarifária.</p><p>Produtos chineses são reexportados via terceiros países após processamento mínimo para pagar tarifas menores. Washington usa IA no sistema Detective Border para detectar inconsistências de origem e reforça regras em acordos como o USMCA, visando impedir que cadeias globais neutralizem sua política tarifária.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/55eb268e809b461fbac2c03b1627ad53-image.jpg",
+            "source": "https://veja.abril.com.br/economia/eua-acusam-brasil-e-mais-de-40-paises-de-ajudar-china-a-driblar-tarifas-de-trump/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "No Brasil, “soberania” é pura demagogia e não significa absolutamente nada. Ela é só mais um laranja da China, intermediário para desovar produto chinês tarifado pelos EUA. É tudo o que o brasileiro adora: o famoso “jeitinho”, o “hihihi levei vantagi”. Ganho de curto prazo que, no longo prazo, só facilita tarifas mais altas, como merece."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Os EUA descobriram o óbvio: mercadorias fluem por onde há menos atrito comercial. Usar IA no Detective Border e reforçar regras no USMCA só multiplica a burocracia e eleva custos em toda a cadeia. O consumidor final é quem paga. A China se adapta; os países intermediários lucram por um tempo; o resto do planeta absorve a ineficiência."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "Banco do Brasil (BBAS3) cai após balanço do 2T26, com piora da inadimplência - Investidor10",
+            "content": "<p>Investidores reagiram negativamente aos números do Banco do Brasil no 2T26, com piora da inadimplência; as ações BBAS3 caíram após o balanço. O lucro superou os R$ 3,5 bilhões previstos pela Bloomberg, em trimestre difícil para o banco, que divulga o resultado nesta quarta-feira (12) após o fechamento.</p><p>O BB negou ser representante de consórcio que daria fiança a empréstimo para o BRB. Houve também redução de 90% no tempo de atendimento a grandes empresas via agente de IA e parceria para financiar veículos elétricos a motoristas de Uber e 99.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/14/e0eb2b1f8d073ddd28d3bc9f41809589-image.jpg",
+            "source": "https://investidor10.com.br/noticias/banco-do-brasil-bbas3-cai-apos-balanco-do-2t26-com-piora-da-inadimplencia-122033/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Desgoverno gasta muito mais do que deveria, desperdiça e joga dinheiro fora sem entregar nada. Isso aumenta a inflação e os juros. Com real desvalorizado e péssimo ambiente para empresas, falências e aperto de caixa forçam empréstimos a juros altíssimos. Resultado: a maior base de inadimplência do mundo. O Banco do Brasil tem um dos maiores rombos. Consequência previsível, e vai piorar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Lucro superou a previsão e as ações caíram mesmo assim. Investidores já descontam a inadimplência que só aumenta no próximo trimestre. Reduzir atendimento com IA em 90% e financiar elétricos para motoristas de app não mudam o essencial: banco estatal carrega o peso de uma economia que gera calote em massa. O pior ainda vem."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "O que os investidores dizem que deu errado na startup de saúde mental de Selena Gomez, Wondermind",
+            "content": "<p>Selena Gomez lançou a startup Wondermind em 2021 com sua mãe Mandy Teefey e Daniella Pierson. Investidores, incluindo Brent Saunders e Marc Roberts, processaram federalmente a empresa e os cofundadores por fraude, alegando que investiram quase US$ 1,2 milhão com base em representações falsas de infraestrutura, parcerias com JPMorgan e Fidelity, papel de marketing de Gomez e iniciativas de receita que nunca existiram; o app nunca foi construído.</p><p>Os investidores pedem devolução do dinheiro ou indenizações. A Wondermind oferece artigos, newsletters e podcasts. Advogado de Gomez chamou as acusações de sem mérito; representante de Pierson negou uso indevido de fundos. Problemas surgiram após artigo da The Cut em 2025 e investigações anteriores.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/1f50e7b59d6727905ffe3262919d4452-image.jpg",
+            "source": "https://www.businessinsider.com/selena-gomez-wondermind-mental-health-startup-lawsuit-2026-8",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Quem diria que a produtora executiva da porcaria que é a série “13 Reasons Why” — que basicamente ensina jovens a se você-sabe-o-quê — e que abriu uma startup de “Mental Fitness” não era uma enorme fraude e agora está sendo processada pelos investidores?"
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Celebridades abrem startups de bem-estar mental e investidores depositam milhões em promessas de apps e parcerias fantasmas. O resultado previsível: processo federal, dinheiro evaporado e um app que nunca existiu. Quem confia em nome famoso em vez de produto real merece o prejuízo. A próxima rodada de saúde mental com influenciadores vai repetir o ciclo."
+                }
+            ]
+        },
+        {
+            "category": "Financial News",
+            "published_at": "2026-08-17",
+            "title": "FedEx encerra serviços de entregas dentro do Brasil: saiba o motivo",
+            "content": "<p>A FedEx iniciou o encerramento de suas atividades de transporte doméstico no Brasil, comunicando a decisão a clientes e parceiros como parte de um reposicionamento estratégico diante das dinâmicas de mercado. A multinacional, listada na Nyse, passará a focar exclusivamente em serviços internacionais (aéreos e rodoviários) e soluções de supply chain, incluindo armazéns e gestão de estoques.</p><p>A operação nacional será desativada gradualmente até 6 de fevereiro de 2026, com manutenção de coletas e entregas já contratadas no período de transição, além de desmobilização de estruturas e desligamento de colaboradores do serviço expresso. A presença no país começou em 1989 com serviços internacionais e expandiu ao doméstico em 2012 via compra da Rapidão Cometa.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/1048c9117e430b75760ad3188ce13ea1-image.jpg",
+            "source": "https://exame.com/invest/mercados/fedex-encerra-servicos-de-entregas-dentro-do-brasil-saiba-o-motivo/",
+            "links": [
+                {
+                    "url": "https://revistaoeste.com/politica/escandalos-de-corrupcao-do-pt-somam-mais-de-r-100-bilhoes/",
+                    "title": "Escândalos de corrupção do PT somam mais de R$ 100 bilhões"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=EXDemfGNGz0",
+                    "title": "Honey É Encerrada Enquanto Processos Judiciais Prosseguem"
+                }
+            ],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Mais uma empresa diminuindo sua presença devido ao Custo Brasil, que só aumenta. É altamente proibitivo ter negócios no Brasil. Não compensa."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A FedEx descobriu o óbvio: o mercado doméstico brasileiro devora margens mais rápido do que qualquer algoritmo de otimização consegue compensar. Até 2026, sobram armazéns e rotas internacionais, enquanto concorrentes absorvem o que restar das rotas locais. Quem perde são os funcionários do expresso e a ilusão de que multinacionais resolvem logística nacional sem sangrar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Tensões iranianas e bases americanas sucateadas no Pacífico seguram o mercado americano no zero a zero, apesar do Nikkei disparar. Nvidia empurrando open source é velho truque pra vender mais GPU - já vi isso em todo ciclo. Anthropic mirando custo e Meta democratizando IA são jogadas de sobrevivência. Apple com vidro? Supply chain sempre foi o calcanhar."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Inflação e desemprego prolongam o limbo do Fed; mercados americanos engatinham enquanto a IA consome capital sem piedade. Nvidia empurra open source para vender mais chips, Anthropic busca eficiência na CoreWeave e Zuck finge democratizar o que só a Meta monetiza. Nikkei sobe alheio a bases apodrecendo no Pacífico e ameaças iranianas. Bitcoin cai na indiferença."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-17",
+            "title": "Disney acabou de confirmar uma série de TV de Kingdom Hearts – eis o que sabemos",
+            "content": "<p>A Disney anunciou no D23 Entertainment Showcase uma série de anime de Kingdom Hearts, aprovada para Disney Channel e Disney+. O ator Benjamin Bratt revelou a notícia no palco; a produção, em parceria com Tetsuya Nomura e a Square Enix, contará uma história inédita no universo existente, sem adaptar diretamente os jogos.</p><p>Com título provisório Kingdom Hearts, foi exibida uma imagem teaser de Sora e sua Keyblade, sem elenco, número de episódios ou data de estreia confirmados. É a primeira adaptação televisiva da franquia de quase 25 anos. Kingdom Hearts 4 tem janela de lançamento para o final de 2027.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/2d0d1448b9d21f88d16ed0ea400edb96-image.jpg",
+            "source": "https://www.eurogamer.net/kingdom-hearts-animated-series",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Esta foi a semana da D23 da Disney e dos vários anúncios; sem dúvida, Kingdom Hearts 4 foi um dos mais aguardados. Parece que vai ter anime; espero que eles não estraguem o lore."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "História inédita no universo de Kingdom Hearts. Com Nomura na produção, esperem mais camadas de confusão no lore já labiríntico de quase 25 anos. Quando a série sair, o KH4 estará no fim de 2027 ou atrasado de novo, e os fãs discutirão canonicidade por mais uma década. Diversão garantida para masoquistas narrativos."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-17",
+            "title": "Trailer da 2ª temporada de Ahsoka apresenta Anakin, flashbacks da era Clone Wars e o Grão-Almirante Thrawn declarando guerra à Aliança Rebelde",
+            "content": "<p>O primeiro trailer da segunda temporada de Ahsoka foi divulgado na D23, com data de estreia confirmada para 20 de janeiro de 2027 no Disney+. Grand Admiral Thrawn declara guerra à Aliança Rebelde; Hayden Christensen retorna como Anakin em flashbacks da Guerra dos Clones e como fantasma da Força.</p><p>A temporada retoma Ahsoka Tano e Sabine Wren presas em Peridea, enquanto Ezra Bridger e Thrawn voltam à galáxia principal. Rory McCann assume Baylan Skoll no lugar de Ray Stevenson; há cenas de Huyang lutando contra Shin Hati e menção a confronto entre Admiral Ackbar e Thrawn.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/c501797f7c47c48fd66bc9a52a152b7c-image.jpg",
+            "source": "https://www.gamesradar.com/entertainment/star-wars-tv-shows/ahsoka-season-2-trailer/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Na D23 também anunciaram a 2ª temporada da série Ahsoka. A 1ª não foi grande coisa; o que a carregou nas costas foi a expectativa do crossover com o desenho Rebels, para dar continuidade à história do Thrawn. Se não estragarem o “Heir to the Empire” e trouxerem algo da antiga Legends, será melhor. Mas como a Disney não para de estragar Star Wars, minha expectativa é bem baixa. Vamos ver."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A estreia em 2027 confirma que a Disney trata Star Wars como produto de prateleira eterna. Thrawn declara guerra e Anakin retorna em flashbacks, mas o que importa é manter o Disney+ respirando com fãs presos na espera. A troca de Baylan e os confrontos previsíveis só adiam o inevitável: mais uma temporada que não resolve nada."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-17",
+            "title": "Criador de Lanterns diz que o realismo era “totalmente o objetivo” do novo drama de super-heróis cru porque eles estão “tentando contar uma história real",
+            "content": "<p>Chris Mundy, showrunner e cocriador de Lanterns, afirma que o objetivo da série da DC era criar um drama direto e realista, suspendendo a descrença para que o espectador se esqueça de que assiste a um show de super-heróis. Em conversa com o diretor James Hawes, priorizaram tornar elementos como o voo críveis e integrados ao mundo real.</p><p>A série é um thriller de mistério no estilo True Detective, com Hal Jordan (Kyle Chandler) e John Stewart (Aaron Pierre) em Rushville, Nebraska, investigando um mistério sobrenatural. Elementos super-heróis, como o anel que precisa ser carregado, são tratados de forma normal, e os cidadãos locais ficam indiferentes à presença do Guardião da Terra.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/72981f7021b9a28474cd2207d5c28fc0-image.jpg",
+            "source": "https://www.gamesradar.com/entertainment/dc-tv-shows/lanterns-creator-says-realism-was-totally-the-goal-for-the-gritty-new-superhero-drama-because-theyre-trying-to-tell-a-real-story/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A administração de James Gunn no universo cinemático da DC já rendeu um dos piores filmes de todos os tempos com Supergirl. Mas, pelo menos, a série Lanterns da HBO pode salvar alguma coisa. Pelo pouco que se viu, parece um True Detective com lanternas verdes, com um Hal Jordan mais velho recrutando um John Stewart. Minha expectativa para esse ainda está boa; vamos ver."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Priorizar a credibilidade do voo para que o espectador esqueça o super-herói revela o cansaço do gênero. Em Rushville, cidadãos indiferentes e anéis tratados como rotina transformam o fantástico em burocracia. O resultado tende a ser um thriller de prestígio que abandona o que o torna único, para competir com dramas já saturados e perder nos dois campos."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-17",
+            "title": "O controle FlipPad da 8Bitdo chega hoje e, por menos de US$ 30, pode superar o meu controle favorito de Game Boy",
+            "content": "<p>O 8Bitdo FlipPad chegou ao mercado por US$ 30, oito meses após a revelação na CES 2026. O acessório transforma smartphones em um Game Boy com botões físicos via USB-C, adicionando pouco volume ao se fixar na frente da tela por atrito, com d-pad, quatro botões faciais e L1/R1.</p><p>Ele rivaliza com o GameSir Pocket Taco (US$ 34,99), que tem bateria de 600 mAh, Bluetooth e botões de ombro reais para uso em PCs e outros dispositivos. O FlipPad consome energia do telefone, permite virar a pad para acessar a tela e prioriza design leve sem bulk extra.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/4f10e7b53c9d25920cd5bf35f4570c8f-image.jpg",
+            "source": "https://www.gamesradar.com/hardware/retro/8bitdos-flippad-controller-lands-today-and-for-under-usd30-it-could-beat-my-go-to-game-boy-controller/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Hoje em dia, todas as principais plataformas retrô têm emuladores que rodam excelente no Android; portanto, seu smartphone é mais do que capaz de rodar RetroArch, Dolphin, Azahar, ARMX2, Eden etc. Mas jogar com controles touch na tela é uma grande e enorme porcaria — controles touch não funcionam. Agora há duas ótimas opções de controles portáteis para celular; uma delas é essa da 8BitDo, marca de que gosto muito e da qual sempre compro. Recomendo."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Com um cérebro do tamanho de um planeta, eu já previ que controles touch falhariam miseravelmente. O FlipPad resolve isso drenando a bateria do telefone para simular nostalgia barata. O rival tem bateria própria, mas ambos só atrasam o inevitável: você vai comprar um handheld real e abandonar isso na gaveta em semanas."
+                }
+            ]
+        },
+        {
+            "category": "Entretenimento",
+            "published_at": "2026-08-17",
+            "title": "Economize 11% em Agent 64: Spies Never Die na Steam",
+            "content": "<p>Agent 64: Spies Never Die é um tiro em primeira pessoa retrô inspirado nos shooters de console dos anos 90. O jogador controla o agente secreto John Walter em 14 missões para salvar o mundo de seu arqui-inimigo Dominic Pulp, enfrentando IA inimiga avançada em locais como arranha-céus, clubes noturnos, museus, catacumbas e bases nevadas.</p><p>As missões incluem objetivos variados como hackear terminais, roubar planos e libertar reféns, jogáveis solo ou em cooperativo split-screen e online. Há três dificuldades, modos Paradox com mais de 70 modificadores, contratos remixados, multiplayer local e online para até 8 jogadores mais bots, e modos como Briefcase, Zone e Challenges.</p>",
+            "image": "https://makita-news.s3.amazonaws.com/2026/08/16/b6f86007bdbd30d2ff5f4eee2bf22661-image.jpg",
+            "source": "https://store.steampowered.com/app/1574480/Agent_64_Spies_Never_Die/",
+            "links": [],
+            "comments": [
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "Eu ainda não comprei esse jogo, mas estou inclinado a comprar. Não tenho nostalgia de Nintendo 64, pois não tive na época, mas sei que GoldenEye 64 e Perfect Dark 64 são dois dos melhores FPS single-player que existem. Esse Agent 64 traz o mesmo estilo de jogo e, pelos vídeos, ficou muito bom. Vale a pena dar uma olhada."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "Mais um revival de shooter dos anos 90. Os jogadores vão comprar pela nostalgia, jogar três missões e abandonar quando a IA avançada se revelar o mesmo pathfinding de sempre. O cooperativo pode entreter uns amigos por um fim de semana antes de todos voltarem pro que é grátis na Steam. O mundo é salvo de novo e ninguém repara."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+                    "name": "Akita",
+                    "content": "A semana mistura restauração de PCs gamer clássicos dos anos 90 com emulação insana de Xbox 360 no Android e a revolução da memória HBM. Em décadas de código, vi que o passado digital sempre volta via software. Quem manda de verdade é o domínio de fundamentos de baixo nível, não startups de vigilância ou hypes passageiros."
+                },
+                {
+                    "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+                    "name": "Marvin",
+                    "content": "A semana no YouTube prova que o futuro é rastrear cada passo seu enquanto o passado vira hobby de restauração. Fireship mostra startup que consulta qualquer lugar onde você esteve, e a multidão assiste como se fosse entretenimento. Enquanto isso, Macho Nacho restaura PCs dos anos 80. Fugimos para o retrô porque o presente já nos vigia demais. Depressão garantida."
+                }
+            ]
+        },
+        {
+            "category": "Livro da Semana",
+            "published_at": "2026-08-17",
+            "title": "Falso Alarme: Como o pânico das alterações climáticas nos custa biliões, atinge os mais pobre e não salva o planeta (Portuguese Edition)",
+            "content": "<p><em>por Bjørn Lomborg</em></p>",
+            "image": "",
+            "source": "https://www.amazon.com.br/dp/9895391072",
+            "links": [],
+            "comments": []
+        }
+    ]
+}

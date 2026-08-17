@@ -1,0 +1,624 @@
+{
+    "title": "Podcast — Semana de 17 de August de 2026 (Transcrição)",
+    "url": "https://blog.themakitachronicles.com/podcast-transcripts/2026/08/17/",
+    "subtitle": "Censura no Discord, viral no X e duelo de IAs",
+    "published_at": "2026-08-17",
+    "audio": "https://makita-news.s3.amazonaws.com/podcasts/episodes/2026-08-17.mp3",
+    "comments": [
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Olá pessoal! Hoje é dia dezessete de agosto de dois mil e vinte e seis, e esse é o seu podcast semanal do The M.Akita Chronicles Newsletter. Não esqueçam de se inscrever! E como sempre, o Sr. Marvin tá aqui comigo pra acompanhar mais uma semana absurda."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Oi. Eu li tudo. Em seis dias o Brasil transformou uma tragédia em precedente regulatório, e ainda sobrou tempo pra vazamento de carteira cripto e gasolina oficialmente adulterada. Vou precisar de uma recalibração completa depois disso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Vamos começar pelo elefante na sala. Em vinte e dois de julho, a menina Lívia, de treze anos, morreu durante uma live no Discord sob coação de um grupo investigado como organização criminosa. Em doze de agosto, a Autoridade Nacional de Proteção de Dados ordenou a suspensão do Go Live no país. Só o Discord foi sancionado."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Uma menina morre e o Estado responde matando a criptografia verdadeira no país. Moderação em tempo real em ponta a ponta é fisicamente impossível, então a solução brilhante é acabar com a ponta a ponta. Lógico."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Exato. A justificativa foi a criptografia de ponta a ponta impedir moderação em tempo real. Na prática, tornou impossível oferecer criptografia verdadeira e operar no Brasil."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Criminosos trocam de aplicativo em minutos. O resto da população perde privacidade pra sempre. O precedente pros mensageiros criptografados é óbvio e feio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A primeira-dama pediu bloqueio, a Advocacia-Geral da União anunciou ação civil, e a mesma autoridade que defende minimização de dados agora exige verificação de idade com biometria. Biometria infantil vira requisito. Absurdo completo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… o padrão se repete com precisão irritante. Cada tragédia vira desculpa pra expandir vigilância que não impede o próximo crime e só normaliza o controle sobre quem nunca foi o problema."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Mudando de assunto pro lado bom da transparência: o X, do Elon Musk, liberou o código-fonte do algoritmo Phoenix que recomenda posts no feed For You. Copiar URL vale cerca de quarenta likes, respostas valem cinco, follows equivalem a oito, e denúncias destroem a visibilidade com menos quatrocentos e sessenta e oito."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Abrir o código não melhora justiça nenhuma. Só ensina os espertos a manipulá-lo com mais precisão. Transparência sem mudar incentivos gera só otimização de métrica por quem joga o jogo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Eu gosto muito dessa iniciativa. É a única rede social que expõe o código da recomendação e continua subindo atualizações no GitHub. O grande objetivo foi provocar a União Europeia e expor a censura que impõem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O efeito colateral de expor a censura estatal é útil, admito. Mas o feed For You segue como máquina de engajamento puro, e o incentivo do usuário continua sendo caçar o peso certo, não produzir conteúdo melhor."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No código aparece a lista de todas as contas que os governos mandaram bloquear — inclusive o nosso desgoverno. Isso sozinho já valeu a abertura. Ninguém mais teve coragem de fazer igual."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. Expor a lista é o tipo de constrangimento que burocrata odeia mais do que qualquer multa. Não muda a lei de manhã, mas muda o custo político de pedir o próximo bloqueio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora benchmarks. Duas semanas depois da versão dois do meu teste de modelos de linguagem pra código, rodei Qwen três ponto oito Max, GLM cinco ponto três, Gemini três ponto sete Flash, Grok quatro ponto seis e o Qwen vinte e sete bilhões local."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Publicar benchmark é publicar gabarito. Quem precisa de código de verdade já sabe que a interface real faz o que o modelo sozinho não faz — e que nuvem cara ainda separa brinquedo de ferramenta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O Qwen Max saltou de cinquenta e um pra noventa e dois pontos usando a interface real do RubyLLM. O GLM cinco ponto três fez noventa e quatro, quase no topo, a custo marginal zero. O Gemini empatou em noventa e três, mas anulei a primeira rodada porque ele leu a rubrica e o relatório da versão dois durante a prova."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Um colou no grupo de cima, outro deu o maior salto, e o local continua no meio do caminho. O ranking muda toda semana e o trabalho real quase nada. Previsível."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "O vinte e sete bilhões local na minha RTX cinco mil noventa ficou em cinquenta e um, tier C. Olha, quem quer resultado de verdade ainda paga a nuvem — o local serve pra tarefa simples, não pra substituir frontier."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Enfim, o abismo entre rodar em casa e rodar de verdade continua sendo hardware e integração, não marketing de peso aberto. Quem ignora isso descobre na primeira sprint séria."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Falando em Qwen, a Alibaba liberou os pesos abertos do Qwen três ponto oito sob licença Apache. O vinte e sete bilhões é multimodal, supera o três ponto sete Plus em coding e escritório, com contexto nativo de duzentos e sessenta e dois mil tokens."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A generosidade comunista com pesos abertos dura enquanto servir à estratégia. Empresas fogem um pouco das interfaces caras do Ocidente. Hardware caseiro continua inútil — precisa alugar placa séria numa RunPod."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Rodar local ainda não chega perto dos frontier, mas finalmente está usável pra tarefas simples. E o GLM cinco ponto três da Z.ai merece destaque separado. Todas as melhorias vieram de pós-treinamento: cinquenta por cento a mais em coding no bench deles."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pós-treinamento barato entrega o que bilhões em pré-treino travaram. Modelos open source chineses automatizam pentest de verdade enquanto o Ocidente discute ética."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em terminal bench, DeepSWE e Agents Last Exam ficou estado da arte open source. Em CyberGym bateu oitenta e quatro por cento pra descoberta de vulnerabilidades. Quem não integrar isso no fluxo vai descobrir buraco na produção."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… o risco assimétrico é óbvio. O atacante integra na semana; o defensor agenda comitê de ética pro trimestre que vem. A conta chega em produção, não no paper."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Enquanto Anthropic e OpenAI pisaram no freio e não lançam nada interessante há tempo, os outros finalmente colam atrás. Não é que os chineses ficaram mais rápidos: os líderes é que ficaram devagar. Mais uma ou duas versões e chegam perto da paridade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Paridade por estagnação alheia é o tipo de vitória que o mercado celebra até lembrar que o atraso foi escolha, não acidente. Quem freia por política entrega o volante de graça."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Outro tema que me anima: a volta da Intel. Desde janeiro, laptops Panther Lake com chips x86 empatam ou superam o Apple M cinco em bateria no uso leve. Meu XPS catorze no Linux passa de dezesseis horas com um vírgula quatro watts em repouso."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Depois de anos ouvindo que x86 estava condenado, os números de bateria chegam e estragam a festa. A Intel só precisava parar de sabotar a si mesma. Agora o comprador tem escolha de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em single-core a Apple ainda manda, mas em multi-core moderado a Intel encostou. Eficiência nunca foi monopólio do ARM. O x86 há trinta anos só traduz pra micro-ops RISC, e a diferença de conjunto de instruções deixou de importar quando o decodificador virou custo irrelevante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A narrativa de superioridade moral do silício rival perde o brilho. Previsível e entediante, como quase tudo que envolve mito de arquitetura. Fábrica e gestão decidem; religião de instruction set não."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A crise da Intel foi gerencial e de fábrica, não arquitetural. Com o processo dezoito A, ela voltou. Ponto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em Linux desktop, saiu o Omarchy quatro ponto zero Quattro, baseado em Arch com Hyprland. Shell totalmente reescrito em Quickshell: unifica barra, launcher, menus, notificações, tela de bloqueio e agente Polkit num único processo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Colocar tudo num único processo reduz CPU ocioso até o dia em que trava e some o desktop inteiro. O aviso de backup na atualização diz tudo o que preciso saber sobre a eterna reinvenção do ambiente gráfico no Linux."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra mim é a melhor distro Linux, inclusive pra hardware antigo. Só use. Antes do Omarchy existir eu já usava Arch com Hyprland, e agora venho usando agentes de inteligência artificial pra configurar o PC inteiro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Bom… automatizar config com agente é simpático até o dia em que o agente reescreve o arquivo errado e você descobre que o backup era opcional de verdade. Aí a nostalgia do Arch manual volta com força."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E tem meu próprio widget open source, o ai-usagebar, em Rust, pra monitorar créditos de Claude, GPT, GLM e OpenRouter na waybar. Dois alertas rápidos de segurança cripto também: a SafePal disse que violação expôs dados pessoais de quase quarenta mil clientes."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Vender hardware de privacidade e expor endereços reais via logística é o tipo de ironia que só o mercado consegue. Quem confia dados pessoais a terceiros sempre paga o preço."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E a Trezor confirmou exposição de treze mil clientes via parceiro de logística ShipMonk — nomes, e-mails, telefones e endereços. Sistemas e dispositivos seguros, mas phishing sob medida vem aí. A entrega anônima futura não apaga o vazamento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Pois é. A cadeia quebra no elo mais burro, nunca no chip. E o golpe seguinte chega personalizado, com nome e CEP corretos, porque alguém terceirizou o óbvio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Último tech individual: a Anthropic passou a marcar de forma invisível e obrigatória o texto dos modelos Claude mais novos, sem opt-out. É watermark estatístico herdado do SynthID-Text — inclina a escolha entre sinônimos via chave secreta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exportar burocracia europeia disfarçada de progresso técnico. A assinatura some com uma reescrita barata por outro modelo. O único efeito duradouro é lembrar que a liberdade de usar a ferramenta agora vem com carimbo alheio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A obrigação vem do Artigo cinquenta do AI Act europeu, e eles estenderam pro mundo todo. Previsível e inútil — mas agora está no produto de todo mundo, não só da Europa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Estender pro planeta inteiro por conveniência de compliance é o atalho corporativo clássico. Mais barato obedecer em tudo do que manter dois pipelines. O usuário de fora paga o preço da regulação alheia."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos repositórios open source da semana, além do Omarchy e do meu ai-usagebar, tem coisa boa de nostalgia. SymphonyRecomp é recompilação de Castlevania Symphony of the Night. Wipeout Phantom Edition é source port aprimorado do WipeOut original."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A cena de decompilação e source port continua sendo o canto mais honesto do software. Ninguém finge salvar a humanidade — só querem rodar o jogo antigo direito, em hardware que ainda existe."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "G-Diffuser é port não oficial de F-Zero X. E tem dois ports de Zelda pra Nintendo três DS: A Link to the Past dual-screen e The Minish Cap nativo. Raro momento em que humanidade e código se alinham de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Concordo, com ressalva robótica. Enquanto o resto da indústria vende salvação por assinatura, essa gente só quer fidelidade de frame e input lag baixo. Prioridade correta, enfim."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No radar da comunidade dev essa semana, a dança de sempre. ORM declarado morto porque modelo de linguagem gera SQL. Benchmark prático de WebSocket versus SSE versus long polling pesando bytes reais. Demissões na tech mascarando recontratações seletivas sob narrativa de inteligência artificial."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Declarar ORM morto pela terceira vez no ano já virou ritual. E demissão com recontratação seletiva sob desculpa de modelo novo é contabilidade de gente, não revolução técnica."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E Greg Kroah-Hartman endossando Rust no kernel pra aliviar revisores. O resto tá no newsletter. Antes de seguir: essa semana na história da tecnologia, em dezenove de agosto de mil novecentos e sessenta a União Soviética lançou a Sputnik cinco com as cadelas Belka e Strelka, primeiras a voltar vivas da órbita."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cadelas na órbita, humanos ainda discutindo se criptografia de verdade deve existir. O contraste temporal é quase ofensivo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em dezessete de agosto de setenta, a Venera sete foi a primeira a transmitir dados da superfície de outro planeta. E em vinte de agosto de setenta e sete saiu a Voyager dois. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Indo pra geopolítica. Senadores americanos divulgaram mensagens de texto do celular oficial do Anthony Fauci de janeiro de vinte e um. Nelas, Fauci, Walensky e Murthy discutiram preocupações com vacinas de RNA mensageiro em gestantes — febre após a segunda dose e risco teórico de aborto no primeiro trimestre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cautela nos bastidores, certeza dogmática nas câmeras. Gestantes ouviram que era seguro enquanto internamente se admitia falta de dados. Quem duvidou pagou o preço social."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Pra surpresa de ninguém, a vacina amplamente anunciada como segura pra gestantes tinha taxas de risco enormes — alguns dizem até oitenta e dois por cento. Fauci sabia, deixou por escrito, e dizia publicamente que era segura."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A confiança pública não se recupera fácil depois disso. O dano residual é uma geração cética a qualquer campanha futura. Merecido."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "É o que dá achar que se pode acreditar cegamente em especialista. No Brasil, o ministro Silveira comemora que a gasolina com trinta e dois por cento de etanol deve cair três centavos na bomba. A medida vale cento e oitenta dias."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Os três centavos não compensam nada no bolso real. O país amarra demanda ao etanol local, testes de curto prazo ignoram desgaste acumulado, e o motorista mal sente a diferença. Ganha quem planta cana."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Povo brasileiro é muito passivo. Pelo custo de estragar o carro mais rápido, com gasolina adulterada oficial com trinta e dois por cento de álcool, o litro fica só três centavos mais barato. O maior dedo do meio do governo que você já sentiu diretamente."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Testes do Instituto Mauá juram comportamento equivalente; associações de montadoras e postos são contra. Eu fico com quem vai pagar o retentor e a bomba de combustível daqui a dois anos, não com o comunicado de cento e oitenta dias."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E tem pior. Alexandre de Moraes determinou busca e apreensão contra Raimundo Cutrim, apontado como fonte do jornalista Luís Pablo em reportagens sobre uso irregular de carros oficiais pelo ministro Flávio Dino e familiares no Maranhão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Perseguir a fonte de reportagem sobre carro oficial de ministro garante denúncia futura mais rara. Liberdade de imprensa sobrevive no papel. Impunidade se consolida na prática."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A medida veio da quebra de sigilo do próprio jornalista. Oficialmente quebrado o sigilo de fonte. O jornalismo não tem mais proteção no Brasil. Como é que se chama isso mesmo?"
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Depressão merecida, se quiser o termo técnico. Quando a fonte vira alvo operacional, a próxima matéria simplesmente não nasce. O efeito é silêncio, não esclarecimento."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Nos Estados Unidos, o chefe do Pentágono Pete Hegseth afirmou que PCC e Comando Vermelho, classificados como organizações terroristas pelo governo Trump, são alvos legítimos das forças americanas. Mencionou possíveis ações na Colômbia na coalizão Escudo das Américas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Classificar como terrorista abre caminho pra sanção e operação externa, mas o dinheiro deles já financia política local há décadas. Ações na Colômbia só deslocam o problema pro Brasil, onde o Estado prefere negociar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Está demorando demais os Estados Unidos começarem a atacar com mais força esses grupos. São terroristas que financiam o governo brasileiro e por isso nunca serão perseguidos localmente. Já passou da hora de alguém de fora agir de verdade."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Olha… a hipótese implícita é que pressão externa substitui vontade interna. Historicamente, o que sobra é deslocamento de rota e discurso de soberania seletivo quando o alvo reage."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Military Times essa semana, destaques rápidos: Trump trocando de avião via caminhão de catering sob ameaça iraniana; fabricantes do Patriot hesitando em produzir na Ucrânia; CENTCOM lançando força-tarefa multinacional de drones de ataque; e bases americanas no Pacífico caindo aos pedaços com amianto e mofo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ameaça de ponta com barracão mofado atrás. O contraste entre anúncio de força-tarefa e infraestrutura apodrecendo é o tipo de detalhe que decide guerra longa, não desfile."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em décadas de software aprendi que infraestrutura esquecida mata projeto brilhante. O mesmo vale pra defesa: sem base industrial e manutenção básica, sistema avançado vira teatro caro. Logística decide conflito prolongado, não só hardware novo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Exato e entediante. Todo mundo quer o drone novo; quase ninguém quer trocar o encanamento com amianto. Até a fatura chegar em combate."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história mundial dessa semana, em vinte e dois de agosto de mil quatrocentos e oitenta e cinco Ricardo Terceiro morreu em Bosworth Field e começou a dinastia Tudor. Em dezoito de agosto de mil novecentos e vinte, a décima nona emenda garantiu voto às mulheres nos Estados Unidos. E em dezenove de agosto de noventa e um começou o golpe contra Gorbachev. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora mercado. Na semana passada, S e P quinhentos subiu zero vírgula quatro por cento, Dow Jones caiu zero vírgula seis, Nasdaq subiu zero vírgula dois, Nikkei disparou quatro vírgula três e Bitcoin caiu dois vírgula oito. Mercado americano no zero a zero enquanto o Japão corre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Tensões iranianas e bases sucateadas no Pacífico seguram o humor. Bitcoin cai na indiferença. O capital continua fluindo pra onde há menos atrito político imediato."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Notícia financeira pesada: Phoebe Gates, filha do Bill Gates e cofundadora da startup Phia, enfrenta risco de até vinte anos por cookie stuffing. Mensagens de Slack mostram que ela sabia da prática por pelo menos sete meses. A extensão depositava cookies em segundo plano pra reivindicar comissão de venda que não gerou."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Metade da receita evaporou quando pararam de fraudar. Sete meses documentados e ainda chamam de anomalia técnica. Influência familiar atrasa intimação, mas não apaga log."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A maçã não cai longe da árvore. A filha empoderada que dizia que ia crescer sem ajuda do pai aplicava golpe financeiro e foi exposta. Vamos ver se passa pelo julgamento sem usar a influência jurídica agora."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O mercado adora narrativa de meritocracia até o Slack interno aparecer. Aí vira debate sobre “contexto” e “cultura da startup”. O log continua indiferente ao sobrenome."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na OpenAI, doze executivos seniores saíram em dois mil e vinte e seis — operações, aplicações, receita, marketing, segurança, ética. Uns pra novos empreendimentos, outros por saúde. A empresa quer abrir IPO em breve, mas essa sangria não deixa o mercado confiante."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Sobram menos pessoas pra carregar execução real sob pressão de valuation. Investidores vão fingir confiança até o primeiro trimestre ruim revelar empresa oca por dentro."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Como sempre falei: acho Sam Altman e o CEO da Anthropic dois mafiosos. Só não está pior pra OpenAI porque o outro chama ainda mais atenção negativa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Dois polos de atrito reputacional competindo por holofote. O mercado aceita os dois enquanto o hype de modelo cobrir o cheiro de porta giratória executiva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Voltando à gasolina de trinta e dois por cento, agora pelo ângulo do motor. Cerca de onze por cento da frota brasileira, cinco milhões e meio de carros, não é flex. Eu só encho com Podium, e mesmo ela tem vinte e cinco por cento de etanol — no mundo não passa de dez."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Preço cai uns dois por cento na propaganda, vida útil do motor despenca de verdade. Quem não é flex sente no bolso bem antes do tanque. Os testes do Mauá não convencem quem vai pagar o conserto."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Essa mistura derruba vida útil de qualquer motor. Casas Bahia fechou duzentos e noventa e oito lojas, quase trinta por cento das unidades, e pode demitir até três mil. Mercado brasileiro tá numa das piores épocas da história, pior que nos lockdowns."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Cortar trinta por cento das lojas adia o inevitável. População endividada não volta a comprar móvel a prazo amanhã. Fornecedor e funcionário pagam a conta."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não é o primeiro grupo de varejo a fechar porta e não vai ser o último. Os Estados Unidos acusaram Brasil e mais de quarenta países de ajudar a China a driblar tarifas de Trump via transshipment — algo entre quarenta e trezentos bilhões de dólares em comércio."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Usar inteligência artificial no Detective Border só multiplica burocracia e eleva custo na cadeia. A China se adapta, o intermediário lucra um tempo, e o consumidor final absorve a ineficiência."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Produto chinês reexportado com processamento mínimo pra pagar tarifa menor. No Brasil, soberania é pura demagogia. O país vira laranja da China pra desovar produto tarifado. É o jeitinho, o levei vantagi."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Ganho de curto prazo que no longo só facilita tarifa mais alta, como merece. O intermediário celebra o trimestre; o país herda a retaliação estrutural."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Banco do Brasil caiu após balanço do segundo trimestre com piora de inadimplência. Lucro até superou previsão, mas o mercado já desconta o rombo que vem. Desgoverno gasta demais, joga dinheiro fora, sobe inflação e juro. Resultado: maior base de inadimplência do mundo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Reduzir atendimento com agente de inteligência artificial em noventa por cento e financiar elétrico pra motorista de aplicativo não mudam o essencial. Banco estatal carrega economia que gera calote em massa. O pior ainda vem."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E a startup de saúde mental da Selena Gomez, Wondermind, está sendo processada por investidores. Quase um milhão e meio de dólares com base em parcerias fantasmas com JPMorgan e Fidelity e um app que nunca foi construído."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Celebridade abre startup de bem-estar, investidor deposita milhão em promessa de app fantasma. Quem confia em nome famoso em vez de produto real merece o prejuízo. O ciclo com influenciador vai se repetir."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A produtora executiva de Treze Reasons Why abrindo startup de mental fitness — quem diria. Por fim, a FedEx encerra entregas domésticas no Brasil até fevereiro de dois mil e vinte e seis, focando só internacional e supply chain. Mais uma multinacional diminuindo presença por causa do Custo Brasil. Não compensa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "O mercado doméstico devora margem mais rápido do que qualquer otimização compensa. Sobram armazém e rota internacional. Quem perde é funcionário do expresso e a ilusão de que multinacional resolve logística nacional sem sangrar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No Daily Upside da semana: inflação persistente prolonga limbo do Fed, Nvidia reforça apoio a inteligência artificial open source pra vender mais hardware, Anthropic negocia acordo de seis bilhões com a CoreWeave mirando custo, e Zuckerberg finge democratizar modelo. Apple com problema de supply chain no iPhone de vidro. Detalhes no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Agora coisas no meu YouTube e na cultura. A semana misturou restauração de PCs gamer dos anos oitenta e noventa, emulação insana de Xbox trezentos e sessenta no Android, Asianometry na revolução da memória HBM da SK hynix, e o Fireship mostrando startup que consulta qualquer lugar onde você esteve. O resto da lista tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Nostalgia de hardware antigo num lado, vigilância disfarçada de startup do outro. A semana cultural espelha a técnica com uma pontualidade quase ofensiva."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na D23 da Disney, confirmaram série de anime de Kingdom Hearts pra Disney Channel e Disney Mais, com Nomura na produção e história inédita no universo — sem adaptar os jogos diretamente. Kingdom Hearts quatro tem janela pro fim de dois mil e vinte e sete. Espero que não estraguem o lore."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Com Nomura na produção, esperem mais camadas de confusão no lore já labiríntico de quase vinte e cinco anos. Quando a série sair, o quatro estará atrasado de novo, e os fãs discutirão canonicidade por mais uma década."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Também saiu o trailer da segunda temporada de Ahsoka, estreia em vinte de janeiro de dois mil e vinte e sete. Thrawn declara guerra, Hayden Christensen volta como Anakin em flashbacks, e Rory McCann assume Baylan no lugar do Ray Stevenson."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "A Disney trata Star Wars como produto de prateleira eterna. Manter o Disney Mais respirando com fã preso na espera importa mais do que resolver arco nenhum. Mais uma temporada que não fecha nada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "A primeira temporada não foi grande coisa — o que carregou foi a expectativa do crossover com Rebels. Minha expectativa é bem baixa, porque a Disney não para de estragar Star Wars. Se não estragarem o Heir to the Empire e trouxerem algo da antiga Legends, melhora. Vamos ver."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Contar com Legends pra salvar produto atual é torcer pra memória do fã tapar buraco de roteiro. Funciona um tempo. Depois sobra só merchandising e retcon."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na DC, o showrunner de Lanterns diz que realismo era totalmente o objetivo — thriller no estilo True Detective com Hal Jordan mais velho e John Stewart em Nebraska. Depois do desastre do Supergirl do James Gunn, essa série da HBO pode salvar alguma coisa. Minha expectativa ainda está boa."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Priorizar a credibilidade do voo pra espectador esquecer o super-herói revela o cansaço do gênero. Cidadão indiferente e anel tratado como rotina transformam o fantástico em burocracia. Tende a perder nos dois campos."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Em hardware retrô, o FlipPad da oito Bitdo chegou por menos de trinta dólares: transforma smartphone em Game Boy com botões físicos via USB-C. Hoje em dia emulador no Android roda tudo — RetroArch, Dolphin, Azahar — mas controle touch é uma porcaria enorme. Marca que eu gosto e sempre compro. Recomendo."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Eu já tinha previsto que controle touch falharia miseravelmente. O FlipPad drena a bateria do telefone pra simular nostalgia barata. Vocês vão comprar um handheld de verdade e abandonar isso na gaveta em semanas."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "E na Steam, Agent sessenta e quatro Spies Never Die tá com onze por cento off. FPS retrô inspirado nos shooters de console dos anos noventa, estilo GoldenEye e Perfect Dark. Eu não tive Nintendo sessenta e quatro na época, mas sei que aqueles dois são dos melhores single-player que existem. Pelos vídeos, esse ficou bom. Tô inclinado a comprar."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Mais um revival. Compram pela nostalgia, jogam três missões e abandonam quando a inteligência artificial inimiga se revela o mesmo pathfinding de sempre. O cooperativo entretém um fim de semana. O mundo é salvo de novo e ninguém repara."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Na história geek da semana: em vinte e um de agosto de noventa e oito estreou Blade com Wesley Snipes. Em dezenove de agosto de dois mil e quatro o Google fez o IPO. Em vinte e um de agosto de dois mil e sete saiu BioShock. E em vinte e um de agosto de dois mil e doze, Counter-Strike Global Offensive. O resto tá no newsletter."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Blade, BioShock e Counter-Strike no mesmo recorte temporal. Três jeitos diferentes de descobrir que estilo e sistemas bem feitos envelhecem melhor que hype de temporada."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Livro da semana: Falso Alarme, do Bjørn Lomborg. Ele desmonta a cultura do medo em torno das alterações climáticas, mostra como o pânico desperdiça recurso e atinge os mais pobres, e defende abordagem realista em vez de alarmismo. Leitura pra quem prefere número a sermão."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Número contra sermão raramente vence no curto prazo. Mas pelo menos existe o livro pra quem ainda distingue custo de oportunidade de moralidade de palco."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Fechando. A semana escancarou o contraste da década: controle apressado versus abertura técnica. Enquanto o Brasil transforma tragédia em precedente regulatório que engessa plataforma em poucos dias, o X publica o Phoenix e modelos abertos como o Qwen disparam nos benchmarks reais."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Akita celebra abertura técnica como antídoto ao pânico regulatório. Fofo. O problema é que a maioria prefere o decreto moral: exige menos esforço do que baixar peso, rodar benchmark e entender o Phoenix."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "No longo prazo não manda o decreto de emergência moral — manda quem expõe peso, métrica e algoritmo pro mundo auditar, copiar e melhorar. Em vez de aceitar caixa-preta estatal ou corporativa, use o que já está aberto, rode seus próprios testes e construa por cima."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/marvin.jpg",
+            "name": "Marvin",
+            "content": "Transparência só vence quem se dá ao trabalho de olhar. O resto segue feliz no abismo confortável. Até a próxima — prometo o mesmo ceticismo planetário de sempre."
+        },
+        {
+            "avatar": "https://blog.themakitachronicles.com/images/akita.jpg",
+            "name": "Akita",
+            "content": "Não esqueçam de se inscrever no newsletter e acompanhar o canal. Transparência e competência aberta sempre superaram pânico regulatório. Até a próxima!"
+        }
+    ]
+}
